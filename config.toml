@@ -1,0 +1,43 @@
+theme = "basic"
+
+baseURL = "http://example.org/"
+languageCode = "en-us"
+
+[params]
+  logo = "img/logo_cele.svg"
+  mission = "Research, writing, and analysis on law, technology, and governance."
+
+  [params.mission_link]
+    label = "Read more"
+    url = "/about/"
+
+[menu]
+  [[menu.main]]
+    name = "Acerca de"
+    url = "/acerca-de/"
+    weight = 1
+
+  [[menu.main]]
+    name = "temas"
+    url = "/temas/"
+    weight = 2
+
+  [[menu.main]]
+    name = "investigaciones"
+    url = "/investigaciones/"
+    weight = 3
+
+  [[menu.main]]
+    name = "policy"
+    url = "/policy/"
+    weight = 4
+
+  [[menu.main]]
+    name = "observatorio legislativo"
+    url = "/observatorio-legislativo/"
+    weight = 5
+
+  [[menu.main]]
+    name = "sala de prensa"
+    url = "/sala-de-prensa/"
+    weight = 6

@@ -1,0 +1,17 @@
+<section class="hero-mission">
+  <h2>{{ site.Title }}</h2>
+
+  <p>
+    {{ with site.Params.mission }}
+      {{ . }}
+    {{ else }}
+      A short mission statement describing the purpose of this site.
+    {{ end }}
+  </p>
+
+  {{ with site.Params.mission_link }}
+    <a class="mission-link" href="{{ .url }}">
+      {{ .label }}
+    </a>
+  {{ end }}
+</section>

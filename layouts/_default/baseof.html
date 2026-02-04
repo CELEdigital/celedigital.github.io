@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  {{ partial "head.html" . }}
+</head>
+<body>
+
+  {{ partial "header.html" . }}
+
+  <main class="container">
+    {{ if .IsHome }}
+  <section class="hero">
+    {{ partial "hero-featured.html" . }}
+    {{ partial "hero-mission.html" . }}
+  </section>
+{{ end }}
+
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<section class="hero-featured">
+  <div class="hero-slider">
+    {{ $featured := where site.RegularPages "Params.featured" true }}
+    {{ range $featured }}
+      <article class="hero-slide">
+        {{ with .Params.image }}
+          <img src="{{ . }}" alt="{{ $.Title }}">
+        {{ end }}
+
+        <div class="hero-slide-content">
+          <h2>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h2>
+
+          {{ with .Params.description }}
+            <p>{{ . }}</p>
+          {{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+</section>

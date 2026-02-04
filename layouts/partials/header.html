@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-logo" href="/">
+      {{ with .Site.Params.logo }}
+        <img src="{{ . }}" alt="{{ $.Site.Title }}">
+      {{ else }}
+        {{ .Site.Title }}
+      {{ end }}
+    </a>
+
+    <nav class="main-nav">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

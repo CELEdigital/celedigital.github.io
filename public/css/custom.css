@@ -1,0 +1,79 @@
+/* ==================================================
+   Base tweaks (safe defaults)
+   ================================================== */
+
+/* Limit content width a bit */
+.measure {
+  max-width: 42rem;
+}
+
+/* Improve body text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ==================================================
+   Header & logo
+   ================================================== */
+
+.site-header {
+  background-color: #000; /* header background */
+}
+
+.site-logo img {
+  max-height: 48px;
+  width: auto;
+}
+
+/* Optional: show site title next to logo */
+.site-title {
+  margin-left: 0.5rem;
+}
+
+/* ==================================================
+   Navigation menu
+   ================================================== */
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Push menu to the right */
+.site-nav .menu {
+  margin-left: auto;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+/* ==================================================
+   Content
+   ================================================== */
+
+article h1,
+article h2,
+article h3 {
+  line-height: 1.25;
+}
+
+/* Paragraph spacing */
+article p {
+  margin-bottom: 1.1em;
+}
+
+/* ==================================================
+   Footer
+   ================================================== */
+
+.site-footer {
+  font-size: 0.875rem;
+  opacity: 0.8;
+}

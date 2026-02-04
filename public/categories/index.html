@@ -17,23 +17,107 @@
       
     </a>
 
-    <nav class="main-nav">
-      
-        <a href="/acerca-de/">Acerca de</a>
-      
-        <a href="/temas/">temas</a>
-      
-        <a href="/investigaciones/">investigaciones</a>
-      
-        <a href="/policy/">policy</a>
-      
-        <a href="/observatorio-legislativo/">observatorio legislativo</a>
-      
-        <a href="/sala-de-prensa/">sala de prensa</a>
-      
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul class="main-nav-list">
+        
+          
+          
+            <li class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-button" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-acerca">
+                Acerca de
+              </button>
+              <div class="nav-dropdown" id="nav-acerca" data-nav-menu hidden>
+                
+                  
+                    <a class="nav-dropdown-link" href="/acerca-de/mision/">Nuestra misión</a>
+                  
+                    <a class="nav-dropdown-link" href="/acerca-de/equipo/">Equipo</a>
+                  
+                    <a class="nav-dropdown-link" href="/acerca-de/contacto/">Contacto</a>
+                  
+                
+              </div>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/temas/">temas</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/investigaciones/">investigaciones</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/policy/">policy</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/observatorio-legislativo/">observatorio legislativo</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/sala-de-prensa/">sala de prensa</a>
+            </li>
+          
+        
+      </ul>
     </nav>
   </div>
 </header>
+
+<script>
+  (() => {
+    const toggle = document.querySelector('[data-nav-toggle]');
+    const menu = document.querySelector('[data-nav-menu]');
+    if (!toggle || !menu) return;
+
+    const closeMenu = () => {
+      menu.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+
+    const openMenu = () => {
+      menu.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+    };
+
+    toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!menu.contains(event.target) && !toggle.contains(event.target)) {
+        closeMenu();
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeMenu();
+      }
+    });
+  })();
+</script>
 
 
   <main class="container">

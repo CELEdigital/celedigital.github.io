@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title> | </title>
   
+
 <link rel="stylesheet" href="/css/style.min.css">
 
 </head>
@@ -18,30 +19,114 @@
       
     </a>
 
-    <nav class="main-nav">
-      
-        <a href="/acerca-de/">Acerca de</a>
-      
-        <a href="/temas/">temas</a>
-      
-        <a href="/investigaciones/">investigaciones</a>
-      
-        <a href="/policy/">policy</a>
-      
-        <a href="/observatorio-legislativo/">observatorio legislativo</a>
-      
-        <a href="/sala-de-prensa/">sala de prensa</a>
-      
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul class="main-nav-list">
+        
+          
+          
+            <li class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-button" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-acerca">
+                Acerca de
+              </button>
+              <div class="nav-dropdown" id="nav-acerca" data-nav-menu hidden>
+                
+                  
+                    <a class="nav-dropdown-link" href="/acerca-de/mision/">Nuestra misión</a>
+                  
+                    <a class="nav-dropdown-link" href="/acerca-de/equipo/">Equipo</a>
+                  
+                    <a class="nav-dropdown-link" href="/acerca-de/contacto/">Contacto</a>
+                  
+                
+              </div>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/temas/">temas</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/investigaciones/">investigaciones</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/policy/">policy</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/observatorio-legislativo/">observatorio legislativo</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/sala-de-prensa/">sala de prensa</a>
+            </li>
+          
+        
+      </ul>
     </nav>
   </div>
 </header>
+
+<script>
+  (() => {
+    const toggle = document.querySelector('[data-nav-toggle]');
+    const menu = document.querySelector('[data-nav-menu]');
+    if (!toggle || !menu) return;
+
+    const closeMenu = () => {
+      menu.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+
+    const openMenu = () => {
+      menu.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+    };
+
+    toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!menu.contains(event.target) && !toggle.contains(event.target)) {
+        closeMenu();
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeMenu();
+      }
+    });
+  })();
+</script>
 
 
   <main class="container">
     
   <section class="hero">
     <section class="hero-featured">
-  <div class="hero-slider">
+  <div class="hero-slider" data-slider>
     
     
       <article class="hero-slide">
@@ -51,31 +136,113 @@
 
         <div class="hero-slide-content">
           <h2>
-            <a href="/posts/featured/">My Featured Post</a>
+            <a href="/posts/audiencia-cidh-copy-2/">Audiencia CIDH sobre libertad de expresión</a>
           </h2>
 
           
-            <p>A short description for the hero slider</p>
+            <p>Contribución del CELE a la audiencia sobre libertad de expresión en la Argentina ante la Comisión Interamericana</p>
+          
+        </div>
+      </article>
+    
+      <article class="hero-slide">
+        
+          <img src="/img/sanfrancisco2018.jpeg" alt="">
+        
+
+        <div class="hero-slide-content">
+          <h2>
+            <a href="/posts/audiencia-cidh-copy/">Audiencia CIDH sobre libertad de expresión</a>
+          </h2>
+
+          
+            <p>Contribución del CELE a la audiencia sobre libertad de expresión en la Argentina ante la Comisión Interamericana</p>
+          
+        </div>
+      </article>
+    
+      <article class="hero-slide">
+        
+          <img src="/img/sanfrancisco2018.jpeg" alt="">
+        
+
+        <div class="hero-slide-content">
+          <h2>
+            <a href="/posts/audiencia-cidh/">Audiencia CIDH sobre libertad de expresión</a>
+          </h2>
+
+          
+            <p>Contribución del CELE a la audiencia sobre libertad de expresión en la Argentina ante la Comisión Interamericana</p>
           
         </div>
       </article>
     
   </div>
+
+  <div class="hero-slider-controls hero-slider-controls--overlay">
+    <button class="hero-slider-btn" type="button" data-slider-prev aria-label="Anterior">&lt;</button>
+    <button class="hero-slider-btn" type="button" data-slider-next aria-label="Siguiente">&gt;</button>
+  </div>
 </section>
 
+<script>
+  (() => {
+    const slider = document.querySelector('.hero-slider[data-slider]');
+    if (!slider) return;
+
+    const prev = document.querySelector('[data-slider-prev]');
+    const next = document.querySelector('[data-slider-next]');
+    const slides = Array.from(slider.querySelectorAll('.hero-slide'));
+
+    const scrollToIndex = (index) => {
+      if (!slides.length) return;
+      const clamped = Math.max(0, Math.min(index, slides.length - 1));
+      slider.scrollTo({ left: clamped * slider.clientWidth, behavior: 'smooth' });
+    };
+
+    const currentIndex = () => {
+      if (!slider.clientWidth) return 0;
+      return Math.round(slider.scrollLeft / slider.clientWidth);
+    };
+
+    prev?.addEventListener('click', () => {
+      scrollToIndex(currentIndex() - 1);
+    });
+
+    next?.addEventListener('click', () => {
+      scrollToIndex(currentIndex() + 1);
+    });
+  })();
+</script>
+
     <section class="hero-mission">
-  <h2></h2>
-
-  <p>
-    
-      Research, writing, and analysis on law, technology, and governance.
-    
-  </p>
-
   
-    <a class="mission-link" href="/about/">
-      Read more
-    </a>
+  
+    <h4>Misión</h4>
+
+    
+      <p class="mission-description">El CELE busca construir espacios de debate dedicados a reflexionar sobre la importancia, los contenidos y los límites del derecho a la libertad de expresión</p>
+    
+
+    <div class="mission-content">
+      <p>El Centro de Estudios en Libertad de Expresión (CELE) fue creado en el año 2009 en el ámbito de la Facultad de Derecho de la Universidad de Palermo con el objetivo de proveer de investigaciones a periodistas, instituciones gubernamentales, unidades académicas, y demás sectores de la sociedad civil dedicados a la defensa y a la promoción de estos derechos, especialmente en América Latina.</p>
+<p>En este marco, los objetivos específicos del CELE son:</p>
+<ul>
+<li>
+<p>Desarrollar estudios y guías de recomendaciones que tengan impacto en políticas públicas vinculadas al acceso a la información y la libertad de expresión.</p>
+</li>
+<li>
+<p>Fomentar junto con distintas unidades académicas la profundización de estudios vinculados a estos derechos.</p>
+</li>
+<li>
+<p>Contribuir a la generación de conciencia sobre la importancia de estos derechos en sociedades democráticas, fundamentalmente en las nuevas generaciones.</p>
+</li>
+</ul>
+
+    </div>
+
+    <a class="mission-link" href="/url/acerca">Ver más</a>
+
   
 </section>
 

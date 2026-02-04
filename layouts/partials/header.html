@@ -8,10 +8,71 @@
       {{ end }}
     </a>
 
-    <nav class="main-nav">
-      {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      {{ end }}
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul class="main-nav-list">
+        {{ range .Site.Menus.main }}
+          {{ $isAcerca := or (eq .Identifier "acerca-de") (eq .Name "Acerca de") (eq .URL "/acerca-de/") }}
+          {{ if $isAcerca }}
+            <li class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-button" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-acerca">
+                {{ .Name }}
+              </button>
+              <div class="nav-dropdown" id="nav-acerca" data-nav-menu hidden>
+                {{ if .Children }}
+                  {{ range .Children }}
+                    <a class="nav-dropdown-link" href="{{ .URL }}">{{ .Name }}</a>
+                  {{ end }}
+                {{ else }}
+                  <span class="nav-dropdown-empty">Agrega opciones en el menú.</span>
+                {{ end }}
+              </div>
+            </li>
+          {{ else }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
     </nav>
   </div>
 </header>
+
+<script>
+  (() => {
+    const toggle = document.querySelector('[data-nav-toggle]');
+    const menu = document.querySelector('[data-nav-menu]');
+    if (!toggle || !menu) return;
+
+    const closeMenu = () => {
+      menu.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+
+    const openMenu = () => {
+      menu.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+    };
+
+    toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!menu.contains(event.target) && !toggle.contains(event.target)) {
+        closeMenu();
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeMenu();
+      }
+    });
+  })();
+</script>

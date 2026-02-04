@@ -1,0 +1,87 @@
+/* Import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700;900&display=swap');
+
+:root {
+  --gutter: 1.5rem;
+  --max-width: 1200px;
+  --cele: #ad2b25ff;
+  --base-bg: #F5F3EE; /* colors inspired by merve verlag berlin, este es cremita */
+  --text-dark: #2E2E2E;
+  --primary-dark: #0F2353;
+  --forest-green: #1F5342;
+  --accent-burgundy: #aa0000;
+  --accent-burgundy2: #800000ff;
+  --accent-blue: #05334a;
+  --neutral-pale-blue: #627890;
+  --accent-beige: #d6b896;
+  --neutral-beige: #ebd9c7;
+  --blockquote-color: #E5DFD2;
+  --mustard: #a1a63f;
+  --orange: #ffa94c;
+
+  /* Supporting neutrals */
+  --neutral-100: #FAFAFA;
+  --neutral-200: #F0F0F0;
+  --neutral-300: #D6D6D6;
+  --neutral-600: #666666;
+  --neutral-800: #333333;
+  --neutral-900: #1A1A1A;
+
+  /* otros no usados */
+  --complementary-cyan: #16B87E;
+  --highlight: #FAF9F6;
+  --forest-green-light: #2F7A5E;
+  --forest-green-dark: #153C30;
+  --accent-magenta-light: #E54F8A;
+  --accent-magenta-dark: #7C0F44;
+  --primary-dark-light: #243C6E;
+  --primary-dark-dark: #08142C;
+
+  /* Accent complements */
+  --accent-olive: #7A864F; /* contrast to magenta */
+  --accent-sand: #DCC7A1; /* soft warmth for typography highlights */
+  --accent-cyan: #1FA9A2; /* modern counterpoint to magenta */
+  --accent-cream: #FFF8E6; /* delicate backdrop for editorial pages */
+  --success: #3B8C6E;
+  --warning: #F5B700;
+  --error: #D7263D;
+}
+
+body {
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.measure {
+  max-width: 42rem;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Jost';
+}
+
+h5 {
+  font-size: 1.1rem;
+  color: var(--accent-burgundy2);
+}
+
+article h1,
+article h2,
+article h3 {
+  line-height: 1.25;
+  font-family: 'Jost';
+}
+
+article p {
+  margin-bottom: 1.1em;
+}

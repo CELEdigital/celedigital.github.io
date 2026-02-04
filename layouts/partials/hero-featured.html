@@ -1,5 +1,5 @@
 <section class="hero-featured">
-  <div class="hero-slider">
+  <div class="hero-slider" data-slider>
     {{ $featured := where site.RegularPages "Params.featured" true }}
     {{ range $featured }}
       <article class="hero-slide">
@@ -19,4 +19,39 @@
       </article>
     {{ end }}
   </div>
+
+  <div class="hero-slider-controls hero-slider-controls--overlay">
+    <button class="hero-slider-btn" type="button" data-slider-prev aria-label="Anterior">&lt;</button>
+    <button class="hero-slider-btn" type="button" data-slider-next aria-label="Siguiente">&gt;</button>
+  </div>
 </section>
+
+<script>
+  (() => {
+    const slider = document.querySelector('.hero-slider[data-slider]');
+    if (!slider) return;
+
+    const prev = document.querySelector('[data-slider-prev]');
+    const next = document.querySelector('[data-slider-next]');
+    const slides = Array.from(slider.querySelectorAll('.hero-slide'));
+
+    const scrollToIndex = (index) => {
+      if (!slides.length) return;
+      const clamped = Math.max(0, Math.min(index, slides.length - 1));
+      slider.scrollTo({ left: clamped * slider.clientWidth, behavior: 'smooth' });
+    };
+
+    const currentIndex = () => {
+      if (!slider.clientWidth) return 0;
+      return Math.round(slider.scrollLeft / slider.clientWidth);
+    };
+
+    prev?.addEventListener('click', () => {
+      scrollToIndex(currentIndex() - 1);
+    });
+
+    next?.addEventListener('click', () => {
+      scrollToIndex(currentIndex() + 1);
+    });
+  })();
+</script>

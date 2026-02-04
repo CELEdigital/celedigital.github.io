@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acerca de on </title>
+    <link>http://localhost:1313/acerca-de/</link>
+    <description>Recent content in Acerca de on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/acerca-de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contacto</title>
+      <link>http://localhost:1313/acerca-de/contacto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/acerca-de/contacto/</guid>
+      <description>&lt;p&gt;Agrega aqui el correo, redes o formulario de contacto.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equipo</title>
+      <link>http://localhost:1313/acerca-de/equipo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/acerca-de/equipo/</guid>
+      <description>&lt;p&gt;Describe aqui al equipo, roles y colaboradores.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Informes anuales</title>
+      <link>http://localhost:1313/acerca-de/informes-anuales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/acerca-de/informes-anuales/</guid>
+      <description>&lt;p&gt;Agrega aqui los informes anuales y sus enlaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Junta Directiva</title>
+      <link>http://localhost:1313/acerca-de/junta-directiva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/acerca-de/junta-directiva/</guid>
+      <description>&lt;p&gt;Incluye aqui la descripcion de la junta directiva.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nuestra mision</title>
+      <link>http://localhost:1313/acerca-de/mision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/acerca-de/mision/</guid>
+      <description>&lt;p&gt;Comparte aqui la declaracion completa de la mision.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -6,28 +6,27 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Content Placeholder</title>
-      <link>http://localhost:1313/posts/primer-post/</link>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/primer-post/</guid>
-      <description></description>
+      <title>Audiencia CIDH sobre libertad de expresión</title>
+      <link>http://localhost:1313/posts/audiencia-cidh-copy-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/audiencia-cidh-copy-2/</guid>
+      <description>&lt;p&gt;Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>My Featured Post</title>
-      <link>http://localhost:1313/posts/featured-copy/</link>
+      <title>Audiencia CIDH sobre libertad de expresión</title>
+      <link>http://localhost:1313/posts/audiencia-cidh-copy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/featured-copy/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/audiencia-cidh-copy/</guid>
+      <description>&lt;p&gt;Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>My Featured Post</title>
-      <link>http://localhost:1313/posts/featured/</link>
+      <title>Audiencia CIDH sobre libertad de expresión</title>
+      <link>http://localhost:1313/posts/audiencia-cidh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/featured/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/audiencia-cidh/</guid>
+      <description>&lt;p&gt;Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

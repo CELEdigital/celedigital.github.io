@@ -1,0 +1,51 @@
+/* Mission */
+.hero-mission h5 {
+  margin-top: 2rem;
+  color: var(--cele);
+  margin-bottom: -0.5rem;
+}
+
+.mission-description {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+}
+
+.mission-content p {
+  margin: 0 0 1rem;
+  line-height: 1.4rem;
+}
+
+.mission-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--cele);
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  transition: color 180ms ease;
+}
+
+.mission-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.2rem;
+  width: 100%;
+  height: 2px;
+  background: var(--cele);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 200ms ease;
+}
+
+.mission-link:hover,
+.mission-link:focus-visible {
+  color: var(--accent-burgundy2);
+}
+
+.mission-link:hover::after,
+.mission-link:focus-visible::after {
+  transform: scaleX(1);
+}

@@ -1,0 +1,88 @@
+.hero {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* 70% */
+.hero-featured {
+  flex: 7;
+  position: relative;
+}
+
+/* 30% */
+.hero-mission {
+  flex: 3;
+  border-left: 1px solid #ddd;
+  padding-left: 2rem;
+}
+
+/* Slider structure */
+.hero-slider {
+  padding: 0;
+  display: flex;
+  overflow-x: auto;
+  gap: 0;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.hero-slide {
+  min-width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  padding: 3rem;
+}
+
+.hero-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.hero-slider-controls {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.hero-slider-controls--overlay {
+  position: absolute;
+  top: 50%;
+  left: -0.75rem;
+  right: -0.75rem;
+  transform: translateY(-50%);
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.hero-slider-btn {
+  border: 1px solid var(--cele);
+  background: transparent;
+  color: var(--cele);
+  font-size: 1.1rem;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+  transition: background 180ms ease, color 180ms ease, border-color 180ms ease;
+  pointer-events: auto;
+}
+
+.hero-slider-btn:hover,
+.hero-slider-btn:focus-visible {
+  background: var(--cele);
+  color: #fff;
+  border-color: var(--cele);
+}
+
+.hero-slide img {
+  width: 100%;
+  max-width: 90%;
+  height: auto;
+  display: block;
+}
+
+.hero-slide-content h1 {
+  margin-top: 1rem;
+}
+
+.hero-slide-content a {
+  text-decoration: none;
+  color: var(--cele);
+}

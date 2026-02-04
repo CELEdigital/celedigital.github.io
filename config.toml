@@ -15,7 +15,26 @@ languageCode = "en-us"
   [[menu.main]]
     name = "Acerca de"
     url = "/acerca-de/"
+    identifier = "acerca-de"
     weight = 1
+
+  [[menu.main]]
+    name = "Nuestra misión"
+    url = "/acerca-de/mision/"
+    parent = "acerca-de"
+    weight = 11
+
+  [[menu.main]]
+    name = "Equipo"
+    url = "/acerca-de/equipo/"
+    parent = "acerca-de"
+    weight = 12
+
+  [[menu.main]]
+    name = "Contacto"
+    url = "/acerca-de/contacto/"
+    parent = "acerca-de"
+    weight = 13
 
   [[menu.main]]
     name = "temas"

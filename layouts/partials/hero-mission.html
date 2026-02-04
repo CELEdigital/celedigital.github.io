@@ -1,17 +1,17 @@
 <section class="hero-mission">
-  <h2>{{ site.Title }}</h2>
+  {{ $mission := site.GetPage "mision" }}
+  {{ if $mission }}
+    <h4>{{ $mission.Title }}</h4>
 
-  <p>
-    {{ with site.Params.mission }}
-      {{ . }}
-    {{ else }}
-      A short mission statement describing the purpose of this site.
+    {{ with $mission.Params.description }}
+      <p class="mission-description">{{ . }}</p>
     {{ end }}
-  </p>
 
-  {{ with site.Params.mission_link }}
-    <a class="mission-link" href="{{ .url }}">
-      {{ .label }}
-    </a>
+    <div class="mission-content">
+      {{ $mission.Content }}
+    </div>
+
+    <a class="mission-link" href="/url/acerca">Ver más</a>
+
   {{ end }}
 </section>

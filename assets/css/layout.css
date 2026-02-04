@@ -1,0 +1,143 @@
+.site-header {
+  border-bottom: 1px solid #ddd;
+  background: var(--cele);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  margin-right: 0;
+}
+
+.site-logo img {
+  max-height: 150px;
+  width: auto;
+}
+
+.site-title {
+  margin-left: 0.5rem;
+}
+
+.main-nav {
+  margin-left: auto;
+  font-family: 'Jost';
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  line-height: 1;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-button {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  text-transform: inherit;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
+}
+
+.nav-button:hover,
+.nav-button:focus-visible {
+  background: #fff;
+  color: var(--cele);
+}
+
+.nav-dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  min-width: 13rem;
+  background: rgba(245, 243, 238, 0.98);
+  border: 1px solid rgba(15, 35, 83, 0.15);
+  box-shadow: 0 16px 30px rgba(15, 35, 83, 0.2);
+  padding: 0.75rem;
+  display: grid;
+  gap: 0.5rem;
+  z-index: 10;
+  transform-origin: top left;
+  animation: dropdown-pop 180ms ease;
+  backdrop-filter: blur(6px);
+}
+
+.nav-dropdown[hidden] {
+  display: none;
+}
+
+.nav-dropdown-link {
+  color: var(--primary-dark);
+  text-decoration: none;
+  text-transform: none;
+  font-weight: 600;
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.5rem;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.nav-dropdown-link:hover,
+.nav-dropdown-link:focus-visible {
+  background: rgba(173, 43, 37, 0.1);
+  color: var(--cele);
+}
+
+.nav-dropdown-empty {
+  color: var(--neutral-600);
+  text-transform: none;
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+@keyframes dropdown-pop {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav .menu {
+  margin-left: auto;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.site-footer {
+  font-size: 0.875rem;
+  opacity: 0.8;
+}

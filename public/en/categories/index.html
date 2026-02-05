@@ -70,13 +70,36 @@
             </li>
           
         
-        
-          <li class="nav-item nav-item--lang">
+        <li class="nav-item nav-item--lang">
+          <div class="lang-toggle" role="group" aria-label="Language">
             
-              <a class="nav-link nav-link--lang" href="/categories/">Español</a>
             
-          </li>
-        
+            
+            
+              
+              
+                
+                
+                  
+                
+              
+              
+              
+                <a class="lang-toggle-item" href="/es/categories/">ES</a>
+              
+            
+              
+              
+                
+                
+              
+              
+              
+                <span class="lang-toggle-item lang-toggle-item--active">EN</span>
+              
+            
+          </div>
+        </li>
       </ul>
     </nav>
   </div>
@@ -132,6 +155,20 @@
 
     
   </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<script>
+  (function () {
+    if (!window.__vega_specs) return;
+    window.__vega_specs.forEach(function (item) {
+      vegaEmbed('#' + item.id, item.spec, { actions: false });
+    });
+  })();
+</script>
+
 
 </body>
 </html>

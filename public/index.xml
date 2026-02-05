@@ -30,27 +30,6 @@
       <description>&lt;p&gt;Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Audiencia CIDH sobre libertad de expresión</title>
-      <link>http://localhost:1313/posts/audiencia-cidh-copy-2/</link>
-      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/audiencia-cidh-copy-2/</guid>
-      <description>&lt;p&gt;Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Audiencia CIDH sobre libertad de expresión</title>
-      <link>http://localhost:1313/posts/audiencia-cidh-copy/</link>
-      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/audiencia-cidh-copy/</guid>
-      <description>&lt;p&gt;Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Audiencia CIDH sobre libertad de expresión</title>
-      <link>http://localhost:1313/posts/audiencia-cidh/</link>
-      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/audiencia-cidh/</guid>
-      <description>&lt;p&gt;Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>About</title>
       <link>http://localhost:1313/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -66,73 +45,24 @@
     </item>
     <item>
       <title>Contacto</title>
-      <link>http://localhost:1313/acerca-de/contacto/</link>
+      <link>http://localhost:1313/es/contacto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/acerca-de/contacto/</guid>
-      <description>&lt;p&gt;Agrega aqui el correo, redes o formulario de contacto.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contacto</title>
-      <link>http://localhost:1313/contacto/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contacto/</guid>
-      <description>&lt;p&gt;Agrega aqui el correo, redes o formulario de contacto.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contacto</title>
-      <link>http://localhost:1313/es/content/contacto/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/content/contacto/</guid>
+      <guid>http://localhost:1313/es/contacto/</guid>
       <description>&lt;p&gt;Agrega aqui el correo, redes o formulario de contacto.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Equipo</title>
-      <link>http://localhost:1313/acerca-de/equipo/</link>
+      <link>http://localhost:1313/es/equipo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/acerca-de/equipo/</guid>
-      <description>&lt;p&gt;Describe aqui al equipo, roles y colaboradores.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Equipo</title>
-      <link>http://localhost:1313/equipo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/equipo/</guid>
-      <description>&lt;p&gt;Describe aqui al equipo, roles y colaboradores.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Equipo</title>
-      <link>http://localhost:1313/es/content/equipo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/content/equipo/</guid>
+      <guid>http://localhost:1313/es/equipo/</guid>
       <description>&lt;p&gt;Describe aqui al equipo, roles y colaboradores.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Historia y objetivos</title>
-      <link>http://localhost:1313/es/content/mision/</link>
+      <link>http://localhost:1313/es/mision/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/content/mision/</guid>
+      <guid>http://localhost:1313/es/mision/</guid>
       <description>&lt;p&gt;El Centro de Estudios en Libertad de Expresión (CELE) fue creado en el año 2009 en el ámbito de la Facultad de Derecho de la Universidad de Palermo con el objetivo de proveer de investigaciones a periodistas, instituciones gubernamentales, unidades académicas, y demás sectores de la sociedad civil dedicados a la defensa y a la promoción de estos derechos, especialmente en América Latina.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Historia y objetivos</title>
-      <link>http://localhost:1313/mision/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mision/</guid>
-      <description>&lt;p&gt;El Centro de Estudios en Libertad de Expresión (CELE) fue creado en el año 2009 en el ámbito de la Facultad de Derecho de la Universidad de Palermo con el objetivo de proveer de investigaciones a periodistas, instituciones gubernamentales, unidades académicas, y demás sectores de la sociedad civil dedicados a la defensa y a la promoción de estos derechos, especialmente en América Latina.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Informes anuales</title>
-      <link>http://localhost:1313/acerca-de/informes-anuales/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/acerca-de/informes-anuales/</guid>
-      <description>&lt;p&gt;Agrega aqui los informes anuales y sus enlaces.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Junta Directiva</title>
-      <link>http://localhost:1313/acerca-de/junta-directiva/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/acerca-de/junta-directiva/</guid>
-      <description>&lt;p&gt;Incluye aqui la descripcion de la junta directiva.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Legislative Observatory</title>
@@ -147,13 +77,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/mission/</guid>
       <description>&lt;p&gt;Add the full mission statement here.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Nuestra mision</title>
-      <link>http://localhost:1313/acerca-de/mision/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/acerca-de/mision/</guid>
-      <description>&lt;p&gt;Comparte aqui la declaracion completa de la mision.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Policy</title>

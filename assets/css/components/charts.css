@@ -1,0 +1,12 @@
+.chart {
+  display: block;
+  margin: 24px 0 40px;
+}
+.vega-chart {
+  margin: 24px 0 48px;
+}
+.vega-title {
+  font-family: Jost, Arial, sans-serif;
+  font-weight: 600;
+  margin: 0 0 12px;
+}

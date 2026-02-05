@@ -1,0 +1,16 @@
+{{/*
+Usage:
+{{< vega spec="/charts/interactive/country_year_explorer.json" id="chart-country-year" >}}
+Optional: title
+*/}}
+{{- $spec := .Get "spec" -}}
+{{- $id := .Get "id" | default (printf "vega-%d" .Ordinal) -}}
+{{- $title := .Get "title" -}}
+<div class="vega-chart">
+  {{- if $title }}<h3 class="vega-title">{{ $title }}</h3>{{ end -}}
+  <div id="{{ $id }}"></div>
+</div>
+<script>
+  window.__vega_specs = window.__vega_specs || [];
+  window.__vega_specs.push({ id: "{{ $id }}", spec: "{{ $spec }}" });
+</script>

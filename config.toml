@@ -1,12 +1,13 @@
 theme = "basic"
 baseURL = "http://example.org/"
 defaultContentLanguage = "es"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.es]
     languageName = "Español"
     languageCode = "es"
+    contentDir = "content/es"
     weight = 1
 
     [languages.es.params]
@@ -75,6 +76,7 @@ defaultContentLanguageInSubdir = false
   [languages.en]
     languageName = "English"
     languageCode = "en"
+    contentDir = "content/en"
     weight = 2
 
     [languages.en.params]
@@ -83,59 +85,59 @@ defaultContentLanguageInSubdir = false
 
       [languages.en.params.mission_link]
         label = "Read more"
-        url = "/en/about/"
+        url = "/about/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "About"
-        url = "/en/about/"
+        url = "/about/"
         identifier = "about"
         weight = 1
 
       [[languages.en.menu.main]]
         name = "Mission"
-        url = "/en/mission/"
+        url = "/mission/"
         parent = "about"
         weight = 11
 
       [[languages.en.menu.main]]
         name = "Team"
-        url = "/en/team/"
+        url = "/team/"
         parent = "about"
         weight = 12
 
       [[languages.en.menu.main]]
         name = "Contact"
-        url = "/en/contact/"
+        url = "/contact/"
         parent = "about"
         weight = 13
 
       [[languages.en.menu.main]]
         name = "Topics"
-        url = "/en/topics/"
+        url = "/topics/"
         weight = 2
 
       [[languages.en.menu.main]]
         name = "Research"
-        url = "/en/research/"
+        url = "/research/"
         weight = 3
 
       [[languages.en.menu.main]]
         name = "Policy"
-        url = "/en/policy/"
+        url = "/policy/"
         weight = 4
 
       [[languages.en.menu.main]]
         name = "Legislative Observatory"
-        url = "/en/legislative-observatory/"
+        url = "/legislative-observatory/"
         weight = 5
 
       [[languages.en.menu.main]]
         name = "Workshop"
-        url = "/en/workshop/"
+        url = "/workshop/"
         weight = 6
 
       [[languages.en.menu.main]]
         name = "Press Room"
-        url = "/en/press-room/"
+        url = "/press-room/"
         weight = 7

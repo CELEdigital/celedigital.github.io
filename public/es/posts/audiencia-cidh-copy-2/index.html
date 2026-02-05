@@ -30,11 +30,11 @@
               <div class="nav-dropdown" id="nav-acerca" data-nav-menu hidden>
                 
                   
-                    <a class="nav-dropdown-link" href="/mision/">Nuestra misión</a>
+                    <a class="nav-dropdown-link" href="/es/mision/">Nuestra misión</a>
                   
-                    <a class="nav-dropdown-link" href="/equipo/">Equipo</a>
+                    <a class="nav-dropdown-link" href="/es/equipo/">Equipo</a>
                   
-                    <a class="nav-dropdown-link" href="/contacto/">Contacto</a>
+                    <a class="nav-dropdown-link" href="/es/contacto/">Contacto</a>
                   
                 
               </div>
@@ -44,47 +44,50 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/temas/">temas</a>
+              <a class="nav-link" href="/es/temas/">temas</a>
             </li>
           
         
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/investigaciones/">investigaciones</a>
+              <a class="nav-link" href="/es/investigaciones/">investigaciones</a>
             </li>
           
         
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/policy/">policy</a>
+              <a class="nav-link" href="/es/policy/">policy</a>
             </li>
           
         
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/observatorio-legislativo/">observatorio legislativo</a>
+              <a class="nav-link" href="/es/observatorio-legislativo/">observatorio legislativo</a>
             </li>
           
         
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/taller/">taller</a>
+              <a class="nav-link" href="/es/taller/">taller</a>
             </li>
           
         
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/sala-de-prensa/">sala de prensa</a>
+              <a class="nav-link" href="/es/sala-de-prensa/">sala de prensa</a>
             </li>
           
         
         <li class="nav-item nav-item--lang">
           <div class="lang-toggle" role="group" aria-label="Idioma">
+            
+            
+            
             
               
               
@@ -193,6 +196,20 @@
 
     
   </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<script>
+  (function () {
+    if (!window.__vega_specs) return;
+    window.__vega_specs.forEach(function (item) {
+      vegaEmbed('#' + item.id, item.spec, { actions: false });
+    });
+  })();
+</script>
+
 
 </body>
 </html>

@@ -20,7 +20,7 @@
               <div class="nav-dropdown" id="nav-acerca" data-nav-menu hidden>
                 {{ if .Children }}
                   {{ range .Children }}
-                    <a class="nav-dropdown-link" href="{{ .URL }}">{{ .Name }}</a>
+                    <a class="nav-dropdown-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
                   {{ end }}
                 {{ else }}
                   <span class="nav-dropdown-empty">Agrega opciones en el menú.</span>
@@ -29,20 +29,34 @@
             </li>
           {{ else }}
             <li class="nav-item">
-              <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+              <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
             </li>
           {{ end }}
         {{ end }}
         <li class="nav-item nav-item--lang">
-          <div class="lang-toggle" role="group" aria-label="Idioma">
-            {{ range site.Languages }}
-              {{ $langCode := .Lang }}
-              {{ $langPage := $.Site.Home }}
-              {{ with $.Site.GetPage (printf "/%s" $langCode) }}{{ $langPage = . }}{{ end }}
-              {{ if eq $langCode $.Site.Language.Lang }}
-                <span class="lang-toggle-item lang-toggle-item--active">{{ upper $langCode }}</span>
+          <div class="lang-toggle" role="group" aria-label="{{ i18n "language_toggle" }}">
+            {{ $current := . }}
+            {{ $translations := .Translations }}
+            {{ $tkey := $current.Params.translationKey }}
+            {{ range .Sites }}
+              {{ $target := .Home }}
+              {{ if $current.IsTranslated }}
+                {{ $matches := where $translations "Lang" .Language.Lang }}
+                {{ if gt (len $matches) 0 }}
+                  {{ $target = index $matches 0 }}
+                {{ end }}
+              {{ end }}
+              {{ if and (not $current.IsTranslated) $tkey }}
+                {{ $candidates := where .AllPages "Params.translationKey" $tkey }}
+                {{ $langMatches := where $candidates "Lang" .Language.Lang }}
+                {{ if gt (len $langMatches) 0 }}
+                  {{ $target = index $langMatches 0 }}
+                {{ end }}
+              {{ end }}
+              {{ if eq .Language.Lang $current.Language.Lang }}
+                <span class="lang-toggle-item lang-toggle-item--active">{{ upper .Language.Lang }}</span>
               {{ else }}
-                <a class="lang-toggle-item" href="{{ $langPage.RelPermalink }}">{{ upper $langCode }}</a>
+                <a class="lang-toggle-item" href="{{ $target.RelPermalink }}">{{ upper .Language.Lang }}</a>
               {{ end }}
             {{ end }}
           </div>

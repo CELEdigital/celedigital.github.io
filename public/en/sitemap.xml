@@ -3,10 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/es/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -14,11 +15,39 @@
                 href="http://localhost:1313/en/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/posts/hearing-iachr/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/audiencia-cidh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/hearing-iachr/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/about/</loc>
+  </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -26,16 +55,54 @@
                 href="http://localhost:1313/en/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/mission/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/mision/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/mission/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/policy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/press-room/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/research/</loc>
+  </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/tags/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/team/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/workshop/</loc>
   </url>
 </urlset>

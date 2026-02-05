@@ -1,9 +1,294 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <title>http://localhost:1313/</title>
-    <link rel="canonical" href="http://localhost:1313/">
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=http://localhost:1313/">
-  </head>
+<head>
+	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>Inicio | </title>
+  
+
+<link rel="stylesheet" href="/css/style.min.css">
+
+</head>
+<body>
+
+  <header class="site-header">
+  <div class="header-container header-inner">
+    <a class="site-logo" href="/">
+      
+        <img src="/img/logo_cele.svg" alt="">
+      
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul class="main-nav-list">
+        
+          
+          
+            <li class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-button" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-acerca">
+                Acerca de
+              </button>
+              <div class="nav-dropdown" id="nav-acerca" data-nav-menu hidden>
+                
+                  
+                    <a class="nav-dropdown-link" href="/es/mision/">Nuestra misión</a>
+                  
+                    <a class="nav-dropdown-link" href="/es/equipo/">Equipo</a>
+                  
+                    <a class="nav-dropdown-link" href="/es/contacto/">Contacto</a>
+                  
+                
+              </div>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/temas/">temas</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/investigaciones/">investigaciones</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/policy/">policy</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/observatorio-legislativo/">observatorio legislativo</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/taller/">taller</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/sala-de-prensa/">sala de prensa</a>
+            </li>
+          
+        
+        <li class="nav-item nav-item--lang">
+          <div class="lang-toggle" role="group" aria-label="Idioma">
+            
+            
+            
+            
+              
+              
+                
+                
+              
+              
+              
+                <span class="lang-toggle-item lang-toggle-item--active">ES</span>
+              
+            
+              
+              
+                
+                
+                  
+                
+              
+              
+              
+                <a class="lang-toggle-item" href="/en/">EN</a>
+              
+            
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  (() => {
+    const toggle = document.querySelector('[data-nav-toggle]');
+    const menu = document.querySelector('[data-nav-menu]');
+    if (!toggle || !menu) return;
+
+    const closeMenu = () => {
+      menu.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+
+    const openMenu = () => {
+      menu.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+    };
+
+    toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!menu.contains(event.target) && !toggle.contains(event.target)) {
+        closeMenu();
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeMenu();
+      }
+    });
+  })();
+</script>
+
+
+  <main class="container">
+    
+      <section class="hero">
+        <section class="hero-featured">
+  <div class="hero-slider" data-slider>
+    
+    
+      <article class="hero-slide">
+        
+          <img src="/img/sanfrancisco2018.jpeg" alt="Inicio">
+        
+
+        <div class="hero-slide-content">
+          <h1>
+            <a href="/es/posts/audiencia-cidh-copy-2/">Audiencia CIDH sobre libertad de expresión</a>
+          </h1>
+
+          
+            <p>Contribución del CELE a la audiencia sobre libertad de expresión en la Argentina ante la Comisión Interamericana</p>
+          
+        </div>
+      </article>
+    
+      <article class="hero-slide">
+        
+          <img src="/img/sanfrancisco2018.jpeg" alt="Inicio">
+        
+
+        <div class="hero-slide-content">
+          <h1>
+            <a href="/es/posts/audiencia-cidh-copy/">Audiencia CIDH sobre libertad de expresión</a>
+          </h1>
+
+          
+            <p>Contribución del CELE a la audiencia sobre libertad de expresión en la Argentina ante la Comisión Interamericana</p>
+          
+        </div>
+      </article>
+    
+      <article class="hero-slide">
+        
+          <img src="/img/sanfrancisco2018.jpeg" alt="Inicio">
+        
+
+        <div class="hero-slide-content">
+          <h1>
+            <a href="/es/posts/audiencia-cidh/">Audiencia CIDH sobre libertad de expresión</a>
+          </h1>
+
+          
+            <p>Contribución del CELE a la audiencia sobre libertad de expresión en la Argentina ante la Comisión Interamericana</p>
+          
+        </div>
+      </article>
+    
+  </div>
+
+  <div class="hero-slider-controls hero-slider-controls--overlay">
+    <button class="hero-slider-btn" type="button" data-slider-prev aria-label="Anterior">&lt;</button>
+    <button class="hero-slider-btn" type="button" data-slider-next aria-label="Siguiente">&gt;</button>
+  </div>
+</section>
+
+<script>
+  (() => {
+    const slider = document.querySelector('.hero-slider[data-slider]');
+    if (!slider) return;
+
+    const prev = document.querySelector('[data-slider-prev]');
+    const next = document.querySelector('[data-slider-next]');
+    const slides = Array.from(slider.querySelectorAll('.hero-slide'));
+
+    const scrollToIndex = (index) => {
+      if (!slides.length) return;
+      const clamped = Math.max(0, Math.min(index, slides.length - 1));
+      slider.scrollTo({ left: clamped * slider.clientWidth, behavior: 'smooth' });
+    };
+
+    const currentIndex = () => {
+      if (!slider.clientWidth) return 0;
+      return Math.round(slider.scrollLeft / slider.clientWidth);
+    };
+
+    prev?.addEventListener('click', () => {
+      scrollToIndex(currentIndex() - 1);
+    });
+
+    next?.addEventListener('click', () => {
+      scrollToIndex(currentIndex() + 1);
+    });
+  })();
+</script>
+
+        <section class="hero-mission">
+  
+  
+  
+    <h5>Historia y objetivos</h5>
+
+    
+      <p class="mission-description">El CELE busca construir espacios de debate dedicados a reflexionar sobre la importancia, los contenidos y los límites del derecho a la libertad de expresión</p>
+    
+
+    <div class="mission-content">
+      <p>El Centro de Estudios en Libertad de Expresión (CELE) fue creado en el año 2009 en el ámbito de la Facultad de Derecho de la Universidad de Palermo con el objetivo de proveer de investigaciones a periodistas, instituciones gubernamentales, unidades académicas, y demás sectores de la sociedad civil dedicados a la defensa y a la promoción de estos derechos, especialmente en América Latina.</p>
+
+    </div>
+
+    <a class="mission-link" href="/url/acerca">Ver mas</a>
+
+  
+</section>
+
+      </section>
+    
+  </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<script>
+  (function () {
+    if (!window.__vega_specs) return;
+    window.__vega_specs.forEach(function (item) {
+      vegaEmbed('#' + item.id, item.spec, { actions: false });
+    });
+  })();
+</script>
+
+
+</body>
 </html>

@@ -14,7 +14,7 @@
     {{ if $isPost }}
       <div class="single-byline">
         {{ with .Params.author }}
-          <span class="single-by">Por {{ delimit . ", " " y " }}</span>
+          <span class="single-by">{{ i18n "byline" }} {{ delimit . ", " " y " }}</span>
         {{ end }}
         <time class="single-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "date-es.html" .Date }}</time>
       </div>
@@ -23,9 +23,9 @@
   </div>
   <aside class="single-sidebar" aria-label="Boletin">
     <div class="newsletter-box">
-      <h3 class="newsletter-title">Suscribete para recibir noticias, investigaciones y eventos</h3>
+      <h3 class="newsletter-title">{{ i18n "newsletter_title" }}</h3>
       <form class="newsletter-form" action="#" method="post">
-        <label class="sr-only" for="newsletter-email">Email</label>
+        <label class="sr-only" for="newsletter-email">{{ i18n "email_label" }}</label>
         <input class="newsletter-input" id="newsletter-email" type="email" name="email" placeholder="Email" required>
         <button class="newsletter-button" type="submit">></button>
       </form>

@@ -1,5 +1,6 @@
 <section class="hero-mission">
-  {{ $mission := site.GetPage "mision" }}
+  {{ $missionSlug := cond (eq .Site.Language.Lang "es") "mision" "mission" }}
+  {{ $mission := .Site.GetPage $missionSlug }}
   {{ if $mission }}
     <h5>{{ $mission.Title }}</h5>
 
@@ -11,7 +12,7 @@
       {{ $mission.Content }}
     </div>
 
-    <a class="mission-link" href="/url/acerca">Ver más</a>
+    <a class="mission-link" href="/url/acerca">{{ i18n "read_more" }}</a>
 
   {{ end }}
 </section>

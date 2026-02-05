@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>Posts | </title>
+  
+
+<link rel="stylesheet" href="/css/style.min.css">
+
+</head>
+<body>
+
+  <header class="site-header">
+  <div class="header-container header-inner">
+    <a class="site-logo" href="/">
+      
+        <img src="/img/logo_cele.svg" alt="">
+      
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul class="main-nav-list">
+        
+          
+          
+            <li class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-button" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-acerca">
+                Acerca de
+              </button>
+              <div class="nav-dropdown" id="nav-acerca" data-nav-menu hidden>
+                
+                  
+                    <a class="nav-dropdown-link" href="/es/mision/">Nuestra misión</a>
+                  
+                    <a class="nav-dropdown-link" href="/es/equipo/">Equipo</a>
+                  
+                    <a class="nav-dropdown-link" href="/es/contacto/">Contacto</a>
+                  
+                
+              </div>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/temas/">temas</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/investigaciones/">investigaciones</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/policy/">policy</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/observatorio-legislativo/">observatorio legislativo</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/taller/">taller</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/sala-de-prensa/">sala de prensa</a>
+            </li>
+          
+        
+        <li class="nav-item nav-item--lang">
+          <div class="lang-toggle" role="group" aria-label="Idioma">
+            
+            
+            
+            
+              
+              
+                
+                
+              
+              
+              
+                <span class="lang-toggle-item lang-toggle-item--active">ES</span>
+              
+            
+              
+              
+                
+                
+                  
+                
+              
+              
+              
+                <a class="lang-toggle-item" href="/en/posts/">EN</a>
+              
+            
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  (() => {
+    const toggle = document.querySelector('[data-nav-toggle]');
+    const menu = document.querySelector('[data-nav-menu]');
+    if (!toggle || !menu) return;
+
+    const closeMenu = () => {
+      menu.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+
+    const openMenu = () => {
+      menu.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+    };
+
+    toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!menu.contains(event.target) && !toggle.contains(event.target)) {
+        closeMenu();
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeMenu();
+      }
+    });
+  })();
+</script>
+
+
+  <main class="container">
+    
+      
+<h1>Posts</h1>
+<ul>
+  
+    <li>
+      <a href="/es/posts/audiencia-cidh-copy-2/">Audiencia CIDH sobre libertad de expresión</a>
+    </li>
+  
+    <li>
+      <a href="/es/posts/audiencia-cidh-copy/">Audiencia CIDH sobre libertad de expresión</a>
+    </li>
+  
+    <li>
+      <a href="/es/posts/audiencia-cidh/">Audiencia CIDH sobre libertad de expresión</a>
+    </li>
+  
+</ul>
+
+    
+  </main>
+
+</body>
+</html>

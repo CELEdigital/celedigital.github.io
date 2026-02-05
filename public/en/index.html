@@ -3,7 +3,7 @@
 <head>
 	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
-  <title> | </title>
+  <title>Home | </title>
   
 
 <link rel="stylesheet" href="/css/style.min.css">
@@ -72,16 +72,27 @@
           
         
         <li class="nav-item nav-item--lang">
-          <div class="lang-toggle" role="group" aria-label="Idioma">
+          <div class="lang-toggle" role="group" aria-label="Language">
+            
+            
+            
             
               
               
+                
+                
+                  
+                
               
               
-                <a class="lang-toggle-item" href="/en/">ES</a>
+              
+                <a class="lang-toggle-item" href="/es/">ES</a>
               
             
               
+              
+                
+                
               
               
               
@@ -142,6 +153,22 @@
   <div class="hero-slider" data-slider>
     
     
+      <article class="hero-slide">
+        
+          <img src="/img/sanfrancisco2018.jpeg" alt="Home">
+        
+
+        <div class="hero-slide-content">
+          <h1>
+            <a href="/en/posts/hearing-iachr/">IACHR hearing on freedom of expression</a>
+          </h1>
+
+          
+            <p>Contribution of CELE to the hearing on freedom of expression in Argentina before the Inter-American Commission</p>
+          
+        </div>
+      </article>
+    
   </div>
 
   <div class="hero-slider-controls hero-slider-controls--overlay">
@@ -183,11 +210,40 @@
         <section class="hero-mission">
   
   
+  
+    <h5>History and goals</h5>
+
+    
+      <p class="mission-description">CELE seeks to build debate spaces dedicated to reflecting on the importance, content and limits of the right to freedom of expression.</p>
+    
+
+    <div class="mission-content">
+      <p>The Center for Studies on Freedom of Expression (CELE) was created in 2009 within the Faculty of Law of the University of Palermo with the objective of providing research to journalists, government institutions, academic units, and other sectors of civil society dedicated to the defense and promotion of these rights, especially in Latin America.</p>
+
+    </div>
+
+    <a class="mission-link" href="/url/acerca">Read more</a>
+
+  
 </section>
 
       </section>
     
   </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<script>
+  (function () {
+    if (!window.__vega_specs) return;
+    window.__vega_specs.forEach(function (item) {
+      vegaEmbed('#' + item.id, item.spec, { actions: false });
+    });
+  })();
+</script>
+
 
 </body>
 </html>

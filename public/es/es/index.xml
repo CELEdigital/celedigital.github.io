@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inicio on </title>
+    <link>http://localhost:1313/es/es/</link>
+    <description>Recent content in Inicio on </description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audiencia CIDH sobre libertad de expresión</title>
+      <link>http://localhost:1313/es/es/posts/audiencia-cidh-copy-2/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/es/posts/audiencia-cidh-copy-2/</guid>
+      <description>&lt;p&gt;Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Audiencia CIDH sobre libertad de expresión</title>
+      <link>http://localhost:1313/es/es/posts/audiencia-cidh-copy/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/es/posts/audiencia-cidh-copy/</guid>
+      <description>&lt;p&gt;Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Audiencia CIDH sobre libertad de expresión</title>
+      <link>http://localhost:1313/es/es/posts/audiencia-cidh/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/es/posts/audiencia-cidh/</guid>
+      <description>&lt;p&gt;Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contacto</title>
+      <link>http://localhost:1313/es/es/contacto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/es/contacto/</guid>
+      <description>&lt;p&gt;Agrega aqui el correo, redes o formulario de contacto.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equipo</title>
+      <link>http://localhost:1313/es/es/equipo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/es/equipo/</guid>
+      <description>&lt;p&gt;Describe aqui al equipo, roles y colaboradores.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Historia y objetivos</title>
+      <link>http://localhost:1313/es/es/mision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/es/mision/</guid>
+      <description>&lt;p&gt;El Centro de Estudios en Libertad de Expresión (CELE) fue creado en el año 2009 en el ámbito de la Facultad de Derecho de la Universidad de Palermo con el objetivo de proveer de investigaciones a periodistas, instituciones gubernamentales, unidades académicas, y demás sectores de la sociedad civil dedicados a la defensa y a la promoción de estos derechos, especialmente en América Latina.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

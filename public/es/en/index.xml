@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on </title>
+    <link>http://localhost:1313/es/en/</link>
+    <description>Recent content in Home on </description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <atom:link href="http://localhost:1313/es/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/es/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/en/about/</guid>
+      <description>&lt;p&gt;Add overview content for the About page here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/es/en/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/en/contact/</guid>
+      <description>&lt;p&gt;Add contact details or a form here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>History and goals</title>
+      <link>http://localhost:1313/es/en/mission/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/en/mission/</guid>
+      <description>&lt;p&gt;The Center for Studies on Freedom of Expression (CELE) was created in 2009 within the Faculty of Law of the University of Palermo with the objective of providing research to journalists, government institutions, academic units, and other sectors of civil society dedicated to the defense and promotion of these rights, especially in Latin America.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Legislative Observatory</title>
+      <link>http://localhost:1313/es/en/legislative-observatory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/en/legislative-observatory/</guid>
+      <description>&lt;p&gt;Add English content for the Legislative Observatory here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Policy</title>
+      <link>http://localhost:1313/es/en/policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/en/policy/</guid>
+      <description>&lt;p&gt;Add English content for Policy here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Press Room</title>
+      <link>http://localhost:1313/es/en/press-room/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/en/press-room/</guid>
+      <description>&lt;p&gt;Add English content for Press Room here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/es/en/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/en/research/</guid>
+      <description>&lt;p&gt;Add English content for Research here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Team</title>
+      <link>http://localhost:1313/es/en/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/en/team/</guid>
+      <description>&lt;p&gt;Add team bios and roles here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Topics</title>
+      <link>http://localhost:1313/es/en/topics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/en/topics/</guid>
+      <description>&lt;p&gt;Add English content for Topics here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Workshop</title>
+      <link>http://localhost:1313/es/en/workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/en/workshop/</guid>
+      <description>&lt;p&gt;Add English content for Workshop here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

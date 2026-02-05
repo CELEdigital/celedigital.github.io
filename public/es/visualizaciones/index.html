@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>Observatorio Legislativo | </title>
+  
+
+<link rel="stylesheet" href="/css/style.min.css">
+
+</head>
+<body>
+
+  <header class="site-header">
+  <div class="header-container header-inner">
+    <a class="site-logo" href="/">
+      
+        <img src="/img/logo_cele.svg" alt="">
+      
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul class="main-nav-list">
+        
+          
+          
+            <li class="nav-item nav-item--dropdown">
+              <button class="nav-link nav-button" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-acerca">
+                Acerca de
+              </button>
+              <div class="nav-dropdown" id="nav-acerca" data-nav-menu hidden>
+                
+                  
+                    <a class="nav-dropdown-link" href="/es/mision/">Nuestra misión</a>
+                  
+                    <a class="nav-dropdown-link" href="/es/equipo/">Equipo</a>
+                  
+                    <a class="nav-dropdown-link" href="/es/contacto/">Contacto</a>
+                  
+                
+              </div>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/temas/">temas</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/investigaciones/">investigaciones</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/policy/">policy</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/observatorio-legislativo/">observatorio legislativo</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/taller/">taller</a>
+            </li>
+          
+        
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/es/sala-de-prensa/">sala de prensa</a>
+            </li>
+          
+        
+        <li class="nav-item nav-item--lang">
+          <div class="lang-toggle" role="group" aria-label="Idioma">
+            
+            
+            
+            
+              
+              
+              
+                
+                
+                
+                  
+                
+              
+              
+                <span class="lang-toggle-item lang-toggle-item--active">ES</span>
+              
+            
+              
+              
+              
+                
+                
+                
+              
+              
+                <a class="lang-toggle-item" href="/en/">EN</a>
+              
+            
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  (() => {
+    const toggle = document.querySelector('[data-nav-toggle]');
+    const menu = document.querySelector('[data-nav-menu]');
+    if (!toggle || !menu) return;
+
+    const closeMenu = () => {
+      menu.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+
+    const openMenu = () => {
+      menu.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+    };
+
+    toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!menu.contains(event.target) && !toggle.contains(event.target)) {
+        closeMenu();
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeMenu();
+      }
+    });
+  })();
+</script>
+
+
+  <main class="container">
+    
+      
+<article class="single-layout">
+  <div class="single-content">
+    
+    
+    <h1 class="single-title">Observatorio Legislativo</h1>
+    
+    
+    <h2 id="leyes-y-proyectos-por-país">Leyes y proyectos por país</h2>
+<p><img src="/charts/leyes_por_pais.svg" alt="Leyes por país" class="chart" style="width: 80%; height: auto;" />
+
+<img src="/charts/proyectos_por_pais.svg" alt="Proyectos por país" class="chart" style="width: 80%; height: auto;" />
+
+<img src="/charts/leyes_vs_proyectos_por_pais.svg" alt="Leyes vs proyectos por país" class="chart" style="width: 80%; height: auto;" />
+</p>
+<h2 id="tendencias-anuales">Tendencias anuales</h2>
+<img src="/charts/tendencia_anual.svg" alt="Tendencia anual" class="chart" style="width: 80%; height: auto;" />
+
+<h2 id="impacto-en-el-discurso">Impacto en el discurso</h2>
+<p><img src="/charts/impacto_leyes_por_pais.svg" alt="Impacto en el discurso (leyes)" class="chart" style="width: 80%; height: auto;" />
+
+<img src="/charts/impacto_proyectos_por_pais.svg" alt="Impacto en el discurso (proyectos)" class="chart" style="width: 80%; height: auto;" />
+</p>
+<h2 id="objetivos-legítimos">Objetivos legítimos</h2>
+<p><img src="/charts/top_objetivos_leyes.svg" alt="Top objetivos legítimos (leyes)" class="chart" style="width: 80%; height: auto;" />
+
+<img src="/charts/top_objetivos_proyectos.svg" alt="Top objetivos legítimos (proyectos)" class="chart" style="width: 80%; height: auto;" />
+</p>
+<h2 id="test-tripartito">Test tripartito</h2>
+<p><img src="/charts/tripartito_regional.svg" alt="Cumplimiento del test tripartito (regional)" class="chart" style="width: 80%; height: auto;" />
+
+<img src="/charts/tripartito_leyes_por_pais.svg" alt="Cumplimiento del test (leyes)" class="chart" style="width: 80%; height: auto;" />
+
+<img src="/charts/tripartito_proyectos_por_pais.svg" alt="Cumplimiento del test (proyectos)" class="chart" style="width: 80%; height: auto;" />
+</p>
+<h2 id="criminalización-de-la-expresión">Criminalización de la expresión</h2>
+<p><img src="/charts/criminaliza_regional.svg" alt="Leyes que criminalizan la expresión (regional)" class="chart" style="width: 80%; height: auto;" />
+
+<img src="/charts/criminaliza_por_pais.svg" alt="Leyes que criminalizan la expresión (por país)" class="chart" style="width: 80%; height: auto;" />
+</p>
+<h2 id="interactivos">Interactivos</h2>
+<p><div class="vega-chart"><h3 class="vega-title">Explorador por país y año</h3><div id="chart-country-year"></div>
+</div>
+<script>
+  window.__vega_specs = window.__vega_specs || [];
+  window.__vega_specs.push({ id: "chart-country-year", spec: "\/charts\/interactive\/country_year_explorer.json" });
+</script>
+
+<div class="vega-chart"><h3 class="vega-title">Distribución de objetivos legítimos</h3><div id="chart-objetivos"></div>
+</div>
+<script>
+  window.__vega_specs = window.__vega_specs || [];
+  window.__vega_specs.push({ id: "chart-objetivos", spec: "\/charts\/interactive\/objetivos_drilldown.json" });
+</script>
+</p>
+
+  </div>
+  <aside class="single-sidebar" aria-label="Boletin">
+    <div class="newsletter-box">
+      <h3 class="newsletter-title">Suscribete para recibir noticias, investigaciones y eventos</h3>
+      <form class="newsletter-form" action="#" method="post">
+        <label class="sr-only" for="newsletter-email">Email</label>
+        <input class="newsletter-input" id="newsletter-email" type="email" name="email" placeholder="Email" required>
+        <button class="newsletter-button" type="submit">></button>
+      </form>
+    </div>
+  </aside>
+</article>
+
+    
+  </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<script>
+  (function () {
+    if (!window.__vega_specs) return;
+    window.__vega_specs.forEach(function (item) {
+      vegaEmbed('#' + item.id, item.spec, { actions: false });
+    });
+  })();
+</script>
+
+
+</body>
+</html>

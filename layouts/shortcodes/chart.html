@@ -1,0 +1,10 @@
+{{/*
+Usage:
+{{< chart src="/charts/leyes_por_pais.svg" alt="Leyes por país" >}}
+Optional: width, class
+*/}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "Chart" -}}
+{{- $width := .Get "width" | default "80%" -}}
+{{- $class := .Get "class" | default "chart" -}}
+<img src="{{ $src }}" alt="{{ $alt }}" class="{{ $class }}" style="width: {{ $width }}; height: auto;" />

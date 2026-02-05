@@ -1,0 +1,143 @@
+.documentation {
+  margin: 3rem 0;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.documentation-header {
+  max-width: 50rem;
+}
+
+.documentation-title {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.8rem, 2.5vw, 2.4rem);
+}
+
+.documentation-intro {
+  margin: 0;
+  color: var(--neutral-600);
+}
+
+.documentation-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  align-items: end;
+}
+
+.doc-control {
+  display: grid;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.doc-control select,
+.doc-control input {
+  border: 1px solid var(--neutral-300);
+  padding: 0.5rem 0.6rem;
+  font-size: 0.95rem;
+}
+
+.doc-control--search {
+  grid-column: 1 / -1;
+}
+
+.doc-control--type {
+  grid-column: 1 / -1;
+}
+
+.doc-control--test {
+  grid-column: 1 / -1;
+}
+
+.doc-control--category {
+  grid-column: 1 / -1;
+}
+
+.doc-control--topic {
+  grid-column: 1 / -1;
+}
+
+.documentation-summary {
+  font-weight: 600;
+  color: var(--neutral-600);
+}
+
+.documentation-table {
+  border-top: 1px solid var(--neutral-200);
+}
+
+.doc-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 0.8fr 1fr;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--neutral-200);
+  font-size: 0.9rem;
+}
+
+.doc-row--head {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  color: var(--neutral-600);
+}
+
+.doc-title {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.doc-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--neutral-300);
+  color: var(--accent-blue);
+  text-decoration: none;
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+  flex: 0 0 auto;
+}
+
+.doc-link:hover,
+.doc-link:focus-visible {
+  background: var(--accent-blue);
+  color: #fff;
+  border-color: var(--accent-blue);
+}
+
+.doc-link-icon {
+  width: 0.9rem;
+  height: 0.9rem;
+  fill: currentColor;
+}
+
+.documentation-actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.doc-load-more {
+  border: 1px solid var(--cele);
+  color: var(--cele);
+  background: transparent;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .doc-row {
+    grid-template-columns: 1fr;
+  }
+
+  .doc-row--head {
+    display: none;
+  }
+}

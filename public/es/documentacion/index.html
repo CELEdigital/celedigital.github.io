@@ -2,7 +2,7 @@
 <html lang="es">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
-  <title>Equipo | </title>
+  <title>Documentación | </title>
   
 
 <link rel="stylesheet" href="/css/style.min.css">
@@ -92,6 +92,9 @@
             
               
               
+                
+                
+              
               
               
                 <span class="lang-toggle-item lang-toggle-item--active">ES</span>
@@ -99,9 +102,14 @@
             
               
               
+                
+                
+                  
+                
               
               
-                <a class="lang-toggle-item" href="/en/">EN</a>
+              
+                <a class="lang-toggle-item" href="/en/documentation/">EN</a>
               
             
           </div>
@@ -158,12 +166,142 @@
   <div class="single-content">
     
     
-    <h1 class="single-title">Equipo</h1>
+    <h1 class="single-title">Documentación</h1>
     
-      <p class="single-dek">Las personas que hacen posible este proyecto.</p>
+      <p class="single-dek">Explora proyectos y leyes con filtros dinamicos.</p>
     
     
-    <p>Describe aqui al equipo, roles y colaboradores.</p>
+    <section class="documentation" data-doc-proyectos-url="/data/proyectos_clean.csv" data-doc-leyes-url="/data/leyes_clean.csv">
+  <div class="documentation-header">
+    <h2 class="documentation-title">Documentación</h2>
+    <p class="documentation-intro">Explora proyectos y leyes con filtros dinámicos.</p>
+  </div>
+
+  <div class="documentation-controls">
+    <label class="doc-control">
+      <span>Dataset</span>
+      <select data-doc-dataset>
+        <option value="proyectos">Proyectos</option>
+        <option value="leyes">Leyes</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--category">
+      <span>Categoría</span>
+      <select data-doc-category>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>País</span>
+      <select data-doc-country>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Año</span>
+      <select data-doc-date>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--topic">
+      <span>Tema</span>
+      <select data-doc-topic>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>¿Criminaliza la expresión?</span>
+      <select data-doc-criminaliza>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>¿Elimina criminalización?</span>
+      <select data-doc-elimina-crim>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>¿Impone sanciones civiles?</span>
+      <select data-doc-sancion-civil>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>¿Elimina una sanción civil?</span>
+      <select data-doc-elimina-sancion>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>¿Regula contenido en internet?</span>
+      <select data-doc-regula-contenido>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>¿Hace más difícil la expresión online que offline?</span>
+      <select data-doc-distingue-online>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>¿Regula intermediarios en internet?</span>
+      <select data-doc-intermediarios>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>¿Limita el discurso?</span>
+      <select data-doc-limita>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--test">
+      <span>¿Cumple con todos los elementos del test?</span>
+      <select data-doc-test>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--search">
+      <span>Buscar</span>
+      <input type="search" data-doc-search placeholder="Busca por extracto o referencia">
+    </label>
+  </div>
+
+  <div class="documentation-summary">
+    <span data-doc-count>0</span>
+  </div>
+
+  <div class="documentation-table" data-doc-table>
+    <div class="doc-row doc-row--head">
+      <div>Resumen</div>
+      <div>País</div>
+      <div>Año</div>
+      <div>Tipo</div>
+    </div>
+    <div class="doc-rows" data-doc-rows></div>
+  </div>
+
+  <div class="documentation-actions">
+    <button class="doc-load-more" type="button" data-doc-load>Cargar más</button>
+  </div>
+</section>
+
 
   </div>
   <aside class="single-sidebar" aria-label="Boletin">

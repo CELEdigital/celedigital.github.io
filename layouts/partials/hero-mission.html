@@ -1,6 +1,7 @@
 <section class="hero-mission">
   {{ $missionSlug := cond (eq .Site.Language.Lang "es") "mision" "mission" }}
-  {{ $mission := .Site.GetPage $missionSlug }}
+  {{ $missionMatches := where .Site.RegularPages "File.BaseFileName" $missionSlug }}
+  {{ $mission := index $missionMatches 0 }}
   {{ if $mission }}
     <h5>{{ $mission.Title }}</h5>
 

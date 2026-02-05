@@ -57,6 +57,18 @@
   </url><url>
     <loc>http://localhost:1313/en/contact/</loc>
   </url><url>
+    <loc>http://localhost:1313/en/documentation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/documentacion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/documentation/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/mission/</loc>
     <xhtml:link
                 rel="alternate"

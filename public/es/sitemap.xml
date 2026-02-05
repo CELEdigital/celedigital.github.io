@@ -61,6 +61,18 @@
   </url><url>
     <loc>http://localhost:1313/es/contacto/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/documentacion/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/documentation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/documentacion/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/equipo/</loc>
   </url><url>
     <loc>http://localhost:1313/es/mision/</loc>
@@ -76,6 +88,16 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/tags/</loc>
     <xhtml:link

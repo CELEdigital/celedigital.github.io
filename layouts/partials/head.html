@@ -4,7 +4,9 @@
   (resources.Get "css/components/hero.css")
   (resources.Get "css/components/mission.css")
   (resources.Get "css/components/single.css")
+  (resources.Get "css/components/documentation.css")
   (resources.Get "css/style.css")
 }}
 {{ $css := $styles | resources.Concat "css/style.css" | minify }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<script src="{{ "data/documentation.js" | relURL }}" defer></script>

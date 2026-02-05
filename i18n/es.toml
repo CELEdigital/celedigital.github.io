@@ -1,5 +1,5 @@
 [read_more]
-other = "Ver mas"
+other = "Ver más"
 
 [newsletter_title]
 other = "Suscribete para recibir noticias, investigaciones y eventos"
@@ -12,3 +12,90 @@ other = "Por"
 
 [language_toggle]
 other = "Idioma"
+
+[documentation_title]
+other = "Documentación"
+
+[documentation_intro]
+other = "Explora proyectos y leyes con filtros dinámicos."
+
+[doc_dataset]
+other = "Dataset"
+
+[doc_category]
+other = "Categoría"
+
+[doc_dataset_projects]
+other = "Proyectos"
+
+[doc_dataset_laws]
+other = "Leyes"
+
+[doc_country]
+other = "País"
+
+[doc_topic]
+other = "Tema"
+
+[doc_date]
+other = "Año"
+
+[doc_year]
+other = "Año"
+
+[doc_type]
+other = "Tipo"
+
+[doc_criminaliza]
+other = "¿Criminaliza la expresión?"
+
+[doc_elimina_crim]
+other = "¿Elimina criminalización?"
+
+[doc_sancion_civil]
+other = "¿Impone sanciones civiles?"
+
+[doc_elimina_sancion]
+other = "¿Elimina una sanción civil?"
+
+[doc_regula_contenido]
+other = "¿Regula contenido en internet?"
+
+[doc_distingue_online]
+other = "¿Hace más difícil la expresión online que offline?"
+
+[doc_intermediarios]
+other = "¿Regula intermediarios en internet?"
+
+[doc_limita]
+other = "¿Limita el discurso?"
+
+[doc_test]
+other = "¿Cumple con todos los elementos del test?"
+
+[doc_search]
+other = "Buscar"
+
+[doc_search_placeholder]
+other = "Busca por extracto o referencia"
+
+[doc_all]
+other = "Todos"
+
+[doc_col_title]
+other = "Resumen"
+
+[doc_col_country]
+other = "País"
+
+[doc_col_year]
+other = "Año"
+
+[doc_col_type]
+other = "Tipo"
+
+[doc_col_link]
+other = "Link"
+
+[doc_load_more]
+other = "Cargar más"

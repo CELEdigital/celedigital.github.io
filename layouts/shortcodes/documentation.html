@@ -1,0 +1,130 @@
+<section class="documentation" data-doc-proyectos-url="{{ "data/proyectos_clean.csv" | relURL }}" data-doc-leyes-url="{{ "data/leyes_clean.csv" | relURL }}">
+  <div class="documentation-header">
+    <h2 class="documentation-title">{{ i18n "documentation_title" }}</h2>
+    <p class="documentation-intro">{{ i18n "documentation_intro" }}</p>
+  </div>
+
+  <div class="documentation-controls">
+    <label class="doc-control">
+      <span>{{ i18n "doc_dataset" }}</span>
+      <select data-doc-dataset>
+        <option value="proyectos">{{ i18n "doc_dataset_projects" }}</option>
+        <option value="leyes">{{ i18n "doc_dataset_laws" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--category">
+      <span>{{ i18n "doc_category" }}</span>
+      <select data-doc-category>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>{{ i18n "doc_country" }}</span>
+      <select data-doc-country>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>{{ i18n "doc_date" }}</span>
+      <select data-doc-date>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--topic">
+      <span>{{ i18n "doc_topic" }}</span>
+      <select data-doc-topic>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>{{ i18n "doc_criminaliza" }}</span>
+      <select data-doc-criminaliza>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>{{ i18n "doc_elimina_crim" }}</span>
+      <select data-doc-elimina-crim>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>{{ i18n "doc_sancion_civil" }}</span>
+      <select data-doc-sancion-civil>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>{{ i18n "doc_elimina_sancion" }}</span>
+      <select data-doc-elimina-sancion>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>{{ i18n "doc_regula_contenido" }}</span>
+      <select data-doc-regula-contenido>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>{{ i18n "doc_distingue_online" }}</span>
+      <select data-doc-distingue-online>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>{{ i18n "doc_intermediarios" }}</span>
+      <select data-doc-intermediarios>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>{{ i18n "doc_limita" }}</span>
+      <select data-doc-limita>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--test">
+      <span>{{ i18n "doc_test" }}</span>
+      <select data-doc-test>
+        <option value="">{{ i18n "doc_all" }}</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--search">
+      <span>{{ i18n "doc_search" }}</span>
+      <input type="search" data-doc-search placeholder="{{ i18n "doc_search_placeholder" }}">
+    </label>
+  </div>
+
+  <div class="documentation-summary">
+    <span data-doc-count>0</span>
+  </div>
+
+  <div class="documentation-table" data-doc-table>
+    <div class="doc-row doc-row--head">
+      <div>{{ i18n "doc_col_title" }}</div>
+      <div>{{ i18n "doc_col_country" }}</div>
+      <div>{{ i18n "doc_col_year" }}</div>
+      <div>{{ i18n "doc_col_type" }}</div>
+    </div>
+    <div class="doc-rows" data-doc-rows></div>
+  </div>
+
+  <div class="documentation-actions">
+    <button class="doc-load-more" type="button" data-doc-load>{{ i18n "doc_load_more" }}</button>
+  </div>
+</section>

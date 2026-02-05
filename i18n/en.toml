@@ -12,3 +12,90 @@ other = "By"
 
 [language_toggle]
 other = "Language"
+
+[documentation_title]
+other = "Documentation"
+
+[documentation_intro]
+other = "Explore projects and laws with dynamic filters."
+
+[doc_dataset]
+other = "Dataset"
+
+[doc_category]
+other = "Category"
+
+[doc_dataset_projects]
+other = "Projects"
+
+[doc_dataset_laws]
+other = "Laws"
+
+[doc_country]
+other = "Country"
+
+[doc_topic]
+other = "Topic"
+
+[doc_date]
+other = "Year"
+
+[doc_year]
+other = "Year"
+
+[doc_type]
+other = "Type"
+
+[doc_criminaliza]
+other = "Criminalizes expression?"
+
+[doc_elimina_crim]
+other = "Eliminates criminalization?"
+
+[doc_sancion_civil]
+other = "Imposes civil sanctions?"
+
+[doc_elimina_sancion]
+other = "Eliminates a civil sanction?"
+
+[doc_regula_contenido]
+other = "Regulates online content?"
+
+[doc_distingue_online]
+other = "Treats online expression more strictly?"
+
+[doc_intermediarios]
+other = "Regulates internet intermediaries?"
+
+[doc_limita]
+other = "Limits speech?"
+
+[doc_test]
+other = "Meets all elements of the test?"
+
+[doc_search]
+other = "Search"
+
+[doc_search_placeholder]
+other = "Search by summary or reference"
+
+[doc_all]
+other = "All"
+
+[doc_col_title]
+other = "Summary"
+
+[doc_col_country]
+other = "Country"
+
+[doc_col_year]
+other = "Year"
+
+[doc_col_type]
+other = "Type"
+
+[doc_col_link]
+other = "Link"
+
+[doc_load_more]
+other = "Load more"

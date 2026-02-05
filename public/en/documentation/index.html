@@ -2,7 +2,7 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
-  <title>Topics | </title>
+  <title>Documentation | </title>
   
 
 <link rel="stylesheet" href="/css/style.min.css">
@@ -79,12 +79,20 @@
             
               
               
+                
+                
+                  
+                
               
               
-                <a class="lang-toggle-item" href="/es/">ES</a>
+              
+                <a class="lang-toggle-item" href="/es/documentacion/">ES</a>
               
             
               
+              
+                
+                
               
               
               
@@ -145,10 +153,142 @@
   <div class="single-content">
     
     
-    <h1 class="single-title">Topics</h1>
+    <h1 class="single-title">Documentation</h1>
+    
+      <p class="single-dek">Explore projects and laws with interactive filters.</p>
     
     
-    <p>Add English content for Topics here.</p>
+    <section class="documentation" data-doc-proyectos-url="/data/proyectos_clean.csv" data-doc-leyes-url="/data/leyes_clean.csv">
+  <div class="documentation-header">
+    <h2 class="documentation-title">Documentation</h2>
+    <p class="documentation-intro">Explore projects and laws with dynamic filters.</p>
+  </div>
+
+  <div class="documentation-controls">
+    <label class="doc-control">
+      <span>Dataset</span>
+      <select data-doc-dataset>
+        <option value="proyectos">Projects</option>
+        <option value="leyes">Laws</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--category">
+      <span>Category</span>
+      <select data-doc-category>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Country</span>
+      <select data-doc-country>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Year</span>
+      <select data-doc-date>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--topic">
+      <span>Topic</span>
+      <select data-doc-topic>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Criminalizes expression?</span>
+      <select data-doc-criminaliza>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Eliminates criminalization?</span>
+      <select data-doc-elimina-crim>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Imposes civil sanctions?</span>
+      <select data-doc-sancion-civil>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Eliminates a civil sanction?</span>
+      <select data-doc-elimina-sancion>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Regulates online content?</span>
+      <select data-doc-regula-contenido>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Treats online expression more strictly?</span>
+      <select data-doc-distingue-online>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Regulates internet intermediaries?</span>
+      <select data-doc-intermediarios>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Limits speech?</span>
+      <select data-doc-limita>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--test">
+      <span>Meets all elements of the test?</span>
+      <select data-doc-test>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--search">
+      <span>Search</span>
+      <input type="search" data-doc-search placeholder="Search by summary or reference">
+    </label>
+  </div>
+
+  <div class="documentation-summary">
+    <span data-doc-count>0</span>
+  </div>
+
+  <div class="documentation-table" data-doc-table>
+    <div class="doc-row doc-row--head">
+      <div>Summary</div>
+      <div>Country</div>
+      <div>Year</div>
+      <div>Type</div>
+    </div>
+    <div class="doc-rows" data-doc-rows></div>
+  </div>
+
+  <div class="documentation-actions">
+    <button class="doc-load-more" type="button" data-doc-load>Load more</button>
+  </div>
+</section>
+
 
   </div>
   <aside class="single-sidebar" aria-label="Boletin">

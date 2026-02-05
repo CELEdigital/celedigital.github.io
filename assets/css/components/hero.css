@@ -25,6 +25,7 @@
   gap: 0;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
+  max-width: 900px;
 }
 
 .hero-slide {

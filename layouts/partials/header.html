@@ -33,6 +33,20 @@
             </li>
           {{ end }}
         {{ end }}
+        <li class="nav-item nav-item--lang">
+          <div class="lang-toggle" role="group" aria-label="Idioma">
+            {{ range site.Languages }}
+              {{ $langCode := .Lang }}
+              {{ $langPage := $.Site.Home }}
+              {{ with $.Site.GetPage (printf "/%s" $langCode) }}{{ $langPage = . }}{{ end }}
+              {{ if eq $langCode $.Site.Language.Lang }}
+                <span class="lang-toggle-item lang-toggle-item--active">{{ upper $langCode }}</span>
+              {{ else }}
+                <a class="lang-toggle-item" href="{{ $langPage.RelPermalink }}">{{ upper $langCode }}</a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </li>
       </ul>
     </nav>
   </div>

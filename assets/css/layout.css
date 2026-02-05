@@ -47,10 +47,52 @@
   position: relative;
 }
 
+.nav-item--lang {
+  margin-left: 1rem;
+}
+
 .nav-link {
   line-height: 1;
   text-decoration: none;
   color: #fff;
+}
+
+.lang-toggle {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border: 1px solid #fff;
+  padding: 0.35rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.lang-toggle-item {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.35rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  transition: background 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+
+.lang-toggle-item:hover,
+.lang-toggle-item:focus-visible {
+  background: #fff;
+  color: var(--cele);
+  border-color: #fff;
+}
+
+.lang-toggle-item--active {
+  background: #fff;
+  color: var(--cele);
+  border-color: #fff;
+  cursor: default;
 }
 
 .nav-button {

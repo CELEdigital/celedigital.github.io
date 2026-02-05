@@ -1,67 +1,141 @@
 theme = "basic"
-
 baseURL = "http://example.org/"
-languageCode = "en-us"
+defaultContentLanguage = "es"
+defaultContentLanguageInSubdir = false
 
-[params]
-  logo = "img/logo_cele.svg"
-  mission = "Research, writing, and analysis on law, technology, and governance."
-
-  [params.mission_link]
-    label = "Read more"
-    url = "/about/"
-
-[menu]
-  [[menu.main]]
-    name = "Acerca de"
-    url = "/acerca-de/"
-    identifier = "acerca-de"
+[languages]
+  [languages.es]
+    languageName = "Español"
+    languageCode = "es"
     weight = 1
 
-  [[menu.main]]
-    name = "Nuestra misión"
-    url = "/mision/"
-    parent = "acerca-de"
-    weight = 11
+    [languages.es.params]
+      logo = "img/logo_cele.svg"
+      mission = "Investigación, escritura y análisis sobre derecho, tecnología y gobernanza."
 
-  [[menu.main]]
-    name = "Equipo"
-    url = "/equipo/"
-    parent = "acerca-de"
-    weight = 12
+      [languages.es.params.mission_link]
+        label = "Ver más"
+        url = "/acerca-de/"
 
-  [[menu.main]]
-    name = "Contacto"
-    url = "/contacto/"
-    parent = "acerca-de"
-    weight = 13
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        name = "Acerca de"
+        url = "/acerca-de/"
+        identifier = "acerca-de"
+        weight = 1
 
-  [[menu.main]]
-    name = "temas"
-    url = "/temas/"
+      [[languages.es.menu.main]]
+        name = "Nuestra misión"
+        url = "/mision/"
+        parent = "acerca-de"
+        weight = 11
+
+      [[languages.es.menu.main]]
+        name = "Equipo"
+        url = "/equipo/"
+        parent = "acerca-de"
+        weight = 12
+
+      [[languages.es.menu.main]]
+        name = "Contacto"
+        url = "/contacto/"
+        parent = "acerca-de"
+        weight = 13
+
+      [[languages.es.menu.main]]
+        name = "temas"
+        url = "/temas/"
+        weight = 2
+
+      [[languages.es.menu.main]]
+        name = "investigaciones"
+        url = "/investigaciones/"
+        weight = 3
+
+      [[languages.es.menu.main]]
+        name = "policy"
+        url = "/policy/"
+        weight = 4
+
+      [[languages.es.menu.main]]
+        name = "observatorio legislativo"
+        url = "/observatorio-legislativo/"
+        weight = 5
+
+      [[languages.es.menu.main]]
+        name = "taller"
+        url = "/taller/"
+        weight = 6
+
+      [[languages.es.menu.main]]
+        name = "sala de prensa"
+        url = "/sala-de-prensa/"
+        weight = 7
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
     weight = 2
 
-  [[menu.main]]
-    name = "investigaciones"
-    url = "/investigaciones/"
-    weight = 3
+    [languages.en.params]
+      logo = "img/logo_cele.svg"
+      mission = "Research, writing, and analysis on law, technology, and governance."
 
-  [[menu.main]]
-    name = "policy"
-    url = "/policy/"
-    weight = 4
+      [languages.en.params.mission_link]
+        label = "Read more"
+        url = "/en/about/"
 
-  [[menu.main]]
-    name = "observatorio legislativo"
-    url = "/observatorio-legislativo/"
-    weight = 5
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "/en/about/"
+        identifier = "about"
+        weight = 1
 
-[[menu.main]]
-    name = "taller"
-    url = "/taller/"
-    weight = 6
+      [[languages.en.menu.main]]
+        name = "Mission"
+        url = "/en/mission/"
+        parent = "about"
+        weight = 11
 
-  [[menu.main]]
-    name = "sala de prensa"
-    url = "/sala-de-prensa/"
-    weight = 7
+      [[languages.en.menu.main]]
+        name = "Team"
+        url = "/en/team/"
+        parent = "about"
+        weight = 12
+
+      [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/en/contact/"
+        parent = "about"
+        weight = 13
+
+      [[languages.en.menu.main]]
+        name = "Topics"
+        url = "/en/topics/"
+        weight = 2
+
+      [[languages.en.menu.main]]
+        name = "Research"
+        url = "/en/research/"
+        weight = 3
+
+      [[languages.en.menu.main]]
+        name = "Policy"
+        url = "/en/policy/"
+        weight = 4
+
+      [[languages.en.menu.main]]
+        name = "Legislative Observatory"
+        url = "/en/legislative-observatory/"
+        weight = 5
+
+      [[languages.en.menu.main]]
+        name = "Workshop"
+        url = "/en/workshop/"
+        weight = 6
+
+      [[languages.en.menu.main]]
+        name = "Press Room"
+        url = "/en/press-room/"
+        weight = 7

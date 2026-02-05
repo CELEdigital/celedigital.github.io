@@ -4,7 +4,7 @@
     {{ $isPost := eq .Type "posts" }}
     {{ if $isPost }}
       <div class="single-meta">
-        <span class="single-kicker">{{ .Section | upper }}</span>
+        <span class="single-kicker">{{ .Type | upper }}</span>
       </div>
     {{ end }}
     <h1 class="single-title">{{ .Title }}</h1>

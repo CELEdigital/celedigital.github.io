@@ -1,5 +1,5 @@
 theme = "basic"
-baseURL = "http://example.org/"
+baseURL = "https://celedigital.github.io/"
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = true
 

@@ -1,0 +1,6 @@
+{{- $cols := .Get "cols" | default "3" -}}
+{{- $gap := .Get "gap" | default "1rem" -}}
+{{- $class := .Get "class" | default "" -}}
+<div class="observatory-layout-row {{ $class }}" style="--obs-cols: {{ $cols }}; --obs-gap: {{ $gap }};">
+  {{ .Inner | safeHTML }}
+</div>

@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="header-container header-inner">
-    <a class="site-logo" href="/">
+    <a class="site-logo" href="{{ .Site.Home.RelPermalink }}">
       {{ with .Site.Params.logo }}
         <img src="{{ . | relURL }}" alt="{{ $.Site.Title }}">
       {{ else }}
@@ -28,14 +28,22 @@
               </button>
               <div class="nav-dropdown" id="{{ $menuId }}" data-nav-menu hidden>
                 {{ range .Children }}
-                  <a class="nav-dropdown-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                  {{ $childHref := .URL | relLangURL }}
+                  {{ with .Page }}
+                    {{ $childHref = .RelPermalink }}
+                  {{ end }}
+                  <a class="nav-dropdown-link" href="{{ $childHref }}">{{ .Name }}</a>
                 {{ end }}
               </div>
             </li>
           {{ else }}
             <li class="nav-item">
               {{ $wrap := or (eq (lower .Name) "observatorio legislativo") (eq (lower .Name) "sala de prensa") (eq (lower .Name) "legislative observatory") (eq (lower .Name) "press room") }}
-              <a class="nav-link {{ if $wrap }}nav-link--wrap{{ end }}" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+              {{ $itemHref := .URL | relLangURL }}
+              {{ with .Page }}
+                {{ $itemHref = .RelPermalink }}
+              {{ end }}
+              <a class="nav-link {{ if $wrap }}nav-link--wrap{{ end }}" href="{{ $itemHref }}">{{ .Name }}</a>
             </li>
           {{ end }}
         {{ end }}

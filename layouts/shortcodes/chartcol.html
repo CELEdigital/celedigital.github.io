@@ -1,0 +1,6 @@
+{{- $span := .Get "span" | default "1" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $width := .Get "width" | default "" -}}
+<div class="observatory-layout-col {{ $class }}" style="--obs-span: {{ $span }};{{ if $width }} --obs-width: {{ $width }};{{ end }}">
+  {{ .Inner | safeHTML }}
+</div>

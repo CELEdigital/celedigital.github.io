@@ -1,0 +1,33 @@
+{{ $isES := eq .Lang "es" }}
+{{ $pages := .RegularPages.ByWeight }}
+
+{{ if gt (len $pages) 0 }}
+  <div class="workshop-subhub__blocks">
+    {{ range $pages }}
+      {{ $base := "" }}
+      {{ with .File }}{{ $base = lower .BaseFileName }}{{ end }}
+      {{ $isProgram := hasPrefix $base "program" }}
+      {{ $title := .Title }}
+      {{ if $isProgram }}
+        {{ $title = cond $isES "Programa" "Program" }}
+      {{ end }}
+      <section class="workshop-subhub__block">
+        {{ if $isProgram }}
+          <details class="workshop-subhub__accordion">
+            <summary class="workshop-subhub__accordion-summary">
+              <h2>{{ $title }}</h2>
+            </summary>
+            <div class="section-content">
+              {{ .Content }}
+            </div>
+          </details>
+        {{ else }}
+          <h2>{{ $title }}</h2>
+          <div class="section-content">
+            {{ .Content }}
+          </div>
+        {{ end }}
+      </section>
+    {{ end }}
+  </div>
+{{ end }}

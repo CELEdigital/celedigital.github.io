@@ -1,0 +1,136 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Explorador jerárquico (tiles)",
+  "config": {
+    "font": "Jost, Arial, sans-serif",
+    "view": { "stroke": "transparent" },
+    "axis": {
+      "labelColor": "#222",
+      "titleColor": "#222",
+      "gridColor": "#e8e8e8"
+    },
+    "legend": {
+      "labelColor": "#222",
+      "titleColor": "#222"
+    }
+  },
+  "data": { "url": "/charts/interactive/observatorio_database.json" },
+  "params": [
+    {
+      "name": "nivel1",
+      "select": {
+        "type": "point",
+        "fields": ["dataset", "pais"],
+        "on": "click[event.item && event.item.datum && event.item.datum.anio == null]",
+        "clear": "dblclick"
+      }
+    },
+    {
+      "name": "nivel2",
+      "select": {
+        "type": "point",
+        "fields": ["anio", "feature_clean"],
+        "on": "click[event.item && event.item.datum && event.item.datum.anio != null]",
+        "clear": "dblclick"
+      }
+    },
+    {
+      "name": "featureField",
+      "value": "Objetivo",
+      "bind": {
+        "input": "select",
+        "name": "Capa de análisis: ",
+        "options": ["Objetivo", "Impacto", "Estado", "Tipo"]
+      }
+    }
+  ],
+  "vconcat": [
+    {
+      "title": "Nivel 1: Leyes/Proyectos -> País",
+      "width": 920,
+      "height": 260,
+      "mark": { "type": "rect", "cornerRadius": 4 },
+      "encoding": {
+        "x": {
+          "field": "pais",
+          "type": "nominal",
+          "title": "País"
+        },
+        "y": {
+          "field": "dataset",
+          "type": "nominal",
+          "title": "Tipo de norma"
+        },
+        "color": {
+          "aggregate": "count",
+          "type": "quantitative",
+          "title": "Cantidad",
+          "scale": { "scheme": "tealblues" }
+        },
+        "opacity": {
+          "condition": { "param": "nivel1", "value": 1 },
+          "value": 0.85
+        },
+        "tooltip": [
+          { "field": "dataset", "title": "Tipo" },
+          { "field": "pais", "title": "País" },
+          { "aggregate": "count", "title": "Registros" }
+        ]
+      }
+    },
+    {
+      "title": "Nivel 2: País + Tipo -> Capa seleccionada por año",
+      "transform": [
+        { "filter": { "param": "nivel1", "empty": true } },
+        {
+          "calculate": "featureField == 'Objetivo' ? datum.objetivo : featureField == 'Impacto' ? datum.impacto : featureField == 'Estado' ? datum.estado : datum.tipo",
+          "as": "feature_value"
+        },
+        {
+          "calculate": "isValid(datum.feature_value) && datum.feature_value !== '' ? datum.feature_value : 'Sin dato'",
+          "as": "feature_clean"
+        }
+      ],
+      "width": 920,
+      "height": 320,
+      "mark": { "type": "rect", "cornerRadius": 2 },
+      "encoding": {
+        "x": {
+          "field": "anio",
+          "type": "ordinal",
+          "sort": "ascending",
+          "title": "Año"
+        },
+        "y": {
+          "field": "feature_clean",
+          "type": "nominal",
+          "title": "Categoría"
+        },
+        "color": {
+          "aggregate": "count",
+          "type": "quantitative",
+          "title": "Cantidad",
+          "scale": { "scheme": "goldgreen" }
+        },
+        "opacity": {
+          "condition": { "param": "nivel2", "value": 1 },
+          "value": 0.82
+        },
+        "stroke": {
+          "condition": { "param": "nivel2", "value": "#111111" },
+          "value": "#ffffff"
+        },
+        "strokeWidth": {
+          "condition": { "param": "nivel2", "value": 1.2 },
+          "value": 0.4
+        },
+        "tooltip": [
+          { "field": "anio", "title": "Año" },
+          { "field": "feature_clean", "title": "Categoría" },
+          { "aggregate": "count", "title": "Registros" }
+        ]
+      }
+    }
+  ],
+  "resolve": { "scale": { "color": "independent" } }
+}

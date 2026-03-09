@@ -6,9 +6,20 @@ Optional: title
 {{- $spec := .Get "spec" -}}
 {{- $id := .Get "id" | default (printf "vega-%d" .Ordinal) -}}
 {{- $title := .Get "title" -}}
-<div class="vega-chart">
+{{- $isSunburst := eq $id "chart-observatorio-sunburst" -}}
+<div class="vega-chart{{ if $isSunburst }} vega-chart--with-panel{{ end }}">
   {{- if $title }}<h3 class="vega-title">{{ $title }}</h3>{{ end -}}
+  {{- if $isSunburst -}}
+  <div class="vega-chart__layout">
+    <div id="{{ $id }}" class="vega-chart__viz"></div>
+    <aside class="vega-info-panel" data-sunburst-info>
+      <h4 class="vega-info-panel__title">Detalle</h4>
+      <p class="vega-info-panel__hint">Haz click en un segmento del gráfico para ver información.</p>
+    </aside>
+  </div>
+  {{- else -}}
   <div id="{{ $id }}"></div>
+  {{- end -}}
 </div>
 <script>
   window.__vega_specs = window.__vega_specs || [];

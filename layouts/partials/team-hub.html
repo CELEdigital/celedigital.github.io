@@ -1,0 +1,60 @@
+{{ $groups := slice
+  (dict "key" "staff" "title" "Staff")
+  (dict "key" "alumni" "title" "Alumni")
+  (dict "key" "friends" "title" "Friends")
+}}
+{{ $sourceSections := slice "authors" "autores" }}
+{{ $allPeople := slice }}
+{{ range site.RegularPages }}
+  {{ if and (eq .Lang $.Lang) (in $sourceSections .Section) }}
+    {{ $allPeople = $allPeople | append . }}
+  {{ end }}
+{{ end }}
+
+<section class="authors-hub">
+
+  {{ range $groups }}
+    {{ $type := .key }}
+    {{ $title := .title }}
+    {{ $people := slice }}
+    {{ range $allPeople }}
+      {{ $currentType := lower (.Params.author_type | default "") }}
+      {{ if and (eq $type "staff") (eq $currentType "") }}
+        {{ $people = $people | append . }}
+      {{ else if eq $currentType $type }}
+        {{ $people = $people | append . }}
+      {{ end }}
+    {{ end }}
+    {{ $people = sort $people "Weight" "asc" }}
+    {{ $withYaml := slice }}
+    {{ $withoutYaml := slice }}
+    {{ range $people }}
+      {{ $hasYaml := or .Params.author_type .Params.weight .Params.bio_short .Params.role .Params.photo .Params.twitter_handle .Params.bluesky_handle .Params.orcid_number .Params.email .Params.title }}
+      {{ if $hasYaml }}
+        {{ $withYaml = $withYaml | append . }}
+      {{ else }}
+        {{ $withoutYaml = $withoutYaml | append . }}
+      {{ end }}
+    {{ end }}
+    {{ $orderedPeople := slice }}
+    {{ range $withYaml }}
+      {{ $orderedPeople = $orderedPeople | append . }}
+    {{ end }}
+    {{ range $withoutYaml }}
+      {{ $orderedPeople = $orderedPeople | append . }}
+    {{ end }}
+
+    <section class="authors-group" data-author-type="{{ $type }}">
+      <h2 class="authors-group__title">{{ $title }}</h2>
+      {{ if gt (len $orderedPeople) 0 }}
+        <ul class="authors-grid">
+          {{ range $orderedPeople }}
+            {{ partial "author-card.html" (dict "page" .) }}
+          {{ end }}
+        </ul>
+      {{ else }}
+        <p class="authors-group__empty">No entries yet.</p>
+      {{ end }}
+    </section>
+  {{ end }}
+</section>

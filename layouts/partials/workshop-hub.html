@@ -1,0 +1,66 @@
+{{ $leftDescription := .Params.description | default .Params.summary }}
+{{ $isES := eq .Lang "es" }}
+{{ $yearPages := .Sections.ByWeight }}
+
+<section class="workshop-hub section-hub">
+  <header class="section-hub__header section-hub__header--split">
+    <div class="section-hub__header-text">
+      <h1 class="section-hub__title">{{ .Title }}</h1>
+      {{ with $leftDescription }}
+        <div class="section-hub__description">
+          {{ . | markdownify }}
+        </div>
+      {{ end }}
+    </div>
+    <div class="section-hub__header-media">
+      {{ with .Params.image }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+      {{ else }}
+        <div class="section-hub__image-placeholder"></div>
+      {{ end }}
+    </div>
+  </header>
+
+  {{ if gt (len $yearPages) 0 }}
+    <div class="workshop-links js-workshop-links" aria-label="{{ cond $isES "Subsecciones de Taller" "Workshop subsections" }}">
+      {{ range $idx, $page := $yearPages }}
+        {{ $label := replaceRE `(?i)^(taller|workshop)\s+` "" $page.Title }}
+        {{ $urlTrim := strings.TrimSuffix "/" $page.RelPermalink }}
+        {{ $urlParts := split $urlTrim "/" }}
+        {{ $slug := index $urlParts (sub (len $urlParts) 1) }}
+        <h3 class="workshop-links__item{{ if eq $idx 0 }} workshop-links__item--latest is-active{{ else }} workshop-links__item--older{{ end }}">
+          <a
+            href="{{ $page.RelPermalink }}"
+            class="workshop-links__trigger"
+            data-workshop-target="workshop-panel-{{ $idx }}"
+            data-workshop-slug="{{ $slug }}"
+            aria-controls="workshop-panel-{{ $idx }}"
+            {{ if eq $idx 0 }}aria-current="page"{{ end }}
+          >{{ $label }}</a>
+        </h3>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{ with .Content }}
+    <div class="section-content">
+      {{ . }}
+    </div>
+  {{ end }}
+
+  {{ if gt (len $yearPages) 0 }}
+    <div class="workshop-panels js-workshop-panels">
+      {{ range $idx, $page := $yearPages }}
+        <section
+          id="workshop-panel-{{ $idx }}"
+          class="workshop-panel{{ if eq $idx 0 }} is-active{{ end }}"
+          data-workshop-panel
+          {{ if ne $idx 0 }}hidden{{ end }}
+          aria-label="{{ $page.Title }}"
+        >
+          {{ partial "workshop-subhub-content.html" $page }}
+        </section>
+      {{ end }}
+    </div>
+  {{ end }}
+</section>

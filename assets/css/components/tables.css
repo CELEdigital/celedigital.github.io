@@ -1,0 +1,41 @@
+.table-responsive,
+.workshop-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive table {
+  width: max-content;
+  min-width: 100%;
+}
+
+.table-responsive table th,
+.table-responsive table td {
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+  .table-responsive table {
+    font-size: 0.86rem;
+    min-width: 100%;
+  }
+
+  .table-responsive table th,
+  .table-responsive table td {
+    padding: 0.55rem 0.6rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .table-responsive table {
+    font-size: 0.8rem;
+  }
+
+  .table-responsive table th,
+  .table-responsive table td {
+    padding: 0.45rem 0.5rem;
+  }
+}

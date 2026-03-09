@@ -1,18 +1,32 @@
 ---
-title: "Audiencia CIDH sobre libertad de expresión"
+title: Audiencia CIDH sobre libertad de expresión
 type: posts
-description: "Contribución del CELE a la audiencia sobre libertad de expresión en la Argentina ante la Comisión Interamericana"
+description: Contribución del CELE a la audiencia sobre libertad de expresión en la Argentina ante la Comisión Interamericana
 featured: true
 translationKey: CIDH-hearing
 date: 2026-02-04
-programs: ["policy"] # or policy, investigaciones, topics, research
-content_type: ["blog"]
-tags: ["institucional"]
-author: 
-  - Lina Palacios
-image: "/img/sanfrancisco2018.jpeg"
+programs:
+- policy
+content_type:
+- blog
+tags:
+- institucional
+author:
+- Lina Palacios
+image: /img/sanfrancisco2018.jpeg
+issues:
+- Privacidad y vigilancia
+- LDE
+- DDHH
+- Amenazas a la LDE
+placements:
+- hub: policy
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: policy
+  block: blog
+  weight: 2
 ---
-
 Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).
 
 Las organizaciones participantes denunciaron un deterioro rápido y pronunciado de las condiciones para el ejercicio periodístico en Argentina.  Señalaron un aumento significativo de agresiones hacia periodistas, que van desde violencia en internet  y el  hostigamiento hasta violencia física, y muchas veces ejercidas por autoridades públicas.. El CELE ya había  destacado y analizado esta situación, señalada también en  el más reciente informe de la Relatoría Especial para la Libertad de Expresión (RELE) de la Comisión Interamericana de Derechos Humanos.  FOPEA calificó como “narrativas de odio y desinformación” los patrones de agresiones por parte de funcionarios públicos del gobierno en curso,  usadas estratégicamente para el silenciamiento a través de la restricción del debate público, especialmente por el presidente Javier Milei, quien afirmó, en reiteradas oportunidades, que  “no odiamos lo suficiente a los periodistas”. 

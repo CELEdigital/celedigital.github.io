@@ -1,0 +1,88 @@
+{{ $p := .page }}
+{{ $rawName := $p.Params.title | default $p.Title | default $p.LinkTitle }}
+{{ $rawName = trim $rawName " " }}
+{{ $fallbackName := "Author" }}
+{{ $relPath := trim $p.RelPermalink "/" }}
+{{ $parts := split $relPath "/" }}
+{{ if gt (len $parts) 0 }}
+  {{ $slug := index $parts (sub (len $parts) 1) }}
+  {{ if ne $slug "" }}
+    {{ $fallbackName = replace $slug "-" " " | title }}
+  {{ end }}
+{{ end }}
+{{ $name := $rawName }}
+{{ if eq (len (findRE `[[:alnum:]]` $name)) 0 }}
+  {{ $name = $fallbackName }}
+{{ end }}
+{{ $twitter := strings.TrimPrefix "@" ($p.Params.twitter_handle | default "") }}
+{{ $bluesky := strings.TrimPrefix "@" ($p.Params.bluesky_handle | default "") }}
+{{ $orcid := $p.Params.orcid_number | default "" }}
+{{ $emailValue := $p.Params.email | default "" }}
+{{ $emailLocal := "" }}
+{{ $emailDomain := "" }}
+{{ if reflect.IsMap $emailValue }}
+  {{ $emailLocal = index $emailValue "local" | default "" }}
+  {{ $emailDomain = index $emailValue "domain" | default "" }}
+{{ else }}
+  {{ if and (ne $emailValue "") (in $emailValue "@") }}
+    {{ $parts := split $emailValue "@" }}
+    {{ if ge (len $parts) 2 }}
+      {{ $emailLocal = index $parts 0 }}
+      {{ $emailDomain = delimit (after 1 $parts) "@" }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $emailHref := "" }}
+{{ if and $emailLocal $emailDomain }}
+  {{ $emailHref = printf "mailto:%s@%s" $emailLocal $emailDomain }}
+{{ end }}
+
+<li class="author-card">
+  <article class="author-card__inner">
+    <div class="author-card__main">
+      {{ with $p.Params.photo }}
+        <a class="author-card__photo-link" href="{{ $p.RelPermalink }}">
+          <img class="author-card__photo" src="{{ . | relURL }}" alt="{{ $name }}">
+        </a>
+      {{ else }}
+        <a class="author-card__photo-link author-card__photo-link--placeholder" href="{{ $p.RelPermalink }}" aria-label="{{ $name }}"></a>
+      {{ end }}
+      <div class="author-card__body">
+        <h3 class="author-card__name">
+          <a href="{{ $p.RelPermalink }}">{{ $name }}</a>
+        </h3>
+        {{ with $p.Params.role }}
+          <p class="author-card__role">{{ . }}</p>
+        {{ end }}
+        {{ with $p.Params.bio_short }}
+          <p class="author-card__bio">{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+
+    {{ if or $twitter $bluesky $emailHref $orcid }}
+      <div class="author-card__meta" aria-label="Author links">
+        {{ with $twitter }}
+          <a class="author-card__icon-link" href="https://x.com/{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l16 16"/><path d="M20 4L4 20"/></svg>
+          </a>
+        {{ end }}
+        {{ with $bluesky }}
+          <a class="author-card__icon-link" href="https://bsky.app/profile/{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Bluesky">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 11.8c-1.7-3.1-4-6.1-6.8-8.2-1.6-1.2-3.2-.5-3.2 1.4 0 3.4 1.2 6.9 4.2 7.5 1.7.3 3.1-.2 4.3-1.3"/><path d="M12 11.8c1.7-3.1 4-6.1 6.8-8.2 1.6-1.2 3.2-.5 3.2 1.4 0 3.4-1.2 6.9-4.2 7.5-1.7.3-3.1-.2-4.3-1.3"/><path d="M8.4 14.5c1.6.2 2.7 1.1 3.6 2.9.9-1.8 2-2.7 3.6-2.9"/></svg>
+          </a>
+        {{ end }}
+        {{ with $emailHref }}
+          <a class="author-card__icon-link" href="{{ . }}" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          </a>
+        {{ end }}
+        {{ with $orcid }}
+          <a class="author-card__icon-link" href="https://orcid.org/{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="8.3" cy="8.3" r="0.9"/><path d="M8.3 11v4.8"/><path d="M11.3 11h2.6a2.4 2.4 0 0 1 0 4.8h-2.6z"/></svg>
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </article>
+</li>

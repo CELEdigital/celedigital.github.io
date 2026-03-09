@@ -1,0 +1,42 @@
+---
+author:
+- CELE
+content_type:
+- blog
+date: '2024-01-29'
+description: Comentarios del CELE a la consulta de la CE sobre la implementación de informes de transparencia de empresas
+  en la Ley de Servicios Digitales de la Unión Europea Soplan vientos de cambio en materia de regulación de plata
+featured: true
+image: /img/primer-plano-bandera-ondeante-realista-europa-texturas-interesantes-scaled.jpg
+programs:
+- policy
+slug: comentarios-del-cele-a-la-consulta-de-la-ce-sobre-la-implementacion-de-informes-de-transparencia-de-empresas-en-la-ley-de-servicios-digitales-de-la-union-europea
+tags:
+- institucional
+title: Comentarios del CELE a la consulta de la CE sobre la implementación de informes de transparencia de empresas en la
+  Ley de Servicios Digitales de la Unión Europea
+translationKey: wp-12363
+type: posts
+issues:
+- LDE
+- Gobernanza de Internet
+- Amenazas a la LDE
+placements:
+- hub: policy
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: policy
+  block: blog
+  weight: 2
+---
+## Comentarios del CELE a la consulta de la CE sobre la implementación de informes de transparencia de empresas en la Ley de Servicios Digitales de la Unión Europea
+
+Soplan vientos de cambio en materia de regulación de plataformas digitales. El 19 de octubre de 2022, la Unión Europea adoptó su Ley de Servicios Digitales (en adelante DSA, por sus siglas en inglés), que regula a los intermediarios y plataformas en línea -redes sociales, tiendas de aplicaciones, plataformas de compras en línea, etc.- y ya se encuentra parcialmente en vigencia. Por su gran complejidad, la diversidad de materias que involucra, y la celeridad que requerirá, la implementación de la DSA se vislumbra como un camino desafiante. Entre los múltiples aspectos que la DSA regula, se encuentran las obligaciones de transparencia de las empresas que proveen servicios intermediarios de internet. La Directiva pone en cabeza de los prestadores de estos servicios la publicación de informes de transparencia acerca de las actividades de moderación de contenido que llevan a cabo y sobre el cumplimiento con las órdenes estatales de actuación contra contenidos ilícitos y de entrega de información. Además, dado que la DSA establece obligaciones diferenciadas en base al tamaño, actividad e impacto social de estos intermediarios, los prestadores de servicio de alojamiento de datos (incluidas las plataformas en línea) y las grandes plataformas deben informar, también, acerca de las acciones llevadas adelante a raíz de los mecanismos de notificación y acción contra contenidos ilegales establecidos en la ley, así como sobre el uso de métodos automatizados de moderación de contenidos, el entrenamiento brindado a los moderadores humanos, etc. El 8 de diciembre de 2023, la Comisión Europea puso a disposición del público el borrador del acto de ejecución mediante el cual se instrumentarán estas obligaciones de transparencia y abrió un canal de participación. El CELE acercó sus comentarios en respuesta a la consulta y las recomendaciones pueden resumirse en estos puntos principales:
+
+  * Atento la historia y los problemas con los informes de transparencia voluntariamente ofrecidos por las empresas hasta ahora, se recomendó promover que los informes sean legibles a máquina y comparables, que proporcionen uniformidad y constancia cuando sea necesario, especialmente en aspectos procesales, como el uso de una metodología unificada para el reporte.
+  * Dado que la DSA tiene como objetivo regular y proveer mayor transparencia sobre la moderación y curacion de contenidos (expresiones) por parte de las empresas, desde un punto de vista de libertad de expresión resulta indispensable distinguir y separar las categorías de contenido ilegal de aquellas de contenido “legal pero dañino”. Esta distinción es particularmente importante en relacion con 1) quién reporta la moderación: el Estado sólo puede ordenar o solicitar la moderación de contenidos ilegales pero no los “dañinos pero legales”; 2) el funcionamiento e impacto de los “trusted flaggers” en el ecosistema de información en plataformas; 3) el margen de libertad de expresión promovido por las empresas privadas respecto de contenidos lícitos; 4) la naturaleza de las medidas que puedan adoptar la CE o los Estados miembros en base a los informes de transparencia, que variará de acuerdo a que la acción tomada por las empresas haya operado sobre contenidos ilícitos o sobre contenidos lícitos.
+  * Los datos cuantitativos solicitados en el formulario compartido requieren una mayor contextualización. Las empresas deberían tener la oportunidad de calificar y explicar los datos cuando sea necesario dentro de las mismas plantillas propuestas por la CE para los reportes.
+  * Los indicadores cualitativos deben informar a las categorías cuantitativas. Se recomienda que las empresas informen, cuando sea posible, por lo menos con la granularidad requerida por estándares universales de libertad de expresión, si el contenido informado o sobre el cual se ejerció moderación es contenido especialmente protegido por estándares internacionales o no, si involucró a funcionarios públicos, materias de interés público, o circunstancias especiales (elecciones, protesta social, etc.). Esta información permitirá evaluar la calidad de la moderación además de la cantidad y aportará datos esenciales para juzgar la acción de las empresas en materia de moderación. 
+  * Un enfoque de estudio de casos podría permitir al público comprender de primera mano cómo operan los criterios abstractos de moderación de contenido cuando se aplican a situaciones concretas.
+  * Finalmente, desde el CELE destacamos que las obligaciones de transparencia impuestas desde el Estado deben cumplir con estándares de necesidad y proporcionalidad. Además, la información en torno a la clasificación que de las empresas sujetas a este régimen se haga debe ser pública y los criterios para la misma también. Sobre todo atento que la DSA menciona como elemento clave para la distinción el impacto que cada empresa pueda tener en la sociedad (además de la cantidad de usuarios y la facturación en Europa). La información derivada de los informes de transparencia puede proporcionar información valiosa para la evaluación del impacto social de las plataformas, lo que redundará en la adopción de políticas públicas mejores y más proporcionadas. Como contracara, la adopción de informes de transparencia que puedan arrojar resultados sesgados, descontextualizados o incompletos podría distorsionar la comprensión del impacto de la tecnología en la sociedad y resultar en restricciones innecesarias o desproporcionadas a la libertad de expresión para los usuarios de internet, diluyendo la calidad del debate público, y de forma incompatible con los estándares internacionales de libertad de expresión y acceso a la información.
+En la implementación de la DSA es fundamental no perder de vista que los estados y la UE están obligados a respetar y garantizar la libertad de expresión en Internet. Los objetivos de la DSA son legítimos y están establecidos en la ley. Las medidas que la CE adopte para implementar la DSA deben cumplir con los estándares de necesidad y proporcionalidad. Cada una de ellas, a fin de lograr una implementación efectiva, atender a los objetivos legítimos que la ley pueda tener, y salvaguardar las obligaciones de respeto y garantía de la libertad de expresión que los Estados contrajeron bajo la Convención Europea de Derechos Humanos y el Pacto Internacional de Derechos Civiles y Políticos.  La transparencia y el acceso a la información son fundamentales para la rendición de cuentas de las empresas de cara a la sociedad. La información presentada por las compañías en sus informes de transparencia servirá de insumo para la implementación de la DSA y la adopción de nuevas políticas públicas. Por ese motivo, es importante trabajar para que los informes reflejen las prácticas y procesos que las empresas siguen en la moderación de contenidos y cómo ellos se ajustan a estándares internacionales y regionales de libertad de expresión. Además, los informes de transparencia pueden coadyuvar a monitorear el impacto de ciertos incentivos que la implementación pueda generar para la censura o la restricción amplia de contenidos protegidos o los posibles impactos no deseados de esta ley en el debate público.  El documento completo puede ser consultado en este [enlace.](https://observatoriolegislativocele.com/wp-content/uploads/CELE-on-the-Draft-Delegated-Act-on-Transparency-Reports.pdf)

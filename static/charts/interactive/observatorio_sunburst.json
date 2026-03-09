@@ -1,0 +1,289 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Sunburst navegable: tipo -> país -> categoría (gris para fuera de foco)",
+  "width": 760,
+  "height": 760,
+  "padding": 10,
+  "autosize": "pad",
+  "signals": [
+    {
+      "name": "featureField",
+      "value": "objetivo",
+      "bind": {
+        "input": "select",
+        "name": "Capa externa: ",
+        "options": ["objetivo", "impacto", "estado", "tipo"]
+      }
+    },
+    {
+      "name": "selectedDataset",
+      "value": null,
+      "on": [
+        { "events": "dblclick", "update": "null" },
+        { "events": "@datasetMark:click", "update": "datum.dataset" },
+        { "events": "@countryMark:click", "update": "datum.dataset" },
+        { "events": "@featureMark:click", "update": "datum.dataset" }
+      ]
+    },
+    {
+      "name": "selectedCountry",
+      "value": null,
+      "on": [
+        { "events": "dblclick", "update": "null" },
+        { "events": "@datasetMark:click", "update": "null" },
+        { "events": "@countryMark:click", "update": "datum.pais" },
+        { "events": "@featureMark:click", "update": "datum.pais" }
+      ]
+    },
+    {
+      "name": "selectedFeature",
+      "value": null,
+      "on": [
+        { "events": "dblclick", "update": "null" },
+        { "events": "@datasetMark:click", "update": "null" },
+        { "events": "@countryMark:click", "update": "null" },
+        { "events": "@featureMark:click", "update": "datum.feature_clean" }
+      ]
+    },
+    { "name": "cx", "update": "width / 2" },
+    { "name": "cy", "update": "height / 2" }
+  ],
+  "data": [
+    {
+      "name": "source",
+      "url": "/charts/interactive/observatorio_database.json"
+    },
+    {
+      "name": "datasetAgg",
+      "source": "source",
+      "transform": [
+        { "type": "aggregate", "groupby": ["dataset"], "ops": ["count"], "as": ["count"] },
+        { "type": "pie", "field": "count", "as": ["startAngle", "endAngle"] }
+      ]
+    },
+    {
+      "name": "countryAgg",
+      "source": "source",
+      "transform": [
+        { "type": "aggregate", "groupby": ["dataset", "pais"], "ops": ["count"], "as": ["count"] },
+        { "type": "pie", "field": "count", "as": ["startAngle", "endAngle"] }
+      ]
+    },
+    {
+      "name": "featureAgg",
+      "source": "source",
+      "transform": [
+        {
+          "type": "formula",
+          "as": "feature_raw",
+          "expr": "featureField === 'objetivo' ? datum.objetivo : featureField === 'impacto' ? datum.impacto : featureField === 'estado' ? datum.estado : datum.tipo"
+        },
+        {
+          "type": "formula",
+          "as": "feature_clean",
+          "expr": "isValid(datum.feature_raw) && datum.feature_raw !== '' ? datum.feature_raw : 'Sin dato'"
+        },
+        { "type": "aggregate", "groupby": ["dataset", "pais", "feature_clean"], "ops": ["count"], "as": ["count"] },
+        { "type": "pie", "field": "count", "as": ["startAngle", "endAngle"] }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "datasetColor",
+      "type": "ordinal",
+      "domain": { "data": "datasetAgg", "field": "dataset" },
+      "range": ["#1f6f78", "#7c9a2d"]
+    },
+    {
+      "name": "countryColor",
+      "type": "ordinal",
+      "domain": { "data": "countryAgg", "field": "pais" },
+      "range": { "scheme": "tableau20" }
+    }
+  ],
+  "marks": [
+    {
+      "name": "datasetMark",
+      "type": "arc",
+      "from": { "data": "datasetAgg" },
+      "encode": {
+        "enter": {
+          "x": { "signal": "cx" },
+          "y": { "signal": "cy" },
+          "innerRadius": { "value": 0 },
+          "outerRadius": { "value": 105 },
+          "cursor": { "value": "pointer" },
+          "stroke": { "value": "#fff" },
+          "strokeWidth": { "value": 1 }
+        },
+        "update": {
+          "startAngle": { "field": "startAngle" },
+          "endAngle": { "field": "endAngle" },
+          "fill": {
+            "signal": "selectedDataset === null || datum.dataset === selectedDataset ? scale('datasetColor', datum.dataset) : '#d1d5db'"
+          },
+          "fillOpacity": { "value": 0.96 },
+          "tooltip": { "signal": "{nivel: 'Tipo', etiqueta: datum.dataset, registros: datum.count}" }
+        },
+        "hover": { "fillOpacity": { "value": 1 } }
+      }
+    },
+    {
+      "name": "countryMark",
+      "type": "arc",
+      "from": { "data": "countryAgg" },
+      "encode": {
+        "enter": {
+          "x": { "signal": "cx" },
+          "y": { "signal": "cy" },
+          "innerRadius": { "value": 118 },
+          "outerRadius": { "value": 245 },
+          "cursor": { "value": "pointer" },
+          "stroke": { "value": "#fff" },
+          "strokeWidth": { "value": 1 }
+        },
+        "update": {
+          "startAngle": { "field": "startAngle" },
+          "endAngle": { "field": "endAngle" },
+          "fill": {
+            "signal": "(selectedDataset === null || datum.dataset === selectedDataset) && (selectedCountry === null || datum.pais === selectedCountry) ? scale('countryColor', datum.pais) : '#d1d5db'"
+          },
+          "fillOpacity": { "value": 0.94 },
+          "tooltip": { "signal": "{nivel: 'País', tipo: datum.dataset, etiqueta: datum.pais, registros: datum.count}" }
+        },
+        "hover": { "fillOpacity": { "value": 1 } }
+      }
+    },
+    {
+      "name": "featureMark",
+      "type": "arc",
+      "from": { "data": "featureAgg" },
+      "encode": {
+        "enter": {
+          "x": { "signal": "cx" },
+          "y": { "signal": "cy" },
+          "innerRadius": { "value": 258 },
+          "outerRadius": { "value": 350 },
+          "cursor": { "value": "pointer" },
+          "stroke": { "value": "#fff" },
+          "strokeWidth": { "value": 0.8 }
+        },
+        "update": {
+          "startAngle": { "field": "startAngle" },
+          "endAngle": { "field": "endAngle" },
+          "fill": {
+            "signal": "(selectedDataset === null || datum.dataset === selectedDataset) && (selectedCountry === null || datum.pais === selectedCountry) && (selectedFeature === null || datum.feature_clean === selectedFeature) ? scale('countryColor', datum.pais) : '#d1d5db'"
+          },
+          "fillOpacity": { "value": 0.9 },
+          "tooltip": {
+            "signal": "{nivel: 'Categoría', capa: featureField, tipo: datum.dataset, pais: datum.pais, etiqueta: datum.feature_clean, registros: datum.count}"
+          }
+        },
+        "hover": { "fillOpacity": { "value": 1 } }
+      }
+    },
+    {
+      "type": "rect",
+      "zindex": 30,
+      "encode": {
+        "enter": {
+          "x": { "signal": "cx - 74" },
+          "y": { "signal": "cy - 80" },
+          "width": { "value": 148 },
+          "height": { "value": 24 },
+          "cornerRadius": { "value": 8 },
+          "fill": { "value": "#ffffff" },
+          "fillOpacity": { "value": 1 },
+          "stroke": { "value": "#d1d5db" },
+          "strokeWidth": { "value": 1 }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "zindex": 31,
+      "encode": {
+        "enter": {
+          "x": { "signal": "cx" },
+          "y": { "signal": "cy - 68" },
+          "align": { "value": "center" },
+          "baseline": { "value": "middle" },
+          "font": { "value": "Jost, Arial, sans-serif" },
+          "fontWeight": { "value": 600 },
+          "fontSize": { "value": 13 },
+          "fill": { "value": "#000000" },
+          "text": { "value": "Nivel 1: Tipo" }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "zindex": 30,
+      "encode": {
+        "enter": {
+          "x": { "signal": "cx - 76" },
+          "y": { "signal": "cy - 184" },
+          "width": { "value": 152 },
+          "height": { "value": 24 },
+          "cornerRadius": { "value": 8 },
+          "fill": { "value": "#ffffff" },
+          "fillOpacity": { "value": 1 },
+          "stroke": { "value": "#d1d5db" },
+          "strokeWidth": { "value": 1 }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "zindex": 31,
+      "encode": {
+        "enter": {
+          "x": { "signal": "cx" },
+          "y": { "signal": "cy - 172" },
+          "align": { "value": "center" },
+          "baseline": { "value": "middle" },
+          "font": { "value": "Jost, Arial, sans-serif" },
+          "fontWeight": { "value": 600 },
+          "fontSize": { "value": 13 },
+          "fill": { "value": "#000000" },
+          "text": { "value": "Nivel 2: País" }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "zindex": 30,
+      "encode": {
+        "enter": {
+          "x": { "signal": "cx - 90" },
+          "y": { "signal": "cy - 316" },
+          "width": { "value": 180 },
+          "height": { "value": 24 },
+          "cornerRadius": { "value": 8 },
+          "fill": { "value": "#ffffff" },
+          "fillOpacity": { "value": 1 },
+          "stroke": { "value": "#d1d5db" },
+          "strokeWidth": { "value": 1 }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "zindex": 31,
+      "encode": {
+        "enter": {
+          "x": { "signal": "cx" },
+          "y": { "signal": "cy - 304" },
+          "align": { "value": "center" },
+          "baseline": { "value": "middle" },
+          "font": { "value": "Jost, Arial, sans-serif" },
+          "fontWeight": { "value": 600 },
+          "fontSize": { "value": 13 },
+          "fill": { "value": "#000000" },
+          "text": { "value": "Nivel 3: Categoría" }
+        }
+      }
+    }
+  ]
+}

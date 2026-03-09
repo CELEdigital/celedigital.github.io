@@ -1,15 +1,190 @@
 {{ define "main" }}
 {{ $hubSections := slice "investigaciones" "policy" "temas" "topics" "research" }}
+{{ $observatorySections := slice "observatorio-legislativo" "legislative-observatory" }}
+{{ $workshopSections := slice "taller" "workshop" }}
+{{ $documentationSections := slice "documentacion" "documentation" }}
 {{ if in $hubSections .Section }}
   {{ partial "section-hub.html" . }}
-{{ else }}
-  <h1>{{ .Title }}</h1>
-  <ul>
-    {{ range .Pages }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
+{{ else if in $observatorySections .Section }}
+  {{ partial "observatory-hub.html" . }}
+{{ else if in $workshopSections .Section }}
+  {{ $isWorkshopYearSubsection := false }}
+  {{ with .File }}
+    {{ $parts := split .Path "/" }}
+    {{ $isWorkshopYearSubsection = ge (len $parts) 3 }}
+  {{ end }}
+  {{ if $isWorkshopYearSubsection }}
+    {{ partial "workshop-subhub.html" . }}
+  {{ else }}
+    {{ partial "workshop-hub.html" . }}
+  {{ end }}
+{{ else if or (eq .Section "authors") (eq .Section "autores") }}
+  {{ partial "authors-hub.html" . }}
+{{ else if in $documentationSections .Section }}
+  <section class="documentation-page">
+    <h1 class="documentation-page__title">{{ .Title }}</h1>
+    {{ with .Description }}
+      <p class="documentation-page__description">{{ . }}</p>
     {{ end }}
-  </ul>
+    {{ with .Content }}
+      <div class="section-content">
+        {{ . }}
+      </div>
+    {{ end }}
+  </section>
+{{ else }}
+  {{ if eq .Section "posts" }}
+    {{ $initialVisible := 3 }}
+    {{ $posts := .Pages.ByDate.Reverse }}
+    {{ $listID := printf "section-block-posts-%s" .Lang }}
+    <section class="section-hub">
+      <header class="section-hub__header">
+        <h1 class="section-hub__title">{{ .Title }}</h1>
+        {{ with .Content }}
+          <div class="section-hub__description">
+            {{ . }}
+          </div>
+        {{ end }}
+      </header>
+      <div class="section-hub__blocks">
+        <section class="section-block">
+          <h2>{{ i18n "hub_blog" }}</h2>
+          {{ if gt (len $posts) 0 }}
+            <ul id="{{ $listID }}" class="section-block__list" data-hub-list data-load-step="{{ $initialVisible }}">
+              {{ range $idx, $page := $posts }}
+                <li
+                  class="section-block__item section-block__item--media-right{{ if ge $idx $initialVisible }} is-hub-hidden{{ end }}"
+                  {{ if ge $idx $initialVisible }}hidden{{ end }}
+                >
+                  <div class="section-block__body">
+                    <h3 class="section-block__title">
+                      <a class="section-block__link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+                    </h3>
+                    {{ with $page.Params.description }}
+                      <p class="section-block__excerpt">{{ . }}</p>
+                    {{ end }}
+                    {{ $hasAuthor := $page.Params.author }}
+                    {{ $hasDate := not $page.Date.IsZero }}
+                    {{ if or $hasAuthor $hasDate }}
+                      <div class="section-block__byline">
+                        {{ with $page.Params.author }}
+                          <span class="section-block__by">{{ i18n "byline" }} {{ partial "author-links.html" (dict "authors" . "context" $page) }}</span>
+                        {{ end }}
+                        {{ if $hasDate }}
+                          <time class="section-block__date" datetime="{{ $page.Date.Format "2006-01-02" }}">{{ partial "date-es.html" $page.Date }}</time>
+                        {{ end }}
+                      </div>
+                    {{ end }}
+                  </div>
+                  {{ with $page.Params.image }}
+                    <div class="section-block__media">
+                      <img src="{{ . | relURL }}" alt="{{ $page.Title }}">
+                    </div>
+                  {{ end }}
+                </li>
+              {{ end }}
+            </ul>
+            {{ if gt (len $posts) $initialVisible }}
+              <button
+                type="button"
+                class="section-block__load-more"
+                data-hub-load-more
+                data-hub-target="{{ $listID }}"
+                hidden
+              >
+                {{ i18n "hub_load_more" }}
+              </button>
+            {{ end }}
+          {{ else }}
+            <div class="section-block__content">
+              {{ i18n "hub_empty" }}
+            </div>
+          {{ end }}
+        </section>
+      </div>
+    </section>
+  {{ else if eq .Section "publicaciones" }}
+    {{ $initialVisible := 3 }}
+    {{ $publicaciones := .Pages.ByDate.Reverse }}
+    {{ $listID := printf "section-block-publicaciones-%s" .Lang }}
+    <section class="section-hub">
+      <header class="section-hub__header">
+        <h1 class="section-hub__title">{{ .Title }}</h1>
+        {{ with .Content }}
+          <div class="section-hub__description">
+            {{ . }}
+          </div>
+        {{ end }}
+      </header>
+      <div class="section-hub__blocks">
+        <section class="section-block">
+          <h2>{{ i18n "hub_research" }}</h2>
+          {{ if gt (len $publicaciones) 0 }}
+            <ul id="{{ $listID }}" class="section-block__list" data-hub-list data-load-step="{{ $initialVisible }}">
+              {{ range $idx, $page := $publicaciones }}
+                <li
+                  class="section-block__item section-block__item--media-right{{ if ge $idx $initialVisible }} is-hub-hidden{{ end }}"
+                  {{ if ge $idx $initialVisible }}hidden{{ end }}
+                >
+                  <div class="section-block__body">
+                    <h3 class="section-block__title">
+                      <a class="section-block__link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+                    </h3>
+                    {{ $excerpt := $page.Params.description | default $page.Params.abstract }}
+                    {{ with $excerpt }}
+                      <p class="section-block__excerpt">{{ . | plainify | truncate 420 }}</p>
+                    {{ end }}
+                    {{ $hasAuthor := $page.Params.author }}
+                    {{ $hasDate := not $page.Date.IsZero }}
+                    {{ if or $hasAuthor $hasDate }}
+                      <div class="section-block__byline">
+                        {{ with $page.Params.author }}
+                          <span class="section-block__by">{{ i18n "byline" }} {{ partial "author-links.html" (dict "authors" . "context" $page) }}</span>
+                        {{ end }}
+                        {{ if $hasDate }}
+                          <time class="section-block__date" datetime="{{ $page.Date.Format "2006-01-02" }}">{{ partial "date-es.html" $page.Date }}</time>
+                        {{ end }}
+                      </div>
+                    {{ end }}
+                  </div>
+                </li>
+              {{ end }}
+            </ul>
+            {{ if gt (len $publicaciones) $initialVisible }}
+              <button
+                type="button"
+                class="section-block__load-more"
+                data-hub-load-more
+                data-hub-target="{{ $listID }}"
+                hidden
+              >
+                {{ i18n "hub_load_more" }}
+              </button>
+            {{ end }}
+          {{ else }}
+            <div class="section-block__content">
+              {{ i18n "hub_empty" }}
+            </div>
+          {{ end }}
+        </section>
+      </div>
+    </section>
+  {{ else }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}
+      <div class="section-content">
+        {{ . }}
+      </div>
+    {{ end }}
+    {{ if gt (len .Pages) 0 }}
+      <ul>
+        {{ range .Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  {{ end }}
 {{ end }}
 {{ end }}

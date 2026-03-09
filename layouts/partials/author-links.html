@@ -1,0 +1,78 @@
+{{- $authorsInput := .authors -}}
+{{- $context := .context -}}
+{{- $lang := $context.Lang -}}
+{{- $conj := cond (eq $lang "es") " y " " and " -}}
+{{- $authorSections := slice "autores" "authors" -}}
+{{- $authors := slice -}}
+
+{{- if reflect.IsSlice $authorsInput -}}
+  {{- $authors = $authorsInput -}}
+{{- else if $authorsInput -}}
+  {{- $authors = slice $authorsInput -}}
+{{- end -}}
+
+{{- $authorPages := where $context.Site.RegularPages "Section" "in" $authorSections -}}
+{{- $authorPagesLang := where $authorPages "Lang" $lang -}}
+{{- $count := len $authors -}}
+
+{{- range $idx, $raw := $authors -}}
+  {{- $name := strings.TrimSpace (printf "%v" $raw) -}}
+  {{- if not $name -}}{{- continue -}}{{- end -}}
+
+  {{- if gt $idx 0 -}}
+    {{- if and (gt $count 1) (eq $idx (sub $count 1)) -}}
+      {{- $conj -}}
+    {{- else -}}
+      {{- ", " -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $nameLower := lower $name -}}
+  {{- $nameSlug := lower (urlize $name) -}}
+  {{- $scratch := newScratch -}}
+  {{- $scratch.Set "match" nil -}}
+
+  {{- range $authorPagesLang -}}
+    {{- if not ($scratch.Get "match") -}}
+      {{- $title := lower (strings.TrimSpace (.Title | default "")) -}}
+      {{- $titleSlug := lower (urlize (.Title | default "")) -}}
+      {{- $fileSlug := "" -}}
+      {{- with .File }}{{ $fileSlug = lower .BaseFileName }}{{ end -}}
+      {{- $slug := lower (urlize (.Slug | default "")) -}}
+      {{- if or
+        (and $title (eq $title $nameLower))
+        (and $titleSlug (eq $titleSlug $nameSlug))
+        (and $fileSlug (eq $fileSlug $nameSlug))
+        (and $slug (eq $slug $nameSlug))
+      -}}
+        {{- $scratch.Set "match" . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if not ($scratch.Get "match") -}}
+    {{- range $authorPages -}}
+      {{- if not ($scratch.Get "match") -}}
+        {{- $title := lower (strings.TrimSpace (.Title | default "")) -}}
+        {{- $titleSlug := lower (urlize (.Title | default "")) -}}
+        {{- $fileSlug := "" -}}
+        {{- with .File }}{{ $fileSlug = lower .BaseFileName }}{{ end -}}
+        {{- $slug := lower (urlize (.Slug | default "")) -}}
+        {{- if or
+          (and $title (eq $title $nameLower))
+          (and $titleSlug (eq $titleSlug $nameSlug))
+          (and $fileSlug (eq $fileSlug $nameSlug))
+          (and $slug (eq $slug $nameSlug))
+        -}}
+          {{- $scratch.Set "match" . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with ($scratch.Get "match") -}}
+    <a href="{{ .RelPermalink }}">{{ $name }}</a>
+  {{- else -}}
+    {{- $name -}}
+  {{- end -}}
+{{- end -}}

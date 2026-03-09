@@ -1,0 +1,55 @@
+{{ define "main" }}
+<article class="single-layout">
+  <div class="single-content">
+    {{ with .Params.tags }}
+      <div class="single-tags">
+        {{ range . }}
+          {{ $key := printf "tag_%s" . }}
+          {{ $label := i18n $key | default . }}
+          <span class="single-tag">{{ $label }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+    <h1 class="single-title">{{ .Title }}</h1>
+
+    <div class="pub-meta-box">
+      <div class="pub-meta-author-ref">
+        {{ with .Params.author }}
+          <span class="pub-meta-author">{{ delimit . ", " }}</span>
+        {{ end }}
+        {{ with .Params.ssrn_reference }}
+          <span class="pub-meta-ref">{{ . }}</span>
+        {{ end }}
+        {{ if not .Date.IsZero }}
+          <span class="pub-meta-ref-date">
+            (<time datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "date-es.html" .Date }}</time>)
+          </span>
+        {{ end }}
+      </div>
+
+      {{ with .Params.ssrn_url }}
+        <div class="pub-meta-row pub-meta-row--link">
+          <a class="pub-meta-link" href="{{ . }}" target="_blank" rel="noopener">
+            Ver en SSRN →
+          </a>
+        </div>
+      {{ end }}
+    </div>
+
+    {{ with .Params.description }}
+      <p class="single-dek">{{ . }}</p>
+    {{ end }}
+    {{ .Content }}
+  </div>
+
+  <aside class="single-sidebar" aria-label="Publication image">
+    <div class="pub-image">
+      {{ with .Params.image }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+      {{ else }}
+        <img src="/img/covers/cover_placeholder.jpeg" alt="Publication cover placeholder" loading="lazy">
+      {{ end }}
+    </div>
+  </aside>
+</article>
+{{ end }}

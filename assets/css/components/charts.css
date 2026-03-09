@@ -8,5 +8,62 @@
 .vega-title {
   font-family: Jost, Arial, sans-serif;
   font-weight: 600;
-  margin: 0 0 12px;
+  margin: 0 0 20px;
+}
+
+.vega-chart--with-panel .vega-chart__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.vega-chart__viz {
+  min-height: 760px;
+}
+
+.vega-info-panel {
+  border: 1px solid #d1d5db;
+  border-radius: 0.75rem;
+  background: #fff;
+  padding: 0.9rem 1rem;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  align-self: center;
+}
+
+.vega-info-panel__title {
+  margin: 0 0 0.45rem;
+  font-family: Jost, Arial, sans-serif;
+  font-size: 1.05rem;
+  color: #111;
+}
+
+.vega-info-panel__hint {
+  margin: 0;
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.vega-info-panel__stats {
+  margin: 0.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vega-info-panel__stats li {
+  margin: 0 0 0.35rem;
+  color: #1f2937;
+  line-height: 1.35;
+}
+
+.vega-info-panel__label {
+  font-weight: 600;
+  color: #111;
+}
+
+@media (max-width: 700px) {
+  .vega-chart--with-panel .vega-chart__layout {
+    grid-template-columns: 1fr;
+  }
 }

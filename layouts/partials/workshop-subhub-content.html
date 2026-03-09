@@ -1,0 +1,43 @@
+{{ $isES := eq .Lang "es" }}
+{{ $galleryTitle := cond $isES "Galería" "Gallery" }}
+{{ $images := .Resources.ByType "image" }}
+{{ $subtitle := .Params.subtitle | default .Params.Subtitle }}
+
+{{ with $subtitle }}
+  <section class="workshop-subhub__subtitle-block">
+    <h2>{{ . }}</h2>
+  </section>
+{{ end }}
+
+{{ with .Params.description }}
+  <div class="section-hub__description workshop-subhub__description">
+    {{ . | markdownify }}
+  </div>
+{{ end }}
+
+{{ with .Content }}
+  <div class="section-content">
+    {{ . }}
+  </div>
+{{ end }}
+
+{{ partial "workshop-subhub-blocks.html" . }}
+
+{{ if gt (len $images) 0 }}
+  <section class="workshop-subhub__gallery">
+    <h2>{{ $galleryTitle }}</h2>
+    <div class="workshop-gallery js-workshop-gallery">
+      <div class="workshop-gallery__viewport" data-gallery-track>
+        {{ range sort $images "Name" }}
+          <figure class="workshop-gallery__slide">
+            <img src="{{ .RelPermalink }}" alt="{{ .Title | default $.Title }}">
+          </figure>
+        {{ end }}
+      </div>
+      <div class="workshop-gallery__controls">
+        <button type="button" class="workshop-gallery__btn" data-gallery-prev aria-label="{{ cond $isES "Anterior" "Previous" }}">&lt;</button>
+        <button type="button" class="workshop-gallery__btn" data-gallery-next aria-label="{{ cond $isES "Siguiente" "Next" }}">&gt;</button>
+      </div>
+    </div>
+  </section>
+{{ end }}

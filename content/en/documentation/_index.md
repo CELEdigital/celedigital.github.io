@@ -4,4 +4,4 @@ description: "Explore projects and laws with interactive filters."
 translationKey: documentation
 ---
 
-{{< documentation >}}
+{{< documentation show_header="false" >}}

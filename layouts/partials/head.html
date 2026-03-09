@@ -6,8 +6,20 @@
   (resources.Get "css/components/single.css")
   (resources.Get "css/components/documentation.css")
   (resources.Get "css/components/section-hub.css")
+  (resources.Get "css/components/authors-hub.css")
+  (resources.Get "css/components/observatory-hub.css")
+  (resources.Get "css/components/workshop-hub.css")
+  (resources.Get "css/components/workshop-subhub.css")
+  (resources.Get "css/components/tables.css")
+  (resources.Get "css/components/charts.css")
   (resources.Get "css/style.css")
 }}
 {{ $css := $styles | resources.Concat "css/style.css" | minify }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 <script src="{{ "data/documentation.js" | relURL }}" defer></script>
+<script src="{{ "data/section-hub.js" | relURL }}" defer></script>
+<script src="{{ "data/observatory-hub.js" | relURL }}" defer></script>
+<script src="{{ "data/workshop-hub.js" | relURL }}" defer></script>
+<script src="{{ "data/workshop-subhub.js" | relURL }}" defer></script>
+<script src="{{ "data/workshop-tables.js" | relURL }}" defer></script>
+<script src="{{ "data/tables-responsive.js" | relURL }}" defer></script>

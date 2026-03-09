@@ -5,3 +5,11 @@ translationKey: "mission"
 ---
 
 El Centro de Estudios en Libertad de Expresión (CELE) fue creado en el año 2009 en el ámbito de la Facultad de Derecho de la Universidad de Palermo con el objetivo de proveer de investigaciones a periodistas, instituciones gubernamentales, unidades académicas, y demás sectores de la sociedad civil dedicados a la defensa y a la promoción de estos derechos, especialmente en América Latina.
+
+La creación del CELE responde a la necesidad de construir espacios de debate dedicados a reflexionar sobre la importancia, los contenidos y los límites de estos derechos en la región. Para esto, el centro se propone dialogar y trabajar en conjunto con otras instituciones académicas del país y de Latinoamérica.
+
+En este marco, los objetivos específicos del CELE son:
+
+- Desarrollar estudios y guías de recomendaciones que tengan impacto en políticas públicas vinculadas al acceso a la información y la libertad de expresión.
+- Fomentar junto con distintas unidades académicas la profundización de estudios vinculados a estos derechos.
+- Contribuir a la generación de conciencia sobre la importancia de estos derechos en sociedades democráticas, fundamentalmente en las nuevas generaciones.

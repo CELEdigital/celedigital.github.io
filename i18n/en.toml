@@ -124,6 +124,9 @@ other = "Blog"
 [hub_empty]
 other = "Content coming soon."
 
+[hub_load_more]
+other = "Load more"
+
 [tag_institucional]
 other = "institutional"
 

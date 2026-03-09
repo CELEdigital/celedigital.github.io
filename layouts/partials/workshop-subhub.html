@@ -1,0 +1,18 @@
+<section class="section-hub hub-single workshop-subhub">
+  <header class="section-hub__header">
+    <div class="section-hub__header-text">
+      {{ $parent := .Parent }}
+      {{ if and $parent (ne $parent.RelPermalink .RelPermalink) }}
+        <h1 class="section-hub__title hub-single__inline-title">
+          <a class="hub-single__parent-title" href="{{ $parent.RelPermalink }}">{{ $parent.Title }}</a>
+          <span class="hub-single__title-sep" aria-hidden="true"></span>
+          <span class="hub-single__child-title">{{ .Title }}</span>
+        </h1>
+      {{ else }}
+        <h1 class="section-hub__title">{{ .Title }}</h1>
+      {{ end }}
+    </div>
+  </header>
+
+  {{ partial "workshop-subhub-content.html" . }}
+</section>

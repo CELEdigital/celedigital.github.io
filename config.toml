@@ -1,7 +1,12 @@
 theme = "basic"
-baseURL = "https://celedigital.github.io/"
+baseURL = "http://localhost:1313/"
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [languages]
   [languages.es]
@@ -105,11 +110,6 @@ defaultContentLanguageInSubdir = true
         url = "/taller/"
         weight = 6
 
-      [[languages.es.menu.main]]
-        name = "sala de prensa"
-        url = "/sala-de-prensa/"
-        weight = 7
-
   [languages.en]
     languageName = "English"
     languageCode = "en"
@@ -210,8 +210,3 @@ defaultContentLanguageInSubdir = true
         name = "Workshop"
         url = "/workshop/"
         weight = 6
-
-      [[languages.en.menu.main]]
-        name = "Press Room"
-        url = "/press-room/"
-        weight = 7

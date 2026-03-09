@@ -1,13 +1,26 @@
 {{ $sectionKey := .Params.section_key | default .Section }}
 {{ $items := site.RegularPages }}
+{{ $initialVisible := 3 }}
+{{ $hubSlug := lower (replace (replace $sectionKey "-" "_") " " "_") }}
+{{ $sectionSlug := lower (replace (replace .Section "-" "_") " " "_") }}
+{{ $translationHub := "" }}
+{{ with .Params.translationKey }}
+  {{ $translationHub = lower (replace (replace . "-" "_") " " "_") }}
+{{ end }}
+{{ $hubFilters := .Params.hub_filters }}
+{{ if not $hubFilters }}
+  {{ $translations := .Translations }}
+  {{ if gt (len $translations) 0 }}
+    {{ $t := index $translations 0 }}
+    {{ $hubFilters = $t.Params.hub_filters }}
+  {{ end }}
+{{ end }}
 {{ $blocks := slice
-  (dict "key" "featured" "title" (i18n "hub_featured"))
-  (dict "key" "news-analysis" "title" (i18n "hub_news"))
-  (dict "key" "research" "title" (i18n "hub_research"))
-  (dict "key" "position-paper" "title" (i18n "hub_position"))
-  (dict "key" "press" "title" (i18n "hub_press"))
-  (dict "key" "event" "title" (i18n "hub_events"))
-  (dict "key" "blog" "title" (i18n "hub_blog"))
+  (dict "key" "featured" "surface" "destacado" "title" (i18n "hub_featured"))
+  (dict "key" "news-analysis" "surface" "ultimas_noticias_analisis" "title" (i18n "hub_news"))
+  (dict "key" "research" "surface" "investigaciones" "title" (i18n "hub_research"))
+  (dict "key" "event" "surface" "eventos" "title" (i18n "hub_events"))
+  (dict "key" "blog" "surface" "blog" "title" (i18n "hub_blog"))
 }}
 
 <section class="section-hub">
@@ -32,9 +45,231 @@
   <div class="section-hub__blocks">
     {{ range $blocks }}
       {{ $blockKey := .key }}
+      {{ $blockSurface := .surface | default $blockKey }}
+      {{ $blockSurfaceSlug := lower (replace (replace $blockSurface "-" "_") " " "_") }}
+      {{ $blockKeySlug := lower (replace (replace $blockKey "-" "_") " " "_") }}
       {{ $blockItems := slice }}
+      {{ $requiredIssuesRaw := slice }}
+      {{ if and $hubFilters (reflect.IsMap $hubFilters) }}
+        {{ if isset $hubFilters "issues_any" }}
+          {{ $globalIssues := index $hubFilters "issues_any" }}
+          {{ if reflect.IsSlice $globalIssues }}
+            {{ $requiredIssuesRaw = $globalIssues }}
+          {{ else if $globalIssues }}
+            {{ $requiredIssuesRaw = slice $globalIssues }}
+          {{ end }}
+        {{ end }}
+
+        {{ $blockFilterMap := $hubFilters }}
+        {{ if isset $hubFilters "blocks" }}
+          {{ $blocksNode := index $hubFilters "blocks" }}
+          {{ if and $blocksNode (reflect.IsMap $blocksNode) }}
+            {{ $blockFilterMap = $blocksNode }}
+          {{ end }}
+        {{ end }}
+
+        {{ $blockCandidates := slice
+          $blockSurfaceSlug
+          $blockKeySlug
+          $blockSurface
+          $blockKey
+          (replace $blockSurfaceSlug "_" "-")
+          (replace $blockKeySlug "_" "-")
+        }}
+        {{ range $blockCandidates }}
+          {{ $candidate := . }}
+          {{ if isset $blockFilterMap $candidate }}
+            {{ $blockNode := index $blockFilterMap $candidate }}
+            {{ if reflect.IsMap $blockNode }}
+              {{ if isset $blockNode "issues_any" }}
+                {{ $blockIssues := index $blockNode "issues_any" }}
+                {{ if reflect.IsSlice $blockIssues }}
+                  {{ $requiredIssuesRaw = $blockIssues }}
+                {{ else if $blockIssues }}
+                  {{ $requiredIssuesRaw = slice $blockIssues }}
+                {{ else }}
+                  {{ $requiredIssuesRaw = slice }}
+                {{ end }}
+              {{ else }}
+                {{ $requiredIssuesRaw = slice }}
+              {{ end }}
+            {{ else if reflect.IsSlice $blockNode }}
+              {{ $requiredIssuesRaw = $blockNode }}
+            {{ else if $blockNode }}
+              {{ $requiredIssuesRaw = slice $blockNode }}
+            {{ else }}
+              {{ $requiredIssuesRaw = slice }}
+            {{ end }}
+            {{ break }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ $requiredIssues := slice }}
+      {{ range $requiredIssuesRaw }}
+        {{ $requiredIssues = $requiredIssues | append (lower (replace (replace (printf "%v" .) "-" "_") " " "_")) }}
+      {{ end }}
+
+      {{/* Curated feed via placements[] and surfaces.<hub>__<block>. */}}
+      {{ $hubAliases := slice $hubSlug $sectionSlug }}
+      {{ if ne $translationHub "" }}
+        {{ $hubAliases = $hubAliases | append $translationHub }}
+      {{ end }}
+      {{ $surfaceKeys := slice
+        (printf "%s__%s" $hubSlug $blockSurfaceSlug)
+        (printf "%s__%s" $hubSlug $blockKeySlug)
+        (printf "%s__%s" $sectionSlug $blockSurfaceSlug)
+        (printf "%s__%s" $sectionSlug $blockKeySlug)
+        (printf "%s__%s" $translationHub $blockSurfaceSlug)
+        (printf "%s__%s" $translationHub $blockKeySlug)
+        (printf "%s__%s" $sectionKey $blockSurface)
+        (printf "%s__%s" $sectionKey $blockKey)
+      }}
+      {{ $curatedEntries := slice }}
       {{ range $items }}
         {{ $page := . }}
+        {{ $passesIssueFilter := true }}
+        {{ if gt (len $requiredIssues) 0 }}
+          {{ $passesIssueFilter = false }}
+          {{ $pageIssuesRaw := $page.Params.issues }}
+          {{ if not $pageIssuesRaw }}
+            {{ $translations := $page.Translations }}
+            {{ if gt (len $translations) 0 }}
+              {{ $t := index $translations 0 }}
+              {{ $pageIssuesRaw = $t.Params.issues }}
+            {{ end }}
+          {{ end }}
+          {{ if not $pageIssuesRaw }}{{ $pageIssuesRaw = $page.Params.tags }}{{ end }}
+          {{ if not $pageIssuesRaw }}{{ $pageIssuesRaw = $page.Params.categories }}{{ end }}
+
+          {{ $pageIssues := slice }}
+          {{ if $pageIssuesRaw }}
+            {{ if reflect.IsSlice $pageIssuesRaw }}
+              {{ range $pageIssuesRaw }}
+                {{ $pageIssues = $pageIssues | append (lower (replace (replace (printf "%v" .) "-" "_") " " "_")) }}
+              {{ end }}
+            {{ else }}
+              {{ $pageIssues = slice (lower (replace (replace (printf "%v" $pageIssuesRaw) "-" "_") " " "_")) }}
+            {{ end }}
+          {{ end }}
+
+          {{ range $requiredIssues }}
+            {{ if in $pageIssues . }}
+              {{ $passesIssueFilter = true }}
+              {{ break }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ if not $passesIssueFilter }}{{ continue }}{{ end }}
+
+        {{ $dateOrder := 0 }}
+        {{ if not $page.Date.IsZero }}
+          {{ $dateOrder = sub 9999999999 $page.Date.Unix }}
+        {{ end }}
+        {{ $curationOrder := "" }}
+
+        {{ $placements := $page.Params.placements }}
+        {{ if not $placements }}
+          {{ $translations := $page.Translations }}
+          {{ if gt (len $translations) 0 }}
+            {{ $t := index $translations 0 }}
+            {{ $placements = $t.Params.placements }}
+          {{ end }}
+        {{ end }}
+
+        {{ if and $placements (reflect.IsSlice $placements) }}
+          {{ range $placements }}
+            {{ $placement := . }}
+            {{ if reflect.IsMap $placement }}
+              {{ $placementHub := "" }}
+              {{ $placementBlock := "" }}
+              {{ if isset $placement "hub" }}
+                {{ $placementHub = lower (replace (replace (printf "%v" (index $placement "hub")) "-" "_") " " "_") }}
+              {{ end }}
+              {{ if isset $placement "block" }}
+                {{ $placementBlock = lower (replace (replace (printf "%v" (index $placement "block")) "-" "_") " " "_") }}
+              {{ end }}
+              {{ if and (ne $placementHub "") (ne $placementBlock "") }}
+                {{ if and (in $hubAliases $placementHub) (or (eq $placementBlock $blockSurfaceSlug) (eq $placementBlock $blockKeySlug)) }}
+                  {{ $weight := 999999 }}
+                  {{ if isset $placement "weight" }}
+                    {{ $weight = int (index $placement "weight") }}
+                  {{ end }}
+                  {{ $order := printf "%08d_%012d" $weight $dateOrder }}
+                  {{ if or (eq $curationOrder "") (lt $order $curationOrder) }}
+                    {{ $curationOrder = $order }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ $surfaces := $page.Params.surfaces }}
+
+        {{ if not $surfaces }}
+          {{ $translations := $page.Translations }}
+          {{ if gt (len $translations) 0 }}
+            {{ $t := index $translations 0 }}
+            {{ $surfaces = $t.Params.surfaces }}
+          {{ end }}
+        {{ end }}
+
+        {{ if and $surfaces (reflect.IsMap $surfaces) }}
+          {{ range $surfaceKeys }}
+            {{ $candidateKey := . }}
+            {{ if isset $surfaces $candidateKey }}
+              {{ $weightRaw := index $surfaces $candidateKey }}
+              {{ $weight := int $weightRaw }}
+              {{ $order := printf "%08d_%012d" $weight $dateOrder }}
+              {{ if or (eq $curationOrder "") (lt $order $curationOrder) }}
+                {{ $curationOrder = $order }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ if ne $curationOrder "" }}
+          {{ $curatedEntries = $curatedEntries | append (dict "order" $curationOrder "page" $page) }}
+        {{ end }}
+      {{ end }}
+
+      {{ $fallbackItems := slice }}
+      {{ range $items }}
+        {{ $page := . }}
+        {{ $passesIssueFilter := true }}
+        {{ if gt (len $requiredIssues) 0 }}
+          {{ $passesIssueFilter = false }}
+          {{ $pageIssuesRaw := $page.Params.issues }}
+          {{ if not $pageIssuesRaw }}
+            {{ $translations := $page.Translations }}
+            {{ if gt (len $translations) 0 }}
+              {{ $t := index $translations 0 }}
+              {{ $pageIssuesRaw = $t.Params.issues }}
+            {{ end }}
+          {{ end }}
+          {{ if not $pageIssuesRaw }}{{ $pageIssuesRaw = $page.Params.tags }}{{ end }}
+          {{ if not $pageIssuesRaw }}{{ $pageIssuesRaw = $page.Params.categories }}{{ end }}
+
+          {{ $pageIssues := slice }}
+          {{ if $pageIssuesRaw }}
+            {{ if reflect.IsSlice $pageIssuesRaw }}
+              {{ range $pageIssuesRaw }}
+                {{ $pageIssues = $pageIssues | append (lower (replace (replace (printf "%v" .) "-" "_") " " "_")) }}
+              {{ end }}
+            {{ else }}
+              {{ $pageIssues = slice (lower (replace (replace (printf "%v" $pageIssuesRaw) "-" "_") " " "_")) }}
+            {{ end }}
+          {{ end }}
+
+          {{ range $requiredIssues }}
+            {{ if in $pageIssues . }}
+              {{ $passesIssueFilter = true }}
+              {{ break }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ if not $passesIssueFilter }}{{ continue }}{{ end }}
+
         {{ $programs := $page.Params.programs }}
         {{ $ctype := $page.Params.content_type }}
 
@@ -66,20 +301,48 @@
         {{ end }}
 
         {{ if and (in $programList $sectionKey) (in $ctypeList $blockKey) }}
-          {{ $blockItems = $blockItems | append $page }}
+          {{ $fallbackItems = $fallbackItems | append $page }}
         {{ end }}
+      {{ end }}
+
+      {{ $fallbackItems = sort $fallbackItems "Date" "desc" }}
+
+      {{ if gt (len $curatedEntries) 0 }}
+        {{ $curatedEntries = sort $curatedEntries "order" "asc" }}
+        {{ $seen := dict }}
+        {{ range $curatedEntries }}
+          {{ $p := .page }}
+          {{ $id := $p.RelPermalink }}
+          {{ if not (isset $seen $id) }}
+            {{ $blockItems = $blockItems | append $p }}
+            {{ $seen = merge $seen (dict $id true) }}
+          {{ end }}
+        {{ end }}
+        {{ range $fallbackItems }}
+          {{ $p := . }}
+          {{ $id := $p.RelPermalink }}
+          {{ if not (isset $seen $id) }}
+            {{ $blockItems = $blockItems | append $p }}
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        {{ $blockItems = $fallbackItems }}
       {{ end }}
 
       <section class="section-block">
         <h2>{{ .title }}</h2>
         {{ if gt (len $blockItems) 0 }}
-          <ul class="section-block__list">
-            {{ range first 3 $blockItems }}
-              <li class="section-block__item section-block__item--media-right">
+          {{ $listID := printf "section-block-%s-%s" $sectionKey $blockKey }}
+          <ul id="{{ $listID }}" class="section-block__list" data-hub-list data-load-step="{{ $initialVisible }}">
+            {{ range $idx, $page := $blockItems }}
+              <li
+                class="section-block__item section-block__item--media-right{{ if ge $idx $initialVisible }} is-hub-hidden{{ end }}"
+                {{ if ge $idx $initialVisible }}hidden{{ end }}
+              >
                 <div class="section-block__body">
-                  {{ $tags := .Params.tags }}
+                  {{ $tags := $page.Params.tags }}
                   {{ if not $tags }}
-                    {{ $translations := .Translations }}
+                    {{ $translations := $page.Translations }}
                     {{ if gt (len $translations) 0 }}
                       {{ $t := index $translations 0 }}
                       {{ $tags = $t.Params.tags }}
@@ -95,32 +358,43 @@
                     </div>
                   {{ end }}
                   <h3 class="section-block__title">
-                    <a class="section-block__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <a class="section-block__link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
                   </h3>
-                  {{ with .Params.description }}
+                  {{ with $page.Params.description }}
                     <p class="section-block__excerpt">{{ . }}</p>
                   {{ end }}
-                  {{ $hasAuthor := .Params.author }}
-                  {{ $hasDate := not .Date.IsZero }}
+                  {{ $hasAuthor := $page.Params.author }}
+                  {{ $hasDate := not $page.Date.IsZero }}
                   {{ if or $hasAuthor $hasDate }}
                     <div class="section-block__byline">
-                      {{ with .Params.author }}
-                        <span class="section-block__by">{{ i18n "byline" }} {{ delimit . ", " " y " }}</span>
+                      {{ with $page.Params.author }}
+                        <span class="section-block__by">{{ i18n "byline" }} {{ partial "author-links.html" (dict "authors" . "context" $page) }}</span>
                       {{ end }}
                       {{ if $hasDate }}
-                        <time class="section-block__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "date-es.html" .Date }}</time>
+                        <time class="section-block__date" datetime="{{ $page.Date.Format "2006-01-02" }}">{{ partial "date-es.html" $page.Date }}</time>
                       {{ end }}
                     </div>
                   {{ end }}
                 </div>
-                {{ with .Params.image }}
+                {{ with $page.Params.image }}
                   <div class="section-block__media">
-                    <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+                    <img src="{{ . | relURL }}" alt="{{ $page.Title }}">
                   </div>
                 {{ end }}
               </li>
             {{ end }}
           </ul>
+          {{ if gt (len $blockItems) $initialVisible }}
+            <button
+              type="button"
+              class="section-block__load-more"
+              data-hub-load-more
+              data-hub-target="{{ $listID }}"
+              hidden
+            >
+              {{ i18n "hub_load_more" }}
+            </button>
+          {{ end }}
         {{ else }}
           <div class="section-block__content">
             {{ i18n "hub_empty" }}

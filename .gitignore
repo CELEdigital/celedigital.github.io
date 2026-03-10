@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Claude worktrees & session data
+.claude/
+**/.claude/
+
+# Hugo build output
+public/
+resources/_gen/
+
+# Node
+node_modules/

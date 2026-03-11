@@ -26,6 +26,12 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 Un problema de lógica simple para nuestros estudiantes hogarizados en plena pandemia: 
 

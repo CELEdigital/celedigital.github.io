@@ -25,6 +25,12 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 # El liderazgo ¿estéril? de Brasil
 

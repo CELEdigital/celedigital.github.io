@@ -32,6 +32,15 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 ## Panel de Alto Nivel del Consejo de Derechos Humanos de la ONU realizado el pasado 28 de junio de 2022. 
 

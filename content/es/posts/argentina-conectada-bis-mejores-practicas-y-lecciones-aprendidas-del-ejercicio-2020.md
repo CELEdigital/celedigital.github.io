@@ -19,6 +19,12 @@ tags:
 placements:
 - hub: policy
   block: blog
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
 title: Argentina Conectada Bis. Mejores practicas y lecciones aprendidas del ejercicio 2020
 translationKey: wp-8119
 type: posts

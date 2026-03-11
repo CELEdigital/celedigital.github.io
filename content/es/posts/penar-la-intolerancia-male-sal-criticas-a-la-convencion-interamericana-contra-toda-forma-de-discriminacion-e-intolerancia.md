@@ -28,6 +28,12 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 # Penar la intolerancia 'male sal' Criticas a la convención Interamericana contra toda forma de Discriminación e intolerancia.
 

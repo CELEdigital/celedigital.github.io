@@ -26,6 +26,15 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/privacidad-y-vigilancia
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 # **Threats of regulation are complex, but not enough to prevent oversight**
 

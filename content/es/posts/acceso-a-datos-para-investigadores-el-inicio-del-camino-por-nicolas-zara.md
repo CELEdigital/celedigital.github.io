@@ -25,6 +25,9 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 # **Acceso a datos para investigadores: el inicio del camino**
 

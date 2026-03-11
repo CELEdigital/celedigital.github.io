@@ -6,13 +6,41 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Institucional</title>
       <link>http://localhost:1313/es/tags/institucional/</link>
-      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/es/tags/institucional/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Investigaciones</title>
+      <link>http://localhost:1313/es/tags/investigaciones/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/tags/investigaciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Publicaciones</title>
+      <link>http://localhost:1313/es/tags/publicaciones/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/tags/publicaciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mesas-Legislativas</title>
+      <link>http://localhost:1313/es/tags/mesas-legislativas/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/tags/mesas-legislativas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Libertad De Expresión</title>
+      <link>http://localhost:1313/es/tags/libertad-de-expresi%C3%B3n/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/tags/libertad-de-expresi%C3%B3n/</guid>
       <description></description>
     </item>
   </channel>

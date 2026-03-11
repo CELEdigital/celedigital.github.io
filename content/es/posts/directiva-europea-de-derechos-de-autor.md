@@ -26,6 +26,15 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 ### **_La Directiva Europea de Derecho de Autor y su impacto en los usuarios de América Latina y el Caribe: una perspectiva desde las organizaciones de la sociedad civil_**
 

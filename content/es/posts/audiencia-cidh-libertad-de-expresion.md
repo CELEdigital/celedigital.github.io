@@ -28,6 +28,18 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/privacidad-y-vigilancia
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 # **Audiencia CIDH libertad de expresión**
 

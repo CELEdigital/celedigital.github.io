@@ -16,17 +16,7 @@ tags:
 title: 'Regulación de plataformas en Brasil: necesidad, peligros y contradicciones'
 translationKey: wp-12085
 type: posts
-issues:
-- LDE
-- Gobernanza de Internet
-- Amenazas a la LDE
-placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-  weight: 1
-- hub: policy
-  block: blog
-  weight: 2
+
 ---
 # Regulación de plataformas en Brasil: necesidad, peligros y contradicciones
 

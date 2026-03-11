@@ -23,6 +23,12 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 # Ativismo judicial ou salvaguarda democrática? Os novos limites da propaganda eleitoral digital no Brasil 
 

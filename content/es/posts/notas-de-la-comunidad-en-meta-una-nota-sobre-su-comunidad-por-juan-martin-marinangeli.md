@@ -25,6 +25,12 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 ## **Notas de la comunidad en Meta: una nota sobre su comunidad**
 

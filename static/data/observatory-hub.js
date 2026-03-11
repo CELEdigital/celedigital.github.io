@@ -2,6 +2,7 @@
   function buildInlineColumns(panel) {
     if (!panel || panel.dataset.columnsReady === "true") return;
     if (panel.classList.contains("observatory-inline-panel--boletines")) return;
+    if (panel.classList.contains("observatory-inline-panel--mesas")) return;
 
     var children = Array.from(panel.children);
     if (!children.length) return;

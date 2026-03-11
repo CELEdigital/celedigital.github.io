@@ -28,6 +28,15 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/inteligencia-artificial
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 ## **¿Quiénes defienden la libertad de expresión en América Latina? Nuevos datos para una vieja discusión**
 

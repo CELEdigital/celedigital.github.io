@@ -26,6 +26,15 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 Nuevamente, Mark Zuckerberg, Jack Dorsey y Sundar Pichai tuvieron que responder las preguntas del Congreso de los EE. UU. Los directores de Facebook, Twitter y YouTube fueron citados a declarar sobre la desinformación y el extremismo en sus plataformas. Pero esta vez el llamado parecía personal: el 6 de enero de 2021, una turba de gente desinformada asaltó el Capitolio atemorizando a los congresistas, en protesta por el supuesto fraude electoral que le quitó la presidencia a Donald Trump. El objetivo de la audiencia era evaluar cuál había sido el rol de las plataformas en promover la insurrección. Lo que está en juego no es poco: la discusión de fondo es si el Congreso debería reformar la Sección 230 de la Ley de Decencia en las Comunicaciones. Esta legislación le da amplia inmunidad a las plataformas: no son responsables frente a lo que publican sus usuarios, pero tampoco lo son si deciden moderar contenidos. Por esta razón, tanto los congresistas que quieren que las plataformas tomen más control como los que las cuestionan por bloquear contenidos o cuentas [están interesados en modificarla](https://slate.com/technology/2021/03/section-230-reform-legislative-tracker.html). Por supuesto, la pandemia también estuvo en la discusión. Aunque las plataformas tomaron medidas para intentar controlar contenidos dañinos, la desinformación sobre el coronavirus aún habita en las plataformas. Al respecto, les recomendamos leer [_¿La nueva normalidad?_](https://www.palermo.edu/Archivos_content/2021/cele/papers/Moderacion-Covid-19.pdf), el último paper del CELE, que aborda la respuesta de las plataformas a la desinformación sobre el virus. Como es ya usual, la audiencia decepcionó. Aquí va lo bueno, lo malo y lo feo de la audiencia. Además, la propuesta de Facebook sobre cómo debería funcionar la regulación. **Lo bueno**
 

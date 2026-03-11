@@ -28,6 +28,15 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/inteligencia-artificial
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 # Participación del CELE en la International Conference on Digital Platform Governance: "Building a Global Forum of Networks" de la UNESCO 
 

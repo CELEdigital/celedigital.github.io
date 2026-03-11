@@ -29,6 +29,18 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/privacidad-y-vigilancia
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 A partir de este año desde el Observatorio Legislativo del CELE estaremos subiendo un resumen de la actividad legislativa mensual y/o novedades regulatorias, decisiones judiciales y de moderación de contenido privada de los 9 países que forman parte del Observatorio Legislativo, ofreciendo contexto y links vinculados a los temas de interés. Cabe destacar que los meses de diciembre de 2020 y enero de 2021 fueron meses con una actividad legislativa variable. En Argentina, Brasil, Colombia, Guatemala, México, Ecuador, Paraguay y Perú los poderes legislativos entraron en receso (aunque no al mismo tiempo) por lo que algunos temas quedaron pendientes de debate hasta febrero o marzo de este año.  Agradecemos a nuestros/as consultores/as por su trabajo y aportes para este resumen regional: Victor Cabezas (Ecuador), Camilo FIlartiga (Paraguay), Álvaro Castellanos (Guatemala), Ártur Pericles (Brasil) Luisa Isaza (Colombia), Andrés Calderón (Perú).
 

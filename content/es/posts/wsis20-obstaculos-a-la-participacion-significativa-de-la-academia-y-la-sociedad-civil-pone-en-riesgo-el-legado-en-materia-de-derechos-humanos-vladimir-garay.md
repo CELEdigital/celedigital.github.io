@@ -27,6 +27,12 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 ## **WSIS+20: obstáculos a la participación significativa de la academia y la sociedad civil pone en riesgo el legado en materia de derechos humanos - por Vladimir Garay**
 

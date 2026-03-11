@@ -27,6 +27,12 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 La decisión de múltiples plataformas de excluir de sus servicios a Donald Trump importa un punto de inflexión en el presente de la democracia que aún no comprendemos cabalmente. Un puñado de empresas privadas, sólo responsables ante sus accionistas y usuarios, decidieron que el presidente saliente de un país democrático sea efectivamente excluido del debate público, o al menos de una de sus principales formas—-la más cercana, horizontal y directa. Esa decisión esconde una serie de problemas y desafíos, que este breve comentario propone exponer. El primero es que no hay dudas de que la decisión está justificada por el derecho estadounidense, que es el derecho aplicable a empresas fundadas, creadas y basadas en ese país. Hay dos fuentes legales que resguardan la decisión de las empresas. Primero, la Primera Enmienda a la Constitución, que les asegura a título individual el derecho de decidir qué publican y qué no. Ofrecen un servicio privado, y ellos deciden con la libertad casi absoluta que la Primera Enmienda proclama a quién prestar el servicio y a quién no. Para la ley, cualquiera de estas plataformas goza de los mismos derechos que un pequeño panfletista con un mimeógrafo en un garage: él decide qué publica y qué no y nadie le puede decir nada al respecto. La segunda fuente es la sección 230 de la _Communications Decency Act_ de 1996, que además libera a los intermediarios de Internet de responsabilidad por los contenidos subidos por terceros sin su intervención, bajo ciertas condiciones. Esta regulación estuvo especialmente diseñada para el ecosistema de comunicación horizontal que surgió con Internet, y [en cierto sentido](https://www.amazon.com/-/es/Jeff-Kosseff/dp/1501714414) sus 26 palabras dieron forma a la Internet que tenemos hoy en día. Todos los servicios de hosting y publicación de contenidos están protegidos por esa norma. El derecho vigente no alcanza, sin embargo, para entender el problema. Éste se encuentra atravesado por prácticas, expectativas, y desacuerdos profundos sobre lo que el debate público debe ser y sobre los roles que le dan forma en el _wild new world_ de la _world wide web_. Un mapeo completo de estas corrientes es difícil de trazar, pero debería incluir al menos los siguientes componentes. 
 

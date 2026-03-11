@@ -28,6 +28,12 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 Desde el Centro de Estudios en Libertad de Expresión y Acceso a la Información (CELE) nos encontramos en la búsqueda de dos asistentes de investigación para el proyecto del Observatorio Legislativo Regional. El CELE es un centro académico dedicado a la promoción y protección del derecho a la libertad de expresión y el acceso a la información. Como tal, desarrolla investigaciones dirigidas a enriquecer el debate público y actividades de formación, capacitación y reflexión en esta materia. El Observatorio tiene como objetivo monitorear el impacto del debate en torno a la regulación de internet en la libertad de expresión. Además, pretende sistematizar y facilitar el acceso a leyes y proyectos de ley que afectan la libertad de expresión a nivel regional; monitorear los desarrollos legislativos a través del tiempo a fin de detectar tendencias; proveer una evaluación independiente de las leyes y proyectos de ley bajo los estándares y el test propuesto por el Sistema Interamericano de Derechos Humanos. Desde el CELE ofrecemos un grupo de trabajo abierto, plural e internacional con oportunidades de desarrollo y crecimiento así como la posibilidad de trabajar con líderes en el área.  Requisitos para la posición: 
 

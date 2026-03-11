@@ -16,15 +16,6 @@ tags:
 title: 'Noticias cruzando el mar #5, por Nicolás Zara:'
 translationKey: wp-14377
 type: posts
-issues:
-- Amenazas a la LDE
-placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-  weight: 1
-- hub: policy
-  block: blog
-  weight: 2
 ---
 ## **Noticias cruzando el mar #5**:
 

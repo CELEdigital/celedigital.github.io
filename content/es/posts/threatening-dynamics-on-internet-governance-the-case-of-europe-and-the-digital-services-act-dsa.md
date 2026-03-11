@@ -25,6 +25,12 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 # Threatening dynamics on Internet governance: the case of Europe and the Digital Services Act (DSA)
 

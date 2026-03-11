@@ -30,6 +30,9 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 # La batalla por la inclusión es más que lingüística 
 

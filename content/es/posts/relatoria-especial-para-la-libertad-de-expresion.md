@@ -30,6 +30,15 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 Honorables Comisionadas y Comisionados, Sr. Relator, distinguidos miembros de la sociedad civil, representantes del Estado y de empresas, El acuerdo sobre la libertad de expresión no es tan claro como hace unos años. Dentro de los propios activistas y defensores de ddhh y libertad de expresión hay quienes demandan más control del debate público y quienes abogan por más libertad y menos restricciones. Esta dicotomía se está traduciendo en legislación compleja en distintos Estados a nivel global y regional que genera en muchos casos incentivos contradictorios. En este escenario, la convocatoria de la CIDH y su Relatoría a desarrollar un diálogo capaz de ofrecer criterios claros para guiar la relación público/privada en torno a la gestión de los contenidos, protegiendo y promoviendo los estándares existentes en materia de libertad de expresión a nivel regional.  La CIDH y el Relator han identificado un punto de inflexión en la libertad de expresión. Múltiples aristas contribuyen a la conformación de la situación actual, algunos propios del mundo tecnológico, otros no:  Entre los primeros cabe mencionar: 
 

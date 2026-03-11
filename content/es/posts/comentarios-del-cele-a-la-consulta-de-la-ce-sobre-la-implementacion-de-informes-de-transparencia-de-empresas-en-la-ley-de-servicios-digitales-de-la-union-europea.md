@@ -28,6 +28,15 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 ## Comentarios del CELE a la consulta de la CE sobre la implementación de informes de transparencia de empresas en la Ley de Servicios Digitales de la Unión Europea
 

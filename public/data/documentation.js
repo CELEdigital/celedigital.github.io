@@ -1,32 +1,9 @@
 (() => {
-  const root = document.querySelector('section.documentation');
-  if (!root) return;
+  const roots = Array.from(document.querySelectorAll('section.documentation'));
+  if (!roots.length) return;
 
-  const datasetSelect = root.querySelector('[data-doc-dataset]');
-  const categorySelect = root.querySelector('[data-doc-category]');
-  const countrySelect = root.querySelector('[data-doc-country]');
-  const topicSelect = root.querySelector('[data-doc-topic]');
-  const dateSelect = root.querySelector('[data-doc-date]');
-  const criminalizaSelect = root.querySelector('[data-doc-criminaliza]');
-  const eliminaCrimSelect = root.querySelector('[data-doc-elimina-crim]');
-  const sancionCivilSelect = root.querySelector('[data-doc-sancion-civil]');
-  const eliminaSancionSelect = root.querySelector('[data-doc-elimina-sancion]');
-  const regulaContenidoSelect = root.querySelector('[data-doc-regula-contenido]');
-  const distingueOnlineSelect = root.querySelector('[data-doc-distingue-online]');
-  const intermediariosSelect = root.querySelector('[data-doc-intermediarios]');
-  const limitaSelect = root.querySelector('[data-doc-limita]');
-  const testSelect = root.querySelector('[data-doc-test]');
-  const searchInput = root.querySelector('[data-doc-search]');
-  const rowsContainer = root.querySelector('[data-doc-rows]');
-  const countEl = root.querySelector('[data-doc-count]');
-  const loadBtn = root.querySelector('[data-doc-load]');
-
-  const proyectosUrl = root.dataset.docProyectosUrl || '/data/proyectos_clean.csv';
-  const leyesUrl = root.dataset.docLeyesUrl || '/data/leyes_clean.csv';
-
-  const DATASETS = {
+  const BASE_DATASETS = {
     proyectos: {
-      url: proyectosUrl,
       fields: {
         title: 'Extracto',
         category: 'Tipo',
@@ -50,7 +27,6 @@
       }
     },
     leyes: {
-      url: leyesUrl,
       fields: {
         title: 'Extracto',
         category: 'Tipo',
@@ -75,11 +51,7 @@
     }
   };
 
-  const state = {
-    rows: [],
-    filtered: [],
-    limit: 20
-  };
+  const csvCache = new Map();
 
   const parseCSV = (text) => {
     const rows = [];
@@ -144,6 +116,20 @@
     return set.sort((a, b) => String(a).localeCompare(String(b)));
   };
 
+  const normalize = (value) => {
+    if (value === null || value === undefined || value === '') return '';
+    return String(value).trim();
+  };
+
+  const normalizeDatasetFromCharts = (value) => {
+    const normalized = normalize(value).toLowerCase();
+    if (!normalized) return '';
+    if (normalized.startsWith('proyecto')) return 'proyectos';
+    if (normalized.startsWith('ley')) return 'leyes';
+    if (normalized === 'proyectos' || normalized === 'leyes') return normalized;
+    return '';
+  };
+
   const populateSelect = (select, values) => {
     const current = select.value;
     select.querySelectorAll('option:not([value=""])').forEach((opt) => opt.remove());
@@ -164,9 +150,69 @@
     return prefix ? `${prefix} — ${excerpt}` : excerpt;
   };
 
-  const applyFilters = () => {
-    const dataset = datasetSelect.value;
-    const fields = DATASETS[dataset].fields;
+  const fetchDatasetRows = async (datasetConfig) => {
+    const url = datasetConfig.url;
+    if (csvCache.has(url)) return csvCache.get(url);
+
+    const response = await fetch(url);
+    const text = await response.text();
+    const rows = toObjects(parseCSV(text));
+    csvCache.set(url, rows);
+    return rows;
+  };
+
+  const initDocumentation = (root) => {
+    const datasetSelect = root.querySelector('[data-doc-dataset]');
+    const categorySelect = root.querySelector('[data-doc-category]');
+    const countrySelect = root.querySelector('[data-doc-country]');
+    const topicSelect = root.querySelector('[data-doc-topic]');
+    const dateSelect = root.querySelector('[data-doc-date]');
+    const criminalizaSelect = root.querySelector('[data-doc-criminaliza]');
+    const eliminaCrimSelect = root.querySelector('[data-doc-elimina-crim]');
+    const sancionCivilSelect = root.querySelector('[data-doc-sancion-civil]');
+    const eliminaSancionSelect = root.querySelector('[data-doc-elimina-sancion]');
+    const regulaContenidoSelect = root.querySelector('[data-doc-regula-contenido]');
+    const distingueOnlineSelect = root.querySelector('[data-doc-distingue-online]');
+    const intermediariosSelect = root.querySelector('[data-doc-intermediarios]');
+    const limitaSelect = root.querySelector('[data-doc-limita]');
+    const testSelect = root.querySelector('[data-doc-test]');
+    const searchInput = root.querySelector('[data-doc-search]');
+    const rowsContainer = root.querySelector('[data-doc-rows]');
+    const countEl = root.querySelector('[data-doc-count]');
+    const loadBtn = root.querySelector('[data-doc-load]');
+
+    if (!datasetSelect || !rowsContainer || !countEl || !loadBtn) return;
+
+    const datasetConfigs = {
+      proyectos: {
+        ...BASE_DATASETS.proyectos,
+        url: root.dataset.docProyectosUrl || '/data/proyectos_clean.csv'
+      },
+      leyes: {
+        ...BASE_DATASETS.leyes,
+        url: root.dataset.docLeyesUrl || '/data/leyes_clean.csv'
+      }
+    };
+
+    const state = {
+      rows: [],
+      filtered: [],
+      limit: 20,
+      external: {
+        dataset: '',
+        country: '',
+        featureField: '',
+        featureValue: '',
+        year: ''
+      }
+    };
+
+    const syncKey = normalize(root.dataset.docSync);
+    const interactive = String(root.dataset.docInteractive || '').toLowerCase() === 'true';
+
+    const applyFilters = () => {
+      const dataset = datasetSelect.value;
+      const fields = datasetConfigs[dataset].fields;
       const category = categorySelect.value;
       const country = countrySelect.value;
       const topic = topicSelect.value;
@@ -181,6 +227,7 @@
       const limita = limitaSelect.value;
       const test = testSelect.value;
       const search = searchInput.value.trim().toLowerCase();
+      const ext = state.external;
 
       state.filtered = state.rows.filter((row) => {
         if (category && row[fields.category] !== category) return false;
@@ -196,62 +243,73 @@
         if (intermediarios && row[fields.intermediarios] !== intermediarios) return false;
         if (limita && row[fields.limita] !== limita) return false;
         if (test && row[fields.test] !== test) return false;
+
+        if (ext.country && row[fields.country] !== ext.country) return false;
+
+        if (ext.featureField && ext.featureValue) {
+          const key = ext.featureField.toLowerCase();
+          if (key === 'objetivo' && row[fields.topic] !== ext.featureValue) return false;
+          if (key === 'impacto' && row[fields.limita] !== ext.featureValue) return false;
+          if (key === 'tipo' && row[fields.type] !== ext.featureValue) return false;
+        }
+
+        if (ext.year && normalize(row[fields.year]) !== normalize(ext.year)) return false;
+
         if (search) {
           const haystack = `${row[fields.title]} ${row[fields.ref]} ${row[fields.origin] || ''}`.toLowerCase();
           if (!haystack.includes(search)) return false;
         }
+
         return true;
-    });
+      });
 
-    renderRows();
-  };
+      renderRows();
+    };
 
-  const renderRows = () => {
-    const dataset = datasetSelect.value;
-    const fields = DATASETS[dataset].fields;
-    rowsContainer.innerHTML = '';
+    const renderRows = () => {
+      const dataset = datasetSelect.value;
+      const fields = datasetConfigs[dataset].fields;
+      rowsContainer.innerHTML = '';
 
-    const toShow = state.filtered.slice(0, state.limit);
-    toShow.forEach((row) => {
-      const rowEl = document.createElement('div');
-      rowEl.className = 'doc-row';
-      const link = row[fields.link];
-      const title = formatTitle(row, fields);
-      rowEl.innerHTML = `
-        <div class="doc-title">
-          <span>${title}</span>
-          ${link ? `
-            <a class="doc-link" href="${link}" target="_blank" rel="noopener" aria-label="Abrir enlace">
-              <svg class="doc-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path>
-                <path d="M5 5h7V3H3v9h2V5zm0 14v-7H3v9h9v-2H5z"></path>
-              </svg>
-            </a>` : ''
-          }
-        </div>
-        <div>${row[fields.country] || ''}</div>
-        <div>${row[fields.year] || ''}</div>
-        <div>${row[fields.type] || ''}</div>
-      `;
-      rowsContainer.appendChild(rowEl);
-    });
+      const toShow = state.filtered.slice(0, state.limit);
+      toShow.forEach((row) => {
+        const rowEl = document.createElement('div');
+        rowEl.className = 'doc-row';
+        const link = row[fields.link];
+        const title = formatTitle(row, fields);
+        rowEl.innerHTML = `
+          <div class="doc-title">
+            <span>${title}</span>
+            ${link ? `
+              <a class="doc-link" href="${link}" target="_blank" rel="noopener" aria-label="Abrir enlace">
+                <svg class="doc-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path>
+                  <path d="M5 5h7V3H3v9h2V5zm0 14v-7H3v9h9v-2H5z"></path>
+                </svg>
+              </a>` : ''
+            }
+          </div>
+          <div>${row[fields.country] || ''}</div>
+          <div>${row[fields.year] || ''}</div>
+          <div>${row[fields.type] || ''}</div>
+        `;
+        rowsContainer.appendChild(rowEl);
+      });
 
-    countEl.textContent = `${state.filtered.length}`;
-    loadBtn.style.display = state.filtered.length > state.limit ? 'inline-flex' : 'none';
-  };
+      countEl.textContent = `${state.filtered.length}`;
+      loadBtn.style.display = state.filtered.length > state.limit ? 'inline-flex' : 'none';
+    };
 
-  const loadDataset = async () => {
-    const dataset = datasetSelect.value;
-    const response = await fetch(DATASETS[dataset].url);
-    const text = await response.text();
-    const rows = parseCSV(text);
-    const data = toObjects(rows);
+    const loadDataset = async () => {
+      const dataset = datasetSelect.value;
+      const config = datasetConfigs[dataset];
+      const data = await fetchDatasetRows(config);
 
-    state.rows = data;
-    state.filtered = data;
-    state.limit = 20;
+      state.rows = data;
+      state.filtered = data;
+      state.limit = 20;
 
-    const fields = DATASETS[dataset].fields;
+      const fields = config.fields;
       populateSelect(categorySelect, uniqueSorted(data.map((row) => row[fields.category])));
       populateSelect(countrySelect, uniqueSorted(data.map((row) => row[fields.country])));
       populateSelect(topicSelect, uniqueSorted(data.map((row) => row[fields.topic])));
@@ -266,32 +324,78 @@
       populateSelect(limitaSelect, uniqueSorted(data.map((row) => row[fields.limita])));
       populateSelect(testSelect, uniqueSorted(data.map((row) => row[fields.test])));
 
-    applyFilters();
+      applyFilters();
+    };
+
+    const applyExternalFilters = async (detail) => {
+      if (!interactive) return;
+      if (syncKey && detail.sync && syncKey !== detail.sync) return;
+
+      const mappedDataset = normalizeDatasetFromCharts(detail.dataset);
+      if (mappedDataset && mappedDataset !== datasetSelect.value) {
+        datasetSelect.value = mappedDataset;
+        await loadDataset();
+      }
+
+      state.external = {
+        dataset: mappedDataset,
+        country: normalize(detail.country),
+        featureField: normalize(detail.featureField),
+        featureValue: normalize(detail.featureValue),
+        year: normalize(detail.year)
+      };
+
+      applyFilters();
+    };
+
+    datasetSelect.addEventListener('change', () => {
+      if (!interactive) {
+        loadDataset();
+        return;
+      }
+
+      state.external = {
+        dataset: '',
+        country: '',
+        featureField: '',
+        featureValue: '',
+        year: ''
+      };
+      loadDataset();
+    });
+
+    [
+      categorySelect,
+      countrySelect,
+      topicSelect,
+      dateSelect,
+      criminalizaSelect,
+      eliminaCrimSelect,
+      sancionCivilSelect,
+      eliminaSancionSelect,
+      regulaContenidoSelect,
+      distingueOnlineSelect,
+      intermediariosSelect,
+      limitaSelect,
+      testSelect
+    ].forEach((select) => {
+      select.addEventListener('change', applyFilters);
+    });
+
+    searchInput.addEventListener('input', applyFilters);
+    loadBtn.addEventListener('click', () => {
+      state.limit += 20;
+      renderRows();
+    });
+
+    if (interactive) {
+      window.addEventListener('documentation:filter', async (event) => {
+        await applyExternalFilters(event.detail || {});
+      });
+    }
+
+    loadDataset();
   };
 
-  datasetSelect.addEventListener('change', loadDataset);
-  [
-    categorySelect,
-    countrySelect,
-    topicSelect,
-    dateSelect,
-    criminalizaSelect,
-    eliminaCrimSelect,
-    sancionCivilSelect,
-    eliminaSancionSelect,
-    regulaContenidoSelect,
-    distingueOnlineSelect,
-    intermediariosSelect,
-    limitaSelect,
-    testSelect
-  ].forEach((select) => {
-    select.addEventListener('change', applyFilters);
-  });
-  searchInput.addEventListener('input', applyFilters);
-  loadBtn.addEventListener('click', () => {
-    state.limit += 20;
-    renderRows();
-  });
-
-  loadDataset();
+  roots.forEach((root) => initDocumentation(root));
 })();

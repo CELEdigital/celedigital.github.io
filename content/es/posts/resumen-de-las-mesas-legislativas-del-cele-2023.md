@@ -2,7 +2,7 @@
 author:
 - Lina Paola Velasquez
 content_type:
-- blog
+- mesa
 date: '2024-01-24'
 description: Resumen de las Mesas Legislativas del CELE 2023 Debido a la cantidad de iniciativas legislativas en torno a la
   regulación de Internet y los esfuerzos que múltiples organizaciones de la sociedad civil están haciendo para
@@ -16,16 +16,7 @@ tags:
 title: Resumen de las Mesas Legislativas del CELE 2023
 translationKey: wp-12357
 type: posts
-issues:
-- LDE
-- Gobernanza de Internet
-placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-  weight: 1
-- hub: policy
-  block: blog
-  weight: 2
+
 ---
 # Resumen de las Mesas Legislativas del CELE 2023
 

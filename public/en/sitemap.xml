@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/workshop/2024/program2024/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/workshop/2025/program2025/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/workshop/2026/program2026/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/workshop/2026/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/workshop/2024/links2024/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/workshop/2025/links2025/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/workshop/2026/links2026/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/workshop/2025/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/workshop/2024/</loc>
+  </url><url>
     <loc>http://localhost:1313/en/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -53,6 +71,8 @@
                 hreflang="en"
                 href="http://localhost:1313/en/posts/data-access-for-researchers/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/_archive/</loc>
   </url><url>
     <loc>http://localhost:1313/en/about/</loc>
   </url><url>
@@ -142,6 +162,32 @@
                 href="http://localhost:1313/en/topics/human-rights/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/methodology/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/metodologia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/methodology/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/objectives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/objetivos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/objectives/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/_archive/policy/</loc>
+  </url><url>
     <loc>http://localhost:1313/en/policy/</loc>
     <xhtml:link
                 rel="alternate"
@@ -154,8 +200,6 @@
                 href="http://localhost:1313/en/policy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/press-room/</loc>
-  </url><url>
     <loc>http://localhost:1313/en/topics/privacy-and-surveillance/</loc>
     <xhtml:link
                 rel="alternate"
@@ -167,6 +211,8 @@
                 hreflang="en"
                 href="http://localhost:1313/en/topics/privacy-and-surveillance/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/_archive/research/</loc>
   </url><url>
     <loc>http://localhost:1313/en/research/</loc>
     <xhtml:link
@@ -205,6 +251,8 @@
                 hreflang="en"
                 href="http://localhost:1313/en/topics/threats/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/_archive/topics/</loc>
   </url><url>
     <loc>http://localhost:1313/en/topics/</loc>
     <xhtml:link

@@ -29,6 +29,15 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/privacidad-y-vigilancia
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 Nueva candidatura para la Dirección de la AAIP  Hace algunos días se publicó en el Boletín Oficial de Argentina una resolución que se hizo desear durante casi un año: la nueva postulación para cubrir la Dirección de la Agencia de Acceso a la Información Pública (AAIP).  La AAIP está sin Director desde enero de 2021, tras la renuncia del entonces Director Eduardo Bertoni. En marzo de ese año, Jefatura de Gabinete de Ministros [postuló](https://www.boletinoficial.gob.ar/detalleAviso/primera/240897/20210218) al abogado Gustavo Juan Fuertes para el cargo, pero terminó dando de baja su candidatura luego de que ésta fuera blanco de críticas e impugnaciones que, por unanimidad, coincidían en que el postulante no era idóneo para el cargo.  La [nueva candidata](https://www.boletinoficial.gob.ar/detalleAviso/primera/256838/20220131), Magíster Beatríz de Anchorena, tiene un extenso currículum con vasta experiencia en gestión pública y puestos de alto nivel –algo que, a priori, no tenía el candidato anterior–. Sin embargo, al igual que Fuertes, de Anchorena no tiene en principio experiencia ni conocimientos específicos en materia de acceso a la información, libertad de expresión, o derechos humanos en general lo cual puede plantearle desafíos en el corto plazo, sobre todo atendiendo a la acefalía del organismo desde hace más de un año. 
 

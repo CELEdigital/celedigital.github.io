@@ -28,6 +28,15 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/privacidad-y-vigilancia
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 Atento la relevancia de los temas de libertad de expresión, vigilancia y privacidad, patrullaje y censura privada y pública en este momento tan particular a nivel mundial y local, re publicamos un artículo que nos parece pertinente, atinado y actual.
 

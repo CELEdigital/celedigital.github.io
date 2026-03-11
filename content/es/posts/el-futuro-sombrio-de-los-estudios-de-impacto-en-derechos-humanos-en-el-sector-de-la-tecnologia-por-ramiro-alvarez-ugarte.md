@@ -26,6 +26,12 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 ## **El futuro sombrío de los estudios de impacto en derechos humanos en el sector de la tecnología **
 

@@ -26,6 +26,18 @@ placements:
 - hub: policy
   block: blog
   weight: 2
+- hub: temas/libertad-de-expresion
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/derechos-humanos
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/amenazas
+  block: ultimas_noticias_analisis
+  weight: 1
+- hub: temas/privacidad-y-vigilancia
+  block: ultimas_noticias_analisis
+  weight: 1
 ---
 Diferentes organizaciones de la sociedad civil, representantes sindicales y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de libertad de expresión en Argentina convocada por la Comisión Interamericana de Derechos Humanos. La sesión es el resultado de dos peticiones promovidas por organizaciones de sociedad civil, academia y expertos. El CELE fue una de las organizaciones que apoyó la solicitud realizada por el Foro de Periodismo Argentino (FOPEA).
 

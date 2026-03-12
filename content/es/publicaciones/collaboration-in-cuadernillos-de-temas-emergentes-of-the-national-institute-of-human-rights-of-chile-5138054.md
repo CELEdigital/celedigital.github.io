@@ -22,5 +22,5 @@ placements:
 - hub: investigaciones
   block: investigaciones
   weight: 1
+abstract: 'Here, we present the work carried out by the Internet Freedom of Expression Initiative (iLEI), CELE''s special programme that aims to provide advice and technical support to Internet policy makers and advocates. Net neutrality, privacy, copyright, intermediary liability, and their relationship to fundamental rights are some of the topics that appear in this compilation. All of these are issues that have appeared in the regulations and legislative proposals that have started to be drafted in Lati'
 ---
-Here, we present the work carried out by the Internet Freedom of Expression Initiative (iLEI), CELE's special programme that aims to provide advice and technical support to Internet policy makers and advocates. Net neutrality, privacy, copyright, intermediary liability, and their relationship to fundamental rights are some of the topics that appear in this compilation. All of these are issues that have appeared in the regulations and legislative proposals that have started to be drafted in Latin America in recent years.

@@ -2,7 +2,7 @@
 author:
 - Nicolás Zara
 content_type:
-- blog
+- newsletter_dsa
 date: '2024-12-23'
 description: 'Noticias cruzando el mar 3: La última entrega del 2024 viene tan cargada como de costumbre. Se confirmó el recambio
   de autoridades en la Comisión Europea, los resultados de una elección presidencial motivaron una investi'

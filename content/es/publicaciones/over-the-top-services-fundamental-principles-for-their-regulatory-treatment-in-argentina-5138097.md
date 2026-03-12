@@ -17,5 +17,5 @@ placements:
 - hub: investigaciones
   block: investigaciones
   weight: 1
+abstract: 'The article aims to point out the main principles to be taken into account when analysing the regulatory framework for Over the Top services (OTTs). It provides a description of the current regulatory situation in Argentina, as well as arguments for and against the regulation of OTTs, and a section of conclusions and recommendations useful for the legislative discussion.'
 ---
-The article aims to point out the main principles to be taken into account when analysing the regulatory framework for Over the Top services (OTTs). It provides a description of the current regulatory situation in Argentina, as well as arguments for and against the regulation of OTTs, and a section of conclusions and recommendations useful for the legislative discussion.

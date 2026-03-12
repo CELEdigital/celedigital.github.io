@@ -20,5 +20,5 @@ placements:
 - hub: investigaciones
   block: investigaciones
   weight: 1
+abstract: 'The debate over how to de"ne hate speech, particularly in the online world, is far from settled. Defnitions from international documents are still vague and ambiguous, whereas States around the world have been adopting in their respective legal systems diverse definitions of hate speech. In this context, some States may have stepped beyond the thresholds established under international human rights law by using this concept as a way of categorizing ideas that the majority or those in power may f'
 ---
-The debate over how to de"ne hate speech, particularly in the online world, is far from settled. Defnitions from international documents are still vague and ambiguous, whereas States around the world have been adopting in their respective legal systems diverse definitions of hate speech. In this context, some States may have stepped beyond the thresholds established under international human rights law by using this concept as a way of categorizing ideas that the majority or those in power may find objectionable or to suppress opinions that they object to.

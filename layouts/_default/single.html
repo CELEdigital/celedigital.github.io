@@ -151,6 +151,8 @@
         </div>
       {{ end }}
       {{ .Content }}
+
+      {{ partial "social-icons.html" (dict "mode" "share" "page" .) }}
     </div>
     <aside class="single-sidebar" aria-label="Boletin">
       <div class="newsletter-box">

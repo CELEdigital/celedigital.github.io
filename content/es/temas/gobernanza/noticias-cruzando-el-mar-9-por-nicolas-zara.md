@@ -2,7 +2,7 @@
 author:
 - Nicolás Zara
 content_type:
-- blog
+- newsletter_dsa
 date: '2025-12-30'
 description: 'Noticias cruzando el mar 9: ¡Bienvenidos a la última entrega de 2025 de nuestro boletín bimestral sobre la Digital
   Services Act DSA de la Unión Europea! Sobre la línea de llegada del año, tenemos una novedad que acapara'

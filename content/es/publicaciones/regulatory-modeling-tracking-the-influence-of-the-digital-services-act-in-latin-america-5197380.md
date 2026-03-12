@@ -20,5 +20,5 @@ placements:
 - hub: investigaciones
   block: investigaciones
   weight: 1
+abstract: 'This article discusses the Digital Services Act (DSA) of the European Union as a possible candidate for a process of regulatory modeling, one of the mechanisms through which the laws of a country or a region migrate to other countries. It is a relatively usual global phenomenon, in which it is possible to expect certain dynamics, such as the prevalence of central countries or the advantages of first movers. In this work we argue that Latin American legislators are showing signs of wanting to imi'
 ---
-This article discusses the Digital Services Act (DSA) of the European Union as a possible candidate for a process of regulatory modeling, one of the mechanisms through which the laws of a country or a region migrate to other countries. It is a relatively usual global phenomenon, in which it is possible to expect certain dynamics, such as the prevalence of central countries or the advantages of first movers. In this work we argue that Latin American legislators are showing signs of wanting to imitate the DSA, through bills presented in recent years in which traces of the DSA can clearly be found. We present evidence in that sense and identify future challenges that migration and regulatory modeling processes always pose.

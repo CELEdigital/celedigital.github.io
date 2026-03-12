@@ -39,7 +39,16 @@
     {{ with .Params.description }}
       <p class="single-dek">{{ . }}</p>
     {{ end }}
+
+    {{ with .Params.abstract }}
+      {{ $label := cond (eq $.Lang "es") "Resumen" "Abstract" }}
+      <h2 class="single-abstract-label">{{ $label }}</h2>
+      <p class="single-abstract">{{ . }}</p>
+    {{ end }}
+
     {{ .Content }}
+
+    {{ partial "social-icons.html" (dict "mode" "share" "page" .) }}
   </div>
 
   <aside class="single-sidebar" aria-label="Publication image">

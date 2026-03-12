@@ -2,7 +2,7 @@
 author:
 - Nicolás Zara
 content_type:
-- blog
+- newsletter_dsa
 date: '2025-09-17'
 description: 'Noticias cruzando el mar 7: Bienvenidos a la séptima entrega de nuestro boletín bimestral sobre la Digital Services
   Act DSA de la Unión Europea. En esta oportunidad, retomaremos la agenda de protección de menores en líne'

@@ -19,5 +19,5 @@ placements:
 - hub: investigaciones
   block: investigaciones
   weight: 1
+abstract: 'Disinformation on the Internet has been the object of concern and action by multiple actors. While at first the measures were more targeted to train and cooperate in detecting false news, there are currently more and more measures whose implementation involves censorship, blocks, controls, and persecution. This article critically analyzes some of the measures adopted by the state, Internet companies, and the media in recent years and raises some unanswered questions in the search for answers.'
 ---
-Disinformation on the Internet has been the object of concern and action by multiple actors. While at first the measures were more targeted to train and cooperate in detecting false news, there are currently more and more measures whose implementation involves censorship, blocks, controls, and persecution. This article critically analyzes some of the measures adopted by the state, Internet companies, and the media in recent years and raises some unanswered questions in the search for answers.

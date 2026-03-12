@@ -2,7 +2,7 @@
 author:
 - Nicolás Zara
 content_type:
-- blog
+- newsletter_dsa
 date: '2025-03-05'
 description: 'Noticias cruzando el mar 4: ¡Bienvenidos a nuestra primera entrega del 2025! A un año desde la plena entrada
   en vigencia de la DSA, haremos un repaso de lo logrado hasta aquí y de algunos desafíos que depara el futuro ce'

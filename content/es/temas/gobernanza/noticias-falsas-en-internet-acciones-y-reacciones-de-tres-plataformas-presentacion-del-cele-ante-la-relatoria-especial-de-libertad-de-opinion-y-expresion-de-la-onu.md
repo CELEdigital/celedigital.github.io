@@ -2,7 +2,7 @@
 author:
 - mmdg
 content_type:
-- blog
+- newsletter_dsa
 date: '2021-02-18'
 description: 'Fake news on the Internet: actions and reactions from three platforms Submission to the Special Rapporteur for
   Freedom of Opinion and Expression, Irene Kahn, Feb 2021 CELE The Center for Studies on Freedom on Freedom of'

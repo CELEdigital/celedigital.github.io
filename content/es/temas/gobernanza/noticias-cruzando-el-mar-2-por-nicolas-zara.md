@@ -2,7 +2,7 @@
 author:
 - Nicolás Zara
 content_type:
-- blog
+- newsletter_dsa
 date: '2024-11-08'
 description: 'Noticias cruzando el mar 2: Bienvenidos a la segunda edición de Noticias Cruzando el Mar. En esta edición, le
   diremos adiós a un importante protagonista y la bienvenida a nuevos actores –algunos no tan nuevos– en esta co'

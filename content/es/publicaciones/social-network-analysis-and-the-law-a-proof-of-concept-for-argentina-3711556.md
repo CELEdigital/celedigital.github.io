@@ -17,5 +17,5 @@ placements:
 - hub: investigaciones
   block: investigaciones
   weight: 1
+abstract: 'CELE Research Paper Forthcoming'
 ---
-CELE Research Paper Forthcoming

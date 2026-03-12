@@ -48,6 +48,10 @@
       {{ $blockSurface := .surface | default $blockKey }}
       {{ $blockSurfaceSlug := lower (replace (replace $blockSurface "-" "_") " " "_") }}
       {{ $blockKeySlug := lower (replace (replace $blockKey "-" "_") " " "_") }}
+      {{ $blockInitialVisible := $initialVisible }}
+      {{ if eq $blockKey "research" }}
+        {{ $blockInitialVisible = 1 }}
+      {{ end }}
       {{ $blockItems := slice }}
       {{ $requiredIssuesRaw := slice }}
       {{ if and $hubFilters (reflect.IsMap $hubFilters) }}
@@ -333,58 +337,87 @@
         <h2>{{ .title }}</h2>
         {{ if gt (len $blockItems) 0 }}
           {{ $listID := printf "section-block-%s-%s" $sectionKey $blockKey }}
-          <ul id="{{ $listID }}" class="section-block__list" data-hub-list data-load-step="{{ $initialVisible }}">
+          <ul id="{{ $listID }}" class="section-block__list" data-hub-list data-load-step="{{ $blockInitialVisible }}">
             {{ range $idx, $page := $blockItems }}
-              <li
-                class="section-block__item section-block__item--media-right{{ if ge $idx $initialVisible }} is-hub-hidden{{ end }}"
-                {{ if ge $idx $initialVisible }}hidden{{ end }}
-              >
-                <div class="section-block__body">
-                  {{ $tags := $page.Params.tags }}
-                  {{ if not $tags }}
-                    {{ $translations := $page.Translations }}
-                    {{ if gt (len $translations) 0 }}
-                      {{ $t := index $translations 0 }}
-                      {{ $tags = $t.Params.tags }}
+              {{ if eq $blockKey "research" }}
+                <li
+                  class="section-block__item section-block__item--research{{ if ge $idx $blockInitialVisible }} is-hub-hidden{{ end }}"
+                  {{ if ge $idx $blockInitialVisible }}hidden{{ end }}
+                >
+                  <div class="section-block__research-left">
+                    <h3 class="section-block__title">
+                      <a class="section-block__link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+                    </h3>
+                    {{ with $page.Params.author }}
+                      <div class="section-block__research-author">
+                        {{ delimit . ", " }}
+                      </div>
                     {{ end }}
-                  {{ end }}
-                  {{ with $tags }}
-                    <div class="section-block__tags">
-                      {{ range . }}
-                        {{ $key := printf "tag_%s" . }}
-                        {{ $label := i18n $key | default . }}
-                        <span class="section-block__tag">{{ $label }}</span>
-                      {{ end }}
-                    </div>
-                  {{ end }}
-                  <h3 class="section-block__title">
-                    <a class="section-block__link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
-                  </h3>
-                  {{ with $page.Params.description }}
-                    <p class="section-block__excerpt">{{ . }}</p>
-                  {{ end }}
-                  {{ $hasAuthor := $page.Params.author }}
-                  {{ $hasDate := not $page.Date.IsZero }}
-                  {{ if or $hasAuthor $hasDate }}
-                    <div class="section-block__byline">
-                      {{ with $page.Params.author }}
-                        <span class="section-block__by">{{ i18n "byline" }} {{ partial "author-links.html" (dict "authors" . "context" $page) }}</span>
-                      {{ end }}
-                      {{ if $hasDate }}
-                        <time class="section-block__date" datetime="{{ $page.Date.Format "2006-01-02" }}">{{ partial "date-es.html" $page.Date }}</time>
-                      {{ end }}
-                    </div>
-                  {{ end }}
-                </div>
-                {{ with $page.Params.image }}
-                  <div class="section-block__media">
-                    <img src="{{ . | relURL }}" alt="{{ $page.Title }}">
+                    {{ with $page.Params.ssrn_reference }}
+                      <div class="section-block__research-ref">{{ . }}</div>
+                    {{ end }}
+                    {{ with $page.Params.ssrn_id }}
+                      <div class="section-block__research-id">SSRN ID: {{ . }}</div>
+                    {{ end }}
                   </div>
-                {{ end }}
-              </li>
+                  <div class="section-block__research-right">
+                    {{ with $page.Params.abstract }}
+                      <p class="section-block__research-abstract">{{ . }}</p>
+                    {{ end }}
+                  </div>
+                </li>
+              {{ else }}
+                <li
+                  class="section-block__item section-block__item--media-right{{ if eq $blockKey "featured" }} section-block__item--featured{{ end }}{{ if ge $idx $blockInitialVisible }} is-hub-hidden{{ end }}"
+                  {{ if ge $idx $blockInitialVisible }}hidden{{ end }}
+                >
+                  <div class="section-block__body">
+                    {{ $tags := $page.Params.tags }}
+                    {{ if not $tags }}
+                      {{ $translations := $page.Translations }}
+                      {{ if gt (len $translations) 0 }}
+                        {{ $t := index $translations 0 }}
+                        {{ $tags = $t.Params.tags }}
+                      {{ end }}
+                    {{ end }}
+                    {{ with $tags }}
+                      <div class="section-block__tags">
+                        {{ range . }}
+                          {{ $key := printf "tag_%s" . }}
+                          {{ $label := i18n $key | default . }}
+                          <span class="section-block__tag">{{ $label }}</span>
+                        {{ end }}
+                      </div>
+                    {{ end }}
+                    <h3 class="section-block__title">
+                      <a class="section-block__link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+                    </h3>
+                    {{ with $page.Params.description }}
+                      <p class="section-block__excerpt">{{ . }}</p>
+                    {{ end }}
+                    {{ $hasAuthor := $page.Params.author }}
+                    {{ $hasDate := not $page.Date.IsZero }}
+                    {{ if or $hasAuthor $hasDate }}
+                      <div class="section-block__byline">
+                        {{ with $page.Params.author }}
+                          <span class="section-block__by">{{ i18n "byline" }} {{ partial "author-links.html" (dict "authors" . "context" $page) }}</span>
+                        {{ end }}
+                        {{ if $hasDate }}
+                          <time class="section-block__date" datetime="{{ $page.Date.Format "2006-01-02" }}">{{ partial "date-es.html" $page.Date }}</time>
+                        {{ end }}
+                      </div>
+                    {{ end }}
+                  </div>
+                  {{ with $page.Params.image }}
+                    <div class="section-block__media">
+                      <img src="{{ . | relURL }}" alt="{{ $page.Title }}">
+                    </div>
+                  {{ end }}
+                </li>
+              {{ end }}
             {{ end }}
           </ul>
-          {{ if gt (len $blockItems) $initialVisible }}
+          {{ if gt (len $blockItems) $blockInitialVisible }}
             <button
               type="button"
               class="section-block__load-more"

@@ -18,5 +18,5 @@ placements:
 - hub: investigaciones
   block: investigaciones
   weight: 1
+abstract: 'CELE Research Paper No. 19'
 ---
-CELE Research Paper No. 19

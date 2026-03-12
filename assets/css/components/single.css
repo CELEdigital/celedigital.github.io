@@ -19,7 +19,7 @@
 }
 
 .single-title {
-  font-size: 2.4rem;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
   line-height: 1.25;
   margin: 0 0 1rem;
   padding: 0;
@@ -354,6 +354,12 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+@media (max-width: 1100px) {
+  .single-layout {
+    gap: 3rem;
+  }
 }
 
 @media (max-width: 900px) {

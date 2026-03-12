@@ -89,3 +89,29 @@
   text-decoration: none;
   color: var(--cele);
 }
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .hero-featured {
+    flex: none;
+  }
+
+  .hero-mission {
+    flex: none;
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .hero-slide {
+    padding: 1.5rem;
+  }
+
+  .hero-slide img {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+}

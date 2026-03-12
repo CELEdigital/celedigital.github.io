@@ -27,8 +27,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
+  width: 2.75rem;
+  height: 2.75rem;
   color: var(--cele);
   text-decoration: none;
   border-radius: 50%;
@@ -36,8 +36,8 @@
 }
 
 .social-icons--header .social-icon {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 2.5rem;
+  height: 2.5rem;
   color: white;
 }
 

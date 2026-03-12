@@ -1212,6 +1212,8 @@
                 href="http://localhost:1313/es/temas/privacidad-y-vigilancia/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/seminario/</loc>
+  </url><url>
     <loc>http://localhost:1313/es/taller/</loc>
   </url>
 </urlset>

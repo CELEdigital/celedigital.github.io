@@ -76,7 +76,11 @@
     gap: 0.1rem;
   }
 
-.main-nav {
+  .site-logo img {
+    max-height: 80px;
+  }
+
+  .main-nav {
     position: fixed;
     top: 0;
     right: 0;
@@ -166,7 +170,7 @@
   display: block;
   text-decoration: none;
   color: #fff;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-align: center;

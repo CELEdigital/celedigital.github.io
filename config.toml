@@ -49,6 +49,12 @@ defaultContentLanguageInSubdir = true
         weight = 13
 
       [[languages.es.menu.main]]
+        name = "Seminario"
+        url = "/seminario/"
+        parent = "nosotros"
+        weight = 14
+
+      [[languages.es.menu.main]]
         name = "temas"
         url = "/temas/"
         identifier = "temas"

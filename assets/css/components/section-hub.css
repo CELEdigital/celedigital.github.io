@@ -224,7 +224,7 @@
   font-weight: 700;
   text-decoration: none;
   color: var(--cele);
-  font-size: 1.96rem;
+  font-size: clamp(1.4rem, 3.5vw, 1.96rem);
   line-height: 1.3;
 }
 

@@ -2262,5 +2262,12 @@
       <guid>http://localhost:1313/es/observatorio-legislativo/objetivos/</guid>
       <description>&lt;h1 id=&#34;hipótesis&#34;&gt;Hipótesis&lt;/h1&gt;&#xA;&lt;p&gt;La hipótesis que originó la creación del Observatorio Legislativo en Libertad de Expresión proponía que contrariamente a lo que venía sucediendo con las leyes de libertad de expresión en la región, las iniciativas legislativas en materia de regulación de internet impusieron una tendencia más restrictiva de la libertad de expresión, afectando potencialmente la circulación del discurso en América Latina.&lt;/p&gt;&#xA;&lt;h1 id=&#34;objetivos&#34;&gt;Objetivos&lt;/h1&gt;&#xA;&lt;p&gt;Durante las últimas dos décadas se avanzó significativamente en la agenda de libertad de expresión a nivel regional y a partir de los últimos 5 años particularmente dicha tendencia parece amenazada, sobre todo a medida que se reabren a nivel social importantes debates en el marco de la regulación de internet.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Seminario CELE</title>
+      <link>http://localhost:1313/es/seminario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/seminario/</guid>
+      <description>&lt;p&gt;Desde diciembre de 2020, el CELE organiza un seminario virtual bimensual sobre temas de libertad de expresión en el que se discuten trabajos en curso o recientemente publicados. Si bien en su primer año el foco estuvo puesto en producción académica en América Latina, desde 2022 el seminario incluye temáticas globales.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

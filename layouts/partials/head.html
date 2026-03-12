@@ -16,6 +16,7 @@
   (resources.Get "css/style.css")
 }}
 {{ $css := $styles | resources.Concat "css/style.css" | minify }}
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 <script src="{{ "data/documentation.js" | relURL }}" defer></script>
 <script src="{{ "data/section-hub.js" | relURL }}" defer></script>

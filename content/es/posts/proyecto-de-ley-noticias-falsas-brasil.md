@@ -12,6 +12,7 @@ tags:
 - mesas-legislativas
 title: El proyecto de ley No. 2630/20 sobre noticias falsas de Brasil
 type: posts
+region: latam
 ---
 
 Mesa de Legislación Comparada CELE: El proyecto de ley No. 2630/20 sobre noticias falsas de Brasil 

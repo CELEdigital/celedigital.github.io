@@ -7,6 +7,8 @@ defaultContentLanguageInSubdir = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions.footnote]
+      enable = true
 
 [languages]
   [languages.es]
@@ -42,17 +44,36 @@ defaultContentLanguageInSubdir = true
         parent = "nosotros"
         weight = 12
 
-      [[languages.es.menu.main]]
-        name = "Contacto"
-        url = "/contacto/"
-        parent = "nosotros"
-        weight = 13
 
       [[languages.es.menu.main]]
         name = "Seminario"
         url = "/seminario/"
         parent = "nosotros"
+        weight = 13
+
+      [[languages.es.menu.main]]
+        name = "Informes Anuales"
+        url = "/informes-anuales/"
+        parent = "nosotros"
         weight = 14
+
+      [[languages.es.menu.main]]
+        name = "Talleres legisladores"
+        url = "/talleres-legisladores/"
+        parent = "nosotros"
+        weight = 15
+
+      [[languages.es.menu.main]]
+        name = "Transparencia"
+        url = "/transparencia/"
+        parent = "nosotros"
+        weight = 16
+
+      [[languages.es.menu.main]]
+        name = "Contacto"
+        url = "/contacto/"
+        parent = "nosotros"
+        weight = 17
 
       [[languages.es.menu.main]]
         name = "temas"
@@ -102,11 +123,6 @@ defaultContentLanguageInSubdir = true
         weight = 3
 
       [[languages.es.menu.main]]
-        name = "policy"
-        url = "/policy/"
-        weight = 4
-
-      [[languages.es.menu.main]]
         name = "observatorio legislativo"
         url = "/observatorio-legislativo/"
         weight = 5
@@ -115,6 +131,11 @@ defaultContentLanguageInSubdir = true
         name = "taller"
         url = "/taller/"
         weight = 6
+
+      [[languages.es.menu.main]]
+        name = "Blog"
+        url = "/posts/"
+        weight = 7
 
   [languages.en]
     languageName = "English"

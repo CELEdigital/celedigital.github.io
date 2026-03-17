@@ -16,7 +16,7 @@ tags:
 title: Resumen de las Mesas Legislativas del CELE 2023
 translationKey: wp-12357
 type: posts
-
+region: latam
 ---
 # Resumen de las Mesas Legislativas del CELE 2023
 

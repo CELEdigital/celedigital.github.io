@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
+<html lang="{{ .Site.Language.Lang }}" class="no-js">
 <head>
   <meta charset="utf-8">
   <title>{{ .Title }} | {{ .Site.Title }}</title>
@@ -7,21 +7,16 @@
 </head>
 <body>
 
-  {{ partial "header.html" . }}
   {{ partial "social-icons-section.html" . }}
+  {{ partial "header.html" . }}
 
   <main class="container">
-    {{ if .IsHome }}
-      <section class="hero">
-        {{ partial "hero-featured.html" . }}
-        {{ partial "hero-mission.html" . }}
-      </section>
-    {{ else }}
-      {{ block "main" . }}{{ end }}
-    {{ end }}
+    {{ block "main" . }}{{ end }}
   </main>
 
 {{ partial "vega-scripts.html" . }}
+
+{{ partial "footer.html" . }}
 
 </body>
 </html>

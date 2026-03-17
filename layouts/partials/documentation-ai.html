@@ -1,0 +1,98 @@
+{{- $aiURL := .aiURL | default ("data/ai_clean.csv" | relURL) -}}
+<section
+  class="documentation documentation--ai"
+  data-doc-ai-url="{{ $aiURL }}"
+>
+  <div class="documentation-header">
+    <h1 class="documentation-title">Documentación</h1>
+    <p class="documentation-intro">Base de datos de leyes y proyectos de ley sobre inteligencia artificial en América Latina.</p>
+  </div>
+
+  <div class="documentation-controls">
+    <label class="doc-control doc-control--category">
+      <span>Tipo</span>
+      <select data-doc-ai-tipo>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>País</span>
+      <select data-doc-ai-pais>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Año</span>
+      <select data-doc-ai-anio>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Estado</span>
+      <select data-doc-ai-estado>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Origen</span>
+      <select data-doc-ai-origen>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--topic">
+      <span>Tema</span>
+      <select data-doc-ai-tema>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Regula moderación</span>
+      <select data-doc-ai-moderacion>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Incluye sanciones</span>
+      <select data-doc-ai-sanciones>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--test">
+      <span>Test tripartito</span>
+      <select data-doc-ai-test>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--search">
+      <span>Buscar</span>
+      <input type="search" data-doc-ai-search placeholder="Número, objeto…">
+    </label>
+  </div>
+
+  <div class="documentation-summary">
+    <span data-doc-ai-count>0</span>
+  </div>
+
+  <div class="documentation-table" data-doc-table>
+    <div class="doc-row doc-row--head">
+      <div>Identificación</div>
+      <div>País</div>
+      <div>Año</div>
+      <div>Tipo</div>
+    </div>
+    <div class="doc-rows" data-doc-ai-rows></div>
+  </div>
+
+  <div class="documentation-actions">
+    <button class="doc-load-more" type="button" data-doc-ai-load>Cargar más</button>
+  </div>
+</section>

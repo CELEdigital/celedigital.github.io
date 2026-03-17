@@ -4,13 +4,3 @@ summary: "Desde hace más de una década diversos congresos de América Latina v
 translationKey: observatory
 image: "/icons/icon_policy.png"
 ---
-
-# Visualizaciones
-
-{{< vega spec="/charts/interactive/observatorio_sunburst.json" id="chart-observatorio-sunburst" >}}
-
-{{< vega spec="/charts/interactive/objetivos_drilldown.json" id="chart-objetivos" >}}
-
-{{< vega spec="/charts/interactive/observatorio_drilldown.json" id="chart-observatorio-db" >}}
-
-{{< documentation interactive="true" sync="observatorio" >}}

@@ -29,19 +29,15 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/libertad-de-expresion
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/derechos-humanos
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/amenazas
   block: ultimas_noticias_analisis
-  weight: 1
+region: global
 ---
 El uso de las redes sociales está mediado por las reglas que cada plataforma dispone para el comportamiento de sus usuarios en la comunidad. Conocidas como _normas comunitarias, _éstas establecen lineamientos para la creación de cuentas, uso de material de terceros y difusión de contenidos, entre otros. Para la mayoría de las personas, las normas comunitarias suelen pasar desapercibidas o sólo existen cuando interfieren de alguna forma en la experiencia de uso. Es decir: se vuelven parte de la letra chica que nunca leen. Este entorno informal de regulación y adjudicación de las redes sociales –entendido generalmente como la actividad de _moderación de contenidos–_ suele entrar en tensión permanente con leyes nacionales e instrumentos internacionales de derechos humanos. En particular, hay muchas preguntas sobre el ejercicio de la libertad de expresión, el debido proceso y la transparencia.  Este año, tanto la pandemia del covid-19 como las elecciones presidenciales en Estados Unidos ilustraron la magnitud de este tema. Por un lado, y como lo aborda el CELE en un texto próximo a publicarse, la pandemia llevó a las redes sociales a crear reglas sobre la marcha para contener la desinformación y darles mayor visibilidad a las fuentes de salud pública. Por el otro, las acusaciones falsas de fraude electoral que Donald Trump ventiló públicamente durante la campaña obligaron a estos intermediarios a prepararse para un escenario que efectivamente se dio: el presidente de Estados Unidos usó Twitter y Facebook para minar el proceso democrático de su país. La respuesta inédita y no exenta de polémica de las redes sociales fue advertir y etiquetar de manera constante la desinformación en boca de Trump y el Partido Republicano. En este contexto surge [LetraChica](http://www.letrachica.digital) : una iniciativa del [CELE](https://www.palermo.edu/cele/), con el apoyo de [Linterna Verde](http://www.linternaverde.co), para darle más luz al proceso de construcción de las normas comunitarias de Facebook, Twitter y Youtube. Nos interesa entender cómo se dan esos cambios a lo largo del tiempo, donde están incluidos, cómo se traducen al español y de qué manera responden a contextos políticos y sociales particulares.  **¿Qué hacemos y cómo?** Letra Chica monitorea los cambios a las normas comunitarias de Facebook, Twitter y Youtube desde las siguientes fuentes: 
 

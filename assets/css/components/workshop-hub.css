@@ -50,3 +50,77 @@
 .workshop-panels {
   margin-top: 0.25rem;
 }
+
+/* ── Blog page sidebar nav ──────────────────────────────────────── */
+
+.blog-layout {
+  display: grid;
+  grid-template-columns: 13rem 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.blog-nav {
+  position: sticky;
+  top: 2rem;
+  background: rgba(28, 85, 176, 0.07);
+  border-left: 3px solid var(--columbia-blue);
+  padding: 1.25rem 1.25rem;
+}
+
+.blog-nav__section {
+  margin-bottom: 1.5rem;
+}
+
+.blog-nav__heading {
+  font-family: 'Jost';
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--columbia-blue);
+  margin: 0 0 0.4rem;
+}
+
+.blog-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.blog-nav__link {
+  font-family: 'Jost';
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--columbia-blue);
+  text-decoration: none;
+  display: block;
+  padding: 0.15rem 0;
+  line-height: 1.35;
+}
+
+.blog-nav__link:hover,
+.blog-nav__link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.blog-nav__item.is-active .blog-nav__link {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+@media (max-width: 800px) {
+  .blog-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-nav {
+    position: static;
+  }
+}
+

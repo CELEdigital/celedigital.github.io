@@ -1,0 +1,160 @@
+/* ── Estamos leyendo section ─────────────────────────────── */
+
+.home-reading {
+  margin-bottom: 3rem;
+}
+
+.reading-box {
+  background: #5C9BF9;
+  border: none;
+  padding: 1.35rem 1.5rem 1.1rem;
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* ── Internal header ──────────────────────────────────────── */
+
+.reading-box__header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1.1rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1.5px dashed rgba(255, 255, 255, 0.45);
+}
+
+.reading-box__label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.reading-box__desc {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.65);
+  font-style: italic;
+}
+
+/* ── Scrollable track ─────────────────────────────────────── */
+
+.reading-track {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.25rem;
+  scrollbar-width: none;
+}
+
+.reading-track::-webkit-scrollbar {
+  display: none;
+}
+
+/* ── Individual card ─────────────────────────────────────── */
+
+.reading-card {
+  flex: 0 0 calc(33.333% - 1rem);
+  min-width: 190px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.reading-card__index {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+
+.reading-card__title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  text-decoration-color: rgba(255, 255, 255, 0.4);
+}
+
+.reading-card__title:hover,
+.reading-card__title:focus-visible {
+  text-decoration-color: #ffffff;
+  color: #fff9c4;
+}
+
+.reading-card__domain {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.02em;
+}
+
+.reading-card__note {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0.1rem 0 0;
+  line-height: 1.45;
+}
+
+/* ── Prev / Next nav ──────────────────────────────────────── */
+
+.reading-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  margin-top: 0.9rem;
+  padding-top: 0.65rem;
+  border-top: 1.5px dashed rgba(255, 255, 255, 0.35);
+}
+
+.reading-nav__btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+  line-height: 1;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 120ms, border-color 120ms;
+}
+
+.reading-nav__btn:hover,
+.reading-nav__btn:focus-visible {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #ffffff;
+}
+
+.reading-nav__btn:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+
+@media (max-width: 800px) {
+  .reading-card {
+    flex: 0 0 75%;
+  }
+}
+
+@media (max-width: 480px) {
+  .reading-card {
+    flex: 0 0 88%;
+  }
+}

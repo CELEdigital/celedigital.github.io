@@ -14,7 +14,7 @@ tags:
 title: Apuntes sobre el proyecto de ley de Gobernanza de servicios digitales y comercio electrónico (23184) de Costa Rica
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2023/proyecto-de-ley-servicios-digitales-y-comercio-electronico-costa-rica.html
-
+region: global
 ---
 
 Mesa de Legislación Comparada CELE: Apuntes sobre el proyecto de ley de Gobernanza de servicios digitales y comercio electrónico (23184) de Costa Rica 

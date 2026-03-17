@@ -1,6 +1,6 @@
 (function () {
   function getItems(list) {
-    return Array.from(list.querySelectorAll(".section-block__item"));
+    return Array.from(list.querySelectorAll(".section-block__item, .inv-item"));
   }
 
   function revealBatch(items, step) {

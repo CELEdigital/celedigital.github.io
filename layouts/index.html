@@ -1,0 +1,135 @@
+{{ define "main" }}
+  {{/* ── Existing hero (70/30 split — unchanged) ── */}}
+  <section class="hero">
+    {{ partial "hero-featured.html" . }}
+    {{ partial "hero-mission.html" . }}
+  </section>
+
+  {{/* ── 1. Recent posts — 3 cards ── */}}
+  {{ $recentPosts := (where .Site.RegularPages "Type" "posts").ByDate.Reverse }}
+  {{ if gt (len $recentPosts) 0 }}
+  <section class="home-posts">
+    <header class="home-section-header">
+      <h2 class="home-section-title">Últimas publicaciones</h2>
+      <a class="home-section-more" href="{{ "/posts/" | relLangURL }}">Ver todas →</a>
+    </header>
+    <div class="home-posts__grid">
+      {{ range first 3 $recentPosts }}
+        <article class="home-post-card">
+          {{ with .Params.image }}
+            <div class="home-post-card__media">
+              <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+            </div>
+          {{ end }}
+          <div class="home-post-card__body">
+            {{ with .Params.issues }}
+              <p class="home-post-card__issues">{{ delimit . " · " }}</p>
+            {{ end }}
+            <h3 class="home-post-card__title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            {{ with .Params.description }}
+              <p class="home-post-card__excerpt">{{ . }}</p>
+            {{ end }}
+            <div class="home-post-card__byline">
+              {{ with .Params.author }}
+                <span class="home-post-card__by">{{ partial "author-links.html" (dict "authors" . "context" $) }}</span>
+              {{ end }}
+              {{ if not .Date.IsZero }}
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "date-es.html" .Date }}</time>
+              {{ end }}
+            </div>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ── 2. Topics (temas) — 2-column grid ── */}}
+  {{ $temasSection := .Site.GetPage "/temas" }}
+  {{ if and $temasSection (gt (len $temasSection.Sections) 0) }}
+  <section class="home-topics">
+    <header class="home-section-header">
+      <h2 class="home-section-title">Temas</h2>
+      <a class="home-section-more" href="{{ "/temas/" | relLangURL }}">Ver todos →</a>
+    </header>
+    <div class="home-topics__grid">
+      {{ range $temasSection.Sections }}
+        {{ $tema := . }}
+        {{ $sectionKeyNorm := lower (replace (replace ($tema.Params.section_key | default $tema.Section) "-" "_") " " "_") }}
+        {{/* Find first post with placement hub=<tema> block=destacado */}}
+        {{ $destacado := false }}
+        {{ range $.Site.RegularPages }}
+          {{ if not $destacado }}
+            {{ $page := . }}
+            {{ range $page.Params.placements }}
+              {{ if reflect.IsMap . }}
+                {{ $h := lower (replace (replace (printf "%v" (index . "hub")) "-" "_") " " "_") }}
+                {{ $b := lower (replace (replace (printf "%v" (index . "block")) "-" "_") " " "_") }}
+                {{ if and (eq $h $sectionKeyNorm) (eq $b "destacado") }}
+                  {{ $destacado = $page }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        <article class="home-topic-card">
+          <h3 class="home-topic-card__title">
+            <a href="{{ $tema.RelPermalink }}">{{ $tema.Title }}</a>
+          </h3>
+          {{ if $destacado }}
+            <div class="home-topic-card__destacado">
+              <a class="home-topic-card__destacado-link" href="{{ $destacado.RelPermalink }}">{{ $destacado.Title }}</a>
+              {{ with $destacado.Params.description }}
+                <p class="home-topic-card__destacado-excerpt">{{ . }}</p>
+              {{ end }}
+            </div>
+          {{ end }}
+          <a class="home-topic-card__link" href="{{ $tema.RelPermalink }}">Ver más →</a>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ── 3. Research — 3 items ── */}}
+  {{ $research := (where .Site.RegularPages "Section" "investigaciones").ByDate.Reverse }}
+  {{ if gt (len $research) 0 }}
+  <section class="home-research">
+    <header class="home-section-header">
+      <h2 class="home-section-title">Investigaciones</h2>
+      <a class="home-section-more" href="{{ "/investigaciones/" | relLangURL }}">Ver todas →</a>
+    </header>
+    <div class="home-research__list">
+      {{ range first 3 $research }}
+        <article class="home-research-item">
+          <h3 class="home-research-item__title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h3>
+          {{ $excerpt := .Params.description | default .Params.abstract }}
+          {{ with $excerpt }}
+            <p class="home-research-item__excerpt">{{ . | plainify | truncate 200 }}</p>
+          {{ end }}
+        </article>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ── 4. Estamos leyendo ── */}}
+  {{ partial "estamos-leyendo.html" . }}
+
+  {{/* ── 5. Newsletter CTA ── */}}
+  <section class="home-newsletter">
+    <div class="home-newsletter__inner">
+      <h2 class="home-newsletter__title">Suscribite al boletín</h2>
+      <p class="home-newsletter__desc">Recibí novedades sobre eventos, investigaciones y análisis del CELE.</p>
+      <form class="home-newsletter__form" action="#" method="post">
+        <label class="sr-only" for="home-nl-email">Email</label>
+        <input class="home-newsletter__input" id="home-nl-email" type="email" name="email" placeholder="tu@email.com" required>
+        <button class="home-newsletter__btn" type="submit">Suscribirme</button>
+      </form>
+    </div>
+  </section>
+{{ end }}

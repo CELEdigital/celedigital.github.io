@@ -1,11 +1,11 @@
 ---
 author:
-- CELE
+- Lina Palacios
 content_type:
 - blog
 date: '2025-12-10'
-description: Audiencia CIDH libertad de expresión Diferentes organizaciones de la sociedad civil, representantes sindicales
-  y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de
+description: Diferentes organizaciones de la sociedad civil, representantes sindicales
+  y delegados del Estado argentino participaron el pasado 19 de noviembre en la audiencia sobre la situación de la libertad de expresión en la Argentina. 
 featured: true
 image: /img/img-01-500x280-1.jpg
 programs:
@@ -17,29 +17,13 @@ title: Audiencia CIDH libertad de expresión
 translationKey: wp-15276
 type: posts
 issues:
-- Privacidad y vigilancia
-- LDE
-- DDHH
 - Amenazas a la LDE
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
-- hub: policy
-  block: blog
-  weight: 2
-- hub: temas/libertad-de-expresion
-  block: ultimas_noticias_analisis
-  weight: 1
-- hub: temas/derechos-humanos
-  block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/amenazas
   block: ultimas_noticias_analisis
-  weight: 1
-- hub: temas/privacidad-y-vigilancia
-  block: ultimas_noticias_analisis
-  weight: 1
+region: latam
 ---
 # **Audiencia CIDH libertad de expresión**
 

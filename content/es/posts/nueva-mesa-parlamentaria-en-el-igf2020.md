@@ -27,19 +27,15 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/privacidad-y-vigilancia
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/amenazas
   block: ultimas_noticias_analisis
-  weight: 1
+region: latam
 ---
 En el marco del Internet Governance Forum de 2020 tuvo lugar el 10/11 la mesa parlamentaria. El tema que se trató durante la sesión fue “Construcción de confianza en tiempos de reacción frente al covid-19 y recuperación post covid-19” ([Parliamentary Roundtable](https://www.intgovforum.org/multilingual/content/igf-2020-parliamentary-roundtable): _Building trust in a time of COVID-19 response and post-COVID-19 recovery -traducción propia-)_. Durante dicha reunión se presentó y abrió a comentarios un borrador de resolución elaborado por DESA, IPU, el Secretariado del IGF con los Hosts del IGF de 2019 y 2020 (Alemania y Polonia). [Aquí](https://www.intgovforum.org/multilingual/igf-2020-registered-parliamentarians) puede verse la lista de parlamentarios/as registrados. Este borrador se asienta y tiene como antesala el documento titulado [Jimmy Schulz Call](https://www.intgovforum.org/multilingual/index.php?q=filedepot_download/7505/1807) (1), elaborado por el primer grupo de parlamentarios conformado por 56 países en ocasión del IGF de 2019. Dicho documento incluía una serie de recomendaciones que estaban dirigidas a los parlamentos nacionales En el documento de este año se menciona que la pandemia del COVID-19 ha evidenciado el rol crítico que tiene Internet para mantener los procesos económicos básicos, las interacciones sociales y una vida cultural mínima frente al aislamiento. Ahora más que nunca sería necesario garantizar el acceso a Internet, promover buenas políticas digitales, fortalecer la gobernanza multisectorial de Internet, así como la confianza en los funcionarios públicos y la información. Además, se hace hincapié en la responsabilidad que los/as parlamentarios/as tienen en contribuir activamente a crear marcos regulatorios para promover una Internet accesible, abierta y segura para los y las usuarias de esta generación y de las futuras. Además, se destaca la necesidad de abordar la brecha de género y la brecha digital para que todos y todas puedan aprovechar los enormes beneficios que las tecnologías digitales tienen para el desarrollo sostenible. Menciona también los inconvenientes que la "infodemia" (término sponsoreado por la OMS) en las redes ha causado en la lucha contra la pandemia y la importancia de abordar el problema de la desinformación desde una perspectiva sistémica y no meramente legislativa. Finalmente, el documento expresa la necesidad de promover la participación activa de los/as parlamentarios/as en 3 ejes distintos:  **Confianza Pública en Internet ** Los parlamentos tienen un rol clave en contribuir a mejorar la confianza pública en Internet a través de:
 

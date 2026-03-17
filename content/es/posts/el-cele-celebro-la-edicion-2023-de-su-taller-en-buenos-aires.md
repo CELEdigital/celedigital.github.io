@@ -24,22 +24,17 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/libertad-de-expresion
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/derechos-humanos
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/amenazas
   block: ultimas_noticias_analisis
-  weight: 1
+region: latam
 ---
 # El CELE celebró la edición 2023 de su taller en Buenos Aires
 

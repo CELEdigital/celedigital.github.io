@@ -183,8 +183,89 @@
     });
   }
 
+  function initVisualizacionesTabs() {
+    var navs = document.querySelectorAll(".js-obs-viz-links");
+    if (!navs.length) return;
+
+    navs.forEach(function (nav) {
+      var links = nav.querySelectorAll("[data-obs-viz-target]");
+      if (!links.length) return;
+
+      var container = nav.closest(".observatory-inline-panel--visualizaciones") || nav.parentElement;
+
+      function activate(targetId) {
+        var panels = container ? container.querySelectorAll("[data-obs-viz-panel]") : [];
+
+        links.forEach(function (link) {
+          var item = link.closest(".workshop-links__item");
+          if (link.getAttribute("data-obs-viz-target") === targetId) {
+            link.setAttribute("aria-current", "page");
+            if (item) item.classList.add("is-active");
+          } else {
+            link.removeAttribute("aria-current");
+            if (item) item.classList.remove("is-active");
+          }
+        });
+
+        panels.forEach(function (panel) {
+          if (panel.id === targetId) {
+            panel.hidden = false;
+            panel.classList.add("is-active");
+          } else {
+            panel.hidden = true;
+            panel.classList.remove("is-active");
+          }
+        });
+      }
+
+      function activateFromHash() {
+        var hash = (window.location.hash || "").replace(/^#/, "").trim().toLowerCase();
+        if (!hash) return false;
+        var matchedLink = null;
+        links.forEach(function (link) {
+          if (link.getAttribute("data-obs-viz-slug") === hash) matchedLink = link;
+        });
+        if (!matchedLink) return false;
+        var targetId = matchedLink.getAttribute("data-obs-viz-target");
+        if (!targetId) return false;
+        activate(targetId);
+        return true;
+      }
+
+      links.forEach(function (link) {
+        link.addEventListener("click", function (event) {
+          if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+          event.preventDefault();
+          var targetId = link.getAttribute("data-obs-viz-target");
+          if (!targetId) return;
+          activate(targetId);
+          var slug = link.getAttribute("data-obs-viz-slug");
+          if (slug) {
+            var nextHash = "#" + slug;
+            if (window.location.hash !== nextHash) {
+              window.history.pushState({ obsVizSlug: slug }, "", nextHash);
+            }
+          }
+        });
+      });
+
+      if (!activateFromHash()) {
+        var firstTarget = links[0].getAttribute("data-obs-viz-target");
+        if (firstTarget) activate(firstTarget);
+      }
+
+      window.addEventListener("popstate", function () {
+        activateFromHash();
+      });
+      window.addEventListener("hashchange", function () {
+        activateFromHash();
+      });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     initObservatoryHub();
     initBoletinesLoadMore();
+    initVisualizacionesTabs();
   });
 })();

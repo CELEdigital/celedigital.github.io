@@ -11,7 +11,7 @@
 .header-container {
   max-width: 90rem;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 .header-inner {
@@ -24,8 +24,9 @@
 }
 
 .site-logo img {
-  max-height: 150px;
+  max-height: 280px;
   width: auto;
+  display: block;
 }
 
 .site-title {
@@ -77,7 +78,7 @@
   }
 
   .site-logo img {
-    max-height: 80px;
+    max-height: 110px;
   }
 
   .main-nav {
@@ -260,6 +261,29 @@
   text-transform: none;
   font-weight: 500;
   font-size: 0.85rem;
+}
+
+/* ── Hover-open dropdowns (pointer devices only) ───────────── */
+@media (hover: hover) {
+  .nav-item--dropdown:hover > .nav-dropdown[hidden] {
+    display: grid;
+    animation: dropdown-pop 180ms ease;
+  }
+
+  .nav-item--dropdown:hover > .nav-button {
+    background: #fff;
+    color: var(--cele);
+  }
+
+  /* Transparent bridge over the 0.5rem gap so hover isn't lost */
+  .nav-item--dropdown > .nav-dropdown::before {
+    content: '';
+    position: absolute;
+    top: -0.6rem;
+    left: 0;
+    right: 0;
+    height: 0.6rem;
+  }
 }
 
 @keyframes dropdown-pop {

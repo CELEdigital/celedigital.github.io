@@ -1,0 +1,93 @@
+/* ── Map canvas (fits inside .blog-nav sidebar) ────────────── */
+.blog-map__list {
+  margin-top: 0.4rem;
+}
+
+.blog-map__canvas {
+  position: relative;
+  display: block;
+  line-height: 0;
+  margin-top: 0.5rem;
+}
+
+.blog-map__base {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.85;
+}
+
+/* ── Highlight overlays (CSS mask, pointer-events: none) ───── */
+.blog-map__hl {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: var(--cele);
+  opacity: 0;
+  transition: opacity 150ms ease;
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+}
+
+.blog-map__hl--us {
+  mask-image: url(/img/maps/map_us.svg);
+  -webkit-mask-image: url(/img/maps/map_us.svg);
+}
+.blog-map__hl--latam {
+  mask-image: url(/img/maps/map_latam.svg);
+  -webkit-mask-image: url(/img/maps/map_latam.svg);
+}
+.blog-map__hl--europe {
+  mask-image: url(/img/maps/map_europe.svg);
+  -webkit-mask-image: url(/img/maps/map_europe.svg);
+}
+
+/* ── Clickable hit areas ───────────────────────────────────── */
+.blog-map__hit {
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+}
+
+.blog-map__hit[data-blog-region-btn="us"] {
+  clip-path: polygon(
+    6.4% 35.4%, 24.0% 36.5%, 21.9% 40.1%, 21.2% 43.6%,
+    19.7% 49.5%, 14.7% 48.9%, 13.8% 47.1%, 8.5% 45.3%, 6.4% 38.9%
+  );
+}
+
+.blog-map__hit[data-blog-region-btn="latam"] {
+  clip-path: polygon(
+    8.5% 45.3%, 14.7% 48.9%, 17.8% 51.8%, 17.2% 55.3%,
+    25.6% 57.7%, 34.0% 67.1%, 30.5% 78.2%, 26.8% 84.1%,
+    23.4% 95.9%, 21.9% 88.8%, 20.6% 70.0%, 20.6% 59.4%
+  );
+}
+
+.blog-map__hit[data-blog-region-btn="europe"] {
+  clip-path: polygon(
+    42.0% 41.2%, 41.7% 33.0%, 39.2% 26.0%, 49.5% 23.0%,
+    52.6% 28.9%, 54.1% 37.1%, 53.2% 40.6%, 51.6% 42.4%, 43.3% 43.0%
+  );
+}
+
+/* ── Hover: preview ────────────────────────────────────────── */
+.blog-map__hit[data-blog-region-btn="us"]:hover ~ .blog-map__hl--us,
+.blog-map__hit[data-blog-region-btn="us"]:focus-visible ~ .blog-map__hl--us { opacity: 0.3; }
+
+.blog-map__hit[data-blog-region-btn="latam"]:hover ~ .blog-map__hl--latam,
+.blog-map__hit[data-blog-region-btn="latam"]:focus-visible ~ .blog-map__hl--latam { opacity: 0.3; }
+
+.blog-map__hit[data-blog-region-btn="europe"]:hover ~ .blog-map__hl--europe,
+.blog-map__hit[data-blog-region-btn="europe"]:focus-visible ~ .blog-map__hl--europe { opacity: 0.3; }
+
+/* ── Active state ──────────────────────────────────────────── */
+.blog-map__hit[data-blog-region-btn="us"].is-active ~ .blog-map__hl--us { opacity: 0.65; }
+.blog-map__hit[data-blog-region-btn="latam"].is-active ~ .blog-map__hl--latam { opacity: 0.65; }
+.blog-map__hit[data-blog-region-btn="europe"].is-active ~ .blog-map__hl--europe { opacity: 0.65; }

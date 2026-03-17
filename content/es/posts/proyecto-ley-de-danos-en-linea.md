@@ -13,6 +13,7 @@ tags:
 title: Discusiones sobre el Proyecto de Ley de Daños en Línea de Canadá (Bill C53)
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2024/proyecto-ley-de-danos-en-linea.html
+region: global
 ---
 
 Mesa de Legislación Comparada CELE: Discusiones sobre el Proyecto de Ley de Daños en Línea de Canadá (Bill C53) 

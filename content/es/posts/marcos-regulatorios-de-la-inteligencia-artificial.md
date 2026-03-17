@@ -13,6 +13,7 @@ tags:
 title: Marcos Regulatorios de la Inteligencia Artificial
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2024/marcos-regulatorios-de-la-inteligencia-artificial.html
+region: global
 ---
 
 Mesa de Legislación Comparada CELE: Marcos Regulatorios de la Inteligencia Artificial 

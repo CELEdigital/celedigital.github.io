@@ -37,6 +37,7 @@ placements:
 - hub: temas/amenazas
   block: ultimas_noticias_analisis
   weight: 1
+region: latam
 ---
 **Fake news on the Internet: actions and reactions from three platforms**
 

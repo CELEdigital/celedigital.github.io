@@ -23,19 +23,15 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/libertad-de-expresion
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/derechos-humanos
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/amenazas
   block: ultimas_noticias_analisis
-  weight: 1
+region: latam
 ---
 **¿Qué nos dice el estado de la regulación actual?** En líneas generales, a nivel regional, podemos observar algunas conclusiones y tendencias comunes a todos los países analizados ofreciendo un contexto a los gráficos que podrán encontrar en esta plataforma:
 

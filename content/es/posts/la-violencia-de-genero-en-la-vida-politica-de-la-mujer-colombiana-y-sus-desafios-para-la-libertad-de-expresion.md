@@ -25,19 +25,15 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/libertad-de-expresion
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/derechos-humanos
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/privacidad-y-vigilancia
   block: ultimas_noticias_analisis
-  weight: 1
+region: latam
 ---
 # La violencia de género en la vida política de la mujer colombiana y sus desafíos para la libertad de expresión.
 

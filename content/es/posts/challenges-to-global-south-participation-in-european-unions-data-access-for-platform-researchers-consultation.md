@@ -21,13 +21,11 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
+region: europe
 ---
 # Challenges to Majority World Participation in European Union's Data Access for Platform Researchers Consultation
 

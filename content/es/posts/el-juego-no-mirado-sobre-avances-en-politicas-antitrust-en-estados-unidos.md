@@ -1,47 +1,32 @@
 ---
 author:
-- CELE
+- Francesca Chocano Villanueva
 content_type:
 - blog
 date: '2025-03-27'
-description: 'El juego no mirado: sobre avances en políticas antitrust en Estados Unidos En las últimas semanas gran parte
-  de la discusión sobre gobernanza de Internet giró en torno a la decisión de Meta de cambiar su aproximación al'
+description: 'Una mirada al juego paralelo del antitrust, en Estados Unidos y Europa'
 featured: true
 image: /img/Screenshot-2023-09-18-at-11.14.13-AM.webp
 programs:
 - policy
 slug: el-juego-no-mirado-sobre-avances-en-politicas-antitrust-en-estados-unidos
 tags:
-- institucional
-title: 'El juego no mirado: sobre avances en políticas antitrust en Estados Unidos'
+- posiciones dominantes
+title: 'El juego no mirado: sobre avances en políticas antitrust'
 translationKey: wp-14290
 type: posts
 issues:
-- Privacidad y vigilancia
 - LDE
 - Gobernanza de Internet
-- Amenazas a la LDE
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
-- hub: policy
-  block: blog
-  weight: 2
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/libertad-de-expresion
   block: ultimas_noticias_analisis
-  weight: 1
-- hub: temas/amenazas
-  block: ultimas_noticias_analisis
-  weight: 1
-- hub: temas/privacidad-y-vigilancia
-  block: ultimas_noticias_analisis
-  weight: 1
+region: us, europe
 ---
-# El juego no mirado: sobre avances en políticas antitrust en Estados Unidos
 
 En las últimas semanas gran parte de la discusión sobre gobernanza de Internet giró en torno a la decisión de Meta de cambiar su aproximación al fact-checking y a la moderación de contenidos en general, al menos en Estados Unidos. Pero hay un juego paralelo, generalmente menos visible: el del _enforcement_ de las políticas antitrust, tanto en Estados Unidos como en la Unión Europea. Es una aproximación que no asume la existencia de “grandes jugadores” sino que la cuestiona, hasta cierto punto en tensión con las aproximaciones prevalentes como la _Digital Services Act_ que asume que el tamaño de las empresas es una condición necesaria para su propuesta regulatoria. En este post exploramos un caso que pasó más o menos desapercibido el año pasado, para traerlo a la discusión actual.  En efecto, la sentencia en el caso [**Google LLC vs. Estados Unidos**](https://harvardlawreview.org/print/vol-138/united-states-v-google-llc/#:~:text=Recently%2C%20in%20United%20States%20v,agreements%20that%20caused%20anticompetitive%20harm.), emitida por el juez Amit P. Mehta del Tribunal de Distrito de Columbia en agosto de 2024, es un hito importante en la línea de las políticas antitrust en el ámbito de Internet. Este fallo, que condena a Google por violaciones a la legislación antimonopolio, va más allá de las consideraciones económicas y plantea interrogantes cruciales sobre cómo el dominio de una sola empresa en el mercado digital afecta la libertad de expresión, la protección de datos personales y el acceso a la información pública.  Las políticas antitrust emergieron a fines del siglo XIX y principios del siglo XX en Estados Unidos como reacción ante el creciente fenómeno de la concentración de riqueza en manos privadas, bajo la [premisa](https://www.hup.harvard.edu/books/9780674295544) de que una democracia es incompatible con el poder excesivo—incluso cuando este se deposita en esferas no estatales. La aproximación, que [desde hace algunos años experimenta una especie de renacimiento](https://en.wikipedia.org/wiki/New_Brandeis_movement), es de obvia aplicación para las plataformas digitales, que controlan un vasto flujo de información y son, en consecuencia, actores centrales en el proceso democrático, y la toma de decisiones políticas. Como también cumplen un rol central en el mercado publicitario, se vuelven—también—relevantes para la protección de los derechos de los consumidores y la protección de sus datos personales. En el caso **Google LLC vs. Estados Unidos**, precisamente, se destacan estos problemas y su fallo sienta un importante precedente para casos futuros. 
 

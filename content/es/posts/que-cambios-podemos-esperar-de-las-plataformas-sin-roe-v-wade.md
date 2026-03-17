@@ -23,19 +23,15 @@ type: posts
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/libertad-de-expresion
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/derechos-humanos
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/privacidad-y-vigilancia
   block: ultimas_noticias_analisis
-  weight: 1
+region: us
 ---
 **¿Qué cambios podemos esperar de las plataformas sin _Roe v. Wade_?** Introducción El 24 de junio, la [Corte Suprema de los Estados Unidos anuló el precedente _Roe v. Wade_](https://www.nytimes.com/live/2022/06/24/us/roe-wade-abortion-supreme-court) que garantizaba el derecho al aborto a nivel federal en dicho país. El mundo entero está en shock y las mujeres salieron a las calles a protestar por sus derechos. El efecto que la anulación del precedente tendrá en el acceso a la salud en Estados Unidos es innegable, pero ¿qué impacto tendrá en la información que circula en las redes sociales? En Estados Unidos, país donde estan basadas las plataformas más importantes, la discusión no solamente gira en torno a la prohibición del aborto sino que actualmente existen polémicos proyectos de ley que avasallan el derecho a la salud, como aquellos que pretenden [prohibir la venta de ciertos anticonceptivos](https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2022/05/19/some-states-already-are-targeting-birth-control).(1) A continuación, un repaso por las políticas vigentes de Meta, Google, YouTube y Twitter que se refieren a contenido vinculado con aborto, incluyendo educación sobre sus prácticas, y la promoción de medicamentos que puedan ser utilizados para abortar, así como también políticas de educación sexual y reproductiva. Adelantando parte del análisis, destacamos que las políticas sobre el discurso que circula de manera orgánica en las plataformas difieren de aquellas sobre los anuncios publicitarios o contenido promocionado. Todas estas plataformas, prohíben anuncios sobre productos o actividades ilegales de manera genérica. En algunas plataformas el aborto estaria dentro de esta categoria. En otras, por ejemplo Google, existe un apartado específicamente dedicado a los anuncios sobre esta temática. Google dispone ciertas restricciones y/o prohibiciones que dependen de autorizaciones específicas de la plataforma para permitir su publicación y, además, de normativas locales según el país. Este último punto es relevante: todas las plataformas dicen cumplir, expresamente, con la normativa local de los países en donde operan. En consecuencia, en aquellos paises donde el aborto es ilegal, las plataformas prohiben expresamente anuncios relacionados con esta temática. En Estados Unidos, ademas, las legislaturas de cada Estado decidirán si mantienen el aborto legal o lo prohiben, lo que hace que la implementación de las reglas de las plataformas difieran no solo según país sino también según las normas de cada jurisdicción local. ![](https://observatoriolegislativocele.com/wp-content/uploads/mapeo.jpg) Como referencia, este cuadro muestra la proyección de los estados que prohibirán el aborto en el corto plazo (aquellos en rojo) y los estados donde es probable que se prohíba (en naranja). Veamos, a continuación, qué sucede en cada plataforma: 
 

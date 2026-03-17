@@ -134,6 +134,11 @@
   stroke-linejoin: round;
 }
 
+.author-card__icon-link--filled svg {
+  fill: currentColor;
+  stroke: none;
+}
+
 .authors-group__empty {
   margin: 0;
   color: var(--neutral-500);

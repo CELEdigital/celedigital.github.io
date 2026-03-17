@@ -30,16 +30,13 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/libertad-de-expresion
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
+region: latam
 ---
 # **El camino de las normas de derecho a la comunicación y derechos digitales en la propuesta de Nueva Constitución de Chile. **
 

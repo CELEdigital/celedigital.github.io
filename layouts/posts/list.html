@@ -1,0 +1,91 @@
+{{ define "main" }}
+  {{ $posts := .Pages.ByDate.Reverse }}
+  <section class="section-hub">
+    <header class="section-hub__header">
+      <h1 class="section-hub__title">{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="section-hub__description">{{ . }}</p>{{ end }}
+    </header>
+
+    <div class="blog-layout">
+      <nav class="blog-nav" aria-label="Filtros">
+        <div class="blog-nav__section">
+          <p class="blog-nav__heading">Categorías</p>
+          <ul class="blog-nav__list">
+            <li class="blog-nav__item is-active">
+              <a href="#" class="blog-nav__link" data-blog-tab="">Todas</a>
+            </li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="LDE">LDE</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="DDHH">DDHH</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Amenazas a la LDE">Amenazas a la LDE</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Privacidad y vigilancia">Privacidad y vigilancia</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Gobernanza de Internet">Gobernanza de Internet</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Inteligencia Artificial">Inteligencia Artificial</a></li>
+          </ul>
+        </div>
+
+        <div class="blog-nav__section">
+          <p class="blog-nav__heading">Etiquetas</p>
+          <ul class="blog-nav__list">
+            <li class="blog-nav__item">
+              <a href="#" class="blog-nav__link" data-blog-tag="">Todas</a>
+            </li>
+            {{ range $.Site.Taxonomies.tags.ByCount }}
+              <li class="blog-nav__item">
+                <a href="#" class="blog-nav__link" data-blog-tag="{{ .Name }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+
+        {{ partial "blog-map.html" . }}
+
+      </nav>
+
+      <div class="section-hub__blocks">
+        <section class="section-block">
+          <p class="blog-filter__count" data-blog-count></p>
+          <ul class="section-block__list" data-blog-list data-blog-step="10">
+            {{ range $post := $posts }}
+              {{ $issues := $post.Params.issues | default slice }}
+              {{ $tags := $post.Params.tags | default slice }}
+              <li class="section-block__item section-block__item--media-right"
+                  data-blog-item
+                  data-blog-issues='{{ $issues | jsonify }}'
+                  data-blog-tags='{{ $tags | jsonify }}'
+                  data-blog-region='{{ $post.Params.region | default "global" }}'>
+                <div class="section-block__body">
+                  <h3 class="section-block__title">
+                    <a class="section-block__link" href="{{ $post.RelPermalink }}">{{ $post.Title }}</a>
+                  </h3>
+                  {{ with $post.Params.description }}
+                    <p class="section-block__excerpt">{{ . }}</p>
+                  {{ end }}
+                  {{ $hasAuthor := $post.Params.author }}
+                  {{ $hasDate := not $post.Date.IsZero }}
+                  {{ if or $hasAuthor $hasDate }}
+                    <div class="section-block__byline">
+                      {{ with $post.Params.author }}
+                        <span class="section-block__by">{{ i18n "byline" }} {{ partial "author-links.html" (dict "authors" . "context" $post) }}</span>
+                      {{ end }}
+                      {{ if $hasDate }}
+                        <time class="section-block__date" datetime="{{ $post.Date.Format "2006-01-02" }}">{{ partial "date-es.html" $post.Date }}</time>
+                      {{ end }}
+                    </div>
+                  {{ end }}
+                </div>
+                {{ with $post.Params.image }}
+                  <div class="section-block__media">
+                    <img src="{{ . | relURL }}" alt="{{ $post.Title }}">
+                  </div>
+                {{ end }}
+              </li>
+            {{ end }}
+          </ul>
+          <button type="button" class="section-block__load-more" data-blog-load hidden>
+            {{ i18n "hub_load_more" }}
+          </button>
+        </section>
+      </div>
+    </div>
+  </section>
+{{ end }}

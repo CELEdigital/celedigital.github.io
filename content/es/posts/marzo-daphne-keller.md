@@ -12,6 +12,7 @@ tags:
 - mesas-legislativas
 title: Desarrollo de la legislación estadounidense sobre seguridad infantil
 type: posts
+region: global
 ---
 
 Mesa de Legislación Comparada CELE: Desarrollo de la legislación estadounidense sobre seguridad infantil 

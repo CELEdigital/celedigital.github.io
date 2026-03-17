@@ -22,16 +22,13 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/libertad-de-expresion
   block: ultimas_noticias_analisis
-  weight: 1
+region: europe
 ---
 # Indefiniciones y buenas intenciones: las directrices de la Comisión Europea para la mitigación de riesgos sistémicos en contexto de procesos electorales
 

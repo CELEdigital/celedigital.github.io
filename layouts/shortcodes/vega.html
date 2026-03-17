@@ -6,7 +6,7 @@ Optional: title
 {{- $spec := .Get "spec" -}}
 {{- $id := .Get "id" | default (printf "vega-%d" .Ordinal) -}}
 {{- $title := .Get "title" -}}
-{{- $isSunburst := eq $id "chart-observatorio-sunburst" -}}
+{{- $isSunburst := or (eq $id "chart-observatorio-sunburst") (eq $id "chart-ia-sunburst") -}}
 <div class="vega-chart{{ if $isSunburst }} vega-chart--with-panel{{ end }}">
   {{- if $title }}<h3 class="vega-title">{{ $title }}</h3>{{ end -}}
   {{- if $isSunburst -}}

@@ -14,6 +14,7 @@ tags:
 title: La Ley de Seguridad en Línea del Reino Unido y el proceso de implementación por OFCOM
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2024/ley-de-seguridad-en-linea-del-reino-unido.html
+region: europe
 ---
 
 Mesa de Legislación Comparada CELE: La Ley de Seguridad en Línea del Reino Unido y el proceso de implementación por OFCOM 

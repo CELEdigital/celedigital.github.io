@@ -23,16 +23,13 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/libertad-de-expresion
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/derechos-humanos
   block: ultimas_noticias_analisis
-  weight: 1
+region: latam
 ---
 Oportunidad para sumarse al CELE! Arrancamos dos proyectos nuevos y buscamos sociólogos/as y Asistentes de investigación interesados/as en la materia. Como parte de la política del CELE, promovemos particularmente la postulación de diversidades étnico -raciales y de género. 
 

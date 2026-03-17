@@ -11,17 +11,19 @@ translationKey: data-access-for-researchers
 date: 2025-10-25
 author:
 - Nicolás Zara
+tags: 
+- digital services act
 image: /img/ChatGPT-Image-14-oct-2025-12_21_33-p.m.webp
 issues:
 - Gobernanza de Internet
 placements:
 - hub: policy
   block: blog
-  weight: 1
 - hub: temas/gobernanza
-  block: ultimas_noticias_analisis
-  weight: 1
+  block: destacado
+region: global
 ---
+
 El 2 de julio de 2025, la Comisión Europea adoptó la legislación delegada relativa al acceso a datos para investigadores bajo el Artículo 40 (4) de la Ley de Servicios Digitales (DSA). Se trata de un hito largamente esperado; una norma que, de implementarse exitosamente, podría permitir acceso a una gran cantidad de información acerca del funcionamiento de las plataformas online que permanece hasta hoy fuera del conocimiento público. Desde el CELE seguimos esta conversación desde hace tiempo y participamos -conjuntamente con InternetLab- en el proceso de consulta con comentarios a una versión preliminar de este reglamento.
 
 # El punto de partida: una normativa esperada

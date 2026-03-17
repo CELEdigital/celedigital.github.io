@@ -13,6 +13,7 @@ tags:
 - mesas-legislativas
 title: Discusiones sobre el proyecto de ley que pretende regular la publicidad política en la Unión Europea
 type: posts
+region: europe
 ---
 
 Mesa de Legislación Comparada CELE: Discusiones sobre el proyecto de ley que pretende regular la publicidad política en la Unión Europea 

@@ -16,7 +16,7 @@ tags:
 title: 'Regulación de plataformas en Brasil: necesidad, peligros y contradicciones'
 translationKey: wp-12085
 type: posts
-
+region: latam
 ---
 # Regulación de plataformas en Brasil: necesidad, peligros y contradicciones
 

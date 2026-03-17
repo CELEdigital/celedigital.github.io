@@ -22,19 +22,15 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/amenazas
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/privacidad-y-vigilancia
   block: ultimas_noticias_analisis
-  weight: 1
+region: us
 ---
 # When does the bully pulpit become regular bullying?
 

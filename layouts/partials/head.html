@@ -6,22 +6,33 @@
   (resources.Get "css/components/single.css")
   (resources.Get "css/components/documentation.css")
   (resources.Get "css/components/section-hub.css")
+  (resources.Get "css/components/home.css")
+  (resources.Get "css/components/blog.css")
   (resources.Get "css/components/authors-hub.css")
   (resources.Get "css/components/observatory-hub.css")
   (resources.Get "css/components/workshop-hub.css")
   (resources.Get "css/components/workshop-subhub.css")
   (resources.Get "css/components/tables.css")
   (resources.Get "css/components/charts.css")
+  (resources.Get "css/components/footnotes.css")
+  (resources.Get "css/components/estamos-leyendo.css")
   (resources.Get "css/components/social-icons.css")
+  (resources.Get "css/components/investigaciones.css")
+  (resources.Get "css/components/footer.css")
   (resources.Get "css/style.css")
 }}
 {{ $css := $styles | resources.Concat "css/style.css" | minify }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 <script src="{{ "data/documentation.js" | relURL }}" defer></script>
+<script src="{{ "data/documentation-ai.js" | relURL }}" defer></script>
+<script src="{{ "data/blog-filter.js" | relURL }}" defer></script>
 <script src="{{ "data/section-hub.js" | relURL }}" defer></script>
 <script src="{{ "data/observatory-hub.js" | relURL }}" defer></script>
 <script src="{{ "data/workshop-hub.js" | relURL }}" defer></script>
 <script src="{{ "data/workshop-subhub.js" | relURL }}" defer></script>
 <script src="{{ "data/workshop-tables.js" | relURL }}" defer></script>
 <script src="{{ "data/tables-responsive.js" | relURL }}" defer></script>
+<script>document.documentElement.classList.replace('no-js','js')</script>
+<script src="{{ "data/footnotes.js" | relURL }}" defer></script>
+<script src="{{ "data/estamos-leyendo.js" | relURL }}" defer></script>

@@ -1,0 +1,97 @@
+/* ── Footnotes ───────────────────────────────────────────── */
+
+/* Hide the default end-of-page footnotes list when JS is active.
+   Browsers without JS still see the standard list. */
+.js .footnotes {
+  display: none;
+}
+
+/* ── Superscript reference link ──────────────────────────── */
+sup[id^="fnref"] a {
+  color: var(--cele);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+sup[id^="fnref"] a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+/* ── Desktop sidenotes (≥1200px) ─────────────────────────── */
+@media (min-width: 1200px) {
+  .sidenote {
+    float: right;
+    clear: right;
+    width: 13rem;
+    margin-right: -14rem;
+    margin-left: 0.75rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.72rem;
+    line-height: 1.45;
+    color: var(--neutral-600);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.3rem;
+    align-items: start;
+  }
+
+  .sidenote-number {
+    font-size: 0.78em;
+    font-weight: 700;
+    color: var(--cele);
+    padding-top: 0.1em;
+  }
+
+  .sidenote p {
+    margin: 0;
+  }
+
+  .sidenote a {
+    color: var(--columbia-blue);
+    text-decoration: underline;
+    text-underline-offset: 0.12em;
+  }
+}
+
+/* Hide sidenotes on smaller screens */
+@media (max-width: 1199px) {
+  .sidenote {
+    display: none;
+  }
+}
+
+/* ── Mobile inline footnotes (<1200px) ───────────────────── */
+@media (max-width: 1199px) {
+  .inline-footnote {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.25s ease, opacity 0.2s ease;
+    margin-top: 0.4rem;
+    margin-bottom: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    border-left: 3px solid var(--columbia-blue);
+    background: var(--neutral-50, #f8f9fa);
+    font-size: 0.82em;
+    color: var(--neutral-700);
+    line-height: 1.5;
+  }
+
+  .inline-footnote.is-open {
+    max-height: 40rem;
+    opacity: 1;
+  }
+
+  .inline-footnote p {
+    margin: 0;
+  }
+
+  .inline-footnote a {
+    color: var(--cele);
+    text-decoration: underline;
+    text-underline-offset: 0.12em;
+  }
+}

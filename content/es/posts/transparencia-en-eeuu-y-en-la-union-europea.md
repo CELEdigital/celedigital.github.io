@@ -14,7 +14,7 @@ tags:
 title: Análisis de los mandatos estatales de transparencia en EE.UU. y en la Unión Europea
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2023/transparencia-en-eeuu-y-en-la-union-europea.html
-
+region: us
 ---
 
 Mesa de Legislación Comparada CELE: Análisis de los mandatos estatales de transparencia en EE.UU. y en la Unión Europea 

@@ -16,6 +16,7 @@ tags:
 title: 'Noticias cruzando el mar #5, por Nicolás Zara:'
 translationKey: wp-14377
 type: posts
+region: global
 ---
 ## **Noticias cruzando el mar #5**:
 

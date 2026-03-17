@@ -5,6 +5,9 @@
 {{ $leyesRows := split (trim $leyesRaw "\r\n\t ") "\n" }}
 {{ $proyectosCount := sub (len $proyectosRows) 1 }}
 {{ $leyesCount := sub (len $leyesRows) 1 }}
+{{ $aiRaw := readFile "static/data/ai_clean.csv" }}
+{{ $aiProyectosCount := len (findRE "(?m)^Proyecto de ley," $aiRaw) }}
+{{ $aiLeyesCount := len (findRE "(?m)^Ley," $aiRaw) }}
 {{ $isES := eq .Lang "es" }}
 {{ $metodologiaLabel := cond $isES "Metodología" "Methodology" }}
 {{ $objetivosLabel := cond $isES "Objetivos" "Objectives" }}
@@ -34,6 +37,10 @@
 {{ $objetivosPagePath := cond $isES (printf "/%s/%s" .Section "objetivos") (printf "/%s/%s" .Section "objectives") }}
 {{ $metodologiaPage := .Site.GetPage $metodologiaPagePath }}
 {{ $objetivosPage := .Site.GetPage $objetivosPagePath }}
+{{ $ldePage := .Site.GetPage (printf "/%s/lde" .Section) }}
+{{ $iaPage := .Site.GetPage (printf "/%s/ia" .Section) }}
+{{ $visualizacionesLabel := cond $isES "Visualizaciones" "Visualizations" }}
+{{ $visualizacionesPanelID := "observatory-visualizaciones-panel" }}
 {{ $boletinesInitialVisible := 5 }}
 {{ $boletinesPages := slice }}
 {{ range .RegularPages }}
@@ -240,33 +247,90 @@
         <p class="observatory-boletines-empty">{{ cond $isES "No hay mesas con content_type: mesa." "No tables with content_type: mesa." }}</p>
       {{ end }}
     </section>
+
   </div>
 
-  <div class="observatory-stats" aria-label="Observatory totals">
-    <div class="observatory-stat-card">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M7 3h8l4 4v14H7z"></path>
-        <path d="M15 3v5h4"></path>
-        <path d="M10 12h6"></path>
-        <path d="M10 16h6"></path>
-      </svg>
-      <p><strong>{{ $proyectosCount }}</strong> proyectos</p>
-    </div>
-    <div class="observatory-stat-card">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M9 7l8 8"></path>
-        <path d="M7 9l8 8"></path>
-        <path d="M14 4l6 6"></path>
-        <path d="M5 17h8"></path>
-        <path d="M4 20h14"></path>
-      </svg>
-      <p><strong>{{ $leyesCount }}</strong> leyes</p>
+  {{ if or $ldePage $iaPage }}
+  <div class="observatory-hub__content section-content">
+    <h1>{{ $visualizacionesLabel }}</h1>
+    <nav class="workshop-links js-obs-viz-links" aria-label="{{ $visualizacionesLabel }}">
+      {{ if $ldePage }}
+      <h3 class="workshop-links__item is-active">
+        <a
+          href="#libertad-de-expresion"
+          class="workshop-links__trigger"
+          data-obs-viz-target="obs-viz-lde"
+          data-obs-viz-slug="libertad-de-expresion"
+          aria-current="page"
+        >{{ cond $isES "Libertad de Expresión" "Freedom of Expression" }}</a>
+      </h3>
+      {{ end }}
+      {{ if $iaPage }}
+      <h3 class="workshop-links__item">
+        <a
+          href="#inteligencia-artificial"
+          class="workshop-links__trigger"
+          data-obs-viz-target="obs-viz-ia"
+          data-obs-viz-slug="inteligencia-artificial"
+        >{{ cond $isES "Inteligencia Artificial" "Artificial Intelligence" }}</a>
+      </h3>
+      {{ end }}
+    </nav>
+    <div class="workshop-panels">
+      {{ if $ldePage }}
+      <div id="obs-viz-lde" class="workshop-panel is-active" data-obs-viz-panel>
+        <div class="observatory-stats" aria-label="Totales Libertad de Expresión">
+          <div class="observatory-stat-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 3h8l4 4v14H7z"></path>
+              <path d="M15 3v5h4"></path>
+              <path d="M10 12h6"></path>
+              <path d="M10 16h6"></path>
+            </svg>
+            <p><strong>{{ $proyectosCount }}</strong> proyectos</p>
+          </div>
+          <div class="observatory-stat-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 7l8 8"></path>
+              <path d="M7 9l8 8"></path>
+              <path d="M14 4l6 6"></path>
+              <path d="M5 17h8"></path>
+              <path d="M4 20h14"></path>
+            </svg>
+            <p><strong>{{ $leyesCount }}</strong> leyes</p>
+          </div>
+        </div>
+        {{ $ldePage.Content }}
+      </div>
+      {{ end }}
+      {{ if $iaPage }}
+      <div id="obs-viz-ia" class="workshop-panel" data-obs-viz-panel hidden>
+        <div class="observatory-stats" aria-label="Totales Inteligencia Artificial">
+          <div class="observatory-stat-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 3h8l4 4v14H7z"></path>
+              <path d="M15 3v5h4"></path>
+              <path d="M10 12h6"></path>
+              <path d="M10 16h6"></path>
+            </svg>
+            <p><strong>{{ $aiProyectosCount }}</strong> proyectos</p>
+          </div>
+          <div class="observatory-stat-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 7l8 8"></path>
+              <path d="M7 9l8 8"></path>
+              <path d="M14 4l6 6"></path>
+              <path d="M5 17h8"></path>
+              <path d="M4 20h14"></path>
+            </svg>
+            <p><strong>{{ $aiLeyesCount }}</strong> leyes</p>
+          </div>
+        </div>
+        {{ $iaPage.Content }}
+      </div>
+      {{ end }}
     </div>
   </div>
-
-  {{ with .Content }}
-    <div class="observatory-hub__content section-content">
-      {{ . }}
-    </div>
   {{ end }}
+
 </section>

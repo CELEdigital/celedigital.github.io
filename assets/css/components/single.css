@@ -38,6 +38,14 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--neutral-600);
+  text-decoration: none;
+}
+
+.single-tag:hover,
+.single-tag:focus-visible {
+  color: var(--columbia-blue);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 .single-dek {
@@ -233,8 +241,6 @@
 }
 
 .single-sidebar {
-  position: sticky;
-  top: 1.5rem;
 }
 
 .newsletter-box {

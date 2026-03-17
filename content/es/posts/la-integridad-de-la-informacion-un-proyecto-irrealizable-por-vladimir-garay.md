@@ -1,56 +1,42 @@
 ---
 author:
-- CELE
+- Vladimir Garay
 content_type:
 - blog
 date: '2025-05-26'
-description: La integridad de la información, ¿un proyecto irrealizable? El Día Mundial de la Libertad de Prensa y la agenda
-  internacional El pasado 5 de mayo se celebró el Día Mundial de la Libertad de Prensa, una instancia creada p
+description: La integridad de la información es un concepto confuso, que resulta vago y ambiguo y que ---como tal--- es poco útil para pensar en la gobernanza del ecosistema digital. 
 featured: true
 image: /img/censorship-g0889cf5a5_1280.jpg
 programs:
 - policy
 slug: la-integridad-de-la-informacion-un-proyecto-irrealizable-por-vladimir-garay
 tags:
-- institucional
-title: La integridad de la información, ¿un proyecto irrealizable? - Por Vladimir Garay
+- integridad de la información
+title: La integridad de la información, ¿un proyecto irrealizable?
 translationKey: wp-14482
 type: posts
 issues:
 - Inteligencia Artificial
 - LDE
 - DDHH
-- Amenazas a la LDE
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
-- hub: policy
-  block: blog
-  weight: 2
+- hub: temas/gobernanza
+  block: ultimas_noticias_analisis
 - hub: temas/inteligencia-artificial
   block: ultimas_noticias_analisis
-  weight: 1
-- hub: temas/libertad-de-expresion
-  block: ultimas_noticias_analisis
-  weight: 1
-- hub: temas/derechos-humanos
-  block: ultimas_noticias_analisis
-  weight: 1
-- hub: temas/amenazas
-  block: ultimas_noticias_analisis
-  weight: 1
+region: global
 ---
-## **La integridad de la información, ¿un proyecto irrealizable?**
 
-### **El Día Mundial de la Libertad de Prensa y la agenda internacional**
+# El Día Mundial de la Libertad de Prensa y la agenda internacional
 
 El pasado 5 de mayo se celebró el Día Mundial de la Libertad de Prensa, una instancia creada por la Asamblea General de Naciones Unidas en 1993 con el objetivo de llamar la atención sobre el rol central de la prensa en la construcción de democracias más robustas. A nivel mundial, las conmemoraciones fueron encabezadas por UNESCO, con una conferencia que este año tuvo lugar en Bruselas, bajo el tema “[Reporting in the Brave New World: The Impact of Artificial Intelligence on Press Freedom and the Media](https://www.unesco.org/en/articles/world-press-freedom-day-2025-signature-event-reporting-brave-new-world-impact-artificial)”. Durante el evento se presentaron distintos documentos de trabajo, incluyendo “[Freedom of Expression, Artificial Intelligence and Elections](https://unesdoc.unesco.org/ark:/48223/pf0000393473_spa)” un _brief report_ realizado por Ajay Patel, experto en materias electorales, por encargo de UNESCO y el United Nations Development Programme (UNDP). El reporte tiene por objetivo ofrecer una visión general del impacto de la Inteligencia Artificial (IA) en el ejercicio de la libertad de expresión durante procesos electorales, entregando algunos elementos de análisis que permitan identificar líneas de acción de acuerdo a los distintos contextos.
 
-### **Un marco difuso: críticas al enfoque de “information integrity”**
+# Un marco difuso: críticas al enfoque de “information integrity”
 
 Si bien el reporte ofrece distintos ejemplos del uso de la IA en contextos electorales —tanto positivos como negativos— carece de una reflexión más profunda desde una perspectiva de libertad de expresión, como lamentablemente ha sido la tónica en distintos esfuerzos que la Organización de Naciones Unidas (ONU) y sus organismos asociados han realizado bajo la agenda de “integridad de la información”. El ejemplo más claro de eso es que a la fecha todavía no hay una justificación sólida por parte de la ONU respecto de la conveniencia de tratar fenómenos distintos, como son la desinformación y el discurso de odio, bajo un mismo marco analítico. Si bien es cierto que puede haber algunas similitudes y puntos de conexión entre ambos, también es verdad que se trata de cuestiones de naturaleza diferente, incluso respecto de su tratamiento a nivel normativo de acuerdo con los estándares internacionales en materia de restricción a la circulación de información. Qué se gana y qué se pierde al tratarlos como parte de una misma problemática es una interrogante que sigue a la espera de una respuesta clara y contundente. Probablemente un _brief report_ no es la instancia más propicia para llenar este vacío y se entiende. Sin embargo, la falta de un examen sustantivo y cuidado, que problematice los pros y contras de la adopción de este marco de análisis con relación al pleno ejercicio de la libertad de expresión, atenta contra los propios intereses de Naciones Unidas y su agenda. Pareciera ser que el tema está siendo esquivado a propósito en una serie de reportes de carácter permanente introductorio, más preocupados de posicionar conceptos que de comprender mejor las consecuencias de esa propuesta. Otro ejemplo de ello es la falta de claridad respecto del nivel en el cuál es necesario analizar las amenazas y sus potenciales soluciones. Por momentos, el reporte parece abogar por una comprensión de carácter sistémica de los contextos electorales, de los cuales participan diversos actores, con roles diferenciados, durante un periodo determinado de tiempo. Se reconoce además que no toda la información “imprecisa” es necesariamente “dañina” y que la confianza en una elección no está determinada por sus “cualidades técnicas”, sino por un contexto político más amplio. Y, sin embargo, a la hora de identificar usos potencialmente perniciosos de la IA en contextos electorales, el análisis se limita al nivel más granular: mensajes específicos, unidades de información. El problema es que si la mera existencia de un mensaje “falso” —construido o no con inteligencia artificial y difundido a través de redes sociales— es un atentado contra la integridad de la información, entonces la integridad de la información es un proyecto irrealizable. Dejando de lado consideraciones respecto del tipo de medidas que sería necesario implementar para intentar conseguirlo, lo problemático que eso sería desde una perspectiva de libertad de expresión y lo dudosamente deseable que eso resulta en el marco de una democracia, lisa y llanamente, es una meta imposible de alcanzar. ¿De qué sirve entonces un marco de análisis con esas características? ¿Cómo se mide el éxito de las políticas implementadas para conseguir ese objetivo? No se trata de negar que cierta información errónea y maliciosa puede ser perjudicial, ni tampoco de rendirse o permanecer pasivos frente al potencial daño, sino de aceptar que la vida social no se reduce a una serie de datos fácticos. Menos en contextos electorales, que están necesariamente cruzados por anhelos, promesas, creencias, confianzas, interpretaciones, opiniones, estrategias, ofensivas, apariencias, decepciones, rivalidades y afectos, separados de lo factual por un límite que muchas veces es tenue. Y todo eso es parte de la vida en democracia, que es en sí misma muchas veces un anhelo y un territorio en disputa. Citando el reporte de la Secretaría General de Naciones Unidas, [Strengthening the role of the United Nations in enhancing periodic and genuine elections and the promotion of democratization](https://digitallibrary.un.org/record/3955076), el _policy brief _afirma que la información “falsa y engañosa” puede “amplificar tensiones y divisiones” al mermar la capacidad del electorado para tomar decisiones informadas. El reporte de la Secretaría General agrega que no hay soluciones técnicas simples para contrarrestar los efectos de la desinformación, lo que es cierto. Pero incluso más, cabe preguntarse si realmente el problema es de naturaleza técnica; quizás este análisis ha invertido la relación causa-efecto, y la desinformación no es más que un síntoma de un problema sociopolítico mayor, consecuencia de un contexto donde las condiciones de posibilidad de elecciones informadas ha sido previamente erosionado por una falta de legitimidad de las instituciones llamadas a garantizarlas, incluyendo a los partidos políticos, la prensa, el gobierno y los organismos encargados de supervisar los procesos eleccionarios. Evidentemente, la proliferación de discursos que exacerban estas tensiones no ayuda, pero focalizar la respuesta en este tipo de expresiones tampoco ofrece soluciones reales y, a la larga, puede incluso empeorar las cosas: si las instituciones encargadas de delinear e implementar políticas públicas carecen del respaldo necesario para que sean percibidas como apropiadas y necesarias, estas pueden sumar polarización a contextos inestables. Si este es el caso, el tipo de soluciones necesarias tendría que apuntar, más que a la persecución y rectificación de información maliciosa, a la reconstrucción de legitimidad institucional. Evidentemente, una solución de este tipo es más difícil de implementar, toma más tiempo y es probablemente menos vistosa. Llama la atención un esquema presentado en la página 7 del documento, que busca representar gráficamente el “_Information Environment_”, que incluye columnas para los actores estatales, el público, los medios y las plataformas, los actores políticos y la sociedad civil. Flotando sobre todos los anteriores aparece_ “Malicious Actors / Hackers”_ y _“Foreign State Influence Actors”_. El dibujo no es explicado ni comentado en el reporte. Lo que llama la atención es que la propuesta se parece mucho a la que podría generarse desde una óptica militar y de seguridad nacional, sugiriendo que las principales amenazas son externas, en un contexto de enfrentamiento internacional. Es dudoso, primero, que este esquema —donde la desinformación es una especie de remanente de la guerra fría—pueda ser aceptado como el más idóneo fuera de Estados Unidos y Europa.
 
-### **¿Y en América Latina?**
+# ¿Y en América Latina?
 
 Países con democracias frágiles e historiales abultados de autoritarismo, represión y dictadura, como los latinoamericanos, han estado obligados a construir cierta desconfianza legítima, y a veces útil, respecto de las instituciones del Estado y los grandes conglomerados mediáticos. En Chile, El Mercurio y Copesa, las dos empresas editoras de periódicos que hasta el día de hoy son las más grandes del país, fueron cómplices activos de la dictadura de Pinochet, utilizando sus páginas para[ encubrir crímenes de lesa humanidad.](https://www.theclinic.cl/2017/04/24/las-portadas-mas-siniestras-los-diarios-la-edwards-eastman-la-dictadura/) La falta de pluralidad en los medios de comunicación supone aquí un problema mucho más profundo para la democracia que cualquier uso puntual de los sistemas generativos de inteligencia artificial. Y no es que las soluciones presentadas en el _brief report_ sean necesariamente malas. Los distintos documentos que ha producido Naciones Unidas bajo su agenda de _Information Integrity_ consistentemente han insistido, por un lado, en lo difícil que es balancear la libertad de expresión con medidas de tipo punitivista. Por otro, promueven medidas tales como la alfabetización mediática e informacional, asegurar el ejercicio libre y seguro del periodismo y promover la conformación de múltiples partes interesadas para la toma de decisión. Todas esas cuestiones pueden ser buenas y deseables. Sin embargo, si no hay una comprensión clara respecto de las implicancias ventajosas y desventajosas de adoptar el marco de “information integrity”, partiendo por una delimitación clara del término, es muy difícil saber si ese tipo de medidas son capaces de generar los resultados que, se supone, se apunta a conseguir.  ¿Cómo luce la integridad de la información? ¿Es un concepto binario? ¿Cómo se establece? ¿En relación al número bruto de información falsa que circula? ¿Proporcionalmente respecto de la información falsa de la verídica? ¿En función del impacto que la información falsa genera? ¿Cómo se mide el impacto? ¿Cómo saber qué áreas del ecosistema informativo es necesario priorizar? ¿Cómo se establece el impacto diferenciado que los distintos actores tienen en un contexto particular? Son todas preguntas que por el momento quedan sin respuesta.  El panorama es complejo. _Information Integrity_ se ha convertido en un término relevante en el marco de las discusiones sobre gobernanza de internet, a pesar de su significado impreciso y un sustento teórico que todavía es débil. Antes de continuar promoviendo su adopción en un número cada vez mayor de ámbitos, sería buena idea que Naciones Unidas pudiera dar respuesta a las distintas interrogantes de fondo que esta aproximación produce, para evitar que todos estos esfuerzos colapsen en el futuro próximo por falta de bases suficientemente sólidas.

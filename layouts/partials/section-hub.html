@@ -42,6 +42,56 @@
     </div>
   </header>
 
+  {{/* ── Optional subsection panel (e.g. Noticias cruzando el mar in Gobernanza) ── */}}
+  {{ with .Params.subsection_label }}
+    {{ $subPages := sort $.RegularPages "Date" "desc" }}
+    {{ if gt (len $subPages) 0 }}
+      {{ $subPanelID := printf "section-subsection-panel-%s" ($.Section | urlize) }}
+      {{ $subListID  := printf "section-subsection-list-%s"  ($.Section | urlize) }}
+      {{ $subInitial := 5 }}
+      <div class="observatory-links" aria-label="{{ . }}">
+        <h3 class="observatory-links__item">
+          <a
+            href="#{{ $subPanelID }}"
+            data-observatory-inline-toggle
+            aria-controls="{{ $subPanelID }}"
+            aria-expanded="false"
+          >{{ . }}</a>
+        </h3>
+      </div>
+      <div class="observatory-inline-panels">
+        <section
+          id="{{ $subPanelID }}"
+          class="observatory-inline-panel section-content"
+          hidden
+          aria-hidden="true"
+          aria-label="{{ . }}"
+        >
+          <ul id="{{ $subListID }}" class="observatory-boletines-list">
+            {{ range $idx, $p := $subPages }}
+              <li class="observatory-boletines-item{{ if ge $idx $subInitial }} is-observatory-hidden{{ end }}"{{ if ge $idx $subInitial }} hidden{{ end }}>
+                <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+                {{ if not $p.Date.IsZero }}
+                  <time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ partial "date-es.html" $p.Date }}</time>
+                {{ end }}
+              </li>
+            {{ end }}
+          </ul>
+          {{ if gt (len $subPages) $subInitial }}
+            <button
+              type="button"
+              class="observatory-boletines-load-more"
+              data-observatory-boletines-more
+              data-target="{{ $subListID }}"
+              data-step="{{ $subInitial }}"
+              hidden
+            >{{ i18n "hub_load_more" }}</button>
+          {{ end }}
+        </section>
+      </div>
+    {{ end }}
+  {{ end }}
+
   <div class="section-hub__blocks">
     {{ range $blocks }}
       {{ $blockKey := .key }}
@@ -131,6 +181,15 @@
       {{ $curatedEntries := slice }}
       {{ range $items }}
         {{ $page := . }}
+        {{/* Skip newsletter_dsa — rendered only in the gobernanza subsection panel */}}
+        {{ $ctypeRaw := $page.Params.content_type }}
+        {{ $ctypeList := slice }}
+        {{ if $ctypeRaw }}
+          {{ if reflect.IsSlice $ctypeRaw }}{{ $ctypeList = $ctypeRaw }}
+          {{ else }}{{ $ctypeList = slice $ctypeRaw }}{{ end }}
+        {{ end }}
+        {{ if in $ctypeList "newsletter_dsa" }}{{ continue }}{{ end }}
+
         {{ $passesIssueFilter := true }}
         {{ if gt (len $requiredIssues) 0 }}
           {{ $passesIssueFilter = false }}
@@ -240,6 +299,15 @@
       {{ $fallbackItems := slice }}
       {{ range $items }}
         {{ $page := . }}
+        {{/* Skip newsletter_dsa — rendered only in the gobernanza subsection panel */}}
+        {{ $ctypeRaw := $page.Params.content_type }}
+        {{ $ctypeList := slice }}
+        {{ if $ctypeRaw }}
+          {{ if reflect.IsSlice $ctypeRaw }}{{ $ctypeList = $ctypeRaw }}
+          {{ else }}{{ $ctypeList = slice $ctypeRaw }}{{ end }}
+        {{ end }}
+        {{ if in $ctypeList "newsletter_dsa" }}{{ continue }}{{ end }}
+
         {{ $passesIssueFilter := true }}
         {{ if gt (len $requiredIssues) 0 }}
           {{ $passesIssueFilter = false }}
@@ -436,4 +504,5 @@
       </section>
     {{ end }}
   </div>
+
 </section>

@@ -13,6 +13,7 @@ tags:
 title: Are content moderation policies protected as expression?
 type: posts
 source_url: https://www.palermo.edu/CELE/2025/mesas-legislativas/content-moderation-policies.html
+region: global
 ---
 
 Mesa de Legislación Comparada CELE: Are content moderation policies protected as expression? 

@@ -1,0 +1,64 @@
+{{ $leyendo := .Site.GetPage "/estamos-leyendo" }}
+{{ if and $leyendo $leyendo.Params.links }}
+<section class="home-reading">
+  <div class="reading-box">
+    <div class="reading-box__header">
+      <span class="reading-box__label">{{ $leyendo.Title | default "Estamos leyendo" }}</span>
+      {{ with $leyendo.Params.description }}
+        <span class="reading-box__desc">{{ . }}</span>
+      {{ end }}
+    </div>
+    <div class="reading-track" id="reading-track">
+      {{ range $i, $link := $leyendo.Params.links }}
+        {{ $url := "" }}
+        {{ $manualTitle := "" }}
+        {{ $note := "" }}
+        {{ if reflect.IsMap $link }}
+          {{ $url = $link.url | default "" }}
+          {{ $manualTitle = $link.title | default "" }}
+          {{ $note = $link.note | default "" }}
+        {{ else }}
+          {{ $url = printf "%v" $link }}
+        {{ end }}
+        {{ if $url }}
+          {{ $title := $manualTitle }}
+          {{ $domain := "" }}
+          {{ with urls.Parse $url }}
+            {{ $domain = .Host }}
+          {{ end }}
+          {{ if not $title }}
+            {{ $result := try (resources.GetRemote $url) }}
+            {{ if and (not $result.Err) $result.Value }}
+              {{ $content := $result.Value.Content }}
+              {{ $ogTag := findRE `(?i)<meta[^>]+og:title[^>]+>` $content 1 }}
+              {{ if $ogTag }}
+                {{ $extracted := index $ogTag 0 | replaceRE `(?i).*\bcontent=["']([^"']+)["'].*` "$1" | htmlUnescape | strings.TrimSpace }}
+                {{ if and $extracted (ne $extracted (index $ogTag 0)) }}
+                  {{ $title = $extracted }}
+                {{ end }}
+              {{ end }}
+              {{ if not $title }}
+                {{ $titleMatches := findRE `(?i)<title[^>]*>([^<]+)</title>` $content 1 }}
+                {{ if $titleMatches }}
+                  {{ $title = index $titleMatches 0 | replaceRE `(?i)<title[^>]*>([^<]+)</title>` "$1" | htmlUnescape | strings.TrimSpace }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          {{ if not $title }}{{ $title = $domain }}{{ end }}
+          <div class="reading-card">
+            <span class="reading-card__index">{{ printf "%02d" (add $i 1) }}</span>
+            <a class="reading-card__title" href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $title }}</a>
+            {{ if $domain }}<span class="reading-card__domain">{{ $domain }}</span>{{ end }}
+            {{ with $note }}<p class="reading-card__note">{{ . }}</p>{{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    <div class="reading-nav" aria-label="Navegación">
+      <button class="reading-nav__btn" id="reading-prev" type="button" aria-label="Anterior">&#8249;</button>
+      <button class="reading-nav__btn" id="reading-next" type="button" aria-label="Siguiente">&#8250;</button>
+    </div>
+  </div>
+</section>
+{{ end }}

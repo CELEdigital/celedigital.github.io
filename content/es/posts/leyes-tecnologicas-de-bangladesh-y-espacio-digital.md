@@ -14,6 +14,7 @@ tags:
 title: Problemas asociados a las leyes tecnológicas de Bangladesh y el control del espacio digital
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2023/leyes-tecnologicas-de-bangladesh-y-espacio-digital.html
+region: global
 ---
 
 Mesa de Legislación Comparada CELE: Problemas asociados a las leyes tecnológicas de Bangladesh y el control del espacio digital 

@@ -12,6 +12,7 @@ tags:
 - mesas-legislativas
 title: 'Sri Lanka: Ley de Seguridad en Línea'
 type: posts
+region: global
 ---
 
 Mesa de Legislación Comparada CELE: Sri Lanka: Ley de Seguridad en Línea 

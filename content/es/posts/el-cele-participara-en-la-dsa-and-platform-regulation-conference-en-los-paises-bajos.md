@@ -24,19 +24,15 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/libertad-de-expresion
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/derechos-humanos
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
+region: europe
 ---
 ## **Entusiasmo, expectativa e incertidumbre: la participación del CELE en la DSA and Platform Regulation Conference en los Países Bajos**
 

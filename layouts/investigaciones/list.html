@@ -1,0 +1,151 @@
+{{ define "main" }}
+
+{{/* ── Collect all research pages sorted newest first ── */}}
+{{ $research := slice }}
+{{ range .Site.RegularPages }}
+  {{ $prog := .Params.programs }}
+  {{ if $prog }}
+    {{ if reflect.IsSlice $prog }}
+      {{ if in $prog "investigaciones" }}
+        {{ $research = $research | append . }}
+      {{ end }}
+    {{ else if eq $prog "investigaciones" }}
+      {{ $research = $research | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $research = sort $research "Date" "desc" }}
+
+{{/* ── Pick featured: explicit flag first, else most recent ── */}}
+{{ $featured := index $research 0 }}
+{{ range $research }}
+  {{ if .Params.featured }}
+    {{ $featured = . }}
+  {{ end }}
+{{ end }}
+
+<div class="investigaciones-hub">
+
+  {{/* ── Header: title + description + illustration ── */}}
+  <header class="investigaciones-hub__header">
+    <div class="investigaciones-hub__header-text">
+      <h1 class="investigaciones-hub__title">{{ .Title }}</h1>
+      {{ with .Params.description }}
+        <div class="investigaciones-hub__desc">{{ . | markdownify }}</div>
+      {{ end }}
+    </div>
+    <div class="investigaciones-hub__header-media">
+      {{ with .Params.image }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+      {{ else }}
+        <div class="investigaciones-hub__image-placeholder"></div>
+      {{ end }}
+    </div>
+  </header>
+
+  {{/* ── Investigación destacada ── */}}
+  {{ with $featured }}
+  <section class="inv-featured">
+    <h2 class="inv-featured__label">Investigación destacada</h2>
+    <article class="inv-featured__card">
+      <div class="inv-featured__body">
+        {{ with .Params.issues }}
+          <div class="inv-featured__issues">
+            {{ range . }}<span class="inv-featured__issue-tag">{{ . }}</span>{{ end }}
+          </div>
+        {{ end }}
+
+        <h3 class="inv-featured__title">
+          <a class="inv-featured__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+
+        {{ with .Params.author }}
+          <div class="inv-featured__author">
+            {{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}
+          </div>
+        {{ end }}
+
+        {{ with .Params.ssrn_reference }}
+          <div class="inv-featured__ref">{{ . }}</div>
+        {{ end }}
+
+        {{ $abstract := .Params.abstract | default .Params.description }}
+        {{ with $abstract }}
+          <p class="inv-featured__abstract">{{ . | plainify }}</p>
+        {{ end }}
+
+        <div class="inv-featured__footer">
+          {{ if not .Date.IsZero }}
+            <time class="inv-featured__date" datetime="{{ .Date.Format "2006-01-02" }}">
+              {{ partial "date-es.html" .Date }}
+            </time>
+          {{ end }}
+          {{ with .Params.ssrn_id }}
+            <a class="inv-featured__ssrn" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ . }}" target="_blank" rel="noopener">
+              Ver en SSRN →
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+  </section>
+  {{ end }}
+
+  {{/* ── Two-column chronological grid (skip the featured item) ── */}}
+  {{ $initialVisible := 6 }}
+  {{ if gt (len $research) 0 }}
+  <div class="investigaciones-grid" id="inv-grid" data-hub-list data-load-step="{{ $initialVisible }}">
+    {{ $gridIdx := 0 }}
+    {{ range $research }}
+      {{ if eq .RelPermalink $featured.RelPermalink }}{{ continue }}{{ end }}
+    <article class="inv-item{{ if ge $gridIdx $initialVisible }} is-hub-hidden{{ end }}"{{ if ge $gridIdx $initialVisible }} hidden{{ end }}>
+      {{ with .Params.issues }}
+        <div class="inv-item__issues">
+          {{ range . }}<span class="inv-item__issue-tag">{{ . }}</span>{{ end }}
+        </div>
+      {{ end }}
+
+      <h3 class="inv-item__title">
+        <a class="inv-item__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h3>
+
+      {{ with .Params.author }}
+        <div class="inv-item__author">
+          {{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}
+        </div>
+      {{ end }}
+
+      {{ with .Params.ssrn_reference }}
+        <div class="inv-item__ref">{{ . }}</div>
+      {{ end }}
+
+      {{ $abstract := .Params.abstract | default .Params.description }}
+      {{ with $abstract }}
+        <p class="inv-item__abstract">{{ . | plainify | truncate 280 }}</p>
+      {{ end }}
+
+      <div class="inv-item__footer">
+        {{ if not .Date.IsZero }}
+          <time class="inv-item__date" datetime="{{ .Date.Format "2006-01-02" }}">
+            {{ partial "date-es.html" .Date }}
+          </time>
+        {{ end }}
+        {{ with .Params.ssrn_id }}
+          <a class="inv-item__ssrn" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ . }}" target="_blank" rel="noopener">
+            SSRN →
+          </a>
+        {{ end }}
+      </div>
+    </article>
+    {{ $gridIdx = add $gridIdx 1 }}
+    {{ end }}
+  </div>
+  <div class="investigaciones-load-more-wrap">
+    <button class="section-block__load-more" type="button" data-hub-load-more data-hub-target="inv-grid" hidden>
+      {{ i18n "hub_load_more" | default "Cargar más" }}
+    </button>
+  </div>
+  {{ end }}
+
+</div>
+{{ end }}

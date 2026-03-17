@@ -14,6 +14,7 @@ tags:
 title: El proyecto de ley de Dinamarca sobre la prohibición del trato indebido de escritos con contenido religioso
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2023/proyecto-de-ley-prohibicion-de-escritos-con-contenido-religioso.html
+region: global
 ---
 
 Mesa de Legislación Comparada CELE: El proyecto de ley de Dinamarca sobre la prohibición del trato indebido de escritos con contenido religioso 

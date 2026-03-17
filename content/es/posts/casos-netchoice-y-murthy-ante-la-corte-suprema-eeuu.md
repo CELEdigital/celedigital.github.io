@@ -13,6 +13,7 @@ tags:
 title: Los casos NetChoice y Murthy ante la Corte Suprema de los Estados Unidos
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2024/casos-netchoice-y-murthy-ante-la-corte-suprema-eeuu.html
+region: us
 ---
 
 Mesa de Legislación Comparada CELE: Los casos NetChoice y Murthy ante la Corte Suprema de los Estados Unidos 

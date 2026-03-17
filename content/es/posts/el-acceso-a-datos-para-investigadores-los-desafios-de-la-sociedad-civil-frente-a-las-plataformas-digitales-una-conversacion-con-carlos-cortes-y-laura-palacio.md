@@ -22,16 +22,13 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/privacidad-y-vigilancia
   block: ultimas_noticias_analisis
-  weight: 1
+region: latam
 ---
 ## **El acceso a datos para investigadores: Los desafíos de la sociedad civil frente a las plataformas digitales. Una conversación con Carlos Cortés y Laura Palacio - por Juan Martín Marinangeli.**
 

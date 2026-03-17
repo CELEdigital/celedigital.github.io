@@ -13,7 +13,7 @@ tags:
 title: Directrices para la gobernanza de las plataformas digitales de la UNESCO
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2024/gobernanza-de-las-plataformas-digitales-de-la-unesco.html
-
+region: global
 ---
 
 Mesa de Legislación Comparada CELE: Directrices para la gobernanza de las plataformas digitales de la UNESCO 

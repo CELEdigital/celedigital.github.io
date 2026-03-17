@@ -12,6 +12,7 @@ slug: proyecto-de-ley-de-violencia-de-genero-en-la-vida-politica-en-colombia
 tags:
 - mesas-legislativas
 title: Apuntes sobre el Proyecto de Ley de Violencia de Género en la Vida Política en Colombia
+region: latam
 ---
 
 Mesa de Legislación Comparada CELE: Apuntes sobre el Proyecto de Ley de Violencia de Género en la Vida Política en Colombia 

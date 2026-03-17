@@ -1,0 +1,25 @@
+<div class="blog-nav__section blog-map">
+  <p class="blog-nav__heading">Región</p>
+
+  <div class="blog-map__canvas">
+    <img class="blog-map__base" src="{{ "img/maps/map_global.svg" | relURL }}"
+         alt="" aria-hidden="true">
+
+    <button class="blog-map__hit" data-blog-region-btn="us"
+            aria-label="Estados Unidos" aria-pressed="false" type="button"></button>
+    <button class="blog-map__hit" data-blog-region-btn="latam"
+            aria-label="América Latina" aria-pressed="false" type="button"></button>
+    <button class="blog-map__hit" data-blog-region-btn="europe"
+            aria-label="Europa" aria-pressed="false" type="button"></button>
+
+    <div class="blog-map__hl blog-map__hl--us" aria-hidden="true"></div>
+    <div class="blog-map__hl blog-map__hl--latam" aria-hidden="true"></div>
+    <div class="blog-map__hl blog-map__hl--europe" aria-hidden="true"></div>
+  </div>
+
+  <ul class="blog-nav__list blog-map__list">
+    <li class="blog-nav__item is-active">
+      <a href="#" class="blog-nav__link" data-blog-region-btn="">Todas las regiones</a>
+    </li>
+  </ul>
+</div>

@@ -13,7 +13,7 @@ tags:
 title: La Ley sobre libertad de prensa de la Unión Europea
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2023/ley-libertad-de-prensa-de-la-union-europea.html
-
+region: europe
 ---
 
 Mesa de Legislación Comparada CELE: La Ley sobre libertad de prensa de la Unión Europea 

@@ -21,19 +21,15 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/amenazas
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/libertad-de-expresion
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
+region: global
 ---
 # ¿Gobernar mediante el acoso? El difícil equilibrio entre amenazas ilegales y un gobierno eficaz
 

@@ -1,0 +1,41 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+
+    <div class="site-footer__cols">
+
+      {{/* ── Law School ── */}}
+      <div class="site-footer__col">
+        <h4 class="site-footer__col-title">Facultad de Derecho</h4>
+        <p class="site-footer__col-body">
+          Mario Bravo 1050<br>
+          Buenos Aires, Argentina
+        </p>
+        <a class="site-footer__col-link" href="https://www.up.edu.ar/facultad-de-derecho/" target="_blank" rel="noopener">
+          https://www.palermo.edu/derecho/
+        </a>
+      </div>
+
+      {{/* ── CELE ── */}}
+      <div class="site-footer__col">
+        <h4 class="site-footer__col-title">Centro de Estudios en Libertad de Expresión</h4>
+        <p class="site-footer__col-body">
+          cele@up.edu.ar
+        </p>
+        <a class="site-footer__col-link" href="https://www.palermo.edu/cele" target="_blank" rel="noopener">
+          palermo.edu/cele
+        </a>
+      </div>
+
+    </div>
+
+    {{/* ── UP logo ── */}}
+    <div class="site-footer__logo">
+      <img src="{{ "img/logo_up.svg" | relURL }}" alt="Universidad de Palermo" class="site-footer__logo-img">
+    </div>
+
+  </div>
+
+  <div class="site-footer__bottom">
+    <p class="site-footer__copy">© {{ now.Year }} CELE — Universidad de Palermo. Todos los derechos reservados.</p>
+  </div>
+</footer>

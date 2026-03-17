@@ -13,7 +13,7 @@ tags:
 title: Take iT Down Act
 type: posts
 source_url: https://www.palermo.edu/CELE/2025/mesas-legislativas/take-it-down-act.html
-
+region: us
 ---
 
 Mesa de Legislación Comparada CELE: Take iT Down Act 

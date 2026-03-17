@@ -1,19 +1,18 @@
 ---
 author:
-- CELE
+- Juan Martín Marinangeli
 content_type:
 - blog
 date: '2025-06-24'
-description: 'Notas de la comunidad en Meta: una nota sobre su comunidad Meses atrás, Meta presentó un cambio sustancial en
-  su estrategia de moderación de contenidos. En el centro de esta transformación se encuentra la suspensión —al'
+description: 'Meses atrás, Meta presentó un cambio sustancial en su estrategia de moderación de contenidos. En el centro de esta transformación se encuentra la suspensión de su programa de _fact-checking_ en ciertos países.'
 featured: true
 image: /img/annie-spratt-5psJeebVp9o-unsplash-e1750710389440.jpg
 programs:
 - policy
-slug: notas-de-la-comunidad-en-meta-una-nota-sobre-su-comunidad-por-juan-martin-marinangeli
+slug: notas-de-la-comunidad-en-meta-una-nota-sobre-su-comunidad
 tags:
 - institucional
-title: 'Notas de la comunidad en Meta: una nota sobre su comunidad - Por Juan Martín Marinangeli'
+title: 'Notas de la comunidad en Meta: una nota sobre su comunidad'
 translationKey: wp-15103
 type: posts
 issues:
@@ -21,26 +20,16 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
-- hub: policy
-  block: blog
-  weight: 2
-- hub: temas/amenazas
+- hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
-- hub: temas/libertad-de-expresion
-  block: ultimas_noticias_analisis
-  weight: 1
+region: global
 ---
-## **Notas de la comunidad en Meta: una nota sobre su comunidad**
 
 Meses atrás, Meta presentó un cambio sustancial en su estrategia de moderación de contenidos. En el centro de esta transformación se encuentra la suspensión —al menos parcial— de su programa de _fact-checking_ en ciertos países, [hasta ahora encargado de verificar la veracidad de publicaciones y etiquetar aquellas que contenían información falsa o engañosa](https://transparency.meta.com/es-es/features/how-fact-checking-works/). En su reemplazo, Meta introdujo las denominadas _community notes_, una herramienta que transfiere la facultad (y, en cierta medida, la responsabilidad) de la validación del contenido a los propios usuarios. El sistema de notas, por ahora, sólo está activo en Estados Unidos. [Según el comunicado oficial de Meta](https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/), esta decisión responde al objetivo de “reducir errores y fomentar un discurso más amplio”. A diferencia del sistema de _fact-checking_, que dependía de una red de organizaciones externas de expertos para identificar y rectificar desinformación, las _community notes_ –[ya probadas en X/Twitter](https://www.cbsnews.com/news/what-is-community-notes-twitter-x-facebook-instagram/)– están diseñadas para funcionar de manera colaborativa: [en términos generales](https://transparency.meta.com/es-es/features/community-notes/), usuarios seleccionados pueden añadir notas a publicaciones que consideren problemáticas, y estas anotaciones serán visibles sólo si un número significativo de otros usuarios las valida como precisas y útiles. La idea es [prometedora](https://arxiv.org/abs/2210.15723): al descentralizar la tarea de moderación y distribuirla entre los usuarios, el modelo tiene un alcance potencialmente mayor y puede adaptarse más rápido a los cambios en el contenido viral — no escasean las [investigaciones](https://x.com/JMchangama/status/1876666650600280405) que señalan sus méritos. La compañía, por su parte, asegura que el nuevo sistema [está funcionando](https://www.socialmediatoday.com/news/meta-transparency-reports-q1-2025-community-notes/749361/). De todos modos, no conviene leer el repliegue de Meta simplemente como una renuncia a una estrategia [acaso perfectible](https://www.betterconflictbulletin.org/p/meta-drops-fact-checking-because), sino como una apuesta más general para superar la crisis de legitimidad que las plataformas enfrentan. Zuckerberg propone, en consecuencia, el viraje hacia un modelo que pretende complementar —cuando no suplantar, al menos en lo que respecta a la lucha contra la desinformación— la supervisión vertical con la moderación [distribuida y el juicio comunitario](https://dl.acm.org/doi/10.1145/3415178). ¿Quiénes pueden ser colaboradores? Usuarios de más de 18 años, cuyas cuentas tengan más de seis meses de antigüedad y cuenten con un número de teléfono verificado o hayan configurado la autenticación en dos pasos. “Para que una cuenta esté en regla, no debe haber infringido nuestras políticas destinadas a prevenir los daños más graves (como terrorismo, explotación sexual infantil, fraude y estafas) y no debe haber incumplido repetidamente nuestras otras políticas”, [explica Meta](https://transparency.meta.com/es-es/features/community-notes/#writing-notes). Cómo esos usuarios habilitados son finalmente seleccionados permanece un completo misterio.
 
-### **Cambia, todo cambia**
 
 Lejos de ser una excepción histórica, [esta no es la primera vez que Meta modifica estratégicamente sus políticas de moderación](https://nymag.com/intelligencer/article/mark-zuckerbergs-eternal-apology-tour.html) — y, probablemente, tampoco sea la última.  En 2016, atenta a las preocupaciones por la desinformación que marcaron las elecciones presidenciales estadounidenses de ese año, y a modo de anticipación a los comicios de 2020, la compañía había optado por intensificar sus mecanismos de control. Por entonces, implementó el sistema de [_fact-checking_](https://transparency.meta.com/es-es/features/how-fact-checking-works/) cuyo desmantelamiento hoy atestiguamos, y estableció restricciones estrictas sobre el contenido político patrocinado. El [tono del anuncio](https://www.facebook.com/zuck/posts/10103269806149061) de Zuckerberg era inequívoco: “nos tomamos muy en serio la desinformación. (...) Hemos logrado avances importantes, pero todavía queda mucho trabajo por hacer.” Las resistencias a estas medidas no tardaron en llegar. [Sectores conservadores](https://www.youtube.com/watch?v=GXvfboUVSbw&t=13s) denunciaron un supuesto [sesgo ideológico](https://www.pewresearch.org/short-reads/2019/06/27/republicans-far-more-likely-than-democrats-to-say-fact-checkers-tend-to-favor-one-side/) en las prácticas de moderación, argumentando que la plataforma [restringía sistemáticamente](https://thehill.com/opinion/5080067-fact-checkers-meta-zuckerberg/) voces alineadas con su agenda política. El escepticismo se intensificó tras las elecciones de 2020, [cuando las grandes plataformas fueron acusadas de intervenir selectivamente en la circulación de información](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003409427-1/2020-presidential-election-social-media-trump-john-allen-hendricks-dan-schill).  Con el mismo tono inequívoco, pero esta vez con un diagnóstico diferente, Zuckerberg [anunció](https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/), nueve años después del lanzamiento del programa de _fact-checking _([y más de 100 millones de dólares invertidos mediante](https://www.facebook.com/formedia/blog/third-party-fact-checking-industry-investments)), que era conveniente “deshacer la expansión de la misión que ha hecho que nuestras reglas sean demasiado restrictivas y propensas a una aplicación excesiva.” No debería sorprendernos, entonces, que el giro actual de Meta hacia las _community notes_ sea, como lo fuera en otras circunstancias, resultado de determinadas tensiones políticas — o, [como el propio Trump prefirió insinuar](https://www.theverge.com/2025/1/7/24338360/trump-says-his-threats-probably-made-meta-change-its-policies), una condescendiente respuesta a las amenazas que él mismo impartió.
 
-### **Una cuestión comunitaria**
 
 Recapitulando. Si el fact-checking representaba una forma institucionalizada y visible de intervenir en la conversación digital —basada en criterios conocidos, actores identificables y estándares profesionales—, los modelos que ahora se imponen buscan diluir esa autoridad en [esquemas comunitarios de gobernanza](https://theconversation.com/meta-shift-from-fact-checking-to-crowdsourcing-spotlights-competing-approaches-in-fight-against-misinformation-and-hate-speech-246854). Esta transición hacia un modelo en apariencia más horizontal es, además, una respuesta, al menos parcial, a un [_zeitgeist_ político](https://circuito.substack.com/p/zuckerberg-en-modo-maga-la-politica?r=1wuly9&utm_campaign=post&utm_medium=web&triedRedirect=true) que privilegia la apariencia de neutralidad sobre la intervención activa. Ahora bien: lo que parece estar en juego, entonces, es menos la presentación de una nueva herramienta de moderación que la irrupción de una forma ¿novedosa? de pensar, por un lado, qué es una comunidad digital, y por el otro, cómo se construye y quién tiene legitimidad para intervenir en ella. El [concepto de comunidad](https://www.palermo.edu/Archivos_content/2023/cele/paper-comunidad/231207-%20Community-in-the-Digital-Realm.pdf) no es un término neutro. Según cómo se defina, se diseñan reglas, se establecen jerarquías y se organiza la conversación pública. A partir de estas decisiones, Meta no sólo cambia cómo modera contenidos: también reconfigura la forma en que imagina —y habilita— los vínculos entre sus usuarios. Este tipo de herramientas, promovidas como una respuesta democrática y plural al problema de la moderación, tienen a su favor una premisa potente: la comunidad como fuente de saber. Lejos de tratar al público como un receptor pasivo, se le otorga agencia para deliberar, etiquetar, corregir. Punto a favor de Meta. De todos modos, el carácter distribuido no garantiza, por sí mismo, inclusión, ni transparencia, ni justicia epistémica. Más aún: en muchos casos, estos sistemas operan bajo una lógica [poco transparente](https://theconversation.com/metas-community-notes-program-is-promising-but-needs-to-prioritize-transparency-248324). En el sistema de las _community notes_, por ejemplo, no existe un proceso de doble ciego, donde ninguna de las dos partes conoce la identidad de los demás — como sucede en muchos _journals_ académicos. Por el contrario, las notas de la comunidad se basan en un proceso de revisión simple-ciego: sólo la identidad de los autores de las notas permanece anonimizada. Para mitigar los sesgos que pueden reproducirse en ese microproceso deliberativo, [Meta comenta](https://transparency.meta.com/es-es/features/community-notes/#FAQ) que
 

@@ -13,6 +13,7 @@ tags:
 title: Discusiones sobre el marco regulatorio electoral de Brasil
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2024/marco-regulatorio-electoral-de-brasil.html
+region: latam
 ---
 
 Mesa de Legislación Comparada CELE: Discusiones sobre el marco regulatorio electoral de Brasil 

@@ -23,16 +23,13 @@ issues:
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: policy
   block: blog
-  weight: 2
 - hub: temas/derechos-humanos
   block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
-  weight: 1
+region: europe
 ---
 # **Participación del CELE en la quinta edición de la Civil Society Roundtable Series en Bruselas: la Sociedad Civil al frente **
 

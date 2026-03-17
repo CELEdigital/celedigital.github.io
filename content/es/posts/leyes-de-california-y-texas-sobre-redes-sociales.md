@@ -14,6 +14,7 @@ tags:
 title: Dos casos de estudio, las leyes de California y Texas sobre regulación de compañías de redes sociales
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2023/leyes-de-california-y-texas-sobre-redes-sociales.html
+region: us
 ---
 
 Mesa de Legislación Comparada CELE: Dos casos de estudio, las leyes de California y Texas sobre regulación de compañías de redes sociales 

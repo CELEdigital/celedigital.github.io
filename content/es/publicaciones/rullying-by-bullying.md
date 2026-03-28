@@ -1,6 +1,6 @@
 ---
 title: 'Rullying by Bullying. Threats of regulation as an internet governance device'
-date: '2026-02-01'
+date: '2010-09-01'
 author:
 - Ramiro Álvarez Ugarte
 content_type:

@@ -1,6 +1,6 @@
 ---
 title: 'Reclaiming Human Rights for Platform Governance: Proposals for Restoring Their Centrality in the Era of Risks'
-date: '2025-05-23'
+date: '2025-05-20'
 author:
 - Agustina Del Campo
 - Nicolas Zara

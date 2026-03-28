@@ -1,6 +1,6 @@
 ---
 title: 'Internet in Argentina: Where are we Today? Mapping the Situation in Terms of Regulatory Access and Human Rights'
-date: '2025-02-18'
+date: '2014-07-01'
 author:
 - Eduardo Bertoni
 content_type:

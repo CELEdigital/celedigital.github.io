@@ -1,7 +1,7 @@
 ---
 title: 'Criminalization of Discriminatory Expression in the Americas: The Case of Non-Consensual Pornography Regulation in
   Argentina'
-date: '2025-02-20'
+date: '2017-12-01'
 author:
 - Paula Vargas
 content_type:

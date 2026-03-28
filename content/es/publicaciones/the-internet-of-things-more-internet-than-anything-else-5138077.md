@@ -1,6 +1,6 @@
 ---
 title: 'The ‘Internet of Things’: More Internet than Anything Else'
-date: '2025-02-18'
+date: '2014-12-01'
 author:
 - Carlos Cortes Castillo
 content_type:

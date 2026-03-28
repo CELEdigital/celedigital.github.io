@@ -1,6 +1,6 @@
 ---
 title: 'Right to be Forgotten: Between Data Protection, Memory, and Personal Life in the Digital Age'
-date: '2025-02-10'
+date: '2012-12-01'
 author:
 - Carlos Cortes
 content_type:

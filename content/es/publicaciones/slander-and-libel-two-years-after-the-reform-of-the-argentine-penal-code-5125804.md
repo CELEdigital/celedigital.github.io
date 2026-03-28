@@ -1,6 +1,6 @@
 ---
 title: 'Slander and Libel: Two Years After the Reform of the Argentine Penal Code'
-date: '2025-02-10'
+date: '2012-09-01'
 author:
 - Eduardo Bertoni
 - Agustina Del Campo

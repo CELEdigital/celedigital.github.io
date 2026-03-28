@@ -1,6 +1,6 @@
 ---
 title: 'Platform Oversight: A Neglected Link in Internet’s Regulatory Futures'
-date: '2025-02-27'
+date: '2023-03-01'
 author:
 - Agustina Del Campo
 content_type:

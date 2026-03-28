@@ -1,6 +1,6 @@
 ---
 title: 'ICT and Human Rights: Towards a Conceptual Framework of Human Rights Impact Assessments'
-date: '2025-02-25'
+date: '2020-08-01'
 author:
 - Ramiro Álvarez-Ugarte
 content_type:

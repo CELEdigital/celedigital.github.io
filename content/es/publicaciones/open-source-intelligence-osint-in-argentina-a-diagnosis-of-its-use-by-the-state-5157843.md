@@ -1,6 +1,6 @@
 ---
 title: 'Open Source Intelligence (OSINT) in Argentina: A Diagnosis of its Use by the State'
-date: '2025-02-27'
+date: '2023-06-01'
 author:
 - Morena Schatzky
 - Nicolas Zara

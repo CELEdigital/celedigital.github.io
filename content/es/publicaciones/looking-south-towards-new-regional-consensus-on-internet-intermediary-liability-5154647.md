@@ -1,6 +1,6 @@
 ---
 title: 'Looking South: Towards New Regional Consensus on Internet Intermediary Liability'
-date: '2025-02-26'
+date: '2021-04-01'
 author:
 - Agustina Del Campo
 - Morena Schatzky

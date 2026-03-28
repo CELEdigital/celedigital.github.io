@@ -1,6 +1,6 @@
 ---
 title: 'Global AI Governance: Who Regulates, with what Approach, and for Whom?'
-date: '2025-06-19'
+date: '2025-06-01'
 author:
 - Matias Gonzalez Mama
 - Agustín Pérez Aledda

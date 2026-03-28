@@ -1,0 +1,6 @@
+---
+title: "Taller 2014"
+subtitle: "Por una mejor regulación de Internet en América Latina"
+weight: 14
+description: "Con la presencia de organizaciones y expertos provenientes de América Latina, se llevó a cabo la segunda edición del taller del CELE “Por una mejor regulación de Internet en América Latina” los días 20, 21 y 22 de octubre. La actividad, organizada por la Iniciativa por la Libertad de Expresión en Internet (iLEI) del CELE, tuvo como objetivo fomentar espacios de diálogo y trabajo en conjunto entre organizaciones, académicos y activistas de la región, a fin de generar un mayor involucramiento en los debates sobre Internet, su regulación, y la relación con los derechos humanos en América Latina. El dictado de los módulos estuvo a cargo de expertos que expusieron sobre: gobernanza de Internet, privacidad y seguridad en las comunicaciones, neutralidad de la red, responsabilidad de intermediarios y derechos de autor; entre otros. En el marco del taller, además, se realizó la conferencia “Hacia una reconceptualización de los derechos de autor II”, que contó con Hiram Meléndez (Universidad de Puerto Rico) como expositor principal y, con los comentarios de Claudio Ruiz (Derechos Digitales), Enrique Chaparro (Fundación Vía Libre) y Mónica Boretto (Universidad de Buenos Aires). Verónica Ferrari, del CELE, moderó la actividad."
+---

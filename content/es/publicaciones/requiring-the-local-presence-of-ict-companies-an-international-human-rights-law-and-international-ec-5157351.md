@@ -1,6 +1,6 @@
 ---
 title: 'Requiring the Local Presence of ICT Companies: An International Human Rights Law and International Economic Law Perspective'
-date: '2025-02-26'
+date: '2023-03-01'
 author:
 - Matias Gonzalez Mama
 - Belén Portugal

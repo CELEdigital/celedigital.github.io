@@ -1,7 +1,7 @@
 ---
 title: 'Towards a Comprehensive Public Information Management Policy: Everything we Always Wanted to Know About Archives (and
   Never Dared to ask Access to Information)'
-date: '2025-02-18'
+date: '2014-02-01'
 author:
 - Natalia Torres
 content_type:

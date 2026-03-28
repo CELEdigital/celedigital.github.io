@@ -1,7 +1,7 @@
 ---
 title: 'Domain Names: An Expression Worth Protecting. Recommendations and Suggestions for Local Administrators in Latin America
   and Beyond'
-date: '2025-02-10'
+date: '2012-11-01'
 author:
 - Eduardo Bertoni
 content_type:

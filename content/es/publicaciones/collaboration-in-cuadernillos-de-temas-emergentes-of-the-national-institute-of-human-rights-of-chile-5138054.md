@@ -1,6 +1,6 @@
 ---
 title: Collaboration in ‘Cuadernillos de Temas Emergentes’ of the National Institute of Human Rights of Chile
-date: '2025-02-18'
+date: '2013-12-01'
 author:
 - Eduardo Bertoni
 content_type:

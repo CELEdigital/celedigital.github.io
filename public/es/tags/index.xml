@@ -16,20 +16,6 @@
       <description></description>
     </item>
     <item>
-      <title>Investigaciones</title>
-      <link>http://localhost:1313/es/tags/investigaciones/</link>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/investigaciones/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Publicaciones</title>
-      <link>http://localhost:1313/es/tags/publicaciones/</link>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/publicaciones/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Digital Services Act</title>
       <link>http://localhost:1313/es/tags/digital-services-act/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
@@ -44,10 +30,24 @@
       <description></description>
     </item>
     <item>
+      <title>Investigaciones</title>
+      <link>http://localhost:1313/es/tags/investigaciones/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/tags/investigaciones/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Mesas-Legislativas</title>
       <link>http://localhost:1313/es/tags/mesas-legislativas/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/es/tags/mesas-legislativas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Publicaciones</title>
+      <link>http://localhost:1313/es/tags/publicaciones/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/tags/publicaciones/</guid>
       <description></description>
     </item>
     <item>

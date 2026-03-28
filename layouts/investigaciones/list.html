@@ -43,11 +43,22 @@
     </div>
   </header>
 
+  {{/* ── Issue filter buttons ── */}}
+  <nav class="inv-filters" aria-label="Filtrar por tema">
+    <button type="button" class="inv-filters__btn is-active" data-inv-filter="">Todos</button>
+    <button type="button" class="inv-filters__btn" data-inv-filter="LDE">LDE</button>
+    <button type="button" class="inv-filters__btn" data-inv-filter="DDHH">DDHH</button>
+    <button type="button" class="inv-filters__btn" data-inv-filter="Amenazas a la LDE">Amenazas a la LDE</button>
+    <button type="button" class="inv-filters__btn" data-inv-filter="Privacidad y vigilancia">Privacidad y vigilancia</button>
+    <button type="button" class="inv-filters__btn" data-inv-filter="Gobernanza de Internet">Gobernanza de Internet</button>
+    <button type="button" class="inv-filters__btn" data-inv-filter="Inteligencia Artificial">Inteligencia Artificial</button>
+  </nav>
+
   {{/* ── Investigación destacada ── */}}
   {{ with $featured }}
-  <section class="inv-featured">
+  <section class="inv-featured" data-inv-featured>
     <h2 class="inv-featured__label">Investigación destacada</h2>
-    <article class="inv-featured__card">
+    <article class="inv-featured__card" data-inv-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}'>
       <div class="inv-featured__body">
         {{ with .Params.issues }}
           <div class="inv-featured__issues">
@@ -98,7 +109,7 @@
     {{ $gridIdx := 0 }}
     {{ range $research }}
       {{ if eq .RelPermalink $featured.RelPermalink }}{{ continue }}{{ end }}
-    <article class="inv-item{{ if ge $gridIdx $initialVisible }} is-hub-hidden{{ end }}"{{ if ge $gridIdx $initialVisible }} hidden{{ end }}>
+    <article class="inv-item{{ if ge $gridIdx $initialVisible }} is-hub-hidden{{ end }}"{{ if ge $gridIdx $initialVisible }} hidden{{ end }} data-inv-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}'>
       {{ with .Params.issues }}
         <div class="inv-item__issues">
           {{ range . }}<span class="inv-item__issue-tag">{{ . }}</span>{{ end }}
@@ -148,4 +159,5 @@
   {{ end }}
 
 </div>
+<script src="/data/investigaciones-filter.js" defer></script>
 {{ end }}

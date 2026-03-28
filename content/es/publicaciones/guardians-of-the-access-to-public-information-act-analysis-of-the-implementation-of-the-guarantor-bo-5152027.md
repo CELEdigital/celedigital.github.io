@@ -1,6 +1,6 @@
 ---
 title: 'Guardians of the Access to Public Information Act: Analysis of the Implementation of the Guarantor Bodies'
-date: '2025-02-25'
+date: '2019-09-01'
 author:
 - Agustina Del Campo
 - Franco Franco

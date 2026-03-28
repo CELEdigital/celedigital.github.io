@@ -1,6 +1,6 @@
 ---
 title: 'Freedom of Expression Versus Freedom of Speech: Copyright Protection as an Internal Tension'
-date: '2025-02-18'
+date: '2013-12-01'
 author:
 - Carlos Cortes Castillo
 content_type:

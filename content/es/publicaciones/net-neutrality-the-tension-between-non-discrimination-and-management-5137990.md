@@ -1,6 +1,6 @@
 ---
 title: 'Net Neutrality: The Tension Between Non-Discrimination and Management'
-date: '2025-02-18'
+date: '2013-10-01'
 author:
 - Carlos Cortes Castillo
 content_type:

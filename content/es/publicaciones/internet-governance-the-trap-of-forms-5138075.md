@@ -1,6 +1,6 @@
 ---
 title: 'Internet Governance: The Trap of Forms'
-date: '2025-02-18'
+date: '2014-09-01'
 author:
 - Carlos Cortes Castillo
 content_type:

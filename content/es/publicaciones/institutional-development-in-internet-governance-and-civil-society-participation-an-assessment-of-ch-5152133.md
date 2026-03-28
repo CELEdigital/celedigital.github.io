@@ -1,7 +1,7 @@
 ---
 title: 'Institutional Development in Internet Governance and Civil Society Participation: An Assessment of Challenges and
   Prospects from the Technical Community Perspective'
-date: '2025-02-25'
+date: '2019-12-01'
 author:
 - Diego R. Canabarro
 content_type:

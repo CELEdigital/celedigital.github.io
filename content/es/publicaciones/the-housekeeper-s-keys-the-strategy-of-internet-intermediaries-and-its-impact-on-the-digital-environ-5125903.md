@@ -1,6 +1,6 @@
 ---
 title: 'The Housekeeper’s Keys: The Strategy of Internet Intermediaries and Its Impact on the Digital Environment'
-date: '2025-02-10'
+date: '2013-08-01'
 author:
 - Carlos Cortes
 content_type:

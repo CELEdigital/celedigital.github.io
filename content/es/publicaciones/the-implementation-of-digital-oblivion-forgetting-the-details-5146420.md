@@ -1,6 +1,6 @@
 ---
 title: 'The Implementation of "Digital Oblivion": Forgetting the Details'
-date: '2025-02-20'
+date: '2018-12-01'
 author:
 - Carlos Cortes
 - Luisa F Isaza-Ibarra

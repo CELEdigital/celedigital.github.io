@@ -1,6 +1,6 @@
 ---
 title: 'National Security and Access to Information in Latin America: State of Affairs and Challenges'
-date: '2025-02-10'
+date: '2012-07-01'
 author:
 - Eduardo Bertoni
 - Edison Lanza

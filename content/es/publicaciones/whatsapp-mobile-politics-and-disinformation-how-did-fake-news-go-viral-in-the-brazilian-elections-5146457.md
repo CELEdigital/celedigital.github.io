@@ -1,6 +1,6 @@
 ---
 title: 'WhatsApp, Mobile Politics and Disinformation: How did Fake News Go Viral in the Brazilian Elections?'
-date: '2025-02-20'
+date: '2019-05-01'
 author:
 - Miguel Freitas
 content_type:

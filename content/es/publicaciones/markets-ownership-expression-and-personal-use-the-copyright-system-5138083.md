@@ -1,6 +1,6 @@
 ---
 title: 'Markets, Ownership, Expression and Personal Use: The Copyright System'
-date: '2025-02-18'
+date: '2015-02-01'
 author:
 - Hiram Melendez-Juarbe
 content_type:

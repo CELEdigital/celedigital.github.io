@@ -104,6 +104,18 @@
                 href="http://localhost:1313/en/documentation/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/regions/europe/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/europa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/europe/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/topics/freedom-of-expression/</loc>
     <xhtml:link
                 rel="alternate"
@@ -114,6 +126,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/topics/freedom-of-expression/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/regions/global/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/global/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/global/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/topics/governance/</loc>
@@ -150,6 +174,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/topics/human-rights/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/regions/latin-america/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/america-latina/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/latin-america/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/methodology/</loc>
@@ -200,6 +236,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/topics/privacy-and-surveillance/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/regions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/_archive/research/</loc>

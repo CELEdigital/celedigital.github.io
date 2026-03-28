@@ -1,6 +1,6 @@
 ---
 title: 'Democratic Rule of Law and Internet Governance: The Key Role of Judicial Operators'
-date: '2025-02-25'
+date: '2019-12-01'
 author:
 - Guilherme Canela
 content_type:

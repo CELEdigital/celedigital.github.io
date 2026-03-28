@@ -1,7 +1,7 @@
 ---
 title: 'Open Source Intelligence (OSINT) and Human Rights in Latin America: A comparative Report on Argentina, Brazil, Colombia,
   Mexico, and Uruguay'
-date: '2025-02-27'
+date: '2023-09-01'
 author:
 - Nicolas Zara
 content_type:

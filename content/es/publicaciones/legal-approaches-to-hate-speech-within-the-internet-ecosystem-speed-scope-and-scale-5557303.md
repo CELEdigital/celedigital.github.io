@@ -1,6 +1,6 @@
 ---
 title: 'Legal Approaches to Hate Speech Within the Internet Ecosystem: Speed, Scope, and Scale'
-date: '2025-10-02'
+date: '2025-09-01'
 author:
 - Joan Barata
 content_type:

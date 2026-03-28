@@ -1,6 +1,6 @@
 ---
 title: 'Decriminalization of Expression: The Argentine Experience'
-date: '2025-02-10'
+date: '2012-06-01'
 author:
 - Agustina Del Campo
 - Eduardo Bertoni

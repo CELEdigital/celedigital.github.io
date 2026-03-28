@@ -1,6 +1,6 @@
 ---
 title: 'Human Rights Impact Assessments: Trends, Challenges, And Opportunities for ICT Sector Adoption'
-date: '2025-02-25'
+date: '2020-10-01'
 author:
 - Ramiro Álvarez-Ugarte
 content_type:

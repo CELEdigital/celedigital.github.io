@@ -1,6 +1,6 @@
 ---
 title: 'Trust and Safety''s Blindspots: A Latin American Perspective'
-date: '2025-07-18'
+date: '2025-07-01'
 author:
 - Agustina Del Campo
 - Ramiro Álvarez-Ugarte

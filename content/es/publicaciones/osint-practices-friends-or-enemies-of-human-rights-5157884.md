@@ -1,6 +1,6 @@
 ---
 title: 'OSINT Practices: Friends or Enemies of Human Rights?'
-date: '2025-02-27'
+date: '2023-11-01'
 author:
 - Eduardo Bertoni
 content_type:

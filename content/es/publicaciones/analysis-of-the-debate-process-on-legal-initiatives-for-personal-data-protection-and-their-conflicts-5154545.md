@@ -1,7 +1,7 @@
 ---
 title: 'Analysis of the Debate Process on Legal Initiatives for Personal Data Protection and their Conflicts with the Right
   to Freedom of Expression: The Cases of Argentina and Ecuador'
-date: '2025-02-26'
+date: '2021-02-01'
 author:
 - Bernadette Califano
 content_type:

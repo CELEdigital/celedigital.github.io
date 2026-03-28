@@ -1,6 +1,6 @@
 ---
 title: Freedom of Expression and the Digital Gender Gap in Mexico
-date: '2025-02-25'
+date: '2020-07-01'
 author:
 - Priscilla Ruiz
 - Vladimir C

@@ -1,6 +1,6 @@
 ---
 title: 'Surveillance on the Web: What Does It Mean to Monitor and Detect Content Online?'
-date: '2025-02-10'
+date: '2012-07-01'
 author:
 - Carlos Cortes
 content_type:

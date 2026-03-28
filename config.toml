@@ -118,9 +118,33 @@ defaultContentLanguageInSubdir = true
         weight = 26
 
       [[languages.es.menu.main]]
+        name = "región"
+        url = "/region/"
+        identifier = "region"
+        weight = 3
+
+      [[languages.es.menu.main]]
+        name = "América Latina"
+        url = "/region/america-latina"
+        parent = "region"
+        weight = 31
+
+      [[languages.es.menu.main]]
+        name = "Europa"
+        url = "/region/europa"
+        parent = "region"
+        weight = 32
+
+      [[languages.es.menu.main]]
+        name = "Global"
+        url = "/region/global"
+        parent = "region"
+        weight = 33
+
+      [[languages.es.menu.main]]
         name = "investigaciones"
         url = "/investigaciones/"
-        weight = 3
+        weight = 4
 
       [[languages.es.menu.main]]
         name = "observatorio legislativo"
@@ -219,21 +243,45 @@ defaultContentLanguageInSubdir = true
         weight = 26
 
       [[languages.en.menu.main]]
+        name = "Regions"
+        url = "/regions/"
+        identifier = "regions"
+        weight = 3
+
+      [[languages.en.menu.main]]
+        name = "Latin America"
+        url = "/regions/latin-america"
+        parent = "regions"
+        weight = 31
+
+      [[languages.en.menu.main]]
+        name = "Europe"
+        url = "/regions/europe"
+        parent = "regions"
+        weight = 32
+
+      [[languages.en.menu.main]]
+        name = "Global"
+        url = "/regions/global"
+        parent = "regions"
+        weight = 33
+
+      [[languages.en.menu.main]]
         name = "Research"
         url = "/research/"
-        weight = 3
+        weight = 4
 
       [[languages.en.menu.main]]
         name = "Policy"
         url = "/policy/"
-        weight = 4
+        weight = 5
 
       [[languages.en.menu.main]]
         name = "Legislative Observatory"
         url = "/legislative-observatory/"
-        weight = 5
+        weight = 6
 
       [[languages.en.menu.main]]
         name = "Workshop"
         url = "/workshop/"
-        weight = 6
+        weight = 7

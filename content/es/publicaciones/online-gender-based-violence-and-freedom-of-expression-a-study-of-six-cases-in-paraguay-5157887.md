@@ -1,6 +1,6 @@
 ---
 title: 'Online gender-based violence and freedom of expression: a study of six cases in Paraguay'
-date: '2025-02-27'
+date: '2024-04-16'
 author:
 - Maricarmen Sequera
 content_type:

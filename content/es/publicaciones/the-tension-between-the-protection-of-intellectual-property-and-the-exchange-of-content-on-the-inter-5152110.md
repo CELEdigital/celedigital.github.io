@@ -1,7 +1,7 @@
 ---
 title: The Tension between the Protection of Intellectual Property and the Exchange of Content on the Internet. Regarding
   the Cuevana Case in Argentina and the 'Lleras Law' in Colombia
-date: '2025-02-25'
+date: '2019-12-01'
 author:
 - Eduardo Bertoni
 - Carlos J. Cortés

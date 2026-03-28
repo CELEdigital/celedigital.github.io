@@ -1,6 +1,6 @@
 ---
 title: 'Fake News on the Internet: The Strategy to Combat Misinformation'
-date: '2025-02-18'
+date: '2017-12-01'
 author:
 - Carlos Cortes Castillo
 - Luisa F Isaza-Ibarra

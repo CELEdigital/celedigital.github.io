@@ -1,6 +1,6 @@
 ---
 title: Regulatory Modeling. Tracking the Influence of the Digital Services Act in Latin America
-date: '2025-03-31'
+date: '2025-03-20'
 author:
 - Matias Gonzalez Mama
 - Ramiro Álvarez-Ugarte

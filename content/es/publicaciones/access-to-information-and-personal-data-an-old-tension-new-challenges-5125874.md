@@ -1,6 +1,6 @@
 ---
 title: 'Access to Information and Personal Data: An Old Tension, New Challenges'
-date: '2025-02-10'
+date: '2012-11-01'
 author:
 - Natalia Torres
 content_type:
@@ -19,5 +19,7 @@ placements:
 - hub: investigaciones
   block: investigaciones
   weight: 1
-abstract: 'CELE Research Paper No. 11'
+abstract: "Access to public information and the protection of personal data are two fundamental rights whose harmonization presents significant challenges in Latin America. This document, the result of the project Access to Information and Personal Data: An Old Tension, New Challenges, analyzes the relationship between these concepts and proposes principles for their reconciliation.
+Through a comparative study of Argentina, Chile, Uruguay, Mexico, and Peru, it examines regulatory and institutional tensions, implementation models, and conflict resolution strategies. The analysis highlights the need for regulatory frameworks that balance the right to know with privacy, ensuring transparency without compromising the protection of personal data."
+region: latam
 ---

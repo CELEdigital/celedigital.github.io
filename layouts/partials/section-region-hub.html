@@ -1,0 +1,215 @@
+{{/* section-region-hub.html — Hub page filtered by region front-matter field.
+     Mirrors section-hub.html layout but derives blocks from content_type
+     instead of placements. */}}
+
+{{ $regionKey := .Params.region_key }}
+{{ $sectionKey := .Params.section_key | default .Section }}
+{{ $initialVisible := 3 }}
+
+{{/* content_type → block mapping */}}
+{{ $ctypeBlockMap := dict
+  "blog" "blog"
+  "mesa" "news-analysis"
+  "position-paper" "research"
+}}
+
+{{ $blocks := slice
+  (dict "key" "news-analysis" "title" (i18n "hub_news"))
+  (dict "key" "research" "title" (i18n "hub_research"))
+  (dict "key" "blog" "title" (i18n "hub_blog"))
+}}
+
+{{/* Collect all pages matching this region */}}
+{{ $regionPages := slice }}
+{{ if $regionKey }}
+  {{ range site.RegularPages }}
+    {{ $pageRegion := .Params.region | default "" }}
+    {{ if not $pageRegion }}
+      {{ $translations := .Translations }}
+      {{ if gt (len $translations) 0 }}
+        {{ $t := index $translations 0 }}
+        {{ $pageRegion = $t.Params.region | default "" }}
+      {{ end }}
+    {{ end }}
+    {{/* Skip newsletter_dsa */}}
+    {{ $ctypeRaw := .Params.content_type }}
+    {{ $ctypeList := slice }}
+    {{ if $ctypeRaw }}
+      {{ if reflect.IsSlice $ctypeRaw }}{{ $ctypeList = $ctypeRaw }}
+      {{ else }}{{ $ctypeList = slice $ctypeRaw }}{{ end }}
+    {{ end }}
+    {{ if in $ctypeList "newsletter_dsa" }}{{ continue }}{{ end }}
+
+    {{/* Match: region field contains the region key (handles "us, europe" case) */}}
+    {{ if findRE $regionKey (lower (printf "%v" $pageRegion)) }}
+      {{ $regionPages = $regionPages | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<section class="section-hub">
+  <header class="section-hub__header section-hub__header--split">
+    <div class="section-hub__header-text">
+      <h1 class="section-hub__title">{{ .Title }}</h1>
+      {{ with .Params.description }}
+        <div class="section-hub__description">
+          {{ . | markdownify }}
+        </div>
+      {{ end }}
+    </div>
+    <div class="section-hub__header-media">
+      {{ with .Params.image }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+      {{ else }}
+        <div class="section-hub__image-placeholder"></div>
+      {{ end }}
+    </div>
+  </header>
+
+  <div class="section-hub__blocks">
+    {{ range $blocks }}
+      {{ $blockKey := .key }}
+      {{ $blockInitialVisible := $initialVisible }}
+      {{ if eq $blockKey "research" }}
+        {{ $blockInitialVisible = 1 }}
+      {{ end }}
+
+      {{/* Filter region pages into this block by content_type */}}
+      {{ $blockItems := slice }}
+      {{ range $regionPages }}
+        {{ $ctypeRaw := .Params.content_type }}
+        {{ if not $ctypeRaw }}
+          {{ $translations := .Translations }}
+          {{ if gt (len $translations) 0 }}
+            {{ $t := index $translations 0 }}
+            {{ $ctypeRaw = $t.Params.content_type }}
+          {{ end }}
+        {{ end }}
+        {{ $ctypeList := slice }}
+        {{ if $ctypeRaw }}
+          {{ if reflect.IsSlice $ctypeRaw }}{{ $ctypeList = $ctypeRaw }}
+          {{ else }}{{ $ctypeList = slice $ctypeRaw }}{{ end }}
+        {{ end }}
+
+        {{/* Determine which block this page belongs to */}}
+        {{ $assignedBlock := "blog" }}
+        {{ range $ctypeList }}
+          {{ $mapped := index $ctypeBlockMap (printf "%v" .) }}
+          {{ if $mapped }}
+            {{ $assignedBlock = $mapped }}
+          {{ end }}
+        {{ end }}
+
+        {{ if eq $assignedBlock $blockKey }}
+          {{ $blockItems = $blockItems | append . }}
+        {{ end }}
+      {{ end }}
+
+      {{/* Sort by date descending */}}
+      {{ $blockItems = sort $blockItems "Date" "desc" }}
+
+      <section class="section-block">
+        <h2>{{ .title }}</h2>
+        {{ if gt (len $blockItems) 0 }}
+          {{ $listID := printf "section-block-%s-%s" $sectionKey $blockKey }}
+          <ul id="{{ $listID }}" class="section-block__list" data-hub-list data-load-step="{{ $blockInitialVisible }}">
+            {{ range $idx, $page := $blockItems }}
+              {{ if eq $blockKey "research" }}
+                <li
+                  class="section-block__item section-block__item--research{{ if ge $idx $blockInitialVisible }} is-hub-hidden{{ end }}"
+                  {{ if ge $idx $blockInitialVisible }}hidden{{ end }}
+                >
+                  <div class="section-block__research-left">
+                    <h3 class="section-block__title">
+                      <a class="section-block__link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+                    </h3>
+                    {{ with $page.Params.author }}
+                      <div class="section-block__research-author">
+                        {{ delimit . ", " }}
+                      </div>
+                    {{ end }}
+                    {{ with $page.Params.ssrn_reference }}
+                      <div class="section-block__research-ref">{{ . }}</div>
+                    {{ end }}
+                    {{ with $page.Params.ssrn_id }}
+                      <div class="section-block__research-id">SSRN ID: {{ . }}</div>
+                    {{ end }}
+                  </div>
+                  <div class="section-block__research-right">
+                    {{ with $page.Params.abstract }}
+                      <p class="section-block__research-abstract">{{ . }}</p>
+                    {{ end }}
+                  </div>
+                </li>
+              {{ else }}
+                <li
+                  class="section-block__item section-block__item--media-right{{ if ge $idx $blockInitialVisible }} is-hub-hidden{{ end }}"
+                  {{ if ge $idx $blockInitialVisible }}hidden{{ end }}
+                >
+                  <div class="section-block__body">
+                    {{ $tags := $page.Params.tags }}
+                    {{ if not $tags }}
+                      {{ $translations := $page.Translations }}
+                      {{ if gt (len $translations) 0 }}
+                        {{ $t := index $translations 0 }}
+                        {{ $tags = $t.Params.tags }}
+                      {{ end }}
+                    {{ end }}
+                    {{ with $tags }}
+                      <div class="section-block__tags">
+                        {{ range . }}
+                          {{ $key := printf "tag_%s" . }}
+                          {{ $label := i18n $key | default . }}
+                          <span class="section-block__tag">{{ $label }}</span>
+                        {{ end }}
+                      </div>
+                    {{ end }}
+                    <h3 class="section-block__title">
+                      <a class="section-block__link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+                    </h3>
+                    {{ with $page.Params.description }}
+                      <p class="section-block__excerpt">{{ . }}</p>
+                    {{ end }}
+                    {{ $hasAuthor := $page.Params.author }}
+                    {{ $hasDate := not $page.Date.IsZero }}
+                    {{ if or $hasAuthor $hasDate }}
+                      <div class="section-block__byline">
+                        {{ with $page.Params.author }}
+                          <span class="section-block__by">{{ i18n "byline" }} {{ partial "author-links.html" (dict "authors" . "context" $page) }}</span>
+                        {{ end }}
+                        {{ if $hasDate }}
+                          <time class="section-block__date" datetime="{{ $page.Date.Format "2006-01-02" }}">{{ partial "date-es.html" $page.Date }}</time>
+                        {{ end }}
+                      </div>
+                    {{ end }}
+                  </div>
+                  {{ with $page.Params.image }}
+                    <div class="section-block__media">
+                      <img src="{{ . | relURL }}" alt="{{ $page.Title }}" loading="lazy">
+                    </div>
+                  {{ end }}
+                </li>
+              {{ end }}
+            {{ end }}
+          </ul>
+          {{ if gt (len $blockItems) $blockInitialVisible }}
+            <button
+              type="button"
+              class="section-block__load-more"
+              data-hub-load-more
+              data-hub-target="{{ $listID }}"
+              hidden
+            >
+              {{ i18n "hub_load_more" }}
+            </button>
+          {{ end }}
+        {{ else }}
+          <div class="section-block__content">
+            {{ i18n "hub_empty" }}
+          </div>
+        {{ end }}
+      </section>
+    {{ end }}
+  </div>
+
+</section>

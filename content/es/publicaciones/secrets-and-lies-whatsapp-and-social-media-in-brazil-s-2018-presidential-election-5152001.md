@@ -1,6 +1,6 @@
 ---
 title: 'Secrets and Lies: WhatsApp and Social Media in Brazil''s 2018 Presidential Election'
-date: '2025-02-25'
+date: '2019-05-01'
 author:
 - Francisco Brito Cruz
 - Maria H. Valente

@@ -1,7 +1,7 @@
 ---
 title: 'Institutional Design and Effectiveness of Agencies Responsible for Protecting Journalists and Investigating Crimes
   Against the Press: Mexico, Colombia, and Guatemala'
-date: '2025-02-10'
+date: '2012-04-01'
 author:
 - Natalia Torres
 content_type:

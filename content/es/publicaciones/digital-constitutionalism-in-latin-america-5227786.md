@@ -1,6 +1,6 @@
 ---
 title: Digital Constitutionalism in Latin America
-date: '2025-04-23'
+date: '2025-04-01'
 author:
 - Agustina Del Campo
 content_type:

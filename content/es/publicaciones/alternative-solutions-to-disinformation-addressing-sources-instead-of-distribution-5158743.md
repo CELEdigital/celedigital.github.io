@@ -1,6 +1,6 @@
 ---
 title: 'Alternative Solutions to Disinformation: Addressing Sources Instead of Distribution'
-date: '2025-02-27'
+date: '2024-10-01'
 author:
 - Agustina Del Campo
 content_type:

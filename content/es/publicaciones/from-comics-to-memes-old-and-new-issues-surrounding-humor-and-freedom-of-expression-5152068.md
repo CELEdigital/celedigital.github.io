@@ -1,6 +1,6 @@
 ---
 title: 'From Comics to Memes: Old and New Issues Surrounding Humor and Freedom of Expression'
-date: '2025-02-25'
+date: '2019-11-01'
 author:
 - Agustina Del Campo
 - Paula Roko

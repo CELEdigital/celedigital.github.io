@@ -53,6 +53,40 @@
   border: 1px dashed var(--neutral-300);
 }
 
+/* ── Issue filter buttons ───────────────────────────────── */
+.inv-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.inv-filters__btn {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--neutral-600);
+  background: none;
+  border: 1px solid var(--neutral-300);
+  padding: 0.35rem 0.85rem;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 150ms, color 150ms, border-color 150ms;
+}
+
+.inv-filters__btn:hover {
+  border-color: var(--cele);
+  color: var(--cele);
+}
+
+.inv-filters__btn.is-active {
+  background: var(--cele);
+  color: #fff;
+  border-color: var(--cele);
+}
+
 /* ── Two-column grid ─────────────────────────────────────── */
 .investigaciones-grid {
   display: grid;
@@ -68,6 +102,8 @@
   flex-direction: column;
   gap: 0.55rem;
 }
+
+.inv-item[hidden] { display: none; }
 
 /* Right column items get left padding instead */
 .inv-item:nth-child(even) {

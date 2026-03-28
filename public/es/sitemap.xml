@@ -26,6 +26,26 @@
   </url><url>
     <loc>http://localhost:1313/es/taller/2023/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/taller/2022/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/taller/2021/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/taller/2020/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/taller/2019/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/taller/2018/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/taller/2017/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/taller/2016/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/taller/2015/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/taller/2014/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/taller/2013/</loc>
+  </url><url>
     <loc>http://localhost:1313/es/temas/gobernanza/</loc>
     <lastmod>2026-03-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -100,23 +120,8 @@
                 href="http://localhost:1313/es/observatorio-legislativo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/investigaciones/</loc>
-    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/on-the-metaphor-of-social-media-as-a-public-forum-in-the-united-states-6211978/</loc>
-    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/</loc>
-    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/tags/publicaciones/</loc>
-    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-enero-2026/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/rullying-by-bullying/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-diciembre-2025/</loc>
     <lastmod>2026-01-02T00:00:00+00:00</lastmod>
@@ -143,9 +148,6 @@
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-noviembre-2025/</loc>
     <lastmod>2025-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/publicaciones/emerging-technologies-and-human-rights-from-the-perspective-of-the-inter-american-legal-framework-5812182/</loc>
-    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/es/temas/gobernanza/noticias-cruzando-el-mar-8-por-nicolas-zara/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -168,9 +170,6 @@
     <loc>http://localhost:1313/es/tags/digital-services-act/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/publicaciones/legal-approaches-to-hate-speech-within-the-internet-ecosystem-speed-scope-and-scale-5557303/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-septiembre-2025/</loc>
     <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -183,23 +182,32 @@
     <loc>http://localhost:1313/es/posts/legisladores-de-la-verdad/</loc>
     <lastmod>2025-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/publicaciones/moderating-hate-or-moderating-rights-the-paradox-of-the-european-approach-to-online-hate-speech-and--5432875/</loc>
-    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/es/tags/violencia-de-g%C3%A9nero-en-l%C3%ADnea/</loc>
     <lastmod>2025-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/content-moderation-policies/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/tags/investigaciones/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/legal-approaches-to-hate-speech-within-the-internet-ecosystem-speed-scope-and-scale-5557303/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/tags/mesas-legislativas/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/publicaciones/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/moderating-hate-or-moderating-rights-the-paradox-of-the-european-approach-to-online-hate-speech-and--5432875/</loc>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-julio-2025/</loc>
     <lastmod>2025-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/trust-and-safety-s-blindspots-a-latin-american-perspective-5355934/</loc>
-    <lastmod>2025-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/temas/gobernanza/noticias-cruzando-el-mar-6-por-nicolas-zara/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
@@ -210,14 +218,14 @@
     <loc>http://localhost:1313/es/posts/take-it-down-act/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/trust-and-safety-s-blindspots-a-latin-american-perspective-5355934/</loc>
+    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-junio-2025/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/notas-de-la-comunidad-en-meta-una-nota-sobre-su-comunidad/</loc>
     <lastmod>2025-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/global-ai-governance-who-regulates-with-what-approach-and-for-whom-5311517/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-mayo-2025/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
@@ -237,6 +245,12 @@
     <loc>http://localhost:1313/es/posts/codigo-buenas-practicas/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/emerging-technologies-and-human-rights-from-the-perspective-of-the-inter-american-legal-framework-5812182/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/global-ai-governance-who-regulates-with-what-approach-and-for-whom-5311517/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/tags/integridad-de-la-informaci%C3%B3n/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -244,7 +258,7 @@
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/reclaiming-human-rights-for-platform-governance-proposals-for-restoring-their-centrality-in-the-era--5265938/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/tags/discurso-de-odio/</loc>
     <lastmod>2025-05-19T00:00:00+00:00</lastmod>
@@ -261,9 +275,6 @@
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-abril-2025/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/publicaciones/digital-constitutionalism-in-latin-america-5227786/</loc>
-    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/es/tags/wsis&#43;20/</loc>
     <lastmod>2025-04-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -273,8 +284,8 @@
     <loc>http://localhost:1313/es/posts/abril-const-art-19/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/publicaciones/regulatory-modeling-tracking-the-influence-of-the-digital-services-act-in-latin-america-5197380/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/es/publicaciones/digital-constitutionalism-in-latin-america-5227786/</loc>
+    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/el-juego-no-mirado-sobre-avances-en-politicas-antitrust-en-estados-unidos/</loc>
     <lastmod>2025-03-27T00:00:00+00:00</lastmod>
@@ -284,6 +295,12 @@
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-marzo-2025/</loc>
     <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/old-standards-new-challenges-keys-to-addressing-internet-disinformation-in-inter-american-jurisprude-5159253/</loc>
+    <lastmod>2025-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/regulatory-modeling-tracking-the-influence-of-the-digital-services-act-in-latin-america-5197380/</loc>
+    <lastmod>2025-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/temas/gobernanza/noticias-cruzando-el-mar-4-por-nicolas-zara/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
@@ -297,182 +314,11 @@
     <loc>http://localhost:1313/es/posts/marzo-daphne-keller/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/publicaciones/old-standards-new-challenges-keys-to-addressing-internet-disinformation-in-inter-american-jurisprude-5159253/</loc>
-    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/alternative-solutions-to-disinformation-addressing-sources-instead-of-distribution-5158743/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/on-the-metaphor-of-social-media-as-a-public-forum-in-the-united-states-5158664/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/online-gender-based-violence-and-freedom-of-expression-a-study-of-six-cases-in-paraguay-5157887/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/open-source-intelligence-osint-and-human-rights-in-latin-america-a-comparative-report-on-argentina-b-5157855/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/open-source-intelligence-osint-in-argentina-a-diagnosis-of-its-use-by-the-state-5157843/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/osint-practices-friends-or-enemies-of-human-rights-5157884/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/platform-oversight-a-neglected-link-in-internet-s-regulatory-futures-5157829/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/analysis-of-the-debate-process-on-legal-initiatives-for-personal-data-protection-and-their-conflicts-5154545/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/are-public-officials-lies-unsustainable-or-do-they-have-far-reaching-effects-5156671/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/disinformation-in-democracy-or-the-democracy-of-disinformation-5154679/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/es/posts/en-defensa-del-anonimato-en-las-redes-sociales-juan-martin-marinangeli/</loc>
     <lastmod>2025-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/publicaciones/fake-news-on-the-internet-actions-and-reactions-of-three-plataforms-5154525/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/legislation-and-its-effects-some-experiences-from-comparative-law-5156714/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/looking-south-towards-new-regional-consensus-on-internet-intermediary-liability-5154647/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/requiring-the-local-presence-of-ict-companies-an-international-human-rights-law-and-international-ec-5157351/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/supporting-media-viability-in-the-americas-towards-sustainable-journalism-5157185/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/the-new-normal-disinformation-and-content-control-on-social-media-during-covid-19-5154565/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/the-regulation-of-freedom-of-expression-in-latin-america-findings-trends-and-legislative-challenges-5157165/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/considering-facebook-oversight-board-turning-on-expectations-5152017/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/democratic-rule-of-law-and-internet-governance-the-key-role-of-judicial-operators-5152126/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/disinformation-in-democracy-or-democracy-of-disinformation-5152211/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/freedom-of-expression-and-the-digital-gender-gap-in-mexico-5152172/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/from-comics-to-memes-old-and-new-issues-surrounding-humor-and-freedom-of-expression-5152068/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/guardians-of-the-access-to-public-information-act-analysis-of-the-implementation-of-the-guarantor-bo-5152027/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/human-rights-impact-assessments-trends-challenges-and-opportunities-for-ict-sector-adoption-5152219/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/ict-and-human-rights-towards-a-conceptual-framework-of-human-rights-impact-assessments-5152205/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/institutional-development-in-internet-governance-and-civil-society-participation-an-assessment-of-ch-5152133/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/secrets-and-lies-whatsapp-and-social-media-in-brazil-s-2018-presidential-election-5152001/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/the-tension-between-the-protection-of-intellectual-property-and-the-exchange-of-content-on-the-inter-5152110/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/content-moderation-and-private-censorship-standards-drawn-from-the-jurisprudence-of-the-inter-americ-5146372/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/criminalization-of-discriminatory-expression-in-the-americas-the-case-of-non-consensual-pornography--5146360/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/the-implementation-of-digital-oblivion-forgetting-the-details-5146420/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/whatsapp-mobile-politics-and-disinformation-how-did-fake-news-go-viral-in-the-brazilian-elections-5146457/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/es/publicaciones/best-practices-to-guide-dialogue-between-the-judiciary-and-the-press-a-guide-for-judges-and-journali-5138099/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/collaboration-in-cuadernillos-de-temas-emergentes-of-the-national-institute-of-human-rights-of-chile-5138054/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/fake-news-on-the-internet-the-strategy-to-combat-misinformation-5138107/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/freedom-of-expression-versus-freedom-of-speech-copyright-protection-as-an-internal-tension-5137996/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/internet-access-in-argentina-lessons-learnt-from-the-argentina-conectada-plan-5138093/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/internet-governance-the-trap-of-forms-5138075/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/internet-in-argentina-where-are-we-today-mapping-the-situation-in-terms-of-regulatory-access-and-hum-5138073/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/markets-ownership-expression-and-personal-use-the-copyright-system-5138083/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/net-neutrality-the-tension-between-non-discrimination-and-management-5137990/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/over-the-top-services-fundamental-principles-for-their-regulatory-treatment-in-argentina-5138097/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/the-internet-of-things-more-internet-than-anything-else-5138077/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/the-offence-of-grooming-in-current-and-projected-legislation-in-argentina-5138091/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/the-regulation-of-non-consensual-pornography-in-argentina-5138087/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/towards-a-comprehensive-public-information-management-policy-everything-we-always-wanted-to-know-abo-5138071/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/access-to-information-and-personal-data-an-old-tension-new-challenges-5125874/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/decriminalization-of-expression-the-argentine-experience-5130982/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/domain-names-an-expression-worth-protecting-recommendations-and-suggestions-for-local-administrators-5125849/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/institutional-design-and-effectiveness-of-agencies-responsible-for-protecting-journalists-and-invest-5125745/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/national-security-and-access-to-information-in-latin-america-state-of-affairs-and-challenges-5125798/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/right-to-be-forgotten-between-data-protection-memory-and-personal-life-in-the-digital-age-5125891/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/slander-and-libel-two-years-after-the-reform-of-the-argentine-penal-code-5125804/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/surveillance-on-the-web-what-does-it-mean-to-monitor-and-detect-content-online-5125780/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/the-housekeeper-s-keys-the-strategy-of-internet-intermediaries-and-its-impact-on-the-digital-environ-5125903/</loc>
-    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/institutional-design-and-effectiveness-of-the-agencies-responsible-for-protecting-journalists-and-in-5124165/</loc>
-    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/la-tension-entre-la-proteccion-de-la-propiedad-intelectual-y-el-intercambio-de-contenidos-en-la-red--5123196/</loc>
-    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-enero-2025/</loc>
     <lastmod>2025-01-31T00:00:00+00:00</lastmod>
@@ -528,6 +374,9 @@
     <loc>http://localhost:1313/es/posts/algunas-notas-sobre-libertad-academica/</loc>
     <lastmod>2024-10-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/alternative-solutions-to-disinformation-addressing-sources-instead-of-distribution-5158743/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-septiembre-2024-cloned/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -564,6 +413,12 @@
     <loc>http://localhost:1313/es/posts/proyecto-ley-de-danos-en-linea/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/on-the-metaphor-of-social-media-as-a-public-forum-in-the-united-states-5158664/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/on-the-metaphor-of-social-media-as-a-public-forum-in-the-united-states-6211978/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/posts/participacion-del-cele-en-la-international-conference-on-digital-platform-governance-building-a-global-forum-of-networks-de-la-unesco-por-matias-gonzalez/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -593,6 +448,9 @@
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-abril-2024/</loc>
     <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/online-gender-based-violence-and-freedom-of-expression-a-study-of-six-cases-in-paraguay-5157887/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/la-ciberseguridad-como-saco-de-fuerza-en-el-marco-regulatorio-de-mexico/</loc>
     <lastmod>2024-04-09T00:00:00+00:00</lastmod>
@@ -651,6 +509,9 @@
     <loc>http://localhost:1313/es/posts/proyecto-de-ley-prohibicion-de-escritos-con-contenido-religioso/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/osint-practices-friends-or-enemies-of-human-rights-5157884/</loc>
+    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/posts/leyes-tecnologicas-de-bangladesh-y-espacio-digital/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -687,6 +548,9 @@
     <loc>http://localhost:1313/es/posts/transparencia-en-eeuu-y-en-la-union-europea/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/open-source-intelligence-osint-and-human-rights-in-latin-america-a-comparative-report-on-argentina-b-5157855/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-agosto-2023-cloned/</loc>
     <lastmod>2023-08-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -718,6 +582,9 @@
     <lastmod>2023-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/proyecto-de-ley-publicidad-politica-union-europea/</loc>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/open-source-intelligence-osint-in-argentina-a-diagnosis-of-its-use-by-the-state-5157843/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-mayo2023/</loc>
@@ -755,6 +622,12 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/des-informacion-en-la-democracia-brasilena/</loc>
     <lastmod>2023-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/platform-oversight-a-neglected-link-in-internet-s-regulatory-futures-5157829/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/requiring-the-local-presence-of-ict-companies-an-international-human-rights-law-and-international-ec-5157351/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-febrero-2023/</loc>
     <lastmod>2023-02-28T00:00:00+00:00</lastmod>
@@ -822,6 +695,9 @@
     <loc>http://localhost:1313/es/posts/politika-vs-prensa-fotografia-de-una-batalla/</loc>
     <lastmod>2022-06-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/supporting-media-viability-in-the-americas-towards-sustainable-journalism-5157185/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-mayo-2022-5-2/</loc>
     <lastmod>2022-05-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -833,6 +709,9 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/de-la-tecnocracia-a-la-plutocracia/</loc>
     <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/the-regulation-of-freedom-of-expression-in-latin-america-findings-trends-and-legislative-challenges-5157165/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-marzo-2022-3/</loc>
     <lastmod>2022-03-31T00:00:00+00:00</lastmod>
@@ -888,11 +767,17 @@
     <loc>http://localhost:1313/es/posts/restringir-el-debate-para-proteger-la-democracia/</loc>
     <lastmod>2021-09-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/legislation-and-its-effects-some-experiences-from-comparative-law-5156714/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-agosto-2021/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/los-funcionarios-publicos-y-la-desinformacion/</loc>
     <lastmod>2021-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/are-public-officials-lies-unsustainable-or-do-they-have-far-reaching-effects-5156671/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-julio-2021/</loc>
     <lastmod>2021-07-25T00:00:00+00:00</lastmod>
@@ -930,6 +815,15 @@
     <loc>http://localhost:1313/es/posts/sobre-el-negacionismo-como-delito-penal/</loc>
     <lastmod>2021-04-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/disinformation-in-democracy-or-the-democracy-of-disinformation-5154679/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/looking-south-towards-new-regional-consensus-on-internet-intermediary-liability-5154647/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/the-new-normal-disinformation-and-content-control-on-social-media-during-covid-19-5154565/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-marzo-2021-observatorio-legislativo-cele/</loc>
     <lastmod>2021-03-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -951,6 +845,12 @@
     <loc>http://localhost:1313/es/posts/noticias-falsas-en-internet-acciones-y-reacciones-de-tres-plataformas-presentacion-del-cele-ante-la-relatoria-especial-de-libertad-de-opinion-y-expresion-de-la-onu/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/analysis-of-the-debate-process-on-legal-initiatives-for-personal-data-protection-and-their-conflicts-5154545/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/fake-news-on-the-internet-actions-and-reactions-of-three-plataforms-5154525/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/posts/informe-legislativo-latam-2020-21/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -962,9 +862,6 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/construyendo-letra-chica/</loc>
     <lastmod>2020-12-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/social-network-analysis-and-the-law-a-proof-of-concept-for-argentina-3711556/</loc>
-    <lastmod>2020-11-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/13thsessionofforumonminorityissues/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
@@ -987,6 +884,9 @@
     <loc>http://localhost:1313/es/posts/platformlaw-como-funcionan-las-apelaciones-a-la-moderacion-privada-de-contenidos/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/human-rights-impact-assessments-trends-challenges-and-opportunities-for-ict-sector-adoption-5152219/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/posts/redes-sociales-en-america-latina-entre-la-espada-y-la-pared/</loc>
     <lastmod>2020-09-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -996,6 +896,9 @@
     <loc>http://localhost:1313/es/posts/gobernanza-de-internet-y-poder-judicial/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/disinformation-in-democracy-or-democracy-of-disinformation-5152211/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/posts/guatemala-la-tentacion-de-usar-la-emergencia-para-silenciar-la-critica-y-criminalizar-las-fake-news/</loc>
     <lastmod>2020-08-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -1004,6 +907,9 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/covid-19-proteccion-de-datos-y-acceso-a-internet-durante-la-pandemia/</loc>
     <lastmod>2020-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/ict-and-human-rights-towards-a-conceptual-framework-of-human-rights-impact-assessments-5152205/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/estudio-sobre-la-junta-de-supervision-de-facebook-modificar-las-expectativas/</loc>
     <lastmod>2020-07-29T00:00:00+00:00</lastmod>
@@ -1019,6 +925,9 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/tiktok-got-serious-una-nueva-forma-de-protesta/</loc>
     <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/freedom-of-expression-and-the-digital-gender-gap-in-mexico-5152172/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/the-brazilian-congress-approach-to-disinformation-and-platform-regulation-puts-freedom-of-expression-at-risk/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
@@ -1041,8 +950,23 @@
     <loc>http://localhost:1313/es/posts/coronavirus-proteccion-de-datos-y-confidencialidad-en-ecuador/</loc>
     <lastmod>2020-03-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/democratic-rule-of-law-and-internet-governance-the-key-role-of-judicial-operators-5152126/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/institutional-development-in-internet-governance-and-civil-society-participation-an-assessment-of-ch-5152133/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/the-tension-between-the-protection-of-intellectual-property-and-the-exchange-of-content-on-the-inter-5152110/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/from-comics-to-memes-old-and-new-issues-surrounding-humor-and-freedom-of-expression-5152068/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/posts/sentencia-historica-de-la-corte-constitucional-del-ecuador/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/guardians-of-the-access-to-public-information-act-analysis-of-the-implementation-of-the-guarantor-bo-5152027/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/el-buen-uso-de-las-redes-sociales/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
@@ -1053,11 +977,104 @@
     <loc>http://localhost:1313/es/posts/directiva-europea-de-derechos-de-autor/</loc>
     <lastmod>2019-05-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/publicaciones/considering-facebook-oversight-board-turning-on-expectations-5152017/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/secrets-and-lies-whatsapp-and-social-media-in-brazil-s-2018-presidential-election-5152001/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/whatsapp-mobile-politics-and-disinformation-how-did-fake-news-go-viral-in-the-brazilian-elections-5146457/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/posts/entrada-2/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/primer-entrada-al-blog/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/the-implementation-of-digital-oblivion-forgetting-the-details-5146420/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/content-moderation-and-private-censorship-standards-drawn-from-the-jurisprudence-of-the-inter-americ-5146372/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/criminalization-of-discriminatory-expression-in-the-americas-the-case-of-non-consensual-pornography--5146360/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/fake-news-on-the-internet-the-strategy-to-combat-misinformation-5138107/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/over-the-top-services-fundamental-principles-for-their-regulatory-treatment-in-argentina-5138097/</loc>
+    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/internet-access-in-argentina-lessons-learnt-from-the-argentina-conectada-plan-5138093/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/the-offence-of-grooming-in-current-and-projected-legislation-in-argentina-5138091/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/the-regulation-of-non-consensual-pornography-in-argentina-5138087/</loc>
+    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/markets-ownership-expression-and-personal-use-the-copyright-system-5138083/</loc>
+    <lastmod>2015-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/the-internet-of-things-more-internet-than-anything-else-5138077/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/internet-governance-the-trap-of-forms-5138075/</loc>
+    <lastmod>2014-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/internet-in-argentina-where-are-we-today-mapping-the-situation-in-terms-of-regulatory-access-and-hum-5138073/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/towards-a-comprehensive-public-information-management-policy-everything-we-always-wanted-to-know-abo-5138071/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/collaboration-in-cuadernillos-de-temas-emergentes-of-the-national-institute-of-human-rights-of-chile-5138054/</loc>
+    <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/freedom-of-expression-versus-freedom-of-speech-copyright-protection-as-an-internal-tension-5137996/</loc>
+    <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/net-neutrality-the-tension-between-non-discrimination-and-management-5137990/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/the-housekeeper-s-keys-the-strategy-of-internet-intermediaries-and-its-impact-on-the-digital-environ-5125903/</loc>
+    <lastmod>2013-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/right-to-be-forgotten-between-data-protection-memory-and-personal-life-in-the-digital-age-5125891/</loc>
+    <lastmod>2012-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/access-to-information-and-personal-data-an-old-tension-new-challenges-5125874/</loc>
+    <lastmod>2012-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/domain-names-an-expression-worth-protecting-recommendations-and-suggestions-for-local-administrators-5125849/</loc>
+    <lastmod>2012-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/slander-and-libel-two-years-after-the-reform-of-the-argentine-penal-code-5125804/</loc>
+    <lastmod>2012-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/national-security-and-access-to-information-in-latin-america-state-of-affairs-and-challenges-5125798/</loc>
+    <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/surveillance-on-the-web-what-does-it-mean-to-monitor-and-detect-content-online-5125780/</loc>
+    <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/decriminalization-of-expression-the-argentine-experience-5130982/</loc>
+    <lastmod>2012-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/institutional-design-and-effectiveness-of-agencies-responsible-for-protecting-journalists-and-invest-5125745/</loc>
+    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/institutional-design-and-effectiveness-of-the-agencies-responsible-for-protecting-journalists-and-in-5124165/</loc>
+    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/la-tension-entre-la-proteccion-de-la-propiedad-intelectual-y-el-intercambio-de-contenidos-en-la-red--5123196/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/rullying-by-bullying/</loc>
+    <lastmod>2010-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/autores/andres-calderon/</loc>
   </url><url>
@@ -1083,6 +1100,18 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/temas/amenazas/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/region/america-latina/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/latin-america/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/america-latina/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/autores/</loc>
@@ -1128,6 +1157,30 @@
     <loc>http://localhost:1313/es/equipo/</loc>
   </url><url>
     <loc>http://localhost:1313/es/estamos-leyendo/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/region/europa/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/europe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/europa/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/region/global/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/global/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/global/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/mision/</loc>
     <xhtml:link
@@ -1225,6 +1278,18 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/temas/privacidad-y-vigilancia/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/region/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/seminario/</loc>

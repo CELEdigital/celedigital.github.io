@@ -1,6 +1,6 @@
 ---
 title: 'Fake News on the Internet: Actions and Reactions of Three Plataforms'
-date: '2025-02-26'
+date: '2021-02-01'
 author:
 - Ramiro Álvarez-Ugarte
 - Agustina Del Campo

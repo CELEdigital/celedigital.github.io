@@ -1,6 +1,6 @@
 ---
 title: 'Over-the-Top Services: Fundamental Principles for their Regulatory Treatment in Argentina'
-date: '2025-02-18'
+date: '2016-11-01'
 author:
 - Maia Levy Daniel
 content_type:

@@ -1,6 +1,6 @@
 ---
 title: The New Normal? Disinformation and Content Control on Social Media during COVID-19
-date: '2025-02-26'
+date: '2021-04-01'
 author:
 - Carlos Cortes Castillo
 - Luisa F Isaza-Ibarra

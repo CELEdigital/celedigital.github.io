@@ -1,6 +1,6 @@
 ---
 title: Supporting Media Viability in the Americas. Towards Sustainable Journalism
-date: '2025-02-26'
+date: '2022-06-01'
 author:
 - Ramiro Álvarez-Ugarte
 content_type:

@@ -1,6 +1,6 @@
 ---
 title: Moderating Hate or Moderating Rights? The Paradox of the European Approach to Online Hate Speech and Platform Liability
-date: '2025-09-02'
+date: '2025-08-15'
 author:
 - Natalie Alkiviadou
 content_type:

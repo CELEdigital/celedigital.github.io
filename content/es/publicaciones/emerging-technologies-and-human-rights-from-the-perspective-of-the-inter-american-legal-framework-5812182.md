@@ -1,6 +1,6 @@
 ---
 title: Emerging Technologies and Human Rights from the Perspective of the Inter-American Legal Framework
-date: '2025-12-01'
+date: '2025-06-01'
 author:
 - Agustina Del Campo
 content_type:

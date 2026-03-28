@@ -1,6 +1,6 @@
 ---
 title: 'Legislation and its Effects: Some Experiences from Comparative Law'
-date: '2025-02-26'
+date: '2021-09-01'
 author:
 - Emiliano Vitaliani
 content_type:

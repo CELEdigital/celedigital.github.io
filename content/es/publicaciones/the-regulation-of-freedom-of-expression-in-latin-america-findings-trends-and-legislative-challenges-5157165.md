@@ -1,6 +1,6 @@
 ---
 title: 'The Regulation of Freedom of Expression in Latin America: Findings, Trends, and Legislative Challenges'
-date: '2025-02-26'
+date: '2022-04-01'
 author:
 - Franco Serra
 content_type:

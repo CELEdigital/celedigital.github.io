@@ -1,7 +1,7 @@
 ---
 title: 'Content Moderation and Private Censorship: Standards Drawn from the Jurisprudence of the Inter-American Human Rights
   System'
-date: '2025-02-20'
+date: '2017-12-01'
 author:
 - Agustina Del Campo
 - Agustina Del Campo

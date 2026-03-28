@@ -1,6 +1,6 @@
 ---
 title: Disinformation in Democracy or the Democracy of Disinformation?
-date: '2025-02-26'
+date: '2021-04-01'
 author:
 - Agustina Del Campo
 content_type:

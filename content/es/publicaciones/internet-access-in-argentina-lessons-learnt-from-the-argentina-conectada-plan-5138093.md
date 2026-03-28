@@ -1,6 +1,6 @@
 ---
 title: Internet Access in Argentina. Lessons Learnt from the Argentina Conectada Plan
-date: '2025-02-18'
+date: '2016-07-01'
 author:
 - Veronica Ferrari
 content_type:

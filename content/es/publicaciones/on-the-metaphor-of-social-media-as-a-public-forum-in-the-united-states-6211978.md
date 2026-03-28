@@ -1,6 +1,6 @@
 ---
 title: On the Metaphor of Social Media as a Public Forum in the United States
-date: '2026-02-11'
+date: '2024-07-01'
 author:
 - Matias Gonzalez Mama
 content_type:

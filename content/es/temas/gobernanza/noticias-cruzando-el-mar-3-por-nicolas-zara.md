@@ -6,14 +6,14 @@ content_type:
 date: '2024-12-23'
 description: 'Noticias cruzando el mar 3: La última entrega del 2024 viene tan cargada como de costumbre. Se confirmó el recambio
   de autoridades en la Comisión Europea, los resultados de una elección presidencial motivaron una investi'
-featured: true
+featured: false
 image: /img/europe-500x350-1.jpg
 programs:
 - policy
 slug: noticias-cruzando-el-mar-3-por-nicolas-zara
 tags:
 - institucional
-title: 'Noticias cruzando el mar #3, por Nicolás Zara:'
+title: 'Noticias cruzando el mar #3'
 translationKey: wp-14069
 type: posts
 issues:

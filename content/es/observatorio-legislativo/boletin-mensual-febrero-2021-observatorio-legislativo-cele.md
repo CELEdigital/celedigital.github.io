@@ -1,6 +1,6 @@
 ---
 author: [mmdg]
-content_type: [blog]
+content_type: [boletin]
 date: '2021-03-10'
 description: El 18 de febrero el Poder Ejecutivo mediante la Resolución 100/2021 postuló
   a Juan Fuertes para el cargo de Director de la Agencia de Acceso a la Información
@@ -14,7 +14,7 @@ description: El 18 de febrero el Poder Ejecutivo mediante la Resolución 100/202
   se expresaron en contra de este proyecto mencionando que no sería necesario generar
   un nuevo tipo de DNI y advirtiendo sobre las posibles vulneraciones a la seguridad
   que conlleva adoptar este tipo de documentación.
-featured: true
+featured: false
 image: /img/shutterstock_1698060541-scaled.jpg
 programs: [policy]
 slug: boletin-mensual-febrero-2021-observatorio-legislativo-cele

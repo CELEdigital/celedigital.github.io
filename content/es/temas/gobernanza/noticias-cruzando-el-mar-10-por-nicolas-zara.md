@@ -4,16 +4,16 @@ author:
 content_type:
 - newsletter_dsa
 date: '2026-03-06'
-description: 'Noticias cruzando el mar 10: Bienvenidos a la primera entrega de 2026 de nuestro boletín bimestral sobre la
-  Digital Services Act DSA de la Unión Europea. Esperamos que hayan empezado bien el nuevo año. El 17 de febrero s'
-featured: true
+description: 'Bienvenidos a la primera entrega de 2026 de nuestro boletín bimestral sobre la
+  Digital Services Act DSA de la Unión Europea. Esperamos que hayan empezado bien el nuevo año.'
+featured: false
 image: /img/europe-500x350-1.jpg
 programs:
 - policy
 slug: noticias-cruzando-el-mar-10-por-nicolas-zara
 tags:
 - institucional
-title: 'Noticias cruzando el mar #10, por Nicolás Zara'
+title: 'Noticias cruzando el mar #10'
 translationKey: wp-15324
 type: posts
 issues:

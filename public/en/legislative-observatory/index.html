@@ -537,6 +537,36 @@
     </h3>
   </div>
 
+  <div class="observatory-downloads">
+    <div class="observatory-downloads__item">
+      <a class="observatory-downloads__btn" href="/data/proyectos_clean.csv" download>
+        Download Projects (CSV)
+      </a>
+      
+      <div class="observatory-downloads__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+      </div>
+    </div>
+    <div class="observatory-downloads__item">
+      <a class="observatory-downloads__btn" href="/data/leyes_clean.csv" download>
+        Download Laws (CSV)
+      </a>
+      
+      <div class="observatory-downloads__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+      </div>
+    </div>
+    <div class="observatory-downloads__item">
+      <a class="observatory-downloads__btn" href="/data/ai_clean.csv" download>
+        Download AI (CSV)
+      </a>
+      
+      <div class="observatory-downloads__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+      </div>
+    </div>
+  </div>
+
   <div class="observatory-inline-panels">
     
       <section
@@ -847,7 +877,7 @@
         .catch(function (err) {
           var host = document.getElementById(item.id);
           if (host) {
-            host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Jost,Arial,sans-serif;">Vega error in ' +
+            host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Inter,Arial,sans-serif;">Vega error in ' +
               item.id + ': ' + (err && err.message ? err.message : err) + '</p>';
           }
           console.error('Vega embed failed for', item.id, err);

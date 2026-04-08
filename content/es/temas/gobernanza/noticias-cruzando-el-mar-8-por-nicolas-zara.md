@@ -6,14 +6,14 @@ content_type:
 date: '2025-12-01'
 description: 'Noticias cruzando el mar 8: Bienvenidos a la octava entrega de nuestro boletín bimestral sobre la Digital Services
   Act DSA de la Unión Europea. En esta oportunidad, tenemos novedades acerca de de la agenda de acceso a da'
-featured: true
+featured: false
 image: /img/europe-500x350-1.jpg
 programs:
 - policy
 slug: noticias-cruzando-el-mar-8-por-nicolas-zara
 tags:
 - institucional
-title: 'Noticias cruzando el mar #8, por Nicolás Zara'
+title: 'Noticias cruzando el mar #8'
 translationKey: wp-15266
 type: posts
 issues:

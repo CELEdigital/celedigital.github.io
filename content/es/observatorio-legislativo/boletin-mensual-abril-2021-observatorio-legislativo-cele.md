@@ -1,16 +1,16 @@
 ---
 author: [mmdg]
-content_type: [blog]
+content_type: [boletin]
 date: '2021-04-29'
 description: Boletín Mensual Abril 2021 Observatorio Legislativo CELE. Novedades de
   la actividad legislativa y regulatoria, decisiones judiciales y administrativas.
   Argentina El 28/04 la Comisión de Sistemas, Medios de Comunicación y
-featured: true
+featured: false
 image: /img/shutterstock_1743216296-scaled.jpg
 programs: [policy]
 slug: boletin-mensual-abril-2021-observatorio-legislativo-cele
 tags: [institucional]
-title: Boletín Mensual Abril 2021  Observatorio Legislativo CELE
+title: Boletín Mensual Observatorio Legislativo | Abril 2021
 translationKey: wp-8552
 type: boletin
 ---

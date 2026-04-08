@@ -1,12 +1,11 @@
 ---
 author: [CELE]
-content_type: [blog]
+content_type: [boletin]
 date: '2026-03-03'
 description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales
   y administrativas.
-featured: true
+featured: false
 image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
 slug: boletin-mensual-observatorio-legislativo-febrero-2026
 tags: [institucional]
 title: Boletín mensual Observatorio Legislativo | Febrero 2026

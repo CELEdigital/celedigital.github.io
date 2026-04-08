@@ -1,10 +1,10 @@
 ---
 author: [CELE]
-content_type: [blog]
+content_type: [boletin]
 date: '2022-10-31'
 description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales
   y administrativas.
-featured: true
+featured: false
 image: /img/shutterstock_1698060541-1-scaled.jpg
 programs: [policy]
 slug: boletin-mensual-observatorio-legislativo-octubre-2022

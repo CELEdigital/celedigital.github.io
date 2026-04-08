@@ -6,14 +6,14 @@ content_type:
 date: '2025-05-14'
 description: 'Noticias cruzando el mar 5: ¡Bienvenidos a la quinta entrega de nuestro boletín bimestral sobre la DSA! En esta
   oportunidad, analizaremos el contexto internacional que nos ha llevado a una situación de gran tensión entre'
-featured: true
+featured: false
 image: /img/europe-500x350-1.jpg
 programs:
 - policy
 slug: noticias-cruzando-el-mar-5-por-nicolas-zara
 tags:
 - institucional
-title: 'Noticias cruzando el mar #5, por Nicolás Zara:'
+title: 'Noticias cruzando el mar #5'
 translationKey: wp-14377
 type: posts
 region: global

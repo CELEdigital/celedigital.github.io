@@ -151,6 +151,36 @@
     </h3>
   </div>
 
+  <div class="observatory-downloads">
+    <div class="observatory-downloads__item">
+      <a class="observatory-downloads__btn" href="{{ "data/proyectos_clean.csv" | relURL }}" download>
+        {{ cond $isES "Descargar Proyectos (CSV)" "Download Projects (CSV)" }}
+      </a>
+      {{/* ── EDIT DESCRIPTION HERE: Proyectos ── */}}
+      <div class="observatory-downloads__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+      </div>
+    </div>
+    <div class="observatory-downloads__item">
+      <a class="observatory-downloads__btn" href="{{ "data/leyes_clean.csv" | relURL }}" download>
+        {{ cond $isES "Descargar Leyes (CSV)" "Download Laws (CSV)" }}
+      </a>
+      {{/* ── EDIT DESCRIPTION HERE: Leyes ── */}}
+      <div class="observatory-downloads__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+      </div>
+    </div>
+    <div class="observatory-downloads__item">
+      <a class="observatory-downloads__btn" href="{{ "data/ai_clean.csv" | relURL }}" download>
+        {{ cond $isES "Descargar IA (CSV)" "Download AI (CSV)" }}
+      </a>
+      {{/* ── EDIT DESCRIPTION HERE: IA ── */}}
+      <div class="observatory-downloads__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+      </div>
+    </div>
+  </div>
+
   <div class="observatory-inline-panels">
     {{ if $metodologiaPage }}
       <section

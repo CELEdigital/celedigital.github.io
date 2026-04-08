@@ -82,38 +82,38 @@ defaultContentLanguageInSubdir = true
         weight = 2
 
       [[languages.es.menu.main]]
-        name = "Libertad de expresión"
-        url = "/temas/libertad-de-expresion"
+        name = "Amenazas a la libertad de expresión"
+        url = "/temas/amenazas-a-la-libertad-de-expresion"
         parent = "temas"
         weight = 21
 
       [[languages.es.menu.main]]
-        name = "Derechos Humanos"
-        url = "/temas/derechos-humanos"
+        name = "Regulación privada"
+        url = "/temas/regulacion-privada"
         parent = "temas"
         weight = 22
 
       [[languages.es.menu.main]]
-        name = "Gobernanza de Internet"
-        url = "/temas/gobernanza"
+        name = "Regulación pública"
+        url = "/temas/regulacion-publica"
         parent = "temas"
         weight = 23
 
       [[languages.es.menu.main]]
-        name = "Amenazas a la LDE"
-        url = "/temas/amenazas"
+        name = "Gobernanza de internet"
+        url = "/temas/gobernanza"
         parent = "temas"
         weight = 24
 
       [[languages.es.menu.main]]
-        name = "Inteligencia Artificial"
-        url = "/temas/inteligencia-artificial"
+        name = "Privacidad y Vigilancia"
+        url = "/temas/privacidad-y-vigilancia"
         parent = "temas"
         weight = 25
 
       [[languages.es.menu.main]]
-        name = "Privacidad y Vigilancia"
-        url = "/temas/privacidad-y-vigilancia"
+        name = "Inteligencia Artificial"
+        url = "/temas/inteligencia-artificial"
         parent = "temas"
         weight = 26
 

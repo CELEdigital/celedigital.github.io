@@ -5,3 +5,5 @@ translationKey: documentation
 ---
 
 {{< documentation show_header="false" >}}
+
+{{< documentation-ai >}}

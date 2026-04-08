@@ -44,14 +44,51 @@
 .section-hub__title {
   margin: 0 0 0.75rem;
   font-size: clamp(2rem, 3vw, 2.6rem);
+  font-weight: 800;
 }
 
 .section-hub__description {
   margin: 0;
-  color: var(--neutral-600);
+  color: #3a3a3a;
+  font-weight: 500;
   padding-top: 1rem;
   font-size: 1.2rem;
   line-height: 1.6rem;
+}
+
+/* ── Region filter chips ────────────────────────────────── */
+.region-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+  grid-column: 1 / -1;
+}
+
+.region-chip {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.3rem 0.85rem;
+  cursor: pointer;
+  transition: opacity 180ms, background 180ms, color 180ms;
+}
+
+.region-chip--global  { background: var(--neutral-300); color: var(--neutral-800); }
+.region-chip--latam   { background: var(--cele); color: #fff; }
+.region-chip--europe  { background: var(--columbia-blue); color: #fff; }
+.region-chip--us      { background: var(--forest-green); color: #fff; }
+
+.region-chip:not(.is-active) {
+  opacity: 0.3;
+}
+
+.region-chip:hover {
+  opacity: 1;
 }
 
 .section-hub__blocks {
@@ -151,7 +188,7 @@
 .section-block__research-id {
   font-size: 0.85rem;
   color: var(--neutral-600);
-  font-family: 'Jost';
+  font-family: 'Inter';
   letter-spacing: 0.02em;
 }
 
@@ -223,13 +260,14 @@
 .section-block__link {
   font-weight: 700;
   text-decoration: none;
-  color: var(--cele);
+  color: #000;
   font-size: clamp(1.4rem, 3.5vw, 1.96rem);
   line-height: 1.3;
 }
 
 .section-block__title {
   margin: 0;
+  font-weight: 700;
 }
 
 .section-block__tags {
@@ -240,13 +278,13 @@
 }
 
 .section-block__tag {
-  font-family: 'Jost';
+  font-family: 'Inter';
   font-weight: 600;
   font-size: 0.96rem;
   padding-bottom: .75rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--columbia-blue);
+  letter-spacing: 0.04em;
+  color: var(--cele);
 }
 
 .section-block__byline {
@@ -256,12 +294,13 @@
   font-size: 1.02rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--neutral-600);
+  color: #7a7a7a;
+  font-weight: 700;
   margin-top: 0.6rem;
 }
 
 .section-block__by {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .section-block__by a {
@@ -274,6 +313,7 @@
   margin: 0.54rem 0 0;
   color: var(--neutral-600);
   font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .section-block__load-more {
@@ -281,7 +321,7 @@
   border: 1px solid var(--neutral-900);
   background: transparent;
   color: var(--neutral-900);
-  font-family: 'Jost';
+  font-family: 'Inter';
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -294,4 +334,12 @@
 .section-block__load-more:focus-visible {
   background: var(--neutral-900);
   color: #fff;
+}
+
+/* ── Full-width background for news-analysis block ─────────── */
+.section-block--news-analysis {
+  background: var(--off-white);
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: 3rem calc(50vw - 50%);
 }

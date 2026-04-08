@@ -1,10 +1,10 @@
 ---
 author: [mmdg]
-content_type: [blog]
+content_type: [boletin]
 date: '2021-06-30'
 description: Observatorio Legislativo CELE Novedades de la actividad legislativa y
   regulatoria, decisiones judiciales y administrativas PGlucHV0IHR5cGU9ImltYWdlIiBzcmM9Imh0dHBzOi8vb2JzZXJ2YXRvcmlvbGVnaXNsYXRpdm9jZWxlLmNvbS93cC1jb250Z
-featured: true
+featured: false
 image: /img/shutterstock_1698060541-1-scaled.jpg
 programs: [policy]
 slug: boletin-mensual-junio-2021

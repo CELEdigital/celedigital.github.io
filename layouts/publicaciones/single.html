@@ -48,7 +48,9 @@
 
     {{ .Content }}
 
-    {{ partial "social-icons.html" (dict "mode" "share" "page" .) }}
+    {{ if ne .Params.share_menu false }}
+      {{ partial "social-icons.html" (dict "mode" "share" "page" .) }}
+    {{ end }}
   </div>
 
   <aside class="single-sidebar" aria-label="Publication image">

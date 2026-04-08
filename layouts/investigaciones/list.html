@@ -43,22 +43,80 @@
     </div>
   </header>
 
-  {{/* ── Issue filter buttons ── */}}
-  <nav class="inv-filters" aria-label="Filtrar por tema">
-    <button type="button" class="inv-filters__btn is-active" data-inv-filter="">Todos</button>
-    <button type="button" class="inv-filters__btn" data-inv-filter="LDE">LDE</button>
-    <button type="button" class="inv-filters__btn" data-inv-filter="DDHH">DDHH</button>
-    <button type="button" class="inv-filters__btn" data-inv-filter="Amenazas a la LDE">Amenazas a la LDE</button>
-    <button type="button" class="inv-filters__btn" data-inv-filter="Privacidad y vigilancia">Privacidad y vigilancia</button>
-    <button type="button" class="inv-filters__btn" data-inv-filter="Gobernanza de Internet">Gobernanza de Internet</button>
-    <button type="button" class="inv-filters__btn" data-inv-filter="Inteligencia Artificial">Inteligencia Artificial</button>
-  </nav>
+  {{/* ── Filter rows ── */}}
+  <div class="inv-filters-stack">
+    <nav class="inv-filters" aria-label="Filtrar por tema">
+      <span class="inv-filters__label">Tema</span>
+      <button type="button" class="inv-filters__btn is-active" data-inv-filter="">Todos</button>
+      <button type="button" class="inv-filters__btn" data-inv-filter="LDE">LDE</button>
+      <button type="button" class="inv-filters__btn" data-inv-filter="DDHH">DDHH</button>
+      <button type="button" class="inv-filters__btn" data-inv-filter="Amenazas a la LDE">Amenazas a la LDE</button>
+      <button type="button" class="inv-filters__btn" data-inv-filter="Privacidad y vigilancia">Privacidad y vigilancia</button>
+      <button type="button" class="inv-filters__btn" data-inv-filter="Gobernanza de Internet">Gobernanza de Internet</button>
+      <button type="button" class="inv-filters__btn" data-inv-filter="Inteligencia Artificial">Inteligencia Artificial</button>
+    </nav>
+    <nav class="inv-filters" aria-label="Filtrar por tipo de publicación">
+      <span class="inv-filters__label">Tipo</span>
+      <button type="button" class="inv-filters__btn is-active" data-inv-filter-type="">Todos</button>
+      {{- $types := slice -}}
+      {{- range $research -}}
+        {{- $ct := .Params.content_type -}}
+        {{- if $ct -}}
+          {{- $list := $ct -}}
+          {{- if not (reflect.IsSlice $list) -}}{{ $list = slice $list }}{{- end -}}
+          {{- range $list -}}
+            {{- if not (in $types .) -}}
+              {{- $types = $types | append . -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- range $types }}
+      <button type="button" class="inv-filters__btn" data-inv-filter-type="{{ . }}">{{ . }}</button>
+      {{- end }}
+    </nav>
+    <nav class="inv-filters" aria-label="Filtrar por región">
+      <span class="inv-filters__label">Región</span>
+      <button type="button" class="inv-filters__btn is-active" data-inv-filter-region="">Todos</button>
+      {{- $regions := slice -}}
+      {{- range $research -}}
+        {{- $r := .Params.region -}}
+        {{- if $r -}}
+          {{- if not (in $regions $r) -}}
+            {{- $regions = $regions | append $r -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- range $regions }}
+      <button type="button" class="inv-filters__btn" data-inv-filter-region="{{ . }}">{{ . }}</button>
+      {{- end }}
+    </nav>
+    {{/* ── Date range slider ── */}}
+    {{- $minYear := 9999 -}}
+    {{- $maxYear := 0 -}}
+    {{- range $research -}}
+      {{- if not .Date.IsZero -}}
+        {{- $y := int (.Date.Format "2006") -}}
+        {{- if lt $y $minYear -}}{{- $minYear = $y -}}{{- end -}}
+        {{- if gt $y $maxYear -}}{{- $maxYear = $y -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    <div class="inv-timeline" data-inv-timeline data-min-year="{{ $minYear }}" data-max-year="{{ $maxYear }}">
+      <span class="inv-filters__label">Período</span>
+      <div class="inv-timeline__track">
+        <div class="inv-timeline__range" data-inv-timeline-range></div>
+        <input type="range" class="inv-timeline__slider inv-timeline__slider--min" data-inv-timeline-min min="{{ $minYear }}" max="{{ $maxYear }}" value="{{ $minYear }}" step="1">
+        <input type="range" class="inv-timeline__slider inv-timeline__slider--max" data-inv-timeline-max min="{{ $minYear }}" max="{{ $maxYear }}" value="{{ $maxYear }}" step="1">
+      </div>
+      <span class="inv-timeline__value" data-inv-timeline-label>{{ $minYear }} – {{ $maxYear }}</span>
+    </div>
+  </div>
 
   {{/* ── Investigación destacada ── */}}
   {{ with $featured }}
   <section class="inv-featured" data-inv-featured>
     <h2 class="inv-featured__label">Investigación destacada</h2>
-    <article class="inv-featured__card" data-inv-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}'>
+    <article class="inv-featured__card" data-inv-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}' data-inv-type='{{ with .Params.content_type }}{{ if reflect.IsSlice . }}{{ . | jsonify }}{{ else }}["{{ . }}"]{{ end }}{{ else }}[]{{ end }}' data-inv-region='{{ .Params.region | default "" }}' data-inv-year='{{ if not .Date.IsZero }}{{ .Date.Format "2006" }}{{ end }}'>
       <div class="inv-featured__body">
         {{ with .Params.issues }}
           <div class="inv-featured__issues">
@@ -109,7 +167,7 @@
     {{ $gridIdx := 0 }}
     {{ range $research }}
       {{ if eq .RelPermalink $featured.RelPermalink }}{{ continue }}{{ end }}
-    <article class="inv-item{{ if ge $gridIdx $initialVisible }} is-hub-hidden{{ end }}"{{ if ge $gridIdx $initialVisible }} hidden{{ end }} data-inv-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}'>
+    <article class="inv-item{{ if ge $gridIdx $initialVisible }} is-hub-hidden{{ end }}"{{ if ge $gridIdx $initialVisible }} hidden{{ end }} data-inv-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}' data-inv-type='{{ with .Params.content_type }}{{ if reflect.IsSlice . }}{{ . | jsonify }}{{ else }}["{{ . }}"]{{ end }}{{ else }}[]{{ end }}' data-inv-region='{{ .Params.region | default "" }}' data-inv-year='{{ if not .Date.IsZero }}{{ .Date.Format "2006" }}{{ end }}'>
       {{ with .Params.issues }}
         <div class="inv-item__issues">
           {{ range . }}<span class="inv-item__issue-tag">{{ . }}</span>{{ end }}

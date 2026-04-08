@@ -352,6 +352,13 @@
         <img src="/icons/icon_policy.png" alt="Policy">
       
     </div>
+    
+    <div class="region-chips" data-region-chips>
+      <button type="button" class="region-chip region-chip--global is-active" data-region-chip="global">Global</button>
+      <button type="button" class="region-chip region-chip--latam is-active" data-region-chip="latam">LatAm</button>
+      <button type="button" class="region-chip region-chip--europe is-active" data-region-chip="europe">Europe</button>
+      <button type="button" class="region-chip region-chip--us" data-region-chip="us">US</button>
+    </div>
   </header>
 
   
@@ -1541,7 +1548,7 @@
         
       
 
-      <section class="section-block">
+      <section class="section-block section-block--featured">
         <h2>Featured</h2>
         
           <div class="section-block__content">
@@ -2732,7 +2739,7 @@
         
       
 
-      <section class="section-block">
+      <section class="section-block section-block--news-analysis">
         <h2>Latest news and analysis</h2>
         
           <div class="section-block__content">
@@ -3917,7 +3924,7 @@
         
       
 
-      <section class="section-block">
+      <section class="section-block section-block--research">
         <h2>Research</h2>
         
           <div class="section-block__content">
@@ -5108,7 +5115,7 @@
         
       
 
-      <section class="section-block">
+      <section class="section-block section-block--event">
         <h2>Events (upcoming / past)</h2>
         
           <div class="section-block__content">
@@ -6318,16 +6325,25 @@
         
       
 
-      <section class="section-block">
+      <section class="section-block section-block--blog">
         <h2>Blog</h2>
         
           
           <ul id="section-block-policy-blog" class="section-block__list" data-hub-list data-load-step="3">
             
               
+              
+                
+                
+                  
+                  
+                
+              
+              
                 <li
                   class="section-block__item section-block__item--media-right"
                   
+                  data-region="global"
                 >
                   <div class="section-block__body">
                     
@@ -6626,7 +6642,7 @@
         .catch(function (err) {
           var host = document.getElementById(item.id);
           if (host) {
-            host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Jost,Arial,sans-serif;">Vega error in ' +
+            host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Inter,Arial,sans-serif;">Vega error in ' +
               item.id + ': ' + (err && err.message ? err.message : err) + '</p>';
           }
           console.error('Vega embed failed for', item.id, err);

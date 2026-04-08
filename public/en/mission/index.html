@@ -338,6 +338,7 @@
 
 
       
+        
 
 
 
@@ -383,6 +384,7 @@
   
 </div>
 
+      
     </div>
     <aside class="single-sidebar" aria-label="Boletin">
       <div class="newsletter-box">
@@ -638,7 +640,7 @@
         .catch(function (err) {
           var host = document.getElementById(item.id);
           if (host) {
-            host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Jost,Arial,sans-serif;">Vega error in ' +
+            host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Inter,Arial,sans-serif;">Vega error in ' +
               item.id + ': ' + (err && err.message ? err.message : err) + '</p>';
           }
           console.error('Vega embed failed for', item.id, err);

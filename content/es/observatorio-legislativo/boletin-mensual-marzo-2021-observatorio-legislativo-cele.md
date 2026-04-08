@@ -1,6 +1,6 @@
 ---
 author: [mmdg]
-content_type: [blog]
+content_type: [boletin]
 date: '2021-03-30'
 description: A nivel parlamentario se presentaron en el mes de marzo diversos proyectos
   de ley vinculados con el derecho a la libertad de expresión. Uno de ellos se vincula
@@ -14,7 +14,7 @@ description: A nivel parlamentario se presentaron en el mes de marzo diversos pr
   en redes sociales, y cualquier tipo de manifestación pública, tendientes a reivindicar,
   legitimar y/o minimizar los delitos cometidos por el terrorismo de Estado durante
   la última dictadura argentina.
-featured: true
+featured: false
 image: /img/leon-overweel-iYajrYkW0Vw-unsplash-scaled.jpg
 programs: [policy]
 slug: boletin-mensual-marzo-2021-observatorio-legislativo-cele

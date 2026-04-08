@@ -6,14 +6,14 @@ content_type:
 date: '2024-09-12'
 description: 'Noticias cruzando el mar 1: La Ley de Servicios Digitales de la Unión Europea es el proyecto de regulación de
   plataformas digitales más ambicioso jamás aprobado. Desde su sanción y puesta en marcha, la DSA no dejó de ser'
-featured: true
+featured: false
 image: /img/europe-500x350-1.jpg
 programs:
 - policy
 slug: noticias-cruzando-el-mar-1-por-nicolas-zara
 tags:
 - institucional
-title: 'Noticias cruzando el mar #1 - por Nicolás Zara'
+title: 'Noticias cruzando el mar #1'
 translationKey: wp-13664
 type: posts
 issues:

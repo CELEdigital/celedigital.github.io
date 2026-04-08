@@ -1,11 +1,11 @@
 ---
 author: [Editor]
-content_type: [blog]
+content_type: [boletin]
 date: '2021-05-27'
 description: Observatorio Legislativo CELE Tendencia legislativa 2021 Durante 2021
   y hasta la fecha hemos identificado varios proyectos legislativos presentados en
   los Congresos de los 9 países que conforman el Observatorio Legislati
-featured: true
+featured: false
 image: /img/shutterstock_1365217-1-scaled.jpg
 programs: [policy]
 slug: boletin-mensual-mayo-2021

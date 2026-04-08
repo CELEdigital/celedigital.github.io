@@ -108,7 +108,7 @@
       {{/* Sort by date descending */}}
       {{ $blockItems = sort $blockItems "Date" "desc" }}
 
-      <section class="section-block">
+      <section class="section-block section-block--{{ $blockKey }}">
         <h2>{{ .title }}</h2>
         {{ if gt (len $blockItems) 0 }}
           {{ $listID := printf "section-block-%s-%s" $sectionKey $blockKey }}

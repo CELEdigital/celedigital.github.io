@@ -1,10 +1,10 @@
 ---
 author: [Editor]
-content_type: [blog]
+content_type: [boletin]
 date: '2022-04-29'
 description: Observatorio Legislativo CELE Novedades de la actividad legislativa y
   regulatoria, decisiones judiciales y administrativas PGRpdiBzdHlsZT0iZmxvYXQ6Y2VudGVyOyI+PGlucHV0IHR5cGU9ImltYWdlIiBzcmM9Imh0dHBzOi8vb2JzZXJ2YXRvcmlvb
-featured: true
+featured: false
 image: /img/shutterstock_1698060541-1-scaled.jpg
 programs: [policy]
 slug: boletin-mensual-abril-2022-4

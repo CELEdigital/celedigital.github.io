@@ -119,6 +119,67 @@
   text-underline-offset: 0.16em;
 }
 
+.observatory-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.observatory-downloads__item {
+  position: relative;
+}
+
+.observatory-downloads__btn {
+  display: inline-block;
+  border: 1px solid var(--neutral-900);
+  background: transparent;
+  color: var(--neutral-900);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+  transition: background 150ms, color 150ms;
+}
+
+.observatory-downloads__btn:hover,
+.observatory-downloads__btn:focus-visible {
+  background: var(--neutral-900);
+  color: #fff;
+}
+
+.observatory-downloads__desc {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  width: 22rem;
+  max-width: 90vw;
+  margin-top: 0.35rem;
+  padding: 0.75rem 0.9rem;
+  background: #fff;
+  color: var(--neutral-800);
+  font-size: 0.88rem;
+  line-height: 1.45;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  pointer-events: none;
+  transition:
+    opacity 200ms ease,
+    max-height 250ms ease;
+}
+
+.observatory-downloads__item:hover .observatory-downloads__desc {
+  opacity: 1;
+  max-height: 12rem;
+  pointer-events: auto;
+}
+
 .observatory-inline-panel {
   margin-top: 0;
   max-height: 0;
@@ -220,7 +281,7 @@
 }
 
 .observatory-boletines-item time {
-  font-family: 'Jost';
+  font-family: 'Inter';
   font-size: 0.9rem;
   color: var(--neutral-600);
   white-space: nowrap;
@@ -236,7 +297,7 @@
   border: 1px solid var(--neutral-900);
   background: transparent;
   color: var(--neutral-900);
-  font-family: 'Jost';
+  font-family: 'Inter';
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -281,7 +342,7 @@
 
 .observatory-stat-card p {
   margin: 0;
-  font-family: 'Jost';
+  font-family: 'Inter';
   font-size: 1.2rem;
   color: var(--neutral-800);
 }

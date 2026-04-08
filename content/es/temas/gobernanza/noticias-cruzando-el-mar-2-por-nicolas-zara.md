@@ -6,14 +6,14 @@ content_type:
 date: '2024-11-08'
 description: 'Noticias cruzando el mar 2: Bienvenidos a la segunda edición de Noticias Cruzando el Mar. En esta edición, le
   diremos adiós a un importante protagonista y la bienvenida a nuevos actores –algunos no tan nuevos– en esta co'
-featured: true
+featured: false
 image: /img/europe-500x350-1.jpg
 programs:
 - policy
 slug: noticias-cruzando-el-mar-2-por-nicolas-zara
 tags:
 - institucional
-title: 'Noticias cruzando el mar #2, por Nicolás Zara'
+title: 'Noticias cruzando el mar #2'
 translationKey: wp-13957
 type: posts
 issues:

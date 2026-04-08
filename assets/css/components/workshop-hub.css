@@ -73,7 +73,7 @@
 }
 
 .blog-nav__heading {
-  font-family: 'Jost';
+  font-family: 'Inter';
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -92,7 +92,7 @@
 }
 
 .blog-nav__link {
-  font-family: 'Jost';
+  font-family: 'Inter';
   font-size: 0.9rem;
   font-weight: 400;
   color: var(--columbia-blue);

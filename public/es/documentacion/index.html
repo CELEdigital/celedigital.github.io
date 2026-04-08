@@ -137,27 +137,27 @@
                 
                   
                   
-                  <a class="nav-dropdown-link" href="/es/temas/libertad-de-expresion">Libertad de expresión</a>
+                  <a class="nav-dropdown-link" href="/es/temas/amenazas-a-la-libertad-de-expresion">Amenazas a la libertad de expresión</a>
                 
                   
                   
-                  <a class="nav-dropdown-link" href="/es/temas/derechos-humanos">Derechos Humanos</a>
+                  <a class="nav-dropdown-link" href="/es/temas/regulacion-privada">Regulación privada</a>
                 
                   
                   
-                  <a class="nav-dropdown-link" href="/es/temas/gobernanza">Gobernanza de Internet</a>
+                  <a class="nav-dropdown-link" href="/es/temas/regulacion-publica">Regulación pública</a>
                 
                   
                   
-                  <a class="nav-dropdown-link" href="/es/temas/amenazas">Amenazas a la LDE</a>
-                
-                  
-                  
-                  <a class="nav-dropdown-link" href="/es/temas/inteligencia-artificial">Inteligencia Artificial</a>
+                  <a class="nav-dropdown-link" href="/es/temas/gobernanza">Gobernanza de internet</a>
                 
                   
                   
                   <a class="nav-dropdown-link" href="/es/temas/privacidad-y-vigilancia">Privacidad y Vigilancia</a>
+                
+                  
+                  
+                  <a class="nav-dropdown-link" href="/es/temas/inteligencia-artificial">Inteligencia Artificial</a>
                 
               </div>
             </li>
@@ -482,6 +482,105 @@
 </section>
 
 
+<section
+  class="documentation documentation--ai"
+  data-doc-ai-url="/data/ai_clean.csv"
+>
+  <div class="documentation-header">
+    <h1 class="documentation-title">Documentación</h1>
+    <p class="documentation-intro">Base de datos de leyes y proyectos de ley sobre inteligencia artificial en América Latina.</p>
+  </div>
+
+  <div class="documentation-controls">
+    <label class="doc-control doc-control--category">
+      <span>Tipo</span>
+      <select data-doc-ai-tipo>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>País</span>
+      <select data-doc-ai-pais>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Año</span>
+      <select data-doc-ai-anio>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Estado</span>
+      <select data-doc-ai-estado>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Origen</span>
+      <select data-doc-ai-origen>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--topic">
+      <span>Tema</span>
+      <select data-doc-ai-tema>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Regula moderación</span>
+      <select data-doc-ai-moderacion>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control">
+      <span>Incluye sanciones</span>
+      <select data-doc-ai-sanciones>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--test">
+      <span>Test tripartito</span>
+      <select data-doc-ai-test>
+        <option value="">Todos</option>
+      </select>
+    </label>
+
+    <label class="doc-control doc-control--search">
+      <span>Buscar</span>
+      <input type="search" data-doc-ai-search placeholder="Número, objeto…">
+    </label>
+  </div>
+
+  <div class="documentation-summary">
+    <span data-doc-ai-count>0</span>
+  </div>
+
+  <div class="documentation-table" data-doc-table>
+    <div class="doc-row doc-row--head">
+      <div>Identificación</div>
+      <div>País</div>
+      <div>Año</div>
+      <div>Tipo</div>
+    </div>
+    <div class="doc-rows" data-doc-ai-rows></div>
+  </div>
+
+  <div class="documentation-actions">
+    <button class="doc-load-more" type="button" data-doc-ai-load>Cargar más</button>
+  </div>
+</section>
+
+
 
       </div>
     
@@ -729,7 +828,7 @@
         .catch(function (err) {
           var host = document.getElementById(item.id);
           if (host) {
-            host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Jost,Arial,sans-serif;">Vega error in ' +
+            host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Inter,Arial,sans-serif;">Vega error in ' +
               item.id + ': ' + (err && err.message ? err.message : err) + '</p>';
           }
           console.error('Vega embed failed for', item.id, err);

@@ -6,7 +6,33 @@
   </section>
 
   {{/* ── 1. Recent posts — 3 cards ── */}}
-  {{ $recentPosts := (where .Site.RegularPages "Type" "posts").ByDate.Reverse }}
+  {{ $allPosts := (where .Site.RegularPages "Type" "posts").ByDate.Reverse }}
+  {{ $excludeSections := slice "observatorio-legislativo" "legislative-observatory" }}
+  {{ $recentPosts := slice }}
+  {{ range $allPosts }}
+    {{ $dominated := false }}
+    {{/* Exclude featured (slider) items */}}
+    {{ if eq .Params.featured true }}
+      {{ $dominated = true }}
+    {{ end }}
+    {{/* Exclude observatory and gobernanza content unless ultimas_publicaciones: true */}}
+    {{ if in $excludeSections .Section }}
+      {{ if not (eq .Params.ultimas_publicaciones true) }}
+        {{ $dominated = true }}
+      {{ end }}
+    {{ end }}
+    {{ $page := . }}
+    {{ with .File }}
+      {{ if and (not $dominated) (findRE "temas/gobernanza" .Path) }}
+        {{ if not (eq $page.Params.ultimas_publicaciones true) }}
+          {{ $dominated = true }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if not $dominated }}
+      {{ $recentPosts = $recentPosts | append . }}
+    {{ end }}
+  {{ end }}
   {{ if gt (len $recentPosts) 0 }}
   <section class="home-posts">
     <header class="home-section-header">

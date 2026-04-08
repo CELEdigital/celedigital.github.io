@@ -45,5 +45,55 @@
     buttons.forEach(initBlock);
   }
 
-  document.addEventListener("DOMContentLoaded", initSectionHubLoadMore);
+  function initRegionChips() {
+    var container = document.querySelector("[data-region-chips]");
+    if (!container) return;
+
+    var chips = Array.from(container.querySelectorAll("[data-region-chip]"));
+    var allItems = Array.from(document.querySelectorAll(".section-block__item[data-region]"));
+
+    // Default active: global, latam, europe
+    var activeRegions = { global: true, latam: true, europe: true };
+    // Initialize from chip classes already set in HTML
+    chips.forEach(function (chip) {
+      var r = chip.getAttribute("data-region-chip");
+      activeRegions[r] = chip.classList.contains("is-active");
+    });
+
+    function itemRegions(item) {
+      var raw = (item.getAttribute("data-region") || "").toLowerCase().trim();
+      if (!raw) return ["global"]; // no region = always visible
+      return raw.split(/[\s,]+/).filter(Boolean);
+    }
+
+    function applyRegionFilter() {
+      allItems.forEach(function (item) {
+        var regions = itemRegions(item);
+        var match = regions.some(function (r) { return activeRegions[r]; });
+        if (match) {
+          item.classList.remove("is-region-hidden");
+          item.style.display = "";
+        } else {
+          item.classList.add("is-region-hidden");
+          item.style.display = "none";
+        }
+      });
+    }
+
+    chips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        var r = chip.getAttribute("data-region-chip");
+        activeRegions[r] = !activeRegions[r];
+        chip.classList.toggle("is-active", activeRegions[r]);
+        applyRegionFilter();
+      });
+    });
+
+    applyRegionFilter();
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    initSectionHubLoadMore();
+    initRegionChips();
+  });
 })();

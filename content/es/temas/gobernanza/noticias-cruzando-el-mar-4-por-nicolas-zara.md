@@ -6,14 +6,14 @@ content_type:
 date: '2025-03-05'
 description: 'Noticias cruzando el mar 4: ¡Bienvenidos a nuestra primera entrega del 2025! A un año desde la plena entrada
   en vigencia de la DSA, haremos un repaso de lo logrado hasta aquí y de algunos desafíos que depara el futuro ce'
-featured: true
+featured: false
 image: /img/europe-500x350-1.jpg
 programs:
 - policy
 slug: noticias-cruzando-el-mar-4-por-nicolas-zara
 tags:
 - institucional
-title: 'Noticias cruzando el mar #4, por Nicolás Zara:'
+title: 'Noticias cruzando el mar #4'
 translationKey: wp-14205
 type: posts
 issues:

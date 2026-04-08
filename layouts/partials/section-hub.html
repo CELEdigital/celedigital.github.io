@@ -40,6 +40,13 @@
         <div class="section-hub__image-placeholder"></div>
       {{ end }}
     </div>
+    {{ $isES := eq .Lang "es" }}
+    <div class="region-chips" data-region-chips>
+      <button type="button" class="region-chip region-chip--global is-active" data-region-chip="global">Global</button>
+      <button type="button" class="region-chip region-chip--latam is-active" data-region-chip="latam">LatAm</button>
+      <button type="button" class="region-chip region-chip--europe is-active" data-region-chip="europe">{{ cond $isES "Europa" "Europe" }}</button>
+      <button type="button" class="region-chip region-chip--us" data-region-chip="us">{{ cond $isES "EE.UU." "US" }}</button>
+    </div>
   </header>
 
   {{/* ── Optional subsection panel (e.g. Noticias cruzando el mar in Gobernanza) ── */}}
@@ -401,16 +408,25 @@
         {{ $blockItems = $fallbackItems }}
       {{ end }}
 
-      <section class="section-block">
+      <section class="section-block section-block--{{ $blockKey }}">
         <h2>{{ .title }}</h2>
         {{ if gt (len $blockItems) 0 }}
           {{ $listID := printf "section-block-%s-%s" $sectionKey $blockKey }}
           <ul id="{{ $listID }}" class="section-block__list" data-hub-list data-load-step="{{ $blockInitialVisible }}">
             {{ range $idx, $page := $blockItems }}
+              {{ $pageRegion := $page.Params.region | default "" }}
+              {{ if not $pageRegion }}
+                {{ $translations := $page.Translations }}
+                {{ if gt (len $translations) 0 }}
+                  {{ $t := index $translations 0 }}
+                  {{ $pageRegion = $t.Params.region | default "" }}
+                {{ end }}
+              {{ end }}
               {{ if eq $blockKey "research" }}
                 <li
                   class="section-block__item section-block__item--research{{ if ge $idx $blockInitialVisible }} is-hub-hidden{{ end }}"
                   {{ if ge $idx $blockInitialVisible }}hidden{{ end }}
+                  data-region="{{ $pageRegion }}"
                 >
                   <div class="section-block__research-left">
                     <h3 class="section-block__title">
@@ -438,6 +454,7 @@
                 <li
                   class="section-block__item section-block__item--media-right{{ if eq $blockKey "featured" }} section-block__item--featured{{ end }}{{ if ge $idx $blockInitialVisible }} is-hub-hidden{{ end }}"
                   {{ if ge $idx $blockInitialVisible }}hidden{{ end }}
+                  data-region="{{ $pageRegion }}"
                 >
                   <div class="section-block__body">
                     {{ $tags := $page.Params.tags }}

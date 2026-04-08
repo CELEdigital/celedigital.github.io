@@ -151,7 +151,7 @@
 .workshop-subhub__block .section-content thead th {
   background: var(--neutral-100);
   color: var(--neutral-900);
-  font-family: 'Jost';
+  font-family: 'Inter';
   font-size: 0.82rem;
   letter-spacing: 0.02em;
   text-align: left;
@@ -161,7 +161,7 @@
 
 .workshop-subhub__block .section-content th,
 .workshop-subhub__block .section-content td {
-  font-family: 'Jost';
+  font-family: 'Inter';
   font-size: 0.88rem;
   border-right: 1px solid var(--neutral-200);
   border-bottom: 1px solid var(--neutral-200);
@@ -292,13 +292,13 @@
 
 .workshop-subhub__block .section-content .workshop-activity-panel__title {
   margin: 0 0 0.9rem;
-  font-family: 'Jost';
+  font-family: 'Inter';
   font-size: 0.95rem;
   color: var(--neutral-900);
 }
 
 .workshop-subhub__block .section-content .workshop-activity-panel__content {
-  font-family: 'Jost';
+  font-family: 'Inter';
   font-size: 0.88rem;
   line-height: 1.45;
   color: var(--neutral-800);

@@ -53,16 +53,34 @@
   border: 1px dashed var(--neutral-300);
 }
 
-/* ── Issue filter buttons ───────────────────────────────── */
-.inv-filters {
+/* ── Filter rows ────────────────────────────────────────── */
+.inv-filters-stack {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  flex-direction: column;
+  gap: 0.6rem;
   margin-bottom: 2rem;
 }
 
+.inv-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inv-filters__label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--neutral-600);
+  width: 4.5rem;
+  flex-shrink: 0;
+}
+
 .inv-filters__btn {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -85,6 +103,96 @@
   background: var(--cele);
   color: #fff;
   border-color: var(--cele);
+}
+
+/* ── Timeline range slider ─────────────────────────────── */
+.inv-timeline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inv-timeline__value {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--neutral-800);
+}
+
+.inv-timeline__track {
+  position: relative;
+  width: 14rem;
+  height: 1.5rem;
+}
+
+.inv-timeline__range {
+  position: absolute;
+  top: 50%;
+  height: 4px;
+  background: var(--cele);
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.inv-timeline__slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.inv-timeline__slider::-webkit-slider-runnable-track {
+  height: 4px;
+  background: var(--neutral-300);
+  border: none;
+  border-radius: 2px;
+}
+
+.inv-timeline__slider--max::-webkit-slider-runnable-track {
+  background: transparent;
+}
+
+.inv-timeline__slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--cele);
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  margin-top: -6px;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.inv-timeline__slider::-moz-range-track {
+  height: 4px;
+  background: var(--neutral-300);
+  border: none;
+  border-radius: 2px;
+}
+
+.inv-timeline__slider--max::-moz-range-track {
+  background: transparent;
+}
+
+.inv-timeline__slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--cele);
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  pointer-events: auto;
+  cursor: pointer;
 }
 
 /* ── Two-column grid ─────────────────────────────────────── */
@@ -120,7 +228,7 @@
 }
 
 .inv-item__issue-tag {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.07em;
@@ -135,7 +243,7 @@
 }
 
 .inv-item__title {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.3;
@@ -182,7 +290,7 @@
 }
 
 .inv-item__date {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -191,7 +299,7 @@
 }
 
 .inv-item__ssrn {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -216,7 +324,7 @@
 }
 
 .inv-featured__label {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -249,7 +357,7 @@
 }
 
 .inv-featured__issue-tag {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -261,7 +369,7 @@
 }
 
 .inv-featured__title {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: clamp(1.35rem, 2.5vw, 1.75rem);
   font-weight: 800;
   line-height: 1.25;
@@ -308,7 +416,7 @@
 }
 
 .inv-featured__date {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -317,7 +425,7 @@
 }
 
 .inv-featured__ssrn {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.05em;

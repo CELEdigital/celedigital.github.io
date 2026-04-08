@@ -120,7 +120,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/temas/libertad-de-expresion/"
+                href="http://localhost:1313/es/temas/amenazas-a-la-libertad-de-expresion/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -279,16 +279,6 @@
     <loc>http://localhost:1313/en/team/</loc>
   </url><url>
     <loc>http://localhost:1313/en/topics/threats/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/temas/amenazas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/topics/threats/"
-                />
   </url><url>
     <loc>http://localhost:1313/en/_archive/topics/</loc>
   </url><url>

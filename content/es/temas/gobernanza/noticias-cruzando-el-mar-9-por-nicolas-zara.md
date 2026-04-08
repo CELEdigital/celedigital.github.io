@@ -6,14 +6,14 @@ content_type:
 date: '2025-12-30'
 description: 'Noticias cruzando el mar 9: ¡Bienvenidos a la última entrega de 2025 de nuestro boletín bimestral sobre la Digital
   Services Act DSA de la Unión Europea! Sobre la línea de llegada del año, tenemos una novedad que acapara'
-featured: true
+featured: false
 image: /img/europe-500x350-1.jpg
 programs:
 - policy
 slug: noticias-cruzando-el-mar-9-por-nicolas-zara
 tags:
 - institucional
-title: 'Noticias cruzando el mar #9, por Nicolás Zara'
+title: 'Noticias cruzando el mar #9'
 translationKey: wp-15295
 type: posts
 issues:

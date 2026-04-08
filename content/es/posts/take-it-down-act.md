@@ -15,6 +15,13 @@ type: posts
 source_url: https://www.palermo.edu/CELE/2025/mesas-legislativas/take-it-down-act.html
 region: us
 image: /img/glossary.jpg
+tag:
+- mesas-legislativas
+issues:
+- DDHH
+placements:
+- hub: temas/regulacion-publica
+  block: ultimas_noticias_analisis
 ---
 
 Mesa de Legislación Comparada CELE: Take iT Down Act 

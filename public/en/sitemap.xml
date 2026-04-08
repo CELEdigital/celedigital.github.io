@@ -165,16 +165,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/topics/human-rights/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/temas/derechos-humanos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/topics/human-rights/"
-                />
   </url><url>
     <loc>http://localhost:1313/en/regions/latin-america/</loc>
     <xhtml:link

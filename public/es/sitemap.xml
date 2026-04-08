@@ -227,6 +227,9 @@
     <loc>http://localhost:1313/es/posts/notas-de-la-comunidad-en-meta-una-nota-sobre-su-comunidad/</loc>
     <lastmod>2025-06-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/tags/posiciones-dominantes/</loc>
+    <lastmod>2025-06-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-mayo-2025/</loc>
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -288,9 +291,6 @@
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/el-juego-no-mirado-sobre-avances-en-politicas-antitrust-en-estados-unidos/</loc>
-    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/tags/posiciones-dominantes/</loc>
     <lastmod>2025-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-marzo-2025/</loc>
@@ -755,18 +755,6 @@
   </url><url>
     <loc>http://localhost:1313/es/contacto/</loc>
   </url><url>
-    <loc>http://localhost:1313/es/temas/derechos-humanos/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/topics/human-rights/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/temas/derechos-humanos/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/documentacion/</loc>
     <xhtml:link
                 rel="alternate"
@@ -904,6 +892,10 @@
                 hreflang="es"
                 href="http://localhost:1313/es/region/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/es/temas/regulacion-privada/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/temas/regulacion-publica/</loc>
   </url><url>
     <loc>http://localhost:1313/es/seminario/</loc>
   </url><url>

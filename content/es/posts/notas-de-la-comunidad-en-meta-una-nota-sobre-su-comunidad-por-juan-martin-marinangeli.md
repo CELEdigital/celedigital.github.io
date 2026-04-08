@@ -7,20 +7,16 @@ date: '2025-06-24'
 description: 'Meses atrás, Meta presentó un cambio sustancial en su estrategia de moderación de contenidos. En el centro de esta transformación se encuentra la suspensión de su programa de _fact-checking_ en ciertos países.'
 featured: true
 image: /img/annie-spratt-5psJeebVp9o-unsplash-e1750710389440.jpg
-programs:
-- policy
 slug: notas-de-la-comunidad-en-meta-una-nota-sobre-su-comunidad
-tags:
-- institucional
 title: 'Notas de la comunidad en Meta: una nota sobre su comunidad'
 translationKey: wp-15103
 type: posts
+tags:
+- posiciones dominantes
 issues:
-- Amenazas a la LDE
+- Regulación privada
 placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-- hub: temas/gobernanza
+- hub: temas/regulacion-privada
   block: ultimas_noticias_analisis
 region: global
 ---

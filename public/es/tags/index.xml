@@ -51,6 +51,13 @@
       <description></description>
     </item>
     <item>
+      <title>Posiciones Dominantes</title>
+      <link>http://localhost:1313/es/tags/posiciones-dominantes/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/tags/posiciones-dominantes/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Libertad De Expresión en América Latina</title>
       <link>http://localhost:1313/es/tags/libertad-de-expresi%C3%B3n-en-am%C3%A9rica-latina/</link>
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
@@ -83,13 +90,6 @@
       <link>http://localhost:1313/es/tags/wsis&#43;20/</link>
       <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/es/tags/wsis&#43;20/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Posiciones Dominantes</title>
-      <link>http://localhost:1313/es/tags/posiciones-dominantes/</link>
-      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/posiciones-dominantes/</guid>
       <description></description>
     </item>
   </channel>

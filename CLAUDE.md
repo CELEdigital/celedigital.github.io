@@ -38,8 +38,8 @@ Se añadió un panel "Mesas" al observatorio. Archivos modificados:
 | Cosa | Regla |
 |------|-------|
 | Hub de temas | Siempre `hub: temas/SLUG` — con prefijo `temas/` |
-| Bloques disponibles | `destacado`, `ultimas_noticias_analisis`, `investigaciones`, `eventos`, `blog` |
-| `issues` | Etiquetas temáticas para filtros: `LDE`, `DDHH`, `Amenazas a la LDE`, `Privacidad y vigilancia`, `Gobernanza`, `IA` |
+| Bloques disponibles | `destacado`, `ultimas_noticias_analisis`, `publicaciones`, `eventos` |
+| `issues` | Etiquetas temáticas para filtros: `Empresas y DDHH`, `Erosión democrática`, `Plataformas`, `Regulación y tecnología`, `Violencias` |
 | `content_type` | Campo de formato del post. Valores usados: `blog`, `mesa`, `boletin` |
 | JS del observatorio | Está en `static/data/observatory-hub.js` (no en `assets/`) |
 | CSS del observatorio | `assets/css/components/observatory-hub.css` |

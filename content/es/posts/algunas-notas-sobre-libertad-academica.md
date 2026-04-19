@@ -5,7 +5,7 @@ content_type:
 - blog
 date: '2024-10-26'
 description: Algunas notas sobre libertad académica La semana pasada participé de un panel sobre libertad académica en la
-  Global Free Speech Summit, convocada por el proyecto The Future of Free Speechhttps://futurefreespeech.org/ en
+  Global Free Speech Summit, convocada por el proyecto The Future of Free Speech. 
 featured: true
 image: /img/IMG-1920x800-04.jpg
 programs:
@@ -17,18 +17,15 @@ title: Algunas notas sobre libertad académica
 translationKey: wp-13738
 type: posts
 issues:
-- LDE
-- Amenazas a la LDE
-placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/libertad-de-expresion
-  block: ultimas_noticias_analisis
-- hub: temas/amenazas
-  block: ultimas_noticias_analisis
+- Erosión democrática
 region: global
+country: 
+- US
+placements:
+- hub: temas/erosion-democratica
+  block: ultimas_noticias_analisis
+- hub: region/global
+  block: ultimas_noticias_analisis
 ---
 # Algunas notas sobre libertad académica
 

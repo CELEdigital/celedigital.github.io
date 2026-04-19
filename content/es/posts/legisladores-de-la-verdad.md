@@ -17,13 +17,17 @@ title: Legisladores de la verdad
 translationKey: wp-15143
 type: posts
 issues:
-- LDE
+- Violencias
+region: latam
+country:
+- AR
 placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-- hub: temas/amenazas
+- hub: temas/violencias
   block: destacado
-region: global
+- hub: temas/violencias
+  block: ultimas_noticias_analisis
+- hub: region/america-latina
+  block: ultimas_noticias_analisis
 ---
 # Legisladores de la verdad
 

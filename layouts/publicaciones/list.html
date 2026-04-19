@@ -1,0 +1,208 @@
+{{ define "main" }}
+
+{{/* ── Collect all publication pages sorted newest first ── */}}
+{{ $research := where .Site.RegularPages "Section" "publicaciones" }}
+{{ $research = sort $research "Date" "desc" }}
+
+{{/* ── Pick featured: explicit flag first, else most recent ── */}}
+{{ $featured := index $research 0 }}
+{{ range $research }}
+  {{ if .Params.featured }}
+    {{ $featured = . }}
+  {{ end }}
+{{ end }}
+
+<div class="publicaciones-hub">
+
+  {{/* ── Header: title + description + illustration ── */}}
+  <header class="publicaciones-hub__header">
+    <div class="publicaciones-hub__header-text">
+      <h1 class="publicaciones-hub__title">{{ .Title }}</h1>
+      {{ with .Params.description }}
+        <div class="publicaciones-hub__desc">{{ . | markdownify }}</div>
+      {{ end }}
+    </div>
+    <div class="publicaciones-hub__header-media">
+      {{ with .Params.image }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+      {{ else }}
+        <div class="publicaciones-hub__image-placeholder"></div>
+      {{ end }}
+    </div>
+  </header>
+
+  {{/* ── Filter rows ── */}}
+  <div class="pub-filters-stack">
+    <nav class="pub-filters" aria-label="Filtrar por tema">
+      <span class="pub-filters__label">Tema</span>
+      <button type="button" class="pub-filters__btn is-active" data-pub-filter="">Todos</button>
+      <button type="button" class="pub-filters__btn" data-pub-filter="Empresas y DDHH">Empresas y DDHH</button>
+      <button type="button" class="pub-filters__btn" data-pub-filter="Erosión democrática">Erosión democrática</button>
+      <button type="button" class="pub-filters__btn" data-pub-filter="Plataformas">Plataformas</button>
+      <button type="button" class="pub-filters__btn" data-pub-filter="Regulación y tecnología">Regulación y tecnología</button>
+      <button type="button" class="pub-filters__btn" data-pub-filter="Violencias">Violencias</button>
+    </nav>
+    <nav class="pub-filters" aria-label="Filtrar por tipo de publicación">
+      <span class="pub-filters__label">Tipo</span>
+      <button type="button" class="pub-filters__btn is-active" data-pub-filter-type="">Todos</button>
+      {{- $types := slice -}}
+      {{- range $research -}}
+        {{- $ct := .Params.content_type -}}
+        {{- if $ct -}}
+          {{- $list := $ct -}}
+          {{- if not (reflect.IsSlice $list) -}}{{ $list = slice $list }}{{- end -}}
+          {{- range $list -}}
+            {{- if not (in $types .) -}}
+              {{- $types = $types | append . -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- range $types }}
+      <button type="button" class="pub-filters__btn" data-pub-filter-type="{{ . }}">{{ . }}</button>
+      {{- end }}
+    </nav>
+    <nav class="pub-filters" aria-label="Filtrar por región">
+      <span class="pub-filters__label">Región</span>
+      <button type="button" class="pub-filters__btn is-active" data-pub-filter-region="">Todos</button>
+      {{- $regions := slice -}}
+      {{- range $research -}}
+        {{- $r := .Params.region -}}
+        {{- if $r -}}
+          {{- if not (in $regions $r) -}}
+            {{- $regions = $regions | append $r -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- range $regions }}
+      <button type="button" class="pub-filters__btn" data-pub-filter-region="{{ . }}">{{ . }}</button>
+      {{- end }}
+    </nav>
+    {{/* ── Date range slider ── */}}
+    {{- $minYear := 9999 -}}
+    {{- $maxYear := 0 -}}
+    {{- range $research -}}
+      {{- if not .Date.IsZero -}}
+        {{- $y := int (.Date.Format "2006") -}}
+        {{- if lt $y $minYear -}}{{- $minYear = $y -}}{{- end -}}
+        {{- if gt $y $maxYear -}}{{- $maxYear = $y -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    <div class="pub-timeline" data-pub-timeline data-min-year="{{ $minYear }}" data-max-year="{{ $maxYear }}">
+      <span class="pub-filters__label">Período</span>
+      <div class="pub-timeline__track">
+        <div class="pub-timeline__range" data-pub-timeline-range></div>
+        <input type="range" class="pub-timeline__slider pub-timeline__slider--min" data-pub-timeline-min min="{{ $minYear }}" max="{{ $maxYear }}" value="{{ $minYear }}" step="1">
+        <input type="range" class="pub-timeline__slider pub-timeline__slider--max" data-pub-timeline-max min="{{ $minYear }}" max="{{ $maxYear }}" value="{{ $maxYear }}" step="1">
+      </div>
+      <span class="pub-timeline__value" data-pub-timeline-label>{{ $minYear }} – {{ $maxYear }}</span>
+    </div>
+  </div>
+
+  {{/* ── Publicación destacada ── */}}
+  {{ with $featured }}
+  <section class="pub-featured" data-pub-featured>
+    <h2 class="pub-featured__label">Publicación destacada</h2>
+    <article class="pub-featured__card" data-pub-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}' data-pub-type='{{ with .Params.content_type }}{{ if reflect.IsSlice . }}{{ . | jsonify }}{{ else }}["{{ . }}"]{{ end }}{{ else }}[]{{ end }}' data-pub-region='{{ .Params.region | default "" }}' data-pub-year='{{ if not .Date.IsZero }}{{ .Date.Format "2006" }}{{ end }}'>
+      <div class="pub-featured__body">
+        {{ with .Params.issues }}
+          <div class="pub-featured__issues">
+            {{ range . }}<span class="pub-featured__issue-tag">{{ . }}</span>{{ end }}
+          </div>
+        {{ end }}
+
+        <h3 class="pub-featured__title">
+          <a class="pub-featured__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+
+        {{ with .Params.author }}
+          <div class="pub-featured__author">
+            {{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}
+          </div>
+        {{ end }}
+
+        {{ with .Params.ssrn_reference }}
+          <div class="pub-featured__ref">{{ . }}</div>
+        {{ end }}
+
+        {{ $abstract := .Params.abstract | default .Params.description }}
+        {{ with $abstract }}
+          <p class="pub-featured__abstract">{{ . | plainify }}</p>
+        {{ end }}
+
+        <div class="pub-featured__footer">
+          {{ if not .Date.IsZero }}
+            <time class="pub-featured__date" datetime="{{ .Date.Format "2006-01-02" }}">
+              {{ partial "date-es.html" .Date }}
+            </time>
+          {{ end }}
+          {{ with .Params.ssrn_id }}
+            <a class="pub-featured__ssrn" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ . }}" target="_blank" rel="noopener">
+              Ver en SSRN →
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    </article>
+  </section>
+  {{ end }}
+
+  {{/* ── Two-column chronological grid (skip the featured item) ── */}}
+  {{ $initialVisible := 6 }}
+  {{ if gt (len $research) 0 }}
+  <div class="publicaciones-grid" id="pub-grid" data-hub-list data-load-step="{{ $initialVisible }}">
+    {{ $gridIdx := 0 }}
+    {{ range $research }}
+      {{ if eq .RelPermalink $featured.RelPermalink }}{{ continue }}{{ end }}
+    <article class="pub-item{{ if ge $gridIdx $initialVisible }} is-hub-hidden{{ end }}"{{ if ge $gridIdx $initialVisible }} hidden{{ end }} data-pub-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}' data-pub-type='{{ with .Params.content_type }}{{ if reflect.IsSlice . }}{{ . | jsonify }}{{ else }}["{{ . }}"]{{ end }}{{ else }}[]{{ end }}' data-pub-region='{{ .Params.region | default "" }}' data-pub-year='{{ if not .Date.IsZero }}{{ .Date.Format "2006" }}{{ end }}'>
+      {{ with .Params.issues }}
+        <div class="pub-item__issues">
+          {{ range . }}<span class="pub-item__issue-tag">{{ . }}</span>{{ end }}
+        </div>
+      {{ end }}
+
+      <h3 class="pub-item__title">
+        <a class="pub-item__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h3>
+
+      {{ with .Params.author }}
+        <div class="pub-item__author">
+          {{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}
+        </div>
+      {{ end }}
+
+      {{ with .Params.ssrn_reference }}
+        <div class="pub-item__ref">{{ . }}</div>
+      {{ end }}
+
+      {{ $abstract := .Params.abstract | default .Params.description }}
+      {{ with $abstract }}
+        <p class="pub-item__abstract">{{ . | plainify | truncate 280 }}</p>
+      {{ end }}
+
+      <div class="pub-item__footer">
+        {{ if not .Date.IsZero }}
+          <time class="pub-item__date" datetime="{{ .Date.Format "2006-01-02" }}">
+            {{ partial "date-es.html" .Date }}
+          </time>
+        {{ end }}
+        {{ with .Params.ssrn_id }}
+          <a class="pub-item__ssrn" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ . }}" target="_blank" rel="noopener">
+            SSRN →
+          </a>
+        {{ end }}
+      </div>
+    </article>
+    {{ $gridIdx = add $gridIdx 1 }}
+    {{ end }}
+  </div>
+  <div class="publicaciones-load-more-wrap">
+    <button class="section-block__load-more" type="button" data-hub-load-more data-hub-target="pub-grid" hidden>
+      {{ i18n "hub_load_more" | default "Cargar más" }}
+    </button>
+  </div>
+  {{ end }}
+
+</div>
+<script src="/data/publicaciones-filter.js" defer></script>
+{{ end }}

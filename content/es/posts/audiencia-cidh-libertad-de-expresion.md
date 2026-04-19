@@ -12,18 +12,24 @@ programs:
 - policy
 slug: audiencia-cidh-libertad-de-expresion
 tags:
-- institucional
-title: Audiencia CIDH libertad de expresión
+- funcionarios públicos
+title: Audiencia CIDH sobre libertad de expresión en la Argentina
 translationKey: wp-15276
 type: posts
 issues:
-- Amenazas a la LDE
-placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-- hub: temas/amenazas
-  block: ultimas_noticias_analisis
+- Erosión democrática
 region: latam
+country:
+- AR
+placements:
+- hub: temas/erosion-democratica
+  block: destacado
+- hub: temas/erosion-democratica
+  block: ultimas_noticias_analisis
+- hub: region/america-latina
+  block: ultimas_noticias_analisis
+- hub: region/america-latina
+  block: destacado
 ---
 # **Audiencia CIDH libertad de expresión**
 

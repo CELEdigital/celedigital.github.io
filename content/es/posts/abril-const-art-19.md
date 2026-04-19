@@ -13,8 +13,18 @@ tags:
 title: Constitucionalidad del Artículo 19 del Marco Civil de Internet
 type: posts
 source_url: https://www.palermo.edu/cele/2025/mesas-legislativas/abril-const-art-19.html
-region: global
 image: /img/glossary.jpg
+issues:
+- Plataformas
+- Regulación y tecnología
+region: latam
+country:
+- BR
+placements:
+- hub: temas/plataformas
+  block: ultimas_noticias_analisis
+- hub: temas/regulacion-y-tecnologia
+  block: ultimas_noticias_analisis
 ---
 
 Mesa de Legislación Comparada CELE: Constitucionalidad del Artículo 19 del Marco Civil de Internet 

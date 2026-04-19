@@ -107,7 +107,7 @@ other = "Featured"
 other = "Latest news and analysis"
 
 [hub_research]
-other = "Research"
+other = "Publications"
 
 [hub_position]
 other = "Position papers"
@@ -117,9 +117,6 @@ other = "Press room"
 
 [hub_events]
 other = "Events (upcoming / past)"
-
-[hub_blog]
-other = "Blog"
 
 [hub_empty]
 other = "Content coming soon."

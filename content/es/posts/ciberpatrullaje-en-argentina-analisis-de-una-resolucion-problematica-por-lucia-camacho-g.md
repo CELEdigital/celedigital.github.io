@@ -4,33 +4,30 @@ author:
 content_type:
 - blog
 date: '2024-07-08'
-description: 'Ciberpatrullaje en Argentina: Análisis de una Resolución problemática El pasado mes de mayo fue noticia la Resolución
-  428https://www.boletinoficial.gob.ar/detalleAviso/primera/308291/20240528 expedida por el Ministerio d'
+description: 'Ciberpatrullaje en Argentina: Análisis de una Resolución problemática.'
 featured: true
 image: /img/shutterstock_2327936419-scaled.jpg
 programs:
 - policy
-slug: ciberpatrullaje-en-argentina-analisis-de-una-resolucion-problematica-por-lucia-camacho-g
+slug: ciberpatrullaje-en-argentina-analisis-de-una-resolucion-problematica
 tags:
-- institucional
+- privacidad y vigilancia
 title: 'Ciberpatrullaje en Argentina: Análisis de una Resolución problemática - Por Lucía Camacho G.'
 translationKey: wp-13626
 type: posts
 issues:
-- Privacidad y vigilancia
-- Amenazas a la LDE
-placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/privacidad-y-vigilancia
-  block: ultimas_noticias_analisis
-- hub: temas/amenazas
-  block: ultimas_noticias_analisis
+- Erosión democrática
 region: latam
+country:
+- AR
+placements:
+- hub: temas/erosion-democratica
+  block: ultimas_noticias_analisis
+- hub: region/america-latina
+  block: ultimas_noticias_analisis
 ---
-# **Ciberpatrullaje en Argentina: Análisis de una Resolución problemática **
+
+# Ciberpatrullaje en Argentina: Análisis de una Resolución problemática
 
 El pasado mes de mayo fue noticia la [Resolución 428](https://www.boletinoficial.gob.ar/detalleAviso/primera/308291/20240528) expedida por el Ministerio de Seguridad de la Argentina que, una vez más, vuelve a instalar la figura del ciberpatrullaje en el país ya analizada por el CELE [aquí](https://observatoriolegislativocele.com/ciberpatrullaje-o-inteligencia/). La Resolución da vía libre a las autoridades de investigación criminal para la persecución de ciertos cibercrímenes a partir de la explotación de las denominadas “fuentes públicas y abiertas”. Entre los elementos novedosos se encuentra la posibilidad de emplear de medios automatizados para dicho fin. Ahora, del texto de la resolución urgen varios puntos cuestionables, pero nos enfocaremos en tres de ellos. El primero, enlistar crímenes que _no _entran la categoría de cibercrímenes. El segundo, utilizar una fórmula vaga y abierta a la discrecionalidad policial según la cual no serán objeto de persecución las conductas que sean _regulares, usuales o inherentes al uso de internet. _Y el tercero, que tiene que ver con las visiones que la Resolución sugiere sobre lo “público” y lo “abierto” en internet.
 

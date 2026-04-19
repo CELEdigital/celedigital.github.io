@@ -8,28 +8,30 @@ description: This is hard I’ve been writinghttps://s3.documentcloud.org/docume
   abouthttps://www.nytimes.com/2017/06/12/opinion/making-google-the-censor.html jawboning and
 featured: true
 image: /img/shutterstock_1550506322-scaled.jpg
-programs:
-- policy
 slug: this-is-hard
 tags:
-- institucional
+- simposio amenazas regulatorias
 title: This is hard
 translationKey: wp-13966
 type: posts
 issues:
-- Gobernanza de Internet
+- Erosión democrática
+- Plataformas
+- Regulación y tecnología
+region: us
+country:
+- US
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/gobernanza
+- hub: temas/erosion-democratica
   block: ultimas_noticias_analisis
-- hub: temas/amenazas
+- hub: temas/plataformas
   block: ultimas_noticias_analisis
-- hub: temas/libertad-de-expresion
+- hub: temas/regulacion-y-tecnologia
   block: ultimas_noticias_analisis
-region: us
+- hub: region/global
+  block: ultimas_noticias_analisis
 ---
 # This is hard
 

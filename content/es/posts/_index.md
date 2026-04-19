@@ -1,5 +1,5 @@
 ---
-title: "Blog"
-description: "Artículos, análisis y comentarios del CELE."
+title: "Archivo"
+description: ""
 region: global
 ---

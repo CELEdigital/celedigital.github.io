@@ -13,14 +13,19 @@ tags:
 title: Take iT Down Act
 type: posts
 source_url: https://www.palermo.edu/CELE/2025/mesas-legislativas/take-it-down-act.html
-region: us
 image: /img/glossary.jpg
 tag:
 - mesas-legislativas
 issues:
-- DDHH
+- Regulación y tecnología
+- Violencias
+region: us
+country:
+- US
 placements:
-- hub: temas/regulacion-publica
+- hub: temas/regulacion-y-tecnologia
+  block: ultimas_noticias_analisis
+- hub: temas/violencias
   block: ultimas_noticias_analisis
 ---
 

@@ -16,17 +16,17 @@ title: La integridad de la información, ¿un proyecto irrealizable?
 translationKey: wp-14482
 type: posts
 issues:
-- Inteligencia Artificial
-- LDE
-- DDHH
+- Erosión democrática
+- Regulación y tecnología
+region: europe
+country: []
 placements:
-- hub: policy
+- hub: temas/erosion-democratica
   block: ultimas_noticias_analisis
-- hub: temas/gobernanza
+- hub: temas/regulacion-y-tecnologia
   block: ultimas_noticias_analisis
-- hub: temas/inteligencia-artificial
+- hub: region/europa
   block: ultimas_noticias_analisis
-region: global
 ---
 
 # El Día Mundial de la Libertad de Prensa y la agenda internacional

@@ -313,9 +313,34 @@
   <main class="container">
     
   
+  
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
   <section class="section-hub">
     <header class="section-hub__header">
-      <h1 class="section-hub__title">Posts</h1>
+      <div class="blog-title-row">
+        <h1 class="section-hub__title">Posts</h1>
+        <div class="blog-timeline" data-blog-timeline data-min-year="2025" data-max-year="2026">
+          <div class="blog-timeline__track">
+            <div class="blog-timeline__range" data-blog-timeline-range></div>
+            <input type="range" class="blog-timeline__slider blog-timeline__slider--min" data-blog-timeline-min min="2025" max="2026" value="2025" step="1">
+            <input type="range" class="blog-timeline__slider blog-timeline__slider--max" data-blog-timeline-max min="2025" max="2026" value="2026" step="1">
+          </div>
+          <span class="blog-timeline__value" data-blog-timeline-label>2025 – 2026</span>
+        </div>
+      </div>
       
     </header>
 
@@ -327,12 +352,11 @@
             <li class="blog-nav__item is-active">
               <a href="#" class="blog-nav__link" data-blog-tab="">Todas</a>
             </li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="LDE">LDE</a></li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="DDHH">DDHH</a></li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Amenazas a la LDE">Amenazas a la LDE</a></li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Privacidad y vigilancia">Privacidad y vigilancia</a></li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Gobernanza de Internet">Gobernanza de Internet</a></li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Inteligencia Artificial">Inteligencia Artificial</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Empresas y DDHH">Empresas y DDHH</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Erosión democrática">Erosión democrática</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Plataformas">Plataformas</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Regulación y tecnología">Regulación y tecnología</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Violencias">Violencias</a></li>
           </ul>
         </div>
 
@@ -346,32 +370,27 @@
           </ul>
         </div>
 
-        <div class="blog-nav__section blog-map">
-  <p class="blog-nav__heading">Región</p>
+        <div class="blog-nav__section">
+          <p class="blog-nav__heading">Región</p>
+          <ul class="blog-nav__list">
+            <li class="blog-nav__item is-active">
+              <a href="#" class="blog-nav__link" data-blog-region-btn="">Todas</a>
+            </li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-region-btn="latam">LatAm</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-region-btn="global">Global</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-region-btn="europe">Europa</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-region-btn="us">EE.UU.</a></li>
+          </ul>
+        </div>
 
-  <div class="blog-map__canvas">
-    <img class="blog-map__base" src="/img/maps/map_global.svg"
-         alt="" aria-hidden="true">
-
-    <button class="blog-map__hit" data-blog-region-btn="us"
-            aria-label="Estados Unidos" aria-pressed="false" type="button"></button>
-    <button class="blog-map__hit" data-blog-region-btn="latam"
-            aria-label="América Latina" aria-pressed="false" type="button"></button>
-    <button class="blog-map__hit" data-blog-region-btn="europe"
-            aria-label="Europa" aria-pressed="false" type="button"></button>
-
-    <div class="blog-map__hl blog-map__hl--us" aria-hidden="true"></div>
-    <div class="blog-map__hl blog-map__hl--latam" aria-hidden="true"></div>
-    <div class="blog-map__hl blog-map__hl--europe" aria-hidden="true"></div>
-  </div>
-
-  <ul class="blog-nav__list blog-map__list">
-    <li class="blog-nav__item is-active">
-      <a href="#" class="blog-nav__link" data-blog-region-btn="">Todas las regiones</a>
-    </li>
-  </ul>
-</div>
-
+        <div class="blog-nav__section">
+          <p class="blog-nav__heading">Países</p>
+          <ul class="blog-nav__list">
+            <li class="blog-nav__item">
+              <a href="#" class="blog-nav__link" data-blog-country="">Todos</a>
+            </li>
+          </ul>
+        </div>
 
       </nav>
 
@@ -382,11 +401,14 @@
             
               
               
+              
               <li class="section-block__item section-block__item--media-right"
                   data-blog-item
                   data-blog-issues='[]'
                   data-blog-tags='[]'
-                  data-blog-region='global'>
+                  data-blog-region='global'
+                  data-blog-country='[]'
+                  data-blog-year='2026'>
                 <div class="section-block__body">
                   <h3 class="section-block__title">
                     <a class="section-block__link" href="/en/posts/hearing-iachr/">IACHR hearing on freedom of expression</a>
@@ -416,11 +438,14 @@
             
               
               
+              
               <li class="section-block__item section-block__item--media-right"
                   data-blog-item
                   data-blog-issues='[]'
                   data-blog-tags='[]'
-                  data-blog-region='global'>
+                  data-blog-region='global'
+                  data-blog-country='[]'
+                  data-blog-year='2025'>
                 <div class="section-block__body">
                   <h3 class="section-block__title">
                     <a class="section-block__link" href="/en/posts/data-access-for-researchers/">Data Access for Researchers</a>

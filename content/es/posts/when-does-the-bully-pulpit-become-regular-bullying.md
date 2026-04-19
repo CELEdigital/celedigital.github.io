@@ -12,25 +12,24 @@ programs:
 - policy
 slug: when-does-the-bully-pulpit-become-regular-bullying
 tags:
-- institucional
+- simposio amenazas regulatorias
 title: When does the bully pulpit become regular bullying?
 translationKey: wp-14027
 type: posts
 issues:
-- Privacidad y vigilancia
-- Amenazas a la LDE
+- Plataformas
+- Regulación y tecnología
+region: global
+country: []
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/amenazas
+- hub: temas/plataformas
   block: ultimas_noticias_analisis
-- hub: temas/gobernanza
+- hub: temas/regulacion-y-tecnologia
   block: ultimas_noticias_analisis
-- hub: temas/privacidad-y-vigilancia
+- hub: region/global
   block: ultimas_noticias_analisis
-region: us
 ---
 # When does the bully pulpit become regular bullying?
 

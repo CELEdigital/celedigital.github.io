@@ -80,7 +80,7 @@ ISSUE_KEYWORDS = {
 CONTENT_TYPE_BLOCKS = {
     "blog":      ["ultimas_noticias_analisis", "blog"],
     "opinion":   ["ultimas_noticias_analisis", "blog"],
-    "research":  ["investigaciones"],
+    "research":  ["publicaciones"],
     "policy":    ["documentos_de_posicion"],
     "documento_de_posicion": ["documentos_de_posicion"],
     "institutional": ["sala_de_prensa"],
@@ -142,7 +142,7 @@ def determine_placements(fm):
     featured = bool(fm.get("featured", False))
 
     placements = []
-    hubs = [p for p in programs if p in ("policy", "investigaciones")]
+    hubs = [p for p in programs if p in ("policy", "publicaciones")]
 
     if not hubs:
         return placements

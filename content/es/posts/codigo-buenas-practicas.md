@@ -13,8 +13,17 @@ tags:
 title: Código de buenas prácticas para los intermediarios de internet en Nigeria
 type: posts
 source_url: https://www.palermo.edu/CELE/2025/mesas-legislativas/codigo-buenas-practicas.html
-region: global
 image: /img/glossary.jpg
+issues:
+- Plataformas
+- Regulación y tecnología
+region: global
+country: []
+placements:
+- hub: temas/plataformas
+  block: ultimas_noticias_analisis
+- hub: temas/regulacion-y-tecnologia
+  block: ultimas_noticias_analisis
 ---
 
 Mesa de Legislación Comparada CELE: Código de buenas prácticas para los intermediarios de internet en Nigeria 

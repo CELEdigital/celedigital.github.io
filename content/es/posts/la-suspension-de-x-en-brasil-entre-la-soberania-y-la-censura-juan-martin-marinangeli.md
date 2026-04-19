@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-09-16'
-description: 'La suspensión de X en Brasil: entre la soberanía y la censura When law can do no right, Let it be lawful that
-  law bar no wrong. William Shakespeare, King John, III, 1. Introducción La reciente decisiónhttps://x.com/STFof'
+description: 'La suspensión de X en Brasil: entre la soberanía y la censura'
 featured: true
 image: /img/shutterstock_2262840399-scaled.jpg
 programs:
@@ -13,24 +12,25 @@ programs:
 slug: la-suspension-de-x-en-brasil-entre-la-soberania-y-la-censura-juan-martin-marinangeli
 tags:
 - institucional
-title: 'La suspensión de X en Brasil: entre la soberanía y la censura - Juan Martín Marinangeli'
+title: 'La suspensión de X en Brasil: entre la soberanía y la censura'
 translationKey: wp-13674
 type: posts
 issues:
-- LDE
-- Amenazas a la LDE
-placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/libertad-de-expresion
-  block: ultimas_noticias_analisis
-- hub: temas/amenazas
-  block: ultimas_noticias_analisis
-- hub: temas/gobernanza
-  block: ultimas_noticias_analisis
+- Erosión democrática
+- Plataformas
+- Regulación y tecnología
 region: latam
+country:
+- BR
+placements:
+- hub: temas/erosion-democratica
+  block: ultimas_noticias_analisis
+- hub: temas/plataformas
+  block: ultimas_noticias_analisis
+- hub: temas/regulacion-y-tecnologia
+  block: ultimas_noticias_analisis
+- hub: region/america-latina
+  block: ultimas_noticias_analisis
 ---
 # **La suspensión de X en Brasil: entre la soberanía y la censura **
 

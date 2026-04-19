@@ -12,25 +12,21 @@ programs:
 - policy
 slug: threats-of-regulation-are-complex-but-not-enough-to-prevent-oversight
 tags:
-- institucional
+- simposio amenazas regulatorias
 title: Threats of regulation are complex, but not enough to prevent oversight
 translationKey: wp-14045
 type: posts
 issues:
-- Privacidad y vigilancia
-- Gobernanza de Internet
+- Regulación y tecnología
+region: global
+country: []
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/gobernanza
+- hub: temas/regulacion-y-tecnologia
   block: ultimas_noticias_analisis
-- hub: temas/amenazas
+- hub: region/global
   block: ultimas_noticias_analisis
-- hub: temas/privacidad-y-vigilancia
-  block: ultimas_noticias_analisis
-region: europe
 ---
 # **Threats of regulation are complex, but not enough to prevent oversight**
 

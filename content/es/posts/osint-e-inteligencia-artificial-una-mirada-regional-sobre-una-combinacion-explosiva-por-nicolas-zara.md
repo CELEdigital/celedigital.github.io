@@ -12,29 +12,24 @@ programs:
 - policy
 slug: osint-e-inteligencia-artificial-una-mirada-regional-sobre-una-combinacion-explosiva-por-nicolas-zara
 tags:
-- institucional
+- privacidad y vigilancia
 title: 'OSINT e inteligencia artificial: una mirada regional sobre una combinación explosiva, por Nicolás Zara'
 translationKey: wp-13656
 type: posts
 issues:
-- Inteligencia Artificial
-- Privacidad y vigilancia
-- LDE
-- Amenazas a la LDE
+- Erosión democrática
+- Regulación y tecnología
+region: latam
+country: []
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/inteligencia-artificial
+- hub: temas/erosion-democratica
   block: ultimas_noticias_analisis
-- hub: temas/privacidad-y-vigilancia
+- hub: temas/regulacion-y-tecnologia
   block: ultimas_noticias_analisis
-- hub: temas/amenazas
+- hub: region/america-latina
   block: ultimas_noticias_analisis
-- hub: temas/libertad-de-expresion
-  block: ultimas_noticias_analisis
-region: latam
 ---
 # OSINT e inteligencia artificial: una mirada regional sobre una combinación explosiva
 

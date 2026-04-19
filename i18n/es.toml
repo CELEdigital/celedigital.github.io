@@ -107,7 +107,7 @@ other = "Destacado"
 other = "Últimas noticias y análisis"
 
 [hub_research]
-other = "Investigaciones"
+other = "Publicaciones"
 
 [hub_position]
 other = "Documentos de posición"
@@ -117,9 +117,6 @@ other = "Sala de prensa"
 
 [hub_events]
 other = "Eventos (próximos / pasados)"
-
-[hub_blog]
-other = "Blog"
 
 [hub_empty]
 other = "Contenido en preparación."

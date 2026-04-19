@@ -12,24 +12,27 @@ programs:
 - policy
 slug: jawboning-and-lawboning-comparing-platform-state-relations-in-the-us-and-europe
 tags:
-- institucional
+- simposio amenazas regulatorias
 title: 'Jawboning and lawboning: comparing platform-state relations in the US and Europe'
 translationKey: wp-14036
 type: posts
 issues:
-- Gobernanza de Internet
+- Erosión democrática
+- Plataformas
+- Regulación y tecnología
+region: global
+country: []
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/gobernanza
+- hub: temas/erosion-democratica
   block: ultimas_noticias_analisis
-- hub: temas/amenazas
+- hub: temas/plataformas
   block: ultimas_noticias_analisis
-- hub: temas/libertad-de-expresion
+- hub: temas/regulacion-y-tecnologia
   block: ultimas_noticias_analisis
-region: us
+- hub: region/global
+  block: ultimas_noticias_analisis
 ---
 # Jawboning and lawboning: comparing platform-state relations in the US and Europe
 

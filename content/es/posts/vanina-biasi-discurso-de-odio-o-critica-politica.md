@@ -12,19 +12,25 @@ programs:
 slug: vanina-biasi-discurso-de-odio-o-critica-politica
 tags:
 - discurso de odio
-title: 'Vanina Biasi: ¿Discurso de odio o crítica política? - Por Francesca Chocano Villanueva'
+title: 'Vanina Biasi: ¿Discurso de odio o crítica política?'
 translationKey: wp-14456
 type: posts
 issues:
-- Amenazas a la LDE
-placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-- hub: temas/libertad-de-expresion
-  block: ultimas_noticias_analisis
-- hub: temas/amenazas
-  block: ultimas_noticias_analisis
+- Erosión democrática
+- Plataformas
+- Violencias
 region: latam
+country:
+- AR
+placements:
+- hub: temas/erosion-democratica
+  block: ultimas_noticias_analisis
+- hub: temas/violencias
+  block: ultimas_noticias_analisis
+- hub: temas/plataformas
+  block: ultimas_noticias_analisis
+- hub: region/america-latina
+  block: ultimas_noticias_analisis
 ---
 
 El 7 de abril de 2025, el juez federal Daniel Eduardo Rafecas a cargo del Juzgado Federal N.º 3, Secretaría 5, dictó el auto de [procesamiento ](https://www.parlamentario.com/wp-content/uploads/2025/04/4209.23-Procesamiento-Biasi.pdf)sin prisión preventiva contra la Diputada Nacional Vanina Natalia Biasi en la causa CFP 4209/2023, caratulada “Biasi, Vanina s/ inf. ley 23.592”. La denuncia fue presentada por el Fiscal Carlos Stornelli, quien sostuvo que las publicaciones de la diputada en la red social X podrían constituir propaganda discriminatoria e incitación al odio contra la comunidad judía. Este suceso reabre el debate en Argentina sobre los límites entre la crítica política legítima y el discurso de odio, poniendo en tensión la libertad de expresión y la obligación del Estado de proteger a grupos históricamente perseguidos.

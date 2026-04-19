@@ -2,6 +2,13 @@
   <div class="hero-slider" data-slider>
     {{ $featured := where site.RegularPages "Params.featured" true }}
     {{ range $featured }}
+      {{ $ct := .Params.content_type }}
+      {{ $ctList := slice }}
+      {{ if $ct }}
+        {{ if reflect.IsSlice $ct }}{{ $ctList = $ct }}
+        {{ else }}{{ $ctList = slice $ct }}{{ end }}
+      {{ end }}
+      {{ if or (in $ctList "mesa") (in $ctList "newsletter_dsa") }}{{ continue }}{{ end }}
       <article class="hero-slide">
         {{ with .Params.image }}
           <img src="{{ . }}" alt="{{ $.Title }}">

@@ -6,16 +6,28 @@ author:
 content_type:
 - research
 programs:
-- investigaciones
+- publicaciones
 tags:
 - publicaciones
-- investigaciones
 ssrn_id: '5138091'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5138091
 ssrn_reference: CELE Research Paper No. 26
+abstract: 'The crime of ‘grooming’ has been included in the Argentinean Criminal Code
+  by means of Law No. 26.904 in 2013, the text of which caused controversy among different
+  sectors. This report analyses the current and projected Argentinean legislation
+  on this crime, both in the Criminal Code regulations and in the text of the Preliminary
+  Draft of the Criminal Code. The aim of the article is to determine whether the proposed
+  draft has been able to overcome the criticisms outlined regarding the inclusion '
+issues:
+- Regulación y tecnología
+region: latam
+country:
+- AR
 placements:
-- hub: investigaciones
-  block: investigaciones
-  weight: 1
-abstract: 'The crime of ‘grooming’ has been included in the Argentinean Criminal Code by means of Law No. 26.904 in 2013, the text of which caused controversy among different sectors. This report analyses the current and projected Argentinean legislation on this crime, both in the Criminal Code regulations and in the text of the Preliminary Draft of the Criminal Code. The aim of the article is to determine whether the proposed draft has been able to overcome the criticisms outlined regarding the inclusion '
+- hub: temas/regulacion-y-tecnologia
+  block: publicaciones
+- hub: policy
+  block: publicaciones
+- hub: region/america-latina
+  block: publicaciones
 ---

@@ -9,19 +9,32 @@ author:
 content_type:
 - research
 programs:
-- investigaciones
+- publicaciones
 tags:
 - publicaciones
-- investigaciones
 ssrn_id: '5154647'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5154647
 ssrn_reference: CELE Research Paper No. 49
+abstract: 'In Latin America, there is no consensus on the appropriate regulations
+  for dealing with internet intermediary liability. The Office of the Special Rapporteur
+  for Freedom of Expression of the OAS established regional guidelines for regulating
+  intermediary liability in 2013 and 2016, aiming to protect freedom of expression.
+  However, these guidelines have not been successfully incorporated into the domestic
+  regulatory frameworks of various countries, with the exception of Brazil. In general
+  terms, '
 issues:
-- LDE
-- Gobernanza de Internet
+- Plataformas
+- Regulación y tecnología
+region: latam
+country:
+- BR
 placements:
-- hub: investigaciones
-  block: investigaciones
-  weight: 1
-abstract: 'In Latin America, there is no consensus on the appropriate regulations for dealing with internet intermediary liability. The Office of the Special Rapporteur for Freedom of Expression of the OAS established regional guidelines for regulating intermediary liability in 2013 and 2016, aiming to protect freedom of expression. However, these guidelines have not been successfully incorporated into the domestic regulatory frameworks of various countries, with the exception of Brazil. In general terms, '
+- hub: temas/plataformas
+  block: publicaciones
+- hub: temas/regulacion-y-tecnologia
+  block: publicaciones
+- hub: policy
+  block: publicaciones
+- hub: region/america-latina
+  block: publicaciones
 ---

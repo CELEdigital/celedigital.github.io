@@ -7,16 +7,23 @@ author:
 content_type:
 - research
 programs:
-- investigaciones
+- publicaciones
 tags:
 - publicaciones
-- investigaciones
 ssrn_id: '5125804'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5125804
 ssrn_reference: CELE Research Paper No. 9
+abstract: CELE Research Paper No. 9
+issues:
+- Plataformas
+region: latam
+country:
+- AR
 placements:
-- hub: investigaciones
-  block: investigaciones
-  weight: 1
-abstract: 'CELE Research Paper No. 9'
+- hub: temas/plataformas
+  block: publicaciones
+- hub: policy
+  block: publicaciones
+- hub: region/america-latina
+  block: publicaciones
 ---

@@ -1,8 +1,39 @@
 {{ define "main" }}
-  {{ $posts := .Pages.ByDate.Reverse }}
+  {{ $allPages := .Pages.ByDate.Reverse }}
+  {{ $posts := slice }}
+  {{ range $allPages }}
+    {{ $ct := .Params.content_type }}
+    {{ $ctList := slice }}
+    {{ if $ct }}
+      {{ if reflect.IsSlice $ct }}{{ $ctList = $ct }}
+      {{ else }}{{ $ctList = slice $ct }}{{ end }}
+    {{ end }}
+    {{ if not (or (in $ctList "mesa") (in $ctList "newsletter_dsa")) }}
+      {{ $posts = $posts | append . }}
+    {{ end }}
+  {{ end }}
+  {{- $minYear := 9999 -}}
+  {{- $maxYear := 0 -}}
+  {{- range $posts -}}
+    {{- if not .Date.IsZero -}}
+      {{- $y := int (.Date.Format "2006") -}}
+      {{- if lt $y $minYear -}}{{- $minYear = $y -}}{{- end -}}
+      {{- if gt $y $maxYear -}}{{- $maxYear = $y -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
   <section class="section-hub">
     <header class="section-hub__header">
-      <h1 class="section-hub__title">{{ .Title }}</h1>
+      <div class="blog-title-row">
+        <h1 class="section-hub__title">{{ .Title }}</h1>
+        <div class="blog-timeline" data-blog-timeline data-min-year="{{ $minYear }}" data-max-year="{{ $maxYear }}">
+          <div class="blog-timeline__track">
+            <div class="blog-timeline__range" data-blog-timeline-range></div>
+            <input type="range" class="blog-timeline__slider blog-timeline__slider--min" data-blog-timeline-min min="{{ $minYear }}" max="{{ $maxYear }}" value="{{ $minYear }}" step="1">
+            <input type="range" class="blog-timeline__slider blog-timeline__slider--max" data-blog-timeline-max min="{{ $minYear }}" max="{{ $maxYear }}" value="{{ $maxYear }}" step="1">
+          </div>
+          <span class="blog-timeline__value" data-blog-timeline-label>{{ $minYear }} – {{ $maxYear }}</span>
+        </div>
+      </div>
       {{ with .Params.description }}<p class="section-hub__description">{{ . }}</p>{{ end }}
     </header>
 
@@ -14,12 +45,11 @@
             <li class="blog-nav__item is-active">
               <a href="#" class="blog-nav__link" data-blog-tab="">Todas</a>
             </li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="LDE">LDE</a></li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="DDHH">DDHH</a></li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Amenazas a la LDE">Amenazas a la LDE</a></li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Privacidad y vigilancia">Privacidad y vigilancia</a></li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Gobernanza de Internet">Gobernanza de Internet</a></li>
-            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Inteligencia Artificial">Inteligencia Artificial</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Empresas y DDHH">Empresas y DDHH</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Erosión democrática">Erosión democrática</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Plataformas">Plataformas</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Regulación y tecnología">Regulación y tecnología</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-tab="Violencias">Violencias</a></li>
           </ul>
         </div>
 
@@ -37,7 +67,45 @@
           </ul>
         </div>
 
-        {{ partial "blog-map.html" . }}
+        <div class="blog-nav__section">
+          <p class="blog-nav__heading">Región</p>
+          <ul class="blog-nav__list">
+            <li class="blog-nav__item is-active">
+              <a href="#" class="blog-nav__link" data-blog-region-btn="">Todas</a>
+            </li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-region-btn="latam">LatAm</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-region-btn="global">Global</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-region-btn="europe">Europa</a></li>
+            <li class="blog-nav__item"><a href="#" class="blog-nav__link" data-blog-region-btn="us">EE.UU.</a></li>
+          </ul>
+        </div>
+
+        <div class="blog-nav__section">
+          <p class="blog-nav__heading">Países</p>
+          <ul class="blog-nav__list">
+            <li class="blog-nav__item">
+              <a href="#" class="blog-nav__link" data-blog-country="">Todos</a>
+            </li>
+            {{- $countrySet := slice -}}
+            {{- range $posts -}}
+              {{- $c := .Params.country -}}
+              {{- if $c -}}
+                {{- $list := $c -}}
+                {{- if not (reflect.IsSlice $list) -}}{{ $list = slice $list }}{{- end -}}
+                {{- range $list -}}
+                  {{- if and . (not (in $countrySet .)) -}}
+                    {{- $countrySet = $countrySet | append . -}}
+                  {{- end -}}
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
+            {{- range sort $countrySet }}
+            <li class="blog-nav__item">
+              <a href="#" class="blog-nav__link" data-blog-country="{{ . }}">{{ . }}</a>
+            </li>
+            {{- end }}
+          </ul>
+        </div>
 
       </nav>
 
@@ -48,11 +116,14 @@
             {{ range $post := $posts }}
               {{ $issues := $post.Params.issues | default slice }}
               {{ $tags := $post.Params.tags | default slice }}
+              {{ $country := $post.Params.country | default slice }}
               <li class="section-block__item section-block__item--media-right"
                   data-blog-item
                   data-blog-issues='{{ $issues | jsonify }}'
                   data-blog-tags='{{ $tags | jsonify }}'
-                  data-blog-region='{{ $post.Params.region | default "global" }}'>
+                  data-blog-region='{{ $post.Params.region | default "global" }}'
+                  data-blog-country='{{ $country | jsonify }}'
+                  data-blog-year='{{ if not $post.Date.IsZero }}{{ $post.Date.Format "2006" }}{{ end }}'>
                 <div class="section-block__body">
                   <h3 class="section-block__title">
                     <a class="section-block__link" href="{{ $post.RelPermalink }}">{{ $post.Title }}</a>

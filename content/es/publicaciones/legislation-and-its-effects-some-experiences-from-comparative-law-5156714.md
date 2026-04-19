@@ -6,19 +6,28 @@ author:
 content_type:
 - research
 programs:
-- investigaciones
+- publicaciones
 tags:
 - publicaciones
-- investigaciones
 ssrn_id: '5156714'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5156714
 ssrn_reference: CELE Research Paper No. 52
+abstract: Assessing the impact of enacted laws in terms of human rights is particularly
+  relevant when considering freedom of expression. The role of state regulations in
+  shaping public debate has been a central concern for those who have reflected on
+  freedom of expression from the outset. Regardless of differing views on the state's
+  role in protecting this right, it is undeniable that the state is a key actor. Therefore,
+  it is essential to have mechanisms that allow us to evaluate the consequences of
+  its
 issues:
-- LDE
-- DDHH
+- Regulación y tecnología
+region: global
+country: []
 placements:
-- hub: investigaciones
-  block: investigaciones
-  weight: 1
-abstract: 'Assessing the impact of enacted laws in terms of human rights is particularly relevant when considering freedom of expression. The role of state regulations in shaping public debate has been a central concern for those who have reflected on freedom of expression from the outset. Regardless of differing views on the state''s role in protecting this right, it is undeniable that the state is a key actor. Therefore, it is essential to have mechanisms that allow us to evaluate the consequences of its'
+- hub: temas/regulacion-y-tecnologia
+  block: publicaciones
+- hub: policy
+  block: publicaciones
+- hub: region/global
+  block: publicaciones
 ---

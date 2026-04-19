@@ -12,8 +12,14 @@ tags:
 - mesas-legislativas
 title: 'Sri Lanka: Ley de Seguridad en Línea'
 type: posts
-region: global
 image: /img/glossary.jpg
+issues:
+- Regulación y tecnología
+region: global
+country: []
+placements:
+- hub: temas/regulacion-y-tecnologia
+  block: ultimas_noticias_analisis
 ---
 
 Mesa de Legislación Comparada CELE: Sri Lanka: Ley de Seguridad en Línea 

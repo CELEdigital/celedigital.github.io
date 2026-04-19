@@ -1,24 +1,37 @@
 ---
-title: 'WhatsApp, Mobile Politics and Disinformation: How did Fake News Go Viral in the Brazilian Elections?'
+title: 'WhatsApp, Mobile Politics and Disinformation: How did Fake News Go Viral in
+  the Brazilian Elections?'
 date: '2019-05-01'
 author:
 - Miguel Freitas
 content_type:
 - research
 programs:
-- investigaciones
+- publicaciones
 tags:
 - publicaciones
-- investigaciones
 ssrn_id: '5146457'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5146457
 ssrn_reference: CELE Research Paper No. 35
+abstract: 'This paper examines the role of WhatsApp as a vehicle for the dissemination
+  of disinformation during the 2018 Brazilian presidential elections. Given WhatsApp''s
+  widespread adoption in Brazil—where over 120 million users rely on the platform—its
+  use as a political mobilization tool has intensified. The study analyzes how the
+  platform''s encrypted, private network structure facilitated the large-scale spread
+  of false information, contributing to the polarization of public opinion and influencing '
 issues:
-- Privacidad y vigilancia
-- Amenazas a la LDE
+- Erosión democrática
+- Plataformas
+region: latam
+country:
+- BR
 placements:
-- hub: investigaciones
-  block: investigaciones
-  weight: 1
-abstract: 'This paper examines the role of WhatsApp as a vehicle for the dissemination of disinformation during the 2018 Brazilian presidential elections. Given WhatsApp''s widespread adoption in Brazil—where over 120 million users rely on the platform—its use as a political mobilization tool has intensified. The study analyzes how the platform''s encrypted, private network structure facilitated the large-scale spread of false information, contributing to the polarization of public opinion and influencing '
+- hub: temas/erosion-democratica
+  block: publicaciones
+- hub: temas/plataformas
+  block: publicaciones
+- hub: policy
+  block: publicaciones
+- hub: region/america-latina
+  block: publicaciones
 ---

@@ -17,18 +17,19 @@ title: Actividades del CELE en Europa y el estado del debate sobre la DSA, por N
 translationKey: wp-13631
 type: posts
 issues:
-- LDE
-- Gobernanza de Internet
+- Plataformas
+- Regulación y tecnología
+region: europe
+country: []
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/libertad-de-expresion
+- hub: temas/plataformas
   block: ultimas_noticias_analisis
-- hub: temas/gobernanza
+- hub: temas/regulacion-y-tecnologia
   block: ultimas_noticias_analisis
-region: europe
+- hub: region/europa
+  block: ultimas_noticias_analisis
 ---
 # **Actividades del CELE en Europa y el estado del debate sobre la DSA**
 

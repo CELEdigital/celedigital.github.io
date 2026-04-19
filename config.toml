@@ -82,40 +82,34 @@ defaultContentLanguageInSubdir = true
         weight = 2
 
       [[languages.es.menu.main]]
-        name = "Amenazas a la libertad de expresión"
-        url = "/temas/amenazas-a-la-libertad-de-expresion"
+        name = "Regulación y tecnología"
+        url = "/temas/regulacion-y-tecnologia"
         parent = "temas"
         weight = 21
 
       [[languages.es.menu.main]]
-        name = "Regulación privada"
-        url = "/temas/regulacion-privada"
+        name = "Plataformas"
+        url = "/temas/plataformas"
         parent = "temas"
         weight = 22
 
       [[languages.es.menu.main]]
-        name = "Regulación pública"
-        url = "/temas/regulacion-publica"
+        name = "Erosión democrática "
+        url = "/temas/erosion-democratica"
         parent = "temas"
         weight = 23
 
       [[languages.es.menu.main]]
-        name = "Gobernanza de internet"
-        url = "/temas/gobernanza"
+        name = "Violencias"
+        url = "/temas/violencias"
         parent = "temas"
         weight = 24
 
       [[languages.es.menu.main]]
-        name = "Privacidad y Vigilancia"
-        url = "/temas/privacidad-y-vigilancia"
+        name = "Empresas y DDHH"
+        url = "/temas/empresas-y-derechos-humanos"
         parent = "temas"
         weight = 25
-
-      [[languages.es.menu.main]]
-        name = "Inteligencia Artificial"
-        url = "/temas/inteligencia-artificial"
-        parent = "temas"
-        weight = 26
 
       [[languages.es.menu.main]]
         name = "región"
@@ -142,8 +136,8 @@ defaultContentLanguageInSubdir = true
         weight = 33
 
       [[languages.es.menu.main]]
-        name = "investigaciones"
-        url = "/investigaciones/"
+        name = "publicaciones"
+        url = "/publicaciones/"
         weight = 4
 
       [[languages.es.menu.main]]
@@ -157,7 +151,7 @@ defaultContentLanguageInSubdir = true
         weight = 6
 
       [[languages.es.menu.main]]
-        name = "Blog"
+        name = "Archivo"
         url = "/posts/"
         weight = 7
 

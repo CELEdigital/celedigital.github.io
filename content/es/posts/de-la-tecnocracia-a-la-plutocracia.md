@@ -1,0 +1,39 @@
+---
+author:
+- Editor
+content_type:
+- blog
+date: '2022-04-28'
+description: Permítanme poner sólo un ejemplo. Recientemente, el periodista argentino Gustavo Noriega se preguntó si la última
+  tendencia corporativa de Twitter de reaccionar contra la desinformación está a punto de terminar ahora que Elon manda. Es
+  un pensamiento interesante que vale la pena explorar. Supuestamente, Twitter está luchando contra la desinformación climática
+  porque no cree en ella y la considera dañina para el planeta, nuestras vidas, el futuro, etc. Pero no funciona así. Twitter
+  no cree nada. Las corporaciones toman decisiones basadas en diferentes objetivos y agendas.ra
+featured: true
+image: /img/WhatsApp-Image-2022-04-28-at-10.33.15-AM.jpeg
+programs:
+- policy
+slug: de-la-tecnocracia-a-la-plutocracia
+title: De la tecnocracia a la plutocracia
+translationKey: wp-10839
+type: posts
+issues:
+- Plataformas
+- Erosión democrática
+region: global
+country: []
+placements:
+- hub: policy
+  block: ultimas_noticias_analisis
+- hub: temas/plataformas
+  block: ultimas_noticias_analisis
+- hub: temas/erosion-democratica
+  block: ultimas_noticias_analisis
+- hub: region/global
+  block: ultimas_noticias_analisis
+tags:
+- desinformación
+---
+## De la tecnocracia a la plutocracia
+
+La gobernanza de las plataformas de Internet no te deja respirar. Empecé a escribir esta publicación cuando la oferta de Elon Musk para comprar Twitter se conoció; cuando terminé era un trato hecho. Twitter dejará, entonces, de ser una empresa pública. ¿Que esperar? Como cada vez que un negocio cambia de manos, los nuevos dueños llegan llenos de ideas, expectativas, sueños y metas. No planeo convertirme en intérprete de Elon. (Aunque preveo un nicho lucrativo allí al menos por un tiempo). Pero me gustaría presentar aquí solo una hipótesis: los cambios que estamos a punto de ver en los próximos meses probablemente serán impulsados por diferentes formas de gobierno corporativo. Algunos de nosotros queríamos que Internet volviera a ser como era en la década de 1990 (los primeros y hermosos días del caos y la artesanía distribuida), pero es probable que la veamos retroceder cien años más atrás: desde el ámbito tecnocrático de las empresas con ejecutivos que intentan obtener valor para los accionistas, estamos a punto de presenciar lo que el gobierno de un sólo hombre con algo parecido a la soberanía puede hacer (si no está muy preocupado por el dinero, por cierto, un gran _si_). Permítanme poner sólo un ejemplo. Recientemente, el periodista argentino [Gustavo Noriega](https://twitter.com/Gus_Noriega/status/1518638456276078592?s=20&t=uPFp_sdU2N99WLMtscaxLQ) se preguntó si la última tendencia corporativa de Twitter de reaccionar contra la desinformación está a punto de terminar ahora que Elon manda. Es un pensamiento interesante que vale la pena explorar. Supuestamente, Twitter está luchando contra la desinformación climática porque no cree en ella y la considera dañina para el planeta, nuestras vidas, el futuro, etc. Pero no funciona así. Twitter no _cree_ nada. Las corporaciones toman decisiones basadas en diferentes objetivos y agendas. Comienzan a rastrearte de manera eficiente para presumir de sus [supuestamente](https://pluralistic.net/2022/04/22/mesmer-2-point-oh/#thanks-obama) efectivas prácticas publicitarias. Cambian el sabor de su bebida porque creen que te gustará más y, por lo tanto, comprarás más. Ponen grandes letreros frente a sus ventanas para atraerte a ofertas atractivas. La teoría del gobierno corporativo capitalista sugiere que las corporaciones hacen cosas con un propósito principal: ganar dinero. Tiene sentido, entonces, mirar las decisiones de los últimos años con respecto a la desinformación como impulsadas por el dinero. El caso sería así: las corporaciones perciben que la desinformación es una forma de expresión que (a) es potencialmente mala o (b) se percibe como potencialmente mala (para las elecciones, para la salud pública, para el clima). _Mucha gente piensa eso_. Mucha gente _poderosa_ piensa eso. Por lo tanto, las empresas se encuentran bajo mucha presión para _hacer algo_. Entonces [comienzan](https://www.palermo.edu/Archivos_content/2021/cele/papers/Fake-news-on-the-Internet-2021.pdf) a desarrollar herramientas de inteligencia artificial para identificar el contenido problemático, buscan identificar indirectamente al discurso dañino a través de lo que hacen los usuarios, comienzan a suspender las cuentas de los infractores, a disminuir el volumen y el alcance potencial del contenido, etc. Lo hacen porque son presionados a hacerlo por personas que tienen algún grado de poder para presionarlos de manera efectiva. Los reguladores, por supuesto, son parte de la imagen —- con su regulación real y con la _amenaza_ de regulación quizás más efectiva. Pero la ira colectiva contra una empresa también puede verse como una amenaza, con el potencial de hacer daño donde más duele: en el mercado de valores. Los funcionarios de las empresas públicas aman el dinero, pero también tienen el deber fiduciario de proteger el dinero de sus accionistas. Por lo tanto, comienzan a _hacer algo_ con la esperanza, vana, en mi opinión, de que la ira que se les presenta se desvanecerá y el valor de sus acciones dejará de caer, se mantendrá estable o seguirá subiendo más y más. Aquí entra el _plutócrata_. A diferencia de los ejecutivos de una corporación, que son muy, muy ricos pero, en última instancia, son responsables ante sus accionistas (bueno…), el único propietario de una empresa no tiene el deber de pensar en el dinero y puede permitirse otras consideraciones. Puede tener interés en un tema en el que quiere trabajar (por ejemplo—-en una trama de Hollywood—-en que realmente le gustaría curar una enfermedad horrible…), por lo que algunos semestres con pérdidas no afectan realmente su toma de decisiones si su los bolsillos son lo suficientemente grandes. O puede tener una visión de interés público que no se basa en las ganancias proyectadas. Esa es la afirmación hecha por los fans de Elon y el propio hombre en su reciente [charla TED](https://www.youtube.com/watch?v=cdZZpaB2kDM&ab_channel=TED). Soy escéptico, pero lo que estamos a punto de ver seguramente será interesante. Es, en cierto modo, un extraño experimento que puede fallar miserablemente o no producir una diferencia significativa en términos de cómo nos hablamos. (No puedo imaginar cómo sería el _éxito_ en este ámbito). Tener esperanzas parece absurdo: ¿por qué confiar en _este_ peculiar tipo de plutócrata para mejorar la forma en que nos hablamos, cuando el hecho es que nos hablamos horriblemente por un conjunto de razones diferentes que no tienen nada que ver con quién es dueño de qué cosa en Internet?. Siguiendo nuestro conocimiento e intuiciones constitucionales, apostaría por otra cosa: [la gobernabilidad democrática y una conversación horizontal entre iguales parecen mucho más prometedoras para resolver el desafío de hablar entre nosotros](https://sigloxxieditores.com.ar/libro/el-derecho-como-una-conversacion-entre-iguales/). Pero, concedido: esa es una historia completamente diferente.

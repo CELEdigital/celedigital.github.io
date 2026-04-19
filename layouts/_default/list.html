@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $hubSections := slice "investigaciones" "policy" "temas" "topics" "research" }}
+{{ $hubSections := slice "publicaciones" "policy" "temas" "topics" "research" }}
 {{ $regionSections := slice "region" "regions" }}
 {{ $observatorySections := slice "observatorio-legislativo" "legislative-observatory" }}
 {{ $workshopSections := slice "taller" "workshop" }}
@@ -7,7 +7,7 @@
 {{ if in $hubSections .Section }}
   {{ partial "section-hub.html" . }}
 {{ else if in $regionSections .Section }}
-  {{ partial "section-region-hub.html" . }}
+  {{ partial "section-hub.html" . }}
 {{ else if in $observatorySections .Section }}
   {{ partial "observatory-hub.html" . }}
 {{ else if in $workshopSections .Section }}

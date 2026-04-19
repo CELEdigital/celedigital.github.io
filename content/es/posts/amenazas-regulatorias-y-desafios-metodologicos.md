@@ -12,23 +12,24 @@ programs:
 - policy
 slug: amenazas-regulatorias-y-desafios-metodologicos
 tags:
-- institucional
+- simposio amenazas regulatorias
 title: Amenazas regulatorias y desafíos metodológicos
 translationKey: wp-13916
 type: posts
 issues:
-- Gobernanza de Internet
-- Amenazas a la LDE
+- Erosión democrática
+- Plataformas
+region: global
+country: []
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/gobernanza
+- hub: temas/erosion-democratica
   block: ultimas_noticias_analisis
-- hub: temas/amenazas
+- hub: temas/plataformas
   block: ultimas_noticias_analisis
-region: global
+- hub: region/global
+  block: ultimas_noticias_analisis
 ---
 ## Simposio online: Amenazas regulatorias y desafíos metodológicos
 

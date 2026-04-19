@@ -13,8 +13,18 @@ tags:
 title: La decisión del STF sobre la constitucionalidad del art. 19 del MCI
 type: posts
 source_url: https://www.palermo.edu/CELE/2025/mesas-legislativas/brito-cruz.html
-region: latam
 image: /img/glossary.jpg
+issues:
+- Plataformas
+- Regulación y tecnología
+region: latam
+country:
+- BR
+placements:
+- hub: temas/plataformas
+  block: ultimas_noticias_analisis
+- hub: temas/regulacion-y-tecnologia
+  block: ultimas_noticias_analisis
 ---
 
 Mesa de Legislación Comparada CELE: La decisión del STF sobre la constitucionalidad del art. 19 del MCI 

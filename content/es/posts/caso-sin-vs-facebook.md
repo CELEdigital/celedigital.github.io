@@ -13,8 +13,18 @@ tags:
 title: 'Polonia: Decisión judicial contra Meta'
 type: posts
 source_url: https://www.palermo.edu/cele/mesas-legislativas/2024/caso-sin-vs-facebook.html
-region: global
 image: /img/glossary.jpg
+issues:
+- Plataformas
+- Regulación y tecnología
+region: europe
+country:
+- PL
+placements:
+- hub: temas/plataformas
+  block: ultimas_noticias_analisis
+- hub: temas/regulacion-y-tecnologia
+  block: ultimas_noticias_analisis
 ---
 
 Mesa de Legislación Comparada CELE: Polonia: Decisión judicial contra Meta 

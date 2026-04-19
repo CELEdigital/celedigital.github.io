@@ -12,22 +12,27 @@ programs:
 - policy
 slug: threatening-dynamics-on-internet-governance-the-case-of-europe-and-the-digital-services-act-dsa
 tags:
-- institucional
+- simposio amenazas regulatorias
 title: 'Threatening dynamics on Internet governance: the case of Europe and the Digital Services Act (DSA)'
 translationKey: wp-14022
 type: posts
 issues:
-- Gobernanza de Internet
+- Erosión democrática
+- Plataformas
+- Regulación y tecnología
+region: europe
+country: []
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/gobernanza
+- hub: temas/erosion-democratica
   block: ultimas_noticias_analisis
-- hub: temas/amenazas
+- hub: temas/plataformas
   block: ultimas_noticias_analisis
-region: europe
+- hub: temas/regulacion-y-tecnologia
+  block: ultimas_noticias_analisis
+- hub: region/europa
+  block: ultimas_noticias_analisis
 ---
 # Threatening dynamics on Internet governance: the case of Europe and the Digital Services Act (DSA)
 

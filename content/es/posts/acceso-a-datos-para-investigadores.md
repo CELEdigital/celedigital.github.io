@@ -15,13 +15,23 @@ tags:
 - digital services act
 image: /img/ChatGPT-Image-14-oct-2025-12_21_33-p.m.webp
 issues:
-- Gobernanza de Internet
+- Plataformas
+- Regulación y tecnología
+region: europe
+country: []
 placements:
-- hub: policy
-  block: blog
-- hub: temas/gobernanza
+- hub: temas/plataformas
   block: destacado
-region: global
+- hub: temas/regulacion-y-tecnologia
+  block: destacado
+- hub: temas/regulacion-y-tecnologia
+  block: ultimas_noticias_analisis
+- hub: temas/plataformas
+  block: ultimas_noticias_analisis
+- hub: region/europa
+  block: ultimas_noticias_analisis
+- hub: region/europa
+  block: destacado
 ---
 
 El 2 de julio de 2025, la Comisión Europea adoptó la legislación delegada relativa al acceso a datos para investigadores bajo el Artículo 40 (4) de la Ley de Servicios Digitales (DSA). Se trata de un hito largamente esperado; una norma que, de implementarse exitosamente, podría permitir acceso a una gran cantidad de información acerca del funcionamiento de las plataformas online que permanece hasta hoy fuera del conocimiento público. Desde el CELE seguimos esta conversación desde hace tiempo y participamos -conjuntamente con InternetLab- en el proceso de consulta con comentarios a una versión preliminar de este reglamento.

@@ -18,13 +18,12 @@
 {{ $blocks := slice
   (dict "key" "featured" "surface" "destacado" "title" (i18n "hub_featured"))
   (dict "key" "news-analysis" "surface" "ultimas_noticias_analisis" "title" (i18n "hub_news"))
-  (dict "key" "research" "surface" "investigaciones" "title" (i18n "hub_research"))
-  (dict "key" "event" "surface" "eventos" "title" (i18n "hub_events"))
-  (dict "key" "blog" "surface" "blog" "title" (i18n "hub_blog"))
+  (dict "key" "research" "surface" "publicaciones" "title" (i18n "hub_research"))
 }}
 
 <section class="section-hub">
-  <header class="section-hub__header section-hub__header--split">
+  {{ $isRegionHub := in (slice "region" "regions") .Section }}
+  <header class="section-hub__header{{ if not $isRegionHub }} section-hub__header--split{{ end }}">
     <div class="section-hub__header-text">
       <h1 class="section-hub__title">{{ .Title }}</h1>
       {{ with .Params.description }}
@@ -33,20 +32,24 @@
         </div>
       {{ end }}
     </div>
-    <div class="section-hub__header-media">
-      {{ with .Params.image }}
-        <img src="{{ . | relURL }}" alt="{{ $.Title }}">
-      {{ else }}
-        <div class="section-hub__image-placeholder"></div>
-      {{ end }}
-    </div>
-    {{ $isES := eq .Lang "es" }}
-    <div class="region-chips" data-region-chips>
-      <button type="button" class="region-chip region-chip--global is-active" data-region-chip="global">Global</button>
-      <button type="button" class="region-chip region-chip--latam is-active" data-region-chip="latam">LatAm</button>
-      <button type="button" class="region-chip region-chip--europe is-active" data-region-chip="europe">{{ cond $isES "Europa" "Europe" }}</button>
-      <button type="button" class="region-chip region-chip--us" data-region-chip="us">{{ cond $isES "EE.UU." "US" }}</button>
-    </div>
+    {{ if not $isRegionHub }}
+      <div class="section-hub__header-media">
+        {{ with .Params.image }}
+          <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+        {{ else }}
+          <div class="section-hub__image-placeholder"></div>
+        {{ end }}
+      </div>
+    {{ end }}
+    {{ if not $isRegionHub }}
+      {{ $isES := eq .Lang "es" }}
+      <div class="region-chips" data-region-chips>
+        <button type="button" class="region-chip region-chip--global is-active" data-region-chip="global">Global</button>
+        <button type="button" class="region-chip region-chip--latam is-active" data-region-chip="latam">LatAm</button>
+        <button type="button" class="region-chip region-chip--europe is-active" data-region-chip="europe">{{ cond $isES "Europa" "Europe" }}</button>
+        <button type="button" class="region-chip region-chip--us" data-region-chip="us">{{ cond $isES "EE.UU." "US" }}</button>
+      </div>
+    {{ end }}
   </header>
 
   {{/* ── Optional subsection panel (e.g. Noticias cruzando el mar in Gobernanza) ── */}}
@@ -188,14 +191,18 @@
       {{ $curatedEntries := slice }}
       {{ range $items }}
         {{ $page := . }}
-        {{/* Skip newsletter_dsa — rendered only in the gobernanza subsection panel */}}
+        {{/* Skip newsletter_dsa and mesa */}}
         {{ $ctypeRaw := $page.Params.content_type }}
         {{ $ctypeList := slice }}
         {{ if $ctypeRaw }}
           {{ if reflect.IsSlice $ctypeRaw }}{{ $ctypeList = $ctypeRaw }}
           {{ else }}{{ $ctypeList = slice $ctypeRaw }}{{ end }}
         {{ end }}
-        {{ if in $ctypeList "newsletter_dsa" }}{{ continue }}{{ end }}
+        {{ if or (in $ctypeList "newsletter_dsa") (in $ctypeList "mesa") }}{{ continue }}{{ end }}
+        {{/* Publicaciones section: only in research block; excluded from all others */}}
+        {{ $isPublicacion := eq $page.Section "publicaciones" }}
+        {{ if and (eq $blockKey "research") (not $isPublicacion) }}{{ continue }}{{ end }}
+        {{ if and (ne $blockKey "research") $isPublicacion }}{{ continue }}{{ end }}
 
         {{ $passesIssueFilter := true }}
         {{ if gt (len $requiredIssues) 0 }}
@@ -306,14 +313,18 @@
       {{ $fallbackItems := slice }}
       {{ range $items }}
         {{ $page := . }}
-        {{/* Skip newsletter_dsa — rendered only in the gobernanza subsection panel */}}
+        {{/* Skip newsletter_dsa and mesa */}}
         {{ $ctypeRaw := $page.Params.content_type }}
         {{ $ctypeList := slice }}
         {{ if $ctypeRaw }}
           {{ if reflect.IsSlice $ctypeRaw }}{{ $ctypeList = $ctypeRaw }}
           {{ else }}{{ $ctypeList = slice $ctypeRaw }}{{ end }}
         {{ end }}
-        {{ if in $ctypeList "newsletter_dsa" }}{{ continue }}{{ end }}
+        {{ if or (in $ctypeList "newsletter_dsa") (in $ctypeList "mesa") }}{{ continue }}{{ end }}
+        {{/* Publicaciones section: only in research block; excluded from all others */}}
+        {{ $isPublicacion := eq $page.Section "publicaciones" }}
+        {{ if and (eq $blockKey "research") (not $isPublicacion) }}{{ continue }}{{ end }}
+        {{ if and (ne $blockKey "research") $isPublicacion }}{{ continue }}{{ end }}
 
         {{ $passesIssueFilter := true }}
         {{ if gt (len $requiredIssues) 0 }}

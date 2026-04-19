@@ -12,23 +12,21 @@ programs:
 - policy
 slug: political-capital-and-informal-platform-governance
 tags:
-- institucional
+- simposio amenazas regulatorias
 title: Political Capital and Informal Platform Governance
 translationKey: wp-13995
 type: posts
 issues:
-- Gobernanza de Internet
-- Amenazas a la LDE
+- Plataformas
+region: global
+country: []
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-- hub: policy
-  block: blog
-- hub: temas/gobernanza
+- hub: temas/plataformas
   block: ultimas_noticias_analisis
-- hub: temas/amenazas
+- hub: region/global
   block: ultimas_noticias_analisis
-region: us
 ---
 # Political Capital and Informal Platform Governance
 

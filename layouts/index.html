@@ -15,6 +15,16 @@
     {{ if eq .Params.featured true }}
       {{ $dominated = true }}
     {{ end }}
+    {{/* Exclude mesa and newsletter_dsa content types */}}
+    {{ $ctypeRaw := .Params.content_type }}
+    {{ $ctypeList := slice }}
+    {{ if $ctypeRaw }}
+      {{ if reflect.IsSlice $ctypeRaw }}{{ $ctypeList = $ctypeRaw }}
+      {{ else }}{{ $ctypeList = slice $ctypeRaw }}{{ end }}
+    {{ end }}
+    {{ if or (in $ctypeList "mesa") (in $ctypeList "newsletter_dsa") }}
+      {{ $dominated = true }}
+    {{ end }}
     {{/* Exclude observatory and gobernanza content unless ultimas_publicaciones: true */}}
     {{ if in $excludeSections .Section }}
       {{ if not (eq .Params.ultimas_publicaciones true) }}
@@ -119,13 +129,13 @@
   </section>
   {{ end }}
 
-  {{/* ── 3. Research — 3 items ── */}}
-  {{ $research := (where .Site.RegularPages "Section" "investigaciones").ByDate.Reverse }}
+  {{/* ── 3. Publicaciones — 3 items ── */}}
+  {{ $research := (where .Site.RegularPages "Section" "publicaciones").ByDate.Reverse }}
   {{ if gt (len $research) 0 }}
   <section class="home-research">
     <header class="home-section-header">
-      <h2 class="home-section-title">Investigaciones</h2>
-      <a class="home-section-more" href="{{ "/investigaciones/" | relLangURL }}">Ver todas →</a>
+      <h2 class="home-section-title">Publicaciones</h2>
+      <a class="home-section-more" href="{{ "/publicaciones/" | relLangURL }}">Ver todas →</a>
     </header>
     <div class="home-research__list">
       {{ range first 3 $research }}

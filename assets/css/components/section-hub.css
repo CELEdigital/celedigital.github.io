@@ -11,9 +11,21 @@
 .section-hub__header--split {
   max-width: none;
   display: grid;
-  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
   gap: 2rem;
   align-items: start;
+  background: #f6f2e9;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: 3rem calc(50vw - 50%);
+}
+
+main.container:has(.section-hub__header--split) {
+  padding-top: 0;
+}
+
+.section-hub:has(> .section-hub__header--split) {
+  margin-top: 0;
 }
 
 .section-hub__header-media {

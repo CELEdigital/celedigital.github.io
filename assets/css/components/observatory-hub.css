@@ -1,5 +1,20 @@
 .observatory-hub__content {
   margin-top: 0.5rem;
+  padding: 0 0rem;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.observatory-hub__content .section-content,
+.hub-single .section-content {
+  min-width: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .observatory-hub__content {
+    padding: 0 0.75rem;
+  }
 }
 
 .observatory-hub__content .observatory-chart-grid,
@@ -383,5 +398,23 @@
 
   .observatory-stats {
     grid-template-columns: 1fr;
+  }
+
+  .observatory-links {
+    gap: 0.5rem 1rem;
+  }
+
+  .observatory-links__item {
+    font-size: 1.1rem;
+  }
+
+  .observatory-downloads {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .observatory-downloads__desc {
+    width: auto;
+    max-width: calc(100vw - 2rem);
   }
 }

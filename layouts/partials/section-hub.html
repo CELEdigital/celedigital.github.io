@@ -23,7 +23,7 @@
 
 <section class="section-hub">
   {{ $isRegionHub := in (slice "region" "regions") .Section }}
-  <header class="section-hub__header{{ if not $isRegionHub }} section-hub__header--split{{ end }}">
+  <header class="section-hub__header section-hub__header--split">
     <div class="section-hub__header-text">
       <h1 class="section-hub__title">{{ .Title }}</h1>
       {{ with .Params.description }}
@@ -32,15 +32,13 @@
         </div>
       {{ end }}
     </div>
-    {{ if not $isRegionHub }}
-      <div class="section-hub__header-media">
-        {{ with .Params.image }}
-          <img src="{{ . | relURL }}" alt="{{ $.Title }}">
-        {{ else }}
-          <div class="section-hub__image-placeholder"></div>
-        {{ end }}
-      </div>
-    {{ end }}
+    <div class="section-hub__header-media">
+      {{ with .Params.image }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+      {{ else }}
+        <div class="section-hub__image-placeholder"></div>
+      {{ end }}
+    </div>
     {{ if not $isRegionHub }}
       {{ $isES := eq .Lang "es" }}
       <div class="region-chips" data-region-chips>

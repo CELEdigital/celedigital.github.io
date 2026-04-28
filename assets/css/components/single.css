@@ -1,7 +1,7 @@
 .single-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
-  gap: 8.5rem;
+  grid-template-columns: minmax(0, 1fr) clamp(300px, 28%, 420px);
+  gap: 3rem;
   align-items: start;
 }
 
@@ -23,7 +23,7 @@
   line-height: 1.25;
   margin: 0 0 1rem;
   padding: 0;
-  color: var(--cele);
+  color: var(--neutral-900);
 }
 
 .single-tags {
@@ -79,6 +79,8 @@
   gap: 0.5rem 0.75rem;
   font-weight: 700;
   margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid var(--cele);
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -241,6 +243,36 @@
 }
 
 .single-sidebar {
+  align-self: start;
+  margin-top: 0.5rem;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.single-sidebar__image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.single-sidebar__hub-link {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  text-decoration: none;
+  transition: opacity 200ms ease;
+  overflow: hidden;
+}
+
+.single-sidebar__hub-link:hover,
+.single-sidebar__hub-link:focus-visible {
+  opacity: 0.9;
 }
 
 .newsletter-box {
@@ -387,5 +419,8 @@
 
   .single-sidebar {
     position: static;
+    max-width: 28rem;
+    margin-inline-start: auto;
+    margin-inline-end: 0;
   }
 }

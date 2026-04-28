@@ -1,9 +1,14 @@
 .chart {
   display: block;
   margin: 24px 0 40px;
+  max-width: 100%;
+  min-width: 0;
 }
 .vega-chart {
   margin: 24px 0 48px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 .vega-title {
   font-family: Inter, Arial, sans-serif;
@@ -19,7 +24,30 @@
 }
 
 .vega-chart__viz {
-  min-height: 760px;
+  width: 100%;
+  min-width: 0;
+  min-height: 560px;
+  overflow-x: auto;
+}
+
+/* Non-sunburst charts mount into <div id="..."> directly inside .vega-chart.
+   Vega-Lite renders them at their spec'd numeric width; on viewports narrower
+   than that, give the host a local horizontal scroll instead of pushing the
+   page width. */
+.vega-chart > div[id] {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Sunburst charts use autosize:fit so Vega outputs a viewBox'd SVG.
+   Make it scale to container and keep aspect via height:auto. */
+.vega-chart__viz .vega-embed,
+.vega-chart__viz .vega-embed > svg,
+.vega-chart__viz > svg {
+  max-width: 100%;
+  height: auto;
 }
 
 .vega-info-panel {
@@ -62,8 +90,36 @@
   color: #111;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .vega-chart--with-panel .vega-chart__layout {
     grid-template-columns: 1fr;
+  }
+
+  .vega-chart__viz {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .vega-chart__viz {
+    min-height: 300px;
+  }
+
+  .vega-info-panel {
+    padding: 0.7rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .vega-info-panel__title {
+    font-size: 0.95rem;
+  }
+}
+
+/* On small screens, hide Vega charts entirely. The documentation table
+   below still renders the underlying data, so mobile users don't lose
+   access to the information — just the visualizations. */
+@media (max-width: 700px) {
+  .vega-chart {
+    display: none;
   }
 }

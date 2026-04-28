@@ -3,6 +3,7 @@
   margin-top: 2rem;
   color: var(--cele);
   margin-bottom: 0.5rem;
+  font-family: 'Inter', sans-serif;
 }
 
 .mission-description {
@@ -11,6 +12,7 @@
   font-weight: 700;
   line-height: 1.6rem;
   letter-spacing: 0.03em;
+  font-family: 'Inter', sans-serif;
 }
 
 .mission-content p {
@@ -18,6 +20,7 @@
   line-height: 1.4rem;
   font-weight: 400;
   color: #3a3a3a;
+  font-family: 'Inter', sans-serif;
 }
 
 .mission-link {
@@ -28,6 +31,7 @@
   position: relative;
   font-weight: 700;
   transition: color 180ms ease;
+  font-family: 'Inter', sans-serif;
 }
 
 .mission-link::after {

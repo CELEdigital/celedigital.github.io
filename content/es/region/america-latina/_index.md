@@ -4,4 +4,5 @@ description: "El CELE nació---hace quince años---con la pretensión de ser un 
 section_key: "region/america-latina"
 region_key: "latam"
 translationKey: "latin-america"
+image: "/ilustrations/latm.jpg"
 ---

@@ -47,7 +47,7 @@
   "vconcat": [
     {
       "title": "Nivel 1: Leyes/Proyectos -> País",
-      "width": 920,
+      "width": 700,
       "height": 260,
       "mark": { "type": "rect", "cornerRadius": 4 },
       "encoding": {
@@ -91,7 +91,7 @@
           "as": "feature_clean"
         }
       ],
-      "width": 920,
+      "width": 700,
       "height": 320,
       "mark": { "type": "rect", "cornerRadius": 2 },
       "encoding": {

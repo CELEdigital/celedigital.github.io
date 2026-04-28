@@ -99,7 +99,7 @@
   gap: 1.5rem;
   flex-wrap: nowrap;
   max-width: none;
-  width: calc(100vw - 10rem);
+  width: 100%;
 }
 
 .blog-title-row .section-hub__title {

@@ -156,16 +156,43 @@
         {{ partial "social-icons.html" (dict "mode" "share" "page" .) }}
       {{ end }}
     </div>
-    <aside class="single-sidebar" aria-label="Boletin">
-      <div class="newsletter-box">
-        <h3 class="newsletter-title">{{ i18n "newsletter_title" }}</h3>
-        <form class="newsletter-form" action="#" method="post">
-          <label class="sr-only" for="newsletter-email">{{ i18n "email_label" }}</label>
-          <input class="newsletter-input" id="newsletter-email" type="email" name="email" placeholder="Email" required>
-          <button class="newsletter-button" type="submit">></button>
-        </form>
-      </div>
-    </aside>
+    {{/* Sidebar shows the illustration of the first placement's hub
+         (e.g. temas/plataformas → /ilustrations/plataformas.jpg). Falls back
+         to the post's own image, or hides the sidebar if neither exists. */}}
+    {{ $sidebarImage := "" }}
+    {{ $sidebarHubLink := "" }}
+    {{ $sidebarHubTitle := .Title }}
+    {{ $placements := .Params.placements }}
+    {{ if and $placements (reflect.IsSlice $placements) (gt (len $placements) 0) }}
+      {{ $first := index $placements 0 }}
+      {{ if reflect.IsMap $first }}
+        {{ $hubPath := index $first "hub" | default "" }}
+        {{ if $hubPath }}
+          {{ $hubPage := .Site.GetPage (printf "/%s" $hubPath) }}
+          {{ if $hubPage }}
+            {{ with $hubPage.Params.image }}
+              {{ $sidebarImage = . }}
+              {{ $sidebarHubLink = $hubPage.RelPermalink }}
+              {{ $sidebarHubTitle = $hubPage.Title }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if and (eq $sidebarImage "") .Params.image }}
+      {{ $sidebarImage = .Params.image }}
+    {{ end }}
+    {{ if $sidebarImage }}
+      <aside class="single-sidebar" aria-label="{{ $sidebarHubTitle }}">
+        {{ if $sidebarHubLink }}
+          <a class="single-sidebar__hub-link" href="{{ $sidebarHubLink }}" aria-label="{{ $sidebarHubTitle }}">
+            <img class="single-sidebar__image" src="{{ $sidebarImage | relURL }}" alt="{{ $sidebarHubTitle }}">
+          </a>
+        {{ else }}
+          <img class="single-sidebar__image" src="{{ $sidebarImage | relURL }}" alt="{{ $sidebarHubTitle }}">
+        {{ end }}
+      </aside>
+    {{ end }}
   </article>
 {{ end }}
 {{ end }}

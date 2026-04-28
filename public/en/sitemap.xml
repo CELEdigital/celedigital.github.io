@@ -2,260 +2,260 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/workshop/2024/program2024/</loc>
+    <loc>http://localhost:59800/en/workshop/2024/program2024/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2025/program2025/</loc>
+    <loc>http://localhost:59800/en/workshop/2025/program2025/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2026/program2026/</loc>
+    <loc>http://localhost:59800/en/workshop/2026/program2026/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2026/</loc>
+    <loc>http://localhost:59800/en/workshop/2026/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2024/links2024/</loc>
+    <loc>http://localhost:59800/en/workshop/2024/links2024/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2025/links2025/</loc>
+    <loc>http://localhost:59800/en/workshop/2025/links2025/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2026/links2026/</loc>
+    <loc>http://localhost:59800/en/workshop/2026/links2026/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2025/</loc>
+    <loc>http://localhost:59800/en/workshop/2025/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2024/</loc>
+    <loc>http://localhost:59800/en/workshop/2024/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>http://localhost:59800/en/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/"
+                href="http://localhost:59800/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="http://localhost:59800/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/hearing-iachr/</loc>
+    <loc>http://localhost:59800/en/posts/hearing-iachr/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
+    <loc>http://localhost:59800/en/posts/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/"
+                href="http://localhost:59800/es/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/"
+                href="http://localhost:59800/en/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/data-access-for-researchers/</loc>
+    <loc>http://localhost:59800/en/posts/data-access-for-researchers/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/acceso-a-datos-para-investigadores/"
+                href="http://localhost:59800/es/posts/acceso-a-datos-para-investigadores/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/data-access-for-researchers/"
+                href="http://localhost:59800/en/posts/data-access-for-researchers/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/_archive/</loc>
+    <loc>http://localhost:59800/en/_archive/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>http://localhost:59800/en/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/topics/artificial-intelligence/</loc>
+    <loc>http://localhost:59800/en/topics/artificial-intelligence/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>http://localhost:59800/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/categories/"
+                href="http://localhost:59800/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="http://localhost:59800/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/contact/</loc>
+    <loc>http://localhost:59800/en/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/documentation/</loc>
+    <loc>http://localhost:59800/en/documentation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/documentacion/"
+                href="http://localhost:59800/es/documentacion/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/documentation/"
+                href="http://localhost:59800/en/documentation/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/regions/europe/</loc>
+    <loc>http://localhost:59800/en/regions/europe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/region/europa/"
+                href="http://localhost:59800/es/region/europa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/regions/europe/"
+                href="http://localhost:59800/en/regions/europe/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/topics/freedom-of-expression/</loc>
+    <loc>http://localhost:59800/en/topics/freedom-of-expression/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/regions/global/</loc>
+    <loc>http://localhost:59800/en/regions/global/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/region/global/"
+                href="http://localhost:59800/es/region/global/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/regions/global/"
+                href="http://localhost:59800/en/regions/global/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/topics/governance/</loc>
+    <loc>http://localhost:59800/en/topics/governance/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/mission/</loc>
+    <loc>http://localhost:59800/en/mission/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/mision/"
+                href="http://localhost:59800/es/mision/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/mission/"
+                href="http://localhost:59800/en/mission/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/topics/human-rights/</loc>
+    <loc>http://localhost:59800/en/topics/human-rights/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/regions/latin-america/</loc>
+    <loc>http://localhost:59800/en/regions/latin-america/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/region/america-latina/"
+                href="http://localhost:59800/es/region/america-latina/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/regions/latin-america/"
+                href="http://localhost:59800/en/regions/latin-america/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/legislative-observatory/methodology/</loc>
+    <loc>http://localhost:59800/en/legislative-observatory/methodology/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/observatorio-legislativo/metodologia/"
+                href="http://localhost:59800/es/observatorio-legislativo/metodologia/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/legislative-observatory/methodology/"
+                href="http://localhost:59800/en/legislative-observatory/methodology/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/legislative-observatory/objectives/</loc>
+    <loc>http://localhost:59800/en/legislative-observatory/objectives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/observatorio-legislativo/objetivos/"
+                href="http://localhost:59800/es/observatorio-legislativo/objetivos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/legislative-observatory/objectives/"
+                href="http://localhost:59800/en/legislative-observatory/objectives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/_archive/policy/</loc>
+    <loc>http://localhost:59800/en/_archive/policy/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/policy/</loc>
+    <loc>http://localhost:59800/en/policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/policy/"
+                href="http://localhost:59800/es/policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/policy/"
+                href="http://localhost:59800/en/policy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/topics/privacy-and-surveillance/</loc>
+    <loc>http://localhost:59800/en/topics/privacy-and-surveillance/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/regions/</loc>
+    <loc>http://localhost:59800/en/regions/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/region/"
+                href="http://localhost:59800/es/region/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/regions/"
+                href="http://localhost:59800/en/regions/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/_archive/research/</loc>
+    <loc>http://localhost:59800/en/_archive/research/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/research/</loc>
+    <loc>http://localhost:59800/en/research/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/publicaciones/"
+                href="http://localhost:59800/es/publicaciones/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/research/"
+                href="http://localhost:59800/en/research/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>http://localhost:59800/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/"
+                href="http://localhost:59800/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="http://localhost:59800/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/team/</loc>
+    <loc>http://localhost:59800/en/team/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/topics/threats/</loc>
+    <loc>http://localhost:59800/en/topics/threats/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/_archive/topics/</loc>
+    <loc>http://localhost:59800/en/_archive/topics/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/topics/</loc>
+    <loc>http://localhost:59800/en/topics/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/temas/"
+                href="http://localhost:59800/es/temas/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/topics/"
+                href="http://localhost:59800/en/topics/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/legislative-observatory/</loc>
+    <loc>http://localhost:59800/en/legislative-observatory/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/observatorio-legislativo/"
+                href="http://localhost:59800/es/observatorio-legislativo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/legislative-observatory/"
+                href="http://localhost:59800/en/legislative-observatory/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/workshop/</loc>
+    <loc>http://localhost:59800/en/workshop/</loc>
   </url>
 </urlset>

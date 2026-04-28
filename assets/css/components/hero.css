@@ -16,6 +16,7 @@
   border-left: 1px solid #ddd;
   padding-left: 2rem;
   align-self: flex-start;
+  font-family: 'Inter', sans-serif;
 }
 
 /* Slider structure */
@@ -48,22 +49,42 @@
 .hero-slider-controls--overlay {
   position: absolute;
   top: 50%;
-  left: -0.5rem;
-  right: -0.5rem;
+  left: 1rem;
+  right: 1rem;
   transform: translateY(-50%);
   justify-content: space-between;
   pointer-events: none;
 }
 
 .hero-slider-btn {
-  border: 1px solid #fff;
-  background: rgba(0,0,0,0.25);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+  background: rgba(15, 15, 15, 0.35);
   color: #fff;
-  font-size: 1.1rem;
-  padding: 0.4rem 0.75rem;
   cursor: pointer;
-  transition: background 180ms ease, color 180ms ease, border-color 180ms ease;
   pointer-events: auto;
+  backdrop-filter: blur(6px) saturate(120%);
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  transition:
+    background 200ms ease,
+    border-color 200ms ease,
+    color 200ms ease,
+    transform 200ms ease,
+    box-shadow 200ms ease;
+}
+
+.hero-slider-btn svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: block;
+  transition: transform 200ms ease;
 }
 
 .hero-slider-btn:hover,
@@ -71,6 +92,39 @@
   background: var(--cele);
   border-color: var(--cele);
   color: #fff;
+  box-shadow: 0 8px 22px rgba(173, 43, 37, 0.35);
+  outline: none;
+}
+
+.hero-slider-btn:hover.hero-slider-btn--prev svg,
+.hero-slider-btn:focus-visible.hero-slider-btn--prev svg {
+  transform: translateX(-2px);
+}
+
+.hero-slider-btn:hover.hero-slider-btn--next svg,
+.hero-slider-btn:focus-visible.hero-slider-btn--next svg {
+  transform: translateX(2px);
+}
+
+.hero-slider-btn:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 600px) {
+  .hero-slider-controls--overlay {
+    left: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .hero-slider-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .hero-slider-btn svg {
+    width: 1rem;
+    height: 1rem;
+  }
 }
 
 .hero-slide img {

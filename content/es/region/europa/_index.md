@@ -4,4 +4,6 @@ description: "Desde hace algunos años, el CELE ha comenzado a trabajar en la re
 section_key: "region/europa"
 region_key: "europe"
 translationKey: "europe"
+image: "/ilustrations/europa.jpg"
+subsection_label: "Noticias cruzando el mar"
 ---

@@ -1,7 +1,10 @@
 /* ── Publicaciones Hub ─────────────────────────────────── */
 
+main.container:has(.publicaciones-hub__header) {
+  padding-top: 0;
+}
+
 .publicaciones-hub {
-  margin-top: 2rem;
   padding-bottom: 4rem;
 }
 
@@ -11,9 +14,12 @@
   grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
   gap: 2rem;
   align-items: start;
-  padding: 0.5rem 0 2.5rem;
+  background: #f6f2e9;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: 3rem calc(50vw - 50%);
   border-bottom: 3px solid var(--cele);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .publicaciones-hub__title {

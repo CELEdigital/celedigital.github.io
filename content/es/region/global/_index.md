@@ -4,4 +4,5 @@ description: "El sistema de Naciones Unidas desde hace años da forma a la discu
 section_key: "region/global"
 region_key: "global"
 translationKey: "global"
+image: "/ilustrations/global.jpg"
 ---

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=59800&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <title>About | </title>
   
@@ -346,28 +346,28 @@
     
 
     <div class="social-share-label">Share</div>
-    <a href="https://x.com/intent/post?text=about&amp;url=http://localhost:1313/en/about/" class="social-icon social-icon--twitter" aria-label="Share on X" target="_blank" rel="noopener">
+    <a href="https://x.com/intent/post?text=about&amp;url=http://localhost:59800/en/about/" class="social-icon social-icon--twitter" aria-label="Share on X" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor">
         <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
       </svg>
     </a>
-    <a href="https://bsky.app/intent/compose?text=about%20http://localhost:1313/en/about/" class="social-icon social-icon--bluesky" aria-label="Share on Bluesky" target="_blank" rel="noopener">
+    <a href="https://bsky.app/intent/compose?text=about%20http://localhost:59800/en/about/" class="social-icon social-icon--bluesky" aria-label="Share on Bluesky" target="_blank" rel="noopener">
       <svg viewBox="0 0 568 501" fill="currentColor">
         <path d="M123.121 33.664C188.241 82.553 258.281 181.68 284 234.873c25.719-53.192 95.759-152.32 160.879-201.209C491.868-8.867 568 .845 568 35.71c0 7.554-1.68 79.786-26.873 129.485-16.964 33.653-49.257 43.343-83.514 48.798 37.638 6.481 74.442 24.906 93.246 55.265 33.563 53.994 11.276 128.555-51.047 159.705-68.196 33.726-115.862-18.168-146.184-72.417-20.531-36.571-26.548-65.643-26.628-65.643s-6.097 29.072-26.628 65.643c-30.322 54.249-77.988 106.143-146.184 72.417-62.323-31.15-84.61-105.711-51.047-159.705 18.804-30.359 55.608-48.784 93.246-55.265-34.257-5.455-66.55-15.145-83.514-48.798C1.68 115.496 0 43.264 0 35.71 0 .845 76.132-8.867 123.121 33.664Z"/>
       </svg>
     </a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/en/about/" class="social-icon social-icon--facebook" aria-label="Share on Facebook" target="_blank" rel="noopener">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:59800/en/about/" class="social-icon social-icon--facebook" aria-label="Share on Facebook" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor">
         <path d="M18 2h-3a6 6 0 0 0-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a1 1 0 0 1 1-1h3z"/>
       </svg>
     </a>
-    <a href="https://www.linkedin.com/sharing/share-offsite/?url=http://localhost:1313/en/about/" class="social-icon social-icon--linkedin" aria-label="Share on LinkedIn" target="_blank" rel="noopener">
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=http://localhost:59800/en/about/" class="social-icon social-icon--linkedin" aria-label="Share on LinkedIn" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor">
         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2z"/>
         <circle cx="4" cy="4" r="2"/>
       </svg>
     </a>
-    <a href="mailto:?subject=About&body=http%3a%2f%2flocalhost%3a1313%2fen%2fabout%2f" class="social-icon social-icon--email" aria-label="Share via Email">
+    <a href="mailto:?subject=About&body=http%3a%2f%2flocalhost%3a59800%2fen%2fabout%2f" class="social-icon social-icon--email" aria-label="Share via Email">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <rect x="2" y="4" width="20" height="16" rx="2"/>
         <path d="m22 7-10 5L2 7"/>
@@ -378,16 +378,14 @@
 
       
     </div>
-    <aside class="single-sidebar" aria-label="Boletin">
-      <div class="newsletter-box">
-        <h3 class="newsletter-title">Sign up for news about events, research, and litigation</h3>
-        <form class="newsletter-form" action="#" method="post">
-          <label class="sr-only" for="newsletter-email">Email</label>
-          <input class="newsletter-input" id="newsletter-email" type="email" name="email" placeholder="Email" required>
-          <button class="newsletter-button" type="submit">></button>
-        </form>
-      </div>
-    </aside>
+    
+    
+    
+    
+    
+    
+    
+    
   </article>
 
 
@@ -618,26 +616,68 @@
       emit();
     }
 
-    if (!window.__vega_specs) return;
-    window.__vega_specs.forEach(function (item) {
-      vegaEmbed('#' + item.id, item.spec, { actions: false })
-        .then(function (result) {
-          if (item.id === "chart-observatorio-sunburst" || item.id === "chart-ia-sunburst") {
-            buildSunburstInspector(result.view, item.id);
+    function attachResizeObserver(view, hostId) {
+      if (typeof ResizeObserver !== "function") return;
+      var host = document.getElementById(hostId);
+      if (!host) return;
+      var timer = null;
+      var ro = new ResizeObserver(function () {
+        if (timer) clearTimeout(timer);
+        timer = setTimeout(function () {
+          try {
+            view.resize();
+            if (typeof view.runAsync === "function") view.runAsync();
+            else view.run();
+          } catch (e) {
+            console.warn("Vega resize failed for", hostId, e);
           }
-          if (item.id === "chart-observatorio-db" || item.id === "chart-ia-drilldown") {
-            buildObservatorioDbBridge(result.view, item.id);
-          }
-        })
-        .catch(function (err) {
-          var host = document.getElementById(item.id);
-          if (host) {
-            host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Inter,Arial,sans-serif;">Vega error in ' +
-              item.id + ': ' + (err && err.message ? err.message : err) + '</p>';
-          }
-          console.error('Vega embed failed for', item.id, err);
-        });
-    });
+        }, 150);
+      });
+      ro.observe(host);
+    }
+
+    
+    
+    
+    
+    var SMALL_SCREEN_QUERY = window.matchMedia ? window.matchMedia('(max-width: 700px)') : null;
+    var rendered = new Set();
+
+    function renderAll() {
+      if (!window.__vega_specs) return;
+      if (SMALL_SCREEN_QUERY && SMALL_SCREEN_QUERY.matches) return;
+      window.__vega_specs.forEach(function (item) {
+        if (rendered.has(item.id)) return;
+        rendered.add(item.id);
+        vegaEmbed('#' + item.id, item.spec, { actions: false })
+          .then(function (result) {
+            attachResizeObserver(result.view, item.id);
+            if (item.id === "chart-observatorio-sunburst" || item.id === "chart-ia-sunburst") {
+              buildSunburstInspector(result.view, item.id);
+            }
+            if (item.id === "chart-observatorio-db" || item.id === "chart-ia-drilldown") {
+              buildObservatorioDbBridge(result.view, item.id);
+            }
+          })
+          .catch(function (err) {
+            var host = document.getElementById(item.id);
+            if (host) {
+              host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Inter,Arial,sans-serif;">Vega error in ' +
+                item.id + ': ' + (err && err.message ? err.message : err) + '</p>';
+            }
+            console.error('Vega embed failed for', item.id, err);
+            rendered.delete(item.id);
+          });
+      });
+    }
+
+    renderAll();
+    if (SMALL_SCREEN_QUERY && SMALL_SCREEN_QUERY.addEventListener) {
+      SMALL_SCREEN_QUERY.addEventListener('change', renderAll);
+    } else if (SMALL_SCREEN_QUERY && SMALL_SCREEN_QUERY.addListener) {
+      
+      SMALL_SCREEN_QUERY.addListener(renderAll);
+    }
   })();
 </script>
 

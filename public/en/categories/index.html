@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=59800&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <title>Categories | </title>
   
@@ -552,26 +552,68 @@
       emit();
     }
 
-    if (!window.__vega_specs) return;
-    window.__vega_specs.forEach(function (item) {
-      vegaEmbed('#' + item.id, item.spec, { actions: false })
-        .then(function (result) {
-          if (item.id === "chart-observatorio-sunburst" || item.id === "chart-ia-sunburst") {
-            buildSunburstInspector(result.view, item.id);
+    function attachResizeObserver(view, hostId) {
+      if (typeof ResizeObserver !== "function") return;
+      var host = document.getElementById(hostId);
+      if (!host) return;
+      var timer = null;
+      var ro = new ResizeObserver(function () {
+        if (timer) clearTimeout(timer);
+        timer = setTimeout(function () {
+          try {
+            view.resize();
+            if (typeof view.runAsync === "function") view.runAsync();
+            else view.run();
+          } catch (e) {
+            console.warn("Vega resize failed for", hostId, e);
           }
-          if (item.id === "chart-observatorio-db" || item.id === "chart-ia-drilldown") {
-            buildObservatorioDbBridge(result.view, item.id);
-          }
-        })
-        .catch(function (err) {
-          var host = document.getElementById(item.id);
-          if (host) {
-            host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Inter,Arial,sans-serif;">Vega error in ' +
-              item.id + ': ' + (err && err.message ? err.message : err) + '</p>';
-          }
-          console.error('Vega embed failed for', item.id, err);
-        });
-    });
+        }, 150);
+      });
+      ro.observe(host);
+    }
+
+    
+    
+    
+    
+    var SMALL_SCREEN_QUERY = window.matchMedia ? window.matchMedia('(max-width: 700px)') : null;
+    var rendered = new Set();
+
+    function renderAll() {
+      if (!window.__vega_specs) return;
+      if (SMALL_SCREEN_QUERY && SMALL_SCREEN_QUERY.matches) return;
+      window.__vega_specs.forEach(function (item) {
+        if (rendered.has(item.id)) return;
+        rendered.add(item.id);
+        vegaEmbed('#' + item.id, item.spec, { actions: false })
+          .then(function (result) {
+            attachResizeObserver(result.view, item.id);
+            if (item.id === "chart-observatorio-sunburst" || item.id === "chart-ia-sunburst") {
+              buildSunburstInspector(result.view, item.id);
+            }
+            if (item.id === "chart-observatorio-db" || item.id === "chart-ia-drilldown") {
+              buildObservatorioDbBridge(result.view, item.id);
+            }
+          })
+          .catch(function (err) {
+            var host = document.getElementById(item.id);
+            if (host) {
+              host.innerHTML = '<p style="color:#b91c1c;font:600 0.95rem/1.4 Inter,Arial,sans-serif;">Vega error in ' +
+                item.id + ': ' + (err && err.message ? err.message : err) + '</p>';
+            }
+            console.error('Vega embed failed for', item.id, err);
+            rendered.delete(item.id);
+          });
+      });
+    }
+
+    renderAll();
+    if (SMALL_SCREEN_QUERY && SMALL_SCREEN_QUERY.addEventListener) {
+      SMALL_SCREEN_QUERY.addEventListener('change', renderAll);
+    } else if (SMALL_SCREEN_QUERY && SMALL_SCREEN_QUERY.addListener) {
+      
+      SMALL_SCREEN_QUERY.addListener(renderAll);
+    }
   })();
 </script>
 

@@ -2,6 +2,7 @@ backend:
   name: github
   repo: CELEdigital/CELEdigital
   branch: main
+  site_domain: celedigital.netlify.app
 
 local_backend: true
 

@@ -12,8 +12,7 @@ tags:
 - publicaciones
 ssrn_id: '5124165'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5124165
-ssrn_reference: CELE Research Paper No. 5
-abstract: CELE Research Paper No. 5
+reference: CELE Research Paper No. 5
 issues:
 - Erosión democrática
 region: latam
@@ -26,3 +25,4 @@ placements:
 - hub: region/america-latina
   block: publicaciones
 ---
+CELE Research Paper No. 5

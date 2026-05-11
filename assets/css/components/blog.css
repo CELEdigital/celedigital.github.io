@@ -1,3 +1,31 @@
+/* ── Header search input ────────────────────────────────────── */
+.blog-header-search {
+  display: block;
+  width: 100%;
+  margin-top: 1.25rem;
+  padding: 0.45rem 0;
+  border: none;
+  border-bottom: 2px solid var(--neutral-800);
+  border-radius: 0;
+  font: inherit;
+  font-size: clamp(1.4rem, 2.4vw, 1.9rem);
+  font-weight: 700;
+  background: transparent;
+  color: inherit;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.blog-header-search::placeholder {
+  opacity: 0.35;
+  font-weight: 400;
+}
+
+.blog-header-search:focus {
+  border-bottom-color: var(--neutral-800);
+  outline: none;
+}
+
 /* ── Map canvas (fits inside .blog-nav sidebar) ────────────── */
 .blog-map__list {
   margin-top: 0.4rem;

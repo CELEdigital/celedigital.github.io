@@ -133,7 +133,7 @@
                     <h3 class="section-block__title">
                       <a class="section-block__link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
                     </h3>
-                    {{ $excerpt := $page.Params.description | default $page.Params.abstract }}
+                    {{ $excerpt := $page.Params.description | default $page.Params.abstract | default $page.Summary }}
                     {{ with $excerpt }}
                       <p class="section-block__excerpt">{{ . | plainify | truncate 420 }}</p>
                     {{ end }}

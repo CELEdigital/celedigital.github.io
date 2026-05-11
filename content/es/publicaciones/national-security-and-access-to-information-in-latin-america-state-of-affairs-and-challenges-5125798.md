@@ -15,8 +15,7 @@ tags:
 - publicaciones
 ssrn_id: '5125798'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5125798
-ssrn_reference: CELE Research Paper No. 8
-abstract: CELE Research Paper No. 8
+reference: CELE Research Paper No. 8
 issues:
 - Plataformas
 region: latam
@@ -29,3 +28,4 @@ placements:
 - hub: region/america-latina
   block: publicaciones
 ---
+CELE Research Paper No. 8

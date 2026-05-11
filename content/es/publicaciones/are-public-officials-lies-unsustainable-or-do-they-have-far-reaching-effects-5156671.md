@@ -11,14 +11,7 @@ tags:
 - publicaciones
 ssrn_id: '5156671'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5156671
-ssrn_reference: CELE Research Paper No. 51
-abstract: State responses to the recent “crisis” caused by misinformation in social
-  media have mainly aimed at penalizing its authors or establishing liability for
-  those who facilitate its dissemination. Internet companies, especially large platforms,
-  have deployed numerous techniques, measures, and instruments to address the phenomenon.
-  However, little has been done to identify the origin of misinformation and evaluate
-  the phenomenon in light of specific obligations from certain sectors. In this paper
-  we
+reference: CELE Research Paper No. 51
 issues:
 - Plataformas
 region: global
@@ -31,3 +24,4 @@ placements:
 - hub: region/global
   block: publicaciones
 ---
+State responses to the recent “crisis” caused by misinformation in social media have mainly aimed at penalizing its authors or establishing liability for those who facilitate its dissemination. Internet companies, especially large platforms, have deployed numerous techniques, measures, and instruments to address the phenomenon. However, little has been done to identify the origin of misinformation and evaluate the phenomenon in light of specific obligations from certain sectors. In this paper we

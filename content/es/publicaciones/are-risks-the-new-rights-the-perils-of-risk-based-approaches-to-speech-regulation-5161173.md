@@ -13,14 +13,7 @@ tags:
 - publicaciones
 ssrn_id: '5161173'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5161173
-ssrn_reference: 16 (2025) JIPITEC 238
-abstract: This paper discusses the risk-based approach of the Digital Services Act
-  (DSA) of the European Union. By embracing open-ended standards instead of rules
-  and by imposing broad risk-identification and mitigation obligations on private
-  parties, the DSA pushes forward a form of managerial co-regulation that is a paradigmatic
-  shift in platform regulation, that has already influenced other regulatory proposals
-  around the globe. This paper argues that the move is consequential from the perspective
-  of t
+reference: 16 (2025) JIPITEC 238
 issues:
 - Plataformas
 - Regulación y tecnología
@@ -36,3 +29,4 @@ placements:
 - hub: region/europa
   block: publicaciones
 ---
+This paper discusses the risk-based approach of the Digital Services Act (DSA) of the European Union. By embracing open-ended standards instead of rules and by imposing broad risk-identification and mitigation obligations on private parties, the DSA pushes forward a form of managerial co-regulation that is a paradigmatic shift in platform regulation, that has already influenced other regulatory proposals around the globe. This paper argues that the move is consequential from the perspective of t

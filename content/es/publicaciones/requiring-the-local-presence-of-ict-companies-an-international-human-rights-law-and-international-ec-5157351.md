@@ -13,14 +13,7 @@ tags:
 - publicaciones
 ssrn_id: '5157351'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5157351
-ssrn_reference: CELE Research Paper No. 55
-abstract: Recently, we have seen a proliferation of laws and legislative proposals
-  worldwide that impose the creation of some form of legal-commercial link or local
-  connection between information and communication technology (ICT) companies—mainly
-  social media platforms—and the countries where they operate. Depending on the case,
-  the chosen method to achieve this objective involves requiring a commercial presence,
-  appointing a local representative, localizing data, or hiring local personnel. These
-  initiat
+reference: CELE Research Paper No. 55
 issues:
 - Plataformas
 - Regulación y tecnología
@@ -36,3 +29,4 @@ placements:
 - hub: region/global
   block: publicaciones
 ---
+Recently, we have seen a proliferation of laws and legislative proposals worldwide that impose the creation of some form of legal-commercial link or local connection between information and communication technology (ICT) companies—mainly social media platforms—and the countries where they operate. Depending on the case, the chosen method to achieve this objective involves requiring a commercial presence, appointing a local representative, localizing data, or hiring local personnel. These initiat

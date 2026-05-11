@@ -12,14 +12,7 @@ tags:
 - publicaciones
 ssrn_id: '5152205'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5152205
-ssrn_reference: CELE Research Paper No. 43
-abstract: The development of Human Rights Impact Assessments (HRIAs) has gained increasing
-  attention as a tool for evaluating the intersection between corporate practices
-  and human rights. Initially framed within the United Nations Guiding Principles
-  on Business and Human Rights (UNGPs) , particularly the "Protect, Respect, and Remedy"
-  (PRR) framework developed by John Ruggie, HRIAs have been largely applied in sectors
-  such as extractive industries. However, their potential role in the Information
-  and Com
+reference: CELE Research Paper No. 43
 issues:
 - Empresas y DDHH
 region: global
@@ -32,3 +25,4 @@ placements:
 - hub: region/global
   block: publicaciones
 ---
+The development of Human Rights Impact Assessments (HRIAs) has gained increasing attention as a tool for evaluating the intersection between corporate practices and human rights. Initially framed within the United Nations Guiding Principles on Business and Human Rights (UNGPs) , particularly the "Protect, Respect, and Remedy" (PRR) framework developed by John Ruggie, HRIAs have been largely applied in sectors such as extractive industries. However, their potential role in the Information and Com

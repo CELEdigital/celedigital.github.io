@@ -12,14 +12,7 @@ tags:
 - publicaciones
 ssrn_id: '5157887'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5157887
-ssrn_reference: CELE Research Paper No. 59
-abstract: This study focuses on the application and potential misinterpretation of
-  Law 5777/16 in Paraguay, which addresses comprehensive protection for women against
-  all forms of violence, and the use of its precautionary measures in cases of public
-  interest that may negatively impact freedom of expression. The first part of the
-  research analyzes Paraguay’s National Constitution in relation to the protection
-  of freedom of expression, as well as the international standards established by
-  the Inter-America
+reference: CELE Research Paper No. 59
 issues:
 - Regulación y tecnología
 - Violencias
@@ -35,3 +28,4 @@ placements:
 - hub: region/global
   block: publicaciones
 ---
+This study focuses on the application and potential misinterpretation of Law 5777/16 in Paraguay, which addresses comprehensive protection for women against all forms of violence, and the use of its precautionary measures in cases of public interest that may negatively impact freedom of expression. The first part of the research analyzes Paraguay’s National Constitution in relation to the protection of freedom of expression, as well as the international standards established by the Inter-America

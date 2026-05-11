@@ -12,8 +12,7 @@ tags:
 - publicaciones
 ssrn_id: '5125903'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5125903
-ssrn_reference: CELE Research Paper No. 14
-abstract: CELE Research Paper No. 14
+reference: CELE Research Paper No. 14
 issues:
 - Plataformas
 region: global
@@ -26,3 +25,4 @@ placements:
 - hub: region/global
   block: publicaciones
 ---
+CELE Research Paper No. 14

@@ -11,13 +11,7 @@ tags:
 - publicaciones
 ssrn_id: '5157829'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5157829
-ssrn_reference: CELE Research Paper No. 56
-abstract: 'Since the mid-2000s, there have been multiple and wide-ranging proposals
-  for traditional regulation, co-regulation, and self-regulation of digital platforms
-  and Internet companies. The proliferation of regulatory proposals, framework agreements
-  between states and companies, and unilateral commitments by multiple companies have
-  generated a system of rules of a different legal nature that impact the functioning
-  and conduct of the Internet intermediary ecosystem. Still, while substantive standards '
+reference: CELE Research Paper No. 56
 issues:
 - Plataformas
 - Regulación y tecnología
@@ -33,3 +27,4 @@ placements:
 - hub: region/global
   block: publicaciones
 ---
+Since the mid-2000s, there have been multiple and wide-ranging proposals for traditional regulation, co-regulation, and self-regulation of digital platforms and Internet companies. The proliferation of regulatory proposals, framework agreements between states and companies, and unilateral commitments by multiple companies have generated a system of rules of a different legal nature that impact the functioning and conduct of the Internet intermediary ecosystem. Still, while substantive standards

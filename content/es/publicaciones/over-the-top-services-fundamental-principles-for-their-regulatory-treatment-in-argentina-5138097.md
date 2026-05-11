@@ -12,12 +12,7 @@ tags:
 - publicaciones
 ssrn_id: '5138097'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5138097
-ssrn_reference: CELE Research Paper No. 28
-abstract: The article aims to point out the main principles to be taken into account
-  when analysing the regulatory framework for Over the Top services (OTTs). It provides
-  a description of the current regulatory situation in Argentina, as well as arguments
-  for and against the regulation of OTTs, and a section of conclusions and recommendations
-  useful for the legislative discussion.
+reference: CELE Research Paper No. 28
 issues:
 - Regulación y tecnología
 region: latam
@@ -31,3 +26,4 @@ placements:
 - hub: region/america-latina
   block: publicaciones
 ---
+The article aims to point out the main principles to be taken into account when analysing the regulatory framework for Over the Top services (OTTs). It provides a description of the current regulatory situation in Argentina, as well as arguments for and against the regulation of OTTs, and a section of conclusions and recommendations useful for the legislative discussion.

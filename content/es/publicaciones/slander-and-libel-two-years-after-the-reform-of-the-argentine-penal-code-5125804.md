@@ -12,8 +12,7 @@ tags:
 - publicaciones
 ssrn_id: '5125804'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5125804
-ssrn_reference: CELE Research Paper No. 9
-abstract: CELE Research Paper No. 9
+reference: CELE Research Paper No. 9
 issues:
 - Plataformas
 region: latam
@@ -27,3 +26,4 @@ placements:
 - hub: region/america-latina
   block: publicaciones
 ---
+CELE Research Paper No. 9

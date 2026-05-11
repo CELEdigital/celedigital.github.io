@@ -12,14 +12,7 @@ tags:
 - publicaciones
 ssrn_id: '5157855'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5157855
-ssrn_reference: CELE Research Paper No. 57b
-abstract: The use of OSINT by the state for surveillance purposes presents specific
-  challenges regarding human rights. These tools can lead to violations of fundamental
-  rights and are often employed outside the boundaries of legality. As this study
-  will show, their use is generally unregulated, and where regulations do exist, they
-  are inadequate. Under broad and vague definitions, intelligence and security authorities
-  monitor open sources of information on the internet, such as social networks, blogs,
-  mag
+reference: CELE Research Paper No. 57b
 issues:
 - Erosión democrática
 - Regulación y tecnología
@@ -35,3 +28,4 @@ placements:
 - hub: region/america-latina
   block: publicaciones
 ---
+The use of OSINT by the state for surveillance purposes presents specific challenges regarding human rights. These tools can lead to violations of fundamental rights and are often employed outside the boundaries of legality. As this study will show, their use is generally unregulated, and where regulations do exist, they are inadequate. Under broad and vague definitions, intelligence and security authorities monitor open sources of information on the internet, such as social networks, blogs, mag

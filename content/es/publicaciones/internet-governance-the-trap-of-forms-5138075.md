@@ -11,8 +11,7 @@ tags:
 - publicaciones
 ssrn_id: '5138075'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5138075
-ssrn_reference: CELE Research Paper No. 22
-abstract: CELE Research Paper No. 22
+reference: CELE Research Paper No. 22
 issues:
 - Regulación y tecnología
 region: global
@@ -25,3 +24,4 @@ placements:
 - hub: region/global
   block: publicaciones
 ---
+CELE Research Paper No. 22

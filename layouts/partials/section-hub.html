@@ -446,16 +446,19 @@
                         {{ delimit . ", " }}
                       </div>
                     {{ end }}
-                    {{ with $page.Params.ssrn_reference }}
-                      <div class="section-block__research-ref">{{ . }}</div>
+                    {{ $reference := $page.Params.reference }}
+                    {{ $referenceValue := $page.Params.reference_value }}
+                    {{ if $reference }}
+                      <div class="section-block__research-ref">{{ $reference }}{{ with $referenceValue }} No. {{ . }}{{ end }}</div>
                     {{ end }}
                     {{ with $page.Params.ssrn_id }}
                       <div class="section-block__research-id">SSRN ID: {{ . }}</div>
                     {{ end }}
                   </div>
                   <div class="section-block__research-right">
-                    {{ with $page.Params.abstract }}
-                      <p class="section-block__research-abstract">{{ . }}</p>
+                    {{ $researchAbstract := $page.Params.abstract | default $page.Summary }}
+                    {{ with $researchAbstract }}
+                      <p class="section-block__research-abstract">{{ . | plainify | truncate 520 }}</p>
                     {{ end }}
                   </div>
                 </li>
@@ -486,8 +489,9 @@
                     <h3 class="section-block__title">
                       <a class="section-block__link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
                     </h3>
-                    {{ with $page.Params.description }}
-                      <p class="section-block__excerpt">{{ . }}</p>
+                    {{ $excerpt := $page.Params.description | default $page.Summary }}
+                    {{ with $excerpt }}
+                      <p class="section-block__excerpt">{{ . | plainify | truncate 420 }}</p>
                     {{ end }}
                     {{ $hasAuthor := $page.Params.author }}
                     {{ $hasDate := not $page.Date.IsZero }}

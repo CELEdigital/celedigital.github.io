@@ -1,0 +1,681 @@
+backend:
+  name: github
+  repo: CELEdigital/CELEdigital
+  branch: main
+
+local_backend: true
+
+media_folder: "static/img"
+public_folder: "/img"
+
+collections:
+
+  # ─────────────────────────────────────────
+  # POSTS EN ESPAÑOL
+  # ─────────────────────────────────────────
+  - name: "posts_es"
+    label: "Posts (ES)"
+    label_singular: "Post"
+    folder: "content/es/posts"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+
+    fields:
+      - label: "Título"
+        name: "title"
+        widget: "string"
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "URL del post: solo minúsculas, números y guiones"
+        pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
+
+      - label: "Fecha"
+        name: "date"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+
+      - label: "Descripción"
+        name: "description"
+        widget: "string"
+        required: false
+        hint: "Resumen breve visible en listados y SEO"
+
+      - label: "Autor/es"
+        name: "author"
+        widget: "list"
+        hint: "Identificador del autor (ej: CELE, mmdg, adc). Uno por línea."
+        field:
+          label: "Autor"
+          name: "author"
+          widget: "string"
+
+      - label: "Tipo de contenido"
+        name: "content_type"
+        widget: "select"
+        multiple: true
+        max: 1
+        default: ["blog"]
+        options:
+          - { label: "Blog / Análisis", value: "blog" }
+          - { label: "Mesa legislativa", value: "mesa" }
+          - { label: "Boletín", value: "boletin" }
+
+      - label: "Programa"
+        name: "programs"
+        widget: "select"
+        multiple: true
+        max: 1
+        required: false
+        default: ["policy"]
+        options:
+          - { label: "Policy", value: "policy" }
+          - { label: "Publicaciones", value: "publicaciones" }
+
+      - label: "Destacado en home"
+        name: "featured"
+        widget: "boolean"
+        default: false
+
+      - label: "Imagen"
+        name: "image"
+        widget: "image"
+        required: false
+        choose_url: true
+        hint: "Imagen de portada (se guarda en /img)"
+
+      - label: "Issues / Temas"
+        name: "issues"
+        widget: "select"
+        multiple: true
+        required: false
+        options:
+          - "Empresas y DDHH"
+          - "Erosión democrática"
+          - "Plataformas"
+          - "Regulación y tecnología"
+          - "Violencias"
+
+      - label: "Región"
+        name: "region"
+        widget: "select"
+        required: false
+        options:
+          - { label: "América Latina", value: "latam" }
+          - { label: "Estados Unidos", value: "us" }
+          - { label: "Europa", value: "europa" }
+          - { label: "Global", value: "global" }
+
+      - label: "Países"
+        name: "country"
+        widget: "list"
+        required: false
+        hint: "Códigos ISO de dos letras (ej: AR, BR, US, CO)"
+        field:
+          label: "País"
+          name: "country"
+          widget: "string"
+
+      - label: "Placements (ubicaciones en hubs)"
+        name: "placements"
+        widget: "list"
+        required: false
+        hint: "Define en qué hub y en qué bloque aparece este post"
+        fields:
+          - label: "Hub"
+            name: "hub"
+            widget: "select"
+            options:
+              - { label: "Policy (general)", value: "policy" }
+              - { label: "Erosión democrática", value: "temas/erosion-democratica" }
+              - { label: "Plataformas", value: "temas/plataformas" }
+              - { label: "Regulación y tecnología", value: "temas/regulacion-y-tecnologia" }
+              - { label: "Violencias", value: "temas/violencias" }
+              - { label: "Empresas y DDHH", value: "temas/empresas-y-derechos-humanos" }
+              - { label: "Región: América Latina", value: "region/america-latina" }
+              - { label: "Región: Europa", value: "region/europa" }
+              - { label: "Región: Global", value: "region/global" }
+          - label: "Bloque"
+            name: "block"
+            widget: "select"
+            options:
+              - { label: "Destacado", value: "destacado" }
+              - { label: "Últimas noticias y análisis", value: "ultimas_noticias_analisis" }
+              - { label: "Publicaciones", value: "publicaciones" }
+              - { label: "Eventos", value: "eventos" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "string"
+
+      - label: "Translation Key"
+        name: "translationKey"
+        widget: "string"
+        required: false
+        hint: "Vincula este post con su versión en inglés (deben compartir el mismo valor)"
+
+      - label: "URL fuente"
+        name: "source_url"
+        widget: "string"
+        required: false
+        hint: "Solo para mesas: URL de la página original del evento"
+
+      - label: "Tipo Hugo"
+        name: "type"
+        widget: "hidden"
+        default: "posts"
+
+      - label: "Cuerpo"
+        name: "body"
+        widget: "markdown"
+
+
+  # ─────────────────────────────────────────
+  # PUBLICACIONES EN ESPAÑOL
+  # ─────────────────────────────────────────
+  - name: "publicaciones_es"
+    label: "Publicaciones / Papers (ES)"
+    label_singular: "Publicación"
+    folder: "content/es/publicaciones"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+
+    fields:
+      - label: "Título"
+        name: "title"
+        widget: "string"
+
+      - label: "Fecha"
+        name: "date"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+
+      - label: "Autor/es"
+        name: "author"
+        widget: "list"
+        field:
+          label: "Autor"
+          name: "author"
+          widget: "string"
+
+      - label: "Tipo de contenido"
+        name: "content_type"
+        widget: "hidden"
+        default: ["research"]
+
+      - label: "Programa"
+        name: "programs"
+        widget: "hidden"
+        default: ["publicaciones"]
+
+      - label: "SSRN ID"
+        name: "ssrn_id"
+        widget: "string"
+        required: false
+        hint: "Número de abstract en SSRN (ej: 5125874)"
+
+      - label: "SSRN URL"
+        name: "ssrn_url"
+        widget: "string"
+        required: false
+
+      - label: "Referencia SSRN"
+        name: "ssrn_reference"
+        widget: "string"
+        required: false
+        hint: "Ej: CELE Research Paper No. 11"
+
+      - label: "Abstract"
+        name: "abstract"
+        widget: "text"
+        required: false
+
+      - label: "Issues / Temas"
+        name: "issues"
+        widget: "select"
+        multiple: true
+        required: false
+        options:
+          - "Empresas y DDHH"
+          - "Erosión democrática"
+          - "Plataformas"
+          - "Regulación y tecnología"
+          - "Violencias"
+
+      - label: "Región"
+        name: "region"
+        widget: "select"
+        required: false
+        options:
+          - { label: "América Latina", value: "latam" }
+          - { label: "Estados Unidos", value: "us" }
+          - { label: "Europa", value: "europa" }
+          - { label: "Global", value: "global" }
+
+      - label: "Países"
+        name: "country"
+        widget: "list"
+        required: false
+        hint: "Códigos ISO de dos letras"
+        field:
+          label: "País"
+          name: "country"
+          widget: "string"
+
+      - label: "Placements (ubicaciones en hubs)"
+        name: "placements"
+        widget: "list"
+        required: false
+        hint: "Define en qué hub y en qué bloque aparece esta publicación"
+        fields:
+          - label: "Hub"
+            name: "hub"
+            widget: "select"
+            options:
+              - { label: "Policy (general)", value: "policy" }
+              - { label: "Erosión democrática", value: "temas/erosion-democratica" }
+              - { label: "Plataformas", value: "temas/plataformas" }
+              - { label: "Regulación y tecnología", value: "temas/regulacion-y-tecnologia" }
+              - { label: "Violencias", value: "temas/violencias" }
+              - { label: "Empresas y DDHH", value: "temas/empresas-y-derechos-humanos" }
+              - { label: "Región: América Latina", value: "region/america-latina" }
+              - { label: "Región: Europa", value: "region/europa" }
+              - { label: "Región: Global", value: "region/global" }
+          - label: "Bloque"
+            name: "block"
+            widget: "select"
+            options:
+              - { label: "Destacado", value: "destacado" }
+              - { label: "Últimas noticias y análisis", value: "ultimas_noticias_analisis" }
+              - { label: "Publicaciones", value: "publicaciones" }
+              - { label: "Eventos", value: "eventos" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "string"
+
+      - label: "Cuerpo (opcional)"
+        name: "body"
+        widget: "markdown"
+        required: false
+
+
+  # ─────────────────────────────────────────
+  # BOLETINES — OBSERVATORIO LEGISLATIVO (ES)
+  # ─────────────────────────────────────────
+  - name: "boletines_es"
+    label: "Boletines — Observatorio Legislativo (ES)"
+    label_singular: "Boletín"
+    folder: "content/es/observatorio-legislativo"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+
+    fields:
+      - label: "Título"
+        name: "title"
+        widget: "string"
+        hint: "Ej: Boletín mensual Observatorio Legislativo | Junio 2024"
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "URL del boletín: solo minúsculas, números y guiones"
+        pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
+
+      - label: "Fecha"
+        name: "date"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+
+      - label: "Descripción"
+        name: "description"
+        widget: "string"
+        required: false
+
+      - label: "Autor/es"
+        name: "author"
+        widget: "list"
+        field:
+          label: "Autor"
+          name: "author"
+          widget: "string"
+
+      - label: "Tipo de contenido"
+        name: "content_type"
+        widget: "hidden"
+        default: ["boletin"]
+
+      - label: "Programa"
+        name: "programs"
+        widget: "hidden"
+        default: ["policy"]
+
+      - label: "Tipo Hugo"
+        name: "type"
+        widget: "hidden"
+        default: "posts"
+
+      - label: "Destacado en home"
+        name: "featured"
+        widget: "boolean"
+        default: false
+
+      - label: "Imagen"
+        name: "image"
+        widget: "image"
+        required: false
+        choose_url: true
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "string"
+
+      - label: "Translation Key"
+        name: "translationKey"
+        widget: "string"
+        required: false
+
+      - label: "Cuerpo"
+        name: "body"
+        widget: "markdown"
+
+
+  # ─────────────────────────────────────────
+  # AUTORES EN ESPAÑOL
+  # ─────────────────────────────────────────
+  - name: "autores_es"
+    label: "Autores (ES)"
+    label_singular: "Autor/a"
+    folder: "content/es/autores"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    identifier_field: "title"
+
+    fields:
+      - label: "Nombre completo"
+        name: "title"
+        widget: "string"
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "nombre-apellido (sin acentos ni caracteres especiales)"
+        pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
+
+      - label: "Draft (borrador)"
+        name: "draft"
+        widget: "boolean"
+        default: false
+
+      - label: "Tipo de autor"
+        name: "author_type"
+        widget: "select"
+        options:
+          - { label: "Staff", value: "staff" }
+          - { label: "Alumni", value: "alumni" }
+          - { label: "Friends / Colaboradores", value: "friends" }
+
+      - label: "Peso / Orden"
+        name: "weight"
+        widget: "number"
+        value_type: "int"
+        default: 99
+        hint: "Número menor aparece primero dentro de su tipo"
+
+      - label: "Rol / Cargo"
+        name: "role"
+        widget: "string"
+
+      - label: "Organización"
+        name: "organization"
+        widget: "string"
+        required: false
+
+      - label: "Ubicación"
+        name: "location"
+        widget: "string"
+        required: false
+        hint: "Ej: Buenos Aires, AR"
+
+      - label: "Foto"
+        name: "photo"
+        widget: "image"
+        required: false
+        choose_url: true
+
+      - label: "Bio corta"
+        name: "bio_short"
+        widget: "string"
+        hint: "Aparece junto al nombre en los posts"
+
+      - label: "Twitter"
+        name: "twitter_handle"
+        widget: "string"
+        required: false
+        hint: "Usuario sin @"
+
+      - label: "Bluesky"
+        name: "bluesky_handle"
+        widget: "string"
+        required: false
+
+      - label: "ORCID"
+        name: "orcid_number"
+        widget: "string"
+        required: false
+
+      - label: "Email"
+        name: "email"
+        widget: "object"
+        required: false
+        hint: "Se divide en usuario y dominio para evitar scrapers"
+        fields:
+          - label: "Usuario (antes del @)"
+            name: "local"
+            widget: "string"
+            required: false
+          - label: "Dominio (después del @)"
+            name: "domain"
+            widget: "string"
+            required: false
+          - label: "Mostrar ícono de email"
+            name: "show_icon"
+            widget: "boolean"
+            default: true
+          - label: "Email público"
+            name: "public"
+            widget: "boolean"
+            default: false
+
+      - label: "Bio extensa"
+        name: "body"
+        widget: "markdown"
+        required: false
+
+
+  # ─────────────────────────────────────────
+  # POSTS EN INGLÉS
+  # ─────────────────────────────────────────
+  - name: "posts_en"
+    label: "Posts (EN)"
+    label_singular: "Post"
+    folder: "content/en/posts"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "URL: lowercase letters, numbers and hyphens only"
+        pattern: ['^[a-z0-9-]+$', "Lowercase, numbers and hyphens only"]
+
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+
+      - label: "Description"
+        name: "description"
+        widget: "string"
+        required: false
+
+      - label: "Author(s)"
+        name: "author"
+        widget: "list"
+        hint: "One author identifier per line"
+        field:
+          label: "Author"
+          name: "author"
+          widget: "string"
+
+      - label: "Content type"
+        name: "content_type"
+        widget: "select"
+        multiple: true
+        max: 1
+        required: false
+        default: ["blog"]
+        options:
+          - { label: "Blog / Analysis", value: "blog" }
+          - { label: "Legislative table", value: "mesa" }
+          - { label: "Newsletter", value: "boletin" }
+
+      - label: "Program"
+        name: "programs"
+        widget: "select"
+        multiple: true
+        max: 1
+        required: false
+        default: ["policy"]
+        options:
+          - { label: "Policy", value: "policy" }
+          - { label: "Research", value: "publicaciones" }
+
+      - label: "Featured on home"
+        name: "featured"
+        widget: "boolean"
+        default: false
+
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        required: false
+        choose_url: true
+
+      - label: "Issues / Topics"
+        name: "issues"
+        widget: "select"
+        multiple: true
+        required: false
+        options:
+          - "Empresas y DDHH"
+          - "Erosión democrática"
+          - "Plataformas"
+          - "Regulación y tecnología"
+          - "Violencias"
+
+      - label: "Region"
+        name: "region"
+        widget: "select"
+        required: false
+        options:
+          - { label: "Latin America", value: "latam" }
+          - { label: "United States", value: "us" }
+          - { label: "Europe", value: "europa" }
+          - { label: "Global", value: "global" }
+
+      - label: "Countries"
+        name: "country"
+        widget: "list"
+        required: false
+        hint: "ISO two-letter country codes (e.g. AR, BR, US)"
+        field:
+          label: "Country"
+          name: "country"
+          widget: "string"
+
+      - label: "Placements (hub locations)"
+        name: "placements"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Hub"
+            name: "hub"
+            widget: "select"
+            options:
+              - { label: "Policy (general)", value: "policy" }
+              - { label: "Democratic erosion", value: "temas/erosion-democratica" }
+              - { label: "Platforms", value: "temas/plataformas" }
+              - { label: "Regulation & technology", value: "temas/regulacion-y-tecnologia" }
+              - { label: "Violence", value: "temas/violencias" }
+              - { label: "Business & human rights", value: "temas/empresas-y-derechos-humanos" }
+              - { label: "Region: Latin America", value: "region/america-latina" }
+              - { label: "Region: Europe", value: "region/europa" }
+              - { label: "Region: Global", value: "region/global" }
+          - label: "Block"
+            name: "block"
+            widget: "select"
+            options:
+              - { label: "Featured", value: "destacado" }
+              - { label: "Latest news & analysis", value: "ultimas_noticias_analisis" }
+              - { label: "Publications", value: "publicaciones" }
+              - { label: "Events", value: "eventos" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "string"
+
+      - label: "Translation Key"
+        name: "translationKey"
+        widget: "string"
+        required: false
+        hint: "Links this post to its Spanish version (both must share the same value)"
+
+      - label: "Hugo type"
+        name: "type"
+        widget: "hidden"
+        default: "posts"
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"

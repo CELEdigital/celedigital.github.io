@@ -11,8 +11,7 @@ tags:
 - publicaciones
 ssrn_id: '5138083'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5138083
-ssrn_reference: CELE Research Paper No. 24
-abstract: CELE Research Paper No. 24
+reference: CELE Research Paper No. 24
 issues:
 - Regulación y tecnología
 region: global
@@ -25,3 +24,4 @@ placements:
 - hub: region/global
   block: publicaciones
 ---
+CELE Research Paper No. 24

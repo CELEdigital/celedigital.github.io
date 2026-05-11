@@ -10,6 +10,7 @@
   var tagLinks = document.querySelectorAll('[data-blog-tag]');
   var regionLinks = document.querySelectorAll('[data-blog-region-btn]');
   var countryLinks = document.querySelectorAll('[data-blog-country]');
+  var searchInput = document.querySelector('[data-blog-search]');
 
   // Timeline elements
   var timeline = document.querySelector('[data-blog-timeline]');
@@ -33,12 +34,15 @@
     if (!Array.isArray(item._blogCountry)) item._blogCountry = [];
     item._blogRegion = (item.getAttribute('data-blog-region') || 'global').toLowerCase();
     item._blogYear = parseInt(item.getAttribute('data-blog-year'), 10) || 0;
+    item._blogTitle = item.getAttribute('data-blog-title') || '';
+    item._blogDesc  = item.getAttribute('data-blog-description') || '';
   });
 
   var filterCategory = '';
   var filterTag = '';
   var filterRegion = '';
   var filterCountry = '';
+  var filterQuery = '';
   var candidates;
   var shown = 0;
 
@@ -63,6 +67,12 @@
     if (yearMin > globalMinYear || yearMax < globalMaxYear) {
       base = base.filter(function (i) {
         return !i._blogYear || (i._blogYear >= yearMin && i._blogYear <= yearMax);
+      });
+    }
+    if (filterQuery) {
+      base = base.filter(function (i) {
+        return i._blogTitle.indexOf(filterQuery) !== -1
+            || i._blogDesc.indexOf(filterQuery) !== -1;
       });
     }
     return base;
@@ -140,6 +150,14 @@
       applyFilter();
     });
   });
+
+  // Search input
+  if (searchInput) {
+    searchInput.addEventListener('input', function () {
+      filterQuery = searchInput.value.toLowerCase().trim();
+      applyFilter();
+    });
+  }
 
   // Load more
   if (loadBtn) {

@@ -12,13 +12,7 @@ tags:
 - publicaciones
 ssrn_id: '5146360'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5146360
-ssrn_reference: CELE Research Paper No. 31
-abstract: This article, based on a contribution to the 2018 report of the United Nations
-  Special Rapporteur on violence against women, addresses the growing trend in Latin
-  America toward the criminalization of online speech. Often, initiatives that pursue
-  well-intentioned objectives of combating discrimination and violence can, paradoxically,
-  impact the rights of the very groups they seek to protect. In this regard, this
-  paper analyzes, from a freedom of expression perspective, the specific case of legisl
+reference: CELE Research Paper No. 31
 issues:
 - Regulación y tecnología
 - Violencias
@@ -35,3 +29,4 @@ placements:
 - hub: region/america-latina
   block: publicaciones
 ---
+This article, based on a contribution to the 2018 report of the United Nations Special Rapporteur on violence against women, addresses the growing trend in Latin America toward the criminalization of online speech. Often, initiatives that pursue well-intentioned objectives of combating discrimination and violence can, paradoxically, impact the rights of the very groups they seek to protect. In this regard, this paper analyzes, from a freedom of expression perspective, the specific case of legisl

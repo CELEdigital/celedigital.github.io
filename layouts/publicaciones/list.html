@@ -121,8 +121,10 @@
           </div>
         {{ end }}
 
-        {{ with .Params.ssrn_reference }}
-          <div class="pub-featured__ref">{{ . }}</div>
+        {{ $reference := .Params.reference }}
+        {{ $referenceValue := .Params.reference_value }}
+        {{ if $reference }}
+          <div class="pub-featured__ref">{{ $reference }}{{ with $referenceValue }} No. {{ . }}{{ end }}</div>
         {{ end }}
 
         {{ $abstract := .Params.abstract | default .Params.description }}
@@ -171,8 +173,10 @@
         </div>
       {{ end }}
 
-      {{ with .Params.ssrn_reference }}
-        <div class="pub-item__ref">{{ . }}</div>
+      {{ $reference := .Params.reference }}
+      {{ $referenceValue := .Params.reference_value }}
+      {{ if $reference }}
+        <div class="pub-item__ref">{{ $reference }}{{ with $referenceValue }} No. {{ . }}{{ end }}</div>
       {{ end }}
 
       {{ $abstract := .Params.abstract | default .Params.description }}

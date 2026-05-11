@@ -34,6 +34,15 @@
           <span class="blog-timeline__value" data-blog-timeline-label>{{ $minYear }} – {{ $maxYear }}</span>
         </div>
       </div>
+      <input
+        id="blog-search"
+        type="search"
+        class="blog-header-search"
+        data-blog-search
+        placeholder="Buscar…"
+        autocomplete="off"
+        aria-label="Buscar en el archivo"
+      >
       {{ with .Params.description }}<p class="section-hub__description">{{ . }}</p>{{ end }}
     </header>
 
@@ -123,7 +132,9 @@
                   data-blog-tags='{{ $tags | jsonify }}'
                   data-blog-region='{{ $post.Params.region | default "global" }}'
                   data-blog-country='{{ $country | jsonify }}'
-                  data-blog-year='{{ if not $post.Date.IsZero }}{{ $post.Date.Format "2006" }}{{ end }}'>
+                  data-blog-year='{{ if not $post.Date.IsZero }}{{ $post.Date.Format "2006" }}{{ end }}'
+                  data-blog-title="{{ $post.Title | lower }}"
+                  data-blog-description="{{ $post.Params.description | default "" | lower }}">
                 <div class="section-block__body">
                   <h3 class="section-block__title">
                     <a class="section-block__link" href="{{ $post.RelPermalink }}">{{ $post.Title }}</a>

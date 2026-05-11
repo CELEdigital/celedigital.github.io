@@ -15,8 +15,7 @@ tags:
 - publicaciones
 ssrn_id: '5123196'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5123196
-ssrn_reference: CELE Research Paper No. 4
-abstract: CELE Research Paper No. 4
+reference: CELE Research Paper No. 4
 issues:
 - Regulación y tecnología
 region: latam
@@ -30,3 +29,4 @@ placements:
 - hub: region/america-latina
   block: publicaciones
 ---
+CELE Research Paper No. 4

@@ -12,8 +12,7 @@ tags:
 - publicaciones
 ssrn_id: '5138073'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5138073
-ssrn_reference: CELE Research Paper No. 20
-abstract: CELE Research Paper No. 20
+reference: CELE Research Paper No. 20
 issues:
 - Regulación y tecnología
 region: latam
@@ -27,3 +26,4 @@ placements:
 - hub: region/america-latina
   block: publicaciones
 ---
+CELE Research Paper No. 20

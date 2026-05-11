@@ -3,6 +3,8 @@ backend:
   repo: CELEdigital/CELEdigital
   branch: main
   site_domain: celedigital.netlify.app
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 local_backend: true
 

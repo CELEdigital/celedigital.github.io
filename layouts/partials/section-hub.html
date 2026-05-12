@@ -198,7 +198,7 @@
         {{ end }}
         {{ if or (in $ctypeList "newsletter_dsa") (in $ctypeList "mesa") }}{{ continue }}{{ end }}
         {{/* Publicaciones section: only in research block; excluded from all others */}}
-        {{ $isPublicacion := eq $page.Section "publicaciones" }}
+        {{ $isPublicacion := or (eq $page.Section "publicaciones") (eq $page.Section "research") }}
         {{ if and (eq $blockKey "research") (not $isPublicacion) }}{{ continue }}{{ end }}
         {{ if and (ne $blockKey "research") $isPublicacion }}{{ continue }}{{ end }}
 
@@ -320,7 +320,7 @@
         {{ end }}
         {{ if or (in $ctypeList "newsletter_dsa") (in $ctypeList "mesa") }}{{ continue }}{{ end }}
         {{/* Publicaciones section: only in research block; excluded from all others */}}
-        {{ $isPublicacion := eq $page.Section "publicaciones" }}
+        {{ $isPublicacion := or (eq $page.Section "publicaciones") (eq $page.Section "research") }}
         {{ if and (eq $blockKey "research") (not $isPublicacion) }}{{ continue }}{{ end }}
         {{ if and (ne $blockKey "research") $isPublicacion }}{{ continue }}{{ end }}
 

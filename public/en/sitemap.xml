@@ -21,7 +21,7 @@
     <loc>http://localhost:1313/en/workshop/2024/</loc>
   </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -32,6 +32,48 @@
                 hreflang="en"
                 href="http://localhost:1313/en/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/publicaciones/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/publicaciones/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/publicaciones/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/research/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/publicaciones/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/research/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/research/public-functions-v1/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/hearing-iachr/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
@@ -201,30 +243,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/_archive/research/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/research/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/publicaciones/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/research/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
-                />
   </url><url>
     <loc>http://localhost:1313/en/team/</loc>
   </url><url>

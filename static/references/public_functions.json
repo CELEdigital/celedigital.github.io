@@ -1,0 +1,2319 @@
+[
+  {
+    "id": "ICCPR",
+    "type": "legislation",
+    "citation-key": "iccpr_eng",
+    "container-title": "U.N.T.S.",
+    "number": "999 U.N.T.S. 171",
+    "title": "International Covenant on Civil and Political Rights",
+    "title-short": "ICCPR",
+    "issued": {
+      "date-parts": [
+        [
+          "1966",
+          12,
+          16
+        ]
+      ]
+    }
+  },
+  {
+    "id": "woods",
+    "type": "report",
+    "citation-key": "woods",
+    "publisher": "Carnegie UK Trust",
+    "title": "Online harm reduction – a statutory duty of care and regulator",
+    "URL": "https://hq.ssrn.com/UserHome.cfm?redirectFrom=true",
+    "author": [
+      {
+        "family": "Woods",
+        "given": "Lorna"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "councilofeurope2026",
+    "type": "report",
+    "citation-key": "councilofeurope2026",
+    "number": "CM/Rec(2026)4",
+    "publisher": "Council of Europe",
+    "title": "Recommendation of the Committee of Ministers to member States on online safety and empowerment of users and content creators",
+    "URL": "https://search.coe.int/cm?i=09125948802b41e8",
+    "author": [
+      {
+        "literal": "Committee of Ministers, Council of Europe"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2026",
+          4,
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "britocruz",
+    "type": "article",
+    "citation-key": "britocruz",
+    "DOI": "http://dx.doi.org/10.2139/ssrn.5176187",
+    "title": "Duty of care and regulation of digital platforms: a Brazilian perspective",
+    "URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5176187",
+    "author": [
+      {
+        "family": "Brito Cruz",
+        "given": "Francisco"
+      },
+      {
+        "family": "Kira",
+        "given": "Beatriz"
+      },
+      {
+        "family": "Hartmann",
+        "given": "Ivar Alberto"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rozindosandoli2021",
+    "type": "post-weblog",
+    "citation-key": "rozindosandoli2021",
+    "container-title": "Masstricht University",
+    "title": "Freedom of expression & content moderation on social media: the promises and challenges of experimental accountability",
+    "URL": "https://www.maastrichtuniversity.nl/blog/2021/08/freedom-expression-content-moderation-social-media-promises-and-challenges-experimental",
+    "author": [
+      {
+        "family": "Rozindo Sandoli",
+        "given": "Chleo"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          8,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "cidh2025",
+    "type": "report",
+    "citation-key": "MarcoJuridicoInteramericano2025",
+    "publisher": "Comisión Interamericana de Derechos Humanos",
+    "title": "Marco jurídico interamericano sobre el derecho a la libertad de expresión",
+    "URL": "https://www.oas.org/es/cidh/expresion/informes/marcojuridico2025es.pdf",
+    "author": [
+      {
+        "literal": "Relatoría Especial para la Libertad de Expresión"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "douek2020",
+    "type": "article-journal",
+    "citation-key": "evelyndouek2020",
+    "container-title": "Columbia Law Review",
+    "issue": "3",
+    "page": "759-834",
+    "title": "Governing Online Speech: From “Posts-As-Trumps” to Proportionality and Probability",
+    "URL": "https://columbialawreview.org/wp-content/uploads/2021/04/Douek-Governing_Online_Speech-from_Posts_As-Trumps_To_Proportionality_And_Probability.pdf",
+    "volume": "121",
+    "author": [
+      {
+        "literal": "Evelyn Douek"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "trumposb2021",
+    "type": "legal_case",
+    "authority": "Meta's Oversight Board",
+    "citation-key": "trumposb2021",
+    "number": "Case No. 2021-001-FB-FBR",
+    "title": "President Trump’s Suspension",
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          5,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hrc2011",
+    "type": "report",
+    "citation-key": "hrc2011",
+    "language": "en",
+    "number": "CCPR/C/GC/34",
+    "publisher": "Human Rights Council",
+    "source": "Zotero",
+    "title": "General Comment No. 34 on Article 19 of the ICCPR",
+    "author": [
+      {
+        "literal": "HRC"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011",
+          9,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "breastosb2021",
+    "type": "legal_case",
+    "authority": "Meta's Oversight Board",
+    "citation-key": "breasosb2021",
+    "title": "Breast cancer symptoms and nudity",
+    "URL": "https://www.oversightboard.com/decision/ig-7thr3si1/",
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          1,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "id": "larue2011",
+    "type": "report",
+    "citation-key": "zotero-item-623",
+    "title": "Report of the Special Rapporteur on the promotion and protection of the right to freedom of opinion and expression",
+    "URL": "https://www2.ohchr.org/english/bodies/hrcouncil/docs/17session/A.HRC.17.27_en.pdf",
+    "author": [
+      {
+        "family": "La Rue",
+        "given": "Frank"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ecommerce",
+    "type": "legislation",
+    "citation-key": "dce",
+    "title": "Directive 2000/31/CE",
+    "URL": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX%3A32000L0031",
+    "volume": "DOCE L 178/11",
+    "author": [
+      {
+        "literal": "European Community"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          27
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2000",
+          7,
+          17
+        ]
+      ]
+    }
+  },
+  {
+    "id": "cidh2024",
+    "type": "report",
+    "citation-key": "CIDH2024",
+    "language": "es",
+    "number": "OEA/Ser.L/V/II CIDH/RELE/INF. 28/24",
+    "publisher": "Relatoría Especial para la Libertad de Expresión",
+    "publisher-place": "Washington D.C.",
+    "source": "Zotero",
+    "title": "Inclusión digital y gobernanza de contenidos en internet",
+    "author": [
+      {
+        "literal": "CIDH"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ukosa",
+    "type": "legislation",
+    "citation-key": "uk_osa",
+    "container-title": "2023 c. 50",
+    "language": "eng",
+    "license": "Citation key: uk_osa",
+    "title": "Online Safety Act 2023",
+    "URL": "https://www.legislation.gov.uk/ukpga/2023/50",
+    "author": [
+      {
+        "literal": "Parliament of the United Kingdom"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          8,
+          5
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          10,
+          26
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rau2026",
+    "type": "article-journal",
+    "abstract": "Government by regulation structures how constitutional democracies normally operate. Legislatures and executive agencies enact formal rules that govern conduct, embodying the ideal of government by laws rather than by individuals. Yet regulators also govern through threats of regulation. When public officials seek to alter private behavior, they may warn regulated actors that failure to comply will trigger new or stricter rules. These warnings can achieve regulatory goals without the adoption of formal rules. Because officials often issue such threats in informal, private communications, the practice escapes public scrutiny and challenges the dominant model of democratic rule-making, which assumes open deliberation by accountable institutions. This paper theorizes threats of regulation as a governance device that remains largely invisible to outsiders but offers significant advantages to regulators. Although United States courts attempt to distinguish unlawful coercion from permissible persuasion, they struggle to enforce these boundaries in practice. The paper argues that increasing transparency in routine communications between regulators and corporate actors would reduce the risk of abuse while preserving regulatory effectiveness.",
+    "citation-key": "alvarezugarte2026",
+    "container-title": "Internet Policy Review",
+    "DOI": "10.14763/2026.1.2079",
+    "issue": "1",
+    "language": "eng",
+    "license": "Creative Commons Attribution 3.0 Germany",
+    "note": "DOI: 10.14763/2026.1.2079",
+    "page": "1-28",
+    "publisher": "Alexander von Humboldt Institute for Internet and Society gGmbH",
+    "title": "Ruling by bullying: Threats of regulation as an internet governance device",
+    "title-short": "Ruling by bullying",
+    "URL": "https://policyreview.info/articles/analysis/threats-of-regulation",
+    "volume": "15",
+    "author": [
+      {
+        "family": "Álvarez Ugarte",
+        "given": "Ramiro"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          2,
+          11
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2026",
+          2,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "moody",
+    "type": "legal_case",
+    "authority": "Supreme Court of the United States",
+    "citation-key": "netchoice2024a",
+    "container-title": "U.S.",
+    "language": "en",
+    "number": "22-277",
+    "page": "---",
+    "title": "Moody v. NetChoice",
+    "volume": "603",
+    "author": [
+      {
+        "literal": "SCOTUS"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          7,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "kosseff2019",
+    "type": "book",
+    "abstract": "\"This book examines the history and future of Section 230 of the Communications Decency Act, which provides websites extraordinary legal immunity for user-generated content and is responsible for the modern Internet in the United States\"--",
+    "call-number": "KF390.5.C6",
+    "citation-key": "kosseff2019",
+    "ISBN": "978-1-5017-3578-3",
+    "language": "en",
+    "number-of-pages": "1",
+    "publisher": "Cornell University Press",
+    "publisher-place": "Ithaca [New York]",
+    "source": "Library of Congress ISBN",
+    "title": "The twenty-six words that created the Internet",
+    "author": [
+      {
+        "family": "Kosseff",
+        "given": "Jeff"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "section230",
+    "type": "legislation",
+    "citation-key": "cda",
+    "container-title": "U.S.C",
+    "number": "§230",
+    "title": "Communications Decency Act",
+    "volume": "47",
+    "author": [
+      {
+        "literal": "104th U.S. Congress"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1996",
+          2,
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "knightvtrump",
+    "type": "legal_case",
+    "authority": "2nd. Cir.",
+    "citation-key": "knightvtrump",
+    "container-title": "F3d",
+    "language": "en",
+    "page": "226",
+    "title": "Knight First Amendment Institute v. Trump",
+    "volume": "928",
+    "author": [
+      {
+        "literal": "U.S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          7,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "harbath2023",
+    "type": "post-weblog",
+    "citation-key": "harbath2023a",
+    "container-title": "Knight First Amendment Institute at Columbia University",
+    "genre": "Blog",
+    "language": "en",
+    "title": "Jawboned",
+    "URL": "http://knightcolumbia.org/blog/jawboned",
+    "author": [
+      {
+        "family": "Harbath",
+        "given": "Katie"
+      },
+      {
+        "family": "Perault",
+        "given": "Matt"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          11,
+          29
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          10,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "esperanzagomez",
+    "type": "legal_case",
+    "authority": "Corte Constitucional de Colombia",
+    "citation-key": "ccc2022a",
+    "number": "T-8.764.298",
+    "title": "Auto 1678/22 (Esperanza Gómez v. Meta)",
+    "author": [
+      {
+        "literal": "CCC"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          11,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "castañeda2020",
+    "type": "report",
+    "abstract": "Á",
+    "citation-key": "rau2020b",
+    "collection-title": "CELE Research Papers",
+    "genre": "CELE Research Paper",
+    "number": "45",
+    "page": "32",
+    "publisher": "Centro de Estudios en Libertad de Expresión y Acceso a la Información (CELE)",
+    "publisher-place": "Buenos Aires, Argentina",
+    "title": "Human Rights Impact Assessments: Trends, Challenges, And Opportunities for ICT Sector Adoption",
+    "URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5152219",
+    "author": [
+      {
+        "family": "Castañeda",
+        "given": "Alejandra"
+      },
+      {
+        "family": "Álvarez Ugarte",
+        "given": "Ramiro"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "dsa_letter1",
+    "type": "personal_communication",
+    "citation-key": "dsa_letter1",
+    "genre": "Letter",
+    "language": "English",
+    "title": "Civil society statement: Commissioner Breton needs to clarify comments about the DSA allowing for platform blocking",
+    "URL": "https://www.accessnow.org/press-release/dsa-internet-blocking-statement/",
+    "author": [
+      {
+        "literal": "Access Now"
+      },
+      {
+        "literal": "Advocacy Initiative for Development (AID)"
+      },
+      {
+        "literal": "Africa Media and Information Technology Initiative (AfriMITI)"
+      },
+      {
+        "literal": "African Freedom of Expression Exchange (AFEX)"
+      },
+      {
+        "literal": "AI Forensics"
+      },
+      {
+        "literal": "Bits of Freedom"
+      },
+      {
+        "literal": "Centre for Democracy and Technology (Europe)"
+      },
+      {
+        "literal": "Article 19"
+      },
+      {
+        "literal": "EFF"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          7,
+          26
+        ]
+      ]
+    }
+  },
+  {
+    "id": "dsa_letter2",
+    "type": "personal_communication",
+    "citation-key": "dsa_letter2",
+    "genre": "Letter",
+    "language": "English",
+    "title": "Civil society open letter to Commissioner Breton Precise interpretation of the DSA matters especially when people’s lives are at risk in Gaza and Israel",
+    "URL": "https://www.article19.org/wp-content/uploads/2023/10/Civil-society-open-letter-to-Commissioner-Breton.pdf",
+    "author": [
+      {
+        "literal": "Access Now"
+      },
+      {
+        "literal": "Article 19"
+      },
+      {
+        "literal": "Algorithm Watch"
+      },
+      {
+        "literal": "ApTI"
+      },
+      {
+        "literal": "7amaleh"
+      },
+      {
+        "literal": "Bits of Freedom"
+      },
+      {
+        "literal": "Centre for Democracy and Technology (Europe)"
+      },
+      {
+        "literal": "Digitale Gesellschaft (DE)"
+      },
+      {
+        "literal": "EFF"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          10,
+          17
+        ]
+      ]
+    }
+  },
+  {
+    "id": "price2000",
+    "type": "chapter",
+    "citation-key": "price2000",
+    "container-title": "Protecting our children on the Internet. Towards a new culture of responsibility",
+    "language": "en",
+    "page": "133-198",
+    "publisher": "Bertelsmann Foundation Publishers",
+    "publisher-place": "---",
+    "source": "Zotero",
+    "title": "The Concept of Self-Regulation and the Internet",
+    "author": [
+      {
+        "family": "Price",
+        "given": "Monroe"
+      },
+      {
+        "family": "Verhulst",
+        "given": "Stefaan"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Waltermann",
+        "given": "J."
+      },
+      {
+        "family": "Machill",
+        "given": "M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2000"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "effet.al.2018",
+    "type": "report",
+    "citation-key": "effet.al.2018",
+    "publisher": "EFF et. al.",
+    "title": "Principios de Santa Clara sobre la transparencia y rendición de cuentas en la moderación de contenidos",
+    "URL": "https://santaclaraprinciples.org/es/",
+    "author": [
+      {
+        "literal": "EFF et. al."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "kosseff2019",
+    "type": "book",
+    "abstract": "\"This book examines the history and future of Section 230 of the Communications Decency Act, which provides websites extraordinary legal immunity for user-generated content and is responsible for the modern Internet in the United States\"--",
+    "call-number": "KF390.5.C6",
+    "citation-key": "kosseff2019",
+    "ISBN": "978-1-5017-3578-3",
+    "language": "en",
+    "number-of-pages": "1",
+    "publisher": "Cornell University Press",
+    "publisher-place": "Ithaca [New York]",
+    "source": "Library of Congress ISBN",
+    "title": "The twenty-six words that created the Internet",
+    "author": [
+      {
+        "family": "Kosseff",
+        "given": "Jeff"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "dsa",
+    "type": "legislation",
+    "citation-key": "dsa",
+    "container-title": "OJ L 277, 27.10.2022",
+    "number": "2022/2065",
+    "page": "1-102",
+    "title": "Digital Services Act",
+    "URL": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+    "author": [
+      {
+        "literal": "European Commission"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          3,
+          26
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          10,
+          19
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ruggie2008",
+    "type": "report",
+    "citation-key": "ruggie2008",
+    "number": "A/HRC/8/5",
+    "publisher": "Human Rights Council. eport of the Special Representative of the Secretary-General on the issue of human rights and transnational corporations and other business enterprises",
+    "publisher-place": "Geneve",
+    "title": "Protect, Respect and Remedy: a Framework for Business and Human Rights",
+    "author": [
+      {
+        "family": "Ruggie",
+        "given": "John"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2008",
+          4,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "id": "atkinson2019",
+    "type": "report",
+    "citation-key": "atkinson2019",
+    "publisher": "Information Technology & Innovation Foundation",
+    "publisher-place": "Washington D.C",
+    "title": "A Policymaker’s Guide to the “Techlash”—What It Is and Why It’s a Threat to Growth and Progress",
+    "URL": "https://itif.org/publications/2019/10/28/policymakers-guide-techlash/",
+    "author": [
+      {
+        "family": "Atkinson",
+        "given": "Robert D."
+      },
+      {
+        "family": "Brake",
+        "given": "Doug"
+      },
+      {
+        "family": "Castro",
+        "given": "Daniel"
+      },
+      {
+        "family": "Cunliff",
+        "given": "Colin"
+      },
+      {
+        "family": "McLaughlin",
+        "given": "Micheal"
+      },
+      {
+        "family": "McQuinn",
+        "given": "Alan"
+      },
+      {
+        "family": "New",
+        "given": "Joshua"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          10,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rau2023",
+    "type": "article-journal",
+    "abstract": "On September 8th, the Fifth Circuit Court of Appeals of the United States partially upheld a decision that found several public officials had coerced social media companies into censoring speech protected by the First Amendment. Americans call this area of the law jawboning, in reference to the jawbone that is moved when we talk, which is the mechanism through which pressures of these sorts are exerted. It is an extremely complex area of law, in part because distinguishing when public officials cross that fuzzy legal line depends on assessing the nature actions that happen in private settings in light of vague and ambiguous criteria. In this piece, I explain why the occurrence of jawboning might be an inevitable feature of modern administrative governance, and outline both the unique challenge that underpins any attempt to legally regulate it as well as the urgency of doing so.",
+    "citation-key": "rau2023",
+    "container-title": "Verfassungsblog",
+    "DOI": "10.59704/79a4d763d29a6ea7",
+    "ISSN": "2366-7044",
+    "language": "eng",
+    "license": "CC BY-SA 4.0",
+    "source": "verfassungsblog.de",
+    "title": "Ruling by Bullying?",
+    "URL": "https://verfassungsblog.de/ruling-by-bullying/",
+    "author": [
+      {
+        "family": "Álvarez Ugarte",
+        "given": "Ramiro"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2024",
+          12,
+          3
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          10,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "hendrix2025",
+    "type": "webpage",
+    "abstract": "The Meta founder and CEO says \"it's time to get back to our roots around free expression on Facebook and Instagram.\"",
+    "citation-key": "hendrix2025",
+    "container-title": "Tech Policy Press",
+    "language": "en",
+    "title": "Transcript: Mark Zuckerberg Announces Major Changes to Meta's Content Moderation Policies and Operations | TechPolicy.Press",
+    "title-short": "Transcript",
+    "URL": "https://techpolicy.press/transcript-mark-zuckerberg-announces-major-changes-to-metas-content-moderation-policies-and-operations",
+    "author": [
+      {
+        "family": "Hendrix",
+        "given": "Justin"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          17
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          1,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "id": "iccpr",
+    "type": "legislation",
+    "citation-key": "iccpr",
+    "container-title": "U.N.T.S.",
+    "number": "999 U.N.T.S. 171",
+    "title": "Pacto Internacional de Derechos Civiles y Políticos",
+    "title-short": "PIDCyP",
+    "issued": {
+      "date-parts": [
+        [
+          "1966",
+          12,
+          16
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rau2020a",
+    "type": "report",
+    "abstract": "<p>The development of <span>Human Rights Impact Assessments (HRIAs)</span> has gained increasing attention as a tool for evaluating the intersection between cor",
+    "citation-key": "rau2020a",
+    "collection-title": "CELE Research Paper",
+    "genre": "Research Paper",
+    "number": "43",
+    "publisher": "CELE Research Paper Series",
+    "publisher-place": "Buenos Aires, Argentina",
+    "source": "papers.ssrn.com",
+    "title": "ICT and Human Rights: Towards a Conceptual Framework of Human Rights Impact Assessments",
+    "title-short": "ICT and Human Rights",
+    "author": [
+      {
+        "family": "Álvarez-Ugarte",
+        "given": "Ramiro"
+      },
+      {
+        "family": "Krauer",
+        "given": "Laura"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          8,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rau2023",
+    "type": "chapter",
+    "citation-key": "rau2023",
+    "collection-title": "Fallos de la CSJN",
+    "container-title": "xd Análisis, historia e impacto de los precedentes que marcaron criterios fundamentales de la jurisprudencia en materia penal",
+    "edition": "1",
+    "ISBN": "978-987-805-831-3",
+    "page": "109-125",
+    "publisher": "Editorial Hammurabi",
+    "publisher-place": "Buenos Aires",
+    "title": "El caso Baldivieso y el lento proceso de repolitización del aborto",
+    "volume": "2",
+    "author": [
+      {
+        "family": "Álvarez Ugarte",
+        "given": "Ramiro"
+      }
+    ],
+    "editor": [
+      {
+        "literal": "María Luisa Piqué"
+      },
+      {
+        "literal": "Diego Zysman Quirós"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "id": "khan2025",
+    "type": "report",
+    "abstract": "In the present report, submitted pursuant to Human Rights Council resolution 52/9, the Special Rapporteur on the promotion and protection of the right to freedom of opinion and expression, Irene Khan, examines the vital role of freedom of opinion and expression in ensuring free and fair elections. She identifies the key vulnerabilities of freedom of expression during elections, including an upsurge in disinformation and hate speech in polarized political contexts, the backsliding of social media platforms on their commitments to safety and electoral integrity and the weakening of traditional news media. The Special Rapporteur concludes that the decline in freedom of expression must be reversed if public trust in elections is to be restored.",
+    "citation-key": "khan2025",
+    "language": "en",
+    "note": "Institution: Koninklijke Brill NV",
+    "number": "A/HRC/59/50",
+    "publisher": "HRC",
+    "publisher-place": "Geneve, Switzerland",
+    "source": "DOI.org (Crossref)",
+    "title": "Freedom of expression and elections in the digital age",
+    "author": [
+      {
+        "family": "Khan",
+        "given": "Irene"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          7,
+          4
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          6,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "wikipedia_principles",
+    "type": "entry-encyclopedia",
+    "abstract": "Wikipedia:Five pillars: Perhaps the most popular, this was written as a simple summary for new editors.\nUser:Jimbo Wales/Statement of principles: One of the oldest, this statement of principles was written by Wikipedia cofounder Jimmy Wales.\nWikipedia:Trifecta: This three-point simplified ruleset was the precursor to the Five Pillars page.\nWikipedia:Core content policies: Brief summary and a bit of background on our core content policies.\nWikipedia:Wikipedia is an encyclopedia: Blunt and to the point laying out of what Wikipedia is\nWikipedia:Wikipedia in brief: Focuses on the encyclopedic nature of the project.\nWikipedia:Simplified ruleset: A longer page with more detail.\nWikipedia:Ethics: A list of various ethical codes\nWikipedia:Ethical Code for Wikipedians\nWikipedia:Purpose: Wikipedia's purpose\nUser:Andrewa/creed: What Wikipedians believe\nWikipedia:Pledges: Specific principles individual Wikipedians pledge to uphold\nWikipedia:Product, process, policy: The three Ps\nWikipedia:Here to build an encyclopedia: Behaviors that build, or destroy, the project.\nWikipedia:Eight simple rules for editing our encyclopedia\nWikipedia:Ten simple rules for editing Wikipedia\nWikipedia:Historical archive/Rules to consider\nWikipedia:Arbitration/Index/Principles: a compilation of principles stated by the Arbitration Committee in previous cases\nAll of these pages are intended to be informative and helpful to editors. None of these pages themselves are official policies or guidelines of the English Wikipedia community (see WP:Local consensus for details).",
+    "citation-key": "wikipedia_principles",
+    "container-title": "Wikipedia",
+    "language": "en",
+    "license": "Creative Commons Attribution-ShareAlike License",
+    "note": "Page Version ID: 1311622704",
+    "source": "Wikipedia",
+    "title": "Wikipedia:Principles",
+    "title-short": "Wikipedia",
+    "URL": "https://en.wikipedia.org/w/index.php?title=Wikipedia:Principles&oldid=1311622704",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          10,
+          1
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          9,
+          16
+        ]
+      ]
+    }
+  },
+  {
+    "id": "alvarezugarte2025",
+    "type": "article-journal",
+    "abstract": "This article argues that human rights impact assessments (HRIAs) in the technological sector are inherently handicapped by the voluntary approach to business and human rights in which they are conceptually and genealogically embedded. It argues that they are—by themselves—incapable of addressing the problems of vagueness, disagreement, and paradoxes that affect human rights law and the limited knowledge we have regarding the effects technology has on society. The former is a legal problem; the latter is epistemological. While neither of these obstacles, properly understood, are insurmountable, meeting them presents a few challenges. This article explains why and offers possible strategies and a path forward, based on a critique of the voluntary framework and its implied denial of human rights as legal concepts and institutions.",
+    "citation-key": "alvarezugarte2025",
+    "container-title": "Transnational Legal Theory",
+    "DOI": "10.1080/20414005.2025.2576430",
+    "issue": "4",
+    "language": "en",
+    "page": "611-635",
+    "source": "www.tandfonline.com",
+    "title": "Bad cover versions of law: on the inherent limits of voluntary human rights obligations, as applied to internet companies doing content moderation : Vol 16 , No 4 - Get Access",
+    "title-short": "Bad cover versions of law",
+    "URL": "https://www.tandfonline.com/doi/full/10.1080/20414005.2025.2576430",
+    "volume": "16",
+    "author": [
+      {
+        "family": "Álvarez Ugarte",
+        "given": "Ramiro"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          2,
+          11
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          10,
+          26
+        ]
+      ]
+    }
+  },
+  {
+    "id": "delcampo2026",
+    "type": "chapter",
+    "citation-key": "delcampo2026",
+    "container-title": "Trust, Safety, and the Internet We Share: Multistakeholder Insights",
+    "edition": "1st",
+    "ISBN": "978-1-041-02819-2",
+    "publisher": "Routledge",
+    "publisher-place": "London",
+    "title": "Trust and Safety's Blindspots. A Latin American Perspective",
+    "author": [
+      {
+        "family": "Del Campo",
+        "given": "Agustina"
+      },
+      {
+        "family": "Álvarez Ugarte",
+        "given": "Ramiro"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Levy Daniel",
+        "given": "Maia"
+      },
+      {
+        "family": "Menking",
+        "given": "Amanda"
+      },
+      {
+        "family": "Savio",
+        "given": "Marlyn"
+      },
+      {
+        "family": "Claffey",
+        "given": "Jean"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2026"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "delcampo2026",
+    "type": "report",
+    "citation-key": "delcampo2026",
+    "publisher": "Global Partners Digital",
+    "publisher-place": "London, UK",
+    "title": "Data access for researchers within digital platforms: Unpacking the human rights implications, practical opportunities and challenges for the Global Majority",
+    "URL": "https://www.gp-digital.org/publication/data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority/",
+    "author": [
+      {
+        "family": "Del Campo",
+        "given": "Agustina"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2026",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "id": "article2018",
+    "type": "report",
+    "citation-key": "article2018",
+    "language": "en",
+    "publisher": "Article 19",
+    "publisher-place": "London",
+    "source": "Zotero",
+    "title": "Side-stepping rights: Regulating speech by Contract",
+    "author": [
+      {
+        "literal": "Article 19"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "delcampo2025b",
+    "type": "paper-conference",
+    "abstract": "The Digital Services Act can potentially become a tool for change toward a more rights-abiding, competitive European digital platform ecosystem. However, as it currently stands, it is prone to be misused as a powerful tool for censorship as well as a tool to displace human rights as the backbone of the rule of law in modern democracies. Its risk-based and “new governance” approach to regulation puts rights on the back burner, and, while paying lip service to them, takes them off the center stage. This is problematic, for the incentives of the regulation and the oversight and enforcement mechanisms it establishes may channel the violation of fundamental rights. This paper proposes ways to correct this in the incipient enforcement and interpretative stage of the statute. In particular, we propose to adopt a working definition for “systemic risks”, clarify and narrow the individual risks identified, interpret them in light of human rights standards; take proportionality seriously and refine oversight; allow room for transparency and accountability for the oversight mechanisms, and bring back the State as a potential source of risks to human rights and other paramount values the DSA seeks to protect.",
+    "citation-key": "delcampo2025b",
+    "container-title": "Proceedings of Fourth European Workshop on Algorithmic Fairness",
+    "event-title": "European Workshop on Algorithmic Fairness",
+    "ISSN": "2640-3498",
+    "language": "en",
+    "page": "265-280",
+    "publisher": "PMLR",
+    "source": "proceedings.mlr.press",
+    "title": "Reclaiming Human Rights for Platform Governance: Proposals for Restoring Their Centrality in the Era of Risks",
+    "title-short": "Reclaiming Human Rights for Platform Governance",
+    "URL": "https://proceedings.mlr.press/v294/del-campo25a.html",
+    "author": [
+      {
+        "family": "Del Campo",
+        "given": "Agustina"
+      },
+      {
+        "family": "Zara",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Alvarez Ugarte",
+        "given": "Ramiro"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          1,
+          6
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          7,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "dvoskin2023",
+    "type": "article-journal",
+    "citation-key": "dvoskin2023",
+    "container-title": "Harvard International Law Journal",
+    "issue": "1",
+    "page": "85-135",
+    "title": "Expert Governance of Online Speech",
+    "volume": "64",
+    "author": [
+      {
+        "family": "Dvoskin",
+        "given": "Brenda"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "MarcoJuridicoInteramericano2025",
+    "type": "report",
+    "citation-key": "MarcoJuridicoInteramericano2025",
+    "publisher": "Comisión Interamericana de Derechos Humanos",
+    "title": "Marco jurídico interamericano sobre el derecho a la libertad de expresión",
+    "URL": "https://www.oas.org/es/cidh/expresion/informes/marcojuridico2025es.pdf",
+    "author": [
+      {
+        "literal": "Relatoría Especial para la Libertad de Expresión"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "delcampo2025a",
+    "type": "article",
+    "citation-key": "delcampo2025a",
+    "collection-number": "64",
+    "collection-title": "CELE Research Paper",
+    "DOI": "http://dx.doi.org/10.2139/ssrn.5161173",
+    "title": "Are Risks the New Rights? The Perils of Risk-based Approaches to Speech Regulation (Forthcoming)",
+    "author": [
+      {
+        "family": "Del Campo",
+        "given": "Agustina"
+      },
+      {
+        "family": "Zara",
+        "given": "Nicolás"
+      },
+      {
+        "family": "Álvarez Ugarte",
+        "given": "Ramiro"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "id": "palumbo2026",
+    "type": "post-weblog",
+    "citation-key": "palumbo2026",
+    "container-title": "DSA Observatory",
+    "title": "What makes a risk “systemic”? The CJEU’s first interpretation of systemic risks under the Digital Services Act",
+    "URL": "https://dsa-observatory.eu/2026/05/06/what-makes-a-risk-systemic-the-cjeus-first-interpretation-of-systemic-risks-under-the-digital-services-act/",
+    "author": [
+      {
+        "family": "Palumbo",
+        "given": "Andrea"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          6,
+          5
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2026",
+          6,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "eucom2020",
+    "type": "report",
+    "citation-key": "eucom2020",
+    "publisher-place": "Brussels",
+    "title": "Impact Asessment accompanying the Proposal for a Regulation on a Single Market on Digital Services (Digital Services Act) and amending Directive 2000/31/EC",
+    "author": [
+      {
+        "literal": "European Commission"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          12,
+          15
+        ]
+      ]
+    }
+  },
+  {
+    "id": "cjeu2025",
+    "type": "legal_case",
+    "authority": "Court of Justice of the European Union",
+    "citation-key": "cjeu2025",
+    "number": "T‑367/23",
+    "title": "Amazon v. European Commission",
+    "URL": "https://infocuria.curia.europa.eu/tabs/document?source=document&text=&docid=306323&pageIndex=0&doclang=en&mode=lst&dir=&occ=first&part=1&cid=670858",
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          6,
+          5
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          11,
+          19
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tspa",
+    "type": "post-weblog",
+    "citation-key": "tspa",
+    "title": "The Purpose and Role of T&S Teams",
+    "URL": "https://www.tspa.org/curriculum/ts-fundamentals/industry-overview/ts-teams/",
+    "author": [
+      {
+        "literal": "Trust & Safety Professional Association"
+      }
+    ]
+  },
+  {
+    "id": "helmke2006",
+    "type": "book",
+    "abstract": "Accommodating informal institutions and Chilean democracy /Peter Siavelis --How informal institutions shape the Brazilian legislative arena /Scott Desposato --Ghost coalitions : informal institutions and economic reform in Ecuador /Andres Mejia --Informal institutions when formal contracting is prohibited: campaign finance in Brazil /David Samuels --The difficult road from Caudillismo to democracy, or can clientelism complement democratic electoral institutions? : the Honduran case /Michelle M. Taylor-Robinson --Do informal rules make democracy work? : accounting for accountability in Argentina /Susan Stokes --The birth and transformation of the Dedazo in Mexico /Joy Langston --Bridesmaid insurance and the survival of Chile's concertación /John Carey and Peter Siavelis --Informal party organization in Latin America /Flavia Freidenberg and Steven Levitsky --The rule of (non) law : prosecuting police killings in Brazil and Argentina /Daniel M. Brinks --Mexico's post-electoral concertacesiones : the rise and demise of a substitutive informal institution /Todd A. Eisenstadt --Dispensing justice at the margins of formality : the informal rule of law in Latin America /Donna Lee Van Cott --Comparative and theoretical perspectives /Gretchen Helmke and Steven Levitsky --On informal institutions, once again (an afterward) /Guillermo O'Donnell",
+    "citation-key": "helmke2006",
+    "ISBN": "978-0-8018-8351-4",
+    "language": "eng",
+    "number-of-pages": "1",
+    "publisher": "Johns Hopkins University Press",
+    "publisher-place": "Baltimore",
+    "source": "K10plus ISBN",
+    "title": "Informal institutions and democracy: lessons from Latin America",
+    "title-short": "Informal institutions and democracy",
+    "editor": [
+      {
+        "family": "Helmke",
+        "given": "Gretchen"
+      },
+      {
+        "family": "Levitsky",
+        "given": "Steven"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2006"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "vandekerkhof2024",
+    "type": "chapter",
+    "citation-key": "vandekerkhof2024",
+    "container-title": "European Yearbook of Constitutional Law 2023",
+    "DOI": "10.1007/978-94-6265-647-5_4",
+    "ISBN": "978-94-6265-646-8",
+    "language": "en",
+    "note": "collection-title: European Yearbook of Constitutional Law",
+    "page": "61-85",
+    "publisher": "T.M.C. Asser Press",
+    "publisher-place": "The Hague",
+    "source": "DOI.org (Crossref)",
+    "title": "Jawboning Content Moderation from a European Perspective",
+    "URL": "https://link.springer.com/10.1007/978-94-6265-647-5_4",
+    "volume": "5",
+    "editor": [
+      {
+        "family": "Van Oirsouw",
+        "given": "Charlotte"
+      },
+      {
+        "family": "De Poorter",
+        "given": "Jurgen"
+      },
+      {
+        "family": "Leijten",
+        "given": "Ingrid"
+      },
+      {
+        "family": "Van Der Schyff",
+        "given": "Gerhard"
+      },
+      {
+        "family": "Stremler",
+        "given": "Maarten"
+      },
+      {
+        "family": "De Visser",
+        "given": "Maartje"
+      }
+    ],
+    "author": [
+      {
+        "family": "Van De Kerkhof",
+        "given": "Jacob J. W."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          4,
+          8
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "gillespie2019",
+    "type": "book",
+    "citation-key": "gillespie2019",
+    "DOI": "10.12987/9780300235029",
+    "ISBN": "978-0-300-23502-9",
+    "publisher": "Yale University Press",
+    "source": "DOI.org (Crossref)",
+    "title": "Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media",
+    "title-short": "Custodians of the Internet",
+    "URL": "https://www.degruyter.com/document/doi/10.12987/9780300235029/html",
+    "author": [
+      {
+        "family": "Gillespie",
+        "given": "Tarleton"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          4,
+          27
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          12,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "id": "gillespie2018",
+    "type": "article-journal",
+    "citation-key": "gillespie2018",
+    "container-title": "GEO. L. TECH. REV.",
+    "issue": "198",
+    "publisher": "Georgetown University",
+    "title": "Platforms Are Not Intermediaries",
+    "URL": "https://georgetownlawtechreview.org/wp-content/uploads/2018/07/2.2-Gilespie-pp-198-216.pdf",
+    "volume": "2",
+    "author": [
+      {
+        "family": "Gillespie",
+        "given": "Tarleton"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "2021a",
+    "type": "legal_case",
+    "authority": "Meta's Oversight Board",
+    "citation-key": "2021a",
+    "title": "Breast cancer symptoms and nudity",
+    "URL": "https://www.oversightboard.com/decision/ig-7thr3si1/",
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          1,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "id": "unhumanrightscommitteehrc2011",
+    "type": "report",
+    "citation-key": "unhumanrightscommitteehrc2011",
+    "number": "CCPR/C/GC/34",
+    "title": "General comment no. 34, Article 19, Freedoms of opinion and expression",
+    "URL": "https://www.ohchr.org/sites/default/files/english/bodies/hrc/docs/gc34.pdf",
+    "author": [
+      {
+        "family": "UN Human Rights Committee (HRC)",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011",
+          9,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "2021",
+    "type": "legal_case",
+    "authority": "Meta's Oversight Board",
+    "citation-key": "2021",
+    "number": "Case No. 2021-001-FB-FBR",
+    "title": "President Trump’s Suspension",
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          5,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "bsr2021",
+    "type": "report",
+    "citation-key": "bsr2021",
+    "title": "A Human Rights-Based Approach to Content Governance",
+    "URL": "https://www.bsr.org/reports/A_Human_Rights-Based_Approach_to_Content_Governance.pdf",
+    "author": [
+      {
+        "family": "BSR",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "kaye2018",
+    "type": "report",
+    "citation-key": "kaye2018",
+    "publisher": "Special Rapporteur on the promotion and protection of the right to freedom of opinion and expression",
+    "title": "Report of the Special Rapporteur on the promotion and protection of the right to freedom of opinion and expression",
+    "author": [
+      {
+        "family": "Kaye",
+        "given": "David"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          4,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "id": "vacavillareal2024",
+    "type": "report",
+    "citation-key": "vacavillareal2024",
+    "publisher": "elatoría Especial para la Libertad de Expresión de la Comisión Interamericana de Derechos Humanos",
+    "title": "Inclusión digital y gobernanza de contenidos en internet",
+    "author": [
+      {
+        "family": "Vaca Villareal",
+        "given": "Pedro"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          6,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rozindosandoli2021",
+    "type": "post-weblog",
+    "citation-key": "rozindosandoli2021",
+    "container-title": "Masstricht University",
+    "title": "Freedom of expression & content moderation on social media: the promises and challenges of experimental accountability",
+    "URL": "https://www.maastrichtuniversity.nl/blog/2021/08/freedom-expression-content-moderation-social-media-promises-and-challenges-experimental",
+    "author": [
+      {
+        "family": "Rozindo Sandoli",
+        "given": "Chleo"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          8,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "quintais2023",
+    "type": "article-journal",
+    "abstract": "Abstract\n            Large online platforms provide an unprecedented means for exercising freedom of expression online and wield enormous power over public participation in the online democratic space. However, it is increasingly clear that their systems, where (automated) content moderation decisions are taken based on a platformʼs terms and conditions (T&Cs), are fundamentally broken. Content moderation systems have been said to undermine freedom of expression, especially where important public interest speech ends up suppressed, such as speech by minority and marginalized groups. Indeed, these content moderation systems have been criticized for their overly vague rules of operation, inconsistent enforcement, and an overdependence on automation. Therefore, in order to better protect freedom of expression online, international human rights bodies and civil society organizations have argued that platforms “should incorporate directly” principles of fundamental rights law into their T&Cs. Under EU law, and apart from a rule in the Terrorist Content Regulation, platforms had until recently no explicit obligation to incorporate fundamental rights into their T&Cs. However, an important provision in the Digital Services Act (DSA) will change this. Crucially, Article 14 DSA lays down new rules on how platforms can enforce their T&Cs, including that platforms must have “due regard” to the “fundamental rights” of users under the EU Charter of Fundamental Rights. In this article, we critically examine the topic of enforceability of fundamental rights via T&Cs through the prism of Article 14 DSA. We ask whether this provision requires platforms to apply EU fundamental rights law and to what extent this may curb the power of Big Tech over online speech. We conclude that Article 14 will make it possible, in principle, to establish the indirect horizontal effect of fundamental rights in the relationship between online platforms and their users. But in order for the application and enforcement of T&Cs to take due regard of fundamental rights, Article 14 must be operationalized within the framework of the international and European fundamental rights standards. If this is possible Article 14 may fulfil its revolutionary potential.",
+    "citation-key": "quintais2023",
+    "container-title": "German Law Journal",
+    "DOI": "10.1017/glj.2023.53",
+    "ISSN": "2071-8322",
+    "issue": "5",
+    "journalAbbreviation": "German Law Journal",
+    "language": "en",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "page": "881-911",
+    "source": "DOI.org (Crossref)",
+    "title": "Using Terms and Conditions to apply Fundamental Rights to Content Moderation",
+    "URL": "https://www.cambridge.org/core/product/identifier/S2071832223000536/type/journal_article",
+    "volume": "24",
+    "author": [
+      {
+        "family": "Quintais",
+        "given": "João Pedro"
+      },
+      {
+        "family": "Appelman",
+        "given": "Naomi"
+      },
+      {
+        "family": "Ó Fathaigh",
+        "given": "Ronan"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          4,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "zotero-item-623",
+    "type": "report",
+    "citation-key": "zotero-item-623",
+    "title": "Report of the Special Rapporteur on the promotion and protection of the right to freedom of opinion and expression",
+    "URL": "https://www2.ohchr.org/english/bodies/hrcouncil/docs/17session/A.HRC.17.27_en.pdf",
+    "author": [
+      {
+        "family": "La Rue",
+        "given": "Frank"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "lwin2020",
+    "type": "article-journal",
+    "citation-key": "lwin2020",
+    "container-title": "Yale Journal on Regulation",
+    "issue": "53",
+    "title": "Applying International Human Rights Law for Use by Facebook",
+    "URL": "https://www.yalejreg.com/bulletin/applying-international-human-rights-law-for-use-by-facebook/",
+    "volume": "38",
+    "author": [
+      {
+        "family": "Lwin",
+        "given": "Michael"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          9,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "id": "zotero-item-621",
+    "type": "legal_case",
+    "authority": "United States Court of Appeals for the Second Circuit",
+    "citation-key": "zotero-item-621",
+    "title": "Knight First Amendment Institute v. Trump",
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          7,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "id": "delcampo2025dc",
+    "type": "article-journal",
+    "citation-key": "delcampo2025dc",
+    "title": "Digital Constitutionalism in Latin America",
+    "URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5227786",
+    "author": [
+      {
+        "family": "Del Campo",
+        "given": "Agustina"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "dtsp2023",
+    "type": "entry-dictionary",
+    "citation-key": "dtsp2023",
+    "container-title": "Trust & Safety Glossary of Terms",
+    "language": "en",
+    "source": "Zotero",
+    "title": "Trust and Safety",
+    "URL": "https://dtspartnership.org/wp-content/uploads/2024/07/DTSP_Trust-Safety-Glossary_CC.pdf",
+    "author": [
+      {
+        "literal": "Digital Trust & Safety Partnership"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "balkin2017",
+    "type": "article-journal",
+    "citation-key": "balkin2017",
+    "container-title": "SSRN Electronic Journal",
+    "DOI": "10.2139/ssrn.3038939",
+    "ISSN": "1556-5068",
+    "journalAbbreviation": "SSRN Journal",
+    "language": "en",
+    "source": "DOI.org (Crossref)",
+    "title": "Free Speech in the Algorithmic Society: Big Data, Private Governance, and New School Speech Regulation",
+    "title-short": "Free Speech in the Algorithmic Society",
+    "URL": "https://www.ssrn.com/abstract=3038939",
+    "author": [
+      {
+        "family": "Balkin",
+        "given": "Jack M."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          4,
+          21
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "kellerdaphne2021",
+    "type": "post-weblog",
+    "citation-key": "kellerdaphne2021",
+    "container-title": "The Center for Internet and Society",
+    "title": "Empirical Evidence of Over-Removal by Internet Companies under Intermediary Liability Laws: An Updated List",
+    "URL": "https://cyberlaw.stanford.edu/blog/2021/02/empirical-evidence-over-removal-internet-companies-under-intermediary-liability-laws",
+    "author": [
+      {
+        "literal": "Keller, Daphne"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          8,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "id": "keller2019",
+    "type": "article-journal",
+    "citation-key": "keller2019",
+    "container-title": "Aegis Series Paper No. 1902",
+    "publisher": "Hoover Institution Essay",
+    "title": "Who do you sue? State and Platform Power over Online Speech",
+    "URL": "https://www.hoover.org/sites/default/files/research/docs/who-do-you-sue-state-and-platform-hybrid-power-over-online-speech_0.pdf",
+    "author": [
+      {
+        "family": "Keller",
+        "given": "Daphne"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          1,
+          29
+        ]
+      ]
+    }
+  },
+  {
+    "id": "delcampo2025",
+    "type": "article",
+    "citation-key": "delcampo2025",
+    "DOI": "10.2139/ssrn.5355934",
+    "publisher": "SSRN",
+    "source": "DOI.org (Crossref)",
+    "title": "Trust and Safety's Blindspots: A Latin American Perspective",
+    "title-short": "Trust and Safety's Blindspots",
+    "URL": "https://www.ssrn.com/abstract=5355934",
+    "author": [
+      {
+        "family": "Del Campo",
+        "given": "Agustina"
+      },
+      {
+        "family": "Álvarez-Ugarte",
+        "given": "Ramiro"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          3,
+          9
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "husovec2023",
+    "type": "article-journal",
+    "citation-key": "husovec2023",
+    "DOI": "10.15779/Z38M902431",
+    "publisher": "Berkeley Technology Journal",
+    "source": "DOI.org (Datacite)",
+    "title": "Rising Above Liability: The Digital Services Act as a Blueprint for the Second Generation Of Global Internet Rules",
+    "title-short": "Rising Above Liability",
+    "URL": "https://lawcat.berkeley.edu/record/1287997",
+    "author": [
+      {
+        "family": "Husovec",
+        "given": "Martin"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          3,
+          9
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "husovec2026",
+    "type": "article-journal",
+    "abstract": "Abstract\n            While the EU’s Digital Services Act and the UK’s Online Safety Act represent a major shift in Internet regulation, they suffer from a critical structural gap. These frameworks focus primarily on ‘defensive empowerment’—enabling users to block or report unwanted content while neglecting constructive empowerment—the ability of users to decide what information they wish to see. The article argues that without collective institutions to signal content quality, users cannot assess quality beforehand, creating a market failure that pushes out expensive, high-quality content in favour of cheap, sensationalist, algorithm-driven content. To bridge this gap, the article proposes the creation of trusted content creators: voluntary, self-governing groups of like-minded content creators that certify content quality through cross-platform labels. By mandating that platforms allow users to filter their feeds through these external quality signals, the law can decentre the role of algorithmic curation and create new markets.",
+    "citation-key": "husovec2026",
+    "container-title": "Oxford Journal of Legal Studies",
+    "DOI": "10.1093/ojls/gqag013",
+    "ISSN": "0143-6503, 1464-3820",
+    "language": "en",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "gqag013",
+    "source": "DOI.org (Crossref)",
+    "title": "The Missing Link: How New Institutions Could Improve What We Read Online",
+    "title-short": "The Missing Link",
+    "URL": "https://academic.oup.com/ojls/advance-article/doi/10.1093/ojls/gqag013/8654427",
+    "author": [
+      {
+        "family": "Husovec",
+        "given": "Martin"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          4,
+          20
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2026",
+          4,
+          15
+        ]
+      ]
+    }
+  },
+  {
+    "id": "zara2025",
+    "type": "report",
+    "citation-key": "zara2025",
+    "number": "5",
+    "publisher": "Center for Studies on Freedom of Expression and Access to Information (CELE)",
+    "title": "Tribunal Europeo de Derechos Humanos: Caso de Google LLC y otros contra Rusia",
+    "URL": "https://observatoriolegislativocele.com/wp-content/uploads/informe-de-jurisprudencia-5-rusia.pdf",
+    "author": [
+      {
+        "family": "Zara",
+        "given": "Nicolas"
+      },
+      {
+        "family": "Palacios",
+        "given": "Lina"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "gonzalezmama2023",
+    "type": "thesis",
+    "citation-key": "gonzalezmama2023",
+    "publisher": "Universidad de San Andrés",
+    "title": "Problemas asociados a la regulación de la responsabilidad de intermediarios en acuerdos comerciales",
+    "URL": "https://dspaceapi.live.udesa.edu.ar/server/api/core/bitstreams/49af1a9c-e9f5-460d-a7bf-c9e385490478/content",
+    "author": [
+      {
+        "family": "Gonzalez Mama",
+        "given": "Matias"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          8,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "id": "barata2025",
+    "type": "post-weblog",
+    "citation-key": "barata2025",
+    "container-title": "The Bedrock Principle",
+    "title": "Online Platforms' Speech Rights According to the European Court of Human Rights: Google v. Russia",
+    "URL": "https://www.bedrockprinciple.com/p/online-platforms-speech-rights-according",
+    "author": [
+      {
+        "family": "Barata",
+        "given": "Joan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          7,
+          15
+        ]
+      ]
+    }
+  },
+  {
+    "id": "bhagwat2021",
+    "type": "article-journal",
+    "abstract": "Social media today plays a central, albeit vexing and divisive role in our social and political culture. In response to the alleged failures of social media, a vast array of regulatory proposals have been advanced, and in some cases legislatively enacted, that would restrict the ways in which social media platform owners may moderate content on their platforms. These proposals include, among other things, imposing common carrier status on platforms (an approach endorsed by Justice Thomas in a recent separate opinion), requiring viewpoint-neutral content moderation policies, and restricting or conditioning platforms’ Section 230 immunities in various ways. What all of these proposals have in common is that they seek to impose legal restrictions on how social media platforms control the content that they host, refuse to host, display, and prioritize.\n\nThese proposals are in deep tension with the idea that platforms themselves have First Amendment rights to control what content is available or visible on their platforms—what I call editorial rights. This article considers whether, and to what extent, social media platforms enjoy First Amendment editorial rights, and the implications of those rights for assorted regulatory initiatives.\n\nI begin by defining First Amendment editorial rights, and distinguishing between different kinds of editorial rights. I then examine how, and to what extent, the courts have extended editorial rights to new communications technologies. I next turn to the specific question of internet platform editorial rights, concluding that social media platforms should indeed enjoy substantial editorial rights, though probably fewer than prototypical holders of editorial rights such as print newspapers. I conclude by considering whether current regulatory proposals are consistent with these editorial rights.",
+    "citation-key": "bhagwat2021",
+    "container-title": "Journal of Free Speech Law",
+    "issue": "97",
+    "publisher": "University of California, Davis - School of Law",
+    "title": "Do Platforms Have Editorial Rights?",
+    "URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3882984",
+    "volume": "1",
+    "author": [
+      {
+        "family": "Bhagwat",
+        "given": "Ashutosh A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          8,
+          26
+        ]
+      ]
+    }
+  },
+  {
+    "id": "alvarez-ugarte2025",
+    "type": "article-journal",
+    "citation-key": "alvarez-ugarte2025",
+    "container-title": "Transnational Legal Theory",
+    "DOI": "10.1080/20414005.2025.2576430",
+    "ISSN": "2041-4005, 2041-4013",
+    "issue": "4",
+    "journalAbbreviation": "Transnational Legal Theory",
+    "language": "en",
+    "page": "611-635",
+    "source": "DOI.org (Crossref)",
+    "title": "Bad cover versions of law: on the inherent limits of voluntary human rights obligations, as applied to internet companies doing content moderation",
+    "title-short": "Bad cover versions of law",
+    "URL": "https://www.tandfonline.com/doi/full/10.1080/20414005.2025.2576430",
+    "volume": "16",
+    "author": [
+      {
+        "family": "Álvarez-Ugarte",
+        "given": "Ramiro"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          3,
+          9
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          10,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "id": "gonzalezmama2026",
+    "type": "article-journal",
+    "abstract": "<span>The goal of this study is to define the scope of the public forum doctrine in the United States and assess its applicability to social media. Although this research is conducted from a Latin American perspective, the focus on the United States is justified for two reasons. First, one of the earliest explicit references to social media as public forums emerged in the United States. Second, the United States has a well-established body of case law on the public forum doctrine, where its nuances and complexities have been thoroughly analyzed. These perspectives can be valuable for enriching debates on freedom of expression on the internet in Latin America, particularly in understanding why social media platforms are increasingly referred to—both in media and academia—as the new public forums or public squares. First, the study examines the function of this metaphor in law, the characteristics of spaces designated as public forums, and, in particular, how discourse circulates (or should circulate) within them. This section is based on an analysis of U.S. case law, where the concept has been most extensively developed. The next section discusses various cases in which the metaphor of social media as a public forum has been used. The goal of this review is to determine whether its usage is consistent or varies depending on the specific case. In the final section, the study analyzes whether the metaphor accurately represents what it seeks to describe and whether there are potential adjustments or mismatches in its scope. This exercise aims to shed light on the implications of conceptualizing social media as a public forum, particularly regarding the right to freedom of expression and deliberation in a democratic society. Ultimately, the study seeks to determine whether this metaphor provides meaningful contributions to discussions on online speech regulation.</span>",
+    "citation-key": "gonzalezmama2026",
+    "container-title": "SSRN Electronic Journal",
+    "DOI": "10.2139/ssrn.6211978",
+    "ISSN": "1556-5068",
+    "journalAbbreviation": "SSRN Journal",
+    "language": "en",
+    "source": "DOI.org (Crossref)",
+    "title": "On the Metaphor of Social Media as a Public Forum in the United States",
+    "URL": "https://www.ssrn.com/abstract=6211978",
+    "author": [
+      {
+        "family": "Gonzalez Mama",
+        "given": "Matias"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          3,
+          9
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2026"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "klonick2018",
+    "type": "article-journal",
+    "citation-key": "klonick2018",
+    "container-title": "Harvard Law Review",
+    "issue": "6",
+    "page": "1598-1670",
+    "title": "The New Governors: the People, Rules and Processes Governing Online Speech",
+    "volume": "131",
+    "author": [
+      {
+        "family": "Klonick",
+        "given": "Kate"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "kuczerawy2025",
+    "type": "article-journal",
+    "abstract": "Abstract\n            This paper examines the evolution and implications of ‘must-carry’ obligations in the regulation of online platforms, with a focus on Europe. These obligations, which restrict platforms’ discretion to remove or deprioritise certain content, represent a novel regulatory response to the growing power of platforms in shaping public discourse. The analysis traces developments at EU and national levels. At the EU level, it considers rejected must-carry proposals during the drafting of the Digital Services Act (DSA) and the adoption of Article 18 of the European Media Freedom Act (EMFA), which grants privileges to recognised media service providers. At the national level, it examines Germany’s prohibition on content discrimination, the UK’s Online Safety Act, and Poland’s abandoned legislative proposal on freedom of expression online. Case law from courts in the Netherlands, Germany, Italy, and Poland further illustrates the emergence of judicially crafted duties resembling must-carry obligations. The paper argues that these measures are best understood as special treatment rules that privilege particular speakers, notably media organisations and politicians, by limiting platform autonomy in content moderation. While intended to safeguard pluralism and access to trustworthy information, such rules risk creating a two-tier system of expression in which established voices receive disproportionate protection while ordinary users remain vulnerable. Protections for politicians raise concerns about shielding powerful actors from justified moderation, whereas media privileges, though more defensible, remain limited in scope and potentially counterproductive, especially when exploited by outlets disseminating disinformation. The conclusion is that compelled inclusion and preferential treatment are unlikely to offer sustainable solutions to the structural imbalances between platforms, media providers, and politicians. More durable approaches should focus on strengthening journalism through financial and structural support, fostering innovation and local media, and prioritising user empowerment measures. Only systemic safeguards of this kind can effectively promote pluralism, accountability, and resilience in the digital public sphere.",
+    "citation-key": "kuczerawy2025",
+    "container-title": "European Law Open",
+    "DOI": "10.1017/elo.2025.10046",
+    "ISSN": "2752-6135",
+    "journalAbbreviation": "European Law Open",
+    "language": "en",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "1-34",
+    "source": "DOI.org (Crossref)",
+    "title": "‘Must-carry’, special treatment and freedom of expression on online platforms: a European story",
+    "title-short": "‘Must-carry’, special treatment and freedom of expression on online platforms",
+    "URL": "https://www.cambridge.org/core/product/identifier/S2752613525100465/type/journal_article",
+    "author": [
+      {
+        "family": "Kuczerawy",
+        "given": "Aleksandra"
+      },
+      {
+        "family": "Quintais",
+        "given": "João Pedro"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          3,
+          9
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          12,
+          15
+        ]
+      ]
+    }
+  }
+]

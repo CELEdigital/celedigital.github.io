@@ -80,6 +80,16 @@
   </url><url>
     <loc>http://localhost:1313/es/tags/publicaciones/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/publicaciones/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/publicaciones/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/tags/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>

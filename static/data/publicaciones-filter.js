@@ -124,43 +124,23 @@
       });
     });
 
-    // Multi-select button handler helper
-    function initMultiFilter(btns, attr, getActive, setActive) {
-      btns.forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          var val = btn.getAttribute(attr);
-          if (val === '') {
-            setActive([]);
-            btns.forEach(function (b) {
-              b.classList.toggle('is-active', b.getAttribute(attr) === '');
-            });
-          } else {
-            var current = getActive();
-            var idx = current.indexOf(val);
-            if (idx === -1) { current.push(val); } else { current.splice(idx, 1); }
-            setActive(current);
-            btns.forEach(function (b) {
-              var bVal = b.getAttribute(attr);
-              if (bVal === '') {
-                b.classList.toggle('is-active', current.length === 0);
-              } else {
-                b.classList.toggle('is-active', current.indexOf(bVal) !== -1);
-              }
-            });
-          }
-          applyFilter();
-        });
+    typeBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var val = btn.getAttribute('data-pub-filter-type');
+        activeTypes = val ? [val] : [];
+        typeBtns.forEach(function (b) { b.classList.toggle('is-active', b === btn); });
+        applyFilter();
       });
-    }
+    });
 
-    initMultiFilter(typeBtns, 'data-pub-filter-type',
-      function () { return activeTypes; },
-      function (v) { activeTypes = v; }
-    );
-    initMultiFilter(regionBtns, 'data-pub-filter-region',
-      function () { return activeRegions; },
-      function (v) { activeRegions = v.map(function (r) { return r.toLowerCase(); }); }
-    );
+    regionBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var val = btn.getAttribute('data-pub-filter-region');
+        activeRegions = val ? [val.toLowerCase()] : [];
+        regionBtns.forEach(function (b) { b.classList.toggle('is-active', b === btn); });
+        applyFilter();
+      });
+    });
 
     // Timeline slider handlers
     if (sliderMin && sliderMax) {

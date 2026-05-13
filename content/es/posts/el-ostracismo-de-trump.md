@@ -1,13 +1,11 @@
 ---
 author:
-- mmdg
+- Ramiro Álvarez Ugarte
 content_type:
 - blog
 date: '2021-01-12'
 description: La decisión de múltiples plataformas de excluir de sus servicios a Donald Trump importa un punto de inflexión
-  en el presente de la democracia que aún no comprendemos cabalmente. Un puñado de empresas privadas, sólo responsables ante
-  sus accionistas y usuarios, decidieron que el presidente saliente de un país democrático sea efectivamente excluido del
-  debate público, o al menos de una de sus principales formas—-la más cercana, horizontal, y directa.
+  en el presente de la democracia que aún no comprendemos cabalmente.
 featured: true
 image: /img/trump.jpg
 programs:

@@ -34,15 +34,23 @@
           <span class="blog-timeline__value" data-blog-timeline-label>{{ $minYear }} – {{ $maxYear }}</span>
         </div>
       </div>
-      <input
-        id="blog-search"
-        type="search"
-        class="blog-header-search"
-        data-blog-search
-        placeholder="Buscar…"
-        autocomplete="off"
-        aria-label="Buscar en el archivo"
-      >
+      <div class="blog-search-wrap">
+        <svg class="blog-search-wrap__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        <input
+          id="blog-search"
+          type="search"
+          class="blog-header-search"
+          data-blog-search
+          placeholder="Buscar en el archivo…"
+          autocomplete="off"
+          aria-label="Buscar en el archivo"
+        >
+        <button type="button" class="blog-search-wrap__clear" data-blog-search-clear aria-label="Borrar búsqueda">×</button>
+      </div>
+      <p class="blog-filter__count" data-blog-count></p>
       {{ with .Params.description }}<p class="section-hub__description">{{ . }}</p>{{ end }}
     </header>
 
@@ -120,7 +128,6 @@
 
       <div class="section-hub__blocks">
         <section class="section-block">
-          <p class="blog-filter__count" data-blog-count></p>
           <ul class="section-block__list" data-blog-list data-blog-step="10">
             {{ range $post := $posts }}
               {{ $issues := $post.Params.issues | default slice }}

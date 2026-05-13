@@ -4,14 +4,13 @@ author:
 content_type:
 - blog
 date: '2023-05-15'
-description: 'Regulación de plataformas en Brasil: necesidad, peligros y contradicciones En los últimos años, un creciente
-  número de Estados han buscado regular, de diversas formas, la circulación de la información en internet. Brasil'
+description: 'Necesidad, peligros y contradicciones.'
 featured: true
 image: /img/shutterstock_2262840399-scaled.jpg
 programs:
 - policy
 slug: regulacion-de-plataformas-en-brasil-necesidad-peligros-y-contradicciones
-title: 'Regulación de plataformas en Brasil: necesidad, peligros y contradicciones'
+title: 'Regulación de plataformas en Brasil'
 translationKey: wp-12085
 type: posts
 issues:

@@ -1,29 +1,71 @@
-/* ── Header search input ────────────────────────────────────── */
-.blog-header-search {
-  display: block;
-  width: 100%;
+/* ── Search wrapper ──────────────────────────────────────────── */
+.blog-search-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   margin-top: 1.25rem;
-  padding: 0.45rem 0;
+  border: 1.5px solid var(--neutral-300);
+  padding: 0.55rem 0.75rem;
+  background: #fff;
+  transition: border-color 150ms;
+}
+.blog-search-wrap:focus-within {
+  border-color: var(--cele);
+}
+.blog-search-wrap:focus-within .blog-search-wrap__icon {
+  color: var(--cele);
+}
+
+.blog-search-wrap__icon {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--neutral-400);
+  transition: color 150ms;
+}
+
+.blog-header-search {
+  flex: 1;
+  min-width: 0;
   border: none;
-  border-bottom: 2px solid var(--neutral-800);
-  border-radius: 0;
+  padding: 0;
   font: inherit;
-  font-size: clamp(1.4rem, 2.4vw, 1.9rem);
-  font-weight: 700;
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
+  font-weight: 600;
   background: transparent;
   color: inherit;
   outline: none;
-  box-sizing: border-box;
 }
-
 .blog-header-search::placeholder {
-  opacity: 0.35;
+  opacity: 0.4;
   font-weight: 400;
 }
 
-.blog-header-search:focus {
-  border-bottom-color: var(--neutral-800);
-  outline: none;
+.blog-search-wrap__clear {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  padding: 0 0.15rem;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--neutral-400);
+  cursor: pointer;
+  display: none;
+}
+.blog-search-wrap__clear:hover { color: var(--neutral-900); }
+
+/* Show clear btn when field has text — no JS needed */
+.blog-header-search:not(:placeholder-shown) ~ .blog-search-wrap__clear {
+  display: block;
+}
+
+/* Count annotation */
+.blog-filter__count {
+  font-size: 0.8rem;
+  color: var(--neutral-500);
+  letter-spacing: 0.04em;
+  margin: 0.4rem 0 0;
+  min-height: 1.2em;
 }
 
 /* ── Map canvas (fits inside .blog-nav sidebar) ────────────── */

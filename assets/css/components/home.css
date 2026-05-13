@@ -187,8 +187,14 @@
 .home-newsletter {
   background: var(--primary-dark);
   color: #fff;
-  margin: 3rem -1rem -1rem;
-  padding: 3rem 1rem;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: calc(50vw - 50% + 1rem);
+  padding-right: calc(50vw - 50% + 1rem);
 }
 .home-newsletter__inner {
   max-width: 36rem;

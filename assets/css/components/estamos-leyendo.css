@@ -2,6 +2,8 @@
 
 .home-reading {
   margin-bottom: 3rem;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 
 .reading-box {

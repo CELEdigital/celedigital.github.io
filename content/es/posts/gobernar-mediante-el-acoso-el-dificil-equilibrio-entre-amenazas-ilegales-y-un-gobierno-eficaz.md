@@ -4,14 +4,13 @@ author:
 content_type:
 - blog
 date: '2023-11-06'
-description: ¿Gobernar mediante el acoso? El difícil equilibrio entre amenazas ilegales y un gobierno eficaz Este artículo
-  fue originalmente publicado en inglés en Verfassungsbloghttps://verfassungsblog.de/ruling-by-bullying/. El 8 d
+description: El difícil equilibrio entre amenazas ilegales y un gobierno eficaz.
 featured: true
 image: /img/shutterstock_1470052430-scaled.jpg
 programs:
 - policy
 slug: gobernar-mediante-el-acoso-el-dificil-equilibrio-entre-amenazas-ilegales-y-un-gobierno-eficaz
-title: ¿Gobernar mediante el acoso? El difícil equilibrio entre amenazas ilegales y un gobierno eficaz
+title: ¿Gobernar mediante el acoso?
 translationKey: wp-12312
 type: posts
 issues:

@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2025-06-04'
-description: '¿Quiénes defienden la libertad de expresión en América Latina? Nuevos datos para una vieja discusión En América
-  Latina.' 
+description: 'Nuevos datos para una vieja discusión en América Latina.' 
 featured: true
 image: /img/shutterstock_416765146.jpg
 programs:
@@ -13,7 +12,7 @@ programs:
 slug: quienes-defienden-la-libertad-de-expresion-en-america-latina
 tags:
 - libertad de expresión en américa latina
-title: ¿Quiénes defienden la libertad de expresión en América Latina? Nuevos datos para una vieja discusión
+title: '¿Quiénes defienden la libertad de expresión en América Latina?'
 translationKey: wp-14568
 type: posts
 issues:

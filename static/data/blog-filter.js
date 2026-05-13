@@ -159,6 +159,17 @@
     });
   }
 
+  // Clear button
+  var clearBtn = document.querySelector('[data-blog-search-clear]');
+  if (clearBtn && searchInput) {
+    clearBtn.addEventListener('click', function () {
+      searchInput.value = '';
+      filterQuery = '';
+      applyFilter();
+      searchInput.focus();
+    });
+  }
+
   // Load more
   if (loadBtn) {
     loadBtn.addEventListener('click', function () {

@@ -2,7 +2,7 @@
 {{ $baseName := "" }}
 {{ with .File }}{{ $baseName = .BaseFileName }}{{ end }}
 {{ $isTeamPage := or (eq $baseName "equipo") (eq $baseName "team") }}
-{{ $isMissionPage := or (eq $baseName "mision") (eq $baseName "mission") (eq $baseName "contacto") (eq $baseName "contact") (eq $baseName "seminario") (eq $baseName "informes-anuales") (eq $baseName "talleres-legisladores") }}
+{{ $isMissionPage := or (eq $baseName "mision") (eq $baseName "mission") (eq $baseName "contacto") (eq $baseName "contact") (eq $baseName "seminario") (eq $baseName "informes-anuales") (eq $baseName "talleres-legisladores") (eq $baseName "transparencia") (eq $baseName "transparency") }}
 {{ $isAuthorPage := or (eq .Section "autores") (eq .Section "authors") }}
 {{ $isObservatorySubpage := and (or (eq .Section "observatorio-legislativo") (eq .Section "legislative-observatory")) (or (eq $baseName "metodologia") (eq $baseName "objetivos") (eq $baseName "methodology") (eq $baseName "objectives")) }}
 {{ if $isTeamPage }}

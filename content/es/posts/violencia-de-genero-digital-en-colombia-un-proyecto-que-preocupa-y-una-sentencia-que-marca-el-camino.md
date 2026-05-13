@@ -4,14 +4,13 @@ author:
 content_type:
 - blog
 date: '2023-05-22'
-description: 'Violencia de género digital en Colombia: un proyecto que preocupa y una sentencia que marca el camino Dos respuestas
-  institucionales para un objetivo común Las plataformas digitales han facilitado la toma de conciencia s'
+description: 'Un proyecto que preocupa y una sentencia que marca el camino.'
 featured: true
 image: /img/foto-mediana.jpg
 programs:
 - policy
 slug: violencia-de-genero-digital-en-colombia-un-proyecto-que-preocupa-y-una-sentencia-que-marca-el-camino
-title: 'Violencia de género digital en Colombia: un proyecto que preocupa y una sentencia que marca el camino'
+title: 'Violencia de género digital en Colombia'
 translationKey: wp-12089
 type: posts
 issues:

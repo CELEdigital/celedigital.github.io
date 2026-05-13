@@ -4,15 +4,14 @@ author:
 content_type:
 - blog
 date: '2023-05-04'
-description: 'CELE en el Día Mundial de la Libertad de Prensa: UNESCO mejora su borrador sobre regulación de plataformas,
-  pero se necesitan más esfuerzos en el proceso El 1 de mayo, UNESCO organizó la segunda consulta presencial sobre'
+description: 'UNESCO mejora su borrador sobre regulación de plataformas, pero se
+  necesitan más esfuerzos en el proceso'
 featured: true
 image: /img/unesco-2.jpg
 programs:
 - policy
 slug: cele-en-el-dia-mundial-de-la-libertad-de-prensa-unesco-mejora-su-borrador-sobre-regulacion-de-plataformas-pero-se-necesitan-mas-esfuerzos-en-el-proceso
-title: 'CELE en el Día Mundial de la Libertad de Prensa: UNESCO mejora su borrador sobre regulación de plataformas, pero se
-  necesitan más esfuerzos en el proceso'
+title: 'CELE en el Día Mundial de la Libertad de Prensa'
 translationKey: wp-12083
 type: posts
 issues:

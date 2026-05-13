@@ -46,7 +46,7 @@
   {{ if gt (len $recentPosts) 0 }}
   <section class="home-posts">
     <header class="home-section-header">
-      <h2 class="home-section-title">Últimas publicaciones</h2>
+      <h2 class="home-section-title">{{ i18n "hub_news" }}</h2>
       <a class="home-section-more" href="{{ "/posts/" | relLangURL }}">Ver todas →</a>
     </header>
     <div class="home-posts__grid">

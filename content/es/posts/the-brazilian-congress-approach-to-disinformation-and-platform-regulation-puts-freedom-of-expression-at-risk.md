@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2020-06-23'
-description: The COVID-19 pandemic and the political crisis following it in Brazil sparked legislative efforts to address
-  disinformation issues and platform regulation. Although it is maybe well-intended and relevant, this effort put
+description: The COVID-19 pandemic and the political crisis following it in Brazil sparked legislative efforts to address disinformation issues and platform regulation.
 featured: true
 image: /img/BLOG-230620.jpg
 programs:

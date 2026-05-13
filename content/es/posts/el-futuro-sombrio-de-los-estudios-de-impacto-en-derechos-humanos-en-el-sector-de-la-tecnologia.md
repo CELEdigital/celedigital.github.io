@@ -12,7 +12,7 @@ programs:
 slug: el-futuro-sombrio-de-los-estudios-de-impacto-en-derechos-humanos-en-el-sector-de-la-tecnologia
 tags:
 - estudios de impacto en derechos humanos
-title: El futuro sombrío de los estudios de impacto en derechos humanos en el sector de la tecnología
+title: El futuro sombrío de los estudios de impacto en derechos humanos
 translationKey: wp-14551
 type: posts
 issues:

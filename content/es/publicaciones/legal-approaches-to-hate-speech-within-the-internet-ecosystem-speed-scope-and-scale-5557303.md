@@ -27,5 +27,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_70_ENG.pdf"
+cover: "/covers/Artículo_de_investigación_70_ENG.jpg"
 ---
 The debate over how to de"ne hate speech, particularly in the online world, is far from settled. Defnitions from international documents are still vague and ambiguous, whereas States around the world have been adopting in their respective legal systems diverse definitions of hate speech. In this context, some States may have stepped beyond the thresholds established under international human rights law by using this concept as a way of categorizing ideas that the majority or those in power may f

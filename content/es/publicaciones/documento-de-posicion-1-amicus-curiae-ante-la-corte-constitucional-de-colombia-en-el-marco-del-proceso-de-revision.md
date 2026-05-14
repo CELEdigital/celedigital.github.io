@@ -14,6 +14,8 @@ reference_value: "1"
 language: ""
 citation: "Eduardo Bertoni, “Amicus curiae ante la Corte Constitucional de Colombia en el marco del proceso de revisión de la Ley 1520 (Ley Lleras)”, Documento de posición No. 1, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2012)"
 link: "https://www.palermo.edu/cele/pdf/Amicus-Curie-CELE.pdf"
+file: "/files/Documento_de_posición_1.pdf"
+cover: "/covers/Documento_de_posición_1.jpg"
 ---
 Eduardo Bertoni, “Amicus curiae ante la Corte Constitucional de Colombia en el marco del proceso de revisión de la Ley 1520 (Ley Lleras)”, Documento de posición No. 1, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2012)
 

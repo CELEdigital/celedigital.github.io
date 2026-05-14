@@ -30,5 +30,7 @@ placements:
   block: publicaciones
 - hub: region/europa
   block: publicaciones
+file: "/files/Artículo_de_investigación_69_ENG.pdf"
+cover: "/covers/Artículo_de_investigación_69_ENG.jpg"
 ---
 This paper critically assesses the European approach to regulating online hate speech through platform liability frameworks, focusing on Germany''s Network Enforcement Act (NetzDG) and the European Union''s Digital Services Act. It argues that these laws, while aiming to curb online harm, risk infringing on the right to freedom of expression and non-discrimination by delegating content moderation powers to private, profit-driven companies. The paper highlights how tight removal deadlines, legal

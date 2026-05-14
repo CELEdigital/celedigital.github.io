@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2022-11-23'
-description: Internet y la protesta digital en manos de la Corte Constitucional de Colombia Las organizaciones El Veinte,
-  Fundación Karisma, Fundación para la Libertad de Prensa y el Centro ISUR de la Universidad del Rosario presenta
+description: ""
 featured: true
 image: /img/posteo-Colombia-LINA-Nov-2022.pdf
 programs:

@@ -13,7 +13,7 @@ programs:
 slug: osint-e-inteligencia-artificial-una-mirada-regional-sobre-una-combinacion-explosiva-por-nicolas-zara
 tags:
 - privacidad y vigilancia
-title: 'OSINT e inteligencia artificial: una mirada regional sobre una combinación explosiva, por Nicolás Zara'
+title: 'OSINT e inteligencia artificial: una mirada regional sobre una combinación explosiva'
 translationKey: wp-13656
 type: posts
 issues:

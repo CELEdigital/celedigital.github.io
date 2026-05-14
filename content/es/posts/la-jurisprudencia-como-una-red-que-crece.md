@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2022-03-16'
-description: La jurisprudencia como una red que crece Durante el 2021, desde el CELE llevamos adelante una investigación sobre
-  la jurisprudencia civil en materia de responsabilidad de intermediarios. El tema nos interesa, ya que el r
+description: "Durante el 2021, desde el CELE llevamos adelante una investigación sobre la jurisprudencia civil en materia de responsabilidad de intermediarios."
 featured: true
 image: /img/muestra1.png
 programs:

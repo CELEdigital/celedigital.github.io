@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-11-25'
-description: Towards a regulatory threats comparative research agenda It was our pleasure to host this online Symposium on
-  regulatory threatshttps://observatoriolegislativocele.com/tag/simposioamenazas/. As mentioned in the opening p
+description: "It was our pleasure to host this online Symposium on regulatory threats"
 featured: true
 image: /img/shutterstock_1550506322-scaled.jpg
 programs:

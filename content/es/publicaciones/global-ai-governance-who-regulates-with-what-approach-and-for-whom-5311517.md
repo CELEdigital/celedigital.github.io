@@ -25,5 +25,7 @@ placements:
   block: publicaciones
 - hub: region/america-latina
   block: publicaciones
+file: "/files/Artículo_de_investigación_67_ESP.pdf"
+cover: "/covers/Artículo_de_investigación_67_ESP.jpg"
 ---
 This report presents a mapping of the main international, regional and national regulatory initiatives on artificial intelligence. In a scenario characterized by a growing normative competition to define regulatory models in the subject, most initiatives have points in common but---in many cases---differ in their approaches and their legal framing. We observe a consolidated trend towards regulatory frameworks focused on the risks involved in the development and implementation of technology, wher

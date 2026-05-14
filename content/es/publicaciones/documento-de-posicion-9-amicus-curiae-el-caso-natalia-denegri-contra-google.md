@@ -14,6 +14,8 @@ reference_value: "9"
 language: ""
 citation: "Agustina del Campo y Ramiro Álvarez Ugarte, “Amicus Curiae: el caso Natalia Denegri contra Google”, Documento de posición No. 9, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)"
 link: "https://www.palermo.edu/Archivos_content/2022/cele/marzo/amicus-curiae/amicus-curiae-cele.pdf"
+file: "/files/Documento_de_posición_9.pdf"
+cover: "/covers/Documento_de_posición_9.jpg"
 ---
 Agustina del Campo y Ramiro Álvarez Ugarte, “Amicus Curiae: el caso Natalia Denegri contra Google”, Documento de posición No. 9, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)
 

@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-11-12'
-description: Political Capital and Informal Platform Governance It’s widely understood by close observers of platform governance
-  and content moderation — but perhaps less widely mentioned in the interdisciplinary academic literature
+description: "It’s widely understood by close observers of platform governance and content moderation — but perhaps less widely mentioned in the interdisciplinary academic literature"
 featured: true
 image: /img/shutterstock_1550506322-scaled.jpg
 programs:

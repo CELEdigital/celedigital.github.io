@@ -30,5 +30,7 @@ placements:
   block: publicaciones
 - hub: region/america-latina
   block: publicaciones
+file: "/files/Artículo_de_investigación_49.pdf"
+cover: "/covers/Artículo_de_investigación_49.jpg"
 ---
 In Latin America, there is no consensus on the appropriate regulations for dealing with internet intermediary liability. The Office of the Special Rapporteur for Freedom of Expression of the OAS established regional guidelines for regulating intermediary liability in 2013 and 2016, aiming to protect freedom of expression. However, these guidelines have not been successfully incorporated into the domestic regulatory frameworks of various countries, with the exception of Brazil. In general terms,

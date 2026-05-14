@@ -23,5 +23,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_50.pdf"
+cover: "/covers/Artículo_de_investigación_50.jpg"
 ---
 Disinformation on the Internet has been the object of concern and action by multiple actors. While at first the measures were more targeted to train and cooperate in detecting false news, there are currently more and more measures whose implementation involves censorship, blocks, controls, and persecution. This article critically analyzes some of the measures adopted by the state, Internet companies, and the media in recent years and raises some unanswered questions in the search for answers.

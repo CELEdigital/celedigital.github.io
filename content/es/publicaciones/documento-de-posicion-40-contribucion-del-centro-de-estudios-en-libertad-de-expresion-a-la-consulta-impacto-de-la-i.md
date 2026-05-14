@@ -14,6 +14,8 @@ reference_value: "40"
 language: "ESP"
 citation: "CELE, “Contribución del Centro de Estudios en Libertad de Expresión a la Consulta - Impacto de la Inteligencia Artificial en los Derechos Humanos en las Américas de la RELE/CIDH ”, Documento de posición No. 40 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2026)"
 link: "https://www.palermo.edu/Archivos_content/2026/cele/marzo/DP_40.pdf"
+file: "/files/Documento_de_posición_40_ESP.pdf"
+cover: "/covers/Documento_de_posición_40_ESP.jpg"
 ---
 CELE, “Contribución del Centro de Estudios en Libertad de Expresión a la Consulta - Impacto de la Inteligencia Artificial en los Derechos Humanos en las Américas de la RELE/CIDH ”, Documento de posición No. 40 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2026)
 

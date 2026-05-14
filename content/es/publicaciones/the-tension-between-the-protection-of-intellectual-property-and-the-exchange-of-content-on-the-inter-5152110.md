@@ -27,5 +27,7 @@ placements:
   block: publicaciones
 - hub: region/america-latina
   block: publicaciones
+file: "/files/Artículo_de_investigación_40.pdf"
+cover: "/covers/Artículo_de_investigación_40.jpg"
 ---
 This document takes the case of Cuevana—where an Argentine judge ordered the blocking of several pages of this website due to a possible violation of copyright laws—as a starting point to analyze the tension between intellectual property protection and content sharing on the internet. Drawing on the experience of countries that have led this public policy, the text highlights critical elements to consider, such as prior restrictions on internet access, the proportionality of the measures, and th

@@ -4,9 +4,7 @@ author:
 content_type:
 - blog
 date: '2021-03-28'
-description: Lo bueno, lo malo y lo feo de la audiencia de las plataformas ante el Congreso de EE. UU. Para conocer más sobre
-  cómo las redes sociales controlan actualmente la desinformación, le recomendamos visitar letrachica.digital, el proyecto
-  con el que el CELE está haciendo seguimiento a los cambios de las normas comunitarias de las plataformas.
+description: "Para conocer más sobre cómo las redes sociales controlan actualmente la desinformación, le recomendamos visitar letrachica."
 featured: true
 image: /img/posteo-luisa.jpg
 programs:

@@ -24,5 +24,7 @@ placements:
   block: publicaciones
 - hub: region/america-latina
   block: publicaciones
+file: "/files/Artículo_de_investigación_53.pdf"
+cover: "/covers/Artículo_de_investigación_53.jpg"
 ---
 For more than a decade, various legislatures across Latin America have been enacting laws and proposing initiatives aimed at directly or indirectly regulating the digital space. These spaces are an essential part of the personal, political, and cultural lives of millions of people. Moreover, they serve as arenas where a wide range of human rights, including freedom of expression, are exercised and enjoyed. This evolving landscape raises a fundamental question: how does internet regulation impact

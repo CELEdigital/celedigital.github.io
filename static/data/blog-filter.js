@@ -9,7 +9,7 @@
   var categoryLinks = document.querySelectorAll('[data-blog-tab]');
   var tagLinks = document.querySelectorAll('[data-blog-tag]');
   var regionLinks = document.querySelectorAll('[data-blog-region-btn]');
-  var countryLinks = document.querySelectorAll('[data-blog-country]');
+  var countryLinks = document.querySelectorAll('[data-blog-country-btn]');
   var searchInput = document.querySelector('[data-blog-search]');
 
   // Timeline elements
@@ -145,7 +145,7 @@
   countryLinks.forEach(function (el) {
     el.addEventListener('click', function (e) {
       e.preventDefault();
-      filterCountry = el.getAttribute('data-blog-country');
+      filterCountry = el.getAttribute('data-blog-country-btn');
       setActiveInSection(el);
       applyFilter();
     });

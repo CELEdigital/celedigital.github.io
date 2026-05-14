@@ -14,6 +14,8 @@ reference_value: "21"
 language: ""
 citation: "CELE, “Submission in response to OFCOM'S Consultation on transparency guidance”, Documento de posición No. 21, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2024)"
 link: "https://www.palermo.edu/Archivos_content/2024/cele/octubre/2014_10_04_DP21_CELE.pdf"
+file: "/files/Documento_de_posición_21.pdf"
+cover: "/covers/Documento_de_posición_21.jpg"
 ---
 CELE, “Submission in response to OFCOM'S Consultation on transparency guidance”, Documento de posición No. 21, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2024)
 

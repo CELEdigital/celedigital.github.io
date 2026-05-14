@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2022-10-14'
-description: 'Contenido legal pero dañino y poca previsión en la supervisión La semana pasada tuve el honor y el gusto de
-  participar en la conferencia organizada por Columbia Global Freedom of Expression Program: Regulating the online'
+description: "La semana pasada tuve el honor y el gusto de participar en la conferencia organizada por Columbia Global Freedom of Expression Program: Regulating the online"
 featured: true
 image: /img/shutterstock_2066255477.pdf
 programs:

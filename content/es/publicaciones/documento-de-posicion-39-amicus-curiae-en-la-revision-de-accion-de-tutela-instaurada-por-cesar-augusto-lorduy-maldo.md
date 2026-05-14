@@ -14,6 +14,8 @@ reference_value: "39"
 language: "ESP"
 citation: "CELE, “Amicus Curiae en la revisión de acción de tutela instaurada por César Augusto Lorduy Maldonado en contra de la red social X y otros.”, Documento de posición No. 39 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2026)"
 link: "https://www.palermo.edu/Archivos_content/2026/cele/febrero/dp39.pdf"
+file: "/files/Documento_de_posición_39_ESP.pdf"
+cover: "/covers/Documento_de_posición_39_ESP.jpg"
 ---
 CELE, “Amicus Curiae en la revisión de acción de tutela instaurada por César Augusto Lorduy Maldonado en contra de la red social X y otros.”, Documento de posición No. 39 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2026)
 

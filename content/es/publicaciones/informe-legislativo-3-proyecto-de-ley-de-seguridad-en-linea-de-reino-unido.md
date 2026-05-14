@@ -14,6 +14,8 @@ reference_value: "3"
 language: ""
 citation: "Olga Lucía Camacho Gutiérrez, “Proyecto de ley de “seguridad en línea” de Reino Unido”, Informe legislativo No. 3, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)"
 link: "https://observatoriolegislativocele.com/wp-content/uploads/Reporte-7_-Reino-Unido-Proyecto-de-ley-de-seguridad-en-linea.pdf"
+file: "/files/Informe_legislativo_3.pdf"
+cover: "/covers/Informe_legislativo_3.jpg"
 ---
 Olga Lucía Camacho Gutiérrez, “Proyecto de ley de “seguridad en línea” de Reino Unido”, Informe legislativo No. 3, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)
 

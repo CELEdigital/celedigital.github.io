@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-11-22'
-description: Threats of regulation are complex, but not enough to prevent oversight Threats of regulation are a complex mechanism
-  operating in all societies and sectors. While not new in the market system of public-private dynamics,
+description: "Threats of regulation are a complex mechanism operating in all societies and sectors."
 featured: true
 image: /img/shutterstock_1550506322-scaled.jpg
 programs:

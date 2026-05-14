@@ -27,5 +27,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_48_ESP.pdf"
+cover: "/covers/Artículo_de_investigación_48_ESP.jpg"
 ---
 This document addresses the measures that Facebook, Twitter, and YouTube implemented to address problematic content related to COVID-19 on their platforms. Known mainly as community guidelines, these rules are the basis for the moderation actions carried out by these services on user content. The main purpose of this paper is to understand the impact that COVID-19 had on community guidelines.

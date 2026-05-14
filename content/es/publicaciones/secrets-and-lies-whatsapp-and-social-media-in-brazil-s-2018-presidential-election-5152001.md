@@ -30,5 +30,7 @@ placements:
   block: publicaciones
 - hub: region/america-latina
   block: publicaciones
+file: "/files/Artículo_de_investigación_36.pdf"
+cover: "/covers/Artículo_de_investigación_36.jpg"
 ---
 The 2018 Brazilian presidential elections marked a turning point in the role of digital platforms in political campaigns, with WhatsApp emerging as a central tool for information dissemination, mobilization, and disinformation. This study examines the use of WhatsApp as a mechanism for political communication, focusing on the viralization of false news and its impact on the electoral process. The research contextualizes the political landscape in Brazil leading up to the elections, analyzing the

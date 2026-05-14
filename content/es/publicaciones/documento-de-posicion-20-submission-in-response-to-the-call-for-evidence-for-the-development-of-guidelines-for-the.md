@@ -14,6 +14,8 @@ reference_value: "20"
 language: ""
 citation: "CELE, “Submission in response to the Call for Evidence for the development of guidelines for the protection of minors under Article 28 (4) of the DSA”, Documento de posición No. 20, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2024)"
 link: "https://www.palermo.edu/Archivos_content/2024/cele/septiembre/2024_09_30_DP20_CELE.pdf"
+file: "/files/Documento_de_posición_20.pdf"
+cover: "/covers/Documento_de_posición_20.jpg"
 ---
 CELE, “Submission in response to the Call for Evidence for the development of guidelines for the protection of minors under Article 28 (4) of the DSA”, Documento de posición No. 20, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2024)
 

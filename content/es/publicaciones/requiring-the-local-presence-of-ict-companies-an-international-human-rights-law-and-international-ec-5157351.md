@@ -28,5 +28,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_55_ESP.pdf"
+cover: "/covers/Artículo_de_investigación_55_ESP.jpg"
 ---
 Recently, we have seen a proliferation of laws and legislative proposals worldwide that impose the creation of some form of legal-commercial link or local connection between information and communication technology (ICT) companies—mainly social media platforms—and the countries where they operate. Depending on the case, the chosen method to achieve this objective involves requiring a commercial presence, appointing a local representative, localizing data, or hiring local personnel. These initiat

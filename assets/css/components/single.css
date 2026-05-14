@@ -1,6 +1,6 @@
 .single-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(300px, 28%, 420px);
+  grid-template-columns: minmax(0, 1fr) clamp(420px, 38%, 580px);
   gap: 3rem;
   align-items: start;
 }
@@ -230,6 +230,15 @@
   color: var(--neutral-500);
 }
 
+.single-content p,
+.single-content li {
+  line-height: 1.65;
+}
+
+.single-content h1 {
+  font-size: clamp(1.7rem, 2.6vw, 1.95rem);
+}
+
 .single-layout--mission .single-content p {
   font-size: 1.2rem;
   line-height: 1.6;
@@ -253,11 +262,10 @@
 .single-sidebar__image {
   width: 100%;
   max-width: 100%;
+  margin-inline-start: auto;
+  margin-inline-end: 0;
   height: auto;
   display: block;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  object-position: center;
 }
 
 .single-sidebar__hub-link {
@@ -379,19 +387,33 @@
   position: sticky;
   top: 1.5rem;
   width: 100%;
-  aspect-ratio: 4 / 5;
-  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
-  border-radius: 0.5rem;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .pub-image img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
+  display: block;
+}
+
+.pub-image-pdf {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--cele);
+  text-decoration: none;
+  border: 1px solid var(--cele);
+  padding: 0.3rem 0.7rem;
+  border-radius: 2px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.pub-image-pdf:hover,
+.pub-image-pdf:focus-visible {
+  background-color: var(--cele);
+  color: #fff;
 }
 
 @media (max-width: 1100px) {

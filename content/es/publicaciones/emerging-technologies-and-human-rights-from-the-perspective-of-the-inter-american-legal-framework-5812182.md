@@ -24,5 +24,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_71_ESP.pdf"
+cover: "/covers/Artículo_de_investigación_71_ESP.jpg"
 ---
 This article seeks to introduce the main challenges posed by emerging technologies and highlight some human rights standards within the framework of the Inter-American Human Rights System (SIDH) that can contribute to the debate and guide responses. Without aspiring to an exhaustive analysis, the text will lay the foundation for future, more in-depth research, identifying critical areas of concern and the relevant legal instruments within the IAHRS. This document is based on four previous essays

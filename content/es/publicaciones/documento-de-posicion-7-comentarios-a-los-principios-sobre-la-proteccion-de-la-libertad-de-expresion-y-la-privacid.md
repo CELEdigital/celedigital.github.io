@@ -14,6 +14,8 @@ reference_value: "7"
 language: ""
 citation: "CELE, “Comentarios a los Principios sobre la protección de la libertad de expresión y la privacidad de Article 19”, Documento de posición No. 7, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2016)"
 link: "https://www.palermo.edu/cele/pdf/Comentarios-del-CELE-Principios-Article-19.pdf"
+file: "/files/Documento_de_posición_7.pdf"
+cover: "/covers/Documento_de_posición_7.jpg"
 ---
 CELE, “Comentarios a los Principios sobre la protección de la libertad de expresión y la privacidad de Article 19”, Documento de posición No. 7, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2016)
 

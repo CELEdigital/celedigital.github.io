@@ -28,5 +28,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_68_ENG.pdf"
+cover: "/covers/Artículo_de_investigación_68_ENG.jpg"
 ---
 Trust and safety is slowly but steadily emerging in the United States as an independent field of study and practice. Several initiatives-such as the recent Glossary of Trust and Safety Terms issued by the Digital Trust and Safety Partnership (DTSP)-are attempting to lay the groundwork for a common language among researchers, corporate officials, and practitioners who routinely take part in a set of practices designed to manage the way some internet services are used. A set of normative goals are

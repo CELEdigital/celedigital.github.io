@@ -14,6 +14,8 @@ reference_value: "19"
 language: ""
 citation: "CELE, “Amicus curiae en la acción de tutela interpuesta por José Manuel Vega de la Cruz en contra de la Gobernación del Departamento de Cesar (Corte Constitucional de Colombia)”, Documento de posición No. 19, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2024)"
 link: "https://www.palermo.edu/Archivos_content/2024/cele/agosto/amicus-colombia/2024_08_CELE_DP19.pdf"
+file: "/files/Documento_de_posición_19.pdf"
+cover: "/covers/Documento_de_posición_19.jpg"
 ---
 CELE, “Amicus curiae en la acción de tutela interpuesta por José Manuel Vega de la Cruz en contra de la Gobernación del Departamento de Cesar (Corte Constitucional de Colombia)”, Documento de posición No. 19, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2024)
 

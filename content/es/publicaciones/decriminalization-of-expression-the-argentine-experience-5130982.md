@@ -25,5 +25,7 @@ placements:
   block: publicaciones
 - hub: region/america-latina
   block: publicaciones
+file: "/files/Artículo_de_investigación_6.pdf"
+cover: "/covers/Artículo_de_investigación_6.jpg"
 ---
 CELE Research Paper No. 6

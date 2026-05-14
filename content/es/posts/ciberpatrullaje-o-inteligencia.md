@@ -35,8 +35,6 @@ placements:
 tags:
 - privacidad y vigilancia
 ---
-**Marco normativo y grises en una discusión que impacta directamente en nuestros derechos humanos.**
-
 El pasado 23 de julio, la [Agencia Argentina de Acceso a la Información Pública (AAIP)](https://www.argentina.gob.ar/sites/default/files/no-2020-47326285-apn-aaip.pdf), Autoridad de Control de la Ley Nº 25.326 de Protección de los Datos Personales, sugirió al Ministerio de Seguridad de la Nación la** suspensión de la aplicación del Protocolo General para la Prevención Policial del Delito con uso de Fuentes Digitales Abiertas** (en adelante, “el Protocolo”) hasta tanto se revise nuevamente su adecuación a la normativa vigente en materia de protección de datos personales. Pasaron más de dos meses desde esa Nota y aún se desconoce si su implementación sufrió algún tipo de revisión.
 
 El Protocolo, aprobado a fines de mayo de este año por la [Resolución Nº 144/2020](https://www.boletinoficial.gob.ar/detalleAviso/primera/230060/20200602) del Ministerio de Seguridad de la Nación en el marco de de la emergencia pública en materia sanitaria establecida por Ley N° 27.541 y ss., en relación con el coronavirus COVID-19, . establece los _“principios, criterios y directrices generales para las tareas de prevención del delito que desarrollan en el espacio cibernético los cuerpos policiales y fuerzas de seguridad dependientes del Ministerio”_. El Protocolo renueva una política de Estado pre-existente y arrastra una discusión sobre la legalidad, proporcionalidad y necesidad de este tipo de prácticas estatales conocidas en la jerga como Open Source Intelligence (OSINT) y Social Media Intelligence (SOCMINT). 

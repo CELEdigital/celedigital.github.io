@@ -14,6 +14,8 @@ reference_value: "10"
 language: ""
 citation: "Matías Gonzalez Mama y Lina Paola Velásquez Veloza, “Proyecto de ley contra la violencia de género en la vida política de la mujer.”, Informe legislativo No. 10, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2023)"
 link: "https://observatoriolegislativocele.com/wp-content/uploads/Informe-legislativo-10_2023.pdf"
+file: "/files/Informe_legislativo_10.pdf"
+cover: "/covers/Informe_legislativo_10.jpg"
 ---
 Matías Gonzalez Mama y Lina Paola Velásquez Veloza, “Proyecto de ley contra la violencia de género en la vida política de la mujer.”, Informe legislativo No. 10, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2023)
 

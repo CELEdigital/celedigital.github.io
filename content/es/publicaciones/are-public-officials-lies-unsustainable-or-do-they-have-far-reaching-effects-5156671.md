@@ -23,5 +23,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_51_ESP.pdf"
+cover: "/covers/Artículo_de_investigación_51_ESP.jpg"
 ---
 State responses to the recent “crisis” caused by misinformation in social media have mainly aimed at penalizing its authors or establishing liability for those who facilitate its dissemination. Internet companies, especially large platforms, have deployed numerous techniques, measures, and instruments to address the phenomenon. However, little has been done to identify the origin of misinformation and evaluate the phenomenon in light of specific obligations from certain sectors. In this paper we

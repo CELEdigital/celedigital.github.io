@@ -14,6 +14,8 @@ reference_value: "8"
 language: ""
 citation: "Agustina Del Campo, “Amicus curiae ante la Corte Suprema en el caso Cecilia Pando c/ Revista Barcelona”, Documento de posición No. 8, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2017)"
 link: "https://www.palermo.edu/cele/libertad-de-expresion/AMICUS_PANDO_VERSION_FINAL.pdf"
+file: "/files/Documento_de_posición_8.pdf"
+cover: "/covers/Documento_de_posición_8.jpg"
 ---
 Agustina Del Campo, “Amicus curiae ante la Corte Suprema en el caso Cecilia Pando c/ Revista Barcelona”, Documento de posición No. 8, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2017)
 

@@ -25,5 +25,7 @@ placements:
   block: publicaciones
 - hub: region/america-latina
   block: publicaciones
+file: "/files/Artículo_de_investigación_42.pdf"
+cover: "/covers/Artículo_de_investigación_42.jpg"
 ---
 The digital age has transformed access to information and the exercise of fundamental rights, including freedom of expression. However, a significant digital divide persists, exacerbating existing inequalities, particularly for women and marginalized communities in Mexico. This paper explores the intersection between freedom of expression and the digital gender divide in Mexico, analyzing how limited internet access and technological disparities impact the ability of women and non-binary individ

@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2023-05-31'
-description: 'CELE at RightsCon 2023: our agenda and priorities We are glad to share that this year we will be participating
-  in RightsConhttps://rightscon.org/ once again. RightsCon is one of the most important digital rights conferen'
+description: "We are glad to share that this year we will be participating in RightsCon"
 featured: true
 image: /img/Access-Now-RightsCon-Costa-Rica-Registration-Twitter-Post.png
 programs:

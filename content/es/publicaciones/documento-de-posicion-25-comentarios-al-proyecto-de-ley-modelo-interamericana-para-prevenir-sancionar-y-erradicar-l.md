@@ -14,6 +14,8 @@ reference_value: "25"
 language: "ESP"
 citation: "CELE, “Comentarios al proyecto de Ley Modelo Interamericana para prevenir, sancionar y erradicar la violencia digital contra las mujeres por razones de género”, Documento de posición No. 25 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)"
 link: "https://www.palermo.edu/Archivos_content/2025/cele/abril/2025_04_08_CELE_MESECVI.pdf"
+file: "/files/Documento_de_posición_25_ESP.pdf"
+cover: "/covers/Documento_de_posición_25_ESP.jpg"
 ---
 CELE, “Comentarios al proyecto de Ley Modelo Interamericana para prevenir, sancionar y erradicar la violencia digital contra las mujeres por razones de género”, Documento de posición No. 25 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)
 

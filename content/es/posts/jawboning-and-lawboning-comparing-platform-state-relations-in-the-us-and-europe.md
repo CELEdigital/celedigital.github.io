@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-11-21'
-description: 'Jawboning and lawboning: comparing platform-state relations in the US and Europe The concept of ‘jawboning’
-  refers to scenarios where the government pressures online services to moderate user content in ways going beyond'
+description: "The concept of ‘jawboning’ refers to scenarios where the government pressures online services to moderate user content in ways going beyond"
 featured: true
 image: /img/shutterstock_1550506322-scaled.jpg
 programs:

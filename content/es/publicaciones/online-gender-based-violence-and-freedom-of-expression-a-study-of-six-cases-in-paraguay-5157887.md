@@ -27,5 +27,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_59.pdf"
+cover: "/covers/Artículo_de_investigación_59.jpg"
 ---
 This study focuses on the application and potential misinterpretation of Law 5777/16 in Paraguay, which addresses comprehensive protection for women against all forms of violence, and the use of its precautionary measures in cases of public interest that may negatively impact freedom of expression. The first part of the research analyzes Paraguay’s National Constitution in relation to the protection of freedom of expression, as well as the international standards established by the Inter-America

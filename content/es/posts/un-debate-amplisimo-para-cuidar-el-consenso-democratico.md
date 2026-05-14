@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2022-10-25'
-description: Un debate amplísimo para cuidar el consenso democrático El estreno hace algunas semanas de Argentina 1985 marcó
-  la vuelta al centro de la escena de los crímenes de la última dictadura. En este contexto y bajo la influenc
+description: "El estreno hace algunas semanas de Argentina 1985 marcó la vuelta al centro de la escena de los crímenes de la última dictadura."
 featured: true
 image: /img/WhatsApp-Image-2022-10-24-at-17.28.11.jpeg
 programs:

@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-10-26'
-description: Algunas notas sobre libertad académica La semana pasada participé de un panel sobre libertad académica en la
-  Global Free Speech Summit, convocada por el proyecto The Future of Free Speech. 
+description: "La semana pasada participé de un panel sobre libertad académica en la Global Free Speech Summit, convocada por el proyecto The Future of Free Speech."
 featured: true
 image: /img/IMG-1920x800-04.jpg
 programs:

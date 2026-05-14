@@ -14,6 +14,8 @@ reference_value: "5"
 language: ""
 citation: "Eduardo Andrés Bertoni, “Amicus curiae a la Corte Suprema en el caso María Belén Rodríguez c/ Google”, Documento de posición No. 5, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2014)"
 link: "https://www.palermo.edu/cele/pdf/PRESENTA-AMICUS-CURIAE-BERTONI.pdf"
+file: "/files/Documento_de_posición_5.pdf"
+cover: "/covers/Documento_de_posición_5.jpg"
 ---
 Eduardo Andrés Bertoni, “Amicus curiae a la Corte Suprema en el caso María Belén Rodríguez c/ Google”, Documento de posición No. 5, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2014)
 

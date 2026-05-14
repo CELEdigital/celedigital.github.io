@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2023-08-15'
-description: El liderazgo ¿estéril? de Brasil Una de las principales preocupaciones del CELE es seguir de cerca los procesos
-  regulatorios que afectan a Internet, bajo la premisa de que éstos determinan lo que Internet es para nosotro
+description: "Una de las principales preocupaciones del CELE es seguir de cerca los procesos regulatorios que afectan a Internet, bajo la premisa de que éstos determinan lo que Internet es para nosotro"
 featured: true
 image: /img/shutterstock_2262840399-scaled.jpg
 programs:

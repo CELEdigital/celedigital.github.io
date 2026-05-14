@@ -4,7 +4,7 @@ author:
 content_type:
 - blog
 date: '2023-03-06'
-description: Des-información en la democracia Brasileña Un numeroso grupo de ciudadanos alteróhttps://g1.globo.com/df/distrito-federal/noticia/2023/01/09/veja-o-custo-estimado-de-itens-destruidos-em-atos-terroristas-por-bolsonaristas
+description: ""
 featured: true
 image: /img/shutterstock_2251482181-scaled.jpg
 programs:

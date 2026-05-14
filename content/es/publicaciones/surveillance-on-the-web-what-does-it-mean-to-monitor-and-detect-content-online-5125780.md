@@ -23,5 +23,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_7.pdf"
+cover: "/covers/Artículo_de_investigación_7.jpg"
 ---
 CELE Research Paper No. 7

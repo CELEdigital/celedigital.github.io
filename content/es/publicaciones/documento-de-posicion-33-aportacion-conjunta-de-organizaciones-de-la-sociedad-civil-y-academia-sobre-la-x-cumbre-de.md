@@ -14,6 +14,8 @@ reference_value: "33"
 language: "ESP"
 citation: "Article 19, CELE, Derechos Digitales, et al. , “Aportación Conjunta de Organizaciones de la Sociedad Civil y Academia sobre la X Cumbre de las Américas: \"Construyendo un Hemisferio Seguro, Sostenible y de Prosperidad Compartida\"”, Documento de posición No. 33 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)"
 link: "https://www.palermo.edu/Archivos_content/2025/cele/agosto/08_2025_DP33.pdf"
+file: "/files/Documento_de_posición_33_ESP.pdf"
+cover: "/covers/Documento_de_posición_33_ESP.jpg"
 ---
 Article 19, CELE, Derechos Digitales, et al. , “Aportación Conjunta de Organizaciones de la Sociedad Civil y Academia sobre la X Cumbre de las Américas: "Construyendo un Hemisferio Seguro, Sostenible y de Prosperidad Compartida"”, Documento de posición No. 33 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)
 

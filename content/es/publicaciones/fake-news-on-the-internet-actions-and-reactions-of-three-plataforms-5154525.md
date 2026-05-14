@@ -24,5 +24,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_46_ESP.pdf"
+cover: "/covers/Artículo_de_investigación_46_ESP.jpg"
 ---
 In the past four years, online misinformation has become a seemingly novel threat to Western democracies. This threat surfaces in a time of anxiety about the future: democratic systems appear to be going through a crisis as a result of the consolidation of political options that, even if they do not openly reject democratic procedures and formalities, erode them from the inside. It is in this context that the phenomenon of disinformation must be addressed. In general, anxiety about democracy pro

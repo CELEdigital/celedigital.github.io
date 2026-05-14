@@ -1,8 +1,6 @@
 ---
 title: "Workshop 2024"
 weight: 3
-subtitle: "Edition focus"
-description: "First edition of the annual workshop cycle, introducing human rights standards, data structure, and regional legislative analysis."
+subtitle: "Between Governance and Regulation. Challenges for Human Rights on the Internet in Latin America"
+description: "12th Edition of the CELE Workshop. August 22 and 23, 2024, in Buenos Aires, Argentina."
 ---
-
-The 2024 edition established the methodological foundation for collaborative work between legal research and data analysis.

@@ -14,6 +14,8 @@ reference_value: "23"
 language: ""
 citation: "CELE, “Submission to the Thematic Report on \"Freedom of Expression and Elections in the Digital Age\"”, Documento de posición No. 23, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)"
 link: "https://www.palermo.edu/Archivos_content/2025/cele/enero/2025_01_20_DP23_.pdf"
+file: "/files/Documento_de_posición_23.pdf"
+cover: "/covers/Documento_de_posición_23.jpg"
 ---
 CELE, “Submission to the Thematic Report on "Freedom of Expression and Elections in the Digital Age"”, Documento de posición No. 23, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)
 

@@ -4,7 +4,7 @@ author:
 content_type:
 - blog
 date: '2025-04-22'
-description: 'WSIS+20: obstáculos a la participación significativa de la academia y la sociedad civil pone en riesgo el legado en materia de derechos humanos.'
+description: 'Obstáculos a la participación significativa de la academia y la sociedad civil pone en riesgo el legado en materia de derechos humanos.'
 featured: false
 image: /img/mat-reding-yfXhqAW5X0c-unsplash-scaled.jpg
 programs:

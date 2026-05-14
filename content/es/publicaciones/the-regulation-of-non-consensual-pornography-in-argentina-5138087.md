@@ -24,5 +24,7 @@ placements:
   block: publicaciones
 - hub: region/america-latina
   block: publicaciones
+file: "/files/Artículo_de_investigación_25.pdf"
+cover: "/covers/Artículo_de_investigación_25.jpg"
 ---
 This document, written by Paula Vargas de Brea - CELE researcher - addresses the issue of the regulation of non-consensual pornography on the internet, with the aim of providing a description of the current law that allows for its application or to determine whether another type of regulation is needed to provide effective solutions that respect all human rights. According to some organisations and academic institutions, the vast majority of these types of actions affect women, and this is becau

@@ -26,5 +26,7 @@ placements:
   block: publicaciones
 - hub: region/america-latina
   block: publicaciones
+file: "/files/Artículo_de_investigación_11.pdf"
+cover: "/covers/Artículo_de_investigación_11.jpg"
 ---
 Access to public information and the protection of personal data are two fundamental rights whose harmonization presents significant challenges in Latin America. This document, the result of the project Access to Information and Personal Data: An Old Tension, New Challenges, analyzes the relationship between these concepts and proposes principles for their reconciliation. Through a comparative study of Argentina, Chile, Uruguay, Mexico, and Peru, it examines regulatory and institutional tensions, implementation models, and conflict resolution strategies. The analysis highlights the need for regulatory frameworks that balance the right to know with privacy, ensuring transparency without compromising the protection of personal data.

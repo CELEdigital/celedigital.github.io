@@ -23,5 +23,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_62_ESP.pdf"
+cover: "/covers/Artículo_de_investigación_62_ESP.jpg"
 ---
 In the increasingly concentrated online public sphere, the easiest and fastest way to tackle content perceived as dangerous, such as disinformation, is to control its dissemination. In recent years, internet companies have increasingly removed or blocked content—including that of heads of state—labeled expressions, banned the sale of certain goods, demonetized or prohibited content that questions official sources of information, and implemented verification mechanisms, warnings, and contextualiz

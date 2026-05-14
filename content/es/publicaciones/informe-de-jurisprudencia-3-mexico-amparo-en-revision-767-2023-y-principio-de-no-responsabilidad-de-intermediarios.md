@@ -14,6 +14,8 @@ reference_value: "3"
 language: "ESP"
 citation: "Matías González Mama y Francesca Chocano, “México. Amparo en revisión 767/2023 y principio de no responsabilidad de intermediarios”, Informe de jurisprudencia No. 3 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)"
 link: "https://observatoriolegislativocele.com/wp-content/uploads/informe-jurisprudencia-mexico-3.pdf"
+file: "/files/Informe_de_jurisprudencia_3_ESP.pdf"
+cover: "/covers/Informe_de_jurisprudencia_3_ESP.jpg"
 ---
 Matías González Mama y Francesca Chocano, “México. Amparo en revisión 767/2023 y principio de no responsabilidad de intermediarios”, Informe de jurisprudencia No. 3 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)
 

@@ -14,6 +14,8 @@ reference_value: "6"
 language: ""
 citation: "Verónica Ferrari y Daniela Schnidrig, “Responsabilidad de intermediarios y derecho al olvido. Aportes para la discusión legislativa en Argentina”, Documento de posición No. 6, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2015)"
 link: "https://www.palermo.edu/cele/pdf/Policy_Paper_Derecho_al_Olvido.pdf"
+file: "/files/Documento_de_posición_6.pdf"
+cover: "/covers/Documento_de_posición_6.jpg"
 ---
 Verónica Ferrari y Daniela Schnidrig, “Responsabilidad de intermediarios y derecho al olvido. Aportes para la discusión legislativa en Argentina”, Documento de posición No. 6, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2015)
 

@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8" />
+<meta name="description" content="Government by regulation structures how constitutional democracies normally operate. Legislatures and executive agencies enact formal rules that govern conduct, embodying the ideal of government by laws rather than by individuals. Yet regulators also govern through threats of regulation. When public officials seek to alter private behavior, they may warn regulated actors that failure to comply will trigger new or stricter rules. These warnings can achieve regulatory goals without the adoption of formal rules. Because officials often issue such threats in informal, private communications, the practice escapes public scrutiny and challenges the dominant model of democratic rule-making, which assumes open deliberation by accountable institutions. This paper theorizes threats of regulation as a governance device that remains largely invisible to outsiders but offers significant advantages to regulators. Although United States courts attempt to distinguish unlawful coercion from permissible persuasion, they struggle to enforce these boundaries in practice. The paper argues that increasing transparency in routine communications between regulators and corporate actors would reduce the risk of abuse while preserving regulatory effectiveness." />
+<meta name="abstract" content="Government by regulation structures how constitutional democracies normally operate. Legislatures and executive agencies enact formal rules that govern conduct, embodying the ideal of government by laws rather than by individuals. Yet regulators also govern through threats of regulation. When public officials seek to alter private behavior, they may warn regulated actors that failure to comply will trigger new or stricter rules. These warnings can achieve regulatory goals without the adoption of formal rules. Because officials often issue such threats in informal, private communications, the practice escapes public scrutiny and challenges the dominant model of democratic rule-making, which assumes open deliberation by accountable institutions. This paper theorizes threats of regulation as a governance device that remains largely invisible to outsiders but offers significant advantages to regulators. Although United States courts attempt to distinguish unlawful coercion from permissible persuasion, they struggle to enforce these boundaries in practice. The paper argues that increasing transparency in routine communications between regulators and corporate actors would reduce the risk of abuse while preserving regulatory effectiveness." />
+<link rel="canonical" href="https://policyreview.info/articles/analysis/threats-of-regulation" />
+<meta property="og:title" content="Ruling by bullying: Threats of regulation as an internet governance device" />
+<meta property="og:description" content="Governments around the world pressure internet companies to get informally what they cannot obtain through formal regulatory channels, a pervasive mechanism of governance that challenges fundamental democratic priors." />
+<meta property="og:image" content="https://policyreview.info/themes/custom/ipr3/_res/img/logos/internet-policy-review-figurative-mark.png" />
+<meta name="dcterms.title" content="Ruling by bullying: Threats of regulation as an internet governance device" />
+<meta name="dcterms.creator" content="Álvarez Ugarte (Ramiro)" />
+<meta name="dcterms.subject" content="Internet Policy" />
+<meta name="dcterms.subject" content="info:eu-repo/classification/ddc/300" />
+<meta name="dcterms.subject" content="Social Sciences" />
+<meta name="dcterms.subject" content="info:eu-repo/classification/ddc/340" />
+<meta name="dcterms.subject" content="info:eu-repo/classification/ddc/000" />
+<meta name="dcterms.subject" content="Computer science, knowledge &amp; systems" />
+<meta name="dcterms.subject" content="info:eu-repo/classification/ddc/380" />
+<meta name="dcterms.subject" content="Commerce, communications &amp; transportation" />
+<meta name="dcterms.subject" content="Regulation" />
+<meta name="dcterms.subject" content="Internet governance" />
+<meta name="dcterms.subject" content="Jawboning" />
+<meta name="dcterms.subject" content="Freedom of expression" />
+<meta name="dcterms.subject" content="Threats" />
+<meta name="dcterms.description" content="Government by regulation structures how constitutional democracies normally operate. Legislatures and executive agencies enact formal rules that govern conduct, embodying the ideal of government by laws rather than by individuals. Yet regulators also govern through threats of regulation. When public officials seek to alter private behavior, they may warn regulated actors that failure to comply will trigger new or stricter rules. These warnings can achieve regulatory goals without the adoption of formal rules. Because officials often issue such threats in informal, private communications, the practice escapes public scrutiny and challenges the dominant model of democratic rule-making, which assumes open deliberation by accountable institutions. This paper theorizes threats of regulation as a governance device that remains largely invisible to outsiders but offers significant advantages to regulators. Although United States courts attempt to distinguish unlawful coercion from permissible persuasion, they struggle to enforce these boundaries in practice. The paper argues that increasing transparency in routine communications between regulators and corporate actors would reduce the risk of abuse while preserving regulatory effectiveness." />
+<meta name="dcterms.publisher" content="Alexander von Humboldt Institute for Internet and Society gGmbH" />
+<meta name="dcterms.contributor" content="Dubois (Frédéric)" />
+<meta name="dcterms.date" content="2026-02-09" />
+<meta name="dcterms.type" content="info:eu-repo/semantics/article" />
+<meta name="dcterms.type" content="info:eu-repo/semantics/publishedVersion" />
+<meta name="dcterms.format" content="application/html" />
+<meta name="dcterms.identifier" content="https://policyreview.info/node/2079" />
+<meta name="dcterms.identifier" content="info:doi:10.14763/2026.1.2079" />
+<meta name="dcterms.language" content="eng" />
+<meta name="dcterms.relation" content="info:eu-repo/semantics/altIdentifier/eissn/2197-6775" />
+<meta name="dcterms.rights" content="Creative Commons Attribution 3.0 Germany" />
+<meta name="dcterms.rights" content="info:eu-repo/semantics/openAccess" />
+<meta name="dcterms.rights" content="https://creativecommons.org/licenses/by/3.0/de/" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="icon" href="/themes/custom/ipr3/_res/img/favicon.ico" type="image/vnd.microsoft.icon" />
+
+        <title>Ruling by bullying: Threats of regulation as an internet governance device | Internet Policy Review</title>
+        <link rel="stylesheet" media="all" href="/sites/default/files/css/css_B6xoVWbG68lSylcmjHV_-riUEmYZHSV47E0N_j0VXdY.css?delta=0&amp;language=en&amp;theme=ipr3&amp;include=eJxNikEKwzAMwD5k4sMeVJzENO7cOthJu_1-MBjdRSChIoNHkzisMpY_WbJaeS5bQDFnrD47aaKNXiDdH7iqZVLo5LQ69Ra_5S5pHn1mlWhcId4xeMdMwXAKX4Ffpt3qVP4AC1Q0vg" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Cve1sYVUVa4K-E4R7WYY3O0ECNZ2P1lSTLFt3zprsjw.css?delta=1&amp;language=en&amp;theme=ipr3&amp;include=eJxNikEKwzAMwD5k4sMeVJzENO7cOthJu_1-MBjdRSChIoNHkzisMpY_WbJaeS5bQDFnrD47aaKNXiDdH7iqZVLo5LQ69Ra_5S5pHn1mlWhcId4xeMdMwXAKX4Ffpt3qVP4AC1Q0vg" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_SWBi50JC6siygLyRqwg3PfgJ78NxcGiVv5bgVfK6VfI.css?delta=2&amp;language=en&amp;theme=ipr3&amp;include=eJxNikEKwzAMwD5k4sMeVJzENO7cOthJu_1-MBjdRSChIoNHkzisMpY_WbJaeS5bQDFnrD47aaKNXiDdH7iqZVLo5LQ69Ra_5S5pHn1mlWhcId4xeMdMwXAKX4Ffpt3qVP4AC1Q0vg" />
+
+        
+    </head>
+    <body class="path-node page-node-type-analysis node-type-analysis" data-theme="ipr">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+            Skip to main content
+        </a>
+        
+          <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page" class="page">
+
+    
+    <header class="header" data-sticky>
+        <div class="header__inner">
+            <a id="logo" href="/">Internet Policy Review</a>
+            <div class="header__navigation">
+                                    <nav class="nav nav--main" data-priority-nav>
+    <div data-spacer></div>
+    <ul class="nav__list nav__list--main" data-menu>
+
+                                            <li id="nav__item-985d918a"  class="nav__item nav__item--main has-submenu"  data-has-submenu >
+                <a href="/openaccess" >
+                    Open Access
+                </a>
+                                    <ul class="nav__sub nav__sub--main" data-submenu>
+                                                                                                            <li id="nav__sub__item-f4f3359b"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/openaccess#concept" >
+                                    Concept
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-2d99045c"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/accessibility" >
+                                    Accessibility
+                                </a>
+                            </li>
+                                            </ul>
+                            </li>
+                                            <li id="nav__item-7621187f"  class="nav__item nav__item--main has-submenu"  data-has-submenu >
+                <a href="/authors" >
+                    Publish
+                </a>
+                                    <ul class="nav__sub nav__sub--main" data-submenu>
+                                                                                                            <li id="nav__sub__item-124a1890"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#aims" >
+                                    Aims and scope
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-dc9cd8a0"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#what" >
+                                    Submissions
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-6212070a"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#peer" >
+                                    Peer review
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-13187621"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#howto" >
+                                    How to publish with us
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-5da5e071"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#manuscript" >
+                                    Manuscript template
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-e8acc934"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#style" >
+                                    Style guide
+                                </a>
+                            </li>
+                                            </ul>
+                            </li>
+                                            <li id="nav__item-15f4ab4d"  class="nav__item nav__item--main" >
+                <a href="/archives/all" >
+                    Archives
+                </a>
+                            </li>
+                                            <li id="nav__item-7c71ca60"  class="nav__item nav__item--main has-submenu"  data-has-submenu >
+                <a href="/about" >
+                    About
+                </a>
+                                    <ul class="nav__sub nav__sub--main" data-submenu>
+                                                                                                            <li id="nav__sub__item-d0832501"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/about#scope" >
+                                    Scope
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-c0329100"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/editorial-board" >
+                                    Editorial Board
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-2feb4acd"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/editorial-team" >
+                                    Editorial Team
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-53e8f825"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/managing-board" >
+                                    Managing Board
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-40bdcd5c"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/reviewers" >
+                                    Reviewers
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-78ae509b"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/about#why" >
+                                    Why publish with us
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-3ea74670"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/about#license" >
+                                    License
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-01c77750"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/about#funding" >
+                                    Funding
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-229dae37"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/contact" >
+                                    Contact
+                                </a>
+                            </li>
+                                            </ul>
+                            </li>
+                                            <li id="nav__item-376b4445"  class="nav__item nav__item--main" >
+                <a href="/rss" >
+                    RSS
+                </a>
+                            </li>
+                                            <li id="nav__item-8c5761b9"  class="nav__item nav__item--main" >
+                <a href="/user/login" >
+                    Login
+                </a>
+                            </li>
+                <li class="nav__item nav__item--search nav__item--main">
+            <div class="search-api-form block block--search js-hidden" data-drupal-selector="search-api-form" id="search">
+    
+    <form action="/search" method="get" id="search-api-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-search js-form-item-search">
+      <label for="edit-search">Search</label>
+        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-search" type="search" id="edit-search" name="search" value="" size="15" maxlength="128" placeholder="" class="form-search" />
+
+        </div>
+  <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+</div>
+
+
+            <img class="js-search-expand search-icon" alt="Search" src="/themes/custom/ipr3/_res/img/icons/icon-search.svg"/>
+        </li>
+    </ul>
+</nav>
+
+
+
+                            </div>
+        </div>
+    </header>
+
+    
+    
+    <nav id="cats" class="nav nav--categories" data-priority-nav aria-labelledby="nav__label">
+  <h2 id="cats__label" class="visually-hidden">Categories</h2>
+    <ul class="nav__list nav__list--categories" data-menu role="menu">
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/diversity" >Diversity</a>
+            </li>
+                    <li class="nav__item nav__item--categories is-active">
+                <a href="/categories/procedures-governance" >Governance</a>
+            </li>
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/infrastructure-standards" >Infrastructure &amp; Standards</a>
+            </li>
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/access-content" >Information &amp; Data</a>
+            </li>
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/business-trade" >Innovation</a>
+            </li>
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/copyright-ipr" >Intellectual Property Rights</a>
+            </li>
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/privacy-security" >Privacy &amp; Security</a>
+            </li>
+            </ul>
+</nav>
+
+
+
+
+        <div
+        id="main">
+
+        
+        <main id="content" class="main">
+            
+                                    
+<div data-drupal-messages-fallback class="hidden"></div>
+
+
+
+<article class="article full analysis published" id="node-2079">
+    <div class="header">
+        <div class="topic">
+            <a href="/archives/2026/issue-1">Volume 15, Issue 1</a>
+                    </div>
+        
+                    <h1>
+<span>Ruling by bullying: Threats of regulation as an internet governance device</span>
+</h1>
+                
+        <div class="meta">
+            <a href="/users/ramiro-alvarez-ugarte" hreflang="en">Ramiro Álvarez Ugarte</a>, <em>Centro de Estudios en Libertad de Expresión (CELE)</em>, <em>University of Palermo</em>, <em>Buenos Aires</em>, <em>Argentina</em><br/><br/>
+            PUBLISHED ON:&nbsp;<span class="meta__date">9 Feb 2026</span>
+                DOI:&nbsp;<span style="color:#3d3f41;">10.14763/2026.1.2079</span>
+
+        </div>
+    </div>
+    <div class="content">
+        <div class="abstract">
+            <h2>Abstract</h2>
+            <p>Government by regulation structures how constitutional democracies normally operate. Legislatures and executive agencies enact formal rules that govern conduct, embodying the ideal of government by laws rather than by individuals. Yet regulators also govern through threats of regulation. When public officials seek to alter private behavior, they may warn regulated actors that failure to comply will trigger new or stricter rules. These warnings can achieve regulatory goals without the adoption of formal rules. Because officials often issue such threats in informal, private communications, the practice escapes public scrutiny and challenges the dominant model of democratic rule-making, which assumes open deliberation by accountable institutions. This paper theorizes threats of regulation as a governance device that remains largely invisible to outsiders but offers significant advantages to regulators. Although United States courts attempt to distinguish unlawful coercion from permissible persuasion, they struggle to enforce these boundaries in practice. The paper argues that increasing transparency in routine communications between regulators and corporate actors would reduce the risk of abuse while preserving regulatory effectiveness.</p>
+
+        </div>
+                    
+
+
+<div class="infos expanded">
+    <div class="js-close info-close">Citation
+        <span class="nophone">& publishing
+        </span>information</div>
+    <div class="js-toclose">
+                    <strong>Received:</strong>
+            <time datetime="2024-10-03T10:00:00+02:00">October 3, 2024</time>
+
+                            <strong>Reviewed:</strong>
+            <time datetime="2025-08-23T12:00:00+02:00">August 23, 2025</time>
+
+                <strong>Published:</strong>
+        February 9, 2026<br/>
+        <strong>Licence:</strong>
+                    <a href="https://creativecommons.org/licenses/by/3.0/de/deed.en" target="_blank">Creative Commons Attribution 3.0 Germany</a><br/>
+                            <strong>Funding:</strong>
+            This paper has been possible, partially, due to funding provided to the Centro de Estudios en Libertad de Expresión (CELE) by the National Endowment for Democracy, in the period 2023-2024”.<br/>
+                <strong>Competing interests:</strong>
+        The author has declared that no competing interests exist that have influenced the text.<br/>
+                        <strong>Keywords: </strong>
+                                    <a href="/tags/issues/regulation">Regulation</a>,                                 <a href="/tags/issues/internet-governance">Internet governance</a>,                                 <a href="/tags/issues/jawboning">Jawboning</a>,                                 <a href="/tags/issues/freedom-expression">Freedom of expression</a>,                                 <a href="/tags/issues/threats">Threats</a>    <br/>
+
+                <strong>Citation:</strong>
+        Álvarez Ugarte, R. (2026). Ruling by bullying: Threats of regulation as an internet governance device. <em>Internet Policy Review</em>, <em>15</em>(1). https://doi.org/10.14763/2026.1.2079
+    </div>
+</div>
+        
+        <div class="acknowledgements">
+<h2>Acknowledgements</h2>
+<p>This paper has been long in the making. I would like to thank commentators at the IGF's GigaNet symposium held in Kyoto in 2023, where I presented a rough version of this research. My colleagues at CELE pushed me to make the argument sharper. I have benefited from discussions with Agustina Del Campo, Matías González, Rachel Griffin, Robert Gorwa, Joan Barata and Micheal Karanicolas and the research assistance of David Turbay to gather and analyse large volumes of data from different publicly available data sets and sources of information. I also would like to thank Soledad Vázquez for proof-reading the last version of the manuscript. Finally, I would especially like to thank the reviewers and the editors of Internet Policy Review for helpful comments that forced me to add some nuance and to develop a necessary update considering recent events. The errors that remain are mine alone.</p>
+</div>
+<h2>Introduction</h2>
+<p>Generally, it is reasonable to say that companies dislike regulation. Assuming a generally capitalist free-market context (as this paper does), companies can develop their business free of outside demands and constraints (Becker, 1983; Erfle et al., 1989). Regulation imposes on them duties and obligations that most companies would avoid if possible. However, it can have effects even when not fully implemented: regulatory threats may nudge companies in certain directions by tapping into their desire to prevent that regulation from becoming a reality (Karanicolas, 2019a, p. 186). Recent studies show how companies strive to stay ahead of the curve of proposed regulations (Chang et al., 2023) and how regulatory threats operate pervasively across fields and industries as a device that nudges companies into “voluntary schemes” of compliance with public officials’ desires and goals (Gorwa, 2019; Hall &amp; Hysing, 2019; Linder, 2017; Lyon &amp; Maxwell, 2004; Maxwell et al., 2000a; Patten &amp; Trompeter, 2003; Short &amp; Toffel, 2010; Suijs &amp; Wielhouwer, 2019). By yielding to some of the demands of the would-be regulators, companies can appease some of the concerns of public officials in order to diminish their commitment to regulate them. Evidence of this dynamic exists in this regard in environmental matters (Khanna &amp; Anton, 2002; Maxwell et al., 2000b; Reid &amp; Toffel, 2009), in broadcasting (Cooper, 1978; Horwitz, 1993; Lerner, 1978), in the energy sector (Acutt et al., 2001a; Erfle et al., 1990), in the ready-to-eat cereal market (Cotterill, 1999), in mining (Verkuil, 1980, p. 946), in the Swedish textile industry’s commitments to reduce the use of certain chemicals (Hall &amp; Hysing, 2019), and on hedge funds (Suijs &amp; Wielhouwer, 2019), among others. This dynamic is also present on internet governance (Balkin, 2014; Bambauer, 2015; Citron, 2017; Duffield, 2022; Hagemann et al., 2018; Karanicolas, 2019b, 2019a; Leerssen, 2020; Monahan, 2021; Sander, 2021).</p>
+<p>This paper theorises <em>threats of regulation</em> as a specific form of governance, that taps on the regulatory power of the state with the goal of keeping it dormant, in order to avoid “the fuss and mess of formal rulemaking” (Hagemann et al., 2018, p. 53; Héritier &amp; Lehmkuhl, 2008; Hunt &amp; Wickham, 1994). It has been defended as a useful mechanism in the deployment of regulatory power, specially in contexts of high uncertainty and dynamic industries (Brotman, 1988; Wu, 2011). But it has also been questioned in terms of its efficacy and potential arbitrariness (Brito, 2014). In the United States, there have been legal standards that tried to define what is permissible and what is not in the contacts between public and corporate officials (Bazelon, 1975; Corn-Revere, 1995; Duffield, 2022). But these standards emerged in unusual circumstances, after litigation by an affected third-party (<em>Writers Guild of America, West, Inc. v. FCC</em>, 1976; <em>National Rifle Association of America v. Vullo</em>, 2024) or when corporations decided to resist the pressure exerted upon them by public officials (<em>Bantam Books Inc. v. Sullivan</em>, 1963). Both conditions are rare, for reasons I will explore in this paper. In other jurisdictions, regulatory threats do not pose a legal problem at all. move forward in the following way.</p>
+<p>In the first section, I state the problem and offer a definition of regulatory threats. I propose a two-axis compass to identify the forms in which officials may attempt to persuade or coerce individuals and corporations, ranging from simple verbal pressure to legislative or administrative steps toward regulation (hearings, green or white papers, legislative inquiries, requests for information, formal letters, guidance documents, etcetera). When accompanied by specific pre-regulatory acts, it is reasonable to assume that public officials’ commitment to regulation is higher, and thus the potential nudging effects of threats are larger. Regulatory threats are different from enforcement threats, but pose similar – albeit different – problems.</p>
+<p>The second section briefly introduces the normative problems involved in regulatory threats but also their usefulness as a way of communicating the state’s willingness to escalate its regulatory strategy (Ayres &amp; Braithwaite, 1992, p. 38). This is the key of the conundrum: we want public officials to be effective in office but we simultaneously want to prevent abuses. The section also discusses why large internet platforms are especially susceptible to this form of governance: it is because the rules of intermediary liability have spared them from potential costs associated to user generated content, they extract value from these rules, and – as chokepoints or points of control of a decentralized network – can play a meaningful role assisting governments in combating illegal activities over the Internet, such as illegal drug markets or CSAM (Balkin, 2014; Karanicolas, 2019a; Keller, 2019, 2023; Tusikov, 2016a; Zittrain, 2003). For the incentive structure stemming from this regime, these companies are “far more vulnerable to Government pressure than other news sources” (<em>Murthy v. Missouri</em>, 2024, p. 5). Unlike newspapers, the modern state exerts much more regulatory power over them and it also relies on them to combat some form of crimes specifically associated with the internet. This makes regulatory threats a governance mechanism of crucial importance on the internet.</p>
+<p>The third section posits that the legal standard developed by American courts to prevent abuses through regulatory threats or <em>jawboning</em> is difficult to administer by courts and dependent on highly unlikely litigation. Threatening patterns are hard to distinguish from normal processes of policy-making, and abuses can only emerge in context and if full access to communications between corporate and public officials is gained. For that reason, I conclude with a narrow regulatory proposal that seeks to shed light on communications between public officials and corporate officers. Without these measures of enhanced transparency, the mechanism will remain opaque and likely to be abused.</p>
+<h2>A. Threats of regulation as a mechanism</h2>
+<p>The rule-of-law model of democratic decision-making stands for a very basic proposition: that we make rules through our representatives in a legislative process to reach basic agreements that we lay down as legal rules destined to govern our conduct (Post, 2010, p. 1343; Raz, 2009). This instrumentalist conception of the law sees it as an outcome of a process in which deliberation of proposed rules within a legislative assembly leads towards consensus or majority rule, and thus new rules and regulations are created. While the model has been more or less challenged by the rise of the administrative state (Posner &amp; Vermeule, 2010; Rakoff, 2000, p. 161), it basically holds true for a large part of modern rule-making in a democratic society.</p>
+<p>Threats of regulation should be seen within this model and as part of its early stages, encompassing the steps that usually precede actual regulation, such as official inquiries, efforts at gathering information, drafting a bill, and so on. These pre-regulatory steps are sometimes public and sometimes private. A legislator, before introducing a bill, usually gathers information, holds meetings with experts and relevant stakeholders on the issue that matters to her, asks for information and feedback, and so on. In those meetings, public officials express desires, present concerns, and ask questions. These statements are often meant to convey an argument, to persuade, and to ask for conduct they would like to see adopted. Sometimes, the very utterance of those desires or requests is enough to influence the conduct of private actors potentially subjected to regulation, who may comply to appease the concerns of public officials. If they do, the public officials might feel that regulation is no longer necessary (Halfteck, 2008, p. 632). All of this happens – as well – in a context of lobbying and negotiations, where companies try to get the regulation they want or, at least, one that approximates their interests. Regulatory threats, as discussed here, are therefore part of the normal dialogue that precedes regulation in modern democratic societies.</p>
+<p>Researchers have consistently found the effectiveness of threats and informal mechanisms to pressure individuals and firms in a wide set of settings: pension funds administrators to invest in housing (Schotland, 1970), price-setting actors amidst inflation (Ackley, 1978, p. 508; Bartels, 1983; Fisher, 1970; Haberler, 1972), publicly-owned companies under the command-and-control model of the Securities and Exchange Commission (SEC) (Hipple &amp; Harkelroad, 1975, p. 697), Federal Reserve officers under pressure from politicians (Kane, 1990, p. 291), electric companies deciding on the price of utilities (Joskow &amp; MacAvoy, 1975, p. 296), banks deciding on interest rates amidst a steep political crisis (Glazer &amp; McMillan, 1992, pp. 1097–1098), directors at companies that were undesirably interlocked (Jorgensen &amp; Clark, 1980), or banks under pressure by regulators to disinvest in fossil-fuel (Sinclair, 2020), network industries (Haucap et al., 2007), and so on. While most research has been centred in the United States, these mechanisms have been found in use on gas price control policies in Spain (Perdiguero, 2004), in dealing with the pricing of utilities in the United Kingdom (Acutt et al., 2001b), in the Swedish textile industry (Hall &amp; Hysing, 2019), and in Indian and European internet governance politics (Citron, 2017; Karanicolas, 2021a).</p>
+<p>While some see this mechanism as an “entirely novel way” of inducing regulatory changes (Halfteck, 2008, p. 636), it can be viewed as a necessary part of democratic rule-making. In this account, officials are granted authority to enact rules and engage in formal or informal spaces where rules and their enforcement are imagined, proposed, demanded, or discussed. Sometimes what is said in these spaces elicits conduct change without the need for formal rule-making. In fulfilling their duties, public officials may freely share their “views and criticize particular beliefs” and “do so forcefully to persuade others to follow” their lead (<em>National Rifle Association of America v. Vullo</em>, 2024, pp. 8–9). Public officials have always “achieved their purposes largely through informal means—by giving speeches, threatening enforcement, or advising on their view of the law” (Rakoff, 2000, p. 162). In employing these means, they seek not only to persuade but also to pressure and encourage changes in conduct.</p>
+<p>Veiled threats of using their powers in more assertive ways are part of these dynamics. This is where United States courts have attempted to draw a line between what is permissible from what is not. For that reason, most American legal scholars define <em>jawboning</em> in ways that connote coercion <sup><a class="see-footnote" id="footnoteref1_2ih1ohj" title="On the internet, jawboning has been defined as “informal government efforts to persuade, cajole, or strong-arm private platforms to change their content-moderation practice” (See https://knightcolumbia.org/blog/channel/jawboning). It has also been defined as “statements by policymakers that threaten possible action, as opposed to announcing actual action” (Weiser, 2004), as “the threat of future regulation” (Keller, 2019, p. 5), as “informal means of persuasion and coercion, including the threat of regulation, to persuade platforms to adopt certain policies” (Leerssen, 2020). " href="#footnote1_2ih1ohj">1</a></sup>. Those who studied these dynamics outside of the narrow ground of the First Amendment and outside of the United States tend to define them in less normatively charged ways (Cotterill, 1999, p. 197) and often speak of regulatory threats as a matter of course (Acutt et al., 2001b; Cotterill, 1999, p. 197; Erfle et al., 1989, p. 150; Hall &amp; Hysing, 2019, p. 1006; Haucap et al., 2007, p. 172; Khanna &amp; Anton, 2002; Maxwell et al., 2000b; Noah, 1997; Reid &amp; Toffel, 2009). But it is only in the American context that they are seen as normatively problematic. Outside the United States, regulatory threats have not been regarded as raising fundamental or constitutional rights questions. Neither in Europe nor in Latin America, for instance, has the legality of regulatory threats been considered a problem by courts, and – to the best of my knowledge – only a handful of authors have addressed the issue from a European perspective (van de Kerkhof, 2023; Leerssen, 2024).</p>
+<p>The line drawn by American courts in its case-law is – however – somewhat fictitious. Words by public officials always carry the regulatory power of the state as a necessary background and are clothed with their authority. Some exert more power than others. The lonely senator trying to persuade a big online retailer may not have a lot of direct authority over its operations (<em>Kennedy v. Warren</em>, 2023), but the lone board member capable of making a regulatory proposal within the antitrust authority may be very persuasive in her demands. But corporations are susceptible to these dynamics.</p>
+<p>Indeed, research shows that firms strive to “stay ahead of the curve and prepare for future regulatory developments, long before the proposed regulations are finalized and codified” (Chang et al., 2023, p. 1; Halfteck, 2008, p. 662). As Keller noted, platforms engage in “anticipatory obedience” that “spares governments the need to enact actual laws” (Keller, 2019, p. 2). Ayres and Braithwaite suggest that modern regulators face a key question: “when to punish, when to persuade” (Ayres &amp; Braithwaite, 1992, p. 21). It is not a matter of either/or but of choice, because words by public officials can by themselves affect the world they intend to govern, whether they seek to persuade or coerce. As Harbath and Perault recall from their experience as Facebook executives, corporate officials feel the weight of the office held by those making demands (Harbath &amp; Perault, 2023). This applies both to corporations facing potential regulations—as Internet companies—and those subjected to well-established regulatory authority, such as broadcasters. When Chairman Wiley of the FCC pressured broadcasters to adopt a Family Hour policy for minors, he argued that he was simply sharing a concern and making a suggestion. “Here are some thoughts I have,” he testified, conveying more a suggestion than a threat (<em>Writers Guild of America, West, Inc. v. FCC</em>, 1976, p. 1092). But those at the receiving end of his words swiftly complied with his desires. Just as I was finishing the last revision of this paper, Jimmy Kimmel’s show on ABC was pulled off-air after the FCC chairman publicly pressed the network to do so (Koblin, 2025).</p>
+<p>When public officials speak, their words carry some weight. They always operate under a “shadow of hierarchy” (Héritier &amp; Lehmkuhl, 2008). This state power is also what makes guidance documents and non-legislative rules so effective (Mendelson, 2006, pp. 400–401).</p>
+<p>If this account holds, then it makes sense to think of regulatory threats generously, which leads to a definition that is broader than alternative accounts (Halfteck, 2008; Wu, 2011, p. 1844). A <em>threat of regulation</em> is defined here as any kind of public or private utterance or action by public officials who hold regulatory power over others in which they express, suggest, or imply – clearly or in a veiled manner – their desire for the subject’s conduct to shift in a particular direction. The regulatory response to a failure to comply needs not to be explicit, but it could be considered implied in the very dynamics of policy making at play. Against Wu, I do not exclude <em>a priori</em> from our definition “mere policy guidelines, studies, reports, and similar materials” (Wu, 2011, p. 1844). These can very well be part of a threatening pattern. Unlike Halfteck, I believe that regulatory threats are a more accurate concept than legislative threats (Halfteck, 2008). And against Bambauer, I do not feel that the definition of what a threat is should be normatively charged to suggest that threats are bad and should be necessarily curved as a mechanism of governance (Bambauer, 2015). The broader definition I propose is intended primarily for descriptive purposes. This definition reflects how threats operate in practice, based on the most detailed accounts produced through judicial inquiries in the United States but is also consistent with how other disciplines have theorized and researched regulatory threats in other sectors (Acutt et al., 2001b; Cotterill, 1999; Erfle et al., 1989, 1990; Hall &amp; Hysing, 2019; Khanna &amp; Anton, 2002; Maxwell et al., 2000b; Reid &amp; Toffel, 2009).</p>
+<figure class="img-align-none image-inline" id="figure_1"><img src="/sites/default/files/assets/images/node-2079/1.png" width="2048" height="1895" data-imgid="1" data-filename="1.png"><br>
+<figcaption><span class="label">Figure 1: </span>Threat compass.</figcaption>
+</figure>
+<p>I propose a two-axis compass as an approximate guide to classify these actions (<a href="#figure_1">Figure 1</a>). On the one hand, the private/public distinction serves the purpose of describing the extent to which the action can be seen from the outside. The more private it is, the less likely it will become public. On the other, the informal/formal divide also captures a relevant difference. Informal contacts between public officials and subjects (individuals or corporations) under their hypothetical regulatory power are the bread and butter of the administrative state. But sometimes those contacts occur in formal settings, such as e.g.&nbsp;working groups, periodic and formal meetings that are part of an ongoing public policy process, and so on. Again, the more formal the setting the more likely it is to become visible to an outside observer. These differences are important for theoretical and practical reasons. From a theoretical point of view, the visibility of these events is relevant for how policy-making is supposed to happen in a democratic community (van de Kerkhof, 2023). The open legislature (with open debates, open and public meetings, and other forms of openness) offers the regulatory ideal, where the formal process of rule-making can be monitored by outsiders and—eventually—challenged. From a practical perspective, the difference is relevant because, as one moves further towards the upper-right quadrant of the compass, events become more “observable” through research. By contrast, events in the lower-left quadrant are less transparent and less observable through normal research techniques.</p>
+<h2>B. Desirability and normative problems</h2>
+<p>Some see benefits in the use of regulatory threats. For instance, researchers who studied the Environmental Protection Agency (EPA) and the Securities Exchange Commission (SEC) in the United States have found that when official pressure is applied, some forms of “voluntary” regulation are more likely to be adopted (Antweiler, 2003; Maxwell et al., 2000b, 2000a; Patten &amp; Trompeter, 2003; Suijs &amp; Wielhouwer, 2019; Susskind &amp; Van Dam, 1986). Similarly, companies may act even when pre-regulatory steps have not been taken, if competing actors are perceived to be organizing to ask public officials for regulation deemed undesirable (Lyon &amp; Maxwell, 2004). In the environmental field the existence of a legal environment committed to enforcing regulations has been found to push companies into voluntary agreements that are formally outside the scope of binding regulation (Short &amp; Toffel, 2010). In these cases, pressure on an industry, or on a handful of relevant companies within it, may yield better results than regulation itself (Suijs &amp; Wielhouwer, 2019, p. 5).</p>
+<p>Others have argued that informal processes encourage a kind of “negotiated” regulation that yields better outcomes (Brotman, 1988; Hurwitz, 2019). This is the core of Wu’s argument to defend agency threats as a form of governance in conditions of “high uncertainty” (Wu, 2011, p. 1842). For Wu, regulation through threats is preferable to the alternative of poorly designed regulation, which occurs when agencies make decisions based on insufficient information, or to no intervention at all (Wu, 2011, pp. 1842–1843). Similarly, Halfteck considered that the use of threats “reduces transaction costs and facilitates regulatory bargaining” and “may result in superior regulatory measures, capable of dealing with the underlying policy concerns in a functionally effective and welfare-enhancing manner” (Halfteck, 2008, p. 704). Rakoff maintained that “open-ended, general grants of authority are needed in a fast-changing world where not all evils can be foreseen” (Rakoff, 2000, p. 171). Threats, once deprived of their negative normative connotation, can be placed within the broader category of regulatory mechanisms and procedures that deviate from the formal rule-making model, in which ideas of dialogue, negotiation, and compromise emerge (Husovec, 2023; Marsden et al., 2020). Communication between regulators and private individuals or corporations appears to be an essential part of Ayres and Braithwaite’s pyramid of regulatory strategies (Ayres &amp; Braithwaite, 1992, ch. 2).</p>
+<p>However, two problems arise with the use of informal processes to achieve regulatory ends. First, while such processes can indeed be effective from the government’s point of view, many of them occur behind closed doors and are hidden to the public (Mendelson, 2006). Thus, the values of openness, transparency, participation, and stakeholder engagement associated with the formal processes of rule-making are sacrificed (Ackley, 1978, p. 508; Anthony, 1992, p. 1312; Noah, 1997, p. 941). To an extent, this problem is the obverse of that posed by lobbying, through which powerful private actors often influence decisions by democratic or technocratic bodies. A regulatory proposal opens channels of communication between public and corporate officials in which its potential success looms in the background, but also where processes of deliberation and persuasion take place and where companies, as well as other private actors, influence the final outcome. The opacity of regulatory threats and lobbying efforts is the same opacity, and they pose similar problems<sup><a class="see-footnote" id="footnoteref2_lban2c3" title=" I thank this observation to Linda Weigl. " href="#footnote2_lban2c3">2</a></sup>.</p>
+<p>The second problem derives from the first. Because government officials can exercise this form of pressure under the radar of outside opposition and oversight, they can both prevent the intervention of veto players who may object to their demands. They may also request actions that could not be achieved through the formal process because they fall outside the scope of their jurisdiction or would be against the law. This problem has been the main focus of attention of First Amendment <em>jawboning</em> cases in the United States (Duffield, 2022), where courts have generally held that public officials may persuade others to do what they wish, but they cannot coerce them through threats (<em>National Rifle Association of America v. Vullo</em>, 2024, <em>Bantam Books Inc. v. Sullivan</em>, 1963). It is a line that is difficult to draw and that depends on extensive judicial discovery. In Europe, on the other hand, threats of enforcement of the DSA – what Leerssen calls <em>lawboning</em> – have created some push back in civil society organizations, which have complained about the potential negative effects of this governance mechanism on the public sphere (Leerssen, 2024; Access Now et al., 2024).</p>
+<h2>C. Threats and internet governance</h2>
+<p>Regulation by bullying is extremely likely and problematic on the internet because of the structure of incentives that control the behaviour of intermediaries, the market-concentration dynamic that increased their power, and the anxiety between elites in the West built around specific internet-based problems such as disinformation and hate speech, especially since 2016. Unlike newspapers, internet platforms are not entirely outside the scope of regulatory authorities. Unlike broadcasters, they are not subjected to a specific regulatory regime. But they are vulnerable to threats of change in the regulatory landscape.</p>
+<h3>1. Causes</h3>
+<p>Indeed, the regime of no or limited intermediary liability that was established in an early regulatory stage on the internet meant that corporations would both be relatively free from liability for content produced by others and that they were free to moderate content as they saw fit (Communications Decency Act, 1996). The <em>Communications Decency Act</em> of 1996 was drafted with the expectation that companies would undertake their own efforts at curbing specially problematic speech (Kosseff, 2019, p. 2). Section 230 granted immunity, and the Digital Millennium Copyright Act of 1998 established similar protections to deal with copyright infringement (Digital Millenium Copyright Act, 1998; Bambauer, 2015, pp. 61–65). The 2000 European directive on Electronic Commerce did the same (Directive 2000/31/CE, 2000). Because all these rules can be revisited and – in the last few years—have been increasingly questioned, threats of changing these regimes became a fundamental part of a self-regulatory mechanism that carried with it certain expectations (Black, 1996; Braithwaite, 1982; Ogus, 1995, pp. 97–98). The model was flexible and promised to better absorb “the transnational conflicts inherent in the global architecture of the Internet” (Price &amp; Verhulst, 2000, p. 151). But it presented problems that Price and Verhulst foresaw in 2000 regarding private censorship, that “can be more coercive and sweeping than its public form. And the dangers of constitutional violation are particularly striking where the self-regulatory entity is acting in response to government or as a means of preempting its intervention” (Price &amp; Verhulst, 2000, p. 151).</p>
+<p>The incentives laid down by these rules are a double-edged sword. On the one hand, they free corporations from the obligation to moderate illegal content and be liable for failing to do so. On the other hand, they create a powerful incentive to be receptive to government requests and “knuckle under government jawboning over content” (Bambauer, 2015, p. 81). This dynamic turns internet companies into careful listeners to what public officials have to say regarding the way they exercise the privilege of moderating content as they want, to signal that they are worthy of the indemnity the law provides (Bambauer, 2023; Kern, 2022; Kerry, 2021). While intermediary liability laws are not the only lever at the disposal of public officials, liability reform is certainly part of the equation that makes regulatory threats possible and effective in the field of internet governance (Kern, 2022; Bambauer 2015, 87; Masnick 2024a). The regulatory arsenal in the hands of the state is, however, much greater in scope. It includes antitrust regulation and enforcement, data protection laws, transparency mandates, and new co-regulatory regimes based on risk assessments like the DSA or the Online Safety Act of the UK (Del Campo, 2025).</p>
+<p>These incentives have become stronger because of the ongoing process of market-share concentration in several industry sectors, such as search engines (Srinivasan, 2021) and social networks (Benzell &amp; Chang, 2023; Funta, 2020). Within the context of a broadly <em>laissez-faire</em> attitude by antitrust authorities that lasted for decades, especially in the United States (Argentesi et al., 2021), these services captured significant shares of their relevant markets and became especially important as “Internet points of control” (Zittrain, 2003) or chokepoints (Tusikov, 2016a), over which governments can exert new school modes of control over speech (Balkin, 2014; Douek, 2022, pp. 542–543). The method used by regulators “consists in leaning on these points of control as regulatory levers. The so-called ‘co-regulatory mechanism’ must be understood … as a legal device designed to put pressure on the points of control to achieve some regulatory result” (Frydman et al., 2012, p. 133).</p>
+<p>This mechanism operates across jurisdictions. Sander has found that “the adoption by Facebook, Microsoft, Twitter and YouTube of a shared industry database of hashes for terrorist content appears to have been timed to diminish the prospect of future regulation that was feared might follow the European Commission’s critical review of their compliance with the Code of Conduct on Countering Illegal Hate Speech Online” (Sander, 2020, p. 952). Citron considers that most European initiatives before the DSA were driven by regulatory threats (Citron, 2017, p. 1043). As Hurwitz puts it, “the theory is simple: because no CEO likes to testify before Congress, spending time forced to answer questions intended to embarrass them and their company (to use one example), CEOs will conduct the company’s business to avoid such experiences” (Hurwitz, 2019, p. 32). Senator Dianne Feinstein was straightforward in the hearings called by the United States Congress on the fall of 2017 over disinformation and its perceived effects on the 2016 electoral process: “You’ve created these platforms and now they are being misused, and you have to be the ones to do something about it, or we will” (Duffield, 2022, p. 9). One of the most cited examples of the contrast betweenunsuccessful formal action against successful informal pressure was the SOPA/PIPA bills in the United States. While these were defeated in Congress, some of its provisions were later adopted voluntarily by major internet companies in what Tusikov called “secret handshake deals” (Tusikov, 2016b) that were “driven underground” (Bambauer, 2015, p. 53). Karanicolas has described how the Canadian government threatened Internet companies with regulation while expecting—from them—some form of “voluntary” action (Elkin-Koren, 2022, p. 185; Karanicolas, 2019b, p. 218). Prime Minister Trudeau stated that lack of compliance with these desires could lead to “meaningful financial consequences” (Karanicolas, 2019b, p. 218). Around that time, Canada hosted a meeting by the International Grand Committee on Big Data, Privacy, and Democracy, which Karanicolas reads as part of the broader pressuring effort (Karanicolas, 2019b, p. 218). He also found that when public officials raise questions over content moderation and mix them with antitrust concerns, the tactic seems to be more effective (Karanicolas, 2021b, p. 8). In Brazil, the Electoral Court asked for and got a good working relationship with internet companies in the context of the election disinformation crisis of 2018, a kind of cooperation that companies were used to providing in more menacing contexts (Santos, 2021). More recently, Brazilian judges famously clashed with X.com after some of their requests were not fulfilled (Nicas, 2024). And in the context of the DSA enforcement, commissioner Thierry Breton has been extremely vocal in terms of his desires and those of the European Commission, to the point that his requests has been criticised by civil society and somewhat rebuked by his peers (Access Now, Advocacy Initiative for Development (AID), et al., 2023; Access Now et al., 2024; Hancock, 2024; Tar, 2024), a dynamic that – eventually – led to him being pushed out of the Commission (Rankin, 2024) The anxiety over disinformation and hate speech that sprung around 2016 also explains the internet’s companies vulnerabilities, because pressure on them to <em>act</em> increased in parallel with growing concerns among Western governments. The laws adopted by France and Germany were precursors of the Digital Services Act of the European Union that – through a different approach – sought to reign on very large online platforms and search engines (Netzwerkdurchsetzungsgesetz [Network Enforcement Act], 2017, Digital Services Act, 2022, Loi No. 2020-766 Visant à Lutter Contre Les Contenus Haineux Sur Internet [Law No. 2020-766 Aimed at Combating Hateful Content on the Internet], 2020).</p>
+<h3>2. Invisibility</h3>
+<p>The main problem with these mechanisms is their opacity: they are almost invisible for outside observers (Duffield, 2023). Although communications between public and corporate officials sometimes emerge in public records, they most often occur in private settings beyond public scrutiny, as records obtained through discovery in United States courts show (<em>Missouri v. Biden</em>, 2023a, <em>Missouri v. Biden</em>, 2023b). These cases opened an unusual window into the kind of interactions through which regulatory threats happen in the field of internet governance. The kind of extensive judicial discovery behind these decisions is not entirely unusual (<em>Writers Guild of America, West, Inc. v. FCC</em>, 1976, <em>National Rifle Association of America v. Vullo</em>, 2024) but cases are few. Corporations are not generally inclined to protect the speech of their users (Keller, 2023), so litigation only happens when a third party feels affected by dynamics they cannot really see. However, those events in the upper part of the two-axis quadrant (<a href="#figure_1">Figure 1</a>) are only part of the process and not the most important ones.</p>
+<p>To reach this conclusion, we cross-references the 2021 events described in the District Court decision of <em>Missouri v. Biden</em> (n=92) with the 2021 events (n=966) gathered in a database we built in order to capture some of the public-facing expression of threatening dynamics <sup><a class="see-footnote" id="footnoteref3_wghtqlh" title="The effort meant gathering data from public records, classifying them according to issues where Informal methods of Internet governance were likely, and create a unified timeline of events that included public officials actions and corporate reactions, with the purpose of identifying correlations between the former and the latter. The public records that were gathered and classified were the United State Bills introduced in both the House and the Senate on Internet regulation (n=300), the public speeches gathered in The American Presidency Project based in the University of California at Santa Barbara, available at https://www.presidency.ucsb.edu/ (n=3154); the Federal Trade Commission actions and speeches (n=322 and 70, respectively), the Internet-related data found in Eur-Lex database, available at https://eur-lex.europa.eu/homepage.html (n=396); the European Commission’s press corner database, available on https://ec.europa.eu/commission/presscorner/ (n=6915); the data of CELE’s Observatorio Legislativo, covering bills from nine countries in Latin America, available at https://observatoriolegislativocele.com/ (n=555); the data of the project Letra Chica that recorded changes to Meta, X, and YouTube terms and conditions (no longer publicly available, n=690); the database of Platforms and Publishers of the Tow Center for Digital Journalism, available at https://tow.cjr.org/platform-timeline/ (n=1245); and the data found in the policy blogs of Google, Meta, and X.com (formerly Twitter, n=1839). We gathered the data, classified it according to keywords and regular expressions, and brought it together to form a unique data frame that could be visualized in a timeline that could be navigated for research purposes. The analysis presented in this section is based on this database and visualization. The database can be found in: https://ramiroau.github.io/threats-timeline/. " href="#footnote3_wghtqlh">3</a></sup>. We coded all events to visualize them in a timeline that could reveal the extent to which some of them were visible for outside observers at the time they happened <sup><a class="see-footnote" id="footnoteref4_1ix7d9e" title="The coding was made by capturing all events that, in the District Court decision, are dated. Repeated events were coded only once. " href="#footnote4_1ix7d9e">4</a></sup>. The exercise showed that most of the communications between public and corporate officials happened through emails (n=51), calls (n=2), and meetings (n=14). But on some occasions issues were taken “to the public” in ways that affected the ongoing conversations. These included different forms of public announcements such as talking to the media, speeches at public events, policy announcements by corporations, or press conferences (n=23). Some formal actions – such as depositions (n=1) or a Request for Information (“RFI”) by the Office of the Surgeon General (n=1) – made it into the judicial decision as relevant.</p>
+<p>The record produced during the <em>Missouri v. Biden</em> saga revealed that conversations between corporate and public officials were ongoing and requests were routine. The events reveal increasing frustration among public officials, who exert quite considerable pressure on companies and who,on occasion,take their concerns to the public. One of the most prominentpublic events in this dynamic was when President Biden said that platforms were “killing people” by failing to respond adequately to disinformation (Kanno-Youngs &amp; Kang, 2021). This comment was preceded by a press conference by Surgeon General Murthy in which he explicitly acknowledged they were pressuring corporations to “do more”. These public events were followed by private communications in which corporate officials asked to “get back into the White House’s good graces” (<em>Missouri v. Biden</em>, 2023b, p. 25). A day later, Facebook’s Nick Clegg’s emailed Murthy showing himself “keen to find a way to de-escalate and work together” (<em>Missouri v. Biden</em>, 2023b, p. 35). The following day, President Biden clarified that he was not talking about corporations but about the twelve individuals behind Covid-19 disinformation (Biden, 2021). But two days before Biden’s initial comment, Rob Flaherty—then Deputy Assistant to the President and Director of Digital Strategy—sent an angry email to a Facebook official demanding answers in the strongest possible terms <sup><a class="see-footnote" id="footnoteref5_ba1f0im" title="(Missouri v. Biden, 2023b), 25 (“Are you guys fucking serious? I want an answer on what happened here and I want it today”) " href="#footnote5_ba1f0im">5</a></sup>. As former corporate officials Harbath and Perault put it, taking private conversations to the public is a rather normal way of administering threats that public officials regularly use (Harbath &amp; Perault, 2023).</p>
+<p>The record of the Missouri v. Biden saga is hardly conclusive from the standpoint of the American legal standard on jawboning. A majority of the Supreme Court found it lacking, and – in particular – the factual pattern laid out by the District Court has been criticized as flawed and misrepresentative of the actual communications (Masnick, 2025). What I wish to recover from this litigation is not the viability of the rule proposed by United States courts to distinguish between coercion and persuasion and how American judges assess facts, but rather the communicative patterns through which threats may occur. In that sense, the discovery in Missouri v. Biden, as well as the discovery fifty years earlier in Writers Guild, suggests that most communications between public and corporate officials happen behind closed doors, outside the public’s view (on the left side of the threat compass presented in <a href="#figure_1">Figure 1</a>).</p>
+<p>These dynamics, however, regularly spill over into the public sphere, in the form of press-releases by potential regulators, public speeches, or more formal steps towards regulation. The facts uncovered by American courts in these cases suggest that when public officials put corporations under the spotlight it would be reasonable to believe that private communications are happening beyond public purview. Consider, for instance, the Press Corner of the European Commission <sup><a class="see-footnote" id="footnoteref6_j85tb87" title="Available at https://ec.europa.eu/commission/presscorner/home/en " href="#footnote6_j85tb87">6</a></sup>. It is an immense database of press briefings, conferences, and announcements. It is full of statements that could be read as part of threatening dynamics. Again, just focusing on 2021 – when the Digital Services Act was being developed – reveals statements by Commissioner Věra Jourová on platforms’ shortcomings to deal with disinformation in the context of elections (European Commission Press Corner, 2021c), demands for more transparency by Commissioner Breton in the context of the Covid-19 pandemic (European Commission Press Corner, 2021b), Commissioner Ylva Johansson proposed regulations that engage specific corporate politics such as Facebook’s policy of implementing end-to-end encryption on its Messenger service (European Commission Press Corner, 2021a), and so on.</p>
+<p>Letters by Commissioner Breton to corporations in the context of DSA enforcement have brought the mechanism under scrutiny in the European Union <sup><a class="see-footnote" id="footnoteref7_t0q4zpb" title="See Breton, T. [@ThierryBreton] (2022), Breton, T. [@ThierryBreton] (2023a). Some letters such as the ones Breton sent to X/Twitter and Meta on October 2023 created some pushback from civil society. See Breton, T. [@ThierryBreton] (2023b), Breton, T. [@ThierryBreton] (2023c), Access Now, Article 19, et al. (2023). " href="#footnote7_t0q4zpb">7</a></sup>. The pattern of public interactions moved from threats of enforcement to actual pre-enforcement decisions, such as the opening of regulatory proceedings or investigations <sup><a class="see-footnote" id="footnoteref8_04xk6ss" title="Breton, T. [@ThierryBreton] (2023d), Breto, T. [@ThierryBreton] (2024a), Breton, T. [@ThierryBreton] (2024c), Breton, T. [@ThierryBreton] (2024d). " href="#footnote8_04xk6ss">8</a></sup>or formal requests for information <sup><a class="see-footnote" id="footnoteref9_jynnxiz" title="Breton, T. [@ThierryBreton] (2024b) " href="#footnote9_jynnxiz">9</a></sup>and actual exchanges with corporate officials <sup><a class="see-footnote" id="footnoteref10_6do944e" title="Breton, T. [@ThierryBreton] (2024f), Breton, T. [@ThierryBreton] (2024h). " href="#footnote10_6do944e">10</a></sup>in which events of DSA infringement were explicitly announced <sup><a class="see-footnote" id="footnoteref11_bugcruz" title="Breton, T. [@ThierryBreton] (2024e) " href="#footnote11_bugcruz">11</a></sup>. TikTok’s decision to remove TikTok Lite from the European market came months after a formal investigation was announced and was celebrated as a direct consequence of that decision <sup><a class="see-footnote" id="footnoteref12_9zmurm3" title="European Commission Press Corner (2024a), European Commission Press Corner (2024b), Breton, T. [@ThierryBreton] (2024g). " href="#footnote12_9zmurm3">12</a></sup>. Similarly, to appease raising concerns regarding its links to the Chinese government, TikTok’s controlling company ByteDance Ltd. decided to change the default location of United States users’ data storage to Oracle servers located in the United States (Calamug, 2022). This did not prevent, however, swift regulatory action against the company through the passage of the <em>Protecting Americans from Foreign Adversary Controlled Applications Act</em> in April 2024, whose enforcement is currently on hold.</p>
+<p>In the United States, Mark Zuckerberg’s letter to the Committee on the Judiciary of the House of Representatives acknowledged pressures by public officials from all over the world (Zuckerberg, 2024). When discussing the Biden administration’s communications during the Covid-19 pandemic, Zuckerberg considered that the “government pressure was wrong” and regretted “that we were not more outspoken about it” (Zuckerberg, 2024). He also said that the company was “ready to push back if something like this happens again” (Zuckerberg, 2024). In January 2025, Zuckerberg announced major changes to his companies’ content moderation approach, including eliminating fact-checkers in the United States and simplifying rules (Hendrix, 2025). He argued that this meant going “back to our roots” and “restoring free expression on our platforms” (Hendrix, 2025), a narrative that aligns with demands made by top government officials regarding alleged censorship of conservative viewpoints in social media companies and a broad attack – by US officials – on the European Digital Services Act (Carr, 2025). ABC’s folding under pressure from the FCC – “we can do this the easy way or the hard way” – is just the latest iteration of a move that is pervasive, usually effective, and deserves from us closer scrutiny (Koblin, 2025).</p>
+<h2>D. Conclusion</h2>
+<p>Threatening internet companies with regulations they dislike has been a stable, well-documented governance mechanism used by public officials in the United States and elsewhere. While the issue has been discussed in the context of American <em>jawboning</em> judicial cases, the mechanism should be conceptualised more broadly for the reasons discussed above. It is necessary to understand how the mechanism operates in practice and how it relates to – and, in fact, exists because of – formal rule-making processes. The lines drawn by American judges are ill-suited to capture the complexity of how this dynamic unfolds in practice, and the public policy cycle should be scrutinized under the assumption that these informal methods of governance are effective. Regulatory and enforcement threats should – then – be scrutinised when they allow public officials to do informally what they are not allowed to do through formal regulation.</p>
+<p>This is more so after the Digital Services Act of the European Union came into force (Digital Services Act, 2022). The act, with all its complexity, partially shifts the approach of the self-regulatory model that ruled for the internet’s first thirty years. While it still protects intermediaries for content produced by third-parties, it imposes upon very large online platforms and search engines general duties and specific obligations under a broad regulatory regime that gives the European Commission and national authorities significant power over intermediaries. The incentives of the latter with regard to users’ speech rights, however, remain unchanged. As the first official regulatory actions taken by the European Commission show, the back and forth between European regulators and (mostly) United States corporations will be intense in the years to come (Elon Musk [@elonmusk], 2024; Breton, T. [@ThierryBreton], 2024h). The <em>jawboning</em> rule proposed in the United States is difficult to administer and extremely demanding in terms of facts and discovery. The United States Supreme Court has already showed some degree of scepticism in drawing inferences from a complex and muddy record (<em>Murthy v. Missouri</em>, 2024) but it has been more willing to draw the line when facts were simpler (<em>National Rifle Association of America v. Vullo</em>, 2024).</p>
+<p>The rule, however, is artificial. The public policy cycle is a continuum that should not be segmented. In the agenda setting stage, speech by public officials is crucially important. The formal process of regulation always begins informally. The fact that all regulations can change is always present in the background of interactions between corporate and public officials. The compass proposed in <a href="#figure_1">Figure 1</a> is descriptively accurate of what we should be examined to adequately understand how pressuring dynamics operate in practice, even though it is empirically difficult to see them from the outside. Private and informal communications happen in parallel to public utterances of requests, demands, and complaints. But they are invisible: as discussed before, we only see the public-facing side of these communications. This limitation offers a possible path forward of narrow regulatory action mandating transparency in corporate and public official’s communications, including obligations of record-keeping and regular disclosures, especially on matters where third-party rights or interests may be unfairly affected by informal regulation that taps on the structure of incentives that control the relationship between public officials and internet intermediaries. This proposal gathered some support in the symposium held by Knight First Amendment Institute at Columbia University in October 2023 (Duffield, 2023; Grossman &amp; Shapiro, 2023). The arguments presented in this paper should be read as providing further reasons for this course of action, in the United States and elsewhere. While in many countries the private but official communications of public officials are subjected to record-keeping obligations, and disclosures may happen in a number of ways – through time, through freedom of information requests, and so on – in many jurisdictions around the globe these communications are not covered by freedom of information regimes, are difficult to enforce or easy to evade (Astudillo Muñoz, 2020; Gamarra Galindo, 2019; Moreno Carrasco, 2015). For that reason, new rules should include private communications of public officials within the scope of the proactive transparency obligations that states should fulfil (Darbishire, 2010).</p>
+<p>Looking ahead, further research should produce new case studies of pressuring dynamics on the ground from a comparative standpoint. What motivates public officials? Are they pursuing structural, company-wide changes (as in e.g., new rules or modifications to terms of services) or issue specific (e.g., to increase moderation of certain contents)? How do countries with diminished <em>de facto</em> jurisdiction over powerful internet intermediaries use threats in their relationship to companies, and how do the latter respond? To what extent are partnerships or informal working relationships affected by the existence—diminished or not—of the state’s threatening power? Another important question is why the only jurisdiction to come up with a <em>jawboning</em> rule is the United States, even though the practice exists everywhere (van de Kerkhof, 2023). An explanation may lie in the fact that, in the United States, legislation occurs through a democratically elected legislature, whereas in Europe the policy process is driven by experts at the European Commission. Hence, it is possible that the fear of abuse underlying the American <em>jawboning</em> jurisprudence is directly linked to a concern typical of constitutionalism: the fear of political abuse and democratic excess (Holmes, 1993). This fear, in Europe, may be more subdued.</p>
+<p>These questions call for further research and critical analysis, in order to adequately understand how the mechanism manages to govern the Internet in such effective yet elusive ways.</p>
+<div class="references">
+<h2>References</h2>
+<p>Access Now, Advocacy Initiative for Development (AID), Africa Media and Information Technology Initiative (AfriMITI), African Freedom of Expression Exchange (AFEX), AI Forensics, Bits of Freedom, Centre for Democracy and Technology (Europe), Article 19, &amp; EFF. (2023, July 26). <em>Civil society statement: Commissioner Breton needs to clarify comments about the DSA allowing for platform blocking</em> [Letter]. <a href="https://www.accessnow.org/press-release/dsa-internet-blocking-statement/">https://www.accessnow.org/press-release/dsa-internet-blocking-statement/</a></p>
+<p>Access Now, Article 19, Algorithm Watch, ApTI, 7amaleh, Bits of Freedom, Digitale Gesellschaft (DE), &amp; Electronic Frontiers Foundation (EFF). (2023, October 17). <em>Civil society open letter to Commissioner Breton. Precise interpretation of the DSA matters especially when people’s lives are at risk in Gaza and Israel</em> [Letter]. <a href="https://www.article19.org/wp-content/uploads/2023/10/Civil-society-open-letter-to-Commissioner-Breton.pdf">https://www.article19.org/wp-content/uploads/2023/10/Civil-society-open-letter-to-Commissioner-Breton.pdf</a></p>
+<p>Access Now, Article 19, &amp; Electronic Frontiers Foundation (EFF). (2024, August 24). <em>Civil society statement: Commissioner Breton needs to stop politicising the Digital Services Act</em> [Letter]. <a href="https://www.article19.org/wp-content/uploads/2024/08/Letter-to-Commissioner-Breton-August-2024.pdf">https://www.article19.org/wp-content/uploads/2024/08/Letter-to-Commissioner-Breton-August-2024.pdf</a></p>
+<p>Ackley, G. (1978). Implications for policy: A symposium. <em>Brookings Papers on Economic Activity</em>, <em>1978</em>(2), 507. <a href="https://doi.org/10.2307/2534272">https://doi.org/10.2307/2534272</a></p>
+<p>Acutt, M., Elliott, C., &amp; Robinson, T. (2001). Credible regulatory threats. <em>Energy Policy</em>, <em>29</em>(11), 911–916. <a href="https://doi.org/10.1016/S0301-4215(01)00026-X">https://doi.org/10.1016/S0301-4215(01)00026-X</a></p>
+<p>Anthony, R. A. (1992). Interpretive rules, policy statements, guidances, manuals, and the like: Should federal agencies use them to bind the public? <em>Duke Law Journal</em>, <em>41</em>(6), 1311. <a href="https://doi.org/10.2307/1372817">https://doi.org/10.2307/1372817</a></p>
+<p>Antweiler, W. (2003). How effective is green regulatory threat? <em>American Economic Review</em>, <em>93</em>(2), 436–441. <a href="https://doi.org/10.1257/000282803321947489">https://doi.org/10.1257/000282803321947489</a></p>
+<p>Argentesi, E., Buccirossi, P., Calvano, E., Duso, T., Marrazzo, A., &amp; Nava, S. (2021). Merger policy in digital markets: An ex post assessment. <em>Journal of Competition Law &amp; Economics</em>, <em>17</em>(1), 95–140. <a href="https://doi.org/10.1093/joclec/nhaa020">https://doi.org/10.1093/joclec/nhaa020</a></p>
+<p>Astudillo Muñoz, J. L. (2020). El derecho a la vida privada de los funcionarios públicos frente al derecho de acceso a la información pública. Un estudio a la luz de la jurisprudencia del Consejo para la Transparencia en Chile [The right to privacy of public officials versus the right of access to public information. A study in light of the jurisprudence of the Council for Transparency in Chile]. <em>Derecho global. Estudios sobre derecho y justicia</em>, <em>5</em>(15), 89–112. <a href="https://doi.org/10.32870/dgedj.v5i15.277">https://doi.org/10.32870/dgedj.v5i15.277</a></p>
+<p>Ayres, I., &amp; Braithwaite, J. (1992). <em>Responsive regulation: Transcending the deregulation debate</em>. Oxford University Press.</p>
+<p>Balkin, J. M. (2014). Old-School/New-School Speech Regulation. <em>Harvard Law Review</em>, <em>127</em>(8), 2296–2342.</p>
+<p>Bambauer, D. E. (2015). Against jawboning. <em>Minn. L. Rev.</em>, <em>100</em>, 51.</p>
+<p>Bambauer, D. E. (2023, October 30). Be careful what you ask for. <em>Knight First Amendment Institute at Columbia University</em>. <a href="http://knightcolumbia.org/blog/be-careful-what-you-ask-for">http://knightcolumbia.org/blog/be-careful-what-you-ask-for</a></p>
+<p>Bantman Books Inc. v. Sullivan, 372 U.S. 58 (United States Supreme Court 1963).</p>
+<p>Bartels, A. H. (1983). The Office of Price Administration and the legacy of the New Deal, 1939-1946. <em>The Public Historian</em>, <em>5</em>(3), 5–29. <a href="https://doi.org/10.2307/3377026">https://doi.org/10.2307/3377026</a></p>
+<p>Bazelon, D. L. (1975). FCC regulation of the telecommunications press. <em>Duke Law Journal</em>, <em>1975</em>, 213.</p>
+<p>Becker, G. S. (1983). A theory of competition among pressure groups for political influence. <em>The Quarterly Journal Of Economics</em>, <em>98</em>(3), 371–400. <a href="https://doi.org/10.2307/1886017">https://doi.org/10.2307/1886017</a></p>
+<p>Benzell, S. G., &amp; Chang, F. B. (2023). Evaluating antitrust remedies for platform monopolies: The case of Facebook. <em>Vanderbilt Law Review</em>, <em>76</em>, 773.</p>
+<p>Biden, J. (2021, July 19). <em>Remarks on the national economy and an exchange with reporters</em>. The American Presidency Project. <a href="https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-and-exchange-with-reporters-10">https://www.presidency.ucsb.edu/documents/remarks-the-national-economy-and-exchange-with-reporters-10</a></p>
+<p>Black, J. (1996). Constitutionalising self-regulation. <em>The Modern Law Review</em>, <em>59</em>(1), 24–55. <a href="https://doi.org/10.1111/j.1468-2230.1996.tb02064.x">https://doi.org/10.1111/j.1468-2230.1996.tb02064.x</a></p>
+<p>Braithwaite, J. (1982). Enforced self-regulation: A new strategy for corporate crime control. <em>Michigan Law Review</em>, <em>80</em>(7), 1466–1507. <a href="https://doi.org/10.2307/1288556">https://doi.org/10.2307/1288556</a></p>
+<p>Breton, T. [@ThierryBreton]. (2022, October 28). <em>👋 @elonmusk In Europe, the bird will fly by our 🇪🇺 rules. #DSA</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1585902196864045056">https://x.com/ThierryBreton/status/1585902196864045056</a></p>
+<p>Breton, T. [@ThierryBreton]. (2023a, May 26). <em>Twitter leaves EU voluntary Code of Practice against disinformation. But obligations remain. You can run but you can’t hide.</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1662194595755704321">https://x.com/ThierryBreton/status/1662194595755704321</a></p>
+<p>Breton, T. [@ThierryBreton]. (2023b, October 10). <em>Following the terrorist attacks by Hamas against 🇮🇱, we have indications of X/Twitter being used to disseminate illegal content &amp; disinformation in the EU</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1711808891757944866">https://x.com/ThierryBreton/status/1711808891757944866</a></p>
+<p>Breton, T. [@ThierryBreton]. (2023c, October 11). <em>The #DSA is here to protect free speech against arbitrary decisions, and at the same time protect our citizens &amp; democracies</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1712126600873931150">https://x.com/ThierryBreton/status/1712126600873931150</a></p>
+<p>Breton, T. [@ThierryBreton]. (2023d, December 18). <em>Today we open formal infringement proceedings against @X : ⚠️ Suspected breach of obligations to counter #IllegalContent and #Disinformation ⚠️</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1736701607553692020">https://x.com/ThierryBreton/status/1736701607553692020</a></p>
+<p>Breton, T. [@ThierryBreton]. (2024a, February 19). <em>Today we open an investigation into #TikTok over suspected breach of transparency &amp; obligations to protect minors: 📱Addictive design &amp; screen time limits</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1759533374295667087">https://x.com/ThierryBreton/status/1759533374295667087</a></p>
+<p>Breton, T. [@ThierryBreton]. (2024b, April 17). <em>Is social media “lite” as addictive and toxic as cigarettes “light”? We have just sent a request for information</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1780585191108423941">https://x.com/ThierryBreton/status/1780585191108423941</a></p>
+<p>Breton, T. [@ThierryBreton]. (2024c, April 30). <em>Today we open cases against #Meta for suspected breach of #DSA obligations to protect integrity of elections</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1785246555710087280">https://x.com/ThierryBreton/status/1785246555710087280</a></p>
+<p>Breton, T. [@ThierryBreton]. (2024d, May 16). <em>🚨 Today we open formal #DSA investigation against #Meta. We are not convinced that Meta has done enough to comply with the DSA obligations</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1791044200504385562">https://x.com/ThierryBreton/status/1791044200504385562</a></p>
+<p>Breton, T. [@ThierryBreton]. (2024e, July 12). <em>Back in the day, #BlueChecks used to mean trustworthy sources of information✔️🐦 Now with X, our preliminary view is that</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1811699711591489637">https://x.com/ThierryBreton/status/1811699711591489637</a></p>
+<p>Breton, T. [@ThierryBreton]. (2024f, July 12). <em>Be our guest @elonmusk ⚖️🇪🇺 There has never been—And will never be—Any “secret deal”</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1811811489889517697">https://x.com/ThierryBreton/status/1811811489889517697</a></p>
+<p>Breton, T. [@ThierryBreton]. (2024g, August 12). <em>The available brain time of young Europeans is not a currency for social media—And it never will be</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1820399371583713470">https://x.com/ThierryBreton/status/1820399371583713470</a></p>
+<p>Breton, T. [@ThierryBreton]. (2024h, August 12). <em>With great audience comes greater responsibility #DSA As there is a risk of amplification of potentially harmful content in 🇪🇺</em> [Tweet]. Twitter. <a href="https://x.com/ThierryBreton/status/1823033048109367549">https://x.com/ThierryBreton/status/1823033048109367549</a></p>
+<p>Brito, J. (2014). Agency threats and the rule of law: An offer you can’t refuse. <em>Harv. JL &amp; Pub. Pol’y</em>, <em>37</em>, 553.</p>
+<p>Brotman, S. (1988). Communications policy-making at the FCC: Past practices, future direction. <em>Cardozo Arts &amp; Ent LJ</em>, <em>7</em>, 55.</p>
+<p>Chang, S., Kalmenovitz, J., &amp; Lopez-Lira, A. (2023). <em>Follow the pipeline: Anticipatory effects of proposed regulations</em> (SSRN Scholarly Paper No. 4360231). <a href="https://doi.org/10.2139/ssrn.4360231">https://doi.org/10.2139/ssrn.4360231</a></p>
+<p>Citron, D. K. (2017). Extremist speech, compelled conformity, and censorship creep. <em>Notre Dame L. Rev.</em>, <em>93</em>, 1035.</p>
+<p>Communications Decency Act, Pub. L. No. §230, 47 U.S.C (1996).</p>
+<p>Cooper, C. (1978). Writers Guild of America, West, Inc. v. FCC: A First Amendment Blow to FCC Jawboning. <em>Ariz. L. Rev.</em>, <em>20</em>, 315.</p>
+<p>Corn-Revere, R. (1995). Television violence and the limits of voluntarism. <em>The Yale Journal on Regulation</em>, <em>12</em>, 187.</p>
+<p>Cotterill, R. W. (1999). Jawboning cereal: The campaign to lower cereal prices. <em>Agribusiness: An International Journal</em>, <em>15</em>(2), 197–205.</p>
+<p>Darbishire, H. (2010). <em>Proactive transparency: The future of the right to information?</em> (No. 56598; Governance Working Paper Series). World Bank. <a href="https://doi.org/10.1596/25031">https://doi.org/10.1596/25031</a></p>
+<p>Digital Millenium Copyright Act, 105–304 Pub. L. (1998). <a href="https://www.congress.gov/bill/105th-congress/house-bill/2281">https://www.congress.gov/bill/105th-congress/house-bill/2281</a></p>
+<p>Digital Services Act, Pub. L. No. 2022/2065, OJ L 277, 27.10.2022 1 (2022). <a href="https://eur-lex.europa.eu/eli/reg/2022/2065/oj">https://eur-lex.europa.eu/eli/reg/2022/2065/oj</a></p>
+<p>Directive 2000/31/CE, DOCE L 178/11 (2000). <a href="https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX%3A32000L0031">https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX%3A32000L0031</a></p>
+<p>Douek, E. (2022a). Content moderation as systems thinking. <em>Harvard Law Review</em>, <em>136</em>, 526.</p>
+<p>Douek, E. (2022b). The siren call of content moderation formalism. In L. Bollinger &amp; G. Stone (Eds), <em>Social media, freedom of speech, and the future of our democracy</em> (pp. 139–156). Oxford University Press.</p>
+<p>Duffield, W. (2022). <em>Jawboning over social media’s handling of Hunter Biden</em>.</p>
+<p>Duffield, W. (2023). <em>Judge blocks jawboning?</em> <a href="https://policycommons.net/artifacts/4450438/judge-blocks-jawboning/5247707/">https://policycommons.net/artifacts/4450438/judge-blocks-jawboning/5247707/</a></p>
+<p>Elkin-Koren, N. (2022). Government–platform synergy and its perils. In E. Celeste, A. Heldt, &amp; C. I. Keller (Eds), <em>Constitutionalising social media</em>. Hart Publishing.</p>
+<p>Erfle, S., McMillan, H., &amp; Grofman, B. (1989). Testing the Regulatory Threat Hypothesis: Media coverage of the energy crisis and petroleum pricing in the late 1970s. <em>American Politics Quarterly</em>, <em>17</em>(2), 132–152. <a href="https://doi.org/10.1177/1532673X8901700202">https://doi.org/10.1177/1532673X8901700202</a></p>
+<p>Erfle, S., McMillan, H., &amp; Grofman, B. (1990). Regulation via threats: Politics, media coverage, and oil pricing decisions. <em>Public Opinion Quarterly</em>, <em>54</em>(1), 48–63. <a href="https://doi.org/10.1086/269183">https://doi.org/10.1086/269183</a></p>
+<p>European Commission. (2021a, January 26). <em>EU Internet Forum Ministerial: Towards a coordinated response to curbing terrorist and child sexual abuse content on the internet</em> [Text]. European Commission Press Corner.</p>
+<p>European Commission. (2021b, January 28). <em>Daily News 28/01/2021</em> [Text]. European Commission Press Corner. <a href="https://ec.europa.eu/commission/presscorner/detail/en/mex_21_283">https://ec.europa.eu/commission/presscorner/detail/en/mex_21_283</a></p>
+<p>European Commission. (2021c, November 25). <em>Speech by Vice-President Jourová</em> [Text]. European Commission Press Corner. <a href="https://ec.europa.eu/commission/presscorner/detail/en/speech_21_6309">https://ec.europa.eu/commission/presscorner/detail/en/speech_21_6309</a></p>
+<p>European Commission. (2024a, April 22). <em>Commission opens proceedings against TikTok under the DSA</em>. European Commission Press Corner. <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_24_2227">https://ec.europa.eu/commission/presscorner/detail/en/ip_24_2227</a></p>
+<p>European Commission. (2024b, August 5). <em>TikTok commits to permanently withdraw TikTok Lite Rewards</em>. European Commission Press Corner. <a href="https://ec.europa.eu/commission/presscorner/detail/en/IP_24_4161">https://ec.europa.eu/commission/presscorner/detail/en/IP_24_4161</a></p>
+<p>Fisher, R. W. (1970). Labor and the economy in 1969. <em>Monthly Labor Review</em>, (Jan 1970), 30–43.</p>
+<p>Frydman, B., Hennebel, L., &amp; Lewkowicz, G. (2012). Co-regulation and the rule of law. In E. Brousseau, M. Marzouki, &amp; C. Méadel (Eds), <em>Governance, Regulation and Powers on the Internet</em> (Illustrated edition). Cambridge University Press.</p>
+<p>Funta, R. (2020). Social networks and potential competition issues. <em>Krytyka Prawa</em>, <em>12</em>(1), 193–205. <a href="https://doi.org/10.7206/kp.2080-1084.369">https://doi.org/10.7206/kp.2080-1084.369</a></p>
+<p>Gamarra Galindo, M. A. (2019). <em>Correos electrónicos de las cuentas oficiales de los funcionarios públicos como ámbito de protección del derecho de acceso a la información pública en el ordenamiento jurídico peruano [Emails from the official accounts of public officials as an area of protection of the right of access to public information in the Peruvian legal system]</em> [Thesis, Pontificia Universidad Católica del Perú]. <a href="https://tesis.pucp.edu.pe/repositorio/handle/20.500.12404/13232">https://tesis.pucp.edu.pe/repositorio//handle/20.500.12404/13232</a></p>
+<p>Glazer, A., &amp; McMillan, H. (1992). Pricing by the firm under regulatory threat. <em>The Quarterly Journal of Economics</em>, <em>107</em>(3), 1089–1099. <a href="https://doi.org/10.2307/2118376">https://doi.org/10.2307/2118376</a></p>
+<p>Gorwa, R. (2019). What is platform governance? <em>Information, Communication &amp; Society</em>, <em>22</em>(6), 854–871. <a href="https://doi.org/10.1080/1369118X.2019.1573914">https://doi.org/10.1080/1369118X.2019.1573914</a></p>
+<p>Grossman, A., &amp; Shapiro, K. (2023). <em>Shining a light on censorship: How transparency can curtail government social media censorship and more</em> (Briefing Paper No. 168). Cato Institute. <a href="https://www.cato.org/briefing-paper/shining-light-censorship-how-transparency-can-curtail-government-social-media">https://www.cato.org/briefing-paper/shining-light-censorship-how-transparency-can-curtail-government-social-media</a></p>
+<p>Haberler, G. (1972). Incomes policy and inflation: Some further reflections. <em>The American Economic Review</em>, <em>62</em>(1/2), 234–241.</p>
+<p>Hagemann, R., Huddleston Skees, J., &amp; Thierer, A. (2018). Soft law for hard problems: The governance of emerging technologies in an uncertain future. <em>Colorado Technology Law Journal</em>, <em>17</em>(1), 37–130.</p>
+<p>Halfteck, G. (2008). Legislative threats. <em>Stanford Law Review</em>, <em>61</em>(3), 629–710.</p>
+<p>Hall, P., &amp; Hysing, E. (2019). Advancing voluntary chemical governance? The case of the Swedish textile industry dialogue. <em>Journal of Environmental Planning and Management</em>, <em>62</em>(6), 1001–1018. <a href="https://doi.org/10.1080/09640568.2018.1457515">https://doi.org/10.1080/09640568.2018.1457515</a></p>
+<p>Hancock, A. (2024, August 13). <em>Brussels slaps down Thierry Breton over ‘harmful content’ letter to Elon Musk</em>. Financial Times. <a href="https://www.ft.com/content/09cf4713-7199-4e47-a373-ed5de61c2afa">https://www.ft.com/content/09cf4713-7199-4e47-a373-ed5de61c2afa</a></p>
+<p>Harbath, K., &amp; Perault, M. (2023, October 4). Jawboned [Blog]. <em>Knight First Amendment Institute at Columbia University</em>. <a href="http://knightcolumbia.org/blog/jawboned">http://knightcolumbia.org/blog/jawboned</a></p>
+<p>Haucap, J., Heimeshoff, U., &amp; Uhde, A. (2007). Credible threats as an instrument of regulation for network industries. In P. J. J. Welfens &amp; M. Weske (Eds), <em>Digital Economic Dynamics: Innovations, Networks and Regulations</em> (pp. 171–202). Springer. <a href="https://doi.org/10.1007/978-3-540-36030-8_9">https://doi.org/10.1007/978-3-540-36030-8_9</a></p>
+<p>Héritier, A., &amp; Lehmkuhl, D. (2008). Introduction: The shadow of hierarchy and new modes of governance. <em>Journal of Public Policy</em>, <em>28</em>(1,), 1–17.</p>
+<p>Hipple, R. J., &amp; Harkelroad, D. R. (1975). Anomalies of SEC enforcement: Two areas of concern. <em>Emory Law Journal</em>, <em>24</em>, 696.</p>
+<p>Horwitz, M. J. (1993). The Supreme Court, 1992 term – Foreword: The constitution of change: Legal fundamentality without fundamentalism. <em>Harv. L. Rev.</em>, <em>107</em>, 30.</p>
+<p>Hunt, A., &amp; Wickham, G. (1994a). <em>Foucault and law: Towards a sociology of law as governance</em>. Pluto Press. <a href="http://books.google.com/books?hl=en&amp;lr=&amp;id=jFQwTHyworUC&amp;oi=fnd&amp;pg=PR6&amp;dq=%22juridical+monarchy%22%3B+in+the+premodern+era,+law+provides%22+%22and+analyzed+by+Foucault+as+a+consequence+of+discipline,+the+rise%22+%22ignoring+the+indisputable+significance+of+state+and+other+forms+of%22+&amp;ots=I-Umu5mbNM&amp;sig=hHzkG0o-EHJ5NU9obbylgCW6HPA">http://books.google.com/books?hl=en&amp;lr=&amp;id=jFQwTHyworUC&amp;oi=fnd&amp;pg=PR6&amp;dq=%22juridical+monarchy%22%3B+in+the+premodern+era,+law+provides%22+%22and+analyzed+by+Foucault+as+a+consequence+of+discipline,+the+rise%22+%22ignoring+the+indisputable+significance+of+state+and+other+forms+of%22+&amp;ots=I-Umu5mbNM&amp;sig=hHzkG0o-EHJ5NU9obbylgCW6HPA</a></p>
+<p>Hunt, A., &amp; Wickham, G. (1994b). <em>Foucault and law: Towards a sociology of law as governance</em>. Pluto Press.</p>
+<p>Hurwitz, J. (2019). Regulation as partnership. <em>Journal of Law and Innovation</em>, <em>3</em>, 1.</p>
+<p>Husovec, M. (2023). How to facilitate data access under the Digital Services Act. <em>Available at SSRN 4452940</em>.</p>
+<p>Jorgensen, C. A., &amp; Clark, J. J. (n.d.). Interlocking Directorates and Section 8 of the Clayton Act. <em>Albany Law Review</em>, <em>44</em>(139).</p>
+<p>Joskow, P. L., &amp; MacAvoy, P. W. (1975). Regulation and the financial condition of the electric power companies in the 1970’s. <em>The American Economic Review</em>, <em>65</em>(2), 295–301.</p>
+<p>Kane, E. J. (1990). Bureaucratic self-interest as an obstacle to monetary reform. In T. Mayer (Ed.), <em>The political economy of American monetary policy</em>. Cambridge University Press. <a href="https://doi.org/10.1017/CBO9780511571947">https://doi.org/10.1017/CBO9780511571947</a></p>
+<p>Kanno-Youngs, Z., &amp; Kang, C. (2021, July 16). ‘They’re killing people’: Biden denounces social media for virus disinformation. <em>The New York Times</em>. <a href="https://www.nytimes.com/2021/07/16/us/politics/biden-facebook-social-media-covid.html">https://www.nytimes.com/2021/07/16/us/politics/biden-facebook-social-media-covid.html</a></p>
+<p>Karanicolas, M. (n.d.). Squaring the circle between freedom of expression and platform law. <em>Pitt. J. Tech. L. &amp; Pol’y</em>, <em>20</em>(177).</p>
+<p>Karanicolas, M. (2019). Subverting democracy to save democracy: Canada’s extra-constitutional approaches to battling ‘fake news’. <em>Available at SSRN 3423092</em>.</p>
+<p>Karanicolas, M. (2021a). Authoritarianism as a service: India’s moves to weaponize private sector content moderation with the 2021 information technology rules. <em>Indian JL &amp; Tech.</em>, <em>17</em>, 25.</p>
+<p>Karanicolas, M. (2021b). Too long; didn’t read: Finding meaning in platforms’ terms of service agreements. <em>U. Tol. L. Rev.</em>, <em>52</em>, 1.</p>
+<p>Keller, D. (2019). <em>Who do you sue? State and platform hybrid power over online speech</em> (Aegis Series No. 1902; National Security, Technology, and Law, p. 40). Hoover Institution.</p>
+<p>Keller, D. (2023). <em>Platform transparency and the first amendment</em> (SSRN Scholarly Paper No. 4377578). <a href="https://doi.org/10.2139/ssrn.4377578">https://doi.org/10.2139/ssrn.4377578</a></p>
+<p>Kern, R. (2022, September 8). <em>White House renews call to ‘remove’ Section 230 liability shield</em>. POLITICO. <a href="https://www.politico.com/news/2022/09/08/white-house-renews-call-to-remove-section-230-liability-shield-00055771">https://www.politico.com/news/2022/09/08/white-house-renews-call-to-remove-section-230-liability-shield-00055771</a></p>
+<p>Kerry, C. (2021, May 14). <em>Section 230 reform deserves careful and focused consideration</em>. Brookings. <a href="https://www.brookings.edu/articles/section-230-reform-deserves-careful-and-focused-consideration/">https://www.brookings.edu/articles/section-230-reform-deserves-careful-and-focused-consideration/</a></p>
+<p>Khanna, M., &amp; Anton, W. R. Q. (2002). What is driving corporate environmentalism: Opportunity or threat? <em>Corporate Environmental Strategy</em>, <em>9</em>(4), 409–417. <a href="https://doi.org/10.1016/S1066-7938(02)00118-5">https://doi.org/10.1016/S1066-7938(02)00118-5</a></p>
+<p>Kosseff, J. (2019). <em>The twenty-six words that created the internet</em>. Cornell University Press.</p>
+<p>Leerssen, P. (2020). The Soap Box as a Black Box: Regulating transparency in social media recommender systems. <em>European Journal of Law and Technology</em>, <em>11</em>(2).</p>
+<p>Lerner, N. M. (1978). It’s all In the family: Family viewing and the First Amendment. <em>New York University Review of Law and Social Change</em>, <em>7</em>, 83.</p>
+<p>Linder, A. (2017). Explaining shipping company participation in voluntary vessel emission reduction programs. <em>Transportation Research Part D: Transport and Environment</em>, <em>61</em>, 234–245. <a href="https://doi.org/10.1016/j.trd.2017.07.004">https://doi.org/10.1016/j.trd.2017.07.004</a></p>
+<p>Loi No. 2020-766 Visant à Lutter Contre Les Contenus Haineux Sur Internet [Law No. 2020-766 Aimed at Combating Hateful Content on the Internet], Pub. L. Nos 2020–766, 0156 JORF (2020). <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042031970">https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042031970</a></p>
+<p>Lyon, T. P., &amp; Maxwell, J. W. (2004). <em>Preempting uncertain regulatory threats</em>. <a href="https://webuser.bus.umich.edu/tplyon/PDF/Working%20Papers/LyonMaxwellJRESept04.pdf">https://webuser.bus.umich.edu/tplyon/PDF/Working%20Papers/LyonMaxwellJRESept04.pdf</a></p>
+<p>Marsden, C., Meyer, T., &amp; Brown, I. (2020). Platform values and democratic elections: How can the law regulate digital disinformation? <em>Computer Law &amp; Security Review</em>, <em>36</em>(2020), 1–18. <a href="https://doi.org/10.1016/j.clsr.2019.105373">https://doi.org/10.1016/j.clsr.2019.105373</a></p>
+<p>Maxwell, J. W., Lyon, T. P., &amp; Hackett, S. C. (2000). Self-regulation and social welfare: The political economy of corporate environmentalism. <em>The Journal of Law and Economics</em>, <em>43</em>(2), 583–618. <a href="https://doi.org/10.1086/467466">https://doi.org/10.1086/467466</a></p>
+<p>Mendelson, N. A. (2007). Regulatory beneficiaries and informal agency policymaking. <em>Cornell Law Review</em>, <em>92</em>, 397.</p>
+<p>Missouri v. Biden, 3:22-CV-01213 (United States District Court, Western District Of Louisiana, Monroe Division 4 July 2023).</p>
+<p>Missouri v. Biden, No. 23-30445 (United States District Court, Western District Of Louisiana, Monroe Division 8 September 2023).</p>
+<p>Monahan, J. (2021). ‘Falsehood flies, and the truth comes limping after’: Combatting online disinformation in the shadow of CUSMA. <em>Dalhousie J. Legal Stud.</em>, <em>30</em>, 63.</p>
+<p>Moreno Carrasco, D. (2015). Acceso a la información pública y correos electrónicos de los funcionarios públicos en Chile [Access to public information and emails of public officials in Chile]. <em>Revista chilena de derecho y tecnología</em>, <em>4</em>(1), 4.</p>
+<p>Murthy v. Missouri, 603 U.S. 43 (Supreme Court of the United States 2024).</p>
+<p>Musk, E. (2024, July 12). <em>The European Commission offered 𝕏 an illegal secret deal: If we quietly censored speech without telling anyone, they would not fine us. The other platforms accepted that deal. 𝕏 did not</em> [Tweet]. Twitter. <a href="https://x.com/elonmusk/status/1811783320839008381">https://x.com/elonmusk/status/1811783320839008381</a></p>
+<p>National Rifle Association of America v. Vullo (Supreme Court of the United States 2024).</p>
+<p>Netzwerkdurchsetzungsgesetz [Network Enforcement Act], I S. 3352 BGBl (2017). <a href="https://www.gesetze-im-internet.de/netzdg/index.html">https://www.gesetze-im-internet.de/netzdg/index.html</a></p>
+<p>Noah, L. (1997). Administrative arm-twisting in the shadow of congressional delegations of authority. <em>Wis. L. Rev.</em>, 873.</p>
+<p>Ogus, A. (1995). Rethinking self-regulation. <em>Oxford Journal of Legal Studies</em>, <em>15</em>(1), 97–108.</p>
+<p>Patten, D. M., &amp; Trompeter, G. (2003). Corporate responses to political costs: An examination of the relation between environmental disclosure and earnings management. <em>Journal of Accounting and Public Policy</em>, <em>22</em>(1), 83–94. <a href="https://doi.org/10.1016/S0278-4254(02)00087-X">https://doi.org/10.1016/S0278-4254(02)00087-X</a></p>
+<p>Perdiguero, J. (2004). <em>Precios de la gasolina bajo amenaza regulatoria [Petrol prices under regulatory threat]</em>. <a href="https://www.researchgate.net/publication/266593602_Precios_de_la_gasolina_bajo_amenaza_regulatoria">https://www.researchgate.net/publication/266593602_Precios_de_la_gasolina_bajo_amenaza_regulatoria</a></p>
+<p>Posner, E. A., &amp; Vermeule, A. (2010). <em>The executive unbound: After the Madisonian Republic</em>. Oxford University Press.</p>
+<p>Post, R. (2010). Theorizing disagreement: Reconceiving the relationship between law and politics. <em>California Law Review</em>, <em>98</em>(4), 1319–1350.</p>
+<p>Price, M., &amp; Verhulst, S. (2000). The concept of self-regulation and the internet. In J. Waltermann &amp; M. Machill (Eds), <em>Protecting our children on the internet. Towards a new culture of responsibility</em> (pp. 133–198). Bertelsmann Foundation Publishers.</p>
+<p>Rakoff, T. D. (2000). The choice between formal and informal modes of administrative regulation. <em>Administrative Law Review</em>, <em>52</em>(1), 159–174.</p>
+<p>Raz, J. (1986). Dworkin: A new link in the chain. <em>CALIFORNIA LAW REVIEW</em>, <em>74</em>, 18. <a href="https://doi.org/10.2307/3480404">https://doi.org/10.2307/3480404</a></p>
+<p>Reid, E. M., &amp; Toffel, M. W. (2009). Responding to public and private politics: Corporate disclosure of climate change strategies. <em>Strategic Management Journal</em>, <em>30</em>(11), 1157–1178. <a href="https://doi.org/10.1002/smj.796">https://doi.org/10.1002/smj.796</a></p>
+<p>Sander, B. (2020). Freedom of expression in the age of online platforms: The promise and pitfalls of a human rights-based approach to content moderation. <em>Fordham International Law Journal</em>, <em>43</em>(4), 939–1006.</p>
+<p>Sander, B. (2021). Democratic disruption in the age of social media: Between marketized and structural conceptions of human rights law. <em>European Journal of International Law</em>, <em>32</em>(1), 159–193.</p>
+<p>Santos, G. F. (2021). Social media, disinformation, and regulation of the electoral process: A study based on 2018 Brazilian election experience. <em>Revista de Investigações Constitucionais</em>, <em>7</em>, 429–449. <a href="https://doi.org/10.5380/rinc.v7i2.71057">https://doi.org/10.5380/rinc.v7i2.71057</a></p>
+<p>Schotland, A. (1970). Private pension funds: A guide for modern investments. <em>The Georgetown Law Journal</em>, <em>59</em>, 355.</p>
+<p>Short, J. L., &amp; Toffel, M. W. (2010). Making self-regulation more than merely symbolic: The critical role of the legal environment. <em>Administrative Science Quarterly</em>, <em>55</em>(3), 361–396. <a href="https://doi.org/10.2189/asqu.2010.55.3.361">https://doi.org/10.2189/asqu.2010.55.3.361</a></p>
+<p>Sinclair, D. (2020). Speak loudly and carry a small stick: Prudential regulation and the climate, energy, and finance nexus. In <em>Criminology and Climate</em> (pp. 47–75). Routledge.</p>
+<p>Srinivasan, D. (2021). Why Google dominates advertising markets. <em>Stanford Technology Law Review</em>, <em>24</em>, 55.</p>
+<p>Suijs, J., &amp; Wielhouwer, J. L. (2019). Disclosure policy choices under regulatory threat. <em>The RAND Journal of Economics</em>, <em>50</em>(1), 3–28. <a href="https://doi.org/10.1111/1756-2171.12260">https://doi.org/10.1111/1756-2171.12260</a></p>
+<p>Susskind, L., &amp; Van Dam, L. (1986). Squaring off at the table, not in courts. <em>Tech. Rev.</em>, <em>July 1986</em>.</p>
+<p>Tar, J. (2024, August 22). <em>Civil society criticises Commissioner Breton’s approach to EU digital rulebook</em>. Euractiv. <a href="https://www.euractiv.com/section/platforms/news/civil-society-criticises-commissioner-bretons-approach-to-eu-digital-rulebook/">https://www.euractiv.com/section/platforms/news/civil-society-criticises-commissioner-bretons-approach-to-eu-digital-rulebook/</a></p>
+<p>Tusikov, N. (2016). <em>Chokepoints: Global private regulation on the internet</em> (1st edition). University of California Press.</p>
+<p>van de Kerkhof, J. (2023). <em>Jawboning content moderation from a European perspective</em> (SSRN Scholarly Paper No. 4695233). <a href="https://papers.ssrn.com/abstract=4695233">https://papers.ssrn.com/abstract=4695233</a></p>
+<p>Weiser, P. J. (2004). Introduction: A regulatory regime for the internet age. <em>J. on Telecomm. &amp; High Tech. L.</em>, <em>3</em>, 1.</p>
+<p>Writers Guild of America, West, Inc. v. FCC, 423 F. Supp 1064 (C.D. Cal. 1976). <a href="https://law.justia.com/cases/federal/district-courts/FSupp/423/1064/2393546/">https://law.justia.com/cases/federal/district-courts/FSupp/423/1064/2393546/</a></p>
+<p>Wu, T. (2011). Agency threats. <em>Duke Law Journal</em>, <em>60</em>, 1841.</p>
+<p>Zittrain, J. (2003). Internet points of control. <em>BCL Rev.</em>, <em>44</em>, 653.</p>
+<p>Zuckerberg, M. (2024, August 26). <em>Meta’s letter to the Committe of the Judiciary</em> [Letter]. <a href="https://x.com/juanof9/status/1828245345635311990">https://x.com/juanof9/status/1828245345635311990</a></p>
+</div>
+<div class="footnotes">
+<h2>Footnotes</h2>
+<p><a id="footnote1_2ih1ohj" href="#footnoteref1_2ih1ohj">1.</a> On the internet, <em>jawboning</em> has been defined as “informal government efforts to persuade, cajole, or strong-arm private platforms to change their content-moderation practice” (<em>See</em> <a href="https://knightcolumbia.org/blog/channel/jawboning">https://knightcolumbia.org/blog/channel/jawboning</a>). It has also been defined as “statements by policymakers that threaten possible action, as opposed to announcing actual action” (Weiser, 2004), as “the threat of future regulation” (Keller, 2019, p. 5), as “informal means of persuasion and coercion, including the threat of regulation, to persuade platforms to adopt certain policies” (Leerssen, 2020). </p>
+<p><a id="footnote2_lban2c3" href="#footnoteref2_lban2c3">2.</a>  I thank this observation to Linda Weigl. </p>
+<p><a id="footnote3_wghtqlh" href="#footnoteref3_wghtqlh">3.</a> The effort meant gathering data from public records, classifying them according to issues where Informal methods of Internet governance were likely, and create a unified timeline of events that included public officials <em>actions</em> and corporate <em>reactions</em>, with the purpose of identifying correlations between the former and the latter. The public records that were gathered and classified were the United State Bills introduced in both the House and the Senate on Internet regulation (n=300), the public speeches gathered in The American Presidency Project based in the University of California at Santa Barbara, available at <a href="https://www.presidency.ucsb.edu/">https://www.presidency.ucsb.edu/</a> (n=3154); the Federal Trade Commission actions and speeches (n=322 and 70, respectively), the Internet-related data found in Eur-Lex database, available at <a href="https://eur-lex.europa.eu/homepage.html">https://eur-lex.europa.eu/homepage.html</a> (n=396); the European Commission’s press corner database, available on <a href="https://ec.europa.eu/commission/presscorner/">https://ec.europa.eu/commission/presscorner/</a> (n=6915); the data of CELE’s Observatorio Legislativo, covering bills from nine countries in Latin America, available at <a href="https://observatoriolegislativocele.com/">https://observatoriolegislativocele.com/</a> (n=555); the data of the project Letra Chica that recorded changes to Meta, X, and YouTube terms and conditions (no longer publicly available, n=690); the database of Platforms and Publishers of the Tow Center for Digital Journalism, available at <a href="https://tow.cjr.org/platform-timeline/">https://tow.cjr.org/platform-timeline/</a> (n=1245); and the data found in the policy blogs of Google, Meta, and X.com (formerly Twitter, n=1839). We gathered the data, classified it according to keywords and regular expressions, and brought it together to form a unique data frame that could be visualized in a timeline that could be navigated for research purposes. The analysis presented in this section is based on this database and visualization. The database can be found in: <a href="https://ramiroau.github.io/threats-timeline/">https://ramiroau.github.io/threats-timeline/</a>. </p>
+<p><a id="footnote4_1ix7d9e" href="#footnoteref4_1ix7d9e">4.</a> The coding was made by capturing all events that, in the District Court decision, are dated. Repeated events were coded only once. </p>
+<p><a id="footnote5_ba1f0im" href="#footnoteref5_ba1f0im">5.</a> (<em>Missouri v. Biden</em>, 2023b), 25 (“Are you guys fucking serious? I want an answer on what happened here and I want it today”) </p>
+<p><a id="footnote6_j85tb87" href="#footnoteref6_j85tb87">6.</a> Available at <a href="https://ec.europa.eu/commission/presscorner/home/en">https://ec.europa.eu/commission/presscorner/home/en</a> </p>
+<p><a id="footnote7_t0q4zpb" href="#footnoteref7_t0q4zpb">7.</a> <em>See</em> Breton, T. [@ThierryBreton] (2022), Breton, T. [@ThierryBreton] (2023a). Some letters such as the ones Breton sent to X/Twitter and Meta on October 2023 created some pushback from civil society. <em>See</em> Breton, T. [@ThierryBreton] (2023b), Breton, T. [@ThierryBreton] (2023c), Access Now, Article 19, et al. (2023). </p>
+<p><a id="footnote8_04xk6ss" href="#footnoteref8_04xk6ss">8.</a> Breton, T. [@ThierryBreton] (2023d), Breto, T. [@ThierryBreton] (2024a), Breton, T. [@ThierryBreton] (2024c), Breton, T. [@ThierryBreton] (2024d). </p>
+<p><a id="footnote9_jynnxiz" href="#footnoteref9_jynnxiz">9.</a> Breton, T. [@ThierryBreton] (2024b) </p>
+<p><a id="footnote10_6do944e" href="#footnoteref10_6do944e">10.</a> Breton, T. [@ThierryBreton] (2024f), Breton, T. [@ThierryBreton] (2024h). </p>
+<p><a id="footnote11_bugcruz" href="#footnoteref11_bugcruz">11.</a> Breton, T. [@ThierryBreton] (2024e) </p>
+<p><a id="footnote12_9zmurm3" href="#footnoteref12_9zmurm3">12.</a> European Commission Press Corner (2024a), European Commission Press Corner (2024b), Breton, T. [@ThierryBreton] (2024g). </p>
+</div>
+
+    </div>
+                <div class="comments" id="comments">
+        
+</div>
+
+
+    </article>
+
+
+
+
+                    </main>
+
+        
+                    <aside id="right" class="sidebar">
+                <div id="block-ipr3-ipranalysisserviceblock" class="block block-ipr-analysis-block">
+    
+        
+            <div class="content">
+            <a href="/pdf/policyreview-2026-1-2079.pdf" class="piwik_download" rel="alternate" target="_blank" type="application/pdf" title="Download this article in PDF format for easy printing and sharing">PDF</a><div class="cite-wrapper"><a class="js-cite-toggle" rel="nofollow" href="/cite/2079" title="Get citation options for this article in various styles">Cite</a>    <ul class="cite-style-items">
+          <li>
+        <div id="cite-label-0" class="cite-label">
+                              APA
+        </div>
+        <div class="cite-js-hidden cite-content cite-content-0">
+                    <textarea id="cite-textarea-id-0" readonly="readonly">Álvarez Ugarte, R. (2026). Ruling by bullying: Threats of regulation as an internet governance device. Internet Policy Review, 15(1). https://doi.org/10.14763/2026.1.2079</textarea>
+        </div>
+                                                <img id="cite-button-0"
+          class="copy-button"
+          src="/modules/custom/citethisnode/icons/icon-clipboard.png"
+          alt="Copy to clipboard"
+          title="Copy to clipboard"
+          data-clipboard-textarea-id="cite-textarea-id-0"
+          data-clipboard-success-id="cite-label-0"
+          data-clipboard-success-text="Copied!"
+        />
+      </li>
+          <li>
+        <div id="cite-label-1" class="cite-label">
+                              Chicago
+        </div>
+        <div class="cite-js-hidden cite-content cite-content-1">
+                    <textarea id="cite-textarea-id-1" readonly="readonly">Álvarez Ugarte, Ramiro. 2026. "Ruling by bullying: Threats of regulation as an internet governance device". Internet Policy Review 15 (1). DOI:&nbsp;10.14763/2026.1.2079. https://policyreview.info/articles/analysis/threats-of-regulation.</textarea>
+        </div>
+                                                <img id="cite-button-1"
+          class="copy-button"
+          src="/modules/custom/citethisnode/icons/icon-clipboard.png"
+          alt="Copy to clipboard"
+          title="Copy to clipboard"
+          data-clipboard-textarea-id="cite-textarea-id-1"
+          data-clipboard-success-id="cite-label-1"
+          data-clipboard-success-text="Copied!"
+        />
+      </li>
+          <li>
+        <div id="cite-label-2" class="cite-label">
+                              Harvard
+        </div>
+        <div class="cite-js-hidden cite-content cite-content-2">
+                    <textarea id="cite-textarea-id-2" readonly="readonly">Álvarez Ugarte, Ramiro (2026). Ruling by bullying: Threats of regulation as an internet governance device. Internet Policy Review,[online] 15(1). Available at: https://policyreview.info/articles/analysis/threats-of-regulation [Accessed: 14 May. 2026].</textarea>
+        </div>
+                                                <img id="cite-button-2"
+          class="copy-button"
+          src="/modules/custom/citethisnode/icons/icon-clipboard.png"
+          alt="Copy to clipboard"
+          title="Copy to clipboard"
+          data-clipboard-textarea-id="cite-textarea-id-2"
+          data-clipboard-success-id="cite-label-2"
+          data-clipboard-success-text="Copied!"
+        />
+      </li>
+          <li>
+        <div id="cite-label-3" class="cite-label">
+                              MLA
+        </div>
+        <div class="cite-js-hidden cite-content cite-content-3">
+                    <textarea id="cite-textarea-id-3" readonly="readonly">Álvarez Ugarte, Ramiro. "Ruling by bullying: Threats of regulation as an internet governance device". Internet Policy Review 15.1 (2026). Web. 14 May. 2026.</textarea>
+        </div>
+                                                <img id="cite-button-3"
+          class="copy-button"
+          src="/modules/custom/citethisnode/icons/icon-clipboard.png"
+          alt="Copy to clipboard"
+          title="Copy to clipboard"
+          data-clipboard-textarea-id="cite-textarea-id-3"
+          data-clipboard-success-id="cite-label-3"
+          data-clipboard-success-text="Copied!"
+        />
+      </li>
+          <li>
+        <div id="cite-label-4" class="cite-label">
+                              Vancouver
+        </div>
+        <div class="cite-js-hidden cite-content cite-content-4">
+                    <textarea id="cite-textarea-id-4" readonly="readonly">Álvarez Ugarte R. Ruling by bullying: Threats of regulation as an internet governance device. Internet Policy Review [Internet]. 2026 [14 May 2026];15(1). Available from: https://policyreview.info/articles/analysis/threats-of-regulation</textarea>
+        </div>
+                                                <img id="cite-button-4"
+          class="copy-button"
+          src="/modules/custom/citethisnode/icons/icon-clipboard.png"
+          alt="Copy to clipboard"
+          title="Copy to clipboard"
+          data-clipboard-textarea-id="cite-textarea-id-4"
+          data-clipboard-success-id="cite-label-4"
+          data-clipboard-success-text="Copied!"
+        />
+      </li>
+        
+  </ul>
+  
+</div><a href="https://bsky.app/intent/compose?text=I+recommend+https%3A%2F%2Fpolicyreview.info%2Farticles%2Fanalysis%2Fthreats-of-regulation" target="_blank" rel="external" title="Share this article on Bluesky!">Bluesky</a>
+        </div>
+    </div>
+<div class="views-element-container categories block--back block--first block block-views block-views-blockpublic-node-categories-block" id="block-ipr3-views-block-public-node-categories-block">
+    
+        
+            <div class="content">
+              <div class="js-toggle-categories js-view-dom-id-74d6a8e2d2041dfd4620c07404179ae9758852d6a97914c06c81c8e83fbbe62e">
+  
+  
+  
+
+  
+  
+  
+
+      <div><div class="item"><h2>Category</h2><ul><li><a href="https://policyreview.info/categories/procedures-governance">Governance</a></li></ul></div><div class="js-item"><h2>Keywords: </h2><div class="js-hidden"><ul><li><a href="https://policyreview.info/tags/issues/regulation">Regulation</a></li><li><a href="https://policyreview.info/tags/issues/internet-governance">Internet governance</a></li><li><a href="https://policyreview.info/tags/issues/jawboning">Jawboning</a></li><li><a href="https://policyreview.info/tags/issues/freedom-expression">Freedom of expression</a></li><li><a href="https://policyreview.info/tags/issues/threats">Threats</a></li></ul></div></div></div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+
+
+        </div>
+    </div>
+<div class="views-element-container block block-views block-views-blockpublic-related-articles-block-1" id="block-related-articles">
+    
+            <div class="header">
+            <h2>Related Articles</h2>
+        </div>
+        
+            <div class="content">
+              <div class="list js-view-dom-id-8a81c1d042a5c9b50bf05dd419810b5f3613919984dbd6c525afbcfd731e018a">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+<article class="article teaser analysis published views-view-responsive-grid__item views-view-responsive-grid__item--analysis" id="node-2077">
+    
+    <div class="header">
+        <div class="topic">
+            <a href="/archives/2026/issue-1">Volume 15, Issue 1</a>
+                    </div>
+        <h2>
+            <a href="/articles/analysis/superplatform-framework">
+                
+<span>Superplatform: A framework to analyse and regulate Google’s online ad ecosystem</span>
+
+                            </a>
+        </h2>
+        <div class="meta">
+            <a href="/users/koray-caliskan" hreflang="en">Koray Caliskan</a>, <em>Parsons School of Design</em><br/><a href="/users/donald-mackenzie" hreflang="en">Donald MacKenzie</a>, <em>University of Edinburgh</em><br/><a href="/users/addie-mcgowan" hreflang="en">Addie McGowan</a>, <em>University of Salford</em><br/>
+            PUBLISHED ON:&nbsp;<span class="meta__date">18 Feb 2026</span>
+                DOI:&nbsp;<span style="color:#3d3f41;">10.14763/2026.1.2077</span>
+
+        </div>
+    </div>
+    <div class="content">
+          <p>The concept of the "superplatform" presents a simple way to describe Google’s vast and complex online ad business as a dual-core system that merges market power, infrastructural dominance, and supply chain demarketisation.</p>
+
+
+
+    </div>
+        <div class="taxonomy">
+        <span>KEYWORDS:</span>
+                                    <a href="/tags/issues/google">Google</a>,                                 <a href="/tags/issues/superplatform">Superplatform</a>,                                 <a href="/tags/issues/regulation">Regulation</a>,                                 <a href="/tags/issues/online-advertisement">Online advertisement</a>,                                 <a href="/tags/issues/economisation">Economisation</a>    </div>
+
+</article>
+</div>
+    <div class="views-row">
+<article class="news--opinion opinion teaser news views-view-responsive-grid__item views-view-responsive-grid__item--analysis published sticky news--opinion guest-post" id="node-2066">
+    
+    <div class="header">
+        <div class="topic">
+                                                                            <a href="/tags/issues/health-data">Health data</a>
+                                                                        
+                    </div>
+        <h2>
+            <a href="/articles/news/health-data-governance-feminism/2066">
+<span>Who holds the power? Rethinking health data governance through a Data Feminism lens</span>
+</a>
+        </h2>
+        <div class="meta">
+                        <a href="/users/anamika-kundu">Anamika Kundu</a>, <em>European University Institute</em><br/>
+    <br/>
+            PUBLISHED ON:&nbsp;<span class="meta__date">13 Jan 2026</span>
+        </div>
+    </div>
+    <div class="content">
+        <p>Thinking of health data governance through an intersectional lens will help to achieve equitable health outcomes.</p>
+
+    </div>
+</article>
+</div>
+    <div class="views-row">
+<article class="news--opinion opinion teaser news views-view-responsive-grid__item views-view-responsive-grid__item--analysis published news--opinion guest-post" id="node-2030">
+    
+    <div class="header">
+        <div class="topic">
+                                                                            <a href="/tags/issues/privacy-design">Privacy by design</a>
+                                                                        
+                    </div>
+        <h2>
+            <a href="/articles/news/design-principles-considered-harmful/2030">
+<span>“By design” principles considered harmful</span>
+</a>
+        </h2>
+        <div class="meta">
+                        <a href="/users/jukka-ruohonen">Jukka Ruohonen</a>, <em>University of Southern Denmark</em><br/>
+    <br/>
+            PUBLISHED ON:&nbsp;<span class="meta__date">20 Aug 2025</span>
+        </div>
+    </div>
+    <div class="content">
+        <p>Codifying “by design” principles into policies may lead to contradictions.</p>
+
+    </div>
+</article>
+</div>
+    <div class="views-row">
+<article class="news--opinion opinion teaser news views-view-responsive-grid__item views-view-responsive-grid__item--analysis published news--opinion guest-post" id="node-2003">
+    
+    <div class="header">
+        <div class="topic">
+                                                                            <a href="/tags/issues/ai-act">AI Act</a>
+                                                            
+                    </div>
+        <h2>
+            <a href="/articles/news/llms-literary-creativity">
+<span>Regulating the unseen: The AI Act’s blind spot regarding large language models&#039; influence on literary creativity</span>
+</a>
+        </h2>
+        <div class="meta">
+                        <a href="/users/shagun-tripathi">Shagun Tripathi</a>, <em>IE Business School</em><br/>
+    <br/>
+            PUBLISHED ON:&nbsp;<span class="meta__date">19 Mar 2025</span>
+        </div>
+    </div>
+    <div class="content">
+        <p>In her op-ed, the author argues that the AI Act overlooks the challenges posed by the use of generative AI in the literary industry. She calls for European legislation that takes into account the specific conditions and cultural value of original literary production.</p>
+
+    </div>
+</article>
+</div>
+    <div class="views-row">
+<article class="article teaser analysis published views-view-responsive-grid__item views-view-responsive-grid__item--analysis" id="node-1821">
+    
+    <div class="header">
+        <div class="topic">
+            <a href="/archives/2025/issue-1">Volume 14, Issue 1</a>
+                    </div>
+        <h2>
+            <a href="/articles/analysis/open-banking-rationales-and-models">
+                
+<span>The many shades of open banking: A comparative analysis of rationales and models</span>
+
+                            </a>
+        </h2>
+        <div class="meta">
+            <a href="/users/giuseppecolangelo" hreflang="en">Giuseppe Colangelo</a>, <em>University of Basilicata</em><br/><a href="/users/pankhudikhandelwal" hreflang="en">Pankhudi Khandelwal</a>, <em>European University Institute</em><br/>
+            PUBLISHED ON:&nbsp;<span class="meta__date">22 Jan 2025</span>
+                DOI:&nbsp;<span style="color:#3d3f41;">10.14763/2025.1.1821</span>
+
+        </div>
+    </div>
+    <div class="content">
+          <p>Despite its growing success and widespread adoption around the world, open banking (OB) struggles to present a coherent identity. Since OB is driven by various justifications, identifying the primary motivations behind regulatory initiatives is crucial for assessing whether the implemented features align with the intended policy objectives.</p>
+
+
+
+    </div>
+        <div class="taxonomy">
+        <span>KEYWORDS:</span>
+                                    <a href="/tags/issues/open-banking">Open banking</a>,                                 <a href="/tags/issues/fintech">FinTech</a>,                                 <a href="/tags/issues/standards">Standards</a>,                                 <a href="/tags/issues/data">Data</a>,                                 <a href="/tags/issues/regulation">Regulation</a>    </div>
+
+</article>
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+
+
+        </div>
+    </div>
+<div id="block-ipr3-aboutonthefrontpage-2" class="block block-block-content block-block-contentacf62147-1ed0-4da9-b7ef-1b5a2aa9aa4a">
+    
+        
+            <div class="content">
+            <p></p><div class="block--section__content block--section__content--back">
+    <div class="content_types">
+        <p><em><a href="https://policyreview.info/">Internet Policy Review</a></em> is an open access and peer-reviewed journal on internet regulation.</p>
+        <div class="fake_p">Scholars, regulators, journalists, activists, and other stakeholders publish in the journal in
+            <input type="checkbox" id="legend-collapsible" class="collapsible"><label for="legend-collapsible">a variety of formats</label>
+            <dl class="collapsible-content">
+                <div class="peer-reviewed-types">
+                    <h3>peer reviewed</h3>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_research_article.svg"><span class="label">Research articles</span>
+                    </dt>
+                    <dd>In-depth scholarly research papers and essays</dd>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_concept.svg"><span class="label">Concepts</span>
+                    </dt>
+                    <dd>Critical reflections on emerging core concepts of the digital society</dd>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_editorial.svg"><span class="label">Editorials</span>
+                    </dt>
+                    <dd>Contextual or thematic introductions to special issues</dd>
+                </div>
+                <div class="not-peer-reviewed-types">
+                    <h3>not peer reviewed</h3>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_essay.svg"><span class="label">Essays</span>
+                    </dt>
+                    <dd>Free-form yet in-depth contentions with issues of academic or social relevance</dd>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_news.svg"><span class="label">News</span>
+                    </dt>
+                    <dd>Journalistic reports on events of interest to the
+                        <em>Internet Policy Review</em>
+                        community</dd>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_comment.svg"><span class="label">Opinions</span>
+                    </dt>
+                    <dd>Opinion pieces commenting on developments in the realm of internet policy</dd>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/abstract.svg"><span class="label">Open Abstract</span>
+                    </dt>
+                    <dd>Extended abstracts for works in progress that receive public peer review</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+    <div class="mt-12"><h3 class="h3--uppercase">Published by</h3><a href="https://hiig.de/en" class="fz-13 mb-10 fw-bold d-block td-ul">Alexander von Humboldt Institute for Internet and Society</a><a href="https://www.cais-research.de/" class="fz-13 mb-10 fw-bold d-block td-ul">Center for Advanced Internet Studies</a><a href="https://policyreview.info/partners" class="a--more a--more--small">in cooperation with additional partners</a></div><div class="grid--connect"><a href="https://bsky.app/profile/policyr.bsky.social" target="_blank"><div><img src="/themes/custom/ipr3/_res/img/icons/social/icon-bluesky-black.svg" alt="Bluesky Icon" width="22" height="22"></div><div>Follow us</div></a><a href="https://www.hiig.de/en/newsletter-registration/" target="_blank"><div><em><i class="material-icons md-22">email</i></em></div><div>Subscribe</div></a></div>
+</div>
+
+        </div>
+    </div>
+
+<div id="block-ipr3-callforpapers-3" class="block--purple block--add-top block block--highlighted">
+    <div class="block__header block__header--highlighted">
+        <div>
+                            <h2>Call for papers</h2>
+                    </div>
+        <div>
+            <p>Abstract submission deadline: <strong>15 Oct 2025</strong></p>
+
+        </div>
+    </div>
+    <div class="block__content block__content--highlighted">
+        
+        <div>
+                            <a href="https://policyreview.info/events/call-papers-inclusive-design-participatory-governance-and-future-digital-public-spaces"><h2><span>Special issue on the topic of</span><br>Inclusive by design? Participatory governance and the future of digital public spaces</h2>
+</a>
+                    </div>
+                    <div>
+                <a href="https://policyreview.info/events/call-papers-inclusive-design-participatory-governance-and-future-digital-public-spaces" class="a--more a--more--simple">Full call here</a>
+            </div>
+            </div>
+    </div>
+<div id="block-ipr3-metricsaboutipr" class="block block-block-content block-block-contentab2a9f83-e519-47eb-8d9b-070ebfd67de7">
+    
+        
+            <div class="content">
+            <p><a href="https://www.scimagojr.com/journalsearch.php?q=21100898535&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img alt="SCImago Journal &amp; Country Rank" border="0" src="https://www.scimagojr.com/journal_img.php?id=21100898535"></a><br>
+<a href="https://policyreview.info/partners">Additional indexing</a></p>
+
+        </div>
+    </div>
+
+
+            </aside>
+        
+    </div>
+
+    
+    <footer class="footer">
+        <div id="block-ipr3-footer" class="footer__inner">
+    <div class="logos-published-by">
+        <div class="logos__label">A journal published by</div>
+        <div class="logos__grid logos__grid--published">
+            <a href="https://www.hiig.de/" target="_blank">
+                <img alt="HIIG" src="/themes/custom/ipr3/_res/img/logos/humboldt-institute-for-internet-and-society-logo-footer.svg">
+            </a>
+            <a href="https://www.cais-research.de/" target="_blank">
+                <img src="/themes/custom/ipr3/_res/img/logos/CAIS_Research-for-the-digital-age_logo.svg" alt="CAIS">
+            </a>
+        </div>
+    </div>
+    <div class="logos-in_coop_with">
+        <div class="logos__label">In cooperation with</div>
+        <div class="logos__grid logos__grid--coop">
+            <a href="https://www.create.ac.uk/" target="_blank">
+                <img alt="CREATe" src="/themes/custom/ipr3/_res/img/logos/create-logo-footer.svg">
+            </a>
+            <a target="_blank" href="http://cis.cnrs.fr/" class="in_coop_with">
+                <img src="/themes/custom/ipr3/_res/img/logos/logo-cnrs-cis-white.svg" alt="Centre national de la recherche scientifique. centre internet et société">
+            </a>
+            <a href="https://www.uoc.edu/portal/ca/in3/index.html" target="_blank">
+                <img src="/themes/custom/ipr3/_res/img/logos/in-cooperation-internet-inderdisciplinary-institute-IN3-logo-footer.svg" alt="IN3">
+            </a>
+            <a href="https://skytte.ut.ee/en" target="_blank">
+                <img src="/themes/custom/ipr3/_res/img/logos/Uni-Tartu_Johan-Skytte_logo-valge.svg" alt="University of Tartu Johan Skytte Institute of Political Studies">
+            </a>
+        </div>
+    </div>
+    <div class="footer__navigation">
+        
+                
+        
+              <ul>
+              <li>
+        <a href="/dataprotection" data-drupal-link-system-path="node/796">Data protection</a>
+              </li>
+          <li>
+        <a href="/imprint" data-drupal-link-system-path="node/86">Imprint</a>
+              </li>
+          <li>
+        <a href="/imprint" data-drupal-link-system-path="node/86">Internet Policy Review 2025. Some rights reserved</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+    <div id="totop" class="totop">
+        <a href="#page" role="button" aria-label="Scroll to top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+  <path fill="#EAEAEA" d="M17.5.5L3 5.3V30l14.5 4.5L32 30V5.3L17.5.5zm4.4 19.7c-.2.2-.4.3-.6.3s-.4-.1-.6-.3l-3.2-3.1-3.2 3.1c-.3.4-.9.4-1.2 0-.3-.3-.3-.9 0-1.2l3.8-3.8c.3-.3.9-.3 1.2 0l3.8 3.8c.3.3.3.9 0 1.2z"/>
+</svg>
+        </a>
+    </div>
+</div>
+
+
+    </footer>
+
+</div>
+
+  </div>
+
+        
+        <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/2079","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxVylEOAiEMBNALEfjwQKRAXbp2oWlhdW-v0cTVn8nMy2QaOCpZ6wVD_hkxcc-3uJoj0UtYuCfgT7cUqV2pvd7RsnY-XZS60jhig_2LhqC5OgGFRUGqhaJTgP0pfjaZickqFmeHDdxCAkO3E94tvNPDCo8_2HqZjE8YSkvw","theme":"ipr3","theme_token":null},"ajaxTrustedUrl":{"\/search":true},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:8a81c1d042a5c9b50bf05dd419810b5f3613919984dbd6c525afbcfd731e018a":{"view_name":"public_related_articles","view_display_id":"block_1","view_args":"191,190,20148,484,20149\/2079","view_path":"\/node\/2079","view_base_path":null,"view_dom_id":"8a81c1d042a5c9b50bf05dd419810b5f3613919984dbd6c525afbcfd731e018a","pager_element":0}}},"user":{"uid":0,"permissionsHash":"86e4612cb61dc129d0ab9f8c71174b2227b6c51cd93a45b9af2e9dd118836a48"}}</script>
+<script src="/sites/default/files/js/js_m4KjhgFhpBhznk4js2R1ihMO-p_QvOSUSupx4V7T24c.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=ipr3&amp;include=eJxNikEKgDAMBD8k9uCDQhqrjZamJKXq7xUF9bLMDEtcQ41sWcbg6Cfgk9AKi3VcdHBzEo_pYfPAeeJ8vcFIJX29KItyPSBje6MFVIpd47CZu7fHBfcTolcvtg"></script>
+
+        <!-- Piwik -->
+        <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(["setDomains", ["*.policyreview.info","*.policy-review.de","*.policy-review.info","*.policy-review.net","*.policy-review.org","*.policyreview.de"]]);
+        _paq.push(['disableCookies']);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+        var u="//piwik.hiig.de/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 9]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+        </script>
+        <noscript><p><img src="//piwik.hiig.de/piwik.php?idsite=9" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+    </body>
+</html>

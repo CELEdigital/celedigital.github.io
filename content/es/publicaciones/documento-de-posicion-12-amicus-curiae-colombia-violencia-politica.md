@@ -14,6 +14,8 @@ reference_value: "12"
 language: ""
 citation: "CELE, “Amicus curiae Colombia (violencia política)”, Documento de posición No. 12, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2023)"
 link: "https://www.palermo.edu/Archivos_content/2023/cele/papers/Amicus_Colombia.pdf"
+file: "/files/Documento_de_posición_12.pdf"
+cover: "/covers/Documento_de_posición_12.jpg"
 ---
 CELE, “Amicus curiae Colombia (violencia política)”, Documento de posición No. 12, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2023)
 

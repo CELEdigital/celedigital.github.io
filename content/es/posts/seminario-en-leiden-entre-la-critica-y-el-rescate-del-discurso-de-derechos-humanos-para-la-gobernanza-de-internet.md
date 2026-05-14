@@ -4,7 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-03-18'
-description: 'Seminario en Leiden: entre la crítica y el rescate del discurso de derechos humanos para la gobernanza de Internet'
+description: "Entre la crítica y el rescate del discurso de derechos humanos para la gobernanza de Internet"
 featured: true
 image: /img/Campus_Den_Haag_Universiteit_Leiden_02.jpg
 programs:
@@ -12,7 +12,7 @@ programs:
 slug: seminario-en-leiden-entre-la-critica-y-el-rescate-del-discurso-de-derechos-humanos-para-la-gobernanza-de-internet
 tags:
 - estudios de impacto en derechos humanos
-title: 'Seminario en Leiden: entre la crítica y el rescate del discurso de derechos humanos para la gobernanza de Internet'
+title: "Seminario en Leiden"
 translationKey: wp-12450
 type: posts
 issues:

@@ -14,6 +14,8 @@ reference_value: "13"
 language: ""
 citation: "CELE, “Amicus curiae Ulrich Richter Morales y Claudia Ramírez Tavera vs. Google Inc. y Google México”, Documento de posición No. 13, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2024)"
 link: "https://www.palermo.edu/Archivos_content/2024/cele/mayo/2024_05_09_DP13_CELE.pdf"
+file: "/files/Documento_de_posición_13.pdf"
+cover: "/covers/Documento_de_posición_13.jpg"
 ---
 CELE, “Amicus curiae Ulrich Richter Morales y Claudia Ramírez Tavera vs. Google Inc. y Google México”, Documento de posición No. 13, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2024)
 

@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2023-09-13'
-description: Two problems for using Human Rights as Benchmarks in Human Rights Impact Assessments In the last few years, CELEhttps://www.palermo.edu/cele/
-  has been looking at how the ICT sector uses Human Rights Impact Assessments HR
+description: ""
 featured: true
 image: /img/foto-HRIA-scaled-e1623178724142.jpg
 programs:

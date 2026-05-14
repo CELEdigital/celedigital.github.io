@@ -14,6 +14,8 @@ reference_value: "27"
 language: "ENG"
 citation: "CELE, “Contribution to the preparation of the report on the challenges and risks regarding discrimination and the unequal enjoyment of the right to privacy associated with the collection and processing of data”, Documento de posición No. 27 (ENG), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)"
 link: "https://www.palermo.edu/Archivos_content/2025/cele/mayo/dp27.pdf"
+file: "/files/Documento_de_posición_27_ENG.pdf"
+cover: "/covers/Documento_de_posición_27_ENG.jpg"
 ---
 CELE, “Contribution to the preparation of the report on the challenges and risks regarding discrimination and the unequal enjoyment of the right to privacy associated with the collection and processing of data”, Documento de posición No. 27 (ENG), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)
 

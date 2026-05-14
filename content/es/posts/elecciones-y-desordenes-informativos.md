@@ -4,14 +4,13 @@ author:
 content_type:
 - blog
 date: '2023-09-11'
-description: 'Seminario: Elecciones y desórdenes desinformativos El 7 de septiembre de 2023 se celebró, en la Universidad
-  de Palermo, el seminario “Elecciones y desórdenes informativos 2023”, co-organizado conjuntamente por el CELE, l'
+description: 'Elecciones y desórdenes desinformativos.'
 featured: true
 image: /img/DSC_0303-scaled.jpg
 programs:
 - policy
 slug: elecciones-y-desordenes-informativos
-title: 'Seminario: Elecciones y desórdenes desinformativos'
+title: Seminario
 translationKey: wp-12232
 type: posts
 issues:

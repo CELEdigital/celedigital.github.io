@@ -27,5 +27,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_30_ESP.pdf"
+cover: "/covers/Artículo_de_investigación_30_ESP.jpg"
 ---
 The article explains the measures that Facebook and Google have announced to combat misinformation and includes a brief reference to YouTube and Twitter. Likewise, the paper attempts to determine what the geographical coverage of these measures will be. Subsequently, as a conclusion, it exposes what the problems behind the proposed solutions may be in four points: i) scale and time, ii) impact, iii) the role of civil society and iv) transparency.

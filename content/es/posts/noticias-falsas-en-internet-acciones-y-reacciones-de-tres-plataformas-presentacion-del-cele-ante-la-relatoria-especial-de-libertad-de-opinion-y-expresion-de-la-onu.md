@@ -31,8 +31,6 @@ placements:
 - hub: temas/plataformas
   block: ultimas_noticias_analisis
 ---
-**Fake news on the Internet: actions and reactions from three platforms**
-
 **Submission to the Special Rapporteur for Freedom of Opinion and Expression, Irene Kahn, Feb 2021**
 
 **CELE**

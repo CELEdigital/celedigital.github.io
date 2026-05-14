@@ -14,6 +14,8 @@ reference_value: "30"
 language: "ENG"
 citation: "Vladimir Garay. Matías González Mama, Nicolás Zara, Agustina Del Campo, “Public Consultation on Freedom of Expression and Artificial Intelligence”, Documento de posición No. 30 (ENG), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)"
 link: "https://www.palermo.edu/Archivos_content/2025/cele/agosto/07_2025_DP30.pdf"
+file: "/files/Documento_de_posición_30_ENG.pdf"
+cover: "/covers/Documento_de_posición_30_ENG.jpg"
 ---
 Vladimir Garay. Matías González Mama, Nicolás Zara, Agustina Del Campo, “Public Consultation on Freedom of Expression and Artificial Intelligence”, Documento de posición No. 30 (ENG), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)
 

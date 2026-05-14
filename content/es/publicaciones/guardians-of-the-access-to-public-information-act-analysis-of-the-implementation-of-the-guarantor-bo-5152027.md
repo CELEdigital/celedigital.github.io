@@ -26,5 +26,7 @@ placements:
   block: publicaciones
 - hub: region/america-latina
   block: publicaciones
+file: "/files/Artículo_de_investigación_38.pdf"
+cover: "/covers/Artículo_de_investigación_38.jpg"
 ---
 The sanction of Law No. 27,275 on Access to Public Information constitutes a historic milestone in Argentina in the advance towards an institutional and democratic opening towards citizens. The law came into force one year after its publication, on September 29, 2017, with the objective of putting in place the state bureaucratic apparatus and generating the necessary mechanisms to guarantee the effective exercise of the right to know. But the regulatory framework is only the beginning. Its sanct

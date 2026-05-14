@@ -28,5 +28,7 @@ placements:
   block: publicaciones
 - hub: region/america-latina
   block: publicaciones
+file: "/files/Artículo_de_investigación_31.pdf"
+cover: "/covers/Artículo_de_investigación_31.jpg"
 ---
 This article, based on a contribution to the 2018 report of the United Nations Special Rapporteur on violence against women, addresses the growing trend in Latin America toward the criminalization of online speech. Often, initiatives that pursue well-intentioned objectives of combating discrimination and violence can, paradoxically, impact the rights of the very groups they seek to protect. In this regard, this paper analyzes, from a freedom of expression perspective, the specific case of legisl

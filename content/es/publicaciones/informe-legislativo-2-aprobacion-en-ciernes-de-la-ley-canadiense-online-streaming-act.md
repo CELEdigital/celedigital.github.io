@@ -14,6 +14,8 @@ reference_value: "2"
 language: ""
 citation: "Olga Lucía Camacho Gutiérrez, “Aprobación en ciernes de la ley canadiense Online Streaming Act”, Informe legislativo No. 2, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)"
 link: "https://observatoriolegislativocele.com/wp-content/uploads/Reporte-4_-Canada-Online-Streaming-Act.pdf"
+file: "/files/Informe_legislativo_2.pdf"
+cover: "/covers/Informe_legislativo_2.jpg"
 ---
 Olga Lucía Camacho Gutiérrez, “Aprobación en ciernes de la ley canadiense Online Streaming Act”, Informe legislativo No. 2, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)
 

@@ -14,6 +14,8 @@ reference_value: "18"
 language: ""
 citation: "TEDIC, CELE, y Wikimedia Foundation, “Amicus curiae en la causa \"Gisele Zuni Mousques c/Christian Chena Y Otros s/ violencia contra la mujer\" (Paraguay)”, Documento de posición No. 18, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2024)"
 link: "https://www.palermo.edu/Archivos_content/2024/cele/agosto/amicus-paraguay/TEDIC_et_al_DP18.pdf"
+file: "/files/Documento_de_posición_18.pdf"
+cover: "/covers/Documento_de_posición_18.jpg"
 ---
 TEDIC, CELE, y Wikimedia Foundation, “Amicus curiae en la causa "Gisele Zuni Mousques c/Christian Chena Y Otros s/ violencia contra la mujer" (Paraguay)”, Documento de posición No. 18, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2024)
 

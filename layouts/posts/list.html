@@ -101,7 +101,7 @@
           <p class="blog-nav__heading">Países</p>
           <ul class="blog-nav__list">
             <li class="blog-nav__item">
-              <a href="#" class="blog-nav__link" data-blog-country="">Todos</a>
+              <a href="#" class="blog-nav__link" data-blog-country-btn="">Todos</a>
             </li>
             {{- $countrySet := slice -}}
             {{- range $posts -}}
@@ -118,7 +118,7 @@
             {{- end -}}
             {{- range sort $countrySet }}
             <li class="blog-nav__item">
-              <a href="#" class="blog-nav__link" data-blog-country="{{ . }}">{{ . }}</a>
+              <a href="#" class="blog-nav__link" data-blog-country-btn="{{ . }}">{{ . }}</a>
             </li>
             {{- end }}
           </ul>

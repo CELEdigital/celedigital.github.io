@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-11-11'
-description: This is hard I’ve been writinghttps://s3.documentcloud.org/documents/5699593/Who-Do-You-Sue-State-and-Platform-Hybrid-Power.pdf
-  abouthttps://www.nytimes.com/2017/06/12/opinion/making-google-the-censor.html jawboning and
+description: 'I’ve been writing about jawboning and free expression law for half a dozen years.'
 featured: true
 image: /img/shutterstock_1550506322-scaled.jpg
 slug: this-is-hard

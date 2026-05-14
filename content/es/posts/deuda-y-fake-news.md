@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2022-02-22'
-description: Deuda y fake news En los siguientes párrafos voy a intentar reflexionar brevemente sobre la posibilidad de castigar
-  las noticias falsas a partir de algunos eventos recientes. Algunos días atrás el Ministerio de Economía
+description: "En los siguientes párrafos voy a intentar reflexionar brevemente sobre la posibilidad de castigar las noticias falsas a partir de algunos eventos recientes."
 featured: true
 image: /img/IMG-1920x800-06.jpg
 programs:

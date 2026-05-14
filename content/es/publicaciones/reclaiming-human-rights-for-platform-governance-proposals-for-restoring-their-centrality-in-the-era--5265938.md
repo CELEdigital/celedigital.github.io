@@ -31,5 +31,7 @@ placements:
   block: publicaciones
 - hub: region/europa
   block: publicaciones
+file: "/files/Artículo_de_investigación_66_ENG.pdf"
+cover: "/covers/Artículo_de_investigación_66_ENG.jpg"
 ---
 The Digital Services Act can potentially become a tool for change toward a more rights-abiding, competitive European digital platform ecosystem. However, as it currently stands, it is prone to be misused as a powerful tool for censorship as well as a tool to displace human rights as the backbone of the rule of law in modern democracies. Its risk-based and "new governance" approach to regulation puts rights on the back burner, and, while paying lip service to them, takes them off the center stage

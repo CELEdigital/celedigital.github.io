@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2023-09-28'
-description: 'Beyond Ethics: Why a Rights-Based Framework is Essential for AI Governance In recent years, the issue of AI
-  governance has gained significant attention, with various proposals and initiatives aiming to regulate and addre'
+description: "In recent years, the issue of AI governance has gained significant attention, with various proposals and initiatives aiming to regulate and addre"
 featured: true
 image: /img/96414a17-6583-4e82-904b-3bd70ed11d12.jpeg
 programs:

@@ -7,7 +7,7 @@
 {{/* ── Pick featured: explicit flag first, else most recent ── */}}
 {{ $featured := index $research 0 }}
 {{ range $research }}
-  {{ if .Params.featured }}
+  {{ if .Params.featured_pub }}
     {{ $featured = . }}
   {{ end }}
 {{ end }}
@@ -45,6 +45,12 @@
     <nav class="pub-filters" aria-label="Filtrar por tipo de publicación">
       <span class="pub-filters__label">Tipo</span>
       <button type="button" class="pub-filters__btn is-active" data-pub-filter-type="">Todos</button>
+      {{- $typeLabels := dict
+        "position-paper" "Documento de posición"
+        "research" "Artículo de investigación"
+        "jurisprudencia" "Informe de jurisprudencia"
+        "informe-legislativo" "Informe legislativo"
+      -}}
       {{- $types := slice -}}
       {{- range $research -}}
         {{- $ct := .Params.content_type -}}
@@ -59,7 +65,7 @@
         {{- end -}}
       {{- end -}}
       {{- range $types }}
-      <button type="button" class="pub-filters__btn" data-pub-filter-type="{{ . }}">{{ . }}</button>
+      <button type="button" class="pub-filters__btn" data-pub-filter-type="{{ . }}">{{ index $typeLabels . | default . }}</button>
       {{- end }}
     </nav>
     <nav class="pub-filters" aria-label="Filtrar por región">
@@ -104,6 +110,11 @@
   <section class="pub-featured" data-pub-featured>
     <h2 class="pub-featured__label">Publicación destacada</h2>
     <article class="pub-featured__card" data-pub-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}' data-pub-type='{{ with .Params.content_type }}{{ if reflect.IsSlice . }}{{ . | jsonify }}{{ else }}["{{ . }}"]{{ end }}{{ else }}[]{{ end }}' data-pub-region='{{ .Params.region | default "" }}' data-pub-year='{{ if not .Date.IsZero }}{{ .Date.Format "2006" }}{{ end }}'>
+      {{ if .Params.cover }}
+        <a class="pub-featured__media" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1">
+          <img class="pub-featured__thumb" src="{{ .Params.cover | relURL }}" alt="" loading="lazy">
+        </a>
+      {{ end }}
       <div class="pub-featured__body">
         {{ with .Params.issues }}
           <div class="pub-featured__issues">
@@ -138,6 +149,9 @@
               {{ partial "date-es.html" .Date }}
             </time>
           {{ end }}
+          {{ with .Params.file }}
+            <a class="pub-featured__pdf" href="{{ . | relURL }}" download>[PDF]</a>
+          {{ end }}
           {{ with .Params.ssrn_id }}
             <a class="pub-featured__ssrn" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ . }}" target="_blank" rel="noopener">
               Ver en SSRN →
@@ -157,44 +171,54 @@
     {{ range $research }}
       {{ if eq .RelPermalink $featured.RelPermalink }}{{ continue }}{{ end }}
     <article class="pub-item{{ if ge $gridIdx $initialVisible }} is-hub-hidden{{ end }}"{{ if ge $gridIdx $initialVisible }} hidden{{ end }} data-pub-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}' data-pub-type='{{ with .Params.content_type }}{{ if reflect.IsSlice . }}{{ . | jsonify }}{{ else }}["{{ . }}"]{{ end }}{{ else }}[]{{ end }}' data-pub-region='{{ .Params.region | default "" }}' data-pub-year='{{ if not .Date.IsZero }}{{ .Date.Format "2006" }}{{ end }}'>
-      {{ with .Params.issues }}
-        <div class="pub-item__issues">
-          {{ range . }}<span class="pub-item__issue-tag">{{ . }}</span>{{ end }}
-        </div>
+      {{ if .Params.cover }}
+        <a class="pub-item__media" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1">
+          <img class="pub-item__thumb" src="{{ .Params.cover | relURL }}" alt="" loading="lazy">
+        </a>
       {{ end }}
-
-      <h3 class="pub-item__title">
-        <a class="pub-item__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </h3>
-
-      {{ with .Params.author }}
-        <div class="pub-item__author">
-          {{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}
-        </div>
-      {{ end }}
-
-      {{ $reference := .Params.reference }}
-      {{ $referenceValue := .Params.reference_value }}
-      {{ if $reference }}
-        <div class="pub-item__ref">{{ $reference }}{{ with $referenceValue }} No. {{ . }}{{ end }}</div>
-      {{ end }}
-
-      {{ $abstract := .Params.abstract | default .Params.description }}
-      {{ with $abstract }}
-        <p class="pub-item__abstract">{{ . | plainify | truncate 280 }}</p>
-      {{ end }}
-
-      <div class="pub-item__footer">
-        {{ if not .Date.IsZero }}
-          <time class="pub-item__date" datetime="{{ .Date.Format "2006-01-02" }}">
-            {{ partial "date-es.html" .Date }}
-          </time>
+      <div class="pub-item__body">
+        {{ with .Params.issues }}
+          <div class="pub-item__issues">
+            {{ range . }}<span class="pub-item__issue-tag">{{ . }}</span>{{ end }}
+          </div>
         {{ end }}
-        {{ with .Params.ssrn_id }}
-          <a class="pub-item__ssrn" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ . }}" target="_blank" rel="noopener">
-            SSRN →
-          </a>
+
+        <h3 class="pub-item__title">
+          <a class="pub-item__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+
+        {{ with .Params.author }}
+          <div class="pub-item__author">
+            {{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}
+          </div>
         {{ end }}
+
+        {{ $reference := .Params.reference }}
+        {{ $referenceValue := .Params.reference_value }}
+        {{ if $reference }}
+          <div class="pub-item__ref">{{ $reference }}{{ with $referenceValue }} No. {{ . }}{{ end }}</div>
+        {{ end }}
+
+        {{ $abstract := .Params.abstract | default .Params.description }}
+        {{ with $abstract }}
+          <p class="pub-item__abstract">{{ . | plainify | truncate 280 }}</p>
+        {{ end }}
+
+        <div class="pub-item__footer">
+          {{ if not .Date.IsZero }}
+            <time class="pub-item__date" datetime="{{ .Date.Format "2006-01-02" }}">
+              {{ partial "date-es.html" .Date }}
+            </time>
+          {{ end }}
+          {{ with .Params.file }}
+            <a class="pub-item__pdf" href="{{ . | relURL }}" download>[PDF]</a>
+          {{ end }}
+          {{ with .Params.ssrn_id }}
+            <a class="pub-item__ssrn" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ . }}" target="_blank" rel="noopener">
+              SSRN →
+            </a>
+          {{ end }}
+        </div>
       </div>
     </article>
     {{ $gridIdx = add $gridIdx 1 }}

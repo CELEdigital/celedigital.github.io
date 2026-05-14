@@ -23,5 +23,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_52.pdf"
+cover: "/covers/Artículo_de_investigación_52.jpg"
 ---
 Assessing the impact of enacted laws in terms of human rights is particularly relevant when considering freedom of expression. The role of state regulations in shaping public debate has been a central concern for those who have reflected on freedom of expression from the outset. Regardless of differing views on the state's role in protecting this right, it is undeniable that the state is a key actor. Therefore, it is essential to have mechanisms that allow us to evaluate the consequences of its

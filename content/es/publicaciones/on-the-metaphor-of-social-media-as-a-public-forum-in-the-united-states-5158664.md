@@ -27,5 +27,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_60_ESP.pdf"
+cover: "/covers/Artículo_de_investigación_60_ESP.jpg"
 ---
 The goal of this study is to define the scope of the public forum doctrine in the United States and assess its applicability to social media. Although this research is conducted from a Latin American perspective, the focus on the United States is justified for two reasons. First, one of the earliest explicit references to social media as public forums emerged in the United States. Second, the United States has a well-established body of case law on the public forum doctrine, where its nuances an

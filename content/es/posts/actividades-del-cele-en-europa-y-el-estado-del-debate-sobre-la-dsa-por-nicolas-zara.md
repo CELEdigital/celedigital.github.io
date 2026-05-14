@@ -13,7 +13,7 @@ programs:
 slug: actividades-del-cele-en-europa-y-el-estado-del-debate-sobre-la-dsa-por-nicolas-zara
 tags:
 - institucional
-title: Actividades del CELE en Europa y el estado del debate sobre la DSA, por Nicolás Zara
+title: Actividades del CELE en Europa y el estado del debate sobre la DSA
 translationKey: wp-13631
 type: posts
 issues:

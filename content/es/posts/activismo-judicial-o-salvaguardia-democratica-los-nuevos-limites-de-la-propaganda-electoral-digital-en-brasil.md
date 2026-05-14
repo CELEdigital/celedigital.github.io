@@ -4,7 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-04-05'
-description: '¿Activismo judicial o salvaguardia democrática? Los nuevos límites de la propaganda electoral digital en Brasil'
+description: ""
 featured: true
 image: /img/shutterstock_2450927321-scaled.jpg
 programs:

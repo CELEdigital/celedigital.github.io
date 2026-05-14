@@ -4,7 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-09-16'
-description: 'La suspensión de X en Brasil: entre la soberanía y la censura'
+description: "Entre la soberanía y la censura"
 featured: true
 image: /img/shutterstock_2262840399-scaled.jpg
 programs:
@@ -12,7 +12,7 @@ programs:
 slug: la-suspension-de-x-en-brasil-entre-la-soberania-y-la-censura-juan-martin-marinangeli
 tags:
 - institucional
-title: 'La suspensión de X en Brasil: entre la soberanía y la censura'
+title: "La suspensión de X en Brasil"
 translationKey: wp-13674
 type: posts
 issues:

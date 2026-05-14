@@ -31,5 +31,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_32.pdf"
+cover: "/covers/Artículo_de_investigación_32.jpg"
 ---
 This submission seeks to bring some of the standards that could be drawn from the Inter-American Human Rights System to the questions posed by the Rapporteur in his call for submissions on Private content regulation in the digital age. In the words of the Rapporteur, “Private companies facilitate an unprecedented global sharing of information and ideas. Social and search platforms in particular have become primary sources of news and information (and disinformation) for hundreds of millions of p

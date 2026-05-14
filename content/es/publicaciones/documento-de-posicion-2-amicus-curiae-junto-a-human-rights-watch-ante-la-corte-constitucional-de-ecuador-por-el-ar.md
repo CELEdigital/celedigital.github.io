@@ -14,6 +14,8 @@ reference_value: "2"
 language: ""
 citation: "CELE, “Amicus curiae junto a Human Rights Watch ante la Corte Constitucional de Ecuador por el artículo sobre desacato del Código Penal ecuatoriano”, Documento de posición No. 2, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2012)"
 link: "https://www.palermo.edu/Archivos_content/derecho/pdf/amicus-corte-const-ecuador-HRW-CELE-1.pdf"
+file: "/files/Documento_de_posición_2.pdf"
+cover: "/covers/Documento_de_posición_2.jpg"
 ---
 CELE, “Amicus curiae junto a Human Rights Watch ante la Corte Constitucional de Ecuador por el artículo sobre desacato del Código Penal ecuatoriano”, Documento de posición No. 2, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2012)
 

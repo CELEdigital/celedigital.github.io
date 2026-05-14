@@ -1,11 +1,10 @@
 ---
 author:
-- CELE
+- Juan Martín Marinangeli
 content_type:
 - blog
 date: '2024-11-07'
-description: 'El acceso a datos para investigadores: Los desafíos de la sociedad civil frente a las plataformas digitales.
-  Una conversación con Carlos Cortés y Laura Palacio.'
+description: 'Los desafíos de la sociedad civil frente a las plataformas digitales. Una conversación con Carlos Cortés y Laura Palacio.'
 featured: true
 image: /img/IMG-500x350-1.jpg
 programs:
@@ -13,8 +12,7 @@ programs:
 slug: el-acceso-a-datos-para-investigadores-los-desafios-de-la-sociedad-civil-frente-a-las-plataformas-digitales-una-conversacion-con-carlos-cortes-y-laura-palacio
 tags:
 - digital services act
-title: 'El acceso a datos para investigadores: Los desafíos de la sociedad civil frente a las plataformas digitales. Una conversación
-  con Carlos Cortés y Laura Palacio - Juan Martín Mariangeli'
+title: 'El acceso a datos para investigadores'
 translationKey: wp-13936
 type: posts
 issues:

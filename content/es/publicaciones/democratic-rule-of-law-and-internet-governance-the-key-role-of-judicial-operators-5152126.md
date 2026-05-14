@@ -23,5 +23,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_40.pdf"
+cover: "/covers/Artículo_de_investigación_40.jpg"
 ---
 A key part of what we understand as multistakeholder internet governance is defined by what we consider to be stakeholders: governments, the private sector, organized civil society, academia, and the technical community. It goes without saying that each of these broad actors conceptually encompasses a wide range of other players with different (and sometimes even opposing) roles and interests. However, it is not uncommon for governance spaces to feature representatives who assume the role of an

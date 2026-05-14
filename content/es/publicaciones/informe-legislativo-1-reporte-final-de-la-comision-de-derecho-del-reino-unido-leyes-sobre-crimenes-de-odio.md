@@ -14,6 +14,8 @@ reference_value: "1"
 language: ""
 citation: "Matías González Mama, “Reporte final de la Comisión de Derecho del Reino Unido Leyes sobre crímenes de odio”, Informe legislativo No. 1, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)"
 link: "https://observatoriolegislativocele.com/wp-content/uploads/Reporte-1_-Reino-Unido-Recomendaciones-sobre-Leyes-sobre-crimenes-de-odio.pdf"
+file: "/files/Informe_legislativo_1.pdf"
+cover: "/covers/Informe_legislativo_1.jpg"
 ---
 Matías González Mama, “Reporte final de la Comisión de Derecho del Reino Unido Leyes sobre crímenes de odio”, Informe legislativo No. 1, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)
 

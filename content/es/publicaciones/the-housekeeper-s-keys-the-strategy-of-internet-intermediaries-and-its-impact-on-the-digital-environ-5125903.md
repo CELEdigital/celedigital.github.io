@@ -24,5 +24,7 @@ placements:
   block: publicaciones
 - hub: region/global
   block: publicaciones
+file: "/files/Artículo_de_investigación_14.pdf"
+cover: "/covers/Artículo_de_investigación_14.jpg"
 ---
 CELE Research Paper No. 14

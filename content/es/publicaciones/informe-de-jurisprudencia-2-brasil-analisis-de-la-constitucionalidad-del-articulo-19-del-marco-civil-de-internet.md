@@ -14,6 +14,8 @@ reference_value: "2"
 language: "ESP"
 citation: "Matías González Mama y Francesca Chocano, “Brasil - Análisis de la Constitucionalidad del Artículo 19 del Marco Civil de Internet”, Informe de jurisprudencia No. 2 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)"
 link: "https://observatoriolegislativocele.com/wp-content/uploads/Informe-jurisprudencia-brasil-n%C2%B02.pdf"
+file: "/files/Informe_de_jurisprudencia_2_ESP.pdf"
+cover: "/covers/Informe_de_jurisprudencia_2_ESP.jpg"
 ---
 Matías González Mama y Francesca Chocano, “Brasil - Análisis de la Constitucionalidad del Artículo 19 del Marco Civil de Internet”, Informe de jurisprudencia No. 2 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)
 

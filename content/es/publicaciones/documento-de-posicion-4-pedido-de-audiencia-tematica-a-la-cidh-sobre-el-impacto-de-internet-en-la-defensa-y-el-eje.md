@@ -14,6 +14,8 @@ reference_value: "4"
 language: ""
 citation: "Dr. Eduardo Bertoni, “Pedido de audiencia temática a la CIDH sobre el impacto de internet en la defensa y el ejercicio de los derechos humanos”, Documento de posición No. 4, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2014)"
 link: "https://www.palermo.edu/cele/pdf/Solicitud-Audiencia-Internet-DDHH.pdf"
+file: "/files/Documento_de_posición_4.pdf"
+cover: "/covers/Documento_de_posición_4.jpg"
 ---
 Dr. Eduardo Bertoni, “Pedido de audiencia temática a la CIDH sobre el impacto de internet en la defensa y el ejercicio de los derechos humanos”, Documento de posición No. 4, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2014)
 

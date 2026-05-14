@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-04-09'
-description: 'La ciberseguridad como saco de fuerza en el marco regulatorio de México En México resurgió la discusión sobre
-  la regulación de la ciberseguridad por la presentación de dos proyectos de ley: el Proyecto de Ley Federal de'
+description: "En México resurgió la discusión sobre la regulación de la ciberseguridad por la presentación de dos proyectos de ley: el Proyecto de Ley Federal de"
 featured: true
 image: /img/shutterstock_7933293101-scaled.jpg
 programs:

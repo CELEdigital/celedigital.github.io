@@ -14,6 +14,8 @@ reference_value: "4"
 language: ""
 citation: "Lina Paola Velásquez Veloza, “Ley de Florida (SB 7072) sobre moderación de contenidos en las redes sociales”, Informe legislativo No. 4, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)"
 link: "https://observatoriolegislativocele.com/wp-content/uploads/Reporte-5_-Estados-Unidos-Ley-de-Florida-SB-7072-sobre-moderacion-de-contenidos-en-las-redes-sociales.pdf"
+file: "/files/Informe_legislativo_4.pdf"
+cover: "/covers/Informe_legislativo_4.jpg"
 ---
 Lina Paola Velásquez Veloza, “Ley de Florida (SB 7072) sobre moderación de contenidos en las redes sociales”, Informe legislativo No. 4, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)
 

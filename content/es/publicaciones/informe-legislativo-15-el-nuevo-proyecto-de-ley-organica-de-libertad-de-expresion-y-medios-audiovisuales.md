@@ -14,6 +14,8 @@ reference_value: "15"
 language: "ESP"
 citation: "CELE, “El Nuevo Proyecto de Ley Orgánica de Libertad de Expresión y Medios Audiovisuales”, Informe legislativo No. 15 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)"
 link: "https://observatoriolegislativocele.com/wp-content/uploads/Informe-legislativo-15-RD.pdf"
+file: "/files/Informe_legislativo_15_ESP.pdf"
+cover: "/covers/Informe_legislativo_15_ESP.jpg"
 ---
 CELE, “El Nuevo Proyecto de Ley Orgánica de Libertad de Expresión y Medios Audiovisuales”, Informe legislativo No. 15 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)
 

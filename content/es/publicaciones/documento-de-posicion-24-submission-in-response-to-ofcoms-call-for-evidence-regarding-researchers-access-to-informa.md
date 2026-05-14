@@ -14,6 +14,8 @@ reference_value: "24"
 language: ""
 citation: "CELE, “Submission in response to OFCOM’s call for evidence regarding “Researchers’ access to information from regulated online services””, Documento de posición No. 24, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)"
 link: "https://www.palermo.edu/Archivos_content/2025/cele/enero/2025-01-14-DP24-CELE.pdf"
+file: "/files/Documento_de_posición_24.pdf"
+cover: "/covers/Documento_de_posición_24.jpg"
 ---
 CELE, “Submission in response to OFCOM’s call for evidence regarding “Researchers’ access to information from regulated online services””, Documento de posición No. 24, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)
 

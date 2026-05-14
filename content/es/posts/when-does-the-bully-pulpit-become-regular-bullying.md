@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-11-14'
-description: When does the bully pulpit become regular bullying? Among the most important stories of the past generation is
-  the transformational impact that the user-generated web, and social media platforms in particular, have had o
+description: "Among the most important stories of the past generation is the transformational impact that the user-generated web, and social media platforms in particular, have had o"
 featured: true
 image: /img/shutterstock_1550506322-scaled.jpg
 programs:

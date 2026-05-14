@@ -14,6 +14,8 @@ reference_value: "6"
 language: ""
 citation: "Olga Lucía Camacho Gutiérrez, “La nueva Ley de Servicios Digitales europea”, Informe legislativo No. 6, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)"
 link: "https://observatoriolegislativocele.com/wp-content/uploads/Reporte-2-La-nueva-Ley-de-Servicios-Digitales-europea.docx.pdf"
+file: "/files/Informe_legislativo_6.pdf"
+cover: "/covers/Informe_legislativo_6.jpg"
 ---
 Olga Lucía Camacho Gutiérrez, “La nueva Ley de Servicios Digitales europea”, Informe legislativo No. 6, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2022)
 

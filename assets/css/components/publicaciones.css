@@ -215,11 +215,38 @@ main.container:has(.publicaciones-hub__header) {
   padding: 1.75rem 2rem 1.75rem 0;
   border-bottom: 1px solid var(--neutral-200);
   display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-start;
 }
 
 .pub-item[hidden] { display: none; }
+
+.pub-item__media {
+  flex: 0 0 auto;
+  width: 200px;
+  max-width: 40%;
+  display: block;
+}
+
+.pub-item__thumb {
+  width: 100%;
+  aspect-ratio: 1 / 1.4;
+  height: auto;
+  display: block;
+  border: 1px solid var(--neutral-200);
+  background: var(--neutral-100);
+  object-fit: cover;
+  object-position: top;
+}
+
+.pub-item__body {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
 
 /* Right column items get left padding instead */
 .pub-item:nth-child(even) {
@@ -319,6 +346,26 @@ main.container:has(.publicaciones-hub__header) {
 
 .pub-item__ssrn:hover { text-decoration: underline; }
 
+.pub-item__pdf {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--cele);
+  text-decoration: none;
+  border: 1px solid var(--cele);
+  padding: 0.1rem 0.4rem;
+  border-radius: 2px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.pub-item__pdf:hover,
+.pub-item__pdf:focus-visible {
+  background-color: var(--cele);
+  color: #fff;
+}
+
 /* ── Load more button ────────────────────────────────────── */
 .publicaciones-load-more-wrap {
   display: flex;
@@ -355,6 +402,33 @@ main.container:has(.publicaciones-hub__header) {
   background: var(--neutral-50, #f9f9f8);
   border-left: 4px solid var(--cele);
   padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.pub-featured__media {
+  flex: 0 0 auto;
+  width: 380px;
+  max-width: 42%;
+  display: block;
+}
+
+.pub-featured__thumb {
+  width: 100%;
+  aspect-ratio: 1 / 1.4;
+  height: auto;
+  display: block;
+  border: 1px solid var(--neutral-200);
+  background: var(--neutral-100);
+  object-fit: cover;
+  object-position: top;
+}
+
+.pub-featured__body {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .pub-featured__issues {
@@ -445,6 +519,26 @@ main.container:has(.publicaciones-hub__header) {
   transition: background 150ms, color 150ms;
 }
 
+.pub-featured__pdf {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--cele);
+  text-decoration: none;
+  border: 1px solid var(--cele);
+  padding: 0.2rem 0.55rem;
+  border-radius: 2px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.pub-featured__pdf:hover,
+.pub-featured__pdf:focus-visible {
+  background-color: var(--cele);
+  color: #fff;
+}
+
 .pub-featured__ssrn:hover {
   background: var(--cele);
   color: #fff;
@@ -474,5 +568,15 @@ main.container:has(.publicaciones-hub__header) {
   .pub-item:nth-child(even) {
     padding-left: 0;
     border-left: none;
+  }
+
+  .pub-featured__card {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .pub-featured__media {
+    width: 60%;
+    max-width: 240px;
   }
 }

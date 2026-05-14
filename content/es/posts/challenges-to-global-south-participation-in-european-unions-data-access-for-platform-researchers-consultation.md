@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2023-07-24'
-description: Challenges to Majority World Participation in European Union's Data Access for Platform Researchers Consultation
-  Introduction Article 40 of the Digital Services Act DSA enables vetted public interest researchers to acces
+description: ""
 featured: true
 image: /img/censorship-g0889cf5a5_1280.jpg
 programs:

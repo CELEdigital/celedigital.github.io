@@ -14,6 +14,8 @@ reference_value: "28"
 language: "ESP"
 citation: "CELE, FLIP, el Veinte y Fundacion Karisma, “Concepto solicitado por la Corte Constitucional - Acción de tutela presentada por Daniela contra Marcos.”, Documento de posición No. 28 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)"
 link: "https://www.palermo.edu/Archivos_content/2025/cele/julio/07_2025_DP_28.pdf"
+file: "/files/Documento_de_posición_28_ESP.pdf"
+cover: "/covers/Documento_de_posición_28_ESP.jpg"
 ---
 CELE, FLIP, el Veinte y Fundacion Karisma, “Concepto solicitado por la Corte Constitucional - Acción de tutela presentada por Daniela contra Marcos.”, Documento de posición No. 28 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)
 

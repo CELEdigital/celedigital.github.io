@@ -57,12 +57,16 @@
 
   <aside class="single-sidebar" aria-label="Publication image">
     <div class="pub-image">
-      {{ with .Params.image }}
-        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+      {{ $src := .Params.cover | default .Params.image }}
+      {{ if $src }}
+        <img src="{{ $src | relURL }}" alt="{{ .Title }}" loading="lazy">
       {{ else }}
         <img src="/img/covers/cover_placeholder.jpeg" alt="Publication cover placeholder" loading="lazy">
       {{ end }}
     </div>
+    {{ with .Params.file }}
+      <a class="pub-image-pdf" href="{{ . | relURL }}" download>[PDF]</a>
+    {{ end }}
   </aside>
 </article>
 {{ end }}

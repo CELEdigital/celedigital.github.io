@@ -14,6 +14,8 @@ reference_value: "37"
 language: ""
 citation: "Agustina Del Campo, Ramiro Álvarez Ugarte, Matías González Mama, Francesca Chocano Villanueva, y Nicolás Zara, “El discurso de odio como modo de censura. Sobre el \"caso Biasi\" en la Argentina”, Documento de posición No. 37, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2026)"
 link: "https://www.palermo.edu/Archivos_content/2026/cele/marzo/dp_37.pdf"
+file: "/files/Documento_de_posición_37.pdf"
+cover: "/covers/Documento_de_posición_37.jpg"
 ---
 Agustina Del Campo, Ramiro Álvarez Ugarte, Matías González Mama, Francesca Chocano Villanueva, y Nicolás Zara, “El discurso de odio como modo de censura. Sobre el "caso Biasi" en la Argentina”, Documento de posición No. 37, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2026)
 

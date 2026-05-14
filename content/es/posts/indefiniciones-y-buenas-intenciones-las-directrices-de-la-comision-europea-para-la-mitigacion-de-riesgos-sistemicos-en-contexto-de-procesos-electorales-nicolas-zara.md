@@ -4,8 +4,7 @@ author:
 content_type:
 - blog
 date: '2024-05-31'
-description: 'Indefiniciones y buenas intenciones: las directrices de la Comisión Europea para la mitigación de riesgos sistémicos
-  en contexto de procesos electorales'
+description: "Las directrices de la Comisión Europea para la mitigación de riesgos sistémicos en contexto de procesos electorales"
 featured: true
 image: /img/guidelines.png
 programs:
@@ -13,8 +12,7 @@ programs:
 slug: indefiniciones-y-buenas-intenciones-las-directrices-de-la-comision-europea-para-la-mitigacion-de-riesgos-sistemicos-en-contexto-de-procesos-electorales-nicolas-zara
 tags:
 - digital services act
-title: 'Indefiniciones y buenas intenciones: las directrices de la Comisión Europea para la mitigación de riesgos sistémicos
-  en contexto de procesos electorales - Nicolás Zara'
+title: "Indefiniciones y buenas intenciones"
 translationKey: wp-12805
 type: posts
 issues:

@@ -1,8 +1,6 @@
 ---
 title: "Workshop 2025"
 weight: 2
-subtitle: "Edition focus"
-description: "Edition focused on public discourse, regulatory risks, and documentation techniques for legal research in digital rights."
+subtitle: "Towards a Free Internet"
+description: "13th Edition of the CELE Workshop. Universidad de Palermo School of Business, Larrea 1079, Buenos Aires, Argentina."
 ---
-
-The 2025 edition prioritized case analysis and classification exercises to monitor normative impact on freedom of expression.

@@ -4,7 +4,7 @@ author:
 content_type:
 - mesa
 date: '2024-01-24'
-description: Resumen de las Mesas Legislativas del CELE 2023. 
+description: ""
 featured: true
 image: /img/mat-reding-yfXhqAW5X0c-unsplash-scaled.jpg
 programs:

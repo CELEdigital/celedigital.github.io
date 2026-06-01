@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: CELEdigital/CELEdigital
+  repo: CELEdigital/celedigital.github.io
   branch: main
   site_domain: celedigital.netlify.app
   base_url: https://api.netlify.com

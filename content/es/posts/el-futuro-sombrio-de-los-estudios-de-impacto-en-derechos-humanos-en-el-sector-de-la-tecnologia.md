@@ -16,13 +16,13 @@ title: El futuro sombrío de los estudios de impacto en derechos humanos
 translationKey: wp-14551
 type: posts
 issues:
-- Empresas y DDHH
+- Plataformas
 region: global
 country: []
 placements:
-- hub: temas/empresas-y-derechos-humanos
+- hub: temas/plataformas
   block: destacado
-- hub: temas/empresas-y-derechos-humanos
+- hub: temas/plataformas
   block: ultimas_noticias_analisis
 - hub: region/global
   block: ultimas_noticias_analisis

@@ -97,7 +97,6 @@ collections:
         multiple: true
         required: false
         options:
-          - "Empresas y DDHH"
           - "Erosión democrática"
           - "Plataformas"
           - "Regulación y tecnología"
@@ -138,7 +137,6 @@ collections:
               - { label: "Plataformas", value: "temas/plataformas" }
               - { label: "Regulación y tecnología", value: "temas/regulacion-y-tecnologia" }
               - { label: "Violencias", value: "temas/violencias" }
-              - { label: "Empresas y DDHH", value: "temas/empresas-y-derechos-humanos" }
               - { label: "Región: América Latina", value: "region/america-latina" }
               - { label: "Región: Europa", value: "region/europa" }
               - { label: "Región: Global", value: "region/global" }
@@ -251,7 +249,6 @@ collections:
         multiple: true
         required: false
         options:
-          - "Empresas y DDHH"
           - "Erosión democrática"
           - "Plataformas"
           - "Regulación y tecnología"
@@ -292,7 +289,6 @@ collections:
               - { label: "Plataformas", value: "temas/plataformas" }
               - { label: "Regulación y tecnología", value: "temas/regulacion-y-tecnologia" }
               - { label: "Violencias", value: "temas/violencias" }
-              - { label: "Empresas y DDHH", value: "temas/empresas-y-derechos-humanos" }
               - { label: "Región: América Latina", value: "region/america-latina" }
               - { label: "Región: Europa", value: "region/europa" }
               - { label: "Región: Global", value: "region/global" }
@@ -606,7 +602,6 @@ collections:
         multiple: true
         required: false
         options:
-          - "Empresas y DDHH"
           - "Erosión democrática"
           - "Plataformas"
           - "Regulación y tecnología"
@@ -646,7 +641,6 @@ collections:
               - { label: "Platforms", value: "temas/plataformas" }
               - { label: "Regulation & technology", value: "temas/regulacion-y-tecnologia" }
               - { label: "Violence", value: "temas/violencias" }
-              - { label: "Business & human rights", value: "temas/empresas-y-derechos-humanos" }
               - { label: "Region: Latin America", value: "region/america-latina" }
               - { label: "Region: Europe", value: "region/europa" }
               - { label: "Region: Global", value: "region/global" }

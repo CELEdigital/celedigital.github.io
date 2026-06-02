@@ -14,11 +14,11 @@ ssrn_id: '5152205'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5152205
 reference: CELE Research Paper No. 43
 issues:
-- Empresas y DDHH
+- Plataformas
 region: global
 country: []
 placements:
-- hub: temas/empresas-y-derechos-humanos
+- hub: temas/plataformas
   block: publicaciones
 - hub: policy
   block: publicaciones

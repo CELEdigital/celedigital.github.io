@@ -14,7 +14,7 @@ title: Two problems for using Human Rights as Benchmarks in Human Rights Impact 
 translationKey: wp-12252
 type: posts
 issues:
-- Empresas y DDHH
+- Plataformas
 - Erosión democrática
 - Violencias
 region: global
@@ -22,7 +22,7 @@ country: []
 placements:
 - hub: policy
   block: destacado
-- hub: temas/empresas-y-derechos-humanos
+- hub: temas/plataformas
   block: ultimas_noticias_analisis
 - hub: temas/erosion-democratica
   block: ultimas_noticias_analisis

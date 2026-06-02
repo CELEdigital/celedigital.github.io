@@ -39,7 +39,7 @@ Se añadió un panel "Mesas" al observatorio. Archivos modificados:
 |------|-------|
 | Hub de temas | Siempre `hub: temas/SLUG` — con prefijo `temas/` |
 | Bloques disponibles | `destacado`, `ultimas_noticias_analisis`, `publicaciones`, `eventos` |
-| `issues` | Etiquetas temáticas para filtros: `Empresas y DDHH`, `Erosión democrática`, `Plataformas`, `Regulación y tecnología`, `Violencias` |
+| `issues` | Etiquetas temáticas para filtros: `Erosión democrática`, `Plataformas`, `Regulación y tecnología`, `Violencias`. (El antiguo `Empresas y DDHH` se subsumió en `Plataformas`; su tema `temas/empresas-y-derechos-humanos` redirige a `temas/plataformas` vía alias.) |
 | `content_type` | Campo de formato del post. Valores usados: `blog`, `mesa`, `boletin` |
 | JS del observatorio | Está en `static/data/observatory-hub.js` (no en `assets/`) |
 | CSS del observatorio | `assets/css/components/observatory-hub.css` |

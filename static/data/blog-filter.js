@@ -213,9 +213,10 @@
 
   // Hash-based category pre-selection
   var hashMap = {
-    'empresas': 'Empresas y DDHH', 'empresas-y-ddhh': 'Empresas y DDHH',
     'erosion': 'Erosión democrática', 'erosion-democratica': 'Erosión democrática',
     'plataformas': 'Plataformas',
+    // Legacy "Empresas y DDHH" slugs now fold into Plataformas
+    'empresas': 'Plataformas', 'empresas-y-ddhh': 'Plataformas', 'empresas-y-derechos-humanos': 'Plataformas',
     'regulacion': 'Regulación y tecnología', 'regulacion-y-tecnologia': 'Regulación y tecnología',
     'violencias': 'Violencias'
   };

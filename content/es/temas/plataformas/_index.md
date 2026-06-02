@@ -4,4 +4,9 @@ description: "El poder de las grandes empresas de internet de mediar y dar forma
 section_key: "temas/plataformas"
 translationKey: "platforms"
 image: "/ilustrations/plataformas.png"
+aliases:
+  - "/es/temas/empresas-y-derechos-humanos/"
+  - "/es/temas/empresas-y-derechos-humanos"
+  - "/temas/empresas-y-derechos-humanos/"
+  - "/temas/empresas-y-derechos-humanos"
 ---

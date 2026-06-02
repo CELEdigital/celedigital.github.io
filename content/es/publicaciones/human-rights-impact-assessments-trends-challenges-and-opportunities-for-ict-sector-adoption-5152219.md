@@ -14,12 +14,12 @@ ssrn_id: '5152219'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5152219
 reference: CELE Research Paper No. 45
 issues:
-- Empresas y DDHH
+- Plataformas
 - Regulación y tecnología
 region: global
 country: []
 placements:
-- hub: temas/empresas-y-derechos-humanos
+- hub: temas/plataformas
   block: publicaciones
 - hub: temas/regulacion-y-tecnologia
   block: publicaciones

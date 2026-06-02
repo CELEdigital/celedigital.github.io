@@ -16,13 +16,13 @@ title: Las empresas y los derechos humanos
 translationKey: wp-8741
 type: posts
 issues:
-- Empresas y DDHH
+- Plataformas
 region: global
 country: []
 placements:
 - hub: policy
   block: ultimas_noticias_analisis
-- hub: temas/empresas-y-derechos-humanos
+- hub: temas/plataformas
   block: ultimas_noticias_analisis
 - hub: region/global
   block: ultimas_noticias_analisis

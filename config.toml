@@ -106,12 +106,6 @@ defaultContentLanguageInSubdir = true
         weight = 24
 
       [[languages.es.menu.main]]
-        name = "Empresas y DDHH"
-        url = "/temas/empresas-y-derechos-humanos"
-        parent = "temas"
-        weight = 25
-
-      [[languages.es.menu.main]]
         name = "región"
         url = "/region/"
         identifier = "region"

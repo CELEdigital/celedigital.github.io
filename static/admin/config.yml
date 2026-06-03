@@ -14,7 +14,9 @@ public_folder: "/img"
 i18n:
   # Folders are unified across locales (content/es/<sec>/, content/en/<sec>/)
   # so every collection below pairs ES/EN by filename for side-by-side editing.
-  structure: multiple_folders_i18n_root
+  # multiple_root_folders => content/<locale>/<folder>/<slug>.md
+  # (replaces the now-deprecated multiple_folders_i18n_root).
+  structure: multiple_root_folders
   locales: [es, en]
   default_locale: es
 

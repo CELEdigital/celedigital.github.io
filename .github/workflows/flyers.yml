@@ -1,0 +1,111 @@
+name: Generate post flyers
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "content/**/posts/**.md"
+  workflow_dispatch:
+    inputs:
+      posts:
+        description: "Space-separated post markdown path(s), e.g. content/es/posts/my-post.md. Leave blank to use the posts changed in the triggering commit."
+        required: false
+        default: ""
+
+# Need write access to commit the generated flyers back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: flyers-${{ github.ref }}
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  flyers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history so we can diff the push range to find changed posts.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --upgrade Pillow python-frontmatter
+
+      - name: Determine posts to process
+        id: posts
+        env:
+          # Cap: only auto-generate for posts uploaded via the CMS. Sveltia/Decap
+          # commit the "posts" collection with its singular label, e.g.
+          #   Create Post “my-slug”   /   Update Post “my-slug”
+          CMS_SUBJECT_RE: '^(Create|Update) Post '
+          POST_PATH_RE: '^content/[^/]+/posts/[^/]+\.md$'
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.posts }}" ]; then
+            # Manual run with an explicit list — not CMS-gated.
+            posts="${{ github.event.inputs.posts }}"
+
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            # Manual run, no list given: posts changed in HEAD (not CMS-gated).
+            posts="$(git show --name-only --diff-filter=AM --pretty=format: HEAD \
+                     | grep -E "$POST_PATH_RE" || true)"
+
+          else
+            # Auto push: walk each commit in the push range and keep changed post
+            # files only from commits whose subject matches the CMS pattern. This
+            # caps generation to CMS uploads and ignores bulk/manual edits.
+            base="${{ github.event.before }}"
+            head="${{ github.sha }}"
+            if [ -z "$base" ] || [ "$base" = "0000000000000000000000000000000000000000" ]; then
+              commits="$head"
+            else
+              commits="$(git rev-list "$base..$head")"
+            fi
+
+            posts=""
+            for sha in $commits; do
+              subject="$(git log -1 --format=%s "$sha")"
+              if echo "$subject" | grep -qE "$CMS_SUBJECT_RE"; then
+                files="$(git diff-tree --no-commit-id --name-only -r --diff-filter=AM "$sha" \
+                         | grep -E "$POST_PATH_RE" || true)"
+                posts="$posts $files"
+              fi
+            done
+          fi
+
+          # Normalise to a unique, space-separated list.
+          posts="$(echo "$posts" | tr ' ' '\n' | sed '/^$/d' | sort -u | tr '\n' ' ' | xargs || true)"
+          echo "Posts to process: ${posts:-<none>}"
+          echo "list=$posts" >> "$GITHUB_OUTPUT"
+
+      - name: Generate flyers
+        if: steps.posts.outputs.list != ''
+        run: |
+          set -euo pipefail
+          python scripts/generate_flyers.py ${{ steps.posts.outputs.list }}
+
+      - name: Commit generated flyers
+        if: steps.posts.outputs.list != ''
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain static/flyers/posts)" ]; then
+            echo "No new or changed flyers to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add static/flyers/posts
+          git commit -m "chore: regenerate post flyers"
+          git push

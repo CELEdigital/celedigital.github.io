@@ -12,8 +12,3 @@ resources/_gen/
 
 # Node
 node_modules/
-
-# Flyers pipeline (not ready to ship)
-.github/workflows/flyers.yml
-scripts/generate_flyers.py
-static/flyers/

@@ -25,8 +25,6 @@ country:
 placements:
 - hub: temas/regulacion-y-tecnologia
   block: publicaciones
-- hub: policy
-  block: publicaciones
 - hub: region/global
   block: publicaciones
 ---

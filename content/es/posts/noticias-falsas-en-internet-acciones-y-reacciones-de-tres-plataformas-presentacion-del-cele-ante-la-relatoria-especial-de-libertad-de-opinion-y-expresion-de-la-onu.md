@@ -23,9 +23,6 @@ issues:
 region: global
 country: []
 placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/erosion-democratica
   block: ultimas_noticias_analisis
 - hub: temas/plataformas

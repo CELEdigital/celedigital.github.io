@@ -22,8 +22,6 @@ issues:
 region: global
 country: []
 placements:
-- hub: policy
-  block: ultimas_noticias_analisis
 - hub: temas/regulacion-y-tecnologia
   block: ultimas_noticias_analisis
 - hub: region/global

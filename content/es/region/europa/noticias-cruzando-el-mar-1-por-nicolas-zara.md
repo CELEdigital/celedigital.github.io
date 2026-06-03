@@ -19,9 +19,6 @@ type: posts
 issues:
 - Gobernanza de Internet
 placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-  weight: 1
 - hub: temas/gobernanza
   block: ultimas_noticias_analisis
   weight: 1

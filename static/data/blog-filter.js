@@ -153,6 +153,12 @@
 
   // Search input
   if (searchInput) {
+    // Pre-fill from ?q= so the header search box lands here with results filtered
+    var queryParam = new URLSearchParams(window.location.search).get('q');
+    if (queryParam) {
+      searchInput.value = queryParam;
+      filterQuery = queryParam.toLowerCase().trim();
+    }
     searchInput.addEventListener('input', function () {
       filterQuery = searchInput.value.toLowerCase().trim();
       applyFilter();

@@ -23,8 +23,6 @@ placements:
   block: publicaciones
 - hub: temas/regulacion-y-tecnologia
   block: publicaciones
-- hub: policy
-  block: publicaciones
 - hub: region/global
   block: publicaciones
 file: "/files/Artículo_de_investigación_59.pdf"

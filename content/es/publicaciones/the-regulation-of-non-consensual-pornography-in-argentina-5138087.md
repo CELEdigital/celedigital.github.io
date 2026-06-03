@@ -20,8 +20,6 @@ country:
 placements:
 - hub: temas/regulacion-y-tecnologia
   block: publicaciones
-- hub: policy
-  block: publicaciones
 - hub: region/america-latina
   block: publicaciones
 file: "/files/Artículo_de_investigación_25.pdf"

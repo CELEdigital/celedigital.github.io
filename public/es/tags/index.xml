@@ -6,8 +6,15 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hrias</title>
+      <link>http://localhost:1313/es/tags/hrias/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/tags/hrias/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Documento De Posición</title>
       <link>http://localhost:1313/es/tags/documento-de-posici%C3%B3n/</link>
@@ -202,13 +209,6 @@
       <link>http://localhost:1313/es/tags/desinformaci%C3%B3n/</link>
       <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/es/tags/desinformaci%C3%B3n/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hrias</title>
-      <link>http://localhost:1313/es/tags/hrias/</link>
-      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/tags/hrias/</guid>
       <description></description>
     </item>
     <item>

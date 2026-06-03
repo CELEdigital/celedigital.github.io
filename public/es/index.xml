@@ -6,7 +6,7 @@
     <description>Recent content in Inicio on </description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agustina Del Campo</title>
@@ -63,6 +63,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/es/autores/nicol%C3%A1s-zara/</guid>
       <description>&lt;p&gt;Nicolás es abogado graduado de la Universidad de Buenos Aires con orientación en derecho público y Magister en Derecho (LL.M.) en Tulane University. Actualmente es maestrando en Derecho Constitucional y Derechos Humanos en la Universidad de Palermo. También se desempeña como docente de Derecho Constitucional en la Universidad de Buenos Aires.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prueba</title>
+      <link>http://localhost:1313/es/posts/prueba1/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/prueba1/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ampliación a las Observaciones del CELE a la Solicitud de Opinión Consultiva sobre Democracia y su protección ante el Sistema Interamericano de Derechos Humanos presentada por Guatemala ante la Corte Interamericana de Derechos Humanos</title>

@@ -150,6 +150,9 @@
           <time class="single-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "date-es.html" .Date }}</time>
         </div>
       {{ end }}
+      {{ with .OutputFormats.Get "email" }}
+        <p class="single-email-link"><a href="{{ .RelPermalink }}">{{ cond (eq $.Lang "es") "Ver versión email" "View email version" }} →</a></p>
+      {{ end }}
       {{ .Content }}
 
       {{ if ne .Params.share_menu false }}

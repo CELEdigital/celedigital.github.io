@@ -10,6 +10,14 @@ defaultContentLanguageInSubdir = true
     [markup.goldmark.extensions.footnote]
       enable = true
 
+# Email/newsletter output format. Opt in per page with
+# `outputs = ["html", "email"]` to also emit <slug>/email.html.
+[outputFormats.email]
+  mediaType = "text/html"
+  isHTML = true
+  baseName = "email"
+  notAlternative = true
+
 [languages]
   [languages.es]
     languageName = "Español"
@@ -144,16 +152,17 @@ defaultContentLanguageInSubdir = true
         url = "/taller/"
         weight = 6
 
-      [[languages.es.menu.main]]
-        name = "Archivo"
-        url = "/posts/"
-        weight = 7
-
   [languages.en]
     languageName = "English"
     languageCode = "en"
     contentDir = "content/en"
     weight = 2
+
+    # Folders are unified with ES (publicaciones, observatorio-legislativo) for
+    # native CMS i18n; these permalinks keep the English-facing URLs.
+    [languages.en.permalinks]
+      publicaciones = "/research/:slug/"
+      observatorio-legislativo = "/legislative-observatory/:slug/"
 
     [languages.en.params]
       logo = "img/logo_cele.svg"
@@ -258,11 +267,6 @@ defaultContentLanguageInSubdir = true
         name = "Research"
         url = "/research/"
         weight = 4
-
-      [[languages.en.menu.main]]
-        name = "Policy"
-        url = "/policy/"
-        weight = 5
 
       [[languages.en.menu.main]]
         name = "Legislative Observatory"

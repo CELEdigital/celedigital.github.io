@@ -76,6 +76,21 @@
       </ul>
     </nav>
   </div>
+
+  {{ $searchAction := "/posts/" | relLangURL }}
+  {{ $searchLabel := "Buscar en el sitio" }}
+  {{ if eq .Site.Language.Lang "en" }}
+    {{ $searchLabel = "Search the site" }}
+  {{ end }}
+  <div class="header-container header-search-bar">
+    <form class="header-search" role="search" action="{{ $searchAction }}" method="get">
+      <svg class="header-search__icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+      <input type="search" name="q" class="header-search__input" aria-label="{{ $searchLabel }}" autocomplete="off">
+    </form>
+  </div>
 </header>
 
 <script>

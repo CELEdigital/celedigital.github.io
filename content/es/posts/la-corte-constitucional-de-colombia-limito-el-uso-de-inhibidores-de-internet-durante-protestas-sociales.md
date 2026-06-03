@@ -20,8 +20,6 @@ region: latam
 country:
 - CO
 placements:
-- hub: policy
-  block: ultimas_noticias_analisis
 - hub: temas/erosion-democratica
   block: ultimas_noticias_analisis
 - hub: region/america-latina

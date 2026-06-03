@@ -20,8 +20,6 @@ country: []
 placements:
 - hub: temas/plataformas
   block: publicaciones
-- hub: policy
-  block: publicaciones
 - hub: region/global
   block: publicaciones
 file: "/files/Artículo_de_investigación_43_ENG.pdf"

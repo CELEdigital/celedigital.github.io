@@ -30,8 +30,6 @@ placements:
   block: publicaciones
 - hub: temas/plataformas
   block: publicaciones
-- hub: policy
-  block: publicaciones
 - hub: region/global
   block: publicaciones
 references: /references/public_functions.json

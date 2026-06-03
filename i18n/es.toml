@@ -141,3 +141,51 @@ other = "policy"
 
 [tag_sala_de_prensa]
 other = "sala de prensa"
+
+[pub_topic]
+other = "Tema"
+
+[pub_type]
+other = "Tipo"
+
+[pub_region]
+other = "Región"
+
+[pub_period]
+other = "Período"
+
+[pub_all]
+other = "Todos"
+
+[pub_featured]
+other = "Publicación destacada"
+
+[pub_filter_by_topic]
+other = "Filtrar por tema"
+
+[pub_filter_by_type]
+other = "Filtrar por tipo de publicación"
+
+[pub_filter_by_region]
+other = "Filtrar por región"
+
+[pub_type_position]
+other = "Documento de posición"
+
+[pub_type_research]
+other = "Artículo de investigación"
+
+[pub_type_jurisprudence]
+other = "Informe de jurisprudencia"
+
+[pub_type_legislative]
+other = "Informe legislativo"
+
+[pub_type_compilation]
+other = "Compilación"
+
+[pub_view_ssrn]
+other = "Ver en SSRN →"
+
+[home_view_all]
+other = "Ver todas"

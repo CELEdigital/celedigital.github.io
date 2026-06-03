@@ -134,8 +134,8 @@
   {{ if gt (len $research) 0 }}
   <section class="home-research">
     <header class="home-section-header">
-      <h2 class="home-section-title">Publicaciones</h2>
-      <a class="home-section-more" href="{{ "/publicaciones/" | relLangURL }}">Ver todas →</a>
+      <h2 class="home-section-title">{{ i18n "hub_research" }}</h2>
+      <a class="home-section-more" href="{{ with site.GetPage "/publicaciones" }}{{ .RelPermalink }}{{ else }}{{ "/publicaciones/" | relLangURL }}{{ end }}">{{ i18n "home_view_all" }} →</a>
     </header>
     <div class="home-research__list">
       {{ range first 3 $research }}

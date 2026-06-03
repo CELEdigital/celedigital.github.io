@@ -20,8 +20,6 @@ country: []
 placements:
 - hub: temas/erosion-democratica
   block: publicaciones
-- hub: policy
-  block: publicaciones
 - hub: region/america-latina
   block: publicaciones
 file: "/files/Artículo_de_investigación_5.pdf"

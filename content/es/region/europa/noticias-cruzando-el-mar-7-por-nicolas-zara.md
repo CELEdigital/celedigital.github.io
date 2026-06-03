@@ -21,12 +21,6 @@ issues:
 - LDE
 - Gobernanza de Internet
 placements:
-- hub: policy
-  block: ultimas_noticias_analisis
-  weight: 1
-- hub: policy
-  block: blog
-  weight: 2
 - hub: temas/privacidad-y-vigilancia
   block: ultimas_noticias_analisis
   weight: 1

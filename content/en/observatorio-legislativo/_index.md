@@ -2,6 +2,7 @@
 title: "Visualizations"
 summary: "Charted overview of laws and bills"
 translationKey: observatory
+url: "/en/legislative-observatory/"
 ---
 
 ## Laws and bills by country

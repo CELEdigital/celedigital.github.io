@@ -19,8 +19,6 @@ country: []
 placements:
 - hub: temas/erosion-democratica
   block: publicaciones
-- hub: policy
-  block: publicaciones
 - hub: region/global
   block: publicaciones
 file: "/files/Artículo_de_investigación_7.pdf"

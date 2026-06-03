@@ -23,8 +23,6 @@ region: latam
 country:
 - AR
 placements:
-- hub: policy
-  block: ultimas_noticias_analisis
 - hub: temas/erosion-democratica
   block: ultimas_noticias_analisis
 - hub: temas/regulacion-y-tecnologia

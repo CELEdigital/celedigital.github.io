@@ -24,8 +24,6 @@ placements:
   block: publicaciones
 - hub: temas/plataformas
   block: publicaciones
-- hub: policy
-  block: publicaciones
 - hub: region/america-latina
   block: publicaciones
 file: "/files/Artículo_de_investigación_35.pdf"

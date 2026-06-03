@@ -1,14 +1,21 @@
 <section class="hero-featured">
   <div class="hero-slider" data-slider>
-    {{ $featured := where site.RegularPages "Params.featured" true }}
-    {{ range $featured }}
+    {{/* Collect eligible featured posts (skip mesa / newsletter_dsa) */}}
+    {{ $eligible := slice }}
+    {{ range where site.RegularPages "Params.featured" true }}
       {{ $ct := .Params.content_type }}
       {{ $ctList := slice }}
       {{ if $ct }}
         {{ if reflect.IsSlice $ct }}{{ $ctList = $ct }}
         {{ else }}{{ $ctList = slice $ct }}{{ end }}
       {{ end }}
-      {{ if or (in $ctList "mesa") (in $ctList "newsletter_dsa") }}{{ continue }}{{ end }}
+      {{ if not (or (in $ctList "mesa") (in $ctList "newsletter_dsa")) }}
+        {{ $eligible = $eligible | append . }}
+      {{ end }}
+    {{ end }}
+    {{/* Most recent first, capped at the last 7 by date */}}
+    {{ $featured := first 7 (sort $eligible "Date" "desc") }}
+    {{ range $featured }}
       <article class="hero-slide">
         {{ with .Params.image }}
           <img src="{{ . }}" alt="{{ $.Title }}">

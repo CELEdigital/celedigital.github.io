@@ -11,29 +11,40 @@ local_backend: true
 media_folder: "static/img"
 public_folder: "/img"
 
+i18n:
+  # Folders are unified across locales (content/es/<sec>/, content/en/<sec>/)
+  # so every collection below pairs ES/EN by filename for side-by-side editing.
+  structure: multiple_folders_i18n_root
+  locales: [es, en]
+  default_locale: es
+
 collections:
 
   # ─────────────────────────────────────────
-  # POSTS EN ESPAÑOL
+  # POSTS (ES / EN)
   # ─────────────────────────────────────────
-  - name: "posts_es"
-    label: "Posts (ES)"
+  - name: "posts"
+    label: "Posts (ES / EN)"
     label_singular: "Post"
-    folder: "content/es/posts"
+    # multiple_folders_i18n_root => content/<locale>/posts/<slug>.md
+    folder: "content/posts"
     create: true
     format: "yaml-frontmatter"
     extension: "md"
     slug: "{{slug}}"
+    i18n: true
 
     fields:
       - label: "Título"
         name: "title"
         widget: "string"
+        i18n: true
 
       - label: "Slug"
         name: "slug"
         widget: "string"
-        hint: "URL del post: solo minúsculas, números y guiones"
+        i18n: true
+        hint: "URL del post: solo minúsculas, números y guiones (puede diferir por idioma)"
         pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
 
       - label: "Fecha"
@@ -41,16 +52,19 @@ collections:
         widget: "datetime"
         date_format: "YYYY-MM-DD"
         time_format: false
+        i18n: duplicate
 
       - label: "Descripción"
         name: "description"
         widget: "string"
         required: false
+        i18n: true
         hint: "Resumen breve visible en listados y SEO"
 
       - label: "Autor/es"
         name: "author"
         widget: "list"
+        i18n: duplicate
         hint: "Identificador del autor (ej: CELE, mmdg, adc). Uno por línea."
         field:
           label: "Autor"
@@ -63,6 +77,7 @@ collections:
         multiple: true
         max: 1
         default: ["blog"]
+        i18n: duplicate
         options:
           - { label: "Blog / Análisis", value: "blog" }
           - { label: "Mesa legislativa", value: "mesa" }
@@ -75,6 +90,7 @@ collections:
         max: 1
         required: false
         default: ["policy"]
+        i18n: duplicate
         options:
           - { label: "Policy", value: "policy" }
           - { label: "Publicaciones", value: "publicaciones" }
@@ -83,12 +99,40 @@ collections:
         name: "featured"
         widget: "boolean"
         default: false
+        i18n: duplicate
+
+      - label: "Formatos de salida"
+        name: "outputs"
+        widget: "select"
+        multiple: true
+        required: false
+        default: ["html"]
+        i18n: duplicate
+        hint: "Agregá 'Email / Newsletter' para generar la versión de email (.../email.html)"
+        options:
+          - { label: "Web (HTML)", value: "html" }
+          - { label: "Email / Newsletter", value: "email" }
+
+      - label: "Número de newsletter"
+        name: "newsletter_number"
+        widget: "string"
+        required: false
+        i18n: true
+        hint: "Solo para email/newsletter. Ej: #9 · Enero 2025 (encabezado del email)"
+
+      - label: "Bajada / tagline"
+        name: "tagline"
+        widget: "string"
+        required: false
+        i18n: true
+        hint: "Solo para email/newsletter. Subtítulo del encabezado (si está vacío, usa la descripción)"
 
       - label: "Imagen"
         name: "image"
         widget: "image"
         required: false
         choose_url: true
+        i18n: duplicate
         hint: "Imagen de portada (se guarda en /img)"
 
       - label: "Issues / Temas"
@@ -96,6 +140,7 @@ collections:
         widget: "select"
         multiple: true
         required: false
+        i18n: duplicate
         options:
           - "Erosión democrática"
           - "Plataformas"
@@ -106,6 +151,7 @@ collections:
         name: "region"
         widget: "select"
         required: false
+        i18n: duplicate
         options:
           - { label: "América Latina", value: "latam" }
           - { label: "Estados Unidos", value: "us" }
@@ -116,6 +162,7 @@ collections:
         name: "country"
         widget: "list"
         required: false
+        i18n: duplicate
         hint: "Códigos ISO de dos letras (ej: AR, BR, US, CO)"
         field:
           label: "País"
@@ -126,13 +173,13 @@ collections:
         name: "placements"
         widget: "list"
         required: false
+        i18n: duplicate
         hint: "Define en qué hub y en qué bloque aparece este post"
         fields:
           - label: "Hub"
             name: "hub"
             widget: "select"
             options:
-              - { label: "Policy (general)", value: "policy" }
               - { label: "Erosión democrática", value: "temas/erosion-democratica" }
               - { label: "Plataformas", value: "temas/plataformas" }
               - { label: "Regulación y tecnología", value: "temas/regulacion-y-tecnologia" }
@@ -143,16 +190,17 @@ collections:
           - label: "Bloque"
             name: "block"
             widget: "select"
+            default: "ultimas_noticias_analisis"
             options:
               - { label: "Destacado", value: "destacado" }
               - { label: "Últimas noticias y análisis", value: "ultimas_noticias_analisis" }
               - { label: "Publicaciones", value: "publicaciones" }
-              - { label: "Eventos", value: "eventos" }
 
       - label: "Tags"
         name: "tags"
         widget: "list"
         required: false
+        i18n: true
         field:
           label: "Tag"
           name: "tag"
@@ -162,50 +210,59 @@ collections:
         name: "translationKey"
         widget: "string"
         required: false
-        hint: "Vincula este post con su versión en inglés (deben compartir el mismo valor)"
+        i18n: duplicate
+        hint: "Opcional con i18n nativo: ES/EN se vinculan por nombre de archivo. Úsalo solo si los archivos tienen nombres distintos."
 
       - label: "URL fuente"
         name: "source_url"
         widget: "string"
         required: false
+        i18n: duplicate
         hint: "Solo para mesas: URL de la página original del evento"
 
       - label: "Tipo Hugo"
         name: "type"
         widget: "hidden"
         default: "posts"
+        i18n: duplicate
 
       - label: "Cuerpo"
         name: "body"
         widget: "markdown"
+        i18n: true
 
 
   # ─────────────────────────────────────────
-  # PUBLICACIONES EN ESPAÑOL
+  # PUBLICACIONES / PAPERS (ES / EN)
+  # ES: content/es/publicaciones/  ·  EN: content/en/publicaciones/ (URL /en/research/)
   # ─────────────────────────────────────────
-  - name: "publicaciones_es"
-    label: "Publicaciones / Papers (ES)"
+  - name: "publicaciones"
+    label: "Publicaciones / Papers (ES / EN)"
     label_singular: "Publicación"
-    folder: "content/es/publicaciones"
+    folder: "content/publicaciones"
     create: true
     format: "yaml-frontmatter"
     extension: "md"
     slug: "{{slug}}"
+    i18n: true
 
     fields:
       - label: "Título"
         name: "title"
         widget: "string"
+        i18n: true
 
       - label: "Fecha"
         name: "date"
         widget: "datetime"
         date_format: "YYYY-MM-DD"
         time_format: false
+        i18n: duplicate
 
       - label: "Autor/es"
         name: "author"
         widget: "list"
+        i18n: duplicate
         field:
           label: "Autor"
           name: "author"
@@ -213,41 +270,74 @@ collections:
 
       - label: "Tipo de contenido"
         name: "content_type"
-        widget: "hidden"
+        widget: "select"
+        multiple: true
+        max: 1
         default: ["research"]
+        i18n: duplicate
+        options:
+          - { label: "Documento de posición", value: "position-paper" }
+          - { label: "Artículo de investigación", value: "research" }
+          - { label: "Informe de jurisprudencia", value: "jurisprudencia" }
+          - { label: "Informe legislativo", value: "informe-legislativo" }
+          - { label: "Compilación", value: "compilation" }
 
       - label: "Programa"
         name: "programs"
         widget: "hidden"
         default: ["publicaciones"]
+        i18n: duplicate
 
       - label: "SSRN ID"
         name: "ssrn_id"
         widget: "string"
         required: false
+        i18n: duplicate
         hint: "Número de abstract en SSRN (ej: 5125874)"
 
       - label: "SSRN URL"
         name: "ssrn_url"
         widget: "string"
         required: false
+        i18n: duplicate
 
-      - label: "Referencia SSRN"
-        name: "ssrn_reference"
+      - label: "Referencia"
+        name: "reference"
         widget: "string"
         required: false
+        i18n: duplicate
         hint: "Ej: CELE Research Paper No. 11"
 
       - label: "Abstract"
         name: "abstract"
         widget: "text"
         required: false
+        i18n: true
+
+      - label: "Bibliografía (CSL-JSON)"
+        name: "references"
+        widget: "file"
+        required: false
+        media_folder: "/static/references"
+        public_folder: "/references"
+        i18n: duplicate
+        hint: "Archivo JSON (CSL-JSON) con la bibliografía. Se guarda en /static/references/"
+
+      - label: "Estilo de cita (CSL)"
+        name: "csl"
+        widget: "select"
+        required: false
+        i18n: duplicate
+        hint: "Estilo de citación para la bibliografía"
+        options:
+          - { label: "OSCOLA", value: "/csl/oscola.csl" }
 
       - label: "Issues / Temas"
         name: "issues"
         widget: "select"
         multiple: true
         required: false
+        i18n: duplicate
         options:
           - "Erosión democrática"
           - "Plataformas"
@@ -258,6 +348,7 @@ collections:
         name: "region"
         widget: "select"
         required: false
+        i18n: duplicate
         options:
           - { label: "América Latina", value: "latam" }
           - { label: "Estados Unidos", value: "us" }
@@ -268,6 +359,7 @@ collections:
         name: "country"
         widget: "list"
         required: false
+        i18n: duplicate
         hint: "Códigos ISO de dos letras"
         field:
           label: "País"
@@ -278,13 +370,13 @@ collections:
         name: "placements"
         widget: "list"
         required: false
+        i18n: duplicate
         hint: "Define en qué hub y en qué bloque aparece esta publicación"
         fields:
           - label: "Hub"
             name: "hub"
             widget: "select"
             options:
-              - { label: "Policy (general)", value: "policy" }
               - { label: "Erosión democrática", value: "temas/erosion-democratica" }
               - { label: "Plataformas", value: "temas/plataformas" }
               - { label: "Regulación y tecnología", value: "temas/regulacion-y-tecnologia" }
@@ -299,96 +391,12 @@ collections:
               - { label: "Destacado", value: "destacado" }
               - { label: "Últimas noticias y análisis", value: "ultimas_noticias_analisis" }
               - { label: "Publicaciones", value: "publicaciones" }
-              - { label: "Eventos", value: "eventos" }
 
       - label: "Tags"
         name: "tags"
         widget: "list"
         required: false
-        field:
-          label: "Tag"
-          name: "tag"
-          widget: "string"
-
-      - label: "Cuerpo (opcional)"
-        name: "body"
-        widget: "markdown"
-        required: false
-
-
-  # ─────────────────────────────────────────
-  # BOLETINES — OBSERVATORIO LEGISLATIVO (ES)
-  # ─────────────────────────────────────────
-  - name: "boletines_es"
-    label: "Boletines — Observatorio Legislativo (ES)"
-    label_singular: "Boletín"
-    folder: "content/es/observatorio-legislativo"
-    create: true
-    format: "yaml-frontmatter"
-    extension: "md"
-    slug: "{{slug}}"
-
-    fields:
-      - label: "Título"
-        name: "title"
-        widget: "string"
-        hint: "Ej: Boletín mensual Observatorio Legislativo | Junio 2024"
-
-      - label: "Slug"
-        name: "slug"
-        widget: "string"
-        hint: "URL del boletín: solo minúsculas, números y guiones"
-        pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
-
-      - label: "Fecha"
-        name: "date"
-        widget: "datetime"
-        date_format: "YYYY-MM-DD"
-        time_format: false
-
-      - label: "Descripción"
-        name: "description"
-        widget: "string"
-        required: false
-
-      - label: "Autor/es"
-        name: "author"
-        widget: "list"
-        field:
-          label: "Autor"
-          name: "author"
-          widget: "string"
-
-      - label: "Tipo de contenido"
-        name: "content_type"
-        widget: "hidden"
-        default: ["boletin"]
-
-      - label: "Programa"
-        name: "programs"
-        widget: "hidden"
-        default: ["policy"]
-
-      - label: "Tipo Hugo"
-        name: "type"
-        widget: "hidden"
-        default: "posts"
-
-      - label: "Destacado en home"
-        name: "featured"
-        widget: "boolean"
-        default: false
-
-      - label: "Imagen"
-        name: "image"
-        widget: "image"
-        required: false
-        choose_url: true
-
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        required: false
+        i18n: true
         field:
           label: "Tag"
           name: "tag"
@@ -398,33 +406,143 @@ collections:
         name: "translationKey"
         widget: "string"
         required: false
+        i18n: duplicate
+        hint: "Opcional con i18n nativo: ES/EN se vinculan por nombre de archivo."
+
+      - label: "Cuerpo (opcional)"
+        name: "body"
+        widget: "markdown"
+        required: false
+        i18n: true
+
+
+  # ─────────────────────────────────────────
+  # BOLETINES — OBSERVATORIO LEGISLATIVO (ES / EN)
+  # ES: content/es/observatorio-legislativo/  ·  EN: content/en/observatorio-legislativo/ (URL /en/legislative-observatory/)
+  # ─────────────────────────────────────────
+  - name: "boletines"
+    label: "Boletines — Observatorio Legislativo (ES / EN)"
+    label_singular: "Boletín"
+    folder: "content/observatorio-legislativo"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    i18n: true
+
+    fields:
+      - label: "Título"
+        name: "title"
+        widget: "string"
+        i18n: true
+        hint: "Ej: Boletín mensual Observatorio Legislativo | Junio 2024"
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        i18n: true
+        hint: "URL del boletín: solo minúsculas, números y guiones"
+        pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
+
+      - label: "Fecha"
+        name: "date"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        i18n: duplicate
+
+      - label: "Descripción"
+        name: "description"
+        widget: "string"
+        required: false
+        i18n: true
+
+      - label: "Autor/es"
+        name: "author"
+        widget: "list"
+        i18n: duplicate
+        field:
+          label: "Autor"
+          name: "author"
+          widget: "string"
+
+      - label: "Tipo de contenido"
+        name: "content_type"
+        widget: "hidden"
+        default: ["boletin"]
+        i18n: duplicate
+
+      - label: "Programa"
+        name: "programs"
+        widget: "hidden"
+        default: ["policy"]
+        i18n: duplicate
+
+      - label: "Tipo Hugo"
+        name: "type"
+        widget: "hidden"
+        default: "posts"
+        i18n: duplicate
+
+      - label: "Destacado en home"
+        name: "featured"
+        widget: "boolean"
+        default: false
+        i18n: duplicate
+
+      - label: "Imagen"
+        name: "image"
+        widget: "image"
+        required: false
+        choose_url: true
+        i18n: duplicate
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        i18n: true
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "string"
+
+      - label: "Translation Key"
+        name: "translationKey"
+        widget: "string"
+        required: false
+        i18n: duplicate
 
       - label: "Cuerpo"
         name: "body"
         widget: "markdown"
+        i18n: true
 
 
   # ─────────────────────────────────────────
-  # AUTORES EN ESPAÑOL
+  # AUTORES / AUTHORS (ES / EN)
   # ─────────────────────────────────────────
-  - name: "autores_es"
-    label: "Autores (ES)"
+  - name: "autores"
+    label: "Autores (ES / EN)"
     label_singular: "Autor/a"
-    folder: "content/es/autores"
+    folder: "content/autores"
     create: true
     format: "yaml-frontmatter"
     extension: "md"
     slug: "{{slug}}"
     identifier_field: "title"
+    i18n: true
 
     fields:
       - label: "Nombre completo"
         name: "title"
         widget: "string"
+        i18n: duplicate
 
       - label: "Slug"
         name: "slug"
         widget: "string"
+        i18n: duplicate
         hint: "nombre-apellido (sin acentos ni caracteres especiales)"
         pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
 
@@ -432,10 +550,12 @@ collections:
         name: "draft"
         widget: "boolean"
         default: false
+        i18n: duplicate
 
       - label: "Tipo de autor"
         name: "author_type"
         widget: "select"
+        i18n: duplicate
         options:
           - { label: "Staff", value: "staff" }
           - { label: "Alumni", value: "alumni" }
@@ -446,21 +566,25 @@ collections:
         widget: "number"
         value_type: "int"
         default: 99
+        i18n: duplicate
         hint: "Número menor aparece primero dentro de su tipo"
 
       - label: "Rol / Cargo"
         name: "role"
         widget: "string"
+        i18n: true
 
       - label: "Organización"
         name: "organization"
         widget: "string"
         required: false
+        i18n: duplicate
 
       - label: "Ubicación"
         name: "location"
         widget: "string"
         required: false
+        i18n: duplicate
         hint: "Ej: Buenos Aires, AR"
 
       - label: "Foto"
@@ -468,32 +592,38 @@ collections:
         widget: "image"
         required: false
         choose_url: true
+        i18n: duplicate
 
       - label: "Bio corta"
         name: "bio_short"
         widget: "string"
+        i18n: true
         hint: "Aparece junto al nombre en los posts"
 
       - label: "Twitter"
         name: "twitter_handle"
         widget: "string"
         required: false
+        i18n: duplicate
         hint: "Usuario sin @"
 
       - label: "Bluesky"
         name: "bluesky_handle"
         widget: "string"
         required: false
+        i18n: duplicate
 
       - label: "ORCID"
         name: "orcid_number"
         widget: "string"
         required: false
+        i18n: duplicate
 
       - label: "Email"
         name: "email"
         widget: "object"
         required: false
+        i18n: duplicate
         hint: "Se divide en usuario y dominio para evitar scrapers"
         fields:
           - label: "Usuario (antes del @)"
@@ -513,166 +643,14 @@ collections:
             widget: "boolean"
             default: false
 
-      - label: "Bio extensa"
-        name: "body"
-        widget: "markdown"
-        required: false
-
-
-  # ─────────────────────────────────────────
-  # POSTS EN INGLÉS
-  # ─────────────────────────────────────────
-  - name: "posts_en"
-    label: "Posts (EN)"
-    label_singular: "Post"
-    folder: "content/en/posts"
-    create: true
-    format: "yaml-frontmatter"
-    extension: "md"
-    slug: "{{slug}}"
-
-    fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
-
-      - label: "Slug"
-        name: "slug"
-        widget: "string"
-        hint: "URL: lowercase letters, numbers and hyphens only"
-        pattern: ['^[a-z0-9-]+$', "Lowercase, numbers and hyphens only"]
-
-      - label: "Date"
-        name: "date"
-        widget: "datetime"
-        date_format: "YYYY-MM-DD"
-        time_format: false
-
-      - label: "Description"
-        name: "description"
-        widget: "string"
-        required: false
-
-      - label: "Author(s)"
-        name: "author"
-        widget: "list"
-        hint: "One author identifier per line"
-        field:
-          label: "Author"
-          name: "author"
-          widget: "string"
-
-      - label: "Content type"
-        name: "content_type"
-        widget: "select"
-        multiple: true
-        max: 1
-        required: false
-        default: ["blog"]
-        options:
-          - { label: "Blog / Analysis", value: "blog" }
-          - { label: "Legislative table", value: "mesa" }
-          - { label: "Newsletter", value: "boletin" }
-
-      - label: "Program"
-        name: "programs"
-        widget: "select"
-        multiple: true
-        max: 1
-        required: false
-        default: ["policy"]
-        options:
-          - { label: "Policy", value: "policy" }
-          - { label: "Research", value: "publicaciones" }
-
-      - label: "Featured on home"
-        name: "featured"
-        widget: "boolean"
-        default: false
-
-      - label: "Image"
-        name: "image"
-        widget: "image"
-        required: false
-        choose_url: true
-
-      - label: "Issues / Topics"
-        name: "issues"
-        widget: "select"
-        multiple: true
-        required: false
-        options:
-          - "Erosión democrática"
-          - "Plataformas"
-          - "Regulación y tecnología"
-          - "Violencias"
-
-      - label: "Region"
-        name: "region"
-        widget: "select"
-        required: false
-        options:
-          - { label: "Latin America", value: "latam" }
-          - { label: "United States", value: "us" }
-          - { label: "Europe", value: "europa" }
-          - { label: "Global", value: "global" }
-
-      - label: "Countries"
-        name: "country"
-        widget: "list"
-        required: false
-        hint: "ISO two-letter country codes (e.g. AR, BR, US)"
-        field:
-          label: "Country"
-          name: "country"
-          widget: "string"
-
-      - label: "Placements (hub locations)"
-        name: "placements"
-        widget: "list"
-        required: false
-        fields:
-          - label: "Hub"
-            name: "hub"
-            widget: "select"
-            options:
-              - { label: "Policy (general)", value: "policy" }
-              - { label: "Democratic erosion", value: "temas/erosion-democratica" }
-              - { label: "Platforms", value: "temas/plataformas" }
-              - { label: "Regulation & technology", value: "temas/regulacion-y-tecnologia" }
-              - { label: "Violence", value: "temas/violencias" }
-              - { label: "Region: Latin America", value: "region/america-latina" }
-              - { label: "Region: Europe", value: "region/europa" }
-              - { label: "Region: Global", value: "region/global" }
-          - label: "Block"
-            name: "block"
-            widget: "select"
-            options:
-              - { label: "Featured", value: "destacado" }
-              - { label: "Latest news & analysis", value: "ultimas_noticias_analisis" }
-              - { label: "Publications", value: "publicaciones" }
-              - { label: "Events", value: "eventos" }
-
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        required: false
-        field:
-          label: "Tag"
-          name: "tag"
-          widget: "string"
-
       - label: "Translation Key"
         name: "translationKey"
         widget: "string"
         required: false
-        hint: "Links this post to its Spanish version (both must share the same value)"
+        i18n: duplicate
 
-      - label: "Hugo type"
-        name: "type"
-        widget: "hidden"
-        default: "posts"
-
-      - label: "Body"
+      - label: "Bio extensa"
         name: "body"
         widget: "markdown"
+        required: false
+        i18n: true

@@ -33,22 +33,23 @@
 
   {{/* ── Filter rows ── */}}
   <div class="pub-filters-stack">
-    <nav class="pub-filters" aria-label="Filtrar por tema">
-      <span class="pub-filters__label">Tema</span>
-      <button type="button" class="pub-filters__btn is-active" data-pub-filter="">Todos</button>
+    <nav class="pub-filters" aria-label="{{ i18n "pub_filter_by_topic" }}">
+      <span class="pub-filters__label">{{ i18n "pub_topic" }}</span>
+      <button type="button" class="pub-filters__btn is-active" data-pub-filter="">{{ i18n "pub_all" }}</button>
       <button type="button" class="pub-filters__btn" data-pub-filter="Erosión democrática">Erosión democrática</button>
       <button type="button" class="pub-filters__btn" data-pub-filter="Plataformas">Plataformas</button>
       <button type="button" class="pub-filters__btn" data-pub-filter="Regulación y tecnología">Regulación y tecnología</button>
       <button type="button" class="pub-filters__btn" data-pub-filter="Violencias">Violencias</button>
     </nav>
-    <nav class="pub-filters" aria-label="Filtrar por tipo de publicación">
-      <span class="pub-filters__label">Tipo</span>
-      <button type="button" class="pub-filters__btn is-active" data-pub-filter-type="">Todos</button>
+    <nav class="pub-filters" aria-label="{{ i18n "pub_filter_by_type" }}">
+      <span class="pub-filters__label">{{ i18n "pub_type" }}</span>
+      <button type="button" class="pub-filters__btn is-active" data-pub-filter-type="">{{ i18n "pub_all" }}</button>
       {{- $typeLabels := dict
-        "position-paper" "Documento de posición"
-        "research" "Artículo de investigación"
-        "jurisprudencia" "Informe de jurisprudencia"
-        "informe-legislativo" "Informe legislativo"
+        "position-paper" (i18n "pub_type_position")
+        "research" (i18n "pub_type_research")
+        "jurisprudencia" (i18n "pub_type_jurisprudence")
+        "informe-legislativo" (i18n "pub_type_legislative")
+        "compilation" (i18n "pub_type_compilation")
       -}}
       {{- $types := slice -}}
       {{- range $research -}}
@@ -67,9 +68,9 @@
       <button type="button" class="pub-filters__btn" data-pub-filter-type="{{ . }}">{{ index $typeLabels . | default . }}</button>
       {{- end }}
     </nav>
-    <nav class="pub-filters" aria-label="Filtrar por región">
-      <span class="pub-filters__label">Región</span>
-      <button type="button" class="pub-filters__btn is-active" data-pub-filter-region="">Todos</button>
+    <nav class="pub-filters" aria-label="{{ i18n "pub_filter_by_region" }}">
+      <span class="pub-filters__label">{{ i18n "pub_region" }}</span>
+      <button type="button" class="pub-filters__btn is-active" data-pub-filter-region="">{{ i18n "pub_all" }}</button>
       {{- $regions := slice -}}
       {{- range $research -}}
         {{- $r := .Params.region -}}
@@ -94,7 +95,7 @@
       {{- end -}}
     {{- end -}}
     <div class="pub-timeline" data-pub-timeline data-min-year="{{ $minYear }}" data-max-year="{{ $maxYear }}">
-      <span class="pub-filters__label">Período</span>
+      <span class="pub-filters__label">{{ i18n "pub_period" }}</span>
       <div class="pub-timeline__track">
         <div class="pub-timeline__range" data-pub-timeline-range></div>
         <input type="range" class="pub-timeline__slider pub-timeline__slider--min" data-pub-timeline-min min="{{ $minYear }}" max="{{ $maxYear }}" value="{{ $minYear }}" step="1">
@@ -107,7 +108,7 @@
   {{/* ── Publicación destacada ── */}}
   {{ with $featured }}
   <section class="pub-featured" data-pub-featured>
-    <h2 class="pub-featured__label">Publicación destacada</h2>
+    <h2 class="pub-featured__label">{{ i18n "pub_featured" }}</h2>
     <article class="pub-featured__card" data-pub-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}' data-pub-type='{{ with .Params.content_type }}{{ if reflect.IsSlice . }}{{ . | jsonify }}{{ else }}["{{ . }}"]{{ end }}{{ else }}[]{{ end }}' data-pub-region='{{ .Params.region | default "" }}' data-pub-year='{{ if not .Date.IsZero }}{{ .Date.Format "2006" }}{{ end }}'>
       {{ if .Params.cover }}
         <a class="pub-featured__media" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1">
@@ -153,7 +154,7 @@
           {{ end }}
           {{ with .Params.ssrn_id }}
             <a class="pub-featured__ssrn" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ . }}" target="_blank" rel="noopener">
-              Ver en SSRN →
+              {{ i18n "pub_view_ssrn" }}
             </a>
           {{ end }}
         </div>

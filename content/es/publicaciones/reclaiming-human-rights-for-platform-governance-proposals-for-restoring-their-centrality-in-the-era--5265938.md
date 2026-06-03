@@ -27,8 +27,6 @@ placements:
   block: publicaciones
 - hub: temas/regulacion-y-tecnologia
   block: publicaciones
-- hub: policy
-  block: publicaciones
 - hub: region/europa
   block: publicaciones
 file: "/files/Artículo_de_investigación_66_ENG.pdf"

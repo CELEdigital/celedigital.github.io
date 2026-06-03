@@ -134,6 +134,72 @@
   margin-left: 1rem;
 }
 
+/* ── Header search box (lives in the social bar, transparent) ── */
+.header-search {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 0.15rem 0.1rem;
+  max-width: 29rem;
+  transition: border-color 150ms;
+}
+
+.header-search:focus-within {
+  border-bottom-color: rgba(255, 255, 255, 0.9);
+}
+
+.header-search__icon {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.header-search__input {
+  flex: 1;
+  min-width: 0;
+  width: 26rem;
+  border: none;
+  padding: 0;
+  background: transparent;
+  font-family: 'Inter';
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-transform: none;
+  color: #fff;
+  outline: none;
+}
+
+.header-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Search lives in its own row directly below the menu, aligned right */
+.header-search-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0.4rem;
+  padding-bottom: 0.65rem;
+}
+
+/* Grow toward the menu, capped by max-width above */
+.header-search { flex: 1 1 auto; }
+
+/* Medium screens: trim its reach */
+@media (max-width: 900px) {
+  .header-search { max-width: 22rem; }
+  .header-search__input { width: 18rem; }
+}
+
+/* Small screens: let it span the full row width */
+@media (max-width: 640px) {
+  .header-search { max-width: none; }
+  .header-search__input { width: auto; }
+}
+
 .nav-link {
   line-height: 1;
   text-decoration: none;

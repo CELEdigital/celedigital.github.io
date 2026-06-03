@@ -6,8 +6,15 @@
     <description>Recent content in Archivo on </description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 10 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/es/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prueba</title>
+      <link>http://localhost:1313/es/posts/prueba1/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/prueba1/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Audiencia CIDH sobre libertad de expresión en la Argentina</title>
       <link>http://localhost:1313/es/posts/audiencia-cidh-libertad-de-expresion/</link>

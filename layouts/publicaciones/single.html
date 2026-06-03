@@ -1,6 +1,8 @@
 {{ define "main" }}
 <article class="single-layout">
-  <div class="single-content">
+  <div class="single-content"
+    {{ with .Params.references }}data-csl-refs="{{ . }}"{{ end }}
+    {{ with .Params.csl }}data-csl-style="{{ . }}"{{ end }}>
     {{ with .Params.tags }}
       <div class="single-tags">
         {{ range . }}
@@ -69,4 +71,11 @@
     {{ end }}
   </aside>
 </article>
+{{ end }}
+
+{{ define "scripts" }}
+{{ if and .Params.references .Params.csl }}
+<script src="https://cdn.jsdelivr.net/npm/citation-js@0.7.14/build/citation.min.js"></script>
+<script src="{{ "data/citations.js" | relURL }}" defer></script>
+{{ end }}
 {{ end }}

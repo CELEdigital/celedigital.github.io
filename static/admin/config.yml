@@ -11,42 +11,33 @@ local_backend: true
 media_folder: "static/img"
 public_folder: "/img"
 
-i18n:
-  # Folders are unified across locales (content/es/<sec>/, content/en/<sec>/)
-  # so every collection below pairs ES/EN by filename for side-by-side editing.
-  # multiple_root_folders => content/<locale>/<folder>/<slug>.md
-  # (replaces the now-deprecated multiple_folders_i18n_root).
-  structure: multiple_root_folders
-  locales: [es, en]
-  default_locale: es
+# NOTE: Sveltia/Decap native i18n cannot represent this site's Hugo layout
+# (content/<locale>/<section>/), so each language uses its own explicit
+# collection. ES and EN versions of a piece are linked via `translationKey`.
 
 collections:
 
   # ─────────────────────────────────────────
-  # POSTS (ES / EN)
+  # POSTS (ES)
   # ─────────────────────────────────────────
-  - name: "posts"
-    label: "Posts (ES / EN)"
+  - name: "posts_es"
+    label: "Posts (ES)"
     label_singular: "Post"
-    # multiple_folders_i18n_root => content/<locale>/posts/<slug>.md
-    folder: "content/posts"
+    folder: "content/es/posts"
     create: true
     format: "yaml-frontmatter"
     extension: "md"
     slug: "{{slug}}"
-    i18n: true
 
-    fields:
+    fields: &posts_fields
       - label: "Título"
         name: "title"
         widget: "string"
-        i18n: true
 
       - label: "Slug"
         name: "slug"
         widget: "string"
-        i18n: true
-        hint: "URL del post: solo minúsculas, números y guiones (puede diferir por idioma)"
+        hint: "URL del post: solo minúsculas, números y guiones"
         pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
 
       - label: "Fecha"
@@ -54,19 +45,16 @@ collections:
         widget: "datetime"
         date_format: "YYYY-MM-DD"
         time_format: false
-        i18n: duplicate
 
       - label: "Descripción"
         name: "description"
         widget: "string"
         required: false
-        i18n: true
         hint: "Resumen breve visible en listados y SEO"
 
       - label: "Autor/es"
         name: "author"
         widget: "list"
-        i18n: duplicate
         hint: "Identificador del autor (ej: CELE, mmdg, adc). Uno por línea."
         field:
           label: "Autor"
@@ -79,7 +67,6 @@ collections:
         multiple: true
         max: 1
         default: ["blog"]
-        i18n: duplicate
         options:
           - { label: "Blog / Análisis", value: "blog" }
           - { label: "Mesa legislativa", value: "mesa" }
@@ -92,7 +79,6 @@ collections:
         max: 1
         required: false
         default: ["policy"]
-        i18n: duplicate
         options:
           - { label: "Policy", value: "policy" }
           - { label: "Publicaciones", value: "publicaciones" }
@@ -101,7 +87,6 @@ collections:
         name: "featured"
         widget: "boolean"
         default: false
-        i18n: duplicate
 
       - label: "Formatos de salida"
         name: "outputs"
@@ -109,7 +94,6 @@ collections:
         multiple: true
         required: false
         default: ["html"]
-        i18n: duplicate
         hint: "Agregá 'Email / Newsletter' para generar la versión de email (.../email.html)"
         options:
           - { label: "Web (HTML)", value: "html" }
@@ -119,14 +103,12 @@ collections:
         name: "newsletter_number"
         widget: "string"
         required: false
-        i18n: true
         hint: "Solo para email/newsletter. Ej: #9 · Enero 2025 (encabezado del email)"
 
       - label: "Bajada / tagline"
         name: "tagline"
         widget: "string"
         required: false
-        i18n: true
         hint: "Solo para email/newsletter. Subtítulo del encabezado (si está vacío, usa la descripción)"
 
       - label: "Imagen"
@@ -134,7 +116,6 @@ collections:
         widget: "image"
         required: false
         choose_url: true
-        i18n: duplicate
         hint: "Imagen de portada (se guarda en /img)"
 
       - label: "Issues / Temas"
@@ -142,7 +123,6 @@ collections:
         widget: "select"
         multiple: true
         required: false
-        i18n: duplicate
         options:
           - "Erosión democrática"
           - "Plataformas"
@@ -153,7 +133,6 @@ collections:
         name: "region"
         widget: "select"
         required: false
-        i18n: duplicate
         options:
           - { label: "América Latina", value: "latam" }
           - { label: "Estados Unidos", value: "us" }
@@ -164,7 +143,6 @@ collections:
         name: "country"
         widget: "list"
         required: false
-        i18n: duplicate
         hint: "Códigos ISO de dos letras (ej: AR, BR, US, CO)"
         field:
           label: "País"
@@ -175,7 +153,6 @@ collections:
         name: "placements"
         widget: "list"
         required: false
-        i18n: duplicate
         hint: "Define en qué hub y en qué bloque aparece este post"
         fields:
           - label: "Hub"
@@ -202,7 +179,6 @@ collections:
         name: "tags"
         widget: "list"
         required: false
-        i18n: true
         field:
           label: "Tag"
           name: "tag"
@@ -212,59 +188,63 @@ collections:
         name: "translationKey"
         widget: "string"
         required: false
-        i18n: duplicate
-        hint: "Opcional con i18n nativo: ES/EN se vinculan por nombre de archivo. Úsalo solo si los archivos tienen nombres distintos."
+        hint: "Mismo valor en la versión ES y EN para vincularlas (toggle de idioma)"
 
       - label: "URL fuente"
         name: "source_url"
         widget: "string"
         required: false
-        i18n: duplicate
         hint: "Solo para mesas: URL de la página original del evento"
 
       - label: "Tipo Hugo"
         name: "type"
         widget: "hidden"
         default: "posts"
-        i18n: duplicate
 
       - label: "Cuerpo"
         name: "body"
         widget: "markdown"
-        i18n: true
-
 
   # ─────────────────────────────────────────
-  # PUBLICACIONES / PAPERS (ES / EN)
-  # ES: content/es/publicaciones/  ·  EN: content/en/publicaciones/ (URL /en/research/)
+  # POSTS (EN)
   # ─────────────────────────────────────────
-  - name: "publicaciones"
-    label: "Publicaciones / Papers (ES / EN)"
-    label_singular: "Publicación"
-    folder: "content/publicaciones"
+  - name: "posts_en"
+    label: "Posts (EN)"
+    label_singular: "Post"
+    folder: "content/en/posts"
     create: true
     format: "yaml-frontmatter"
     extension: "md"
     slug: "{{slug}}"
-    i18n: true
+    fields: *posts_fields
 
-    fields:
+
+  # ─────────────────────────────────────────
+  # PUBLICACIONES / PAPERS (ES)
+  # ─────────────────────────────────────────
+  - name: "publicaciones_es"
+    label: "Publicaciones / Papers (ES)"
+    label_singular: "Publicación"
+    folder: "content/es/publicaciones"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+
+    fields: &publicaciones_fields
       - label: "Título"
         name: "title"
         widget: "string"
-        i18n: true
 
       - label: "Fecha"
         name: "date"
         widget: "datetime"
         date_format: "YYYY-MM-DD"
         time_format: false
-        i18n: duplicate
 
       - label: "Autor/es"
         name: "author"
         widget: "list"
-        i18n: duplicate
         field:
           label: "Autor"
           name: "author"
@@ -276,7 +256,6 @@ collections:
         multiple: true
         max: 1
         default: ["research"]
-        i18n: duplicate
         options:
           - { label: "Documento de posición", value: "position-paper" }
           - { label: "Artículo de investigación", value: "research" }
@@ -288,33 +267,28 @@ collections:
         name: "programs"
         widget: "hidden"
         default: ["publicaciones"]
-        i18n: duplicate
 
       - label: "SSRN ID"
         name: "ssrn_id"
         widget: "string"
         required: false
-        i18n: duplicate
         hint: "Número de abstract en SSRN (ej: 5125874)"
 
       - label: "SSRN URL"
         name: "ssrn_url"
         widget: "string"
         required: false
-        i18n: duplicate
 
       - label: "Referencia"
         name: "reference"
         widget: "string"
         required: false
-        i18n: duplicate
         hint: "Ej: CELE Research Paper No. 11"
 
       - label: "Abstract"
         name: "abstract"
         widget: "text"
         required: false
-        i18n: true
 
       - label: "Bibliografía (CSL-JSON)"
         name: "references"
@@ -322,14 +296,12 @@ collections:
         required: false
         media_folder: "/static/references"
         public_folder: "/references"
-        i18n: duplicate
         hint: "Archivo JSON (CSL-JSON) con la bibliografía. Se guarda en /static/references/"
 
       - label: "Estilo de cita (CSL)"
         name: "csl"
         widget: "select"
         required: false
-        i18n: duplicate
         hint: "Estilo de citación para la bibliografía"
         options:
           - { label: "OSCOLA", value: "/csl/oscola.csl" }
@@ -339,7 +311,6 @@ collections:
         widget: "select"
         multiple: true
         required: false
-        i18n: duplicate
         options:
           - "Erosión democrática"
           - "Plataformas"
@@ -350,7 +321,6 @@ collections:
         name: "region"
         widget: "select"
         required: false
-        i18n: duplicate
         options:
           - { label: "América Latina", value: "latam" }
           - { label: "Estados Unidos", value: "us" }
@@ -361,7 +331,6 @@ collections:
         name: "country"
         widget: "list"
         required: false
-        i18n: duplicate
         hint: "Códigos ISO de dos letras"
         field:
           label: "País"
@@ -372,7 +341,6 @@ collections:
         name: "placements"
         widget: "list"
         required: false
-        i18n: duplicate
         hint: "Define en qué hub y en qué bloque aparece esta publicación"
         fields:
           - label: "Hub"
@@ -398,7 +366,6 @@ collections:
         name: "tags"
         widget: "list"
         required: false
-        i18n: true
         field:
           label: "Tag"
           name: "tag"
@@ -408,41 +375,48 @@ collections:
         name: "translationKey"
         widget: "string"
         required: false
-        i18n: duplicate
-        hint: "Opcional con i18n nativo: ES/EN se vinculan por nombre de archivo."
+        hint: "Mismo valor en la versión ES y EN para vincularlas"
 
       - label: "Cuerpo (opcional)"
         name: "body"
         widget: "markdown"
         required: false
-        i18n: true
-
 
   # ─────────────────────────────────────────
-  # BOLETINES — OBSERVATORIO LEGISLATIVO (ES / EN)
-  # ES: content/es/observatorio-legislativo/  ·  EN: content/en/observatorio-legislativo/ (URL /en/legislative-observatory/)
+  # PUBLICACIONES / PAPERS (EN) — content/en/publicaciones (URL /en/research/)
   # ─────────────────────────────────────────
-  - name: "boletines"
-    label: "Boletines — Observatorio Legislativo (ES / EN)"
-    label_singular: "Boletín"
-    folder: "content/observatorio-legislativo"
+  - name: "publicaciones_en"
+    label: "Publicaciones / Papers (EN)"
+    label_singular: "Publicación"
+    folder: "content/en/publicaciones"
     create: true
     format: "yaml-frontmatter"
     extension: "md"
     slug: "{{slug}}"
-    i18n: true
+    fields: *publicaciones_fields
 
-    fields:
+
+  # ─────────────────────────────────────────
+  # BOLETINES — OBSERVATORIO LEGISLATIVO (ES)
+  # ─────────────────────────────────────────
+  - name: "boletines_es"
+    label: "Boletines — Observatorio Legislativo (ES)"
+    label_singular: "Boletín"
+    folder: "content/es/observatorio-legislativo"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+
+    fields: &boletines_fields
       - label: "Título"
         name: "title"
         widget: "string"
-        i18n: true
         hint: "Ej: Boletín mensual Observatorio Legislativo | Junio 2024"
 
       - label: "Slug"
         name: "slug"
         widget: "string"
-        i18n: true
         hint: "URL del boletín: solo minúsculas, números y guiones"
         pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
 
@@ -451,18 +425,15 @@ collections:
         widget: "datetime"
         date_format: "YYYY-MM-DD"
         time_format: false
-        i18n: duplicate
 
       - label: "Descripción"
         name: "description"
         widget: "string"
         required: false
-        i18n: true
 
       - label: "Autor/es"
         name: "author"
         widget: "list"
-        i18n: duplicate
         field:
           label: "Autor"
           name: "author"
@@ -472,38 +443,32 @@ collections:
         name: "content_type"
         widget: "hidden"
         default: ["boletin"]
-        i18n: duplicate
 
       - label: "Programa"
         name: "programs"
         widget: "hidden"
         default: ["policy"]
-        i18n: duplicate
 
       - label: "Tipo Hugo"
         name: "type"
         widget: "hidden"
         default: "posts"
-        i18n: duplicate
 
       - label: "Destacado en home"
         name: "featured"
         widget: "boolean"
         default: false
-        i18n: duplicate
 
       - label: "Imagen"
         name: "image"
         widget: "image"
         required: false
         choose_url: true
-        i18n: duplicate
 
       - label: "Tags"
         name: "tags"
         widget: "list"
         required: false
-        i18n: true
         field:
           label: "Tag"
           name: "tag"
@@ -513,38 +478,46 @@ collections:
         name: "translationKey"
         widget: "string"
         required: false
-        i18n: duplicate
 
       - label: "Cuerpo"
         name: "body"
         widget: "markdown"
-        i18n: true
+
+  # ─────────────────────────────────────────
+  # BOLETINES — OBSERVATORIO LEGISLATIVO (EN) — content/en/observatorio-legislativo
+  # ─────────────────────────────────────────
+  - name: "boletines_en"
+    label: "Newsletters — Legislative Observatory (EN)"
+    label_singular: "Newsletter"
+    folder: "content/en/observatorio-legislativo"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    fields: *boletines_fields
 
 
   # ─────────────────────────────────────────
-  # AUTORES / AUTHORS (ES / EN)
+  # AUTORES (ES)
   # ─────────────────────────────────────────
-  - name: "autores"
-    label: "Autores (ES / EN)"
+  - name: "autores_es"
+    label: "Autores (ES)"
     label_singular: "Autor/a"
-    folder: "content/autores"
+    folder: "content/es/autores"
     create: true
     format: "yaml-frontmatter"
     extension: "md"
     slug: "{{slug}}"
     identifier_field: "title"
-    i18n: true
 
     fields:
       - label: "Nombre completo"
         name: "title"
         widget: "string"
-        i18n: duplicate
 
       - label: "Slug"
         name: "slug"
         widget: "string"
-        i18n: duplicate
         hint: "nombre-apellido (sin acentos ni caracteres especiales)"
         pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
 
@@ -552,12 +525,10 @@ collections:
         name: "draft"
         widget: "boolean"
         default: false
-        i18n: duplicate
 
       - label: "Tipo de autor"
         name: "author_type"
         widget: "select"
-        i18n: duplicate
         options:
           - { label: "Staff", value: "staff" }
           - { label: "Alumni", value: "alumni" }
@@ -568,25 +539,21 @@ collections:
         widget: "number"
         value_type: "int"
         default: 99
-        i18n: duplicate
         hint: "Número menor aparece primero dentro de su tipo"
 
       - label: "Rol / Cargo"
         name: "role"
         widget: "string"
-        i18n: true
 
       - label: "Organización"
         name: "organization"
         widget: "string"
         required: false
-        i18n: duplicate
 
       - label: "Ubicación"
         name: "location"
         widget: "string"
         required: false
-        i18n: duplicate
         hint: "Ej: Buenos Aires, AR"
 
       - label: "Foto"
@@ -594,38 +561,32 @@ collections:
         widget: "image"
         required: false
         choose_url: true
-        i18n: duplicate
 
       - label: "Bio corta"
         name: "bio_short"
         widget: "string"
-        i18n: true
         hint: "Aparece junto al nombre en los posts"
 
       - label: "Twitter"
         name: "twitter_handle"
         widget: "string"
         required: false
-        i18n: duplicate
         hint: "Usuario sin @"
 
       - label: "Bluesky"
         name: "bluesky_handle"
         widget: "string"
         required: false
-        i18n: duplicate
 
       - label: "ORCID"
         name: "orcid_number"
         widget: "string"
         required: false
-        i18n: duplicate
 
       - label: "Email"
         name: "email"
         widget: "object"
         required: false
-        i18n: duplicate
         hint: "Se divide en usuario y dominio para evitar scrapers"
         fields:
           - label: "Usuario (antes del @)"
@@ -649,10 +610,8 @@ collections:
         name: "translationKey"
         widget: "string"
         required: false
-        i18n: duplicate
 
       - label: "Bio extensa"
         name: "body"
         widget: "markdown"
         required: false
-        i18n: true

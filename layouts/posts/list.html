@@ -161,7 +161,7 @@
                     </div>
                   {{ end }}
                 </div>
-                {{ with $post.Params.image }}
+                {{ with (partial "func/page-image.html" $post) }}
                   <div class="section-block__media">
                     <img src="{{ . | relURL }}" alt="{{ $post.Title }}">
                   </div>

@@ -59,7 +59,7 @@
 
   <aside class="single-sidebar" aria-label="Publication image">
     <div class="pub-image">
-      {{ $src := .Params.cover | default .Params.image }}
+      {{ $src := partial "func/page-image.html" . }}
       {{ if $src }}
         <img src="{{ $src | relURL }}" alt="{{ .Title }}" loading="lazy">
       {{ else }}

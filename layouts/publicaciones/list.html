@@ -110,9 +110,10 @@
   <section class="pub-featured" data-pub-featured>
     <h2 class="pub-featured__label">{{ i18n "pub_featured" }}</h2>
     <article class="pub-featured__card" data-pub-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}' data-pub-type='{{ with .Params.content_type }}{{ if reflect.IsSlice . }}{{ . | jsonify }}{{ else }}["{{ . }}"]{{ end }}{{ else }}[]{{ end }}' data-pub-region='{{ .Params.region | default "" }}' data-pub-year='{{ if not .Date.IsZero }}{{ .Date.Format "2006" }}{{ end }}'>
-      {{ if .Params.cover }}
+      {{ $cover := partial "func/page-image.html" . }}
+      {{ if $cover }}
         <a class="pub-featured__media" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1">
-          <img class="pub-featured__thumb" src="{{ .Params.cover | relURL }}" alt="" loading="lazy">
+          <img class="pub-featured__thumb" src="{{ $cover | relURL }}" alt="" loading="lazy">
         </a>
       {{ end }}
       <div class="pub-featured__body">
@@ -171,9 +172,10 @@
     {{ range $research }}
       {{ if eq .RelPermalink $featured.RelPermalink }}{{ continue }}{{ end }}
     <article class="pub-item{{ if ge $gridIdx $initialVisible }} is-hub-hidden{{ end }}"{{ if ge $gridIdx $initialVisible }} hidden{{ end }} data-pub-issues='{{ with .Params.issues }}{{ . | jsonify }}{{ else }}[]{{ end }}' data-pub-type='{{ with .Params.content_type }}{{ if reflect.IsSlice . }}{{ . | jsonify }}{{ else }}["{{ . }}"]{{ end }}{{ else }}[]{{ end }}' data-pub-region='{{ .Params.region | default "" }}' data-pub-year='{{ if not .Date.IsZero }}{{ .Date.Format "2006" }}{{ end }}'>
-      {{ if .Params.cover }}
+      {{ $cover := partial "func/page-image.html" . }}
+      {{ if $cover }}
         <a class="pub-item__media" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1">
-          <img class="pub-item__thumb" src="{{ .Params.cover | relURL }}" alt="" loading="lazy">
+          <img class="pub-item__thumb" src="{{ $cover | relURL }}" alt="" loading="lazy">
         </a>
       {{ end }}
       <div class="pub-item__body">

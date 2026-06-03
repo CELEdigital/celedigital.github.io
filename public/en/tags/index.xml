@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>http://localhost:1313/en/tags/</link>
+    <link>http://celedigital.github.io/en/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://celedigital.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publicaciones</title>
-      <link>http://localhost:1313/en/tags/publicaciones/</link>
+      <link>http://celedigital.github.io/en/tags/publicaciones/</link>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/tags/publicaciones/</guid>
+      <guid>http://celedigital.github.io/en/tags/publicaciones/</guid>
       <description></description>
     </item>
   </channel>

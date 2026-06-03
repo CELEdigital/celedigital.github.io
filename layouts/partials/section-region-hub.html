@@ -187,7 +187,7 @@
                       </div>
                     {{ end }}
                   </div>
-                  {{ with $page.Params.image }}
+                  {{ with (partial "func/page-image.html" $page) }}
                     <div class="section-block__media">
                       <img src="{{ . | relURL }}" alt="{{ $page.Title }}" loading="lazy">
                     </div>

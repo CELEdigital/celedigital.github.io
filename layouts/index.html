@@ -52,7 +52,7 @@
     <div class="home-posts__grid">
       {{ range first 3 $recentPosts }}
         <article class="home-post-card">
-          {{ with .Params.image }}
+          {{ with (partial "func/page-image.html" .) }}
             <div class="home-post-card__media">
               <img src="{{ . | relURL }}" alt="{{ $.Title }}">
             </div>

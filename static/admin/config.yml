@@ -177,12 +177,13 @@ collections:
 
       - label: "Tags"
         name: "tags"
-        widget: "list"
+        widget: "relation"
         required: false
-        field:
-          label: "Tag"
-          name: "tag"
-          widget: "string"
+        multiple: true
+        collection: "posts_es"
+        value_field: "tags.*"
+        search_fields: ["tags.*"]
+        hint: "Autocompletar entre las etiquetas ya usadas. (Una etiqueta nueva se agrega editando el front-matter del archivo; después aparece en esta lista.)"
 
       - label: "Translation Key"
         name: "translationKey"
@@ -304,6 +305,10 @@ collections:
         required: false
         hint: "Estilo de citación para la bibliografía"
         options:
+          - { label: "APA 7", value: "/csl/apa7.csl" }
+          - { label: "Bluebook (Law Review)", value: "/csl/bluebook-law-review_2.csl" }
+          - { label: "Chicago (autor-fecha)", value: "/csl/chicago-author-date_mobilization.csl" }
+          - { label: "Guía argentina de citas legales", value: "/csl/guia-argentina-de-citas-legales.csl" }
           - { label: "OSCOLA", value: "/csl/oscola.csl" }
 
       - label: "Issues / Temas"
@@ -364,12 +369,13 @@ collections:
 
       - label: "Tags"
         name: "tags"
-        widget: "list"
+        widget: "relation"
         required: false
-        field:
-          label: "Tag"
-          name: "tag"
-          widget: "string"
+        multiple: true
+        collection: "posts_es"
+        value_field: "tags.*"
+        search_fields: ["tags.*"]
+        hint: "Autocompletar entre las etiquetas ya usadas. (Una etiqueta nueva se agrega editando el front-matter del archivo; después aparece en esta lista.)"
 
       - label: "Translation Key"
         name: "translationKey"
@@ -467,12 +473,13 @@ collections:
 
       - label: "Tags"
         name: "tags"
-        widget: "list"
+        widget: "relation"
         required: false
-        field:
-          label: "Tag"
-          name: "tag"
-          widget: "string"
+        multiple: true
+        collection: "posts_es"
+        value_field: "tags.*"
+        search_fields: ["tags.*"]
+        hint: "Autocompletar entre las etiquetas ya usadas. (Una etiqueta nueva se agrega editando el front-matter del archivo; después aparece en esta lista.)"
 
       - label: "Translation Key"
         name: "translationKey"

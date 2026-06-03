@@ -1,0 +1,10 @@
+{{- /* Effective thumbnail for a page: own cover→image, else the translation's.
+       Lets an EN post leave image/cover blank and inherit the ES one
+       (matched via translationKey / filename). Call: partial "func/page-image.html" $page */ -}}
+{{- $img := .Params.cover | default .Params.image -}}
+{{- if not $img -}}
+  {{- range .Translations -}}
+    {{- with (.Params.cover | default .Params.image) -}}{{- $img = . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $img -}}

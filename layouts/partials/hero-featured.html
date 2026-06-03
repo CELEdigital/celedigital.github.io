@@ -17,7 +17,7 @@
     {{ $featured := first 7 (sort $eligible "Date" "desc") }}
     {{ range $featured }}
       <article class="hero-slide">
-        {{ with .Params.image }}
+        {{ with (partial "func/page-image.html" .) }}
           <img src="{{ . }}" alt="{{ $.Title }}">
         {{ end }}
 

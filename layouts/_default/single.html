@@ -166,6 +166,7 @@
     {{ $sidebarHubLink := "" }}
     {{ $sidebarHubTitle := .Title }}
     {{ $placements := .Params.placements }}
+    {{ if not $placements }}{{ range .Translations }}{{ with .Params.placements }}{{ $placements = . }}{{ end }}{{ end }}{{ end }}
     {{ if and $placements (reflect.IsSlice $placements) (gt (len $placements) 0) }}
       {{ $first := index $placements 0 }}
       {{ if reflect.IsMap $first }}
@@ -182,8 +183,8 @@
         {{ end }}
       {{ end }}
     {{ end }}
-    {{ if and (eq $sidebarImage "") .Params.image }}
-      {{ $sidebarImage = .Params.image }}
+    {{ if eq $sidebarImage "" }}
+      {{ $sidebarImage = partial "func/page-image.html" . }}
     {{ end }}
     {{ if $sidebarImage }}
       <aside class="single-sidebar" aria-label="{{ $sidebarHubTitle }}">

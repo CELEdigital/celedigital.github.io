@@ -2,338 +2,1259 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://celedigital.github.io/en/workshop/2024/program2024/</loc>
+    <loc>http://localhost:1313/en/workshop/2024/program2024/</loc>
   </url><url>
-    <loc>http://celedigital.github.io/en/workshop/2025/program2025/</loc>
+    <loc>http://localhost:1313/en/workshop/2025/program2025/</loc>
   </url><url>
-    <loc>http://celedigital.github.io/en/workshop/2026/program2026/</loc>
+    <loc>http://localhost:1313/en/workshop/2026/program2026/</loc>
   </url><url>
-    <loc>http://celedigital.github.io/en/workshop/2026/</loc>
+    <loc>http://localhost:1313/en/workshop/2026/</loc>
   </url><url>
-    <loc>http://celedigital.github.io/en/workshop/2026/links2026/</loc>
+    <loc>http://localhost:1313/en/workshop/2026/links2026/</loc>
   </url><url>
-    <loc>http://celedigital.github.io/en/workshop/2025/</loc>
+    <loc>http://localhost:1313/en/workshop/2025/</loc>
   </url><url>
-    <loc>http://celedigital.github.io/en/workshop/2024/</loc>
+    <loc>http://localhost:1313/en/workshop/2024/</loc>
   </url><url>
-    <loc>http://celedigital.github.io/en/</loc>
-    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/"
+                href="http://localhost:1313/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/"
+                href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/tags/publicaciones/</loc>
-    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/tags/publicaciones/"
+                href="http://localhost:1313/es/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/tags/publicaciones/"
+                href="http://localhost:1313/en/posts/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/research/</loc>
-    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/publicaciones/"
+                href="http://localhost:1313/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/research/"
+                href="http://localhost:1313/en/tags/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/tags/</loc>
-    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/en/posts/test1/</loc>
+    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/tags/"
+                href="http://localhost:1313/es/posts/test1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/tags/"
+                href="http://localhost:1313/en/posts/test1/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/research/what-we-can-and-cannot-expect-from-the-exercise-of-public-functions-by-private-platforms/</loc>
+    <loc>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/</loc>
+    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/violencia-de-g%C3%A9nero/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/publicaciones/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/publicaciones/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/publicaciones/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/research/</loc>
+    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/publicaciones/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/research/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/research/what-we-can-and-cannot-expect-from-the-exercise-of-public-functions-by-private-platforms/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://celedigital.github.io/en/posts/hearing-iachr/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-febrero-2026/</loc>
+    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-febrero-2026/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-febrero-2026/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/institucional/</loc>
+    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/institucional/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/institucional/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/</loc>
+    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-enero-2026/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-enero-2026/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-enero-2026/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/hearing-iachr/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://celedigital.github.io/en/posts/</loc>
-    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-diciembre-2025/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/posts/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-diciembre-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/posts/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-diciembre-2025/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/posts/data-access-for-researchers/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2025/</loc>
+    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-noviembre-2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2025/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-octubre-2025/</loc>
+    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-octubre-2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-octubre-2025/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/data-access-for-researchers/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/posts/acceso-a-datos-para-investigadores/"
+                href="http://localhost:1313/es/posts/acceso-a-datos-para-investigadores/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/posts/data-access-for-researchers/"
+                href="http://localhost:1313/en/posts/data-access-for-researchers/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/about/</loc>
-  </url><url>
-    <loc>http://celedigital.github.io/en/annual-reports/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-septiembre-2025/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/informes-anuales/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-septiembre-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/annual-reports/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-septiembre-2025/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/categories/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-agosto-2025/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/categories/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-agosto-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/categories/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-agosto-2025/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/seminar/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-julio-2025/</loc>
+    <lastmod>2025-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/seminario/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-julio-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/seminar/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-julio-2025/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/workshop/</loc>
-  </url><url>
-    <loc>http://celedigital.github.io/en/contact/</loc>
-  </url><url>
-    <loc>http://celedigital.github.io/en/topics/democratic-erosion/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-junio-2025/</loc>
+    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/temas/erosion-democratica/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-junio-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/topics/democratic-erosion/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-junio-2025/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/documentation/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-mayo-2025/</loc>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/documentacion/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-mayo-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/documentation/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-mayo-2025/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/regions/europe/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-abril-2025/</loc>
+    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/region/europa/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-abril-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/regions/europe/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-abril-2025/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/regions/global/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-marzo-2025/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/region/global/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-marzo-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/regions/global/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-marzo-2025/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/mission/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-febrero-2025/</loc>
+    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/mision/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-febrero-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/mission/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-febrero-2025/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/regions/latin-america/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-enero-2025/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/region/america-latina/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-enero-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/regions/latin-america/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-enero-2025/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/legislators-workshops/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-diciembre-2024/</loc>
+    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/talleres-legisladores/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-diciembre-2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/legislators-workshops/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-diciembre-2024/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/legislative-observatory/methodology/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2024/</loc>
+    <lastmod>2024-11-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/observatorio-legislativo/metodologia/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-noviembre-2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/legislative-observatory/methodology/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2024/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/legislative-observatory/objectives/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-octubre-2024/</loc>
+    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/observatorio-legislativo/objetivos/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-octubre-2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/legislative-observatory/objectives/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-octubre-2024/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/topics/platforms/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-septiembre-2024-cloned/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/temas/plataformas/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-septiembre-2024-cloned/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/topics/platforms/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-septiembre-2024-cloned/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/regions/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-agosto-2024/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/region/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-agosto-2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/regions/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-agosto-2024/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/topics/regulation-and-technology/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-julio-2024/</loc>
+    <lastmod>2024-08-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/temas/regulacion-y-tecnologia/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-julio-2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/topics/regulation-and-technology/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-julio-2024/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/team/</loc>
-  </url><url>
-    <loc>http://celedigital.github.io/en/topics/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-junio-2024/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/temas/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-junio-2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/topics/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-junio-2024/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/transparency/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-mayo-2024/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/transparencia/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-mayo-2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/transparency/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-mayo-2024/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/topics/violence/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-abril-2024/</loc>
+    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/temas/violencias/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-abril-2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/topics/violence/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-abril-2024/"
                 />
   </url><url>
-    <loc>http://celedigital.github.io/en/legislative-observatory/</loc>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-marzo-2024/</loc>
+    <lastmod>2024-03-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://celedigital.github.io/es/observatorio-legislativo/"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-marzo-2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://celedigital.github.io/en/legislative-observatory/"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-marzo-2024/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-febrero-2024/</loc>
+    <lastmod>2024-02-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-febrero-2024/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-febrero-2024/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-enero-2024/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-enero-2024/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-enero-2024/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-diciembre-2023/</loc>
+    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-diciembre-2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-diciembre-2023/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2023-cloned/</loc>
+    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-noviembre-2023-cloned/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2023-cloned/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-octubre-2023/</loc>
+    <lastmod>2023-10-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-octubre-2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-octubre-2023/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-septiembre-2023/</loc>
+    <lastmod>2023-10-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-septiembre-2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-septiembre-2023/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-agosto-2023-cloned/</loc>
+    <lastmod>2023-08-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-agosto-2023-cloned/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-agosto-2023-cloned/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-julio-2023-2/</loc>
+    <lastmod>2023-07-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-julio-2023-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-julio-2023-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-junio-2023/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-junio-2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-junio-2023/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-mayo2023/</loc>
+    <lastmod>2023-05-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-mayo2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-mayo2023/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-abril-2023-2/</loc>
+    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-abril-2023-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-abril-2023-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-marzo-2023/</loc>
+    <lastmod>2023-03-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-marzo-2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-marzo-2023/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-febrero-2023/</loc>
+    <lastmod>2023-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-febrero-2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-febrero-2023/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-enero-2023/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-enero-2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-enero-2023/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-diciembre-2022/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-diciembre-2022/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-diciembre-2022/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2022-2/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-noviembre-2022-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2022-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-octubre-2022/</loc>
+    <lastmod>2022-10-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-octubre-2022/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-octubre-2022/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-septiembre-2022-2/</loc>
+    <lastmod>2022-09-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-septiembre-2022-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-septiembre-2022-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-agosto-2022/</loc>
+    <lastmod>2022-08-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-agosto-2022/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-agosto-2022/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-julio-2022/</loc>
+    <lastmod>2022-07-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-julio-2022/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-julio-2022/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-junio-2022/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-junio-2022/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-junio-2022/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-mayo-2022-5-2/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-mayo-2022-5-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-mayo-2022-5-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-abril-2022-4/</loc>
+    <lastmod>2022-04-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-abril-2022-4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-abril-2022-4/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-marzo-2022-3/</loc>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-marzo-2022-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-marzo-2022-3/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-febrero-2022-2/</loc>
+    <lastmod>2022-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-febrero-2022-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-febrero-2022-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-enero-2022/</loc>
+    <lastmod>2022-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-enero-2022/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-enero-2022/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-diciembre-2021/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-diciembre-2021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-diciembre-2021/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-noviembre-2021-2-2/</loc>
+    <lastmod>2021-12-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-noviembre-2021-2-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-noviembre-2021-2-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-octubre-2021-2/</loc>
+    <lastmod>2021-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-octubre-2021-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-octubre-2021-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-septiembre-2021/</loc>
+    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-septiembre-2021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-septiembre-2021/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-agosto-2021/</loc>
+    <lastmod>2021-08-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-agosto-2021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-agosto-2021/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-julio-2021/</loc>
+    <lastmod>2021-07-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-julio-2021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-julio-2021/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-junio-2021/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-junio-2021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-junio-2021/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-mayo-2021/</loc>
+    <lastmod>2021-05-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-mayo-2021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-mayo-2021/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-abril-2021-observatorio-legislativo-cele/</loc>
+    <lastmod>2021-04-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-abril-2021-observatorio-legislativo-cele/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-abril-2021-observatorio-legislativo-cele/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-marzo-2021-observatorio-legislativo-cele/</loc>
+    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-marzo-2021-observatorio-legislativo-cele/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-marzo-2021-observatorio-legislativo-cele/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-febrero-2021-observatorio-legislativo-cele/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-febrero-2021-observatorio-legislativo-cele/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/boletin-mensual-febrero-2021-observatorio-legislativo-cele/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/annual-reports/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/informes-anuales/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/annual-reports/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/seminar/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/seminario/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/seminar/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/workshop/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/democratic-erosion/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/temas/erosion-democratica/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/topics/democratic-erosion/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/documentation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/documentacion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/documentation/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/regions/europe/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/europa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/europe/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/regions/global/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/global/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/global/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/mission/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/mision/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/mission/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/regions/latin-america/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/america-latina/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/latin-america/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislators-workshops/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/talleres-legisladores/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislators-workshops/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/methodology/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/metodologia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/metodologia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/methodology/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/metodologia/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/metodologia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/methodology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/metodologia/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/objectives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/objetivos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/objetivos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/objectives/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/objetivos/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/objetivos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/objectives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/objetivos/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/topics/platforms/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/temas/plataformas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/topics/platforms/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/regions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/topics/regulation-and-technology/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/temas/regulacion-y-tecnologia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/topics/regulation-and-technology/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/research/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/publicaciones/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/research/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/team/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/topics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/temas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/topics/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/transparency/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/transparencia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/transparency/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/topics/violence/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/temas/violencias/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/topics/violence/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/legislative-observatory/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/"
                 />
   </url>
 </urlset>

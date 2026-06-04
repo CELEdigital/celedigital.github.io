@@ -1,0 +1,43 @@
+name: Create EN stub for new ES posts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/es/posts/**"        # only ES-post changes trigger this
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: en-stub
+  cancel-in-progress: false
+
+jobs:
+  stub:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2              # need the previous commit for the diff
+
+      - name: Create EN stubs for new ES posts
+        env:
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
+        run: python3 scripts/make_en_stubs.py
+
+      - name: Commit & push any new stubs
+        run: |
+          if [ -n "$(git status --porcelain content/en/posts)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add content/en/posts
+            git commit -m "Auto: EN stub for new ES post(s) [skip ci]"
+            git pull --rebase origin main || true
+            git push
+          else
+            echo "No new EN stubs."
+          fi

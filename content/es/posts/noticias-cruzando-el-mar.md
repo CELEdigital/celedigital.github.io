@@ -23,7 +23,7 @@ region: europa
 country: []
 placements:
   - hub: region/europa
-    block: destacado
+    block: ultimas_noticias_analisis
 tags:
   - dsa
 source_url: ''

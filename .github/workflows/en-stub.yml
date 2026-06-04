@@ -36,8 +36,17 @@ jobs:
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add content/en/posts
             git commit -m "Auto: EN stub for new ES post(s) [skip ci]"
-            git pull --rebase origin main || true
-            git push
+            # Survive concurrent pushes (CMS / flyers Action move main): rebase + retry.
+            branch="${GITHUB_REF_NAME:-main}"
+            pushed=""
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase --autostash origin "$branch" && git push origin "HEAD:$branch"; then
+                echo "Pushed on attempt $attempt"; pushed=1; break
+              fi
+              echo "Push attempt $attempt failed (main moved); retrying…"
+              sleep $(( (RANDOM % 4) + 2 ))
+            done
+            if [ -z "$pushed" ]; then echo "Failed to push EN stub after retries"; exit 1; fi
           else
             echo "No new EN stubs."
           fi

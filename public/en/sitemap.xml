@@ -2,262 +2,338 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/workshop/2024/program2024/</loc>
+    <loc>http://celedigital.github.io/en/workshop/2024/program2024/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2025/program2025/</loc>
+    <loc>http://celedigital.github.io/en/workshop/2025/program2025/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2026/program2026/</loc>
+    <loc>http://celedigital.github.io/en/workshop/2026/program2026/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2026/</loc>
+    <loc>http://celedigital.github.io/en/workshop/2026/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2026/links2026/</loc>
+    <loc>http://celedigital.github.io/en/workshop/2026/links2026/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2025/</loc>
+    <loc>http://celedigital.github.io/en/workshop/2025/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/workshop/2024/</loc>
+    <loc>http://celedigital.github.io/en/workshop/2024/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>http://celedigital.github.io/en/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/"
+                href="http://celedigital.github.io/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="http://celedigital.github.io/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/publicaciones/</loc>
+    <loc>http://celedigital.github.io/en/tags/publicaciones/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/publicaciones/"
+                href="http://celedigital.github.io/es/tags/publicaciones/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/publicaciones/"
+                href="http://celedigital.github.io/en/tags/publicaciones/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/research/</loc>
+    <loc>http://celedigital.github.io/en/research/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/publicaciones/"
+                href="http://celedigital.github.io/es/publicaciones/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/research/"
+                href="http://celedigital.github.io/en/research/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>http://celedigital.github.io/en/tags/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/"
+                href="http://celedigital.github.io/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="http://celedigital.github.io/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/research/what-we-can-and-cannot-expect-from-the-exercise-of-public-functions-by-private-platforms/</loc>
+    <loc>http://celedigital.github.io/en/research/what-we-can-and-cannot-expect-from-the-exercise-of-public-functions-by-private-platforms/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/hearing-iachr/</loc>
+    <loc>http://celedigital.github.io/en/posts/hearing-iachr/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
+    <loc>http://celedigital.github.io/en/posts/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/"
+                href="http://celedigital.github.io/es/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/"
+                href="http://celedigital.github.io/en/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/data-access-for-researchers/</loc>
+    <loc>http://celedigital.github.io/en/posts/data-access-for-researchers/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/acceso-a-datos-para-investigadores/"
+                href="http://celedigital.github.io/es/posts/acceso-a-datos-para-investigadores/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/data-access-for-researchers/"
+                href="http://celedigital.github.io/en/posts/data-access-for-researchers/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/_archive/</loc>
+    <loc>http://celedigital.github.io/en/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/topics/artificial-intelligence/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>http://celedigital.github.io/en/annual-reports/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/categories/"
+                href="http://celedigital.github.io/es/informes-anuales/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="http://celedigital.github.io/en/annual-reports/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/workshop/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/contact/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/documentation/</loc>
+    <loc>http://celedigital.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/documentacion/"
+                href="http://celedigital.github.io/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/documentation/"
+                href="http://celedigital.github.io/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/regions/europe/</loc>
+    <loc>http://celedigital.github.io/en/seminar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/region/europa/"
+                href="http://celedigital.github.io/es/seminario/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/regions/europe/"
+                href="http://celedigital.github.io/en/seminar/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/topics/freedom-of-expression/</loc>
+    <loc>http://celedigital.github.io/en/workshop/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/regions/global/</loc>
+    <loc>http://celedigital.github.io/en/contact/</loc>
+  </url><url>
+    <loc>http://celedigital.github.io/en/topics/democratic-erosion/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/region/global/"
+                href="http://celedigital.github.io/es/temas/erosion-democratica/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/regions/global/"
+                href="http://celedigital.github.io/en/topics/democratic-erosion/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/topics/governance/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/mission/</loc>
+    <loc>http://celedigital.github.io/en/documentation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/mision/"
+                href="http://celedigital.github.io/es/documentacion/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/mission/"
+                href="http://celedigital.github.io/en/documentation/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/topics/human-rights/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/regions/latin-america/</loc>
+    <loc>http://celedigital.github.io/en/regions/europe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/region/america-latina/"
+                href="http://celedigital.github.io/es/region/europa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/regions/latin-america/"
+                href="http://celedigital.github.io/en/regions/europe/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/legislative-observatory/methodology/</loc>
+    <loc>http://celedigital.github.io/en/regions/global/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/observatorio-legislativo/metodologia/"
+                href="http://celedigital.github.io/es/region/global/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/legislative-observatory/methodology/"
+                href="http://celedigital.github.io/en/regions/global/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/legislative-observatory/objectives/</loc>
+    <loc>http://celedigital.github.io/en/mission/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/observatorio-legislativo/objetivos/"
+                href="http://celedigital.github.io/es/mision/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/legislative-observatory/objectives/"
+                href="http://celedigital.github.io/en/mission/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/_archive/policy/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/topics/privacy-and-surveillance/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/regions/</loc>
+    <loc>http://celedigital.github.io/en/regions/latin-america/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/region/"
+                href="http://celedigital.github.io/es/region/america-latina/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/regions/"
+                href="http://celedigital.github.io/en/regions/latin-america/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/_archive/research/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/team/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/topics/threats/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/_archive/topics/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/topics/</loc>
+    <loc>http://celedigital.github.io/en/legislators-workshops/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/temas/"
+                href="http://celedigital.github.io/es/talleres-legisladores/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/topics/"
+                href="http://celedigital.github.io/en/legislators-workshops/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/legislative-observatory/</loc>
+    <loc>http://celedigital.github.io/en/legislative-observatory/methodology/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/observatorio-legislativo/"
+                href="http://celedigital.github.io/es/observatorio-legislativo/metodologia/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/legislative-observatory/"
+                href="http://celedigital.github.io/en/legislative-observatory/methodology/"
+                />
+  </url><url>
+    <loc>http://celedigital.github.io/en/legislative-observatory/objectives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://celedigital.github.io/es/observatorio-legislativo/objetivos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://celedigital.github.io/en/legislative-observatory/objectives/"
+                />
+  </url><url>
+    <loc>http://celedigital.github.io/en/topics/platforms/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://celedigital.github.io/es/temas/plataformas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://celedigital.github.io/en/topics/platforms/"
+                />
+  </url><url>
+    <loc>http://celedigital.github.io/en/regions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://celedigital.github.io/es/region/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://celedigital.github.io/en/regions/"
+                />
+  </url><url>
+    <loc>http://celedigital.github.io/en/topics/regulation-and-technology/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://celedigital.github.io/es/temas/regulacion-y-tecnologia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://celedigital.github.io/en/topics/regulation-and-technology/"
+                />
+  </url><url>
+    <loc>http://celedigital.github.io/en/team/</loc>
+  </url><url>
+    <loc>http://celedigital.github.io/en/topics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://celedigital.github.io/es/temas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://celedigital.github.io/en/topics/"
+                />
+  </url><url>
+    <loc>http://celedigital.github.io/en/transparency/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://celedigital.github.io/es/transparencia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://celedigital.github.io/en/transparency/"
+                />
+  </url><url>
+    <loc>http://celedigital.github.io/en/topics/violence/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://celedigital.github.io/es/temas/violencias/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://celedigital.github.io/en/topics/violence/"
+                />
+  </url><url>
+    <loc>http://celedigital.github.io/en/legislative-observatory/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://celedigital.github.io/es/observatorio-legislativo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://celedigital.github.io/en/legislative-observatory/"
                 />
   </url>
 </urlset>

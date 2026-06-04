@@ -31,7 +31,7 @@ defaultContentLanguageInSubdir = true
 
       [languages.es.params.mission_link]
         label = "Ver más"
-        url = "/acerca-de/"
+        url = "/mision/"
 
     [languages.es.menu]
       [[languages.es.menu.main]]
@@ -163,6 +163,8 @@ defaultContentLanguageInSubdir = true
     [languages.en.permalinks]
       publicaciones = "/research/:slug/"
       observatorio-legislativo = "/legislative-observatory/:slug/"
+      temas = "/topics/:slug/"
+      region = "/regions/:slug/"
 
     [languages.en.params]
       logo = "img/logo_cele.svg"
@@ -192,10 +194,34 @@ defaultContentLanguageInSubdir = true
         weight = 12
 
       [[languages.en.menu.main]]
+        name = "Seminar"
+        url = "/seminar/"
+        parent = "about"
+        weight = 13
+
+      [[languages.en.menu.main]]
+        name = "Annual Reports"
+        url = "/annual-reports/"
+        parent = "about"
+        weight = 14
+
+      [[languages.en.menu.main]]
+        name = "Legislators' Workshops"
+        url = "/legislators-workshops/"
+        parent = "about"
+        weight = 15
+
+      [[languages.en.menu.main]]
+        name = "Transparency"
+        url = "/transparency/"
+        parent = "about"
+        weight = 16
+
+      [[languages.en.menu.main]]
         name = "Contact"
         url = "/contact/"
         parent = "about"
-        weight = 13
+        weight = 17
 
       [[languages.en.menu.main]]
         name = "Topics"
@@ -204,40 +230,28 @@ defaultContentLanguageInSubdir = true
         weight = 2
 
       [[languages.en.menu.main]]
-        name = "Freedom of Expression in the 21st Century"
-        url = "/topics/freedom-of-expression"
+        name = "Regulation and technology"
+        url = "/topics/regulation-and-technology/"
         parent = "topics"
         weight = 21
 
       [[languages.en.menu.main]]
-        name = "Human Rights"
-        url = "/topics/human-rights"
+        name = "Platforms"
+        url = "/topics/platforms/"
         parent = "topics"
         weight = 22
 
       [[languages.en.menu.main]]
-        name = "Governance"
-        url = "/topics/governance"
+        name = "Democratic erosion"
+        url = "/topics/democratic-erosion/"
         parent = "topics"
         weight = 23
 
       [[languages.en.menu.main]]
-        name = "Threats to Freedom of Expression"
-        url = "/topics/threats"
+        name = "Violence"
+        url = "/topics/violence/"
         parent = "topics"
         weight = 24
-
-      [[languages.en.menu.main]]
-        name = "Artificial Intelligence"
-        url = "/topics/artificial-intelligence"
-        parent = "topics"
-        weight = 25
-
-      [[languages.en.menu.main]]
-        name = "Privacy and Surveillance"
-        url = "/topics/privacy-and-surveillance"
-        parent = "topics"
-        weight = 26
 
       [[languages.en.menu.main]]
         name = "Regions"
@@ -271,9 +285,9 @@ defaultContentLanguageInSubdir = true
       [[languages.en.menu.main]]
         name = "Legislative Observatory"
         url = "/legislative-observatory/"
-        weight = 6
+        weight = 5
 
       [[languages.en.menu.main]]
         name = "Workshop"
         url = "/workshop/"
-        weight = 7
+        weight = 6

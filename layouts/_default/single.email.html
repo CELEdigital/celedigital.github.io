@@ -2,7 +2,7 @@
        Opt in per page with outputs = ["html", "email"]. */ -}}
 {{- $base := strings.TrimSuffix "/" (replaceRE "^http://" "https://" site.BaseURL) -}}
 {{- $isES := eq .Lang "es" -}}
-{{- $logo := printf "%s/img/logo-512.png" $base -}}
+{{- $logo := printf "%s/logos/cele_rojo.png" $base -}}
 {{- $number := .Params.newsletter_number -}}
 {{- $tagline := .Params.tagline | default .Description -}}
 {{- $viewInBrowser := cond $isES "Ver en el navegador" "View in browser" -}}

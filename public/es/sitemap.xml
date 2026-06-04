@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/es/autores/agustina-del-campo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/agustina-del-campo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/agustina-del-campo/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/autores/ona-flores/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/ona-flores/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/ona-flores/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/taller/2023/program2023/</loc>
   </url><url>
@@ -15,12 +35,42 @@
     <loc>http://localhost:1313/es/taller/2026/</loc>
   </url><url>
     <loc>http://localhost:1313/es/autores/ramiro-alvarez-ugarte/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/ramiro-alvarez-ugarte/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/ramiro-alvarez-ugarte/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/taller/2025/</loc>
   </url><url>
     <loc>http://localhost:1313/es/autores/matias-gonzalez-mama/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/matias-gonzalez-mama/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/matias-gonzalez-mama/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/autores/nicol%C3%A1s-zara/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/nicol%C3%A1s-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/nicol%C3%A1s-zara/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/taller/2024/</loc>
   </url><url>
@@ -46,6 +96,71 @@
   </url><url>
     <loc>http://localhost:1313/es/taller/2013/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/tags/dsa/</loc>
+    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/dsa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/dsa/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/</loc>
+    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/</loc>
+    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/</loc>
+    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tags/</loc>
+    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/posts/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -59,37 +174,11 @@
                 href="http://localhost:1313/es/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/</loc>
-    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/posts/avanzada-autoritaria/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/tags/posiciones-dominantes/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/tags/</loc>
-    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
-                />
   </url><url>
     <loc>http://localhost:1313/es/posts/test1/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
@@ -154,19 +243,6 @@
                 href="http://localhost:1313/es/tags/publicaciones/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/region/europa/</loc>
-    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/regions/europe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/region/europa/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/tags/institucional/</loc>
     <lastmod>2026-03-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -180,21 +256,8 @@
                 href="http://localhost:1313/es/tags/institucional/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/region/europa/noticias-cruzando-el-mar-10-por-nicolas-zara/</loc>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-10-por-nicolas-zara/</loc>
     <lastmod>2026-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/region/</loc>
-    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/regions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/region/"
-                />
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-febrero-2026/</loc>
     <lastmod>2026-03-03T00:00:00+00:00</lastmod>
@@ -268,7 +331,7 @@
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-37-el-discurso-de-odio-como-modo-de-censura-sobre-el-caso-biasi-en-la-argentina/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/region/europa/noticias-cruzando-el-mar-9-por-nicolas-zara/</loc>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-9-por-nicolas-zara/</loc>
     <lastmod>2025-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-36-amicus-curiae-en-el-juicio-para-la-proteccion-de-los-derechos-politico-electorales-del-ciu/</loc>
@@ -293,7 +356,7 @@
                 href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-noviembre-2025/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/region/europa/noticias-cruzando-el-mar-8-por-nicolas-zara/</loc>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-8-por-nicolas-zara/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-35-observaciones-del-cele-a-la-solicitud-de-opinion-consultiva-sobre-democracia-y-su-protecci/</loc>
@@ -347,7 +410,7 @@
                 href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-septiembre-2025/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/region/europa/noticias-cruzando-el-mar-7-por-nicolas-zara/</loc>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-7-por-nicolas-zara/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-agosto-2025/</loc>
@@ -409,7 +472,7 @@
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-29-cele-submission-to-the-office-of-the-special-rapporteur-for-freedom-of-opinion-and-express/</loc>
     <lastmod>2025-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/region/europa/noticias-cruzando-el-mar-6-por-nicolas-zara/</loc>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-6-por-nicolas-zara/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-28-concepto-solicitado-por-la-corte-constitucional-accion-de-tutela-presentada-por-daniela-co/</loc>
@@ -510,7 +573,7 @@
     <loc>http://localhost:1313/es/posts/violencia-de-genero-digital-y-libertad-de-expresion/</loc>
     <lastmod>2025-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/region/europa/noticias-cruzando-el-mar-5-por-nicolas-zara/</loc>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-5-por-nicolas-zara/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-abril-2025/</loc>
@@ -578,7 +641,7 @@
     <loc>http://localhost:1313/es/publicaciones/informe-legislativo-14-ficha-legislativa-sobre-pl-colombia-que-regula-acceso-a-menores-de-edad-a-redes-sociales/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/region/europa/noticias-cruzando-el-mar-4-por-nicolas-zara/</loc>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-4-por-nicolas-zara/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-febrero-2025/</loc>
@@ -644,7 +707,7 @@
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-23-submission-to-the-thematic-report-on-freedom-of-expression-and-elections-in-the-digital-ag/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/region/europa/noticias-cruzando-el-mar-3-por-nicolas-zara/</loc>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-3-por-nicolas-zara/</loc>
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-noviembre-2024/</loc>
@@ -690,7 +753,7 @@
     <loc>http://localhost:1313/es/posts/this-is-hard/</loc>
     <lastmod>2024-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/region/europa/noticias-cruzando-el-mar-2-por-nicolas-zara/</loc>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-2-por-nicolas-zara/</loc>
     <lastmod>2024-11-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/el-acceso-a-datos-para-investigadores-los-desafios-de-la-sociedad-civil-frente-a-las-plataformas-digitales-una-conversacion-con-carlos-cortes-y-laura-palacio/</loc>
@@ -737,7 +800,7 @@
     <loc>http://localhost:1313/es/posts/la-suspension-de-x-en-brasil-entre-la-soberania-y-la-censura-juan-martin-marinangeli/</loc>
     <lastmod>2024-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/region/europa/noticias-cruzando-el-mar-1-por-nicolas-zara/</loc>
+    <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-1-por-nicolas-zara/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-agosto-2024/</loc>
@@ -2047,18 +2110,88 @@
     <lastmod>2010-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/autores/andres-calderon/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/andres-calderon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/andres-calderon/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/autores/francesca-chocano-villanueva/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/francesca-chocano-villanueva/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/francesca-chocano-villanueva/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/autores/josefina-del-campo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/josefina-del-campo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/josefina-del-campo/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/autores/lina-palacios/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/lina-palacios/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/lina-palacios/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/autores/paulina-gutierrez/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/paulina-gutierrez/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/paulina-gutierrez/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/autores/solana-babicola/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/solana-babicola/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/solana-babicola/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/autores/vladimir-garay/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/vladimir-garay/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/vladimir-garay/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/region/america-latina/</loc>
     <xhtml:link
@@ -2073,6 +2206,16 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/autores/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/categories/</loc>
     <xhtml:link
@@ -2115,6 +2258,18 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/estamos-leyendo/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/region/europa/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/europe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/europa/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/region/global/</loc>
     <xhtml:link
@@ -2196,6 +2351,18 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/temas/plataformas/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/region/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/regions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/region/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/temas/regulacion-y-tecnologia/</loc>

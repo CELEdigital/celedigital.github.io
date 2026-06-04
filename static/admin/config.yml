@@ -71,6 +71,7 @@ collections:
           - { label: "Blog / Análisis", value: "blog" }
           - { label: "Mesa legislativa", value: "mesa" }
           - { label: "Boletín", value: "boletin" }
+          - { label: "Newsletter DSA", value: "newsletter_dsa" }
 
       - label: "Programa"
         name: "programs"
@@ -212,6 +213,33 @@ collections:
     label: "Posts (EN)"
     label_singular: "Post"
     folder: "content/en/posts"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    fields: *posts_fields
+
+
+  # ─────────────────────────────────────────
+  # NOTICIAS CRUZANDO EL MAR (ES)
+  # ─────────────────────────────────────────
+  - name: "noticias_cruzando_es"
+    label: "Noticias cruzando el mar (ES)"
+    label_singular: "Entrega"
+    folder: "content/es/noticias-cruzando-el-mar"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    fields: *posts_fields
+
+  # ─────────────────────────────────────────
+  # NOTICIAS CRUZANDO EL MAR (EN)
+  # ─────────────────────────────────────────
+  - name: "noticias_cruzando_en"
+    label: "Noticias cruzando el mar (EN)"
+    label_singular: "Issue"
+    folder: "content/en/noticias-cruzando-el-mar"
     create: true
     format: "yaml-frontmatter"
     extension: "md"
@@ -514,7 +542,7 @@ collections:
     slug: "{{slug}}"
     identifier_field: "title"
 
-    fields:
+    fields: &autores_fields
       - label: "Nombre completo"
         name: "title"
         widget: "string"
@@ -619,3 +647,17 @@ collections:
         name: "body"
         widget: "markdown"
         required: false
+
+  # ─────────────────────────────────────────
+  # AUTORES (EN)
+  # ─────────────────────────────────────────
+  - name: "autores_en"
+    label: "Autores (EN)"
+    label_singular: "Author"
+    folder: "content/en/autores"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    identifier_field: "title"
+    fields: *autores_fields

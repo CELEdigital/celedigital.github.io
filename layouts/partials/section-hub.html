@@ -52,7 +52,16 @@
 
   {{/* ── Optional subsection panel (e.g. Noticias cruzando el mar in Gobernanza) ── */}}
   {{ with .Params.subsection_label }}
-    {{ $subPages := sort $.RegularPages "Date" "desc" }}
+    {{/* By default the subsection lists the pages physically in this section.
+         A hub may instead point at another section via `subsection_source`
+         (logical path) to surface a series that lives in a dedicated folder. */}}
+    {{ $subSource := $.RegularPages }}
+    {{ with $.Params.subsection_source }}
+      {{ with site.GetPage . }}
+        {{ $subSource = .RegularPages }}
+      {{ end }}
+    {{ end }}
+    {{ $subPages := sort $subSource "Date" "desc" }}
     {{ if gt (len $subPages) 0 }}
       {{ $subPanelID := printf "section-subsection-panel-%s" ($.Section | urlize) }}
       {{ $subListID  := printf "section-subsection-list-%s"  ($.Section | urlize) }}

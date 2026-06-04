@@ -6,5 +6,6 @@ region_key: "europe"
 translationKey: "europe"
 image: "/ilustrations/europa.jpg"
 subsection_label: "News across the sea"
+subsection_source: "/noticias-cruzando-el-mar"
 url: "/en/regions/europe/"
 ---

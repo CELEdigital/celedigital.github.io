@@ -6,4 +6,5 @@ region_key: "europe"
 translationKey: "europe"
 image: "/ilustrations/europa.jpg"
 subsection_label: "Noticias cruzando el mar"
+subsection_source: "/noticias-cruzando-el-mar"
 ---

@@ -1,0 +1,12 @@
+{{- /* Cover derived from a page's uploaded PDF by naming convention:
+       file: /files/<stem>.pdf  ->  /covers/<stem>.jpg  (rendered in CI by
+       scripts/generate_pdf_covers.py). Returns the cover URL if the file
+       exists on disk, else "". Call: partial "func/pdf-cover.html" $page */ -}}
+{{- $cover := "" -}}
+{{- with .Params.file -}}
+  {{- $stem := path.BaseName . -}}
+  {{- if os.FileExists (printf "static/covers/%s.jpg" $stem) -}}
+    {{- $cover = printf "/covers/%s.jpg" $stem -}}
+  {{- end -}}
+{{- end -}}
+{{- return $cover -}}

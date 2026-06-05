@@ -1,0 +1,62 @@
+name: Render PDF covers for publications
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "static/files/**"                  # a new/updated PDF was uploaded
+      - "content/**/publicaciones/**"      # …or a paper started referencing one
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pdf-covers
+  cancel-in-progress: false
+
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2              # need the previous commit for the diff
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --upgrade pymupdf Pillow python-frontmatter
+
+      - name: Render covers for new/changed publication PDFs
+        env:
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
+        run: python3 scripts/generate_pdf_covers.py
+
+      - name: Commit & push any new covers
+        run: |
+          if [ -n "$(git status --porcelain static/covers)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add static/covers
+            # No [skip ci]: let hugo.yml redeploy so the new cover shows.
+            git commit -m "Auto: PDF cover(s) for publication(s)"
+            # Survive concurrent pushes (CMS / other Actions move main): rebase + retry.
+            branch="${GITHUB_REF_NAME:-main}"
+            pushed=""
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase --autostash origin "$branch" && git push origin "HEAD:$branch"; then
+                echo "Pushed on attempt $attempt"; pushed=1; break
+              fi
+              echo "Push attempt $attempt failed (main moved); retrying…"
+              sleep $(( (RANDOM % 4) + 2 ))
+            done
+            if [ -z "$pushed" ]; then echo "Failed to push PDF covers after retries"; exit 1; fi
+          else
+            echo "No new PDF covers."
+          fi

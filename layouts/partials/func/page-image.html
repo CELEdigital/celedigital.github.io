@@ -1,10 +1,14 @@
-{{- /* Effective thumbnail for a page: own cover→image, else the translation's.
-       Lets an EN post leave image/cover blank and inherit the ES one
-       (matched via translationKey / filename). Call: partial "func/page-image.html" $page */ -}}
+{{- /* Effective thumbnail for a page: own cover→image, else a render of the
+       uploaded PDF's first page (static/covers/<pdf-stem>.jpg, generated in CI),
+       else the translation's. Lets an EN post leave image/cover blank and
+       inherit the ES one (matched via translationKey / filename).
+       Call: partial "func/page-image.html" $page */ -}}
 {{- $img := .Params.cover | default .Params.image -}}
+{{- if not $img -}}{{- $img = partial "func/pdf-cover.html" . -}}{{- end -}}
 {{- if not $img -}}
   {{- range .Translations -}}
-    {{- with (.Params.cover | default .Params.image) -}}{{- $img = . -}}{{- end -}}
+    {{- if not $img -}}{{- $img = .Params.cover | default .Params.image -}}{{- end -}}
+    {{- if not $img -}}{{- $img = partial "func/pdf-cover.html" . -}}{{- end -}}
   {{- end -}}
 {{- end -}}
 {{- return $img -}}

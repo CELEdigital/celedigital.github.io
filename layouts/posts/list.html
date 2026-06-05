@@ -1,5 +1,9 @@
 {{ define "main" }}
-  {{ $allPages := .Pages.ByDate.Reverse }}
+  {{/* Mirrored set: EN falls back to ES where no translation exists.
+       Scope to the posts section (boletines carry type:posts but live in
+       observatorio-legislativo) to match the original .Pages behavior. */}}
+  {{ $mirror := partialCached "func/mirrored-pages.html" . site.Language.Lang }}
+  {{ $allPages := (where $mirror "Section" "posts").ByDate.Reverse }}
   {{ $posts := slice }}
   {{ range $allPages }}
     {{ $ct := .Params.content_type }}

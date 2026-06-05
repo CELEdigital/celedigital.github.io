@@ -1,0 +1,48 @@
+{{- /* func/mirrored-pages.html — behavioral ES→EN mirroring.
+
+   Returns the canonical default-language (ES) RegularPages, each mapped to the
+   best page for the CURRENT language: the translation if one exists, else the
+   ES page itself (Spanish fallback). On the default-language build it returns
+   the ES pages unchanged, so the ES site is byte-for-byte identical.
+
+   Any current-language page not represented by the canonical set (e.g. an
+   EN-only page) is appended so nothing is dropped.
+
+   Use cached, once per language:
+     {{ $mirror := partialCached "func/mirrored-pages.html" . site.Language.Lang }}
+*/ -}}
+{{- $cur := site -}}
+{{- $def := index site.Sites 0 -}}   {{/* default language = es (weight 1) */}}
+{{- $isDefault := eq $cur.Language.Lang $def.Language.Lang -}}
+{{- $out := slice -}}
+{{- $seen := dict -}}
+{{- range $def.RegularPages -}}
+  {{- $page := . -}}
+  {{- if not $isDefault -}}
+    {{- $tr := "" -}}
+    {{/* 1) Hugo-native translation link */}}
+    {{- range .Translations -}}
+      {{- if eq .Language.Lang $cur.Language.Lang -}}{{- $tr = . -}}{{- end -}}
+    {{- end -}}
+    {{/* 2) Fallback: match by translationKey in the current-language site
+          (same two-step used in partials/header.html) */}}
+    {{- if not $tr -}}
+      {{- with .Params.translationKey -}}
+        {{- $cand := where $cur.RegularPages "Params.translationKey" . -}}
+        {{- if gt (len $cand) 0 -}}{{- $tr = index $cand 0 -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $tr -}}{{- $page = $tr -}}{{- end -}}
+  {{- end -}}
+  {{- $out = $out | append $page -}}
+  {{- $seen = merge $seen (dict $page.RelPermalink true) -}}
+{{- end -}}
+{{- /* Union: keep current-language-only pages (not represented above). */ -}}
+{{- if not $isDefault -}}
+  {{- range $cur.RegularPages -}}
+    {{- if not (isset $seen .RelPermalink) -}}
+      {{- $out = $out | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

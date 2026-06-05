@@ -69,7 +69,8 @@
 {{ $boletinesPages = sort $boletinesPages "Date" "desc" }}
 {{ $mesasInitialVisible := 5 }}
 {{ $mesasPages := slice }}
-{{ range .Site.RegularPages }}
+{{/* Mirrored set: EN falls back to ES where no translation exists */}}
+{{ range partialCached "func/mirrored-pages.html" . site.Language.Lang }}
   {{ $contentType := .Params.content_type }}
   {{ $isMesa := false }}
   {{ if reflect.IsSlice $contentType }}

@@ -1,8 +1,10 @@
 <section class="hero-featured">
   <div class="hero-slider" data-slider>
-    {{/* Collect eligible featured posts (skip mesa / newsletter_dsa) */}}
+    {{/* Collect eligible featured posts (skip mesa / newsletter_dsa).
+         Mirrored set: EN falls back to ES where no translation exists. */}}
+    {{ $mirror := partialCached "func/mirrored-pages.html" . site.Language.Lang }}
     {{ $eligible := slice }}
-    {{ range where site.RegularPages "Params.featured" true }}
+    {{ range where $mirror "Params.featured" true }}
       {{ $ct := .Params.content_type }}
       {{ $ctList := slice }}
       {{ if $ct }}

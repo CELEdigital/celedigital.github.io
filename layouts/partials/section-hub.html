@@ -1,5 +1,6 @@
 {{ $sectionKey := .Params.section_key | default .Section }}
-{{ $items := site.RegularPages }}
+{{/* Mirrored set: EN falls back to ES where no translation exists */}}
+{{ $items := partialCached "func/mirrored-pages.html" . site.Language.Lang }}
 {{ $initialVisible := 3 }}
 {{ $hubSlug := lower (replace (replace $sectionKey "-" "_") " " "_") }}
 {{ $sectionSlug := lower (replace (replace .Section "-" "_") " " "_") }}
@@ -58,7 +59,8 @@
     {{ $subSource := $.RegularPages }}
     {{ with $.Params.subsection_source }}
       {{ with site.GetPage . }}
-        {{ $subSource = .RegularPages }}
+        {{/* Mirror the sourced series (e.g. Noticias) so EN falls back to ES */}}
+        {{ $subSource = where (partialCached "func/mirrored-pages.html" $ site.Language.Lang) "Section" .Section }}
       {{ end }}
     {{ end }}
     {{ $subPages := sort $subSource "Date" "desc" }}

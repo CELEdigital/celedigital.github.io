@@ -5,8 +5,11 @@
     {{ partial "hero-mission.html" . }}
   </section>
 
+  {{/* Mirrored page set: EN falls back to ES where no translation exists */}}
+  {{ $mirror := partialCached "func/mirrored-pages.html" . site.Language.Lang }}
+
   {{/* ── 1. Recent posts — 3 cards ── */}}
-  {{ $allPosts := (where .Site.RegularPages "Type" "posts").ByDate.Reverse }}
+  {{ $allPosts := (where $mirror "Type" "posts").ByDate.Reverse }}
   {{ $excludeSections := slice "observatorio-legislativo" "legislative-observatory" }}
   {{ $recentPosts := slice }}
   {{ range $allPosts }}
@@ -96,7 +99,7 @@
         {{ $sectionKeyNorm := lower (replace (replace ($tema.Params.section_key | default $tema.Section) "-" "_") " " "_") }}
         {{/* Find first post with placement hub=<tema> block=destacado */}}
         {{ $destacado := false }}
-        {{ range $.Site.RegularPages }}
+        {{ range $mirror }}
           {{ if not $destacado }}
             {{ $page := . }}
             {{ range $page.Params.placements }}
@@ -130,7 +133,7 @@
   {{ end }}
 
   {{/* ── 3. Publicaciones — 3 items ── */}}
-  {{ $research := (where .Site.RegularPages "Section" "publicaciones").ByDate.Reverse }}
+  {{ $research := (where $mirror "Section" "publicaciones").ByDate.Reverse }}
   {{ if gt (len $research) 0 }}
   <section class="home-research">
     <header class="home-section-header">

@@ -19,10 +19,12 @@
   (dict "key" "blog" "title" (i18n "hub_blog"))
 }}
 
-{{/* Collect all pages matching this region */}}
+{{/* Collect all pages matching this region.
+     Mirrored set: EN falls back to ES where no translation exists. */}}
+{{ $mirror := partialCached "func/mirrored-pages.html" . site.Language.Lang }}
 {{ $regionPages := slice }}
 {{ if $regionKey }}
-  {{ range site.RegularPages }}
+  {{ range $mirror }}
     {{ $pageRegion := .Params.region | default "" }}
     {{ if not $pageRegion }}
       {{ $translations := .Translations }}

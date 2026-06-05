@@ -38,7 +38,9 @@
 {{ else }}
   {{ if eq .Section "posts" }}
     {{ $initialVisible := 3 }}
-    {{ $posts := .Pages.ByDate.Reverse }}
+    {{/* Mirrored set: EN falls back to ES where no translation exists */}}
+    {{ $mirror := partialCached "func/mirrored-pages.html" . site.Language.Lang }}
+    {{ $posts := (where $mirror "Section" "posts").ByDate.Reverse }}
     {{ $listID := printf "section-block-posts-%s" .Lang }}
     <section class="section-hub">
       <header class="section-hub__header">
@@ -108,7 +110,9 @@
     </section>
   {{ else if eq .Section "publicaciones" }}
     {{ $initialVisible := 3 }}
-    {{ $publicaciones := .Pages.ByDate.Reverse }}
+    {{/* Mirrored set: EN falls back to ES where no translation exists */}}
+    {{ $mirror := partialCached "func/mirrored-pages.html" . site.Language.Lang }}
+    {{ $publicaciones := (where $mirror "Section" "publicaciones").ByDate.Reverse }}
     {{ $listID := printf "section-block-publicaciones-%s" .Lang }}
     <section class="section-hub">
       <header class="section-hub__header">

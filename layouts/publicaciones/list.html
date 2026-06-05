@@ -1,7 +1,9 @@
 {{ define "main" }}
 
-{{/* ── Collect all publication pages sorted newest first ── */}}
-{{ $research := where .Site.RegularPages "Section" "publicaciones" }}
+{{/* ── Collect all publication pages sorted newest first ──
+     Mirrored set: EN falls back to ES where no translation exists. */}}
+{{ $mirror := partialCached "func/mirrored-pages.html" . site.Language.Lang }}
+{{ $research := where $mirror "Section" "publicaciones" }}
 {{ $research = sort $research "Date" "desc" }}
 
 {{/* ── Pick featured: explicit flag first, else most recent ── */}}

@@ -318,6 +318,14 @@ collections:
         widget: "text"
         required: false
 
+      - label: "PDF (descarga)"
+        name: "file"
+        widget: "file"
+        required: false
+        media_folder: "/static/files"
+        public_folder: "/files"
+        hint: "Archivo PDF de la publicación. Se guarda en /static/files/ y se ofrece como botón de descarga."
+
       - label: "Bibliografía (CSL-JSON)"
         name: "references"
         widget: "file"

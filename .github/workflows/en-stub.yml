@@ -7,6 +7,11 @@ on:
       - "content/es/posts/**"                        # ES-post changes trigger this
       - "content/es/noticias-cruzando-el-mar/**"     # …and noticias changes
   workflow_dispatch:
+    inputs:
+      posts:
+        description: "Space-separated ES markdown path(s) to (re)translate, e.g. content/es/posts/my-post.md. Leave blank to use the posts changed in the triggering commit."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -37,7 +42,9 @@ jobs:
           BEFORE: ${{ github.event.before }}
           SHA: ${{ github.sha }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
-        run: python3 scripts/make_en_stubs.py
+        # On manual dispatch, inputs.posts (if any) names the files to translate;
+        # otherwise the script falls back to the BEFORE..SHA diff.
+        run: python3 scripts/make_en_stubs.py ${{ github.event.inputs.posts }}
 
       - name: Commit & push any new translations
         run: |

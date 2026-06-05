@@ -37,13 +37,16 @@ JPEG_QUALITY = 85
 
 def git_changed(base, sha, *paths):
     try:
+        # -z: NUL-separated, *unquoted* paths. Without it git wraps non-ASCII
+        # names in quotes (e.g. "…Documento_de_posici\303\263n_15.pdf"), which
+        # would break extension checks and skip accented PDFs/papers.
         out = subprocess.check_output(
-            ["git", "diff", "--name-only", "--diff-filter=AM", base, sha, "--", *paths],
+            ["git", "diff", "--name-only", "-z", "--diff-filter=AM", base, sha, "--", *paths],
             text=True,
         )
     except subprocess.CalledProcessError:
         return []
-    return [p for p in out.split("\n") if p.strip()]
+    return [p for p in out.split("\0") if p.strip()]
 
 
 def pdf_for_publication(md_path, skip_if_cover=True):

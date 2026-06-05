@@ -48,12 +48,15 @@ def changed_es_posts():
     es_dirs = [es for es, _ in DIR_PAIRS]
     try:
         out = subprocess.check_output(
-            ["git", "diff", "--name-only", "--diff-filter=AM", base, sha, "--", *es_dirs],
+            ["git", "diff", "--name-only", "-z", "--diff-filter=AM", base, sha, "--", *es_dirs],
             text=True,
         )
     except subprocess.CalledProcessError:
         return []
-    return [p for p in out.split("\n") if p.endswith(".md")]
+    # -z gives NUL-separated, *unquoted* paths. Without it, git wraps non-ASCII
+    # filenames in quotes with octal escapes (e.g. "…expresi\303\263n.md"), which
+    # would fail the .md check and silently skip accented posts.
+    return [p for p in out.split("\0") if p.endswith(".md")]
 
 
 def en_path_for(es_path: str):

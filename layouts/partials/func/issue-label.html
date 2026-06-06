@@ -1,0 +1,14 @@
+{{- /* func/issue-label.html — localized display label for a fixed `issues`
+   enum value. The value itself stays canonical (Spanish) so filtering, hub
+   matching and taxonomy keep working; this only changes what's shown.
+   Unknown values fall back to the raw value.
+   Call: partial "func/issue-label.html" $issue */ -}}
+{{- $v := printf "%v" . -}}
+{{- $keys := dict
+    "Erosión democrática" "issue_democratic_erosion"
+    "Plataformas" "issue_platforms"
+    "Regulación y tecnología" "issue_regulation_technology"
+    "Violencias" "issue_violence"
+-}}
+{{- $key := index $keys $v -}}
+{{- if $key -}}{{- i18n $key | default $v -}}{{- else -}}{{- $v -}}{{- end -}}

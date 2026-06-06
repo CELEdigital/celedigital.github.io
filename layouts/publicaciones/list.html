@@ -38,10 +38,10 @@
     <nav class="pub-filters" aria-label="{{ i18n "pub_filter_by_topic" }}">
       <span class="pub-filters__label">{{ i18n "pub_topic" }}</span>
       <button type="button" class="pub-filters__btn is-active" data-pub-filter="">{{ i18n "pub_all" }}</button>
-      <button type="button" class="pub-filters__btn" data-pub-filter="Erosión democrática">Erosión democrática</button>
-      <button type="button" class="pub-filters__btn" data-pub-filter="Plataformas">Plataformas</button>
-      <button type="button" class="pub-filters__btn" data-pub-filter="Regulación y tecnología">Regulación y tecnología</button>
-      <button type="button" class="pub-filters__btn" data-pub-filter="Violencias">Violencias</button>
+      <button type="button" class="pub-filters__btn" data-pub-filter="Erosión democrática">{{ partial "func/issue-label.html" "Erosión democrática" }}</button>
+      <button type="button" class="pub-filters__btn" data-pub-filter="Plataformas">{{ partial "func/issue-label.html" "Plataformas" }}</button>
+      <button type="button" class="pub-filters__btn" data-pub-filter="Regulación y tecnología">{{ partial "func/issue-label.html" "Regulación y tecnología" }}</button>
+      <button type="button" class="pub-filters__btn" data-pub-filter="Violencias">{{ partial "func/issue-label.html" "Violencias" }}</button>
     </nav>
     <nav class="pub-filters" aria-label="{{ i18n "pub_filter_by_type" }}">
       <span class="pub-filters__label">{{ i18n "pub_type" }}</span>
@@ -121,7 +121,7 @@
       <div class="pub-featured__body">
         {{ with .Params.issues }}
           <div class="pub-featured__issues">
-            {{ range . }}<span class="pub-featured__issue-tag">{{ . }}</span>{{ end }}
+            {{ range . }}<span class="pub-featured__issue-tag">{{ partial "func/issue-label.html" . }}</span>{{ end }}
           </div>
         {{ end }}
 
@@ -183,7 +183,7 @@
       <div class="pub-item__body">
         {{ with .Params.issues }}
           <div class="pub-item__issues">
-            {{ range . }}<span class="pub-item__issue-tag">{{ . }}</span>{{ end }}
+            {{ range . }}<span class="pub-item__issue-tag">{{ partial "func/issue-label.html" . }}</span>{{ end }}
           </div>
         {{ end }}
 

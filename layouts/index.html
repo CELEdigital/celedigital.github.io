@@ -62,7 +62,9 @@
           {{ end }}
           <div class="home-post-card__body">
             {{ with .Params.issues }}
-              <p class="home-post-card__issues">{{ delimit . " · " }}</p>
+              {{ $labels := slice }}
+              {{ range . }}{{ $labels = $labels | append (partial "func/issue-label.html" .) }}{{ end }}
+              <p class="home-post-card__issues">{{ delimit $labels " · " }}</p>
             {{ end }}
             <h3 class="home-post-card__title">
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>

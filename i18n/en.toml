@@ -142,6 +142,18 @@ other = "policy"
 [tag_sala_de_prensa]
 other = "press room"
 
+[issue_democratic_erosion]
+other = "Democratic erosion"
+
+[issue_platforms]
+other = "Platforms"
+
+[issue_regulation_technology]
+other = "Regulation and technology"
+
+[issue_violence]
+other = "Violence"
+
 [pub_topic]
 other = "Topic"
 

@@ -1,4 +1,10 @@
+{{- /* Localized long date. Renders per the current site language: English on
+   the EN build, Spanish otherwise. (Name kept for its many call sites.) */ -}}
 {{- $t := . -}}
-{{- $months := slice "" "enero" "febrero" "marzo" "abril" "mayo" "junio" "julio" "agosto" "septiembre" "octubre" "noviembre" "diciembre" -}}
-{{- $month := index $months $t.Month -}}
-{{- printf "%d de %s de %d" $t.Day $month $t.Year -}}
+{{- if eq site.Language.Lang "en" -}}
+  {{- $months := slice "" "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" -}}
+  {{- printf "%s %d, %d" (index $months $t.Month) $t.Day $t.Year -}}
+{{- else -}}
+  {{- $months := slice "" "enero" "febrero" "marzo" "abril" "mayo" "junio" "julio" "agosto" "septiembre" "octubre" "noviembre" "diciembre" -}}
+  {{- printf "%d de %s de %d" $t.Day (index $months $t.Month) $t.Year -}}
+{{- end -}}

@@ -38,8 +38,10 @@ file: /files/Compilaciones_I_ESP_02.pdf
 references: ''
 csl: ''
 issues: []
-region: ''
+region: latam
 country: []
-placements: []
+placements:
+  - hub: region/america-latina
+    block: publicaciones
 tags: []
 ---

@@ -5,7 +5,7 @@ slug: actores-privados-con-poder-cuasiestatal
 date: 2026-06-11
 description: ''
 author:
-  - Matias González Mama
+  - Matías González Mama
 content_type:
   - blog
 programs:

@@ -1,34 +1,36 @@
 ---
-author:
-- Lina Palacios
-content_type:
-- blog
-date: '2025-09-02'
-description: “Hermana, yo sí te creo” es una consigna del movimiento feminista que se popularizó
-  en España en reacción al caso de la manada. 
-featured: true
-image: /img/img-02.jpg
-programs:
-- policy
-slug: legisladores-de-la-verdad
-tags:
-- violencia de género en línea
-title: Legisladores de la verdad
 translationKey: wp-15143
-type: posts
+title: Legisladores de la verdad
+slug: legisladores-de-la-verdad
+date: 2025-09-02
+description: “Hermana, yo sí te creo” es una consigna del movimiento feminista que se popularizó en España en reacción al caso de la manada.
+author:
+  - Lina Palacios
+content_type:
+  - blog
+programs:
+  - policy
+featured: true
+newsletter_number: ''
+tagline: ''
+image: /img/img-02.jpg
 issues:
-- Violencias
+  - Violencias
 region: latam
 country:
-- AR
+  - AR
 placements:
-- hub: temas/violencias
-  block: destacado
-- hub: temas/violencias
-  block: ultimas_noticias_analisis
-- hub: region/america-latina
-  block: ultimas_noticias_analisis
+  - hub: temas/violencias
+    block: destacado
+  - hub: temas/violencias
+    block: ultimas_noticias_analisis
+  - hub: region/america-latina
+    block: ultimas_noticias_analisis
+tags:
+  - violencia de género en línea
+type: posts
 ---
+
 # Legisladores de la verdad
 
 “Hermana, yo sí te creo” es una consigna del movimiento feminista que se popularizó en España en reacción al [caso de _la manada_](https://www.elsaltodiario.com/feminismos/concentracion-madrid-juicio-manada), [en el que cinco hombres violaron en grupo a una joven de 18 años](https://www.elsaltodiario.com/feminismos/concentracion-madrid-juicio-manada). A esta frase pareció hacer alusión Carolina Losada, senadora argentina y autora del proyecto de ley que agrava las penas por falsa denuncia, en la [plenaria de seguridad y justicia](https://www.youtube.com/watch?v=baslU0_d1pc) del 4 de junio de 2025, cuando dijo: “tenemos que hacer parar el paradigma de que si sos mujer te creo, solo porque sos mujer. Yo te creo si sos mujer y decís la verdad”. El proyecto de ley del expediente [S-0228/2025](https://www.senado.gob.ar/parlamentario/comisiones/verExp/228.25/S/PL), de autoría de Carolina Losada y firmado por otros cinco senadores, establece modificaciones en los delitos de falsa denuncia y falso testimonio del Código Penal de la Nación. Por un lado, prevé un aumento en las penas; por otro, agrava las conductas en los casos que involucran denuncias por delitos de violencia de género, contra menores de edad o contra la integridad sexual. Los fundamentos del expediente contextualizan la supuesta necesidad de incorporar estas modificaciones en el régimen penal hablando sobre la difusión de denuncias en medios periodísticos y redes sociales, que en muchos casos derivan en _escrache público_. Aluden también a que la presentación de una falsa denuncia por abuso sexual genera una carga muy gravosa para el denunciado, quien además de demostrar que no incurrió en el hecho del que se le acusa se enfrenta a riesgos, como que en [“muchos casos pierda el contacto con sus hijos, ponga en riesgo fuentes laborales y toda una serie de estigmas sociales graves”.](https://www.senado.gob.ar/parlamentario/parlamentaria/486330/downloadPdf) Si bien las falsas denuncias implican problemas diversos, el proyecto de ley erra en su aproximación legislativa y técnica legal, exagera la magnitud del problema y—de ser aprobado—podría impactar de manera negativa en el ejercicio de la libertad de expresión y el acceso a la justicia de personas víctimas de violencia de género, ya que su derecho a expresarse se sometería a una "prueba de verdad" que en términos generales no aplica para el debate de asuntos de interés público.

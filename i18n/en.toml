@@ -10,6 +10,9 @@ other = "Email"
 [byline]
 other = "By"
 
+[originally_published]
+other = "Originally published in"
+
 [language_toggle]
 other = "Language"
 

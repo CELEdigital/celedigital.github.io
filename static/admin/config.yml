@@ -197,6 +197,12 @@ collections:
         required: false
         hint: "Solo para mesas: URL de la página original del evento"
 
+      - label: "Publicado originalmente en"
+        name: "originally_published_in"
+        widget: "string"
+        required: false
+        hint: "Medio donde se publicó originalmente. Admite enlaces Markdown, ej: [Infobae](https://www.infobae.com/...). Muestra una nota bajo la firma."
+
       - label: "Tipo Hugo"
         name: "type"
         widget: "hidden"

@@ -149,6 +149,9 @@
           {{ end }}
           <time class="single-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ partial "date-es.html" .Date }}</time>
         </div>
+        {{ with .Params.originally_published_in }}
+          <p class="single-source-note">{{ i18n "originally_published" }} {{ $.RenderString . }}.</p>
+        {{ end }}
       {{ end }}
       {{ with .OutputFormats.Get "email" }}
         <p class="single-email-link"><a href="{{ .RelPermalink }}">{{ cond (eq $.Lang "es") "Ver versión email" "View email version" }} →</a></p>

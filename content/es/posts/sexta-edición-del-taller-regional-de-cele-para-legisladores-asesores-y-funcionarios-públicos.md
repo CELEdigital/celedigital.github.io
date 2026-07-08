@@ -30,7 +30,7 @@ En el Centro de Estudios en Libertad de Expresión (CELE) de la Universidad de P
 
 Javier Pallero estuvo a cargo del primer módulo y, Mariela Galeazzi y Solciré Previñano, de Amnistía Internacional (sección Argentina), del segundo. 
 
-**El debate sobre la regulación de plataformas digitales**
+#### **El debate sobre la regulación de plataformas digitales**
 
 Javier Pallero invitó a reflexionar críticamente sobre la creciente ola de iniciativas legislativas que buscan restringir el acceso de NNA a las redes sociales. Si bien reconoció las preocupaciones relacionadas con el impacto de las plataformas sobre la salud mental y la privacidad de niños y adolescentes, sostuvo que los modelos prohibitivos ([como la reciente prohibición total adoptada por ](https://www.lasillavacia.com/red-de-expertos/red-de-democracia-y-tecnologia/proteger-sin-vigilar-lecciones-del-eca-digital-de-brasil-para-america-latina/)Australia) son medidas desproporcionadas que generan nuevos riesgos.
 
@@ -46,7 +46,7 @@ Como alternativa, Pallero propuso "elevar el piso de protección" para todas las
 
 Este enfoque prioriza el establecimiento de salvaguardas estructurales por encima de respuestas exclusivamente restrictivas, reconociendo que los niños, niñas y adolescentes son titulares de derechos y que su acceso a la información y la libertad de expresión deben protegerse. Asimismo, advirtió que dichas salvaguardas también deben aplicarse a los mecanismos de verificación o estimación de edad, evitando que estos impliquen la recopilación o el intercambio innecesario de datos personales por parte del Estado o de las empresas, con los consiguientes riesgos para la privacidad.
 
-### **Estándares interamericanos sobre libertad de expresión**
+#### **Estándares interamericanos sobre libertad de expresión**
 
 Mariela Galeazzi y Solsiré Previñano presentaron las garantías que el Sistema Interamericano ha desarrollado en materia de libertad de expresión a partir de la Convención Americana sobre Derechos Humanos y la jurisprudencia de la Corte y la Comisión Interamericana. Uno de los principios centrales fue que las expresiones sobre funcionarios públicos y asuntos de [interés público gozan de una protección reforzada](https://www.oas.org/es/cidh/expresion/informes/marcojuridico2025es.pdf). Esta protección diferenciada responde al papel esencial que desempeña el debate público en una sociedad democrática.
 
@@ -54,7 +54,7 @@ Las expositoras también abordaron el fenómeno de las SLAPP (Strategic Lawsuits
 
 Como ejemplo, se refirieron a las denuncias penales iniciadas por el actual presidente de Argentina contra periodistas, ilustrando cómo los mecanismos legales pueden utilizarse para generar un efecto inhibidor sobre el ejercicio del periodismo y la crítica pública. Asimismo, compartieron recomendaciones para que jueces y operadores jurídicos identifiquen y desestimen tempranamente este tipo de demandas abusivas antes de que produzcan sus efectos intimidatorios.
 
-## **Reflexiones finales de Agustina del Campo**
+#### **Reflexiones finales de Agustina del Campo**
 
 En el cierre del encuentro, nuestra directora  Agustina del Campo señaló que los episodios de alarma social en torno a la tecnología y la juventud históricamente han derivado en restricciones excesivas que terminan perjudicando a quienes buscan proteger. También advirtió sobre la tendencia a confiar en soluciones tecnológicas que prometen resolver problemas sociales complejos, pero generan nuevos riesgos sin abordar sus causas profundas.
 

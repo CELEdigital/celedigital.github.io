@@ -42,11 +42,36 @@
         "name": "Capa de análisis: ",
         "options": ["Objetivo", "Impacto", "Estado", "Tipo"]
       }
+    },
+    {
+      "name": "yearMin",
+      "value": 1874,
+      "bind": {
+        "input": "range",
+        "min": 1874,
+        "max": 2025,
+        "step": 1,
+        "name": "Año desde: "
+      }
+    },
+    {
+      "name": "yearMax",
+      "value": 2025,
+      "bind": {
+        "input": "range",
+        "min": 1874,
+        "max": 2025,
+        "step": 1,
+        "name": "Año hasta: "
+      }
     }
   ],
   "vconcat": [
     {
       "title": "Nivel 1: Leyes/Proyectos -> País",
+      "transform": [
+        { "filter": "!toNumber(datum.anio) || (toNumber(datum.anio) >= yearMin && toNumber(datum.anio) <= yearMax)" }
+      ],
       "width": 700,
       "height": 260,
       "mark": { "type": "rect", "cornerRadius": 4 },
@@ -81,6 +106,7 @@
     {
       "title": "Nivel 2: País + Tipo -> Capa seleccionada por año",
       "transform": [
+        { "filter": "!toNumber(datum.anio) || (toNumber(datum.anio) >= yearMin && toNumber(datum.anio) <= yearMax)" },
         { "filter": { "param": "nivel1", "empty": true } },
         {
           "calculate": "featureField == 'Objetivo' ? datum.objetivo : featureField == 'Impacto' ? datum.impacto : featureField == 'Estado' ? datum.estado : datum.tipo",

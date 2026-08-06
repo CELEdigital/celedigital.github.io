@@ -1,5 +1,5 @@
 ---
-translationKey: ''
+translationKey: isfoedead
 title: Is Freedom of Expression Dead? A Roadmap for Free Speech in the Age of Democratic Backsliding
 slug: is-freedom-of-expression-dead
 date: 2026-08-05

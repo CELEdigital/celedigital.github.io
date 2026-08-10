@@ -96,8 +96,21 @@
   </url><url>
     <loc>http://localhost:1313/es/taller/2013/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/posts/ha-muerto-la-libex/</loc>
+    <lastmod>2026-08-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/is-freedom-of-expression-dead/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/ha-muerto-la-libex/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/posts/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -110,7 +123,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2026-07-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -213,19 +226,6 @@
                 href="http://localhost:1313/es/posts/actores-privados-con-poder-cuasiestatal/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/test2/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/test2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/posts/test2/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/tags/regulaci%C3%B3n/</loc>
     <lastmod>2026-06-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -275,32 +275,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/noticias-cruzando-el-mar/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/posts/flyers/</loc>
-    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/flyers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/posts/flyers/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/tags/violencia-de-g%C3%A9nero/</loc>
-    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/violencia-de-g%C3%A9nero/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/posts/avanzada-autoritaria/</loc>
@@ -1168,6 +1142,19 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/la-violencia-de-genero-en-la-vida-politica-de-la-mujer-colombiana-y-sus-desafios-para-la-libertad-de-expresion/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/tags/violencia-de-g%C3%A9nero/</loc>
+    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/violencia-de-g%C3%A9nero/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/gobernar-mediante-el-acoso-el-dificil-equilibrio-entre-amenazas-ilegales-y-un-gobierno-eficaz/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>

@@ -76,6 +76,12 @@ other = "¿Limita el discurso?"
 [doc_test]
 other = "¿Cumple con todos los elementos del test?"
 
+[doc_test_failed]
+other = "No cumple con el test tripartito"
+
+[doc_test_analysis]
+other = "Análisis del test tripartito"
+
 [doc_search]
 other = "Buscar"
 

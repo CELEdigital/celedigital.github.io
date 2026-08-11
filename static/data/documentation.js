@@ -23,7 +23,8 @@
         distingueOnline: '¿Distingue la expresión online de la offline?',
         intermediarios: '¿Regula intermediarios en internet?',
         limita: '¿Limita el discurso?',
-        test: '¿Cumple con todos los elementos del test?'
+        test: '¿Cumple con todos los elementos del test?',
+        analisis: 'Análisis del test tripartito'
       }
     },
     leyes: {
@@ -46,7 +47,8 @@
         distingueOnline: '¿Distingue la expresión online de la offline?',
         intermediarios: '¿Regula intermediarios en Internet?',
         limita: '¿Limita o promueve el discurso?',
-        test: '¿Cumple con todos los elementos del test?'
+        test: '¿Cumple con todos los elementos del test?',
+        analisis: 'Análisis del test tripartito'
       }
     }
   };
@@ -119,6 +121,62 @@
   const normalize = (value) => {
     if (value === null || value === undefined || value === '') return '';
     return String(value).trim();
+  };
+
+  const normalizeAnalysis = (value) => {
+    const text = String(value === null || value === undefined ? '' : value)
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (!/[\p{L}\p{N}]/u.test(text)) return '';
+    return text;
+  };
+
+  const buildFlag = (text, labels) => {
+    const wrap = document.createElement('span');
+    wrap.className = 'doc-flag';
+
+    const btn = document.createElement('button');
+    btn.className = 'doc-flag__btn';
+    btn.type = 'button';
+    btn.setAttribute('aria-expanded', 'false');
+    btn.setAttribute('aria-label', labels.flag);
+    btn.innerHTML = `
+      <svg class="doc-flag__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M18.3 5.71 12 12l6.3 6.29-1.41 1.42L10.59 13.4 4.3 19.71 2.88 18.3 9.17 12 2.88 5.71 4.3 4.29l6.29 6.3 6.3-6.3z"></path>
+      </svg>`;
+
+    const bubble = document.createElement('span');
+    bubble.className = 'doc-flag__bubble';
+    bubble.setAttribute('role', 'tooltip');
+
+    const title = document.createElement('span');
+    title.className = 'doc-flag__title';
+    title.textContent = labels.analysis;
+
+    const body = document.createElement('span');
+    body.className = 'doc-flag__text';
+    body.textContent = text;
+
+    bubble.appendChild(title);
+    bubble.appendChild(body);
+    wrap.appendChild(btn);
+    wrap.appendChild(bubble);
+    return wrap;
+  };
+
+  // Centre the bubble under the icon, then pull it back if that would run past
+  // either edge of the screen — on narrow columns the icon sits near the margin.
+  const positionBubble = (flag) => {
+    const bubble = flag.querySelector('.doc-flag__bubble');
+    if (!bubble) return;
+    bubble.style.left = '0px';
+    const anchor = flag.getBoundingClientRect();
+    const width = bubble.offsetWidth;
+    const margin = 8;
+    const viewport = document.documentElement.clientWidth;
+    const centred = anchor.left + (anchor.width - width) / 2;
+    const clamped = Math.max(margin, Math.min(centred, viewport - margin - width));
+    bubble.style.left = `${Math.round(clamped - anchor.left)}px`;
   };
 
   const normalizeDatasetFromCharts = (value) => {
@@ -210,6 +268,20 @@
     const syncKey = normalize(root.dataset.docSync);
     const interactive = String(root.dataset.docInteractive || '').toLowerCase() === 'true';
 
+    const flagLabels = {
+      flag: root.dataset.docFlagLabel || 'No cumple con el test tripartito',
+      analysis: root.dataset.docFlagTitle || 'Análisis del test tripartito'
+    };
+
+    const closeFlags = (except) => {
+      rowsContainer.querySelectorAll('.doc-flag.is-open').forEach((flag) => {
+        if (flag === except) return;
+        flag.classList.remove('is-open');
+        const btn = flag.querySelector('.doc-flag__btn');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+      });
+    };
+
     const applyFilters = () => {
       const dataset = datasetSelect.value;
       const fields = datasetConfigs[dataset].fields;
@@ -293,6 +365,13 @@
           <div>${row[fields.year] || ''}</div>
           <div>${row[fields.type] || ''}</div>
         `;
+
+        const analysis = normalizeAnalysis(row[fields.analisis]);
+        const failsTest = normalize(row[fields.test]).toUpperCase() === 'NO';
+        if (analysis && failsTest) {
+          rowEl.querySelector('.doc-title').appendChild(buildFlag(analysis, flagLabels));
+        }
+
         rowsContainer.appendChild(rowEl);
       });
 
@@ -380,6 +459,34 @@
       testSelect
     ].forEach((select) => {
       select.addEventListener('change', applyFilters);
+    });
+
+    rowsContainer.addEventListener('click', (event) => {
+      const btn = event.target.closest('.doc-flag__btn');
+      if (!btn) return;
+      const flag = btn.closest('.doc-flag');
+      const willOpen = !flag.classList.contains('is-open');
+      closeFlags(flag);
+      if (willOpen) positionBubble(flag);
+      flag.classList.toggle('is-open', willOpen);
+      btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+    });
+
+    // Hover and focus reveal the bubble in CSS; place it before it shows.
+    ['mouseover', 'focusin'].forEach((type) => {
+      rowsContainer.addEventListener(type, (event) => {
+        const flag = event.target.closest('.doc-flag');
+        if (flag) positionBubble(flag);
+      });
+    });
+
+    document.addEventListener('click', (event) => {
+      if (event.target.closest('.doc-flag')) return;
+      closeFlags();
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') closeFlags();
     });
 
     searchInput.addEventListener('input', applyFilters);

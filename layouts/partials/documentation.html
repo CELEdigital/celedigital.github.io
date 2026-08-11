@@ -11,6 +11,8 @@
   data-doc-leyes-url="{{ $leyesURL }}"
   data-doc-interactive="{{ if $interactive }}true{{ else }}false{{ end }}"
   data-doc-sync="{{ $sync }}"
+  data-doc-flag-label="{{ i18n "doc_test_failed" }}"
+  data-doc-flag-title="{{ i18n "doc_test_analysis" }}"
 >
   {{ if $showHeader }}
   <div class="documentation-header">

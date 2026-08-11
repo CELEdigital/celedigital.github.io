@@ -76,6 +76,12 @@ other = "Limits speech?"
 [doc_test]
 other = "Meets all elements of the test?"
 
+[doc_test_failed]
+other = "Does not meet the three-part test"
+
+[doc_test_analysis]
+other = "Three-part test analysis"
+
 [doc_search]
 other = "Search"
 

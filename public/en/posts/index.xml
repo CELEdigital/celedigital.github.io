@@ -2,80 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>http://localhost:1313/en/posts/</link>
+    <link>http://localhost:54857/en/posts/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54857/en/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is Freedom of Expression Dead? A Roadmap for Free Speech in the Age of Democratic Backsliding</title>
-      <link>http://localhost:1313/en/posts/is-freedom-of-expression-dead/</link>
+      <link>http://localhost:54857/en/posts/is-freedom-of-expression-dead/</link>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/is-freedom-of-expression-dead/</guid>
+      <guid>http://localhost:54857/en/posts/is-freedom-of-expression-dead/</guid>
       <description>&lt;p&gt;On July 8, 2026, the Center for Studies on Freedom of Expression (CELE) and the Electronic Frontier Foundation (EFF) convened a global panel of experts, diplomats, and advocates to discuss some of the most pressing questions on the state of freedom of expression worldwide. As Agustina Del Campo, CELE’s director, said in her opening remarks, the fact that the conversation was originally scheduled as an in-person session at RightsCon, which was cancelled due to foreign pressure on the Zambian government, is telling of the frail state of freedom of expression worldwide.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Is Freedom of Speech Dead? A Roadmap for the Era of Democratic Erosion</title>
+      <link>http://localhost:54857/en/posts/ha-muerto-la-libex/</link>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:54857/en/posts/ha-muerto-la-libex/</guid>
+      <description>&lt;p&gt;On July 8, 2026, the Center for Studies on Freedom of Expression (CELE) and the Electronic Frontier Foundation (EFF) convened a global panel of experts, diplomats, and human rights advocates to discuss some of the most pressing issues regarding the state of freedom of expression around the world. As Agustina Del Campo, director of CELE, noted in her opening remarks, the fact that the conversation was originally scheduled as an in-person session at RightsCon—an event that was canceled due to foreign pressure on the Zambian government—reflects the fragile state of freedom of expression globally.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Sixth Edition of the CELE Regional Workshop for Legislators, Advisors, and Public Officials</title>
-      <link>http://localhost:1313/en/posts/sexta-edicion-taller-cele/</link>
+      <link>http://localhost:54857/en/posts/sexta-edicion-taller-cele/</link>
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/sexta-edicion-taller-cele/</guid>
+      <guid>http://localhost:54857/en/posts/sexta-edicion-taller-cele/</guid>
       <description>&lt;p&gt;At the Center for the Study of Freedom of Expression (CELE) at the University of Palermo, we held our sixth regional workshop for legislators, legislative advisors, and public officials on June 25, 2026, bringing together a wide range of public policy makers from across Latin America. Matías González Mama, Coordinator of the Latin America Regional Office, opened and moderated the event. The meeting addressed two challenges facing democracies in the digital age through two modules. One focused on regulating children’s and adolescents’ access to social media. The other addressed the growing threat of strategic lawsuits against public participation (SLAPP) targeting journalists and individuals critical of public officials.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Libertarian Paradox: Free Speech and SLAPP Suits in Milei’s Argentina</title>
-      <link>http://localhost:1313/en/posts/la-paradoja-libertaria/</link>
+      <link>http://localhost:54857/en/posts/la-paradoja-libertaria/</link>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/la-paradoja-libertaria/</guid>
+      <guid>http://localhost:54857/en/posts/la-paradoja-libertaria/</guid>
       <description>&lt;p&gt;&lt;em&gt;Originally published in English on&lt;/em&gt; &lt;a href=&#34;https://www.bedrockprinciple.com/p/the-libertarian-paradox-freedom-of&#34;&gt;&lt;em&gt;The Bedrock Principle&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;President Javier Milei came to power promising a radical dismantling of state coercion and championing absolute individual liberty. However, his administration has unleashed a wave of judicial harassment and institutional hostility against the press, highlighting inherent contradictions in his political agenda.&lt;/p&gt;&#xA;&lt;p&gt;In recent years—and accelerated by the post-pandemic landscape—democratic societies have experienced what some define as an &lt;a href=&#34;https://www.eldiarioar.com/opinion/grita-instituciones-hablan_129_12393542.html&#34;&gt;epistemic crisis&lt;/a&gt;: a collapse not only of public trust but also of the collective mechanisms used to validate truth and authority. In Argentina, this crisis has taken a radical turn. For decades, traditional political debates oscillated between a minimal, efficient, and managerial state and a robust, interventionist, and redistributive one. The current government, however, has introduced a narrative that attacks the very legitimacy of the state, branding it a &lt;a href=&#34;https://x.com/ArgMilei/status/1931896815701385308&#34;&gt;criminal organization&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Private Actors with Quasi-State Power? Reflections on CELE’s Involvement with the Max Planck Institute</title>
-      <link>http://localhost:1313/en/posts/actores-privados-con-poder-cuasiestatal/</link>
+      <link>http://localhost:54857/en/posts/actores-privados-con-poder-cuasiestatal/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/actores-privados-con-poder-cuasiestatal/</guid>
+      <guid>http://localhost:54857/en/posts/actores-privados-con-poder-cuasiestatal/</guid>
       <description>&lt;p&gt;CELE participated in the &lt;em&gt;Platform Regulation Conference&lt;/em&gt; organized by the Max Planck Institute. The event featured discussions on the role of online platforms as private actors with quasi-state power and the impact of new regulatory frameworks on human rights.&lt;/p&gt;&#xA;&lt;p&gt;On May 21 and 22, 2026, the international conference “Online Platforms: Private Actors with State-like Power?” was held in Freiburg im Breisgau, Germany._ The event was organized by the Department of Public Law at the &lt;strong&gt;Max Planck Institute for the Study of Crime, Security, and Law&lt;/strong&gt;, under the direction of Ralf Poscher, and coordinated by researchers Marc Bovermann, Daniel Buchmann, and María Diory F. Rabajante. The event brought together a distinguished group of global academics, regulators, and professionals to critically analyze the transformation of technology companies into de facto authorities over public discourse and digital life.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test translation</title>
-      <link>http://localhost:1313/en/posts/test2/</link>
+      <link>http://localhost:54857/en/posts/test2/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/test2/</guid>
+      <guid>http://localhost:54857/en/posts/test2/</guid>
       <description>&lt;p&gt;This should be translated if the scheduling system were working properly. Come on!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Prueba para flyers</title>
-      <link>http://localhost:1313/en/posts/flyers/</link>
+      <link>http://localhost:54857/en/posts/flyers/</link>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/flyers/</guid>
+      <guid>http://localhost:54857/en/posts/flyers/</guid>
       <description>&lt;p&gt;Our study finds that Wikipedia can successfully deal with disagreement over the trustworthiness of sources in contexts of political polarization. We believe that three affordances of Wikipedia are likely responsible. First, that it is a true online community, one that relies on shared values linked to the encyclopedic nature of the project [@gonzalezmama2023]. Second, that its users form a social hierarchy in which social capital is unequally distributed and those who have committed time and effort to the collective endeavor are often acknowledged a higher status followed by heightened editing privileges and prerogatives [@benkler2006, 396; @oneil2011]. Third, that defining what is trustworthy or not depends on a rather nuanced principle on reliable sources, that makes discussing what is reliable or not possible and fruitful ^[@wiki_reliable. We thank this observation to Vladimir Garay.]. We find strong evidence of the relevance of the first element&amp;mdash;present in the discussion pages we analyzed&amp;mdash;and somewhat weaker evidence of the second one, where there is no significant correlation between editing participation and enjoying high editing privileges.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test</title>
-      <link>http://localhost:1313/en/posts/test1/</link>
+      <link>http://localhost:54857/en/posts/test1/</link>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/test1/</guid>
+      <guid>http://localhost:54857/en/posts/test1/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>IACHR hearing on freedom of expression</title>
-      <link>http://localhost:1313/en/posts/hearing-iachr/</link>
+      <link>http://localhost:54857/en/posts/hearing-iachr/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/hearing-iachr/</guid>
+      <guid>http://localhost:54857/en/posts/hearing-iachr/</guid>
       <description>&lt;p&gt;Different civil society organizations, union representatives and delegates of the Argentine State participated on November 19 in the hearing on the situation of freedom of expression in Argentina convened by the Inter-American Commission on Human Rights. The session is the result of two requests promoted by civil society organizations, academia and experts. CELE was one of the organizations that supported the request made by the Argentine Journalism Forum (FOPEA).&lt;/p&gt;&#xA;&lt;p&gt;The participating organizations denounced a rapid and pronounced deterioration in the conditions for journalistic practice in Argentina.  They pointed out a significant increase in attacks against journalists, ranging from internet violence and harassment to physical violence, and many times carried out by public authorities. CELE had already highlighted and analyzed this situation, also noted in the most recent report of the Office of the Special Rapporteur for Freedom of Expression (RELE) of the Inter-American Commission on Human Rights.  FOPEA described as “narratives of hate and misinformation” the ongoing patterns of attacks by public government officials, used strategically for silencing through the restriction of public debate, especially by President Javier Milei, who stated, on repeated occasions, that “we do not hate journalists enough.”&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data Access for Researchers</title>
-      <link>http://localhost:1313/en/posts/data-access-for-researchers/</link>
+      <link>http://localhost:54857/en/posts/data-access-for-researchers/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/data-access-for-researchers/</guid>
+      <guid>http://localhost:54857/en/posts/data-access-for-researchers/</guid>
       <description>&lt;p&gt;On 2 July 2025, the European Commission adopted delegated legislation relating to data access for researchers under Article 40(4) of the Digital Services Act (DSA). This is a long-awaited milestone; a rule that, if successfully implemented, could allow access to a large amount of information about the operation of online platforms that remains outside public knowledge to date. At CELE we have been following this conversation for some time and have participated - together with InternetLab - in the consultation process with comments on a preliminary version of this regulation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Legislators of the Truth</title>
-      <link>http://localhost:1313/en/posts/legisladores-de-la-verdad/</link>
+      <link>http://localhost:54857/en/posts/legisladores-de-la-verdad/</link>
       <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/legisladores-de-la-verdad/</guid>
+      <guid>http://localhost:54857/en/posts/legisladores-de-la-verdad/</guid>
       <description>&lt;h1 id=&#34;legislators-of-truth&#34;&gt;Legislators of Truth&lt;/h1&gt;&#xA;&lt;p&gt;“Sister, I do believe you” is a slogan from the feminist movement that gained popularity in Spain in response to &lt;a href=&#34;https://www.elsaltodiario.com/feminismos/concentracion-madrid-juicio-manada&#34;&gt;the “La Manada” case&lt;/a&gt;, &lt;a href=&#34;https://www.elsaltodiario.com/feminismos/concentracion-madrid-juicio-manada&#34;&gt;in which five men gang-raped an 18-year-old woman&lt;/a&gt;. Carolina Losada, an Argentine senator and author of the bill that increases penalties for false accusations, appeared to allude to this phrase during the &lt;a href=&#34;https://www.youtube.com/watch?v=baslU0_d1pc&#34;&gt;plenary session on security and justice&lt;/a&gt; on June 4, 2025, when she said: “We have to put an end to the paradigm that ‘if you’re a woman, I believe you’ just because you’re a woman. I believe you if you’re a woman and you’re telling the truth.” The bill, file number &lt;a href=&#34;https://www.senado.gob.ar/parlamentario/comisiones/verExp/228.25/S/PL&#34;&gt;S-0228/2025&lt;/a&gt;, authored by Carolina Losada and co-sponsored by five other senators, establishes amendments to the offenses of false reporting and perjury in the National Penal Code. On the one hand, it provides for increased penalties; on the other, it imposes harsher penalties for offenses involving allegations of gender-based violence, crimes against minors, or sexual assault. The explanatory memorandum contextualizes the alleged need to incorporate these amendments into the criminal justice system by addressing the dissemination of allegations in the media and on social media, which in many cases leads to “public shaming.” They also note that filing a false complaint of sexual abuse places a very heavy burden on the accused, who, in addition to having to prove that they did not commit the act of which they are accused, faces risks such as &lt;a href=&#34;https://www.senado.gob.ar/parlamentario/parlamentaria/486330/downloadPdf&#34;&gt;“in many cases losing contact with their children, jeopardizing their employment and facing a whole series of serious social stigmas.”&lt;/a&gt; While false accusations pose various problems, the bill takes a flawed legislative and legal approach, exaggerates the magnitude of the problem, and—if passed—could negatively impact the exercise of freedom of expression and access to justice for victims of gender-based violence, since their right to express themselves would be subject to a “truth test” that generally does not apply to the debate of matters of public interest.&lt;/p&gt;</description>
     </item>
   </channel>

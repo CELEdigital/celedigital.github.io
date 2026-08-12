@@ -178,6 +178,9 @@ other = "Período"
 [pub_all]
 other = "Todos"
 
+[pub_index]
+other = "Índice completo"
+
 [pub_featured]
 other = "Publicación destacada"
 

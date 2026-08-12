@@ -1,0 +1,54 @@
+{{- /* Highwire Press metadata for Google Scholar.
+
+  Scholar reads these tags off the landing page to index it as a paper. CELE's
+  publications are working papers and reports, not journal articles, so they
+  carry the citation_technical_report_* pair rather than citation_journal_title
+  — claiming to be a journal makes Scholar mis-classify the record.
+
+  Keep at most one tag per field (citation_author is the exception) and keep the
+  values identical to what the PDF's first page says: Scholar cross-checks them
+  and drops records that disagree. */ -}}
+
+{{- $pdf := "" -}}
+{{- with .Params.file -}}
+  {{- $pdf = . | absURL -}}
+{{- else -}}
+  {{- with .Params.link -}}
+    {{- if strings.HasSuffix (lower .) ".pdf" -}}{{- $pdf = . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $report := .Params.reference -}}
+{{- with .Params.reference_value -}}
+  {{- $report = printf "%s No. %s" $report . -}}
+{{- end -}}
+
+{{- $language := "" -}}
+{{- with .Params.language -}}
+  {{- if eq . "ESP" -}}{{- $language = "es" -}}{{- else if eq . "ENG" -}}{{- $language = "en" -}}{{- end -}}
+{{- end -}}
+
+<meta name="citation_title" content="{{ .Title }}">
+{{- range .Params.author }}
+<meta name="citation_author" content="{{ . }}">
+{{- end }}
+{{- if not .Date.IsZero }}
+<meta name="citation_publication_date" content="{{ .Date.Format "2006/01/02" }}">
+{{- end }}
+<meta name="citation_technical_report_institution" content="Centro de Estudios en Libertad de Expresión (CELE), Universidad de Palermo">
+{{- with $report }}
+<meta name="citation_technical_report_number" content="{{ . }}">
+{{- end }}
+{{- with $pdf }}
+<meta name="citation_pdf_url" content="{{ . }}">
+{{- end }}
+<meta name="citation_abstract_html_url" content="{{ .Permalink }}">
+{{- with $language }}
+<meta name="citation_language" content="{{ . }}">
+{{- end }}
+{{- with .Params.doi }}
+<meta name="citation_doi" content="{{ . }}">
+{{- end }}
+{{- with .Params.issues }}
+<meta name="citation_keywords" content="{{ delimit . "; " }}">
+{{- end }}

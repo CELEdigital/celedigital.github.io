@@ -178,6 +178,9 @@ other = "Period"
 [pub_all]
 other = "All"
 
+[pub_index]
+other = "Full index"
+
 [pub_featured]
 other = "Featured publication"
 

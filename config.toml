@@ -1,7 +1,9 @@
 theme = "basic"
-baseURL = "http://celedigital.github.io/"
+baseURL = "https://celedigital.github.io/"
+title = "CELE"
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = true
+enableRobotsTXT = true
 
 [markup]
   [markup.goldmark]

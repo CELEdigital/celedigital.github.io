@@ -23,6 +23,17 @@
 }}
 {{ $css := $styles | resources.Concat "css/style.css" | minify }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{{- if .IsPage }}
+<link rel="canonical" href="{{ .Permalink }}">
+{{- end }}
+{{- if eq .Section "publicaciones" }}
+{{- $summary := .Params.abstract | default .Params.description -}}
+{{- if not $summary }}{{ $summary = .Plain | plainify }}{{ end }}
+{{- with $summary }}
+<meta name="description" content="{{ . | plainify | replaceRE `\s+` " " | truncate 300 }}">
+{{- end }}
+{{ partial "scholar-meta.html" . }}
+{{- end }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 <script src="{{ "data/documentation.js" | relURL }}" defer></script>
 <script src="{{ "data/documentation-ai.js" | relURL }}" defer></script>

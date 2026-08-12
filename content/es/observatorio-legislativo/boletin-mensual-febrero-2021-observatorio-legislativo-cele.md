@@ -22,6 +22,7 @@ tags: [institucional]
 title: Boletín Mensual Febrero 2021 Observatorio Legislativo CELE
 translationKey: wp-8348
 type: posts
+newsletter_series: observatorio
 ---
 
 ### Boletín Mensual Febrero 2021

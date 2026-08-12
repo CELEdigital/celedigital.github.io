@@ -17,6 +17,7 @@ title: 'Noticias cruzando el mar #5'
 translationKey: wp-14377
 type: posts
 region: global
+newsletter_series: noticias-cruzando-el-mar
 ---
 ## **Noticias cruzando el mar #5**:
 

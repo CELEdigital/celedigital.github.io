@@ -13,6 +13,7 @@ tags: [institucional]
 title: Boletín Mensual Mayo 2021
 translationKey: wp-8721
 type: posts
+newsletter_series: observatorio
 ---
 
 ## **Observatorio Legislativo CELE**

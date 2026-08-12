@@ -18,14 +18,16 @@
     {{ if eq .Params.featured true }}
       {{ $dominated = true }}
     {{ end }}
-    {{/* Exclude mesa and newsletter_dsa content types */}}
+    {{/* Exclude mesas y newsletters. `newsletter_series` cubre las entregas
+         nuevas cualquiera sea su content_type; `newsletter_dsa` queda por
+         compatibilidad con los archivos importados de WordPress. */}}
     {{ $ctypeRaw := .Params.content_type }}
     {{ $ctypeList := slice }}
     {{ if $ctypeRaw }}
       {{ if reflect.IsSlice $ctypeRaw }}{{ $ctypeList = $ctypeRaw }}
       {{ else }}{{ $ctypeList = slice $ctypeRaw }}{{ end }}
     {{ end }}
-    {{ if or (in $ctypeList "mesa") (in $ctypeList "newsletter_dsa") }}
+    {{ if or (in $ctypeList "mesa") (in $ctypeList "newsletter_dsa") .Params.newsletter_series (eq .Section "noticias-cruzando-el-mar") }}
       {{ $dominated = true }}
     {{ end }}
     {{/* Exclude observatory and gobernanza content unless ultimas_publicaciones: true */}}

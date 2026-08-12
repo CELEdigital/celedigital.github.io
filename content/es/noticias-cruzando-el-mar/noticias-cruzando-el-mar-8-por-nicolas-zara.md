@@ -26,6 +26,7 @@ placements:
 - hub: temas/amenazas
   block: ultimas_noticias_analisis
   weight: 1
+newsletter_series: noticias-cruzando-el-mar
 ---
 # **Noticias cruzando el mar #8**:
 

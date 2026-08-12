@@ -213,3 +213,24 @@ other = "View on SSRN →"
 
 [home_view_all]
 other = "View all"
+
+[obs_mes_titulo]
+other = "Legislative Observatory"
+
+[obs_mes_proyectos]
+other = "bills"
+
+[obs_mes_leyes]
+other = "laws"
+
+[obs_mes_limitan]
+other = "limit speech"
+
+[obs_mes_promueven]
+other = "promote speech"
+
+[obs_mes_test_no]
+other = "fail the three-part test"
+
+[obs_mes_vacio]
+other = "No records for this period."

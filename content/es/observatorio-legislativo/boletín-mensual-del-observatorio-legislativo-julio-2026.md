@@ -6,10 +6,8 @@ date: 2026-08-12
 description: Última edición
 author:
   - CELE
-content_type:
-  - boletin
-programs:
-  - policy
+content_type: boletin
+programs: policy
 type: posts
 featured: true
 outputs:

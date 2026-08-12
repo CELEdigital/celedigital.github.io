@@ -366,13 +366,6 @@ main.container:has(.publicaciones-hub__header) {
   color: #fff;
 }
 
-/* ── Load more button ────────────────────────────────────── */
-.publicaciones-load-more-wrap {
-  display: flex;
-  justify-content: center;
-  padding: 2rem 0 1rem;
-}
-
 /* ── Publicación destacada ─────────────────────────────── */
 .pub-featured {
   margin-bottom: 3rem;

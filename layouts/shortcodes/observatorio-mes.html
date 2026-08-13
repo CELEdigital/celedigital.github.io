@@ -11,128 +11,44 @@ Parámetros:
   from/to  "YYYY-MM-DD" inclusive; se ignoran si hay month
   dataset  ambos (default) | proyectos | leyes
   title    sobrescribe el encabezado
+
+El cálculo vive en partials/func/observatorio-mes-stats.html; acá sólo se arma
+el marcado. La variante para email está en observatorio-mes.email.html.
 */ -}}
 
-{{- $month := .Get "month" | default "" -}}
-{{- $from := .Get "from" | default "" -}}
-{{- $to := .Get "to" | default "" -}}
-{{- $dataset := lower (.Get "dataset" | default "ambos") -}}
-{{- $isES := ne site.Language.Lang "en" -}}
+{{- $stats := partial "func/observatorio-mes-stats.html" (dict
+      "month" (.Get "month")
+      "from" (.Get "from")
+      "to" (.Get "to")
+      "dataset" (.Get "dataset")
+      "isES" (ne site.Language.Lang "en")
+      "position" .Position) -}}
 
-{{- /* ── Resolver el período ── */ -}}
-{{- $label := "" -}}
-{{- if $month -}}
-  {{- if not (findRE `^\d{4}-(0[1-9]|1[0-2])$` $month) -}}
-    {{- errorf "observatorio-mes: month debe ser \"YYYY-MM\", se recibió %q en %s" $month .Position -}}
-  {{- end -}}
-  {{- $start := time.AsTime (printf "%s-01" $month) -}}
-  {{- $end := $start.AddDate 0 1 -1 -}}
-  {{- $from = $start.Format "2006-01-02" -}}
-  {{- $to = $end.Format "2006-01-02" -}}
-  {{- $months := cond $isES
-      (slice "" "enero" "febrero" "marzo" "abril" "mayo" "junio" "julio" "agosto" "septiembre" "octubre" "noviembre" "diciembre")
-      (slice "" "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December") -}}
-  {{- $label = printf "%s %d" (index $months $start.Month) $start.Year -}}
-{{- else -}}
-  {{- if not (and $from $to) -}}
-    {{- errorf "observatorio-mes: se requiere month=\"YYYY-MM\" o from/to en %s" .Position -}}
-  {{- end -}}
-  {{- range $d := slice $from $to -}}
-    {{- if not (findRE `^\d{4}-\d{2}-\d{2}$` $d) -}}
-      {{- errorf "observatorio-mes: from/to deben ser \"YYYY-MM-DD\", se recibió %q en %s" $d $.Position -}}
-    {{- end -}}
-  {{- end -}}
-  {{- if gt $from $to -}}
-    {{- errorf "observatorio-mes: from (%s) es posterior a to (%s) en %s" $from $to .Position -}}
-  {{- end -}}
-  {{- $label = printf "%s – %s" (partial "date-es.html" (time.AsTime $from)) (partial "date-es.html" (time.AsTime $to)) -}}
-{{- end -}}
-
-{{- /* ── Configuración por dataset ── */ -}}
-{{- $testCol := "¿Cumple con todos los elementos del test?" -}}
-{{- $sources := slice -}}
-{{- if or (eq $dataset "ambos") (eq $dataset "both") (eq $dataset "proyectos") -}}
-  {{- $sources = $sources | append (dict
-      "kind" "proyectos"
-      "path" "static/data/proyectos_clean.csv"
-      "date" "Fecha de entrada"
-      "impact" "¿Limita el discurso?") -}}
-{{- end -}}
-{{- if or (eq $dataset "ambos") (eq $dataset "both") (eq $dataset "leyes") -}}
-  {{- $sources = $sources | append (dict
-      "kind" "leyes"
-      "path" "static/data/leyes_clean.csv"
-      "date" "Fecha de sanción"
-      "impact" "¿Limita o promueve el discurso?") -}}
-{{- end -}}
-{{- if not $sources -}}
-  {{- errorf "observatorio-mes: dataset debe ser ambos|proyectos|leyes, se recibió %q en %s" $dataset .Position -}}
-{{- end -}}
-
-{{- /* ── Filtrar y contar ── */ -}}
-{{- $totals := dict -}}
-{{- $countries := dict -}}
-{{- $limita := 0 -}}
-{{- $promueve := 0 -}}
-{{- $failTest := 0 -}}
-{{- $grand := 0 -}}
-
-{{- range $src := $sources -}}
-  {{- $rows := partialCached "func/observatorio-data.html" $src.path $src.path -}}
-  {{- $n := 0 -}}
-  {{- range $row := $rows -}}
-    {{- $d := index $row $src.date -}}
-    {{- /* Hay una fila en leyes con fecha "23/032018": se descarta en silencio */ -}}
-    {{- if and (findRE `^\d{4}-\d{2}-\d{2}$` $d) (ge $d $from) (le $d $to) -}}
-      {{- $n = add $n 1 -}}
-      {{- $c := trim (index $row "País") " " -}}
-      {{- if $c -}}
-        {{- $countries = merge $countries (dict $c (add (int (index $countries $c | default 0)) 1)) -}}
-      {{- end -}}
-      {{- $imp := trim (index $row $src.impact) " " -}}
-      {{- if eq $imp "Limita" -}}{{- $limita = add $limita 1 -}}{{- end -}}
-      {{- if eq $imp "Promueve" -}}{{- $promueve = add $promueve 1 -}}{{- end -}}
-      {{- if eq (upper (trim (index $row $testCol) " ")) "NO" -}}{{- $failTest = add $failTest 1 -}}{{- end -}}
-    {{- end -}}
-  {{- end -}}
-  {{- $totals = merge $totals (dict $src.kind $n) -}}
-  {{- $grand = add $grand $n -}}
-{{- end -}}
-
-{{- /* Países ordenados por cantidad descendente */ -}}
-{{- $ranked := slice -}}
-{{- range $name, $count := $countries -}}
-  {{- $ranked = $ranked | append (dict "name" $name "count" $count) -}}
-{{- end -}}
-{{- $ranked = sort $ranked "count" "desc" -}}
-{{- $max := 0 -}}
-{{- if $ranked -}}{{- $max = (index $ranked 0).count -}}{{- end -}}
-
-{{- $heading := .Get "title" | default (printf "%s · %s" $label (i18n "obs_mes_titulo")) -}}
+{{- $heading := .Get "title" | default (printf "%s · %s" $stats.label (i18n "obs_mes_titulo")) -}}
 
 <figure class="obs-mes">
   <figcaption class="obs-mes__head">{{ $heading }}</figcaption>
 
-  {{- if eq $grand 0 }}
+  {{- if eq $stats.grand 0 }}
   <p class="obs-mes__empty">{{ i18n "obs_mes_vacio" }}</p>
   {{- else }}
 
   <div class="obs-mes__totals">
-    {{- range $src := $sources }}
+    {{- range $stats.totals }}
     <div class="obs-mes__total">
-      <span class="obs-mes__total-n">{{ index $totals $src.kind }}</span>
-      <span class="obs-mes__total-label">{{ i18n (printf "obs_mes_%s" $src.kind) }}</span>
+      <span class="obs-mes__total-n">{{ .count }}</span>
+      <span class="obs-mes__total-label">{{ .label }}</span>
     </div>
     {{- end }}
   </div>
 
-  {{- with $ranked }}
+  {{- with $stats.countries }}
   <ul class="obs-mes__countries">
     {{- range . }}
     <li class="obs-mes__country">
       <span class="obs-mes__country-name">{{ .name }}</span>
       <span class="obs-mes__bar" aria-hidden="true">
-        <span class="obs-mes__bar-fill" style="width: {{ math.Round (mul (div (float .count) $max) 100) }}%"></span>
+        <span class="obs-mes__bar-fill" style="width: {{ .pct }}%"></span>
       </span>
       <span class="obs-mes__country-n">{{ .count }}</span>
     </li>
@@ -141,9 +57,9 @@ Parámetros:
   {{- end }}
 
   <p class="obs-mes__impact">
-    <span class="obs-mes__impact-item">{{ $limita }} {{ i18n "obs_mes_limitan" }}</span>
-    <span class="obs-mes__impact-item">{{ $promueve }} {{ i18n "obs_mes_promueven" }}</span>
-    <span class="obs-mes__impact-item obs-mes__impact-item--flag">{{ $failTest }} {{ i18n "obs_mes_test_no" }}</span>
+    <span class="obs-mes__impact-item">{{ $stats.limita }} {{ i18n "obs_mes_limitan" }}</span>
+    <span class="obs-mes__impact-item">{{ $stats.promueve }} {{ i18n "obs_mes_promueven" }}</span>
+    <span class="obs-mes__impact-item obs-mes__impact-item--flag">{{ $stats.failTest }} {{ i18n "obs_mes_test_no" }}</span>
   </p>
   {{- end }}
 </figure>

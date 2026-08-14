@@ -1,39 +1,38 @@
 ---
 translationKey: isfoedead
-title: Is Freedom of Speech Dead? A Roadmap for the Era of Democratic Erosion
+title: Is Freedom of Expression Dead? A Roadmap for the Era of Democratic Erosion
 slug: ha-muerto-la-libex
 date: 2026-08-05
-description: 'Key takeaways from our joint virtual panel with EFF: UN Special Rapporteur
-  Irene Khan and digital rights experts discuss how democratic backsliding and tech
-  monopolies are transforming freedom of expression around the world'
+description: 'Key takeaways from our joint virtual panel with EFF: UN Special Rapporteur Irene Khan and digital rights experts discuss how democratic backsliding and tech monopolies are transforming freedom of expression around the world'
 author:
-- Nicolás Zara
-- David Greene
+  - Nicolás Zara
+  - David Greene
 content_type:
-- blog
+  - blog
 programs:
-- policy
+  - policy
 featured: true
 outputs:
-- html
+  - html
+newsletter_series: ''
 newsletter_number: ''
 tagline: ''
 image: /img/HMOxHTvXUAEdG2Q.jpg
 issues:
-- Erosión democrática
-- Plataformas
-- Regulación y tecnología
+  - Erosión democrática
+  - Plataformas
+  - Regulación y tecnología
 region: ''
 country: []
 placements:
-- hub: temas/erosion-democratica
-  block: ultimas_noticias_analisis
-- hub: temas/plataformas
-  block: ultimas_noticias_analisis
-- hub: temas/regulacion-y-tecnologia
-  block: ultimas_noticias_analisis
-- hub: region/global
-  block: ultimas_noticias_analisis
+  - hub: temas/erosion-democratica
+    block: ultimas_noticias_analisis
+  - hub: temas/plataformas
+    block: ultimas_noticias_analisis
+  - hub: temas/regulacion-y-tecnologia
+    block: ultimas_noticias_analisis
+  - hub: region/global
+    block: ultimas_noticias_analisis
 tags: []
 source_url: ''
 originally_published_in: ''

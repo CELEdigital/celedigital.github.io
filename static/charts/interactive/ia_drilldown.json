@@ -42,11 +42,36 @@
         "name": "Capa de análisis: ",
         "options": ["Tema", "Test tripartito", "Estado", "Sanciones"]
       }
+    },
+    {
+      "name": "yearMin",
+      "value": 2023,
+      "bind": {
+        "input": "range",
+        "min": 2023,
+        "max": 2025,
+        "step": 1,
+        "name": "Año desde: "
+      }
+    },
+    {
+      "name": "yearMax",
+      "value": 2025,
+      "bind": {
+        "input": "range",
+        "min": 2023,
+        "max": 2025,
+        "step": 1,
+        "name": "Año hasta: "
+      }
     }
   ],
   "vconcat": [
     {
       "title": "Nivel 1: Leyes/Proyectos -> País",
+      "transform": [
+        { "filter": "!toNumber(datum.anio) || (toNumber(datum.anio) >= yearMin && toNumber(datum.anio) <= yearMax)" }
+      ],
       "width": 700,
       "height": 260,
       "mark": { "type": "rect", "cornerRadius": 4 },
@@ -81,6 +106,7 @@
     {
       "title": "Nivel 2: País + Tipo -> Capa seleccionada por año",
       "transform": [
+        { "filter": "!toNumber(datum.anio) || (toNumber(datum.anio) >= yearMin && toNumber(datum.anio) <= yearMax)" },
         { "filter": { "param": "nivel1", "empty": true } },
         {
           "calculate": "featureField == 'Tema' ? datum.objetivo : featureField == 'Test tripartito' ? datum.impacto : featureField == 'Estado' ? datum.estado : datum.sanciones",

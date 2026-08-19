@@ -22,6 +22,7 @@ tags: [institucional]
 title: Boletín Mensual Marzo 2021 Observatorio Legislativo CELE
 translationKey: wp-8421
 type: posts
+newsletter_series: observatorio
 ---
 
 Novedades de la actividad legislativa y regulatoria, decisiones judiciales y administrativas. **Argentina**

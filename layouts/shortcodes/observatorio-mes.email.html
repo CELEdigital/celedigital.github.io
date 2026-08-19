@@ -1,0 +1,85 @@
+{{- /*
+Variante para la salida `email` del shortcode observatorio-mes.
+
+Hugo elige esta plantilla al renderizar el output format "email"; la del sitio
+(observatorio-mes.html) sigue usándose para la web. Existe por separado porque
+el email no carga la hoja de estilos: acá todo va en tablas y estilos inline,
+sin flex ni grid, que es lo único que interpretan los clientes de correo.
+
+Los números salen del mismo partial que la versión web, así que ambas no pueden
+desincronizarse.
+*/ -}}
+
+{{- $stats := partial "func/observatorio-mes-stats.html" (dict
+      "month" (.Get "month")
+      "from" (.Get "from")
+      "to" (.Get "to")
+      "dataset" (.Get "dataset")
+      "isES" (ne site.Language.Lang "en")
+      "position" .Position) -}}
+
+{{- $heading := .Get "title" | default (printf "%s · %s" $stats.label (i18n "obs_mes_titulo")) -}}
+{{- $sans := "'Fira Sans', Arial, Helvetica, sans-serif" -}}
+{{- $display := "Jost, Arial, Helvetica, sans-serif" -}}
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse; border:1px solid #dddddd; background-color:#ffffff; margin:24px 0;">
+  <tr>
+    <td style="padding:14px 18px; border-bottom:1px solid #eeeeee; font-family:{{ $display }}; font-size:12px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#666666;">{{ $heading }}</td>
+  </tr>
+  {{- if eq $stats.grand 0 }}
+  <tr>
+    <td style="padding:16px 18px; font-family:{{ $sans }}; font-size:14px; font-style:italic; color:#666666;">{{ i18n "obs_mes_vacio" }}</td>
+  </tr>
+  {{- else }}
+  <tr>
+    <td style="padding:18px;">
+
+      <!-- Totales -->
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse; margin:0 0 18px;">
+        <tr>
+          {{- range $stats.totals }}
+          <td style="padding:0 34px 0 0; font-family:{{ $display }}; white-space:nowrap;">
+            <span style="font-size:30px; font-weight:700; color:#1a1a1a;">{{ .count }}</span>
+            <span style="font-size:14px; color:#666666;">&nbsp;{{ .label }}</span>
+          </td>
+          {{- end }}
+        </tr>
+      </table>
+
+      {{- with $stats.countries }}
+      <!-- Países -->
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse;">
+        {{- range . }}
+        <tr>
+          <td width="130" style="width:130px; padding:4px 10px 4px 0; font-family:{{ $sans }}; font-size:13px; color:#333333;">{{ .name }}</td>
+          <td style="padding:4px 0;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse;">
+              <tr>
+                <td width="{{ .pct }}%" height="9" style="width:{{ .pct }}%; height:9px; background-color:#ad2b25; font-size:0; line-height:0;">&nbsp;</td>
+                {{- if lt .pct 100.0 }}
+                <td height="9" style="height:9px; background-color:#f0f0f0; font-size:0; line-height:0;">&nbsp;</td>
+                {{- end }}
+              </tr>
+            </table>
+          </td>
+          <td width="40" align="right" style="width:40px; padding:4px 0 4px 10px; font-family:{{ $sans }}; font-size:13px; color:#333333; text-align:right;">{{ .count }}</td>
+        </tr>
+        {{- end }}
+      </table>
+      {{- end }}
+
+      <!-- Impacto -->
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse; margin:16px 0 0; border-top:1px solid #eeeeee;">
+        <tr>
+          <td style="padding:12px 0 0; font-family:{{ $sans }}; font-size:13px; color:#666666;">
+            {{ $stats.limita }} {{ i18n "obs_mes_limitan" }}
+            &nbsp;&nbsp;·&nbsp;&nbsp;{{ $stats.promueve }} {{ i18n "obs_mes_promueven" }}
+            &nbsp;&nbsp;·&nbsp;&nbsp;<span style="color:#D7263D;">{{ $stats.failTest }} {{ i18n "obs_mes_test_no" }}</span>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+  {{- end }}
+</table>

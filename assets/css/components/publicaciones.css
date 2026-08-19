@@ -366,13 +366,6 @@ main.container:has(.publicaciones-hub__header) {
   color: #fff;
 }
 
-/* ── Load more button ────────────────────────────────────── */
-.publicaciones-load-more-wrap {
-  display: flex;
-  justify-content: center;
-  padding: 2rem 0 1rem;
-}
-
 /* ── Publicación destacada ─────────────────────────────── */
 .pub-featured {
   margin-bottom: 3rem;
@@ -578,5 +571,74 @@ main.container:has(.publicaciones-hub__header) {
   .pub-featured__media {
     width: 60%;
     max-width: 240px;
+  }
+}
+
+/* ── Índice completo ──
+   Plain always-visible list of every publication, so crawlers (and readers who
+   don't want the load-more grid) can reach each paper in one hop. */
+.pub-index {
+  margin-top: 3.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--neutral-300);
+}
+
+.pub-index__title {
+  margin: 0 0 1.5rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--neutral-600);
+}
+
+.pub-index__year {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--neutral-200);
+}
+
+.pub-index__year-label {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--cele);
+}
+
+.pub-index__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.pub-index__item {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.pub-index__link {
+  color: var(--text-dark);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.pub-index__link:hover,
+.pub-index__link:focus-visible {
+  border-bottom-color: var(--cele);
+}
+
+.pub-index__author {
+  display: block;
+  color: var(--neutral-600);
+  font-size: 0.82rem;
+}
+
+@media (max-width: 600px) {
+  .pub-index__year {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
   }
 }

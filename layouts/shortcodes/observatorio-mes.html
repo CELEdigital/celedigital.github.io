@@ -1,0 +1,65 @@
+{{- /*
+Resumen de un período del Observatorio Legislativo, resuelto en tiempo de build.
+
+Uso:
+  {{< observatorio-mes month="2025-06" >}}
+  {{< observatorio-mes from="2025-04-01" to="2025-06-30" >}}
+  {{< observatorio-mes month="2025-06" dataset="proyectos" >}}
+
+Parámetros:
+  month    "YYYY-MM" — deriva from/to al primer y último día del mes
+  from/to  "YYYY-MM-DD" inclusive; se ignoran si hay month
+  dataset  ambos (default) | proyectos | leyes
+  title    sobrescribe el encabezado
+
+El cálculo vive en partials/func/observatorio-mes-stats.html; acá sólo se arma
+el marcado. La variante para email está en observatorio-mes.email.html.
+*/ -}}
+
+{{- $stats := partial "func/observatorio-mes-stats.html" (dict
+      "month" (.Get "month")
+      "from" (.Get "from")
+      "to" (.Get "to")
+      "dataset" (.Get "dataset")
+      "isES" (ne site.Language.Lang "en")
+      "position" .Position) -}}
+
+{{- $heading := .Get "title" | default (printf "%s · %s" $stats.label (i18n "obs_mes_titulo")) -}}
+
+<figure class="obs-mes">
+  <figcaption class="obs-mes__head">{{ $heading }}</figcaption>
+
+  {{- if eq $stats.grand 0 }}
+  <p class="obs-mes__empty">{{ i18n "obs_mes_vacio" }}</p>
+  {{- else }}
+
+  <div class="obs-mes__totals">
+    {{- range $stats.totals }}
+    <div class="obs-mes__total">
+      <span class="obs-mes__total-n">{{ .count }}</span>
+      <span class="obs-mes__total-label">{{ .label }}</span>
+    </div>
+    {{- end }}
+  </div>
+
+  {{- with $stats.countries }}
+  <ul class="obs-mes__countries">
+    {{- range . }}
+    <li class="obs-mes__country">
+      <span class="obs-mes__country-name">{{ .name }}</span>
+      <span class="obs-mes__bar" aria-hidden="true">
+        <span class="obs-mes__bar-fill" style="width: {{ .pct }}%"></span>
+      </span>
+      <span class="obs-mes__country-n">{{ .count }}</span>
+    </li>
+    {{- end }}
+  </ul>
+  {{- end }}
+
+  <p class="obs-mes__impact">
+    <span class="obs-mes__impact-item">{{ $stats.limita }} {{ i18n "obs_mes_limitan" }}</span>
+    <span class="obs-mes__impact-item">{{ $stats.promueve }} {{ i18n "obs_mes_promueven" }}</span>
+    <span class="obs-mes__impact-item obs-mes__impact-item--flag">{{ $stats.failTest }} {{ i18n "obs_mes_test_no" }}</span>
+  </p>
+  {{- end }}
+</figure>

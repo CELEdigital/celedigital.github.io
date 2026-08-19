@@ -76,6 +76,12 @@ other = "¿Limita el discurso?"
 [doc_test]
 other = "¿Cumple con todos los elementos del test?"
 
+[doc_test_failed]
+other = "No cumple con el test tripartito"
+
+[doc_test_analysis]
+other = "Análisis del test tripartito"
+
 [doc_search]
 other = "Buscar"
 
@@ -172,6 +178,9 @@ other = "Período"
 [pub_all]
 other = "Todos"
 
+[pub_index]
+other = "Índice completo"
+
 [pub_featured]
 other = "Publicación destacada"
 
@@ -204,3 +213,24 @@ other = "Ver en SSRN →"
 
 [home_view_all]
 other = "Ver todas"
+
+[obs_mes_titulo]
+other = "Observatorio Legislativo"
+
+[obs_mes_proyectos]
+other = "proyectos"
+
+[obs_mes_leyes]
+other = "leyes"
+
+[obs_mes_limitan]
+other = "limitan"
+
+[obs_mes_promueven]
+other = "promueven"
+
+[obs_mes_test_no]
+other = "no superan el test"
+
+[obs_mes_vacio]
+other = "Sin registros en este período."

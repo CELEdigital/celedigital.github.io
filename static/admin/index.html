@@ -8,5 +8,90 @@
 </head>
 <body>
   <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+  <script>
+    // Bloque "Resumen Observatorio" para el editor de texto.
+    //
+    // Inserta el shortcode {{< observatorio-mes >}} en el cuerpo del boletín sin
+    // que quien edita tenga que escribir la sintaxis a mano. Los totales no se
+    // calculan acá: el shortcode los resuelve contra los CSV al construir el
+    // sitio, así que la vista previa sólo muestra qué período quedó elegido.
+    (function () {
+      var DATASETS = {
+        ambos: 'proyectos y leyes',
+        proyectos: 'sólo proyectos',
+        leyes: 'sólo leyes'
+      };
+
+      function register() {
+        window.CMS.registerEditorComponent({
+          id: 'observatorio-mes',
+          label: 'Resumen Observatorio',
+          icon: 'bar_chart',
+          fields: [
+            {
+              name: 'month',
+              label: 'Mes',
+              widget: 'string',
+              hint: 'Formato AAAA-MM. Por ejemplo, 2025-06 para junio de 2025.',
+              pattern: ['^\\d{4}-(0[1-9]|1[0-2])$', 'Usá el formato AAAA-MM (ej. 2025-06)']
+            },
+            {
+              name: 'dataset',
+              label: 'Datos a incluir',
+              widget: 'select',
+              default: 'ambos',
+              options: [
+                { label: 'Proyectos y leyes', value: 'ambos' },
+                { label: 'Sólo proyectos', value: 'proyectos' },
+                { label: 'Sólo leyes', value: 'leyes' }
+              ]
+            }
+          ],
+          pattern: /^\s*\{\{<\s*observatorio-mes\s+month="(?<month>[^"]+)"(?:\s+dataset="(?<dataset>[^"]+)")?\s*>\}\}\s*$/m,
+          fromBlock: function (match) {
+            var g = (match && match.groups) || {};
+            return { month: g.month || '', dataset: g.dataset || 'ambos' };
+          },
+          toBlock: function (data) {
+            var month = data.month || '';
+            var dataset = data.dataset || 'ambos';
+            var extra = dataset && dataset !== 'ambos' ? ' dataset="' + dataset + '"' : '';
+            return '{{< observatorio-mes month="' + month + '"' + extra + ' >}}';
+          },
+          toPreview: function (data) {
+            var month = data.month || '(sin mes)';
+            var scope = DATASETS[data.dataset || 'ambos'] || DATASETS.ambos;
+            return (
+              '<figure style="margin:1.5rem 0;padding:1rem 1.2rem;border:1px solid #D6D6D6;' +
+              'background:#fff;font-family:Inter,system-ui,sans-serif;">' +
+              '<figcaption style="font-size:.72rem;font-weight:700;letter-spacing:.08em;' +
+              'text-transform:uppercase;color:#666;">Resumen Observatorio · ' +
+              month + ' · ' + scope + '</figcaption>' +
+              '<p style="margin:.7rem 0 0;font-size:.85rem;color:#666;font-style:italic;">' +
+              'Los totales por país e impacto se calculan al publicar.</p>' +
+              '</figure>'
+            );
+          }
+        });
+      }
+
+      // El bundle del CMS define window.CMS al ejecutarse; esperarlo por si el
+      // navegador todavía no terminó de evaluarlo.
+      if (window.CMS && window.CMS.registerEditorComponent) {
+        register();
+      } else {
+        var tries = 0;
+        var timer = setInterval(function () {
+          if (window.CMS && window.CMS.registerEditorComponent) {
+            clearInterval(timer);
+            register();
+          } else if (++tries > 100) {
+            clearInterval(timer);
+            console.error('[CELE] No se pudo registrar el bloque Resumen Observatorio: CMS no disponible.');
+          }
+        }, 100);
+      }
+    })();
+  </script>
 </body>
 </html>

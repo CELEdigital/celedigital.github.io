@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Full text of the research papers — must stay crawlable for Google Scholar.
+Allow: /files/
+
+Sitemap: {{ "sitemap.xml" | absURL }}

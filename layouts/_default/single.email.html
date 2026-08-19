@@ -6,6 +6,23 @@
 {{- $number := .Params.newsletter_number -}}
 {{- $tagline := .Params.tagline | default .Description -}}
 {{- $viewInBrowser := cond $isES "Ver en el navegador" "View in browser" -}}
+{{- /* Serie a la que pertenece el envío. El campo `newsletter_series` manda;
+       si falta —los ~70 archivos anteriores a este cambio— se deduce de la
+       sección, así que ninguno necesita editarse. */ -}}
+{{- $seriesBySection := dict
+      "noticias-cruzando-el-mar" "ncm"
+      "observatorio-legislativo" "observatorio"
+      "legislative-observatory" "observatorio" -}}
+{{- $series := .Params.newsletter_series | default (index $seriesBySection .Section) | default "" -}}
+{{- $seriesLabels := dict
+      "ncm" "Noticias cruzando el mar"
+      "noticias-cruzando-el-mar" "Noticias cruzando el mar"
+      "observatorio" (cond $isES "Observatorio Legislativo" "Legislative Observatory") -}}
+{{- /* Un post suelto puede pedir salida de email sin pertenecer a ninguna
+       serie: en ese caso no se muestra la línea y el encabezado queda igual
+       que antes de este cambio. */ -}}
+{{- $seriesLabel := "" -}}
+{{- with $series }}{{ $seriesLabel = index $seriesLabels . | default "" }}{{ end -}}
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 <head>
@@ -79,7 +96,8 @@
     <!-- Header -->
     <div class="header" style="background-color:#ad2b25; color:#ffffff; text-align:center; padding:40px;">
       <a href="{{ .Permalink }}"><img src="{{ $logo }}" alt="CELE" style="max-width:220px; height:auto; border:0;"></a>
-      <h1 style="font-family:Jost,Arial,sans-serif; color:#ffffff; margin:10px 0 0 0; font-size:44px; line-height:1.15; padding:20px 0 0;">{{ .Title }}</h1>
+      {{ with $seriesLabel }}<p class="series" style="font-family:Jost,Arial,sans-serif; color:#f6d5d3; margin:14px 0 0; font-size:13px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase;">{{ . }}</p>{{ end }}
+      <h1 style="font-family:Jost,Arial,sans-serif; color:#ffffff; margin:10px 0 0 0; font-size:44px; line-height:1.15; padding:{{ cond (ne $seriesLabel "") "8px 0 0" "20px 0 0" }};">{{ .Title }}</h1>
       {{ with $number }}<h2 style="font-family:Jost,Arial,sans-serif; color:#ffffff; margin:5px 0; font-size:22px; font-weight:bold;">{{ . }}</h2>{{ end }}
       {{ with $tagline }}<p style="font-family:Jost,Arial,sans-serif; color:#ffffff; margin:5px 0; font-size:18px;"><strong>{{ . }}</strong></p>{{ end }}
     </div>

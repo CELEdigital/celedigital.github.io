@@ -62,7 +62,21 @@
   {{ with .File }}
     {{ $fileBase = lower .BaseFileName }}
   {{ end }}
-  {{ if or (eq $typeValue "boletin") $typeParamIsBoletin (hasPrefix $fileBase "boletin") }}
+  {{/* `content_type: boletin` es lo que pone el CMS, así que es el criterio
+       principal; el prefijo del nombre de archivo queda como respaldo para los
+       importados de WordPress. Sin esto, un boletín con slug que no empiece
+       con "boletin" desaparecía del panel sin aviso. */}}
+  {{ $isBoletin := false }}
+  {{ $contentTypeRaw := .Params.content_type }}
+  {{ if $contentTypeRaw }}
+    {{ $ctList := cond (reflect.IsSlice $contentTypeRaw) $contentTypeRaw (slice $contentTypeRaw) }}
+    {{ range $ctList }}
+      {{ if eq (lower (strings.TrimSpace (printf "%v" .))) "boletin" }}
+        {{ $isBoletin = true }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ if or (eq $typeValue "boletin") $typeParamIsBoletin $isBoletin (hasPrefix $fileBase "boletin") }}
     {{ $boletinesPages = $boletinesPages | append . }}
   {{ end }}
 {{ end }}

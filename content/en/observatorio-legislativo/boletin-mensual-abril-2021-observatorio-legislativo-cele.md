@@ -13,6 +13,7 @@ tags: [institucional]
 title: Boletín Mensual Observatorio Legislativo | Abril 2021
 translationKey: wp-8552
 type: boletin
+newsletter_series: observatorio
 ---
 
 **_Boletín Mensual Abril 2021 Observatorio Legislativo_ CELE.** Novedades de la actividad legislativa y regulatoria, decisiones judiciales y administrativas. **Argentina**

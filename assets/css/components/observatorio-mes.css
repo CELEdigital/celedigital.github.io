@@ -1,0 +1,125 @@
+/* ── Resumen mensual del Observatorio (shortcode observatorio-mes) ──
+   Bloque estático, sin JS: mismo lenguaje visual que .observatory-stat-card. */
+
+.obs-mes {
+  margin: 2.5rem 0;
+  padding: 1.25rem 1.4rem 1.4rem;
+  border: 1px solid var(--neutral-300);
+  background: #fff;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.obs-mes__head {
+  padding: 0 0 0.9rem;
+  border-bottom: 1px solid var(--neutral-200);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--neutral-600);
+}
+
+.obs-mes__empty {
+  margin: 1rem 0 0;
+  color: var(--neutral-600);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.obs-mes__totals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin: 1.2rem 0 1.4rem;
+}
+
+.obs-mes__total {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+}
+
+.obs-mes__total-n {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--neutral-900);
+}
+
+.obs-mes__total-label {
+  font-size: 0.95rem;
+  color: var(--neutral-600);
+}
+
+.obs-mes__countries {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.obs-mes__country {
+  display: grid;
+  grid-template-columns: 8rem 1fr 2.5rem;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.88rem;
+}
+
+.obs-mes__country-name {
+  color: var(--neutral-800);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.obs-mes__bar {
+  display: block;
+  height: 0.55rem;
+  background: var(--neutral-200);
+}
+
+.obs-mes__bar-fill {
+  display: block;
+  height: 100%;
+  min-width: 2px;
+  background: var(--cele);
+}
+
+.obs-mes__country-n {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--neutral-800);
+}
+
+.obs-mes__impact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.1rem;
+  margin: 1.4rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--neutral-200);
+  font-size: 0.85rem;
+  color: var(--neutral-600);
+}
+
+.obs-mes__impact-item--flag {
+  color: var(--error);
+}
+
+@media (max-width: 600px) {
+  .obs-mes {
+    padding: 1rem;
+  }
+
+  .obs-mes__totals {
+    gap: 1.5rem;
+  }
+
+  .obs-mes__country {
+    grid-template-columns: 6rem 1fr 2rem;
+    gap: 0.5rem;
+    font-size: 0.82rem;
+  }
+}

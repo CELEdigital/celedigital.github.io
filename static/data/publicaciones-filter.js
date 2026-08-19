@@ -3,14 +3,12 @@
     var grid = document.getElementById('pub-grid');
     if (!grid) return;
 
-    var step = parseInt(grid.getAttribute('data-load-step'), 10) || 6;
     var items = Array.from(grid.querySelectorAll('.pub-item'));
     var featuredSection = document.querySelector('[data-pub-featured]');
     var featuredCard = featuredSection ? featuredSection.querySelector('[data-pub-issues]') : null;
     var filterBtns = document.querySelectorAll('[data-pub-filter]');
     var typeBtns = document.querySelectorAll('[data-pub-filter-type]');
     var regionBtns = document.querySelectorAll('[data-pub-filter-region]');
-    var loadBtn = document.querySelector('[data-hub-load-more][data-hub-target="pub-grid"]');
 
     // Timeline elements
     var timeline = document.querySelector('[data-pub-timeline]');
@@ -57,7 +55,6 @@
     var activeRegions = [];
     var yearMin = globalMinYear;
     var yearMax = globalMaxYear;
-    var shown = 0;
 
     function updateTimelineUI() {
       if (!timeline) return;
@@ -83,16 +80,15 @@
     }
 
     function applyFilter() {
-      var matching = getMatching();
-      var visible = new Set(matching.slice(0, step));
+      // Every match stays visible — the grid has no load-more gate, so that the
+      // full catalogue is present in the served HTML for crawlers.
+      var visible = new Set(getMatching());
 
       items.forEach(function (item) {
         var show = visible.has(item);
         item.hidden = !show;
         item.classList.toggle('is-hub-hidden', !show);
       });
-
-      shown = visible.size;
 
       // Show/hide featured section
       if (featuredSection) {
@@ -105,11 +101,6 @@
         if (activeRegions.length > 0 && activeRegions.indexOf(featuredRegion) === -1) hideFeatured = true;
         if (featuredYear && (featuredYear < yearMin || featuredYear > yearMax)) hideFeatured = true;
         featuredSection.hidden = hideFeatured;
-      }
-
-      // Update load-more button
-      if (loadBtn) {
-        loadBtn.hidden = matching.length <= step;
       }
     }
 
@@ -159,24 +150,6 @@
       sliderMin.addEventListener('input', onSliderInput);
       sliderMax.addEventListener('input', onSliderInput);
       updateTimelineUI();
-    }
-
-    // Load-more: replace button to remove section-hub.js listeners
-    if (loadBtn) {
-      var newBtn = loadBtn.cloneNode(true);
-      loadBtn.parentNode.replaceChild(newBtn, loadBtn);
-      loadBtn = newBtn;
-
-      loadBtn.addEventListener('click', function () {
-        var matching = getMatching();
-        var next = matching.slice(shown, shown + step);
-        next.forEach(function (item) {
-          item.hidden = false;
-          item.classList.remove('is-hub-hidden');
-        });
-        shown += next.length;
-        if (shown >= matching.length) loadBtn.hidden = true;
-      });
     }
 
     // Initial render

@@ -89,7 +89,11 @@ collections:
         widget: "boolean"
         default: false
 
-      - label: "Formatos de salida"
+      # Los cuatro campos de newsletter se definen una sola vez, acá, y se
+      # referencian desde las demás colecciones (YAML no permite concatenar
+      # secuencias, pero sí reusar definiciones sueltas por anchor).
+      - &f_outputs
+        label: "Formatos de salida"
         name: "outputs"
         widget: "select"
         multiple: true
@@ -100,13 +104,25 @@ collections:
           - { label: "Web (HTML)", value: "html" }
           - { label: "Email / Newsletter", value: "email" }
 
-      - label: "Número de newsletter"
+      - &f_newsletter_series
+        label: "Serie"
+        name: "newsletter_series"
+        widget: "select"
+        required: false
+        hint: "A qué newsletter pertenece este envío. Si se deja vacío, se deduce de la sección."
+        options:
+          - { label: "Noticias cruzando el mar", value: "noticias-cruzando-el-mar" }
+          - { label: "Boletín del Observatorio Legislativo", value: "observatorio" }
+
+      - &f_newsletter_number
+        label: "Número de newsletter"
         name: "newsletter_number"
         widget: "string"
         required: false
         hint: "Solo para email/newsletter. Ej: #9 · Enero 2025 (encabezado del email)"
 
-      - label: "Bajada / tagline"
+      - &f_tagline
+        label: "Bajada / tagline"
         name: "tagline"
         widget: "string"
         required: false
@@ -505,6 +521,13 @@ collections:
         widget: "boolean"
         default: false
 
+      # Mismos campos de newsletter que "Noticias cruzando el mar":
+      # un boletín se envía por email exactamente igual que aquella serie.
+      - *f_outputs
+      - *f_newsletter_series
+      - *f_newsletter_number
+      - *f_tagline
+
       - label: "Imagen"
         name: "image"
         widget: "image"
@@ -528,6 +551,10 @@ collections:
       - label: "Cuerpo"
         name: "body"
         widget: "markdown"
+        hint: >-
+          Para insertar el resumen de datos del mes (totales, países e impacto),
+          usá el bloque "Resumen Observatorio" del editor. Los números se
+          calculan solos al publicar, a partir de los CSV del Observatorio.
 
   # ─────────────────────────────────────────
   # BOLETINES — OBSERVATORIO LEGISLATIVO (EN) — content/en/observatorio-legislativo

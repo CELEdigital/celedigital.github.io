@@ -1,0 +1,129 @@
+{{- /* Resuelve el período y calcula los totales del Observatorio.
+
+  Lo usan las dos variantes del shortcode `observatorio-mes` —la del sitio y la
+  del email—, que sólo difieren en el marcado. Toda la lógica de fechas, filtros
+  y conteos vive acá para que no se dupliquen ni se desincronicen.
+
+  Entrada (dict):
+    month     "YYYY-MM" (opcional si hay from/to)
+    from/to   "YYYY-MM-DD" inclusive
+    dataset   ambos|both|proyectos|leyes
+    isES      bool, para el nombre del mes
+    position  .Position del shortcode, para los mensajes de error
+
+  Salida (dict):
+    label      "junio 2025" o "1 de abril de 2025 – 30 de junio de 2025"
+    totals     slice de dicts {kind, count, label}
+    countries  slice de dicts {name, count, pct} ordenada desc
+    limita, promueve, failTest, grand  enteros
+*/ -}}
+
+{{- $month := .month | default "" -}}
+{{- $from := .from | default "" -}}
+{{- $to := .to | default "" -}}
+{{- $dataset := lower (.dataset | default "ambos") -}}
+{{- $isES := .isES -}}
+{{- $pos := .position -}}
+
+{{- /* ── Período ── */ -}}
+{{- $label := "" -}}
+{{- if $month -}}
+  {{- if not (findRE `^\d{4}-(0[1-9]|1[0-2])$` $month) -}}
+    {{- errorf "observatorio-mes: month debe ser \"YYYY-MM\", se recibió %q en %s" $month $pos -}}
+  {{- end -}}
+  {{- $start := time.AsTime (printf "%s-01" $month) -}}
+  {{- $end := $start.AddDate 0 1 -1 -}}
+  {{- $from = $start.Format "2006-01-02" -}}
+  {{- $to = $end.Format "2006-01-02" -}}
+  {{- $months := cond $isES
+      (slice "" "enero" "febrero" "marzo" "abril" "mayo" "junio" "julio" "agosto" "septiembre" "octubre" "noviembre" "diciembre")
+      (slice "" "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December") -}}
+  {{- $label = printf "%s %d" (index $months $start.Month) $start.Year -}}
+{{- else -}}
+  {{- if not (and $from $to) -}}
+    {{- errorf "observatorio-mes: se requiere month=\"YYYY-MM\" o from/to en %s" $pos -}}
+  {{- end -}}
+  {{- range $d := slice $from $to -}}
+    {{- if not (findRE `^\d{4}-\d{2}-\d{2}$` $d) -}}
+      {{- errorf "observatorio-mes: from/to deben ser \"YYYY-MM-DD\", se recibió %q en %s" $d $pos -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt $from $to -}}
+    {{- errorf "observatorio-mes: from (%s) es posterior a to (%s) en %s" $from $to $pos -}}
+  {{- end -}}
+  {{- $label = printf "%s – %s" (partial "date-es.html" (time.AsTime $from)) (partial "date-es.html" (time.AsTime $to)) -}}
+{{- end -}}
+
+{{- /* ── Datasets ── */ -}}
+{{- $testCol := "¿Cumple con todos los elementos del test?" -}}
+{{- $sources := slice -}}
+{{- if or (eq $dataset "ambos") (eq $dataset "both") (eq $dataset "proyectos") -}}
+  {{- $sources = $sources | append (dict
+      "kind" "proyectos"
+      "path" "static/data/proyectos_clean.csv"
+      "date" "Fecha de entrada"
+      "impact" "¿Limita el discurso?") -}}
+{{- end -}}
+{{- if or (eq $dataset "ambos") (eq $dataset "both") (eq $dataset "leyes") -}}
+  {{- $sources = $sources | append (dict
+      "kind" "leyes"
+      "path" "static/data/leyes_clean.csv"
+      "date" "Fecha de sanción"
+      "impact" "¿Limita o promueve el discurso?") -}}
+{{- end -}}
+{{- if not $sources -}}
+  {{- errorf "observatorio-mes: dataset debe ser ambos|proyectos|leyes, se recibió %q en %s" $dataset $pos -}}
+{{- end -}}
+
+{{- /* ── Filtrado y conteo ── */ -}}
+{{- $totals := slice -}}
+{{- $countries := dict -}}
+{{- $limita := 0 -}}
+{{- $promueve := 0 -}}
+{{- $failTest := 0 -}}
+{{- $grand := 0 -}}
+
+{{- range $src := $sources -}}
+  {{- $rows := partialCached "func/observatorio-data.html" $src.path $src.path -}}
+  {{- $n := 0 -}}
+  {{- range $row := $rows -}}
+    {{- $d := index $row $src.date -}}
+    {{- /* Hay una fila en leyes con fecha "23/032018": se descarta en silencio */ -}}
+    {{- if and (findRE `^\d{4}-\d{2}-\d{2}$` $d) (ge $d $from) (le $d $to) -}}
+      {{- $n = add $n 1 -}}
+      {{- $c := trim (index $row "País") " " -}}
+      {{- if $c -}}
+        {{- $countries = merge $countries (dict $c (add (int (index $countries $c | default 0)) 1)) -}}
+      {{- end -}}
+      {{- $imp := trim (index $row $src.impact) " " -}}
+      {{- if eq $imp "Limita" -}}{{- $limita = add $limita 1 -}}{{- end -}}
+      {{- if eq $imp "Promueve" -}}{{- $promueve = add $promueve 1 -}}{{- end -}}
+      {{- if eq (upper (trim (index $row $testCol) " ")) "NO" -}}{{- $failTest = add $failTest 1 -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $totals = $totals | append (dict "kind" $src.kind "count" $n "label" (i18n (printf "obs_mes_%s" $src.kind))) -}}
+  {{- $grand = add $grand $n -}}
+{{- end -}}
+
+{{- /* Países ordenados por cantidad descendente, con el ancho de barra ya resuelto */ -}}
+{{- $ranked := slice -}}
+{{- range $name, $count := $countries -}}
+  {{- $ranked = $ranked | append (dict "name" $name "count" $count) -}}
+{{- end -}}
+{{- $ranked = sort $ranked "count" "desc" -}}
+{{- $withPct := slice -}}
+{{- if $ranked -}}
+  {{- $max := (index $ranked 0).count -}}
+  {{- range $ranked -}}
+    {{- $withPct = $withPct | append (merge . (dict "pct" (math.Round (mul (div (float .count) $max) 100)))) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return dict
+      "label" $label
+      "totals" $totals
+      "countries" $withPct
+      "limita" $limita
+      "promueve" $promueve
+      "failTest" $failTest
+      "grand" $grand -}}

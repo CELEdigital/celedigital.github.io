@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on </title>
-    <link>http://celedigital.github.io/en/tags/</link>
-    <description>Recent content in Tags on </description>
+    <title>Tags on CELE</title>
+    <link>http://localhost:1313/en/tags/</link>
+    <description>Recent content in Tags on CELE</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://celedigital.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Censura</title>
+      <link>http://localhost:1313/en/tags/censura/</link>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/censura/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Libertad De Expresión</title>
+      <link>http://localhost:1313/en/tags/libertad-de-expresi%C3%B3n/</link>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/libertad-de-expresi%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SLAPP</title>
+      <link>http://localhost:1313/en/tags/slapp/</link>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/slapp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dsa</title>
+      <link>http://localhost:1313/en/tags/dsa/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/dsa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Violencia De Género</title>
+      <link>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Publicaciones</title>
-      <link>http://celedigital.github.io/en/tags/publicaciones/</link>
+      <link>http://localhost:1313/en/tags/publicaciones/</link>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://celedigital.github.io/en/tags/publicaciones/</guid>
+      <guid>http://localhost:1313/en/tags/publicaciones/</guid>
       <description></description>
     </item>
     <item>
       <title>Institucional</title>
-      <link>http://celedigital.github.io/en/tags/institucional/</link>
+      <link>http://localhost:1313/en/tags/institucional/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://celedigital.github.io/en/tags/institucional/</guid>
+      <guid>http://localhost:1313/en/tags/institucional/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Violencia De Género en Línea</title>
+      <link>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero-en-l%C3%ADnea/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero-en-l%C3%ADnea/</guid>
       <description></description>
     </item>
   </channel>

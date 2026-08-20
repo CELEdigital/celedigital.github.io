@@ -234,3 +234,12 @@ other = "fail the three-part test"
 
 [obs_mes_vacio]
 other = "No records for this period."
+
+[obs_mes_paises]
+other = "By country"
+
+[obs_mes_objetivos]
+other = "Legitimate aim invoked"
+
+[obs_mes_objetivos_otros]
+other = "Other"

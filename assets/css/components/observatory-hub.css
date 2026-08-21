@@ -418,3 +418,117 @@
     max-width: calc(100vw - 2rem);
   }
 }
+
+/* ── Objetivos legítimos ──
+   Muchas categorías cortas: el grid de 2 columnas de los paneles de texto queda
+   demasiado ancho, así que se usan 3 columnas y los términos como etiquetas. */
+.observatory-inline-panel--objetivos-legitimos .observatory-inline-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.4rem 1.6rem;
+}
+
+.observatory-inline-panel--objetivos-legitimos .observatory-inline-block {
+  border-top: 2px solid var(--cele);
+  padding-top: 0.6rem;
+}
+
+.observatory-inline-panel--objetivos-legitimos h1 {
+  font-size: 1rem;
+  line-height: 1.25;
+  padding-bottom: 0;
+  margin: 0 0 0.55rem;
+}
+
+.observatory-inline-panel--objetivos-legitimos h1::after {
+  display: none;
+}
+
+.observatory-inline-panel--objetivos-legitimos ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.observatory-inline-panel--objetivos-legitimos li {
+  font-size: 0.82rem;
+  line-height: 1.2;
+  padding: 0.22rem 0.6rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: 999px;
+  color: var(--neutral-800);
+}
+
+@media (max-width: 900px) {
+  .observatory-inline-panel--objetivos-legitimos .observatory-inline-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .observatory-inline-panel--objetivos-legitimos .observatory-inline-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* La misma lectura en la página suelta: sin el JS del hub no hay grid, así que
+   se usan columnas CSS para no dejar 18 categorías en una sola tira vertical. */
+.hub-single--objetivos-legitimos .section-content,
+.hub-single--legitimate-aims .section-content {
+  columns: 3;
+  column-gap: 1.8rem;
+}
+
+.hub-single--objetivos-legitimos .section-content h1,
+.hub-single--legitimate-aims .section-content h1 {
+  font-size: 1rem;
+  line-height: 1.25;
+  margin: 0 0 0.55rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0;
+  border-top: 2px solid var(--cele);
+  break-after: avoid;
+  break-inside: avoid;
+}
+
+.hub-single--objetivos-legitimos .section-content h1::after,
+.hub-single--legitimate-aims .section-content h1::after {
+  display: none;
+}
+
+.hub-single--objetivos-legitimos .section-content ul,
+.hub-single--legitimate-aims .section-content ul {
+  list-style: none;
+  margin: 0 0 1.4rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  break-inside: avoid;
+}
+
+.hub-single--objetivos-legitimos .section-content li,
+.hub-single--legitimate-aims .section-content li {
+  font-size: 0.82rem;
+  line-height: 1.2;
+  padding: 0.22rem 0.6rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: 999px;
+  color: var(--neutral-800);
+}
+
+@media (max-width: 900px) {
+  .hub-single--objetivos-legitimos .section-content,
+  .hub-single--legitimate-aims .section-content {
+    columns: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .hub-single--objetivos-legitimos .section-content,
+  .hub-single--legitimate-aims .section-content {
+    columns: 1;
+  }
+}

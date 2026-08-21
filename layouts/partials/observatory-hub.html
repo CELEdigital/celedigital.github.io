@@ -11,32 +11,40 @@
 {{ $isES := eq .Lang "es" }}
 {{ $metodologiaLabel := cond $isES "Metodología" "Methodology" }}
 {{ $objetivosLabel := cond $isES "Objetivos" "Objectives" }}
+{{ $objetivosLegitimosLabel := cond $isES "Objetivos legítimos" "Legitimate aims" }}
 {{ $boletinesLabel := cond $isES "Boletines" "Bulletins" }}
 {{ $mesasLabel := cond $isES "Mesas" "Mesas" }}
 {{ $defaultMetodologiaURL := cond $isES (printf "%smetodologia/" .RelPermalink) (printf "%smethodology/" .RelPermalink) }}
 {{ $defaultObjetivosURL := cond $isES (printf "%sobjetivos/" .RelPermalink) (printf "%sobjectives/" .RelPermalink) }}
+{{ $defaultObjetivosLegitimosURL := cond $isES (printf "%sobjetivos-legitimos/" .RelPermalink) (printf "%slegitimate-aims/" .RelPermalink) }}
 {{ $defaultBoletinesURL := "#boletines" }}
 {{ $defaultMesasURL := "#mesas" }}
 {{ $metodologiaURL := .Params.metodologia_url | default .Params.methodology_url | default $defaultMetodologiaURL }}
 {{ $objetivosURL := .Params.objetivos_url | default .Params.objectives_url | default $defaultObjetivosURL }}
+{{ $objetivosLegitimosURL := .Params.objetivos_legitimos_url | default .Params.legitimate_aims_url | default $defaultObjetivosLegitimosURL }}
 {{ $boletinesURL := .Params.boletines_url | default .Params.bulletins_url | default $defaultBoletinesURL }}
 {{ $mesasURL := .Params.mesas_url | default $defaultMesasURL }}
 {{ $metodologiaHref := $metodologiaURL }}
 {{ $objetivosHref := $objetivosURL }}
+{{ $objetivosLegitimosHref := $objetivosLegitimosURL }}
 {{ $boletinesHref := $boletinesURL }}
 {{ $mesasHref := $mesasURL }}
 {{ if not (hasPrefix $metodologiaURL "#") }}{{ $metodologiaHref = $metodologiaURL | relLangURL }}{{ end }}
 {{ if not (hasPrefix $objetivosURL "#") }}{{ $objetivosHref = $objetivosURL | relLangURL }}{{ end }}
+{{ if not (hasPrefix $objetivosLegitimosURL "#") }}{{ $objetivosLegitimosHref = $objetivosLegitimosURL | relLangURL }}{{ end }}
 {{ if not (hasPrefix $boletinesURL "#") }}{{ $boletinesHref = $boletinesURL | relLangURL }}{{ end }}
 {{ if not (hasPrefix $mesasURL "#") }}{{ $mesasHref = $mesasURL | relLangURL }}{{ end }}
 {{ $metodologiaPanelID := "observatory-metodologia-panel" }}
 {{ $objetivosPanelID := "observatory-objetivos-panel" }}
+{{ $objetivosLegitimosPanelID := "observatory-objetivos-legitimos-panel" }}
 {{ $boletinesPanelID := "observatory-boletines-panel" }}
 {{ $mesasPanelID := "observatory-mesas-panel" }}
 {{ $metodologiaPagePath := cond $isES (printf "/%s/%s" .Section "metodologia") (printf "/%s/%s" .Section "methodology") }}
 {{ $objetivosPagePath := cond $isES (printf "/%s/%s" .Section "objetivos") (printf "/%s/%s" .Section "objectives") }}
 {{ $metodologiaPage := .Site.GetPage $metodologiaPagePath }}
+{{ $objetivosLegitimosPagePath := cond $isES (printf "/%s/%s" .Section "objetivos-legitimos") (printf "/%s/%s" .Section "legitimate-aims") }}
 {{ $objetivosPage := .Site.GetPage $objetivosPagePath }}
+{{ $objetivosLegitimosPage := .Site.GetPage $objetivosLegitimosPagePath }}
 {{ $ldePage := .Site.GetPage (printf "/%s/lde" .Section) }}
 {{ $iaPage := .Site.GetPage (printf "/%s/ia" .Section) }}
 {{ $visualizacionesLabel := cond $isES "Visualizaciones" "Visualizations" }}
@@ -148,6 +156,16 @@
         <a href="{{ $objetivosHref }}">{{ $objetivosLabel }}</a>
       {{ end }}
     </h3>
+    {{ if $objetivosLegitimosPage }}
+    <h3 class="observatory-links__item">
+      <a
+        href="{{ $objetivosLegitimosHref }}"
+        data-observatory-inline-toggle
+        aria-controls="{{ $objetivosLegitimosPanelID }}"
+        aria-expanded="false"
+      >{{ $objetivosLegitimosLabel }}</a>
+    </h3>
+    {{ end }}
     <h3 class="observatory-links__item">
       <a
         href="{{ $boletinesHref }}"
@@ -218,6 +236,18 @@
         aria-label="{{ $objetivosLabel }}"
       >
         {{ $objetivosPage.Content }}
+      </section>
+    {{ end }}
+
+    {{ if $objetivosLegitimosPage }}
+      <section
+        id="{{ $objetivosLegitimosPanelID }}"
+        class="observatory-inline-panel observatory-inline-panel--objetivos-legitimos section-content"
+        hidden
+        aria-hidden="true"
+        aria-label="{{ $objetivosLegitimosLabel }}"
+      >
+        {{ $objetivosLegitimosPage.Content }}
       </section>
     {{ end }}
 

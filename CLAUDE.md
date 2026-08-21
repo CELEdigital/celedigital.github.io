@@ -31,6 +31,32 @@ Se añadió un panel "Mesas" al observatorio. Archivos modificados:
 **`static/data/observatory-hub.js`**
 - La función `buildInlineColumns` envuelve los paneles en un grid de 2 columnas, lo que restringiría el ancho. Boletines ya tenía una excepción (línea 4). Se añadió la misma excepción para `--mesas` (línea 5) para que el panel use ancho completo.
 
+
+### 4. Sección "Objetivos legítimos" en Observatorio Legislativo
+Panel inline nuevo, con el mismo patrón que Metodología/Objetivos (link con `data-observatory-inline-toggle` + `<section class="observatory-inline-panel">` que inyecta el `.Content` de una subpágina).
+
+**`content/es/observatorio-legislativo/objetivos-legitimos.md`**
+- Taxonomía de objetivos legítimos: cada categoría es un `# H1`, sus términos una lista.
+- Los `# H1` importan: el JS del hub (`buildInlineColumns`) parte el panel en bloques usando H1/H2, así que cambiar el nivel de encabezado rompe la grilla.
+
+**`layouts/partials/observatory-hub.html`** — link + panel (`observatory-inline-panel--objetivos-legitimos`).
+**`layouts/_default/single.html`** — `objetivos-legitimos` / `legitimate-aims` añadidos a `$isObservatorySubpage` para que la página suelta use `hub-single.html`.
+**`layouts/partials/hub-single.html`** — ahora emite `hub-single--{{ .BaseFileName }}` para poder estilar páginas sueltas concretas.
+**`assets/css/components/observatory-hub.css`** — 3 columnas + términos como chips, tanto en el panel del hub (grid del JS) como en la página suelta (columnas CSS, porque ahí no corre el JS).
+
+Falta la versión EN (`content/en/observatorio-legislativo/legitimate-aims.md`): el link y el panel están guardados con `{{ if $objetivosLegitimosPage }}`, así que en EN simplemente no aparecen hasta que exista el archivo.
+
+
+### 5. Columna «Objetivo legítimo» normalizada en los CSV
+`scripts/normalize_objetivos.py` reescribe las tres columnas de objetivo legítimo de `proyectos_clean.csv` y `leyes_clean.csv` para que cada celda sea una categoría de `objetivos-legitimos.md`. Es idempotente y tiene `--dry-run`.
+
+- De 92 valores crudos se pasó a **19 categorías** (+9 valores sin mapear que se dejaron tal cual: `Libertad de trabajo`, `Dignidad`, `Desapariciones forzadas`, `Derecho a la verdad`, `Educación`, `Gasto estatal`, `COVID-20`, `Vida`).
+- Decisión tomada con el usuario: `Seguridad nacional` y `Derechos de los niños` son **categorías propias**, no términos de Ciberseguridad, aunque el .md los liste ahí. Ciberseguridad queda solo con `Delitos informáticos` y `Seguridad digital`.
+- El script hace round-trip byte-idéntico (CRLF, `QUOTE_MINIMAL`, sin BOM), así que el diff solo toca las celdas de objetivo.
+- Si se agregan filas nuevas al CSV, volver a correrlo; los valores que no mapeen se reportan al final en vez de inventarles categoría.
+
+**Ojo — los gráficos no leen estos CSV.** `observatorio_sunburst.json` y `observatorio_drilldown.json` cargan `static/charts/interactive/observatorio_database.json` (2163 filas, campo `objetivo`), y `objetivos_drilldown.json` trae los datos embebidos. Los CSV tienen 2746 filas, o sea que ese JSON es un snapshot viejo y **no hay script en el repo que lo genere**. Normalizar los CSV no cambia las visualizaciones.
+
 ---
 
 ## Convenciones importantes
@@ -51,3 +77,6 @@ _(actualizar a medida que se completen)_
 
 - [ ] Verificar visualmente que el panel Mesas funciona bien en el build de Hugo.
 - [ ] Decidir si agregar las mismas mesas al equivalente EN (`content/en/`).
+- [ ] Traducir "Objetivos legítimos" al EN (`content/en/observatorio-legislativo/legitimate-aims.md`).
+- [ ] Decidir dónde van los 9 valores de objetivo legítimo sin mapear (ver sección 5).
+- [ ] Regenerar `observatorio_database.json` / `objetivos_drilldown.json` desde los CSV si se quiere que los gráficos reflejen la normalización (hoy son snapshots desacoplados y no hay generador).

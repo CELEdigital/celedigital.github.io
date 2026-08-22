@@ -55,7 +55,54 @@ Falta la versión EN (`content/en/observatorio-legislativo/legitimate-aims.md`):
 - El script hace round-trip byte-idéntico (CRLF, `QUOTE_MINIMAL`, sin BOM), así que el diff solo toca las celdas de objetivo.
 - Si se agregan filas nuevas al CSV, volver a correrlo; los valores que no mapeen se reportan al final en vez de inventarles categoría.
 
-**Ojo — los gráficos no leen estos CSV.** `observatorio_sunburst.json` y `observatorio_drilldown.json` cargan `static/charts/interactive/observatorio_database.json` (2163 filas, campo `objetivo`), y `objetivos_drilldown.json` trae los datos embebidos. Los CSV tienen 2746 filas, o sea que ese JSON es un snapshot viejo y **no hay script en el repo que lo genere**. Normalizar los CSV no cambia las visualizaciones.
+**Los gráficos no leen los CSV directamente**, leen copias en `static/charts/interactive/`. Ver sección 6.
+
+### 6. Regeneración mensual de los datos de los gráficos
+`scripts/regenerate_charts.py` reconstruye desde los CSV los tres archivos que alimentan las visualizaciones. **Correrlo cada vez que se actualizan los CSV** (flujo mensual):
+
+```
+python3 scripts/regenerate_charts.py
+```
+
+Un solo comando: normaliza los CSV y después regenera los gráficos. **No correr `regenerate_charts.py --skip-csv` salvo que ya se haya corrido el normalizador** — si el JSON queda normalizado y el CSV no, el filtro cruzado de la tabla deja de encontrar filas (ver sección 7).
+
+| Archivo | Qué es | Qué hace el script |
+|---|---|---|
+| `observatorio_database.json` | 1 registro por norma; lo cargan el sunburst y el explorador | se regenera entero |
+| `objetivos_drilldown.json` | spec Vega-Lite con los datos **embebidos** en `datasets` | se reemplaza solo el bloque de datos, el spec queda igual |
+| `observatorio_drilldown.json` | spec sin datos | solo se ajustan los topes del filtro de años |
+
+Detalles que importan:
+- El filtro de años estaba clavado en `max: 2025`; con datos de 2026 las 411 filas nuevas quedaban invisibles. El script ajusta `yearMin`/`yearMax` al rango real.
+- Las filas sin año se emiten **sin la clave `anio`**. Si se emite `null`, `vega-scripts.html` hace `Number(null) === 0` y el panel muestra «Rango temporal: 0 - 2026».
+- Normaliza las cuatro capas del sunburst. `objetivo` usa la taxonomía; `impacto`/`estado`/`tipo` solo colapsan variantes de mayúsculas/acentos quedándose con la grafía más frecuente (no hay taxonomía para esas capas).
+- Por defecto `objetivos_drilldown` cuenta **solo el objetivo primario**, como el snapshot anterior. Con `--all-objetivos` cuenta las tres columnas (4986 filas en vez de 2721). Ojo: con el default, `Desinformación` no aparece nunca en el gráfico porque solo figura como objetivo secundario.
+- Tiene `--dry-run`. Es idempotente.
+
+Pendiente de limpiar en los CSV (el script los reporta al correr): `impacto` tiene valores fuera de Limita/Promueve (`SI`, `NO`, `**`, y una frase larga), y `tipo` tiene 59 valores distintos.
+
+
+### 7. De dónde saca los datos cada visualización
+Auditado. Todo lo que está publicado sale de los CSV:
+
+| Visualización | Fuente |
+|---|---|
+| Tarjetas de totales del hub | `readFile` de Hugo sobre los CSV |
+| `observatorio_sunburst` + `observatorio_drilldown` | `observatorio_database.json` (generado) |
+| `objetivos_drilldown` | datos embebidos en el propio spec (generados) |
+| Tabla `documentation` | `fetch` de los CSV en runtime |
+| `ia_sunburst` + `ia_drilldown` | `ai_database.json` (en sync con `ai_clean.csv`) |
+| Tabla `documentation-ai` | `fetch` de `ai_clean.csv` |
+| `observatorio-mes` (boletines) | `readFile` de Hugo sobre los CSV |
+
+**Acoplamiento no obvio:** `documentation.js` filtra la tabla comparando el valor que emite el gráfico contra la columna del CSV. Es una comparación de strings, así que gráfico y CSV tienen que coincidir. Se agregó `fold()` (sin mayúsculas ni acentos) para que aguante el colapso de grafías que hace `regenerate_charts.py`; sin eso, clic en «Proyecto de ley» devolvía 971 filas cuando el gráfico decía 1573. `fold()` también mapea «Sin dato» a la celda vacía. Lo que `fold()` **no** salva es la falta de normalización de la taxonomía: por eso el normalizador de CSV no es opcional.
+
+**Archivos muertos** (ningún `.md` los referencia; las únicas menciones están en comentarios de uso dentro de los shortcodes). Quedaron con el snapshot viejo y no se regeneran:
+- `static/charts/interactive/country_year_explorer.json` (2163 filas)
+- `static/charts/interactive/observatorio_sunburst_hierarchy.json` (273 filas)
+- los 13 `.svg` de `static/charts/` (pre-renderizados)
+
+Si se van a usar, hay que generarlos; si no, se pueden borrar.
 
 ---
 
@@ -79,4 +126,6 @@ _(actualizar a medida que se completen)_
 - [ ] Decidir si agregar las mismas mesas al equivalente EN (`content/en/`).
 - [ ] Traducir "Objetivos legítimos" al EN (`content/en/observatorio-legislativo/legitimate-aims.md`).
 - [ ] Decidir dónde van los 9 valores de objetivo legítimo sin mapear (ver sección 5).
-- [ ] Regenerar `observatorio_database.json` / `objetivos_drilldown.json` desde los CSV si se quiere que los gráficos reflejen la normalización (hoy son snapshots desacoplados y no hay generador).
+- [ ] Limpiar en los CSV los valores de `¿Limita o promueve el discurso?` que no son Limita/Promueve (`SI`, `NO`, `**`).
+- [ ] Decidir si `objetivos_drilldown` debería contar los objetivos secundarios (`--all-objetivos`).
+- [ ] Decidir qué hacer con los archivos muertos de la sección 7 (borrarlos o generarlos).

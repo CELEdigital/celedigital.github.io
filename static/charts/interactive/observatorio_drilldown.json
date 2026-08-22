@@ -3,7 +3,9 @@
   "title": "Explorador jerárquico (tiles)",
   "config": {
     "font": "Jost, Arial, sans-serif",
-    "view": { "stroke": "transparent" },
+    "view": {
+      "stroke": "transparent"
+    },
     "axis": {
       "labelColor": "#222",
       "titleColor": "#222",
@@ -14,13 +16,18 @@
       "titleColor": "#222"
     }
   },
-  "data": { "url": "/charts/interactive/observatorio_database.json" },
+  "data": {
+    "url": "/charts/interactive/observatorio_database.json"
+  },
   "params": [
     {
       "name": "nivel1",
       "select": {
         "type": "point",
-        "fields": ["dataset", "pais"],
+        "fields": [
+          "dataset",
+          "pais"
+        ],
         "on": "click[event.item && event.item.datum && event.item.datum.anio == null]",
         "clear": "dblclick"
       }
@@ -29,7 +36,10 @@
       "name": "nivel2",
       "select": {
         "type": "point",
-        "fields": ["anio", "feature_clean"],
+        "fields": [
+          "anio",
+          "feature_clean"
+        ],
         "on": "click[event.item && event.item.datum && event.item.datum.anio != null]",
         "clear": "dblclick"
       }
@@ -40,7 +50,12 @@
       "bind": {
         "input": "select",
         "name": "Capa de análisis: ",
-        "options": ["Objetivo", "Impacto", "Estado", "Tipo"]
+        "options": [
+          "Objetivo",
+          "Impacto",
+          "Estado",
+          "Tipo"
+        ]
       }
     },
     {
@@ -49,18 +64,18 @@
       "bind": {
         "input": "range",
         "min": 1874,
-        "max": 2025,
+        "max": 2026,
         "step": 1,
         "name": "Año desde: "
       }
     },
     {
       "name": "yearMax",
-      "value": 2025,
+      "value": 2026,
       "bind": {
         "input": "range",
         "min": 1874,
-        "max": 2025,
+        "max": 2026,
         "step": 1,
         "name": "Año hasta: "
       }
@@ -70,11 +85,16 @@
     {
       "title": "Nivel 1: Leyes/Proyectos -> País",
       "transform": [
-        { "filter": "!toNumber(datum.anio) || (toNumber(datum.anio) >= yearMin && toNumber(datum.anio) <= yearMax)" }
+        {
+          "filter": "!toNumber(datum.anio) || (toNumber(datum.anio) >= yearMin && toNumber(datum.anio) <= yearMax)"
+        }
       ],
       "width": 700,
       "height": 260,
-      "mark": { "type": "rect", "cornerRadius": 4 },
+      "mark": {
+        "type": "rect",
+        "cornerRadius": 4
+      },
       "encoding": {
         "x": {
           "field": "pais",
@@ -90,24 +110,45 @@
           "aggregate": "count",
           "type": "quantitative",
           "title": "Cantidad",
-          "scale": { "scheme": "tealblues" }
+          "scale": {
+            "scheme": "tealblues"
+          }
         },
         "opacity": {
-          "condition": { "param": "nivel1", "value": 1 },
+          "condition": {
+            "param": "nivel1",
+            "value": 1
+          },
           "value": 0.85
         },
         "tooltip": [
-          { "field": "dataset", "title": "Tipo" },
-          { "field": "pais", "title": "País" },
-          { "aggregate": "count", "title": "Registros" }
+          {
+            "field": "dataset",
+            "title": "Tipo"
+          },
+          {
+            "field": "pais",
+            "title": "País"
+          },
+          {
+            "aggregate": "count",
+            "title": "Registros"
+          }
         ]
       }
     },
     {
       "title": "Nivel 2: País + Tipo -> Capa seleccionada por año",
       "transform": [
-        { "filter": "!toNumber(datum.anio) || (toNumber(datum.anio) >= yearMin && toNumber(datum.anio) <= yearMax)" },
-        { "filter": { "param": "nivel1", "empty": true } },
+        {
+          "filter": "!toNumber(datum.anio) || (toNumber(datum.anio) >= yearMin && toNumber(datum.anio) <= yearMax)"
+        },
+        {
+          "filter": {
+            "param": "nivel1",
+            "empty": true
+          }
+        },
         {
           "calculate": "featureField == 'Objetivo' ? datum.objetivo : featureField == 'Impacto' ? datum.impacto : featureField == 'Estado' ? datum.estado : datum.tipo",
           "as": "feature_value"
@@ -119,7 +160,10 @@
       ],
       "width": 700,
       "height": 320,
-      "mark": { "type": "rect", "cornerRadius": 2 },
+      "mark": {
+        "type": "rect",
+        "cornerRadius": 2
+      },
       "encoding": {
         "x": {
           "field": "anio",
@@ -136,27 +180,51 @@
           "aggregate": "count",
           "type": "quantitative",
           "title": "Cantidad",
-          "scale": { "scheme": "goldgreen" }
+          "scale": {
+            "scheme": "goldgreen"
+          }
         },
         "opacity": {
-          "condition": { "param": "nivel2", "value": 1 },
+          "condition": {
+            "param": "nivel2",
+            "value": 1
+          },
           "value": 0.82
         },
         "stroke": {
-          "condition": { "param": "nivel2", "value": "#111111" },
+          "condition": {
+            "param": "nivel2",
+            "value": "#111111"
+          },
           "value": "#ffffff"
         },
         "strokeWidth": {
-          "condition": { "param": "nivel2", "value": 1.2 },
+          "condition": {
+            "param": "nivel2",
+            "value": 1.2
+          },
           "value": 0.4
         },
         "tooltip": [
-          { "field": "anio", "title": "Año" },
-          { "field": "feature_clean", "title": "Categoría" },
-          { "aggregate": "count", "title": "Registros" }
+          {
+            "field": "anio",
+            "title": "Año"
+          },
+          {
+            "field": "feature_clean",
+            "title": "Categoría"
+          },
+          {
+            "aggregate": "count",
+            "title": "Registros"
+          }
         ]
       }
     }
   ],
-  "resolve": { "scale": { "color": "independent" } }
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  }
 }

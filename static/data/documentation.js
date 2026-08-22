@@ -123,6 +123,17 @@
     return String(value).trim();
   };
 
+  // Los gráficos colapsan las variantes de grafía de tipo/impacto/objetivo
+  // (ver scripts/regenerate_charts.py), así que el filtro cruzado tiene que
+  // comparar ignorando mayúsculas y acentos: si no, hacer clic en «Proyecto de
+  // ley» descartaba las filas que en el CSV dicen «Proyecto de Ley».
+  const fold = (value) => normalize(value)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .trim();
+
   const normalizeAnalysis = (value) => {
     const text = String(value === null || value === undefined ? '' : value)
       .replace(/\s+/g, ' ')
@@ -320,9 +331,11 @@
 
         if (ext.featureField && ext.featureValue) {
           const key = ext.featureField.toLowerCase();
-          if (key === 'objetivo' && row[fields.topic] !== ext.featureValue) return false;
-          if (key === 'impacto' && row[fields.limita] !== ext.featureValue) return false;
-          if (key === 'tipo' && row[fields.type] !== ext.featureValue) return false;
+          // Los gráficos muestran «Sin dato» donde el CSV trae la celda vacía.
+          const target = fold(ext.featureValue) === 'sin dato' ? '' : fold(ext.featureValue);
+          if (key === 'objetivo' && fold(row[fields.topic]) !== target) return false;
+          if (key === 'impacto' && fold(row[fields.limita]) !== target) return false;
+          if (key === 'tipo' && fold(row[fields.type]) !== target) return false;
         }
 
         if (ext.year && normalize(row[fields.year]) !== normalize(ext.year)) return false;

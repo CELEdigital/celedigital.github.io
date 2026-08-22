@@ -532,3 +532,112 @@
     columns: 1;
   }
 }
+
+/* ── Rango de años compartido ──
+   Dos sliders independientes, uno por fila. Antes estaban superpuestos sobre
+   la misma pista y, con 150 años de rango, los dos pulgares se pisaban y era
+   imposible agarrar el que uno quería. */
+.year-range {
+  margin: 1.75rem 0 1.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: 6px;
+  background: var(--neutral-100);
+}
+
+.year-range__row {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 0.7rem;
+}
+
+.year-range__label {
+  flex: 0 0 3.4rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--neutral-600);
+}
+
+.year-range__row input[type="range"] {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 1.4rem;
+  margin: 0;
+  accent-color: var(--cele);
+  cursor: pointer;
+}
+
+.year-range__value {
+  flex: 0 0 3.2rem;
+  text-align: right;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-dark);
+}
+
+.year-range__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--neutral-200);
+}
+
+.year-range__apply,
+.year-range__reset {
+  padding: 0.35rem 1rem;
+  font: inherit;
+  font-size: 0.82rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.year-range__apply {
+  color: #fff;
+  background: var(--cele);
+  border: 1px solid var(--cele);
+}
+
+.year-range__reset {
+  color: var(--neutral-800);
+  background: transparent;
+  border: 1px solid var(--neutral-300);
+}
+
+.year-range__reset:hover {
+  border-color: var(--cele);
+}
+
+.year-range__status {
+  font-size: 0.8rem;
+  color: var(--neutral-600);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Mientras hay cambios sin aplicar, el botón llama la atención */
+.year-range--pendiente .year-range__apply {
+  box-shadow: 0 0 0 3px rgba(173, 43, 37, 0.18);
+}
+
+.year-range--pendiente .year-range__status {
+  color: var(--cele);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .year-range__row {
+    flex-wrap: wrap;
+  }
+
+  .year-range__label {
+    flex-basis: auto;
+  }
+
+  .year-range__actions {
+    flex-wrap: wrap;
+  }
+}

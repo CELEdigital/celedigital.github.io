@@ -351,6 +351,42 @@
       </h3>
       {{ end }}
     </nav>
+    {{/* Rango de años compartido: lo consume vega-scripts.html y lo aplica a
+         todos los gráficos y a las tablas de documentación. Los límites salen
+         de meta.json, que escribe scripts/actualizar_observatorio.py. */}}
+    {{ $anioMin := 1874 }}
+    {{ $anioMax := 2026 }}
+    {{ with os.ReadFile "static/charts/interactive/meta.json" }}
+      {{ $m := . | transform.Unmarshal }}
+      {{ $anioMin = int $m.anioMin }}
+      {{ $anioMax = int $m.anioMax }}
+    {{ end }}
+    <div class="year-range" data-year-range>
+      <div class="year-range__row">
+        <label class="year-range__label" for="year-from">{{ cond $isES "Desde" "From" }}</label>
+        <input
+          id="year-from" type="range" data-year-from
+          min="{{ $anioMin }}" max="{{ $anioMax }}" step="1" value="{{ $anioMin }}">
+        <output class="year-range__value" data-year-from-out>{{ $anioMin }}</output>
+      </div>
+      <div class="year-range__row">
+        <label class="year-range__label" for="year-to">{{ cond $isES "Hasta" "To" }}</label>
+        <input
+          id="year-to" type="range" data-year-to
+          min="{{ $anioMin }}" max="{{ $anioMax }}" step="1" value="{{ $anioMax }}">
+        <output class="year-range__value" data-year-to-out>{{ $anioMax }}</output>
+      </div>
+      <div class="year-range__actions">
+        <button type="button" class="year-range__apply" data-year-apply>
+          {{ cond $isES "Aplicar" "Apply" }}
+        </button>
+        <button type="button" class="year-range__reset" data-year-reset>
+          {{ cond $isES "Ver todo" "Show all" }}
+        </button>
+        <span class="year-range__status" data-year-status role="status"></span>
+      </div>
+    </div>
+
     <div class="workshop-panels">
       {{ if $ldePage }}
       <div id="obs-viz-lde" class="workshop-panel is-active" data-obs-viz-panel>

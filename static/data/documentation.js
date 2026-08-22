@@ -124,7 +124,7 @@
   };
 
   // Los gráficos colapsan las variantes de grafía de tipo/impacto/objetivo
-  // (ver scripts/regenerate_charts.py), así que el filtro cruzado tiene que
+  // (ver scripts/actualizar_observatorio.py), así que el filtro cruzado tiene que
   // comparar ignorando mayúsculas y acentos: si no, hacer clic en «Proyecto de
   // ley» descartaba las filas que en el CSV dicen «Proyecto de Ley».
   const fold = (value) => normalize(value)
@@ -273,7 +273,11 @@
         featureField: '',
         featureValue: '',
         year: ''
-      }
+      },
+      // Rango del slider compartido. Va fuera de `external` a propósito:
+      // applyExternalFilters reconstruye ese objeto entero en cada clic sobre
+      // un gráfico, y se llevaba puesto el rango.
+      years: { min: null, max: null }
     };
 
     const syncKey = normalize(root.dataset.docSync);
@@ -339,6 +343,15 @@
         }
 
         if (ext.year && normalize(row[fields.year]) !== normalize(ext.year)) return false;
+
+        // Rango del slider compartido de la sección Visualizaciones.
+        if (state.years.min !== null || state.years.max !== null) {
+          const anio = parseInt(normalize(row[fields.year]), 10);
+          if (Number.isFinite(anio)) {
+            if (state.years.min !== null && anio < state.years.min) return false;
+            if (state.years.max !== null && anio > state.years.max) return false;
+          }
+        }
 
         if (search) {
           const haystack = `${row[fields.title]} ${row[fields.ref]} ${row[fields.origin] || ''}`.toLowerCase();
@@ -511,6 +524,14 @@
     if (interactive) {
       window.addEventListener('documentation:filter', async (event) => {
         await applyExternalFilters(event.detail || {});
+      });
+      // Slider de años compartido (vega-scripts.html). Es independiente del
+      // clic en los gráficos, así que solo toca yearMin/yearMax.
+      window.addEventListener('documentation:years', (event) => {
+        const d = event.detail || {};
+        state.years.min = Number.isFinite(d.yearMin) ? d.yearMin : null;
+        state.years.max = Number.isFinite(d.yearMax) ? d.yearMax : null;
+        applyFilters();
       });
     }
 

@@ -48,39 +48,59 @@ Falta la versión EN (`content/en/observatorio-legislativo/legitimate-aims.md`):
 
 
 ### 5. Columna «Objetivo legítimo» normalizada en los CSV
-`scripts/normalize_objetivos.py` reescribe las tres columnas de objetivo legítimo de `proyectos_clean.csv` y `leyes_clean.csv` para que cada celda sea una categoría de `objetivos-legitimos.md`. Es idempotente y tiene `--dry-run`.
+Las tres columnas de objetivo legítimo de `proyectos_clean.csv` y `leyes_clean.csv` quedaron con una categoría de `objetivos-legitimos.md` por celda. De 92 valores crudos se pasó a **19 categorías**.
 
-- De 92 valores crudos se pasó a **19 categorías** (+9 valores sin mapear que se dejaron tal cual: `Libertad de trabajo`, `Dignidad`, `Desapariciones forzadas`, `Derecho a la verdad`, `Educación`, `Gasto estatal`, `COVID-20`, `Vida`).
+- Lo hace el paso 2 de `actualizar_observatorio.py` (taxonomía en `TAXONOMIA`, variantes en `ALIAS`).
 - Decisión tomada con el usuario: `Seguridad nacional` y `Derechos de los niños` son **categorías propias**, no términos de Ciberseguridad, aunque el .md los liste ahí. Ciberseguridad queda solo con `Delitos informáticos` y `Seguridad digital`.
-- El script hace round-trip byte-idéntico (CRLF, `QUOTE_MINIMAL`, sin BOM), así que el diff solo toca las celdas de objetivo.
-- Si se agregan filas nuevas al CSV, volver a correrlo; los valores que no mapeen se reportan al final en vez de inventarles categoría.
+- Quedaron 9 valores sin lugar en la taxonomía, que se dejan tal cual y se reportan en cada corrida: `Libertad de trabajo`, `Dignidad`, `Desapariciones forzadas`, `Derecho a la verdad`, `Educación`, `Gasto estatal`, `COVID-20`, `Vida`.
+- La escritura del CSV es round-trip byte a byte (CRLF, comillas mínimas, sin BOM), así que el diff solo toca las celdas de objetivo.
 
-**Los gráficos no leen los CSV directamente**, leen copias en `static/charts/interactive/`. Ver sección 6.
-
-### 6. Regeneración mensual de los datos de los gráficos
-`scripts/regenerate_charts.py` reconstruye desde los CSV los tres archivos que alimentan las visualizaciones. **Correrlo cada vez que se actualizan los CSV** (flujo mensual):
+### 6. Actualización mensual: `scripts/actualizar_observatorio.py`
+**Un solo comando** hace todo el circuito planilla → CSV → JSON de gráficos:
 
 ```
-python3 scripts/regenerate_charts.py
+python3 scripts/actualizar_observatorio.py
 ```
 
-Un solo comando: normaliza los CSV y después regenera los gráficos. **No correr `regenerate_charts.py --skip-csv` salvo que ya se haya corrido el normalizador** — si el JSON queda normalizado y el CSV no, el filtro cruzado de la tabla deja de encontrar filas (ver sección 7).
+Pasos, en orden (los tres tienen que correr juntos, ver el acoplamiento en la sección 7):
 
-| Archivo | Qué es | Qué hace el script |
-|---|---|---|
-| `observatorio_database.json` | 1 registro por norma; lo cargan el sunburst y el explorador | se regenera entero |
-| `objetivos_drilldown.json` | spec Vega-Lite con los datos **embebidos** en `datasets` | se reemplaza solo el bloque de datos, el spec queda igual |
-| `observatorio_drilldown.json` | spec sin datos | solo se ajustan los topes del filtro de años |
+1. **Descarga** las planillas de Google como CSV a `static/data/`.
+2. **Normaliza** la columna «Objetivo legítimo» de los CSV según la taxonomía de `objetivos-legitimos.md`.
+3. **Genera** `observatorio_database.json`, los datos embebidos de `objetivos_drilldown.json`, el rango de años de `observatorio_drilldown.json` y `ai_database.json`.
+
+Opciones: `--sin-descarga` (usa los CSV de disco), `--solo-descarga`, `--dry-run`, `--todos-objetivos`.
+
+**Falta configurar la descarga.** El diccionario `GOOGLE_SHEETS` arriba del script está vacío; hasta que se complete con los ids y gids, el paso 1 avisa y sigue con los CSV que ya están en disco. Son dos planillas: una con proyectos y leyes, otra con las normas de IA. Tienen que ser visibles con el link, porque el endpoint gviz no manda credenciales. Antes de pisar un CSV el script compara encabezados y cantidad de filas contra el archivo actual y avisa si algo se cayó (pestaña equivocada, filtro puesto en la planilla).
 
 Detalles que importan:
 - El filtro de años estaba clavado en `max: 2025`; con datos de 2026 las 411 filas nuevas quedaban invisibles. El script ajusta `yearMin`/`yearMax` al rango real.
 - Las filas sin año se emiten **sin la clave `anio`**. Si se emite `null`, `vega-scripts.html` hace `Number(null) === 0` y el panel muestra «Rango temporal: 0 - 2026».
-- Normaliza las cuatro capas del sunburst. `objetivo` usa la taxonomía; `impacto`/`estado`/`tipo` solo colapsan variantes de mayúsculas/acentos quedándose con la grafía más frecuente (no hay taxonomía para esas capas).
-- Por defecto `objetivos_drilldown` cuenta **solo el objetivo primario**, como el snapshot anterior. Con `--all-objetivos` cuenta las tres columnas (4986 filas en vez de 2721). Ojo: con el default, `Desinformación` no aparece nunca en el gráfico porque solo figura como objetivo secundario.
-- Tiene `--dry-run`. Es idempotente.
+- Normaliza las cuatro capas del sunburst. `objetivo` usa la taxonomía; `impacto`/`estado`/`tipo` solo colapsan variantes de mayúsculas y acentos quedándose con la grafía más frecuente.
+- Por defecto `objetivos_drilldown` cuenta **solo el objetivo primario**, como el snapshot original. Con `--todos-objetivos` cuenta las tres columnas (4986 filas en vez de 2721). Ojo: con el default `Desinformación` no aparece nunca, porque solo figura como objetivo secundario.
+- El mapeo `ai_clean.csv` → `ai_database.json` está en `CAMPOS_IA` (se reconstruyó a partir del archivo anterior; `dataset` sale de la columna `Tipo`, `tipo` sale de `Origen`).
+- Es idempotente. Reemplaza a `normalize_objetivos.py` y `regenerate_charts.py`, que se borraron.
 
-Pendiente de limpiar en los CSV (el script los reporta al correr): `impacto` tiene valores fuera de Limita/Promueve (`SI`, `NO`, `**`, y una frase larga), y `tipo` tiene 59 valores distintos.
+Pendiente de limpiar en la planilla (el script lo reporta al correr): `impacto` tiene valores que no son Limita/Promueve (`SI`, `NO`, `**`, y una frase larga), y `tipo` tiene 59 valores distintos.
 
+### 8. Slider de años compartido
+Un único control arriba de Visualizaciones filtra por año **los cinco gráficos y las dos tablas** a la vez. Antes cada explorador traía su propio par de sliders y solo se filtraba a sí mismo.
+
+Piezas:
+- **`observatory-hub.html`** pinta el control (`.year-range`): dos sliders **en filas separadas** (Desde / Hasta), cada uno con su valor, más los botones Aplicar y Ver todo. Los límites salen de `meta.json`, que escribe el script.
+- **`vega-scripts.html`** guarda todas las vistas en `vistas[]` y empuja `yearMin`/`yearMax` a las que las tengan, más un evento `documentation:years` para las tablas.
+- **Los specs**: los sunburst (Vega crudo) llevan dos señales y un dataset `filtrado` intercalado entre `source` y los tres agregados; `objetivos_drilldown` lleva params + un filtro y su data embebida ahora incluye `anio`; a los dos drilldown se les sacó el `bind` para que no dibujen sus sliders viejos.
+- **`documentation.js` / `documentation-ai.js`** escuchan `documentation:years`.
+
+**Los sliders no aplican solos: hace falta apretar Aplicar.** Mientras hay cambios pendientes el control toma la clase `year-range--pendiente` y el estado dice «Sin aplicar: X–Y». Dos razones: con 150 años de rango, recalcular en cada paso del arrastre trababa los cinco gráficos, y así se puede fijar Desde y Hasta antes de que se recalcule nada.
+
+**Por qué no un slider de doble pulgar.** La primera versión superponía los dos `<input type=range>` sobre la misma pista. Con el rango 1874–2026 en ~840px, un año son ~5px: los dos pulgares (16px) se pisaban en el extremo derecho y era imposible agarrar el que uno quería. Parecía que el gráfico no respondía, pero el problema era que el slider nunca cambiaba de valor. No volver a esa idea.
+
+Tres cosas que costaron y conviene no re-romper:
+1. El panel del sunburst leía `view.data("source")` (sin filtrar). Ahora lee `"filtrado"`.
+2. Ese panel **no puede repintarse desde `addSignalListener`**: cuando el listener corre, el dataflow todavía no recalculó los datasets derivados y el panel queda un paso atrás. Se repinta desde `view.__repintarPanel()` después de que resuelve `runAsync()`.
+3. El rango vive en `state.years`, **fuera de `state.external`**: `applyExternalFilters` reconstruye ese objeto entero en cada clic sobre un gráfico y se llevaba puesto el rango.
+
+El script del punto 6 solo toca el `value` inicial de esas señales y la data embebida, así que volver a correrlo no deshace nada de esto (verificado: los specs quedan byte a byte iguales).
 
 ### 7. De dónde saca los datos cada visualización
 Auditado. Todo lo que está publicado sale de los CSV:
@@ -95,7 +115,7 @@ Auditado. Todo lo que está publicado sale de los CSV:
 | Tabla `documentation-ai` | `fetch` de `ai_clean.csv` |
 | `observatorio-mes` (boletines) | `readFile` de Hugo sobre los CSV |
 
-**Acoplamiento no obvio:** `documentation.js` filtra la tabla comparando el valor que emite el gráfico contra la columna del CSV. Es una comparación de strings, así que gráfico y CSV tienen que coincidir. Se agregó `fold()` (sin mayúsculas ni acentos) para que aguante el colapso de grafías que hace `regenerate_charts.py`; sin eso, clic en «Proyecto de ley» devolvía 971 filas cuando el gráfico decía 1573. `fold()` también mapea «Sin dato» a la celda vacía. Lo que `fold()` **no** salva es la falta de normalización de la taxonomía: por eso el normalizador de CSV no es opcional.
+**Acoplamiento no obvio:** `documentation.js` filtra la tabla comparando el valor que emite el gráfico contra la columna del CSV. Es una comparación de strings, así que gráfico y CSV tienen que coincidir. Se agregó `fold()` en `documentation.js` (sin mayúsculas ni acentos) para que aguante el colapso de grafías que hace `regenerate_charts.py`; sin eso, clic en «Proyecto de ley» devolvía 971 filas cuando el gráfico decía 1573. `fold()` también mapea «Sin dato» a la celda vacía. Lo que `fold()` **no** salva es la falta de normalización de la taxonomía: por eso el normalizador de CSV no es opcional.
 
 **Archivos muertos: borrados.** Se eliminaron `country_year_explorer.json`, `observatorio_sunburst_hierarchy.json` y los 13 `.svg` de `static/charts/`: ninguna página los referenciaba y traían el snapshot viejo. Están en el historial de git si hacen falta. Quedan solo los 7 archivos vivos de `static/charts/interactive/`.
 

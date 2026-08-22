@@ -97,12 +97,9 @@ Auditado. Todo lo que está publicado sale de los CSV:
 
 **Acoplamiento no obvio:** `documentation.js` filtra la tabla comparando el valor que emite el gráfico contra la columna del CSV. Es una comparación de strings, así que gráfico y CSV tienen que coincidir. Se agregó `fold()` (sin mayúsculas ni acentos) para que aguante el colapso de grafías que hace `regenerate_charts.py`; sin eso, clic en «Proyecto de ley» devolvía 971 filas cuando el gráfico decía 1573. `fold()` también mapea «Sin dato» a la celda vacía. Lo que `fold()` **no** salva es la falta de normalización de la taxonomía: por eso el normalizador de CSV no es opcional.
 
-**Archivos muertos** (ningún `.md` los referencia; las únicas menciones están en comentarios de uso dentro de los shortcodes). Quedaron con el snapshot viejo y no se regeneran:
-- `static/charts/interactive/country_year_explorer.json` (2163 filas)
-- `static/charts/interactive/observatorio_sunburst_hierarchy.json` (273 filas)
-- los 13 `.svg` de `static/charts/` (pre-renderizados)
+**Archivos muertos: borrados.** Se eliminaron `country_year_explorer.json`, `observatorio_sunburst_hierarchy.json` y los 13 `.svg` de `static/charts/`: ninguna página los referenciaba y traían el snapshot viejo. Están en el historial de git si hacen falta. Quedan solo los 7 archivos vivos de `static/charts/interactive/`.
 
-Si se van a usar, hay que generarlos; si no, se pueden borrar.
+El shortcode `chart` (`layouts/shortcodes/chart.html`) sigue existiendo pero ya no lo usa ninguna página y no queda ningún SVG. Si nunca se vuelve a usar, se puede borrar también.
 
 ---
 
@@ -128,4 +125,3 @@ _(actualizar a medida que se completen)_
 - [ ] Decidir dónde van los 9 valores de objetivo legítimo sin mapear (ver sección 5).
 - [ ] Limpiar en los CSV los valores de `¿Limita o promueve el discurso?` que no son Limita/Promueve (`SI`, `NO`, `**`).
 - [ ] Decidir si `objetivos_drilldown` debería contar los objetivos secundarios (`--all-objetivos`).
-- [ ] Decidir qué hacer con los archivos muertos de la sección 7 (borrarlos o generarlos).

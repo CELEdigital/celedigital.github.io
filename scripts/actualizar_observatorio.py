@@ -6,7 +6,7 @@
 
 Hace, en orden:
 
-  1. DESCARGA   las planillas de Google como CSV -> static/data/*.csv
+  1. DESCARGA   las planillas de Google y las limpia -> static/data/*.csv
   2. NORMALIZA  la columna «Objetivo legítimo» de los CSV según la taxonomía
                 de content/es/observatorio-legislativo/objetivos-legitimos.md
   3. GENERA     los JSON que leen los gráficos
@@ -18,20 +18,25 @@ clic en una porción del sunburst deja de devolver filas.
 
 Opciones:
     --sin-descarga    saltea el paso 1 y trabaja con los CSV que ya están en
-                      disco. Es lo que hay que usar mientras GOOGLE_SHEETS no
-                      esté configurado.
+                      disco (para reprocesar sin volver a bajar todo).
     --solo-descarga   baja los CSV y no toca nada más.
     --dry-run         no escribe nada, solo informa.
     --todos-objetivos cuenta también los objetivos secundarios en
                       objetivos_drilldown (ver nota más abajo).
 
-Reemplaza a normalize_objetivos.py y regenerate_charts.py.
+Las tres pestañas están configuradas en GOOGLE_SHEETS; el paso 1 hace también
+toda la limpieza (columnas auxiliares, filas de relleno, sí/no, fechas a ISO),
+así que lo que queda en static/data/*.csv es directamente lo publicable.
+
+Reemplaza a normalize_objetivos.py, regenerate_charts.py y a la descarga que
+vivía aparte en observatorio_matriz/build_matriz_csv.py.
 """
 from __future__ import annotations
 
 import argparse
 import collections
 import csv
+import datetime as dt
 import io
 import json
 import pathlib
@@ -46,7 +51,7 @@ CHARTS = REPO / "static/charts/interactive"
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 1. DESCARGA
+# 1. DESCARGA Y LIMPIEZA
 # ─────────────────────────────────────────────────────────────────────────────
 # Dos planillas: una con proyectos y leyes, otra con las normas de IA.
 # Para cada destino hace falta el id de la planilla y el gid de la pestaña.
@@ -54,19 +59,201 @@ CHARTS = REPO / "static/charts/interactive"
 #   id  : docs.google.com/spreadsheets/d/ ESTO /edit#gid=...
 #   gid : ...#gid= ESTO   (la pestaña; la primera suele ser gid=0)
 #
-# La planilla tiene que ser visible con el link ("cualquiera con el enlace
+# Las planillas tienen que ser visibles con el link ("cualquiera con el enlace
 # puede ver"): el endpoint gviz no manda credenciales.
+PLANILLA_LDE = "1OMiqjPYh8SXjhy_4rP-W9XjewoTxF15wH8awbUk73K8"  # Matriz LibExp
+PLANILLA_IA = "18XJ6_OpfN4sN-osRMx9ChwtitndIjHM5VEN041Zgb7k"   # Matriz de IA
+
 GOOGLE_SHEETS = {
-    # "proyectos_clean.csv": {"id": "PENDIENTE", "gid": "0"},
-    # "leyes_clean.csv":     {"id": "PENDIENTE", "gid": "0"},
-    # "ai_clean.csv":        {"id": "PENDIENTE", "gid": "0"},
+    "proyectos_clean.csv": {"id": PLANILLA_LDE, "gid": "870209020", "perfil": "lde"},
+    "leyes_clean.csv":     {"id": PLANILLA_LDE, "gid": "1261135058", "perfil": "lde"},
+    "ai_clean.csv":        {"id": PLANILLA_IA,  "gid": "145452991", "perfil": "ia"},
 }
 
-EXPORT_URL = "https://docs.google.com/spreadsheets/d/{id}/gviz/tq?tqx=out:csv&gid={gid}"
+# Se usa /export y no /gviz/tq: gviz infiere un tipo por columna y devuelve
+# vacías las celdas que no encajan, así que en las columnas mixtas se come los
+# datos (en «Año» de proyectos: 1608 celdas con dato en vez de 2362).
+EXPORT_URL = "https://docs.google.com/spreadsheets/d/{id}/export?format=csv&gid={gid}"
+
+# Lo que baja de Sheets no sirve tal cual: hay columnas auxiliares, filas de
+# relleno y respuestas escritas de diez maneras. Cada perfil describe cómo se
+# limpia su planilla. El resultado es lo que espera el paso 2 (normalización de
+# objetivos legítimos), así que download -> normalizar -> generar tiene que
+# correr en ese orden.
+#
+#   si_no          par (sí, no) con el que se escriben las respuestas booleanas
+#   si_no_prefijo  normaliza además el sí/no inicial de respuestas anotadas
+#                  ("Sí, penales" -> "Si, penales")
+#   renombrar      renombres de columna, para que el nombre publicado no dependa
+#                  de cómo se llame la columna en la planilla
+#   claves         una fila necesita al menos una de estas con dato para valer
+#   canonicos      grafía canónica de una columna, comparada sin acentos ni caso
+PERFILES = {
+    "lde": {
+        "si_no": ("SI", "NO"),
+    },
+    "ia": {
+        "si_no": ("Si", "No"),
+        "si_no_prefijo": True,
+        "renombrar": {"Año radicación": "Año"},
+        "claves": ("Número", "Objeto", "Autor"),
+        "canonicos": {"Tipo": ("Proyecto de ley", "Ley")},
+    },
+}
+
+# Columnas auxiliares que no forman parte del dataset publicado.
+COLUMNAS_FUERA = {"Archivo en Drive", "Nota de descarga"}
+
+# Columnas que tienen que quedar en ISO (YYYY-MM-DD). Se aplica por nombre, así
+# que da igual en qué planilla aparezcan.
+COLUMNAS_FECHA = {
+    "Fecha de sanción",
+    "Fecha de derogación o modificación",
+    "Fecha de entrada",
+    "Fecha de caducidad",
+}
+
+VACIOS = {"N/A", "NA", "N/D", "S/D", "-", "--"}
+SI_TOKENS = {"SI", "SÍ", "S", "YES"}
+NO_TOKENS = {"NO", "N", "NOT"}
+
+# Fechas guardadas como número de serie de Sheets (celdas que quedaron con
+# formato numérico). El rango acotado evita confundir un año suelto con fecha.
+EPOCA_SHEETS = dt.date(1899, 12, 30)
+SERIE_MIN, SERIE_MAX = 20000, 60000   # 1954-10-03 .. 2064-04-05
+
+MESES = {
+    "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6,
+    "julio": 7, "agosto": 8, "septiembre": 9, "setiembre": 9, "octubre": 10,
+    "noviembre": 11, "diciembre": 12,
+}
+
+
+def limpiar_celda(v: str) -> str:
+    v = re.sub(r"\s+", " ", (v or "").replace("\r", " ").replace("\n", " ")).strip()
+    return "" if v.upper() in VACIOS else v
+
+
+def limpiar_si_no(v: str, perfil: dict) -> str:
+    si, no = perfil["si_no"]
+    plano = v.upper().rstrip(".")
+    if plano in SI_TOKENS:
+        return si
+    if plano in NO_TOKENS:
+        return no
+    if perfil.get("si_no_prefijo"):
+        # Respuestas anotadas ("Sí, penales"): se normaliza solo el sí/no
+        # inicial, para que no queden dos variantes de la misma respuesta.
+        m = re.match(r"(sí|si|no)(?=\W)", v, re.IGNORECASE)
+        if m:
+            return (si if plegar(m.group(1)) == "si" else no) + v[m.end():]
+    return v
+
+
+def limpiar_canonico(v: str, opciones: tuple) -> str:
+    if not v:
+        return v
+    return next((o for o in opciones if plegar(o) == plegar(v)), v)
+
+
+def _iso(a: int, m: int, d: int):
+    if not (1 <= m <= 12 and 1 <= d <= 31 and 1000 <= a <= 2999):
+        return None
+    return f"{a:04d}-{m:02d}-{d:02d}"
+
+
+def a_iso(v: str):
+    """Fecha suelta -> ISO. None si no se puede parsear (se deja el original)."""
+    if not v:
+        return ""
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", v):
+        return v
+    if re.fullmatch(r"\d{5}", v) and SERIE_MIN <= int(v) <= SERIE_MAX:
+        return (EPOCA_SHEETS + dt.timedelta(days=int(v))).isoformat()
+
+    # 20/08/1997, 5/3/2012, 06/07/15 -- día/mes/año, con la salvedad de que
+    # algunas filas vienen cargadas como mes/día/año (p. ej. "4/21/21").
+    m = re.fullmatch(r"(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})", v)
+    if m:
+        p, s, a = (int(g) for g in m.groups())
+        a = a if a >= 100 else 2000 + a   # no hay siglo XX con dos dígitos
+        return _iso(a, s, p) or _iso(a, p, s)
+
+    # "2 de junio de 2026", "18 DE NOVIEMBRE DE 1970"
+    m = re.fullmatch(r"(\d{1,2})\s+de\s+([a-záéíóúñ]+)\s+de\s+(\d{4})", v, re.I)
+    if m:
+        d, mes, a = m.groups()
+        if MESES.get(plegar(mes)):
+            return _iso(int(a), MESES[plegar(mes)], int(d))
+
+    # 23/032018 -- separador faltante por error de tipeo.
+    m = re.fullmatch(r"(\d{2})/(\d{2})(\d{4})", v)
+    if m:
+        d, mes, a = (int(g) for g in m.groups())
+        return _iso(a, mes, d)
+    return None
+
+
+def repite_encabezado(valores: list, encabezado: list) -> bool:
+    """True si toda celda con dato repite el nombre de su propia columna.
+
+    La pestaña «Matriz» de la planilla de IA arrastra ~800 filas de relleno que
+    son el encabezado copiado hacia abajo, a veces recortado («Tema» en la
+    columna «Tema 3») o ampliado («Test tripartito de la sanción»).
+    """
+    con_dato = [(h, v) for h, v in zip(encabezado, valores) if v]
+    if not con_dato:
+        return False
+    return all(plegar(h).startswith(plegar(v)) or plegar(v).startswith(plegar(h))
+               for h, v in con_dato)
+
+
+def limpiar(filas: list, perfil: dict) -> tuple:
+    """(encabezado, filas limpias, reporte). No reordena ni deduplica."""
+    crudo = filas[0]
+    renombrar = perfil.get("renombrar", {})
+    quedan = [i for i, h in enumerate(crudo)
+              if h.strip() and h.strip() not in COLUMNAS_FUERA]
+    encabezado = [renombrar.get(crudo[i].strip(), crudo[i].strip()) for i in quedan]
+
+    faltan = [c for c in perfil.get("claves", ()) if c not in encabezado]
+    if faltan:
+        raise SystemExit(f"faltan las columnas clave {faltan}: "
+                         "¿les cambiaron el nombre en la planilla?")
+    i_claves = [encabezado.index(c) for c in perfil.get("claves", ())]
+    i_fechas = [i for i, h in enumerate(encabezado) if h in COLUMNAS_FECHA]
+    i_canon = {i: perfil["canonicos"][h] for i, h in enumerate(encabezado)
+               if h in perfil.get("canonicos", {})}
+
+    salida, vacias, relleno, sin_clave, sin_fecha = [], 0, 0, 0, []
+    for fila in filas[1:]:
+        v = [limpiar_celda(fila[i]) if i < len(fila) else "" for i in quedan]
+        if not any(v):
+            vacias += 1
+            continue
+        if repite_encabezado(v, encabezado):
+            relleno += 1
+            continue
+        if i_claves and not any(v[i] for i in i_claves):
+            sin_clave += 1
+            continue
+        v = [limpiar_si_no(x, perfil) for x in v]
+        for i, opciones in i_canon.items():
+            v[i] = limpiar_canonico(v[i], opciones)
+        for i in i_fechas:
+            iso = a_iso(v[i])
+            if iso is None:
+                sin_fecha.append((encabezado[i], v[i]))
+            else:
+                v[i] = iso
+        salida.append(v)
+
+    return encabezado, salida, {"vacias": vacias, "relleno": relleno,
+                                "sin_clave": sin_clave, "sin_fecha": sin_fecha}
 
 
 def descargar(dry_run: bool) -> bool:
-    """Baja cada pestaña configurada a su CSV. Devuelve False si no hay config."""
+    """Baja cada pestaña configurada, la limpia y la escribe. False si no hay config."""
     if not GOOGLE_SHEETS:
         print("  GOOGLE_SHEETS está vacío: no hay planillas configuradas todavía.")
         print("  (completar el diccionario arriba, o correr con --sin-descarga)")
@@ -77,17 +264,23 @@ def descargar(dry_run: bool) -> bool:
         url = EXPORT_URL.format(**cfg)
         with urllib.request.urlopen(url, timeout=120) as resp:
             crudo = resp.read().decode("utf-8")
+        if crudo.lstrip().startswith("<"):
+            raise SystemExit(
+                f"{filename}: Google devolvió HTML en vez de CSV. Casi seguro la "
+                "planilla dejó de estar compartida por link: abrila y revisá los permisos.")
 
-        filas = list(csv.reader(io.StringIO(crudo, newline="")))
-        if len(filas) < 2:
-            raise SystemExit(f"{filename}: la planilla vino vacía ({len(filas)} filas)")
+        bajadas = list(csv.reader(io.StringIO(crudo, newline="")))
+        if len(bajadas) < 2:
+            raise SystemExit(f"{filename}: la planilla vino vacía ({len(bajadas)} filas)")
+
+        encabezado, cuerpo, rep = limpiar(bajadas, PERFILES[cfg["perfil"]])
+        filas = [encabezado] + cuerpo
 
         # Se compara contra el CSV actual antes de pisarlo: una caída de filas
         # o un cambio de encabezados casi siempre es un error de la planilla
         # (pestaña equivocada, filtro puesto), no un dato nuevo.
         if destino.exists():
-            previas = list(csv.reader(io.StringIO(
-                destino.read_text(encoding="utf-8"), newline="")))
+            previas = leer_csv_crudo(destino)
             if previas and previas[0] != filas[0]:
                 nuevas = set(filas[0]) - set(previas[0])
                 faltan = set(previas[0]) - set(filas[0])
@@ -101,10 +294,25 @@ def descargar(dry_run: bool) -> bool:
                 print(f"  ¡OJO! {filename}: {caida} filas menos que el CSV actual")
 
         if not dry_run:
-            buf = io.StringIO(newline="")
-            csv.writer(buf, lineterminator="\r\n").writerows(filas)
-            destino.write_bytes(buf.getvalue().encode("utf-8"))
-        print(f"  {filename}: {len(filas) - 1} filas")
+            escribir_csv_crudo(destino, filas)
+        print(f"  {filename}: {len(cuerpo)} filas")
+        detalle = []
+        if rep["vacias"]:
+            detalle.append(f"{rep['vacias']} vacías")
+        if rep["relleno"]:
+            detalle.append(f"{rep['relleno']} de relleno")
+        if rep["sin_clave"]:
+            detalle.append(f"{rep['sin_clave']} sin columna clave")
+        if detalle:
+            print(f"        filas descartadas: {', '.join(detalle)}")
+        if rep["sin_fecha"]:
+            vistas = sorted({f"[{c}] {v}" for c, v in rep["sin_fecha"]})
+            print(f"        {len(rep['sin_fecha'])} fechas que no pude pasar a ISO "
+                  "(quedaron con el texto original):")
+            for t in vistas[:5]:
+                print(f"          {t[:90]}")
+            if len(vistas) > 5:
+                print(f"          (+{len(vistas) - 5} más)")
     return True
 
 

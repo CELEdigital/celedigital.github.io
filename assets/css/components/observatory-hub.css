@@ -545,37 +545,106 @@
   background: var(--neutral-100);
 }
 
-.year-range__row {
+/* Una pista, dos pulgares: Desde a la izquierda, Hasta a la derecha. */
+.year-range__slider {
   display: flex;
   align-items: center;
-  gap: 0.9rem;
-  margin-bottom: 0.7rem;
+  gap: 1rem;
+}
+
+.year-range__end {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.year-range__end--right {
+  text-align: right;
 }
 
 .year-range__label {
-  flex: 0 0 3.4rem;
-  font-size: 0.8rem;
-  letter-spacing: 0.03em;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--neutral-600);
 }
 
-.year-range__row input[type="range"] {
-  flex: 1 1 auto;
-  min-width: 0;
-  height: 1.4rem;
-  margin: 0;
-  accent-color: var(--cele);
-  cursor: pointer;
-}
-
 .year-range__value {
-  flex: 0 0 3.2rem;
-  text-align: right;
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
   color: var(--text-dark);
+}
+
+/* El padding lateral deja lugar para que los pulgares queden dentro de la
+   pista en los extremos; el JS usa el mismo valor (THUMB_RADIUS). */
+.year-range__track {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 1.5rem;
+  cursor: pointer;
+  touch-action: none;
+}
+
+.year-range__track::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  background: var(--neutral-300);
+}
+
+.year-range__fill {
+  position: absolute;
+  top: 50%;
+  height: 4px;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  background: var(--cele);
+}
+
+.year-range__thumb {
+  position: absolute;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  margin: -9px 0 0 -9px;
+  border-radius: 50%;
+  border: 2px solid var(--cele);
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  cursor: grab;
+}
+
+.year-range__thumb:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(173, 43, 37, 0.28);
+}
+
+/* El pulgar que se está arrastrando va arriba: si no, cuando los dos valores
+   coinciden el otro lo tapa y parece que no se movió. */
+.year-range__thumb[data-year-active] {
+  cursor: grabbing;
+  z-index: 2;
+}
+
+/* Los <input type=range> quedan solo como estado para vega-scripts.html. */
+.year-range__native {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .year-range__actions {
@@ -629,12 +698,12 @@
 }
 
 @media (max-width: 600px) {
-  .year-range__row {
-    flex-wrap: wrap;
+  .year-range__slider {
+    gap: 0.6rem;
   }
 
-  .year-range__label {
-    flex-basis: auto;
+  .year-range__value {
+    font-size: 1rem;
   }
 
   .year-range__actions {

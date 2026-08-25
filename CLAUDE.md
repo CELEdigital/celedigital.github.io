@@ -86,14 +86,23 @@ Pendiente de limpiar en la planilla (el script lo reporta al correr): `impacto` 
 Un único control arriba de Visualizaciones filtra por año **los cinco gráficos y las dos tablas** a la vez. Antes cada explorador traía su propio par de sliders y solo se filtraba a sí mismo.
 
 Piezas:
-- **`observatory-hub.html`** pinta el control (`.year-range`): dos sliders **en filas separadas** (Desde / Hasta), cada uno con su valor, más los botones Aplicar y Ver todo. Los límites salen de `meta.json`, que escribe el script.
+- **`observatory-hub.html`** pinta el control (`.year-range`): **una sola pista con dos pulgares**, Desde a la izquierda y Hasta a la derecha, más los botones Aplicar y Ver todo. Los límites salen de `meta.json`, que escribe el script.
 - **`vega-scripts.html`** guarda todas las vistas en `vistas[]` y empuja `yearMin`/`yearMax` a las que las tengan, más un evento `documentation:years` para las tablas.
 - **Los specs**: los sunburst (Vega crudo) llevan dos señales y un dataset `filtrado` intercalado entre `source` y los tres agregados; `objetivos_drilldown` lleva params + un filtro y su data embebida ahora incluye `anio`; a los dos drilldown se les sacó el `bind` para que no dibujen sus sliders viejos.
 - **`documentation.js` / `documentation-ai.js`** escuchan `documentation:years`.
 
 **Los sliders no aplican solos: hace falta apretar Aplicar.** Mientras hay cambios pendientes el control toma la clase `year-range--pendiente` y el estado dice «Sin aplicar: X–Y». Dos razones: con 150 años de rango, recalcular en cada paso del arrastre trababa los cinco gráficos, y así se puede fijar Desde y Hasta antes de que se recalcule nada.
 
-**Por qué no un slider de doble pulgar.** La primera versión superponía los dos `<input type=range>` sobre la misma pista. Con el rango 1874–2026 en ~840px, un año son ~5px: los dos pulgares (16px) se pisaban en el extremo derecho y era imposible agarrar el que uno quería. Parecía que el gráfico no respondía, pero el problema era que el slider nunca cambiaba de valor. No volver a esa idea.
+**El doble pulgar, y por qué esta vez sí.** El primer intento superponía los dos `<input type=range>` nativos sobre la misma pista. Con el rango 1874–2026 en ~840px un año son ~5px: los dos pulgares (16px) se pisaban en el extremo derecho y era imposible agarrar el que uno quería. Parecía que el gráfico no respondía, pero el slider nunca cambiaba de valor. **Esa idea sigue prohibida**: dos `<input type=range>` superpuestos no sirven, porque el que decide cuál agarrás es el hit-testing del navegador y ahí gana el z-order.
+
+La versión actual (`initYearRangeSlider` en `observatory-hub.js`) no usa inputs superpuestos: los pulgares son divs con `role="slider"` y quien elige cuál responde es `elegirPulgar()`:
+- fuera del rango no hay ambigüedad (a la izquierda de Desde mueve Desde, a la derecha de Hasta mueve Hasta);
+- adentro gana el más cercano;
+- **si los dos valores coinciden devuelve `null`** y la decisión se difiere hasta el primer movimiento del arrastre: para la izquierda es Desde, para la derecha es Hasta. Esto es lo que arregla el caso que mató a la versión vieja — con los dos pulgares apilados en 2026, arrastrar hacia la izquierda vuelve a abrir el rango. Verificado con arrastres reales del mouse.
+
+Los dos `<input type=range>` **siguen existiendo, ocultos** (`.year-range__native`, `tabindex="-1"`, `aria-hidden`): son el contrato con `conectarSliderDeAnios()` en `vega-scripts.html`, que lee `.min`/`.max`/`.value` y escucha `input`. El control custom los escribe y emite `input`; el resto de la cadena no cambió. Por eso también hubo que agregar el `dispatchEvent("input")` en el handler de **Ver todo**: escribía `.value` a mano y los pulgares se quedaban donde estaban.
+
+Teclado en cada pulgar: flechas ±1, PageUp/PageDown ±10, Home/End a los extremos. El `RADIO = 9` del JS tiene que seguir igual al margen negativo del pulgar en el CSS, o los extremos quedan corridos.
 
 Tres cosas que costaron y conviene no re-romper:
 1. El panel del sunburst leía `view.data("source")` (sin filtrar). Ahora lee `"filtrado"`.
@@ -101,6 +110,15 @@ Tres cosas que costaron y conviene no re-romper:
 3. El rango vive en `state.years`, **fuera de `state.external`**: `applyExternalFilters` reconstruye ese objeto entero en cada clic sobre un gráfico y se llevaba puesto el rango.
 
 El script del punto 6 solo toca el `value` inicial de esas señales y la data embebida, así que volver a correrlo no deshace nada de esto (verificado: los specs quedan byte a byte iguales).
+
+**Las dos tarjetas de totales también siguen el slider.** Antes eran un número fijo que Hugo calculaba contando filas del CSV. Ahora:
+- `observatory-hub.html` calcula además un histograma año→cantidad por dataset (los cuatro: proyectos y leyes de LDE, proyectos y leyes de IA) con `partial "observatory-year-counts.html"`, y lo emite en `data-counts` junto con `data-total`.
+- `observatory-hub.js` (`initYearCountCards`) escucha el mismo evento `documentation:years` que las tablas y resuelve el número sumando los baldes del rango.
+- **Las filas sin año se suman siempre**, no solo con el filtro abierto. Es lo que hacen el sunburst (`!isValid(datum.anio)`) y la tabla (`Number.isFinite`); si se descartaran, la tarjeta diría menos que las filas listadas abajo. Son 3 filas en `proyectos_clean.csv`, 0 en el resto.
+- El histograma sale de un regex y no de partir la línea por comas, porque el año está en la columna 1 en proyectos/leyes y en la 3 en IA. El patrón saltea los campos previos tolerando comillas. Verificado contra el módulo `csv` de Python: los cuatro histogramas dan exacto.
+- No se dispara nada al cargar la página: hasta que no se aprieta Aplicar, las tarjetas muestran el total que pintó Hugo.
+
+Al probar el slider desde la consola, ojo con el clamp de `leer()`: si se sube `Desde` por encima de `Hasta` sin foco en el input, la función lo revierte y el rango que se aplica no es el que uno cree. Mover primero `Hasta`.
 
 ### 7. De dónde saca los datos cada visualización
 Auditado. Todo lo que está publicado sale de los CSV:

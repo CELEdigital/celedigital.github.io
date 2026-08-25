@@ -355,6 +355,12 @@
         reset.addEventListener("click", function () {
           desde.value = desde.min;
           hasta.value = hasta.max;
+          // Los pulgares de la pista viven en observatory-hub.js y se enteran
+          // por "input": escribir .value a mano no dispara nada, así que sin
+          // esto "Ver todo" movía el rango pero dejaba los pulgares donde
+          // estaban.
+          desde.dispatchEvent(new Event("input", { bubbles: true }));
+          hasta.dispatchEvent(new Event("input", { bubbles: true }));
           aplicarAhora();
         });
       }

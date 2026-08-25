@@ -8,6 +8,19 @@
 {{ $aiRaw := readFile "static/data/ai_clean.csv" }}
 {{ $aiProyectosCount := len (findRE "(?m)^Proyecto de ley," $aiRaw) }}
 {{ $aiLeyesCount := len (findRE "(?m)^Ley," $aiRaw) }}
+
+{{/* Histograma de años por dataset: es lo que deja que las tarjetas de totales
+     sigan el slider de años en vez de quedarse clavadas en el total del CSV.
+     El regex saltea el primer campo (o los tres primeros, en IA) tolerando que
+     vengan entrecomillados, y captura el año. Las filas sin año no entran al
+     mapa a propósito: observatory-hub.js las suma siempre, igual que hacen el
+     sunburst (`!isValid(datum.anio)`) y la tabla (`Number.isFinite`), para que
+     el número de la tarjeta coincida con las filas que quedan listadas. */}}
+{{ $campo := `(?:"[^"\n]*"|[^",\n]*)` }}
+{{ $proyectosPorAnio := partial "observatory-year-counts.html" (dict "raw" $proyectosRaw "pattern" (printf `(?m)^%s,"?(\d{4})"?` $campo)) }}
+{{ $leyesPorAnio := partial "observatory-year-counts.html" (dict "raw" $leyesRaw "pattern" (printf `(?m)^%s,"?(\d{4})"?` $campo)) }}
+{{ $aiProyectosPorAnio := partial "observatory-year-counts.html" (dict "raw" $aiRaw "pattern" (printf `(?m)^Proyecto de ley,%s,%s,"?(\d{4})"?` $campo $campo)) }}
+{{ $aiLeyesPorAnio := partial "observatory-year-counts.html" (dict "raw" $aiRaw "pattern" (printf `(?m)^Ley,%s,%s,"?(\d{4})"?` $campo $campo)) }}
 {{ $isES := eq .Lang "es" }}
 {{ $metodologiaLabel := cond $isES "Metodología" "Methodology" }}
 {{ $objetivosLabel := cond $isES "Objetivos" "Objectives" }}
@@ -361,21 +374,53 @@
       {{ $anioMin = int $m.anioMin }}
       {{ $anioMax = int $m.anioMax }}
     {{ end }}
+    {{/* Una sola pista con dos pulgares: Desde a la izquierda, Hasta a la
+         derecha. Los dos <input type=range> quedan como estado (es lo que lee
+         conectarSliderDeAnios en vega-scripts.html) pero no se ven ni se
+         enfocan: los pulgares de arriba son los que se manejan, y
+         observatory-hub.js los mantiene en sync.
+
+         Los pulgares son divs con role="slider" y no dos <input> superpuestos.
+         Ese fue el intento que falló: con el rango 1874-2026 en ~840px un año
+         mide ~5px, los dos pulgares nativos (16px) se pisaban contra el tope
+         derecho y el hit-testing del navegador decidía cuál agarrabas — casi
+         siempre el que no era. Acá el que decide es initYearRangeSlider(), que
+         elige por posición y, cuando los dos valores coinciden, por la
+         dirección del primer movimiento. */}}
     <div class="year-range" data-year-range>
-      <div class="year-range__row">
-        <label class="year-range__label" for="year-from">{{ cond $isES "Desde" "From" }}</label>
-        <input
-          id="year-from" type="range" data-year-from
-          min="{{ $anioMin }}" max="{{ $anioMax }}" step="1" value="{{ $anioMin }}">
-        <output class="year-range__value" data-year-from-out>{{ $anioMin }}</output>
+      <div class="year-range__slider">
+        <div class="year-range__end">
+          <span class="year-range__label">{{ cond $isES "Desde" "From" }}</span>
+          <output class="year-range__value" data-year-from-out>{{ $anioMin }}</output>
+        </div>
+        <div class="year-range__track" data-year-track>
+          <div class="year-range__fill" data-year-fill></div>
+          <div
+            class="year-range__thumb" data-year-thumb="from"
+            role="slider" tabindex="0"
+            aria-label="{{ cond $isES "Desde" "From" }}"
+            aria-valuemin="{{ $anioMin }}" aria-valuemax="{{ $anioMax }}"
+            aria-valuenow="{{ $anioMin }}"></div>
+          <div
+            class="year-range__thumb" data-year-thumb="to"
+            role="slider" tabindex="0"
+            aria-label="{{ cond $isES "Hasta" "To" }}"
+            aria-valuemin="{{ $anioMin }}" aria-valuemax="{{ $anioMax }}"
+            aria-valuenow="{{ $anioMax }}"></div>
+        </div>
+        <div class="year-range__end year-range__end--right">
+          <span class="year-range__label">{{ cond $isES "Hasta" "To" }}</span>
+          <output class="year-range__value" data-year-to-out>{{ $anioMax }}</output>
+        </div>
       </div>
-      <div class="year-range__row">
-        <label class="year-range__label" for="year-to">{{ cond $isES "Hasta" "To" }}</label>
-        <input
-          id="year-to" type="range" data-year-to
-          min="{{ $anioMin }}" max="{{ $anioMax }}" step="1" value="{{ $anioMax }}">
-        <output class="year-range__value" data-year-to-out>{{ $anioMax }}</output>
-      </div>
+      <input
+        class="year-range__native" type="range" data-year-from
+        min="{{ $anioMin }}" max="{{ $anioMax }}" step="1" value="{{ $anioMin }}"
+        tabindex="-1" aria-hidden="true">
+      <input
+        class="year-range__native" type="range" data-year-to
+        min="{{ $anioMin }}" max="{{ $anioMax }}" step="1" value="{{ $anioMax }}"
+        tabindex="-1" aria-hidden="true">
       <div class="year-range__actions">
         <button type="button" class="year-range__apply" data-year-apply>
           {{ cond $isES "Aplicar" "Apply" }}
@@ -391,16 +436,22 @@
       {{ if $ldePage }}
       <div id="obs-viz-lde" class="workshop-panel is-active" data-obs-viz-panel>
         <div class="observatory-stats" aria-label="Totales Libertad de Expresión">
-          <div class="observatory-stat-card">
+          <div class="observatory-stat-card"
+            data-year-count
+            data-total="{{ $proyectosCount }}"
+            data-counts="{{ $proyectosPorAnio | jsonify }}">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M7 3h8l4 4v14H7z"></path>
               <path d="M15 3v5h4"></path>
               <path d="M10 12h6"></path>
               <path d="M10 16h6"></path>
             </svg>
-            <p><strong>{{ $proyectosCount }}</strong> proyectos</p>
+            <p><strong data-year-count-out>{{ $proyectosCount }}</strong> proyectos</p>
           </div>
-          <div class="observatory-stat-card">
+          <div class="observatory-stat-card"
+            data-year-count
+            data-total="{{ $leyesCount }}"
+            data-counts="{{ $leyesPorAnio | jsonify }}">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M9 7l8 8"></path>
               <path d="M7 9l8 8"></path>
@@ -408,7 +459,7 @@
               <path d="M5 17h8"></path>
               <path d="M4 20h14"></path>
             </svg>
-            <p><strong>{{ $leyesCount }}</strong> leyes</p>
+            <p><strong data-year-count-out>{{ $leyesCount }}</strong> leyes</p>
           </div>
         </div>
         {{ $ldePage.Content }}
@@ -417,16 +468,22 @@
       {{ if $iaPage }}
       <div id="obs-viz-ia" class="workshop-panel" data-obs-viz-panel hidden>
         <div class="observatory-stats" aria-label="Totales Inteligencia Artificial">
-          <div class="observatory-stat-card">
+          <div class="observatory-stat-card"
+            data-year-count
+            data-total="{{ $aiProyectosCount }}"
+            data-counts="{{ $aiProyectosPorAnio | jsonify }}">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M7 3h8l4 4v14H7z"></path>
               <path d="M15 3v5h4"></path>
               <path d="M10 12h6"></path>
               <path d="M10 16h6"></path>
             </svg>
-            <p><strong>{{ $aiProyectosCount }}</strong> proyectos</p>
+            <p><strong data-year-count-out>{{ $aiProyectosCount }}</strong> proyectos</p>
           </div>
-          <div class="observatory-stat-card">
+          <div class="observatory-stat-card"
+            data-year-count
+            data-total="{{ $aiLeyesCount }}"
+            data-counts="{{ $aiLeyesPorAnio | jsonify }}">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M9 7l8 8"></path>
               <path d="M7 9l8 8"></path>
@@ -434,7 +491,7 @@
               <path d="M5 17h8"></path>
               <path d="M4 20h14"></path>
             </svg>
-            <p><strong>{{ $aiLeyesCount }}</strong> leyes</p>
+            <p><strong data-year-count-out>{{ $aiLeyesCount }}</strong> leyes</p>
           </div>
         </div>
         {{ $iaPage.Content }}

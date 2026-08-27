@@ -173,12 +173,38 @@ que conviene tener presente acá:
   `.md`. Reporta lo que no pudo resolver y lo marca con `TODO`; el resultado hay
   que leerlo antes de publicar.
 
+### 10. Dominio propio: `celeup.org`
+El sitio se publica en **https://celeup.org** (custom domain configurado en
+GitHub Pages; el repo sigue llamándose `celedigital.github.io` y GitHub redirige
+las URLs viejas de `celedigital.github.io` al dominio nuevo).
+
+Qué se tocó:
+- `config.toml` → `baseURL = "https://celeup.org/"`. De ahí salen canonical,
+  sitemap, robots.txt y los links absolutos de las plantillas `.email.html`
+  (`single.email.html` arma `$base` con `site.BaseURL`).
+- `static/CNAME` → `celeup.org`. Con deploy vía Actions el dominio vive en la
+  configuración del repo, no en este archivo, pero se deja como red de seguridad
+  por si alguna vez se vuelve a publicar desde una rama.
+- `.github/workflows/hugo.yml` → el build es `hugo --minify` a secas. **Se sacó
+  el `--baseURL "${{ steps.pages.outputs.base_url }}/"`**: mientras GitHub no
+  termina de emitir el certificado del dominio propio, esa salida puede venir
+  como `http://`, y el sitio se publicaba con canonical y sitemap en http.
+- Los dos posts `sexta-edicion-del-taller-regional-...` (ES y EN) tenían un link
+  absoluto a `celedigital.github.io`; ahora apuntan a `celeup.org`.
+
+Lo que **no** se cambia: `repo: CELEdigital/celedigital.github.io` y
+`site_domain: celedigital.netlify.app` en `static/admin/config.yml`. El primero
+es el nombre del repositorio y el segundo es el proxy de OAuth de Netlify para el
+CMS — ninguno de los dos es el dominio del sitio, y tocarlos rompe el login del
+admin.
+
 ---
 
 ## Convenciones importantes
 
 | Cosa | Regla |
 |------|-------|
+| Dominio | `celeup.org` (custom domain de GitHub Pages). `baseURL` en `config.toml` + `static/CNAME`; el workflow ya no pisa el baseURL |
 | Hub de temas | Siempre `hub: temas/SLUG` — con prefijo `temas/` |
 | Bloques disponibles | `destacado`, `ultimas_noticias_analisis`, `publicaciones`, `eventos` |
 | `issues` | Etiquetas temáticas para filtros: `Erosión democrática`, `Plataformas`, `Regulación y tecnología`, `Violencias`. (El antiguo `Empresas y DDHH` se subsumió en `Plataformas`; su tema `temas/empresas-y-derechos-humanos` redirige a `temas/plataformas` vía alias.) |

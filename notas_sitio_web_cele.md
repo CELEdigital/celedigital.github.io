@@ -164,3 +164,105 @@ placements:
 | Varias secciones a la vez                 | Múltiples entradas en `placements`        |
 | Clasificado temáticamente (para filtros)  | Agregar valor a `issues`                  |
 | Con etiqueta visible en la página         | Agregar valor a `tags`                    |
+
+---
+
+## 10. Boletines del Observatorio Legislativo
+
+Un boletín se escribe en **un solo archivo** `.md` en
+`content/es/observatorio-legislativo/`. El editorial va en el cuerpo; la
+cronología país por país va en el front matter, como datos.
+
+### Por qué los bullets van como datos y no como texto
+
+Cada bullet es siempre el mismo registro: fecha, país, expediente, link, un
+párrafo y hasta tres etiquetas. Escritos como Markdown suelto, las etiquetas
+quedan siendo texto en mayúsculas —no se pueden filtrar ni traducir, y se
+escriben distinto cada vez— y las fechas se tipean a mano, con los tres
+formatos de fecha que usa la región. Como datos, nada de eso puede pasar.
+
+### El front matter
+
+```yaml
+editorial_titulo: La identificación obligatoria como técnica regulatoria
+editorial_bajada: >-
+  De la verificación de edad al registro de líneas móviles: julio concentró…
+
+paises:
+  - pais: Argentina          # los 9 de la matriz, escritos igual que allá
+    entradas:
+      - fecha: 2026-07-02
+        tipo: proyecto       # proyecto (default) | ley | decreto
+        exp: 3226-D-2026     # se verifica contra los CSV al construir
+        url: https://…
+        texto: >-
+          Se presentó el [Proyecto de Ley 3226-D-2026]($url), que crea…
+        etiquetas:           # máximo 3, de data/etiquetas.yaml
+          - discurso-de-odio
+          - libertad-de-expresion
+
+  - pais: Guatemala
+    entradas: []             # publica «Sin novedades legislativas este mes»
+```
+
+- **`$url`** dentro de `texto` se reemplaza por el campo `url`. Evita repetir un
+  link largo y obliga a que el enlace caiga sobre el número de expediente.
+  Un bullet que enlaza varios expedientes escribe los demás con su URL entera.
+- **`tipo`** sólo se nota cuando no es `proyecto`: las leyes y decretos llevan
+  un sello. Marcar la excepción es lo que la hace visible al escanear.
+- **`exp`** se **verifica**, no se lee: si no aparece en los CSV de la matriz,
+  el build avisa pero publica igual. Una planilla atrasada nunca bloquea.
+
+### El cuerpo
+
+Sólo los párrafos del editorial, más tres shortcodes:
+
+```
+{{< aviso >}}…{{< /aviso >}}              recuadro (anuncio de mesa)
+{{< observatorio-mes month="2026-07" >}}  totales del mes, desde los CSV
+{{< boletin-paises >}}                    la cronología de arriba
+```
+
+`boletin-paises` no lleva parámetros: lee el front matter de su propia página.
+Por eso ningún layout del sitio necesitó cambiar.
+
+### Etiquetas
+
+Las 17 viven en `data/etiquetas.yaml`, con su nombre en ES y EN. El .md escribe
+el slug. **No es lo mismo que la columna «Objetivo legítimo» de la matriz**
+(esa taxonomía está en `objetivos-legitimos.md` y tiene 19 categorías):
+comparten temas pero clasifican cosas distintas, y conviene que sigan separadas.
+
+### Desde el CMS
+
+En `/admin/`, colección **Boletines**. Los campos nuevos —«Título del
+editorial», «Bajada del editorial» y «El mes, país por país»— cuelgan del ancla
+`&boletines_fields` de `static/admin/config.yml`, así que existen **sólo** en las
+colecciones de boletines (ES y EN) y no aparecen en posts ni publicaciones.
+Las etiquetas son un desplegable con las 17: nadie puede inventar una nueva ni
+escribirla sin tilde.
+
+En el editor de texto hay tres bloques: «Resumen Observatorio», «Cronología del
+mes» y «Aviso». Se registran en `static/admin/index.html`.
+
+### Desde el documento de Drive
+
+```
+python3 scripts/boletin_desde_doc.py borrador-julio.md --mes 2026-07
+```
+
+Toma el documento del mes exportado desde Google Docs con *Archivo → Descargar →
+Markdown (.md)* y escribe el `.md` del sitio. Separa lo que se publica de lo que
+no (el documento también es el manual y la lista de pendientes), convierte los
+bullets en registros, traduce las etiquetas a slugs y normaliza los expedientes
+contra la matriz. Lo que no puede resolver lo reporta al final y lo marca con
+`TODO`: **el resultado siempre hay que leerlo antes de publicar**. Ahorra la
+transcripción, no la revisión.
+
+### El email
+
+Cada shortcode tiene su variante `.email.html` en tablas con estilos inline,
+porque el correo no carga la hoja de estilos. Si cambiás algo visual en
+`assets/css/components/boletin.css`, fijate si corresponde llevarlo también
+allá. La salida de email se genera con `outputs: [html, email]` y queda en
+`…/boletin-julio-2026/email.html`.

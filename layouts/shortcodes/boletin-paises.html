@@ -1,0 +1,69 @@
+{{- /*
+La cronología país por país de un boletín del Observatorio.
+
+Uso, en el cuerpo del .md:
+  {{< boletin-paises >}}
+
+No lleva parámetros: los datos salen de `paises` en el front matter de la misma
+página, que es donde los escribe quien arma el boletín (y donde los pone el
+CMS). El shortcode sólo decide dónde se dibuja el bloque, así que ningún layout
+del sitio necesita cambiar.
+
+El cálculo vive en partials/func/boletin-entradas.html; acá sólo se arma el
+marcado. La variante para email está en boletin-paises.email.html.
+*/ -}}
+
+{{- $paises := partial "func/boletin-entradas.html" (dict "page" .Page) -}}
+{{- $isES := ne .Page.Lang "en" -}}
+
+{{- if not $paises -}}
+  {{- warnf "[boletín] %s: se usó {{< boletin-paises >}} pero el front matter no tiene `paises`." .Page.File.Path -}}
+{{- else -}}
+
+<section class="boletin-paises">
+  {{- /* Índice de saltos: con nueve países la lista se vuelve larga y quien
+         busca un país concreto no debería tener que barrerla entera. */ -}}
+  {{- if gt (len $paises) 3 }}
+  <nav class="boletin-indice" aria-label="{{ cond $isES "Ir a un país" "Jump to a country" }}">
+    {{- range $paises }}
+    <a href="#pais-{{ anchorize .pais }}">{{ .pais }}{{ with .count }} <span class="boletin-indice__n">{{ . }}</span>{{ end }}</a>
+    {{- end }}
+  </nav>
+  {{- end }}
+
+  {{- range $paises }}
+  <div class="boletin-pais">
+    <h2 class="boletin-pais__head" id="pais-{{ anchorize .pais }}">
+      <span class="boletin-pais__nombre">{{ .pais }}</span>
+      {{- with .count }}
+      <span class="boletin-pais__n">{{ . }} {{ cond $isES (cond (eq . 1) "entrada" "entradas") (cond (eq . 1) "entry" "entries") }}</span>
+      {{- end }}
+    </h2>
+
+    {{- if not .entradas }}
+    <p class="boletin-vacio">{{ i18n "boletin_sin_novedades" }}</p>
+    {{- else }}
+    <ol class="boletin-entradas">
+      {{- range .entradas }}
+      <li class="boletin-entrada">
+        <time class="boletin-entrada__fecha"{{ with .iso }} datetime="{{ . }}"{{ end }}>{{ .fecha }}</time>
+        <div class="boletin-entrada__cuerpo">
+          <p class="boletin-entrada__texto">
+            {{- with .tipoLabel }}<span class="boletin-entrada__tipo">{{ . }}</span>{{ end -}}
+            {{ .texto }}
+          </p>
+          {{- with .etiquetas }}
+          <p class="boletin-entrada__etiquetas">
+            {{- range . }}<span>{{ . }}</span>{{ end -}}
+          </p>
+          {{- end }}
+        </div>
+      </li>
+      {{- end }}
+    </ol>
+    {{- end }}
+  </div>
+  {{- end }}
+</section>
+
+{{- end -}}

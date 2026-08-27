@@ -1,0 +1,84 @@
+# Vocabulario cerrado de etiquetas de los boletines del Observatorio Legislativo.
+#
+# Los .md de los boletines escriben el slug (la clave); acá se resuelve el
+# nombre que se imprime, en ES y en EN. Si un boletín usa un slug que no está
+# en esta lista, `boletin-paises.html` avisa al construir el sitio y lo imprime
+# tal cual, así que una etiqueta nueva se nota pero no rompe la publicación.
+#
+# OJO: esto NO es la columna «Objetivo legítimo» de la matriz (esa taxonomía
+# vive en content/es/observatorio-legislativo/objetivos-legitimos.md y tiene 19
+# categorías). Comparten temas pero son dos vocabularios distintos, con dos
+# propósitos distintos: aquél clasifica el objetivo declarado de la norma, éste
+# etiqueta de qué trata la entrada del boletín. No unificarlos a menos que se
+# decida explícitamente.
+#
+# Para agregar una etiqueta: sumar la entrada acá y nada más. Si en algún
+# momento se publica un índice por etiqueta, el slug ya es la URL.
+
+libertad-de-expresion:
+  es: Libertad de expresión
+  en: Freedom of expression
+
+libertad-de-prensa:
+  es: Libertad de prensa
+  en: Press freedom
+
+acceso-a-la-informacion:
+  es: Acceso a la información
+  en: Access to information
+
+proteccion-de-menores:
+  es: Protección de menores
+  en: Child protection
+
+inteligencia-artificial:
+  es: Inteligencia artificial
+  en: Artificial intelligence
+
+violencia-de-genero:
+  es: Violencia de género
+  en: Gender-based violence
+
+discurso-de-odio:
+  es: Discurso de odio
+  en: Hate speech
+
+plataformas-digitales:
+  es: Plataformas digitales
+  en: Digital platforms
+
+censura:
+  es: Censura
+  en: Censorship
+
+privacidad:
+  es: Derecho a la privacidad
+  en: Right to privacy
+
+protesta:
+  es: Derecho a la protesta
+  en: Right to protest
+
+vigilancia:
+  es: Vigilancia
+  en: Surveillance
+
+propiedad-intelectual:
+  es: Propiedad intelectual
+  en: Intellectual property
+
+publicidad-oficial:
+  es: Publicidad oficial
+  en: State advertising
+
+defensa-del-consumidor:
+  es: Defensa del consumidor
+  en: Consumer protection
+
+electoral:
+  es: Electoral
+  en: Electoral
+
+accesibilidad:
+  es: Accesibilidad
+  en: Accessibility

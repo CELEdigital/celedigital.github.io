@@ -1,0 +1,144 @@
+{{- /*
+Normaliza el bloque `paises` del front matter de un boletín.
+
+Devuelve una slice de países, cada uno con sus entradas ya resueltas, para que
+`boletin-paises.html` (web) y `boletin-paises.email.html` (mail) dibujen
+exactamente los mismos datos y no puedan desincronizarse. Todo el trabajo sucio
+—resolver $url, renderizar el Markdown, traducir los slugs de etiqueta, dar
+formato a la fecha y verificar el expediente contra la matriz— pasa acá una
+sola vez.
+
+Entrada:  dict "page" PAGE
+Salida:   slice de dicts
+            pais      string
+            count     int
+            entradas  slice de dicts
+                        fecha      string   "22/07"
+                        iso        string   "2026-07-22"
+                        tipo       string   "" | "ley" | "decreto"
+                        tipoLabel  string   "" | "Ley" | "Decreto"
+                        texto      template.HTML
+                        etiquetas  slice de strings ya traducidos
+
+Todos los avisos salen por `warnf`: un boletín con un dato flojo se publica
+igual, pero el build lo dice. Nada acá puede frenar una publicación.
+*/ -}}
+
+{{- $page := .page -}}
+{{- $lang := cond (eq $page.Lang "en") "en" "es" -}}
+{{- $vocab := site.Data.etiquetas -}}
+
+{{- /* Los dos CSV de la matriz, leídos una vez por build (Hugo cachea readFile).
+       Sólo se usan para verificar que el expediente exista: la fuente de
+       verdad del boletín es el .md, no la planilla. Si la planilla viene
+       atrasada el boletín se publica igual, con un aviso. */ -}}
+{{- $matriz := "" -}}
+{{- range slice "static/data/proyectos_clean.csv" "static/data/leyes_clean.csv" -}}
+  {{- with (os.ReadFile .) }}{{ $matriz = print $matriz . }}{{ end -}}
+{{- end -}}
+
+{{- $salida := slice -}}
+
+{{- range $bloque := $page.Params.paises -}}
+  {{- $pais := $bloque.pais | default "" -}}
+  {{- if not $pais -}}
+    {{- warnf "[boletín] %s: hay un bloque de país sin el campo `pais`." $page.File.Path -}}
+  {{- end -}}
+
+  {{- $entradas := slice -}}
+
+  {{- range $e := ($bloque.entradas | default slice) -}}
+    {{- $url := $e.url | default "" -}}
+    {{- $exp := $e.exp | default "" -}}
+
+    {{- /* Fecha: el YAML del front matter la entrega como time.Time cuando
+           está sin comillas y como string cuando las lleva. time.AsTime
+           aguanta las dos, así que ninguna de las dos formas se rompe. */ -}}
+    {{- $fecha := "" -}}
+    {{- $iso := "" -}}
+    {{- with $e.fecha -}}
+      {{- $t := time.AsTime . -}}
+      {{- $fecha = $t.Format "02/01" -}}
+      {{- $iso = $t.Format "2006-01-02" -}}
+    {{- else -}}
+      {{- warnf "[boletín] %s / %s: entrada sin `fecha`." $page.File.Path $pais -}}
+    {{- end -}}
+
+    {{- /* $url dentro del texto evita repetir un link largo dos veces y obliga
+           a que el enlace caiga sobre el número de expediente, que es como lo
+           pide el manual del boletín. */ -}}
+    {{- $texto := $e.texto | default "" -}}
+    {{- if and (strings.Contains $texto "$url") (not $url) -}}
+      {{- warnf "[boletín] %s / %s: el texto usa $url pero la entrada no tiene `url`." $page.File.Path $pais -}}
+    {{- end -}}
+    {{- $texto = replace $texto "$url" $url -}}
+    {{- $texto = $page.RenderString (dict "display" "inline") $texto -}}
+
+    {{- /* Sello sólo para lo que no es un proyecto de ley: en un mes típico son
+           dos de treinta, y marcarlas es lo que las hace visibles al escanear.
+           Marcar también los proyectos sería ruido, porque son la norma. */ -}}
+    {{- $tipo := lower ($e.tipo | default "") -}}
+    {{- $tipoLabel := "" -}}
+    {{- if eq $tipo "ley" }}{{ $tipoLabel = cond (eq $lang "en") "Law" "Ley" }}{{ end -}}
+    {{- if eq $tipo "decreto" }}{{ $tipoLabel = cond (eq $lang "en") "Decree" "Decreto" }}{{ end -}}
+    {{- if and $tipo (not $tipoLabel) (ne $tipo "proyecto") -}}
+      {{- warnf "[boletín] %s / %s: `tipo: %s` no se reconoce (usá ley, decreto o proyecto)." $page.File.Path $pais $tipo -}}
+    {{- end -}}
+
+    {{- /* Etiquetas: máximo 3, según el manual. Un slug desconocido se imprime
+           tal cual para no perder información, pero se avisa. */ -}}
+    {{- $etiquetas := slice -}}
+    {{- $slugs := $e.etiquetas | default slice -}}
+    {{- if gt (len $slugs) 3 -}}
+      {{- warnf "[boletín] %s / %s: %d etiquetas; el máximo son 3." $page.File.Path $pais (len $slugs) -}}
+    {{- end -}}
+    {{- range $slug := $slugs -}}
+      {{- with index $vocab $slug -}}
+        {{- $etiquetas = $etiquetas | append (index . $lang) -}}
+      {{- else -}}
+        {{- warnf "[boletín] %s / %s: la etiqueta «%s» no está en data/etiquetas.yaml." $page.File.Path $pais $slug -}}
+        {{- $etiquetas = $etiquetas | append $slug -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- /* Verificación, no lectura: si el expediente no aparece en la matriz
+           puede ser que la planilla esté atrasada o que haya un typo. Las dos
+           cosas conviene saberlas antes de publicar.
+
+           Cada país escribe el expediente a su manera y la matriz no unifica:
+           Brasil guarda «PL 4113/2026» con la sigla adelante, pero Perú guarda
+           «32716» pelado, en una columna que además se llama «N° de ley». Por
+           eso se prueban las dos formas —la escrita y la misma sin la etiqueta
+           inicial— antes de avisar; si no, escribir «Ley 32716», que es lo
+           natural, daba un aviso falso. */ -}}
+    {{- if and $exp $matriz -}}
+      {{- $candidatos := slice $exp -}}
+      {{- $partes := split $exp " " -}}
+      {{- if and (gt (len $partes) 1) (not (findRE `[0-9]` (index $partes 0))) -}}
+        {{- $candidatos = $candidatos | append (delimit (after 1 $partes) " ") -}}
+      {{- end -}}
+      {{- $hallado := false -}}
+      {{- range $candidatos -}}
+        {{- if strings.Contains $matriz . }}{{ $hallado = true }}{{ end -}}
+      {{- end -}}
+      {{- if not $hallado -}}
+        {{- warnf "[boletín] %s / %s: el expediente «%s» no aparece en los CSV de la matriz." $page.File.Path $pais $exp -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- $entradas = $entradas | append (dict
+          "fecha" $fecha
+          "iso" $iso
+          "tipo" $tipo
+          "tipoLabel" $tipoLabel
+          "texto" $texto
+          "etiquetas" $etiquetas) -}}
+  {{- end -}}
+
+  {{- $salida = $salida | append (dict
+        "pais" $pais
+        "count" (len $entradas)
+        "entradas" $entradas) -}}
+{{- end -}}
+
+{{- return $salida -}}

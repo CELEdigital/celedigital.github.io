@@ -1,0 +1,29 @@
+{{- /*
+Recuadro de aviso para el cuerpo de un boletín (típicamente el anuncio de la
+próxima mesa).
+
+Uso:
+  {{< aviso >}}
+  El **26 de agosto**, Mesa de Legislación Comparada: *«…»*.
+  {{< /aviso >}}
+
+  {{< aviso icono="calendario" >}}…{{< /aviso >}}
+
+Parámetros:
+  icono   calendario (default) | dato | alerta | ninguno
+
+El cuerpo es Markdown normal. La variante para email está en aviso.email.html.
+*/ -}}
+
+{{- $icono := .Get "icono" | default "calendario" -}}
+{{- $glifos := dict "calendario" "🗓" "dato" "◆" "alerta" "!" -}}
+{{- $glifo := index $glifos $icono -}}
+
+<aside class="boletin-aviso{{ if not $glifo }} boletin-aviso--sin-icono{{ end }}">
+  {{- with $glifo }}
+  <span class="boletin-aviso__icono" aria-hidden="true">{{ . }}</span>
+  {{- end }}
+  <div class="boletin-aviso__cuerpo">
+    {{ .Page.RenderString (dict "display" "block") .Inner }}
+  </div>
+</aside>

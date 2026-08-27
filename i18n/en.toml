@@ -243,3 +243,6 @@ other = "Legitimate aim invoked"
 
 [obs_mes_objetivos_otros]
 other = "Other"
+
+[boletin_sin_novedades]
+other = "No legislative developments this month."

@@ -243,3 +243,6 @@ other = "Objetivo legítimo invocado"
 
 [obs_mes_objetivos_otros]
 other = "Otros"
+
+[boletin_sin_novedades]
+other = "Sin novedades legislativas este mes."

@@ -139,6 +139,40 @@ Auditado. Todo lo que está publicado sale de los CSV:
 
 El shortcode `chart` (`layouts/shortcodes/chart.html`) sigue existiendo pero ya no lo usa ninguna página y no queda ningún SVG. Si nunca se vuelve a usar, se puede borrar también.
 
+### 9. Boletines: el editorial va en el cuerpo, los bullets van como datos
+Un boletín es **un solo `.md`** en `content/es/observatorio-legislativo/`. La
+cronología país por país vive en el front matter (`paises` → `entradas`), no en
+el cuerpo, porque cada bullet es siempre el mismo registro: fecha, tipo,
+expediente, link, texto y hasta 3 etiquetas. Como texto suelto las etiquetas no
+se pueden filtrar ni traducir y las fechas se tipean a mano.
+
+**El detalle completo está en la sección 10 de `notas_sitio_web_cele.md`.** Lo
+que conviene tener presente acá:
+
+- `{{< boletin-paises >}}` **no lleva parámetros**: lee `.Page.Params.paises` de
+  su propia página. Por eso no hubo que tocar `single.html` — importa, porque
+  ese layout lo usan ~700 páginas.
+- El cálculo está en `partials/func/boletin-entradas.html`, que usan la versión
+  web y la de email. Si tocás una sola de las dos plantillas, se desincronizan.
+- Cada shortcode nuevo tiene su `.email.html` en tablas con estilos inline. En
+  esas plantillas, **las pilas de fuentes van sin comillas** (`Fira Sans, Arial,
+  …`): con comillas el sanitizador de Go descarta la declaración entera y
+  escribe `font-family:ZgotmplZ` en el correo. Mismo motivo que en
+  `observatorio-mes.email.html`.
+- `exp` se **verifica** contra los CSV, no se lee de ahí. Se prueba la forma
+  escrita y la misma sin la etiqueta inicial, porque cada país guarda el
+  expediente distinto: Brasil `PL 4113/2026`, Perú `32716` pelado y en una
+  columna que se llama `N° de ley`. Sin esa tolerancia, escribir «Ley 32716»
+  —que es lo natural— daba un aviso falso.
+- Las 17 etiquetas están en `data/etiquetas.yaml`. **No son** la columna
+  «Objetivo legítimo» de la matriz (19 categorías, en `objetivos-legitimos.md`).
+  Comparten temas, clasifican cosas distintas: no unificarlas sin decidirlo.
+- En el CMS los campos cuelgan del ancla `&boletines_fields`, así que existen
+  sólo en las colecciones de boletines (ES y EN). No agregarlos a `*posts_fields`.
+- `scripts/boletin_desde_doc.py` convierte el documento de Drive del mes al
+  `.md`. Reporta lo que no pudo resolver y lo marca con `TODO`; el resultado hay
+  que leerlo antes de publicar.
+
 ---
 
 ## Convenciones importantes
@@ -149,6 +183,8 @@ El shortcode `chart` (`layouts/shortcodes/chart.html`) sigue existiendo pero ya 
 | Bloques disponibles | `destacado`, `ultimas_noticias_analisis`, `publicaciones`, `eventos` |
 | `issues` | Etiquetas temáticas para filtros: `Erosión democrática`, `Plataformas`, `Regulación y tecnología`, `Violencias`. (El antiguo `Empresas y DDHH` se subsumió en `Plataformas`; su tema `temas/empresas-y-derechos-humanos` redirige a `temas/plataformas` vía alias.) |
 | `content_type` | Campo de formato del post. Valores usados: `blog`, `mesa`, `boletin` |
+| Etiquetas de boletín | Slugs de `data/etiquetas.yaml` (17). Distintas de «Objetivo legítimo» |
+| CSS de boletines | `assets/css/components/boletin.css` (registrado en `head.html`) |
 | JS del observatorio | Está en `static/data/observatory-hub.js` (no en `assets/`) |
 | CSS del observatorio | `assets/css/components/observatory-hub.css` |
 
@@ -157,6 +193,7 @@ El shortcode `chart` (`layouts/shortcodes/chart.html`) sigue existiendo pero ya 
 ## Tareas pendientes
 _(actualizar a medida que se completen)_
 
+- [ ] Traducir el boletín de julio 2026 al EN y cargar el de junio 2026.
 - [ ] Verificar visualmente que el panel Mesas funciona bien en el build de Hugo.
 - [ ] Decidir si agregar las mismas mesas al equivalente EN (`content/en/`).
 - [ ] Traducir "Objetivos legítimos" al EN (`content/en/observatorio-legislativo/legitimate-aims.md`).

@@ -1,6 +1,6 @@
 ---
 author:
-- mmdg
+- Martina Rapido Ragozzino
 content_type:
 - blog
 date: '2019-09-25'

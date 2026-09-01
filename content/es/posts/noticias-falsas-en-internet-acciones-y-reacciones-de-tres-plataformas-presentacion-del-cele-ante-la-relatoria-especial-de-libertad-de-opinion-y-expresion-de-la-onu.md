@@ -1,6 +1,6 @@
 ---
 author:
-- mmdg
+- Ramiro Álvarez Ugarte
 content_type:
 - newsletter_dsa
 date: '2021-02-18'

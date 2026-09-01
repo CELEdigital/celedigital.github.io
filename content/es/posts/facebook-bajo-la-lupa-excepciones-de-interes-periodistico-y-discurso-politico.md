@@ -1,6 +1,7 @@
 ---
 author:
-- mmdg
+- Agustina Del Campo
+- Javier Pallero
 content_type:
 - blog
 date: '2020-06-16'

@@ -1,6 +1,7 @@
 ---
 author:
-- mmdg
+- Morena Schatzky
+- Agustina Del Campo
 content_type:
 - blog
 date: '2020-10-08'

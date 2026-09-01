@@ -1,6 +1,7 @@
 ---
 author:
-- mmdg
+- Thiago Dias Oliva
+- Heloisa Massaro
 content_type:
 - blog
 date: '2020-06-23'

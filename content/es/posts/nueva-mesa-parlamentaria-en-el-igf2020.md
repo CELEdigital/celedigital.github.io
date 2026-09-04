@@ -1,6 +1,7 @@
 ---
 author:
-- mmdg
+- Matías González Mama
+- Agustina Del Campo
 content_type:
 - blog
 date: '2020-11-13'

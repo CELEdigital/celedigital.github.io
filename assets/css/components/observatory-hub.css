@@ -418,3 +418,295 @@
     max-width: calc(100vw - 2rem);
   }
 }
+
+/* ── Objetivos legítimos ──
+   Muchas categorías cortas: el grid de 2 columnas de los paneles de texto queda
+   demasiado ancho, así que se usan 3 columnas y los términos como etiquetas. */
+.observatory-inline-panel--objetivos-legitimos .observatory-inline-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.4rem 1.6rem;
+}
+
+.observatory-inline-panel--objetivos-legitimos .observatory-inline-block {
+  border-top: 2px solid var(--cele);
+  padding-top: 0.6rem;
+}
+
+.observatory-inline-panel--objetivos-legitimos h1 {
+  font-size: 1rem;
+  line-height: 1.25;
+  padding-bottom: 0;
+  margin: 0 0 0.55rem;
+}
+
+.observatory-inline-panel--objetivos-legitimos h1::after {
+  display: none;
+}
+
+.observatory-inline-panel--objetivos-legitimos ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.observatory-inline-panel--objetivos-legitimos li {
+  font-size: 0.82rem;
+  line-height: 1.2;
+  padding: 0.22rem 0.6rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: 999px;
+  color: var(--neutral-800);
+}
+
+@media (max-width: 900px) {
+  .observatory-inline-panel--objetivos-legitimos .observatory-inline-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .observatory-inline-panel--objetivos-legitimos .observatory-inline-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* La misma lectura en la página suelta: sin el JS del hub no hay grid, así que
+   se usan columnas CSS para no dejar 18 categorías en una sola tira vertical. */
+.hub-single--objetivos-legitimos .section-content,
+.hub-single--legitimate-aims .section-content {
+  columns: 3;
+  column-gap: 1.8rem;
+}
+
+.hub-single--objetivos-legitimos .section-content h1,
+.hub-single--legitimate-aims .section-content h1 {
+  font-size: 1rem;
+  line-height: 1.25;
+  margin: 0 0 0.55rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0;
+  border-top: 2px solid var(--cele);
+  break-after: avoid;
+  break-inside: avoid;
+}
+
+.hub-single--objetivos-legitimos .section-content h1::after,
+.hub-single--legitimate-aims .section-content h1::after {
+  display: none;
+}
+
+.hub-single--objetivos-legitimos .section-content ul,
+.hub-single--legitimate-aims .section-content ul {
+  list-style: none;
+  margin: 0 0 1.4rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  break-inside: avoid;
+}
+
+.hub-single--objetivos-legitimos .section-content li,
+.hub-single--legitimate-aims .section-content li {
+  font-size: 0.82rem;
+  line-height: 1.2;
+  padding: 0.22rem 0.6rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: 999px;
+  color: var(--neutral-800);
+}
+
+@media (max-width: 900px) {
+  .hub-single--objetivos-legitimos .section-content,
+  .hub-single--legitimate-aims .section-content {
+    columns: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .hub-single--objetivos-legitimos .section-content,
+  .hub-single--legitimate-aims .section-content {
+    columns: 1;
+  }
+}
+
+/* ── Rango de años compartido ──
+   Dos sliders independientes, uno por fila. Antes estaban superpuestos sobre
+   la misma pista y, con 150 años de rango, los dos pulgares se pisaban y era
+   imposible agarrar el que uno quería. */
+.year-range {
+  margin: 1.75rem 0 1.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: 6px;
+  background: var(--neutral-100);
+}
+
+/* Una pista, dos pulgares: Desde a la izquierda, Hasta a la derecha. */
+.year-range__slider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.year-range__end {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.year-range__end--right {
+  text-align: right;
+}
+
+.year-range__label {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--neutral-600);
+}
+
+.year-range__value {
+  font-size: 1.15rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-dark);
+}
+
+/* El padding lateral deja lugar para que los pulgares queden dentro de la
+   pista en los extremos; el JS usa el mismo valor (THUMB_RADIUS). */
+.year-range__track {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 1.5rem;
+  cursor: pointer;
+  touch-action: none;
+}
+
+.year-range__track::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  background: var(--neutral-300);
+}
+
+.year-range__fill {
+  position: absolute;
+  top: 50%;
+  height: 4px;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  background: var(--cele);
+}
+
+.year-range__thumb {
+  position: absolute;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  margin: -9px 0 0 -9px;
+  border-radius: 50%;
+  border: 2px solid var(--cele);
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  cursor: grab;
+}
+
+.year-range__thumb:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(173, 43, 37, 0.28);
+}
+
+/* El pulgar que se está arrastrando va arriba: si no, cuando los dos valores
+   coinciden el otro lo tapa y parece que no se movió. */
+.year-range__thumb[data-year-active] {
+  cursor: grabbing;
+  z-index: 2;
+}
+
+/* Los <input type=range> quedan solo como estado para vega-scripts.html. */
+.year-range__native {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.year-range__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--neutral-200);
+}
+
+.year-range__apply,
+.year-range__reset {
+  padding: 0.35rem 1rem;
+  font: inherit;
+  font-size: 0.82rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.year-range__apply {
+  color: #fff;
+  background: var(--cele);
+  border: 1px solid var(--cele);
+}
+
+.year-range__reset {
+  color: var(--neutral-800);
+  background: transparent;
+  border: 1px solid var(--neutral-300);
+}
+
+.year-range__reset:hover {
+  border-color: var(--cele);
+}
+
+.year-range__status {
+  font-size: 0.8rem;
+  color: var(--neutral-600);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Mientras hay cambios sin aplicar, el botón llama la atención */
+.year-range--pendiente .year-range__apply {
+  box-shadow: 0 0 0 3px rgba(173, 43, 37, 0.18);
+}
+
+.year-range--pendiente .year-range__status {
+  color: var(--cele);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .year-range__slider {
+    gap: 0.6rem;
+  }
+
+  .year-range__value {
+    font-size: 1rem;
+  }
+
+  .year-range__actions {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,20 @@
+{{/* Devuelve un mapa año→cantidad de filas, contando sobre el CSV crudo.
+
+     Se cuenta con regex y no partiendo la línea por comas porque el año no está
+     en el mismo índice en los tres CSV (columna 1 en proyectos/leyes, 3 en IA) y
+     porque el primer campo puede venir entrecomillado. El patrón que recibe
+     tiene que capturar el año en el primer grupo; las filas sin año no matchean
+     y quedan fuera del mapa, así que quien llame saca esas restando contra el
+     total.
+
+     La fila de encabezado no matchea nunca (su columna de año dice "Año"), así
+     que no hace falta recortarla.
+
+     Parámetros: raw (contenido del CSV), pattern (regex con un grupo). */}}
+{{ $counts := newScratch }}
+{{ range findRESubmatch .pattern .raw -1 }}
+  {{ $anio := index . 1 }}
+  {{ $previo := index ($counts.Get "anios" | default dict) $anio | default 0 }}
+  {{ $counts.SetInMap "anios" $anio (add $previo 1) }}
+{{ end }}
+{{ return ($counts.Get "anios" | default dict) }}

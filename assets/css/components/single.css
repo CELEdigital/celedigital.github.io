@@ -239,6 +239,32 @@
   font-size: clamp(1.7rem, 2.6vw, 1.95rem);
 }
 
+/* Imágenes en el cuerpo: nunca más anchas que la columna de texto. */
+.single-content img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+}
+
+.single-content figure {
+  margin: 1.5rem 0;
+  max-width: 100%;
+}
+
+.single-content figure img {
+  margin: 0;
+}
+
+.single-content figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--neutral-600);
+}
+
 .single-layout--mission .single-content p {
   font-size: 1.2rem;
   line-height: 1.6;

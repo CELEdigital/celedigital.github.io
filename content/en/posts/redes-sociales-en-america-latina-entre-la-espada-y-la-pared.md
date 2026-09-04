@@ -1,0 +1,42 @@
+---
+author:
+- Agustina Del Campo
+content_type:
+- blog
+date: '2020-09-24'
+description: Latin American users—particularly those involved in activism or social
+  movements—find themselves caught between a rock and a hard place. In this context,
+  it is more necessary than ever for civil society and activists in Latin America
+  to speak out in global debates on content moderation practices and freedom of expression.
+featured: true
+image: /img/WhatsApp-Image-2020-09-24-at-10.18.12-e1600971773254.jpeg
+programs:
+- policy
+slug: redes-sociales-en-america-latina-entre-la-espada-y-la-pared
+title: 'Social Media in Latin America: Between a Rock and a Hard Place'
+translationKey: wp-8085
+type: posts
+issues:
+- Erosión democrática
+- Plataformas
+region: latam
+country:
+- CL
+placements:
+- hub: temas/erosion-democratica
+  block: ultimas_noticias_analisis
+- hub: temas/plataformas
+  block: ultimas_noticias_analisis
+- hub: region/america-latina
+  block: ultimas_noticias_analisis
+tags:
+- curación y moderación de contenidos
+- desinformación
+- restricción a la protesta social
+---
+
+In January 2020, following several informal reports of incidents involving social media content related to the protests, three Chilean organizations—the Fundación Datos Protegidos, the University of Chile, and the Observatorio del Derecho a la Comunicación—conducted a [study](https://www.uchile.cl/noticias/161115/informe-revela-alcance-de-las-vulneraciones-a-la-libertad-de-expresion) on social media censorship between October 18 and November 22, 2019. The study documented 283 incidents of censorship on social media in which content related to the protests was removed or blocked. In some cases, users who were [active participants in the country’s protest movement](https://www.npr.org/2020/01/11/795514808/protests-in-chile) had their accounts deleted or suspended, with no possibility of a timely appeal. According to the authors and other civil society organizations that monitored the phenomenon, the main reasons cited were related to automation, lack of context, and a lack of clarity regarding the platforms’ policies. Understanding how content policies are enforced in Latin America is an ongoing challenge. Although companies claim to have adopted global policies, the criteria differ from one country to another and from one region to another. The last two months have been very revealing regarding these practices, as in the case of the differing treatment of misleading content across major platforms. For example, in March 2020, Twitter removed misleading posts about cures for COVID-19 published by [Brazilian President Jair Bolsonaro](https://www.theverge.com/2020/3/30/21199845/twitter-tweets-brazil-venezuela-presidents-covid-19-coronavirus-jair-bolsonaro-maduro), but appeared to be more tolerant of some [similar tweets](https://twitter.com/realdonaldtrump/status/1241367239900778501?lang=en) from U.S. President Donald Trump. Likewise, they [kept](https://www.theguardian.com/us-news/2020/may/26/trump-twitter-fact-check-warning-label) Trump’s misleading tweets about possible election fraud, but labeled them as containing false information. In 2017, the Center for Studies on Freedom of Expression and Access to Information (CELE) [conducted its own investigation](https://www.palermo.edu/Archivos_content/2019/cele/Mayo/Fake-news-strategy-to-battle-misinformation.pdf) into the measures taken by Facebook, YouTube, and Twitter to combat fake news and disinformation. Our intention was to track misinformation regarding the announcements made by some companies on a global scale, particularly following widely publicized events such as the Brexit vote, the Cambridge Analytica scandal, and the [Colombian referendum](https://www.theguardian.com/commentisfree/2016/oct/10/colombian-referendum-farc-guerrillas-brexit), and to compare the measures announced and implemented in light of these events with those that had been implemented in Latin America. We found that new policies were being announced—sometimes on a daily basis—and that the new tools, policies, and programs frequently overlapped or contradicted one another, making it difficult to assess what was actually being done and where. It was very difficult to find disaggregated information on implementations by country, and the procedures and policies were not always translated into the local language, making it impossible for some users to understand how their content was being evaluated and what possible solutions were available to them. Some initiatives were implemented in different countries with varying levels of resources, leading to disparities in their application. As researchers, we find it very difficult to know for certain what impact high-profile global announcements have on users in Latin America. CELE is finalizing a new study to update its 2017 report on platforms’ responses to disinformation, specifically regarding the 61 most notable actions identified and analyzed in that document: Researchers were unable to verify the implementation of at least 28 of these actions in Latin America. All of this points to a broader problem surrounding transparency, accountability, and access to information regarding the operations of the major internet platforms. While we acknowledge the efforts made to improve transparency reports over the past two years, it remains difficult to find disaggregated data for our region. It is not even possible to obtain basic information about which policies are applied where, nor data on the regional and local impact of content moderation, or how the local context differs from the global one. [Facebook](https://govtrequests.facebook.com/community-standards-enforcement) and [Twitter](https://transparency.twitter.com/en/reports/rules-enforcement.html#2019-jul-dec), for example, have recently begun providing more information about their content moderation practices, but this data remains undisbaged by geography. This profoundly undermines the ability of state and non-state actors to assess the social implications of private content moderation at the local level. Consequently, the lack of understanding about how content is moderated in Latin America and the lack of explanation regarding local contexts have led to stronger calls for regulation of the major platforms, both from governments and civil society. Although their intentions may be good, governments in the region are more concerned with imposing new restrictions on free speech than with the shrinking of the space for free speech, due to their perception that cyberspace remains largely unregulated. The spread of laws or proposals from Europe and the United States that are hostile to freedom of expression does not help, nor do the campaigns by many of the world’s oldest democracies—including those in [Europe](https://www.accessnow.org/content-regulation-whats-the-online-harm/) and the [United Kingdom](https://www.gov.uk/government/consultations/online-harms-white-paper), which pressure platforms to use their terms and conditions more aggressively to target harmful but legal content. Although well-intentioned, these initiatives promote vague and overly broad restrictions on freedom of expression on digital platforms. Indeed, in a region with a long history of state censorship, these proposals may provide political cover for governments seeking to adopt similarly aggressive approaches to restricting online speech. Latin American users, particularly those involved in activism or social movements, find themselves caught between a rock and a hard place. In this context, it is more necessary than ever for civil society and activists in Latin America to speak out in global debates on content moderation practices and freedom of expression. By [Agustina Del Campo](https://twitter.com/agustinadelcamp) Image credit (Map of Latin America—Juan Downey) 
+
+* * *
+
+_This article was originally published _[here](https://es.globalvoices.org/2020/09/17/redes-sociales-en-america-latina-entre-la-espada-y-la-pared/)_. It is part of a series of articles produced by the Wikimedia Initiative and Yale Law School on Intermediaries and Information to gather perspectives on the local impact of content moderation in different countries and regions. You can access all the articles in the series via the _[blog](https://law.yale.edu/isp/initiatives/wikimedia-initiative-intermediaries-and-information/wiii-blog)_ or their Twitter account _[@YaleISP_WIII.](https://twitter.com/YaleISP_WIII)

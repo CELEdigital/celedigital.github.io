@@ -1,6 +1,6 @@
 ---
 author:
-- mmdg
+- Matías González Mama
 content_type:
 - blog
 date: '2021-01-28'

@@ -1,6 +1,7 @@
 ---
 author:
-- mmdg
+- Andrés Calderón
+- Susana Gonzales
 content_type:
 - blog
 date: '2020-07-14'

@@ -73,6 +73,93 @@
             );
           }
         });
+
+        // Bloque "Cronología del mes".
+        //
+        // Marca dónde se dibuja la lista país por país. Los datos NO se cargan
+        // acá: se cargan en el campo "El mes, país por país" del formulario, y
+        // este bloque sólo elige el lugar del cuerpo donde aparecen. Por eso no
+        // tiene campos: es un marcador, no un editor.
+        window.CMS.registerEditorComponent({
+          id: 'boletin-paises',
+          label: 'Cronología del mes',
+          icon: 'list',
+          fields: [],
+          pattern: /^\s*\{\{<\s*boletin-paises\s*>\}\}\s*$/m,
+          fromBlock: function () {
+            return {};
+          },
+          toBlock: function () {
+            return '{{< boletin-paises >}}';
+          },
+          toPreview: function () {
+            return (
+              '<figure style="margin:1.5rem 0;padding:1rem 1.2rem;border:1px solid #D6D6D6;' +
+              'background:#fff;font-family:Inter,system-ui,sans-serif;">' +
+              '<figcaption style="font-size:.72rem;font-weight:700;letter-spacing:.08em;' +
+              'text-transform:uppercase;color:#666;">Cronología del mes</figcaption>' +
+              '<p style="margin:.7rem 0 0;font-size:.85rem;color:#666;font-style:italic;">' +
+              'Acá va la lista país por país, con lo que cargues en el campo ' +
+              '“El mes, país por país”.</p>' +
+              '</figure>'
+            );
+          }
+        });
+
+        // Bloque "Aviso".
+        //
+        // El recuadro destacado del cuerpo, típicamente el anuncio de la
+        // próxima mesa. Cuerpo libre en Markdown.
+        var ICONOS = { calendario: '🗓', dato: '◆', alerta: '!', ninguno: '' };
+
+        window.CMS.registerEditorComponent({
+          id: 'aviso',
+          label: 'Aviso',
+          icon: 'campaign',
+          fields: [
+            {
+              name: 'icono',
+              label: 'Ícono',
+              widget: 'select',
+              default: 'calendario',
+              options: [
+                { label: 'Calendario (anuncio de mesa)', value: 'calendario' },
+                { label: 'Rombo (dato destacado)', value: 'dato' },
+                { label: 'Alerta', value: 'alerta' },
+                { label: 'Sin ícono', value: 'ninguno' }
+              ]
+            },
+            {
+              name: 'cuerpo',
+              label: 'Texto',
+              widget: 'text',
+              hint: 'Admite Markdown: **negrita**, *cursiva*, [enlaces](https://…).'
+            }
+          ],
+          pattern: /^\s*\{\{<\s*aviso(?:\s+icono="(?<icono>[^"]*)")?\s*>\}\}\n(?<cuerpo>[\s\S]*?)\n\{\{<\s*\/aviso\s*>\}\}\s*$/m,
+          fromBlock: function (match) {
+            var g = (match && match.groups) || {};
+            return { icono: g.icono || 'calendario', cuerpo: g.cuerpo || '' };
+          },
+          toBlock: function (data) {
+            var icono = data.icono || 'calendario';
+            var extra = icono !== 'calendario' ? ' icono="' + icono + '"' : '';
+            return '{{< aviso' + extra + ' >}}\n' + (data.cuerpo || '') + '\n{{< /aviso >}}';
+          },
+          toPreview: function (data) {
+            var glifo = ICONOS[data.icono || 'calendario'] || '';
+            var texto = (data.cuerpo || '').replace(/[<>&]/g, function (c) {
+              return { '<': '&lt;', '>': '&gt;', '&': '&amp;' }[c];
+            });
+            return (
+              '<aside style="margin:1.5rem 0;padding:1rem 1.15rem;border-left:3px solid #ad2b25;' +
+              'background:#f5f1ea;font-family:Inter,system-ui,sans-serif;font-size:.95rem;">' +
+              (glifo ? '<span style="margin-right:.6rem;">' + glifo + '</span>' : '') +
+              texto +
+              '</aside>'
+            );
+          }
+        });
       }
 
       // El bundle del CMS define window.CMS al ejecutarse; esperarlo por si el
@@ -87,7 +174,7 @@
             register();
           } else if (++tries > 100) {
             clearInterval(timer);
-            console.error('[CELE] No se pudo registrar el bloque Resumen Observatorio: CMS no disponible.');
+            console.error('[CELE] No se pudieron registrar los bloques del editor: CMS no disponible.');
           }
         }, 100);
       }

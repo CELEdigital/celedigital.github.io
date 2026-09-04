@@ -33,7 +33,21 @@
       }
 
       function renderPanel() {
-        var rows = view.data("source") || [];
+        // "filtrado" es el dataset después del rango de años; se cae a
+        // "source" por si el spec todavía no lo tiene.
+        var rows = [];
+        try {
+          rows = view.data("filtrado") || [];
+        } catch (_) {
+          rows = [];
+        }
+        if (!rows.length) {
+          try {
+            rows = view.data("source") || [];
+          } catch (_) {
+            rows = [];
+          }
+        }
         var dataset = view.signal("selectedDataset");
         var country = view.signal("selectedCountry");
         var featureValue = view.signal("selectedFeature");
@@ -85,7 +99,9 @@
         });
       }
 
-      ["selectedDataset", "selectedCountry", "selectedFeature", "featureField"].forEach(function (signalName) {
+      view.__repintarPanel = renderPanel;
+      ["selectedDataset", "selectedCountry", "selectedFeature", "featureField"]
+        .forEach(function (signalName) {
         try {
           view.addSignalListener(signalName, renderPanel);
         } catch (e) {
@@ -243,6 +259,114 @@
       ro.observe(host);
     }
 
+    // ── Slider de años compartido ──────────────────────────────────────────
+    // Antes cada explorador traía su propio par de sliders y solo se filtraba
+    // a sí mismo. Ahora hay un único control (lo pinta observatory-hub.html) y
+    // desde acá se empujan las señales yearMin/yearMax a todas las vistas que
+    // las tengan, más un evento para que las tablas de documentación sigan el
+    // mismo rango.
+    var vistas = [];
+
+    function aplicarRango(desde, hasta) {
+      vistas.forEach(function (v) {
+        var cambio = false;
+        ["yearMin", "yearMax"].forEach(function (nombre) {
+          try {
+            if (v.signal(nombre) === undefined) return;
+            v.signal(nombre, nombre === "yearMin" ? desde : hasta);
+            cambio = true;
+          } catch (_) {
+            // la vista no tiene esa señal: se ignora
+          }
+        });
+        if (!cambio) return;
+        try {
+          // El panel del sunburst lee el dataset derivado, así que hay que
+          // repintarlo después de que corra el dataflow: si se engancha a
+          // addSignalListener queda mostrando el rango anterior.
+          if (typeof v.runAsync === "function") {
+            v.runAsync().then(function () {
+              if (typeof v.__repintarPanel === "function") v.__repintarPanel();
+            });
+          } else {
+            v.run();
+            if (typeof v.__repintarPanel === "function") v.__repintarPanel();
+          }
+        } catch (e) {
+          console.warn("No pude aplicar el rango de años", e);
+        }
+      });
+      window.dispatchEvent(new CustomEvent("documentation:years", {
+        detail: { yearMin: desde, yearMax: hasta }
+      }));
+    }
+
+    function conectarSliderDeAnios() {
+      var control = document.querySelector("[data-year-range]");
+      if (!control) return;
+      var desde = control.querySelector("[data-year-from]");
+      var hasta = control.querySelector("[data-year-to]");
+      if (!desde || !hasta) return;
+      var salidaDesde = control.querySelector("[data-year-from-out]");
+      var salidaHasta = control.querySelector("[data-year-to-out]");
+      var aplicar = control.querySelector("[data-year-apply]");
+      var reset = control.querySelector("[data-year-reset]");
+      var estado = control.querySelector("[data-year-status]");
+      var aplicado = { a: Number(desde.min), b: Number(hasta.max) };
+
+      // Mover los sliders no recalcula nada: recién se aplica con el botón.
+      // Con 150 años de rango, recalcular en cada paso del arrastre trababa
+      // los cinco gráficos.
+      function leer() {
+        var a = Number(desde.value);
+        var b = Number(hasta.value);
+        if (a > b) {
+          if (document.activeElement === desde) { b = a; hasta.value = String(a); }
+          else { a = b; desde.value = String(b); }
+        }
+        return { a: a, b: b };
+      }
+
+      function pintar() {
+        var r = leer();
+        if (salidaDesde) salidaDesde.textContent = r.a;
+        if (salidaHasta) salidaHasta.textContent = r.b;
+        var pendiente = r.a !== aplicado.a || r.b !== aplicado.b;
+        control.classList.toggle("year-range--pendiente", pendiente);
+        if (estado) {
+          estado.textContent = pendiente
+            ? "Sin aplicar: " + r.a + "–" + r.b
+            : "Mostrando " + aplicado.a + "–" + aplicado.b;
+        }
+        return r;
+      }
+
+      function aplicarAhora() {
+        var r = pintar();
+        aplicado = { a: r.a, b: r.b };
+        aplicarRango(r.a, r.b);
+        pintar();
+      }
+
+      desde.addEventListener("input", pintar);
+      hasta.addEventListener("input", pintar);
+      if (aplicar) aplicar.addEventListener("click", aplicarAhora);
+      if (reset) {
+        reset.addEventListener("click", function () {
+          desde.value = desde.min;
+          hasta.value = hasta.max;
+          // Los pulgares de la pista viven en observatory-hub.js y se enteran
+          // por "input": escribir .value a mano no dispara nada, así que sin
+          // esto "Ver todo" movía el rango pero dejaba los pulgares donde
+          // estaban.
+          desde.dispatchEvent(new Event("input", { bubbles: true }));
+          hasta.dispatchEvent(new Event("input", { bubbles: true }));
+          aplicarAhora();
+        });
+      }
+      pintar();
+    }
+
     // Skip rendering charts on small screens — the CSS hides them anyway,
     // and Vega is heavyweight (~200KB + render cost). Saves bandwidth + CPU
     // on mobile. Re-checks on viewport changes (e.g. rotate to landscape on
@@ -259,6 +383,7 @@
         vegaEmbed('#' + item.id, item.spec, { actions: false })
           .then(function (result) {
             attachResizeObserver(result.view, item.id);
+            vistas.push(result.view);
             if (item.id === "chart-observatorio-sunburst" || item.id === "chart-ia-sunburst") {
               buildSunburstInspector(result.view, item.id);
             }
@@ -279,6 +404,7 @@
     }
 
     renderAll();
+    conectarSliderDeAnios();
     if (SMALL_SCREEN_QUERY && SMALL_SCREEN_QUERY.addEventListener) {
       SMALL_SCREEN_QUERY.addEventListener('change', renderAll);
     } else if (SMALL_SCREEN_QUERY && SMALL_SCREEN_QUERY.addListener) {

@@ -84,7 +84,7 @@
     if (!rowsContainer || !countEl || !loadBtn) return;
 
     const url = root.dataset.docAiUrl || '/data/ai_clean.csv';
-    const state = { rows: [], filtered: [], limit: 20 };
+    const state = { rows: [], filtered: [], limit: 20, yearMin: null, yearMax: null };
 
     const applyFilters = () => {
       const tipo       = tipoSelect.value;
@@ -102,6 +102,15 @@
         if (tipo       && row[FIELDS.type]       !== tipo)       return false;
         if (pais       && row[FIELDS.country]    !== pais)       return false;
         if (anio       && row[FIELDS.year]       !== anio)       return false;
+
+        // Rango del slider compartido de la sección Visualizaciones.
+        if (state.yearMin !== null || state.yearMax !== null) {
+          const y = parseInt(String(row[FIELDS.year] || '').trim(), 10);
+          if (Number.isFinite(y)) {
+            if (state.yearMin !== null && y < state.yearMin) return false;
+            if (state.yearMax !== null && y > state.yearMax) return false;
+          }
+        }
         if (estado     && row[FIELDS.estado]     !== estado)     return false;
         if (origen     && row[FIELDS.origin]     !== origen)     return false;
         if (tema       && row[FIELDS.topic]      !== tema)       return false;
@@ -165,6 +174,14 @@
     ].forEach((sel) => sel.addEventListener('change', applyFilters));
 
     searchInput.addEventListener('input', applyFilters);
+
+    // Slider de años compartido (vega-scripts.html).
+    window.addEventListener('documentation:years', (event) => {
+      const d = event.detail || {};
+      state.yearMin = Number.isFinite(d.yearMin) ? d.yearMin : null;
+      state.yearMax = Number.isFinite(d.yearMax) ? d.yearMax : null;
+      applyFilters();
+    });
     loadBtn.addEventListener('click', () => { state.limit += 20; renderRows(); });
 
     loadData();

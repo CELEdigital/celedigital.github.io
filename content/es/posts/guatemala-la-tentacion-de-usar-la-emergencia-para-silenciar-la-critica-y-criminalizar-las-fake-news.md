@@ -1,6 +1,6 @@
 ---
 author:
-- mmdg
+- Álvaro Castellanos Howell
 content_type:
 - blog
 date: '2020-08-26'

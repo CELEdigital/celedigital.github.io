@@ -52,10 +52,11 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
+        # El baseURL sale de config.toml (https://celeup.org/), no de
+        # steps.pages.outputs.base_url: mientras GitHub no termina de emitir el
+        # certificado del dominio propio, esa salida puede venir como http://.
         run: |
-          hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

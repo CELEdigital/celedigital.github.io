@@ -1,0 +1,75 @@
+{{- /*
+Variante para la salida `email` del shortcode boletin-paises.
+
+Hugo elige esta plantilla al renderizar el output format "email"; la del sitio
+(boletin-paises.html) sigue usándose para la web. Existe por separado porque el
+email no carga la hoja de estilos: acá todo va en tablas y estilos inline, sin
+flex ni grid, que es lo único que interpretan los clientes de correo.
+
+Los datos salen del mismo partial que la versión web, así que ambas no pueden
+desincronizarse. El índice de saltos no se replica: los anclas dentro de un
+mail no funcionan de forma confiable.
+*/ -}}
+
+{{- $paises := partial "func/boletin-entradas.html" (dict "page" .Page) -}}
+
+{{- /* Sin comillas alrededor de Fira Sans a propósito: CSS admite nombres de
+       familia de varias palabras sin entrecomillar, y así Go no escapa nada.
+       Con comillas el sanitizador descartaba la pila entera y escribía
+       font-family:ZgotmplZ en el correo. Mismo motivo que en
+       observatorio-mes.email.html. */ -}}
+{{- $sans := "Fira Sans, Arial, Helvetica, sans-serif" -}}
+{{- $display := "Jost, Arial, Helvetica, sans-serif" -}}
+{{- $serif := "Source Serif 4, Georgia, Times New Roman, serif" -}}
+{{- $isES := ne .Page.Lang "en" -}}
+
+{{- range $paises }}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse; margin:28px 0 0;">
+  <tr>
+    <td style="padding:0 0 6px; border-bottom:2px solid #1a1a1a; font-family:{{ $display }}; font-size:14px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#1a1a1a;">
+      {{ .pais }}
+    </td>
+    {{- with .count }}
+    <td align="right" style="padding:0 0 6px; border-bottom:2px solid #1a1a1a; font-family:{{ $sans }}; font-size:11px; color:#666666; white-space:nowrap;">
+      {{ . }} {{ cond $isES (cond (eq . 1) "entrada" "entradas") (cond (eq . 1) "entry" "entries") }}
+    </td>
+    {{- end }}
+  </tr>
+
+  {{- if not .entradas }}
+  <tr>
+    <td colspan="2" style="padding:12px 0 0; font-family:{{ $serif }}; font-size:14px; font-style:italic; color:#666666;">
+      {{ i18n "boletin_sin_novedades" }}
+    </td>
+  </tr>
+  {{- else }}
+  {{- range .entradas }}
+  <tr>
+    <td colspan="2" style="padding:0;">
+      {{- /* Tabla anidada por entrada: la fecha va en su propia celda angosta
+             para reproducir el riel de la web. Outlook ignora los `gap`, así
+             que la separación se hace con padding celda por celda. */ -}}
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse; border-top:1px solid #dddddd;">
+        <tr>
+          <td valign="top" width="52" style="width:52px; padding:14px 12px 14px 0; font-family:{{ $sans }}; font-size:13px; color:#ad2b25; white-space:nowrap;">
+            {{ .fecha }}
+          </td>
+          <td valign="top" style="padding:14px 0;">
+            <p style="margin:0; font-family:{{ $serif }}; font-size:15px; line-height:1.55; color:#1a1a1a;">
+              {{- with .tipoLabel }}<span style="font-family:{{ $display }}; font-size:10px; font-weight:700; letter-spacing:0.11em; text-transform:uppercase; color:#ad2b25; border:1px solid #ad2b25; padding:1px 4px; margin-right:6px;">{{ . }}</span>{{ end -}}
+              {{ .texto }}
+            </p>
+            {{- with .etiquetas }}
+            <p style="margin:7px 0 0; font-family:{{ $sans }}; font-size:10px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:#8a8a8a;">
+              {{- range $i, $e := . }}{{ if $i }} &middot; {{ end }}{{ $e }}{{ end -}}
+            </p>
+            {{- end }}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  {{- end }}
+  {{- end }}
+</table>
+{{- end }}

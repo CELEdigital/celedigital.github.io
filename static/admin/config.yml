@@ -493,6 +493,21 @@ collections:
         widget: "string"
         required: false
 
+      # El título y la bajada del editorial van como campos y no dentro del
+      # cuerpo para que el listado de boletines y el encabezado del email
+      # puedan reusarlos sin tener que salir a parsear el Markdown.
+      - label: "Título del editorial"
+        name: "editorial_titulo"
+        widget: "string"
+        required: false
+        hint: "Ej: La identificación obligatoria como técnica regulatoria"
+
+      - label: "Bajada del editorial"
+        name: "editorial_bajada"
+        widget: "text"
+        required: false
+        hint: "Una o dos líneas que expliquen el título. Va debajo, en cursiva."
+
       - label: "Autor/es"
         name: "author"
         widget: "list"
@@ -552,9 +567,121 @@ collections:
         name: "body"
         widget: "markdown"
         hint: >-
-          Para insertar el resumen de datos del mes (totales, países e impacto),
-          usá el bloque "Resumen Observatorio" del editor. Los números se
+          Sólo los párrafos del editorial. La cronología país por país se carga
+          más abajo, en "El mes, país por país", y se dibuja donde pongas el
+          bloque "Cronología del mes". Para el resumen de datos (totales, países
+          e impacto) usá el bloque "Resumen Observatorio": los números se
           calculan solos al publicar, a partir de los CSV del Observatorio.
+
+      # ── La cronología país por país ──────────────────────────────────
+      # Va como dato y no como texto libre porque cada bullet es siempre el
+      # mismo registro. Cargándolo así, las etiquetas salen de una lista
+      # cerrada (nadie escribe "ACCESO A LA INFORMACION" sin tilde), las
+      # fechas no se tipean a mano, y web y email dibujan lo mismo.
+      #
+      # Estos campos existen sólo en las colecciones de boletines: cuelgan del
+      # ancla &boletines_fields, que usan boletines_es y boletines_en. Los
+      # posts, publicaciones y demás colecciones no los ven.
+      - label: "El mes, país por país"
+        name: "paises"
+        widget: "list"
+        required: false
+        label_singular: "País"
+        summary: "{{fields.pais}}"
+        hint: >-
+          Un bloque por país, en el orden en que se van a publicar. Un país sin
+          entradas se publica igual, diciendo "sin novedades legislativas": que
+          se haya mirado y no hubiera nada también es información.
+        fields:
+          - label: "País"
+            name: "pais"
+            widget: "select"
+            options:
+              - "Argentina"
+              - "Brasil"
+              - "Chile"
+              - "Colombia"
+              - "Ecuador"
+              - "Guatemala"
+              - "México"
+              - "Paraguay"
+              - "Perú"
+
+          - label: "Entradas"
+            name: "entradas"
+            widget: "list"
+            required: false
+            label_singular: "Entrada"
+            summary: "{{fields.fecha}} · {{fields.exp}}"
+            hint: "Dejalo vacío si el país no tuvo novedades este mes."
+            fields:
+              - label: "Fecha"
+                name: "fecha"
+                widget: "datetime"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+                hint: "La fecha de presentación, radicación o promulgación."
+
+              - label: "Tipo"
+                name: "tipo"
+                widget: "select"
+                default: "proyecto"
+                options:
+                  - { label: "Proyecto de ley", value: "proyecto" }
+                  - { label: "Ley sancionada", value: "ley" }
+                  - { label: "Decreto", value: "decreto" }
+                hint: >-
+                  Los proyectos salen sin marca; las leyes y decretos llevan un
+                  sello, porque son la excepción y conviene que se note.
+
+              - label: "N° de expediente"
+                name: "exp"
+                widget: "string"
+                required: false
+                hint: >-
+                  Ej: 3226-D-2026, 077/2026C, PL 4113/2026. Al publicar se
+                  verifica contra la matriz del Observatorio y avisa si no
+                  aparece (puede ser un error de tipeo, o que la planilla
+                  todavía no esté actualizada).
+
+              - label: "Link"
+                name: "url"
+                widget: "string"
+                required: false
+                hint: "La URL de la columna «Link» de la matriz."
+
+              - label: "Texto"
+                name: "texto"
+                widget: "text"
+                hint: >-
+                  Escribí $url donde vaya el enlace y el link se arma solo. Ej:
+                  Se presentó el [Proyecto de Ley 3226-D-2026]($url), que crea…
+
+              - label: "Etiquetas"
+                name: "etiquetas"
+                widget: "select"
+                multiple: true
+                max: 3
+                required: false
+                hint: "Hasta 3."
+                options:
+                  - { label: "Libertad de expresión", value: "libertad-de-expresion" }
+                  - { label: "Libertad de prensa", value: "libertad-de-prensa" }
+                  - { label: "Acceso a la información", value: "acceso-a-la-informacion" }
+                  - { label: "Protección de menores", value: "proteccion-de-menores" }
+                  - { label: "Inteligencia artificial", value: "inteligencia-artificial" }
+                  - { label: "Violencia de género", value: "violencia-de-genero" }
+                  - { label: "Discurso de odio", value: "discurso-de-odio" }
+                  - { label: "Plataformas digitales", value: "plataformas-digitales" }
+                  - { label: "Censura", value: "censura" }
+                  - { label: "Derecho a la privacidad", value: "privacidad" }
+                  - { label: "Derecho a la protesta", value: "protesta" }
+                  - { label: "Vigilancia", value: "vigilancia" }
+                  - { label: "Propiedad intelectual", value: "propiedad-intelectual" }
+                  - { label: "Publicidad oficial", value: "publicidad-oficial" }
+                  - { label: "Defensa del consumidor", value: "defensa-del-consumidor" }
+                  - { label: "Electoral", value: "electoral" }
+                  - { label: "Accesibilidad", value: "accesibilidad" }
 
   # ─────────────────────────────────────────
   # BOLETINES — OBSERVATORIO LEGISLATIVO (EN) — content/en/observatorio-legislativo

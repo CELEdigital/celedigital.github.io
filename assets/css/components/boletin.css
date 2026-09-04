@@ -1,0 +1,211 @@
+/* Boletines del Observatorio Legislativo.
+ *
+ * Cubre las piezas que insertan los shortcodes `boletin-paises` y `aviso` en el
+ * cuerpo del post. Todo lo demás (título, bajada, fecha, imagen) lo pone
+ * single.html y no se toca desde acá.
+ *
+ * La versión de email NO usa esta hoja: cada shortcode tiene su .email.html con
+ * los estilos inline. Si cambiás algo visual acá, mirá si corresponde llevarlo
+ * también allá.
+ */
+
+/* ── Índice de saltos ──────────────────────────────────────────────────── */
+
+.boletin-indice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.5rem;
+  margin: 2rem 0 2.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+.boletin-indice a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  padding: 0.28rem 0.6rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: 2px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--text-dark);
+  text-decoration: none;
+}
+
+.boletin-indice a:hover,
+.boletin-indice a:focus-visible {
+  border-color: var(--cele);
+  color: var(--cele);
+}
+
+.boletin-indice__n {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--neutral-600);
+}
+
+.boletin-indice a:hover .boletin-indice__n,
+.boletin-indice a:focus-visible .boletin-indice__n {
+  color: inherit;
+}
+
+/* ── País ─────────────────────────────────────────────────────────────── */
+
+.boletin-pais + .boletin-pais {
+  margin-top: 2.75rem;
+}
+
+/* El encabezado de país es el ancla de lectura de toda la sección, así que se
+   marca con una regla gruesa y no con tamaño: compite con los h2 del editorial
+   y conviene que se distinga por forma, no por escala. */
+.boletin-pais__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin: 0 0 1.1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--text-dark);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  scroll-margin-top: 1.5rem;
+}
+
+.boletin-pais__n {
+  margin-left: auto;
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--neutral-600);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.boletin-vacio {
+  margin: 0;
+  font-style: italic;
+  color: var(--neutral-600);
+}
+
+/* ── Entradas ─────────────────────────────────────────────────────────── */
+
+.boletin-entradas {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Riel de fechas a la izquierda: la sección se lee como lo que es, una
+   cronología. El ancho fija la columna en "dd/mm" con cifras tabulares, así
+   que ninguna fila se corre respecto de la anterior. */
+.boletin-entrada {
+  display: grid;
+  grid-template-columns: 3.6rem 1fr;
+  gap: 0 1.1rem;
+  padding: 0.95rem 0;
+  border-top: 1px solid var(--neutral-300);
+}
+
+.boletin-entrada:first-child {
+  border-top: 0;
+  padding-top: 0.25rem;
+}
+
+.boletin-entrada__fecha {
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--cele);
+  padding-top: 0.18rem;
+  white-space: nowrap;
+}
+
+.boletin-entrada__texto {
+  margin: 0;
+  line-height: 1.55;
+}
+
+/* Sello sólo para lo que no es un proyecto de ley (leyes promulgadas, decretos).
+   En un mes típico son dos de treinta: marcar la excepción es lo que la hace
+   visible al escanear, y marcar también la norma la volvería invisible. */
+.boletin-entrada__tipo {
+  display: inline-block;
+  margin-right: 0.45rem;
+  padding: 0.02rem 0.34rem;
+  border: 1px solid var(--cele);
+  border-radius: 2px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--cele);
+  vertical-align: 0.12em;
+}
+
+/* Las etiquetas van sin recuadro: con 17 posibles, los chips de colores se
+   vuelven ruido y compiten con el texto, que es lo que hay que leer. */
+.boletin-entrada__etiquetas {
+  margin: 0.5rem 0 0;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--neutral-600);
+  line-height: 1.5;
+}
+
+/* El punto medio se dibuja más claro que las etiquetas, pero no tanto como
+   --neutral-300, con el que directamente desaparecía y las etiquetas quedaban
+   separadas sólo por un espacio. */
+.boletin-entrada__etiquetas span::after {
+  content: " · ";
+  color: #a8a09b;
+}
+
+.boletin-entrada__etiquetas span:last-child::after {
+  content: "";
+}
+
+@media (max-width: 560px) {
+  .boletin-entrada {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+
+  .boletin-entrada__fecha {
+    padding-top: 0;
+  }
+}
+
+/* ── Aviso ────────────────────────────────────────────────────────────── */
+
+.boletin-aviso {
+  display: flex;
+  gap: 0.85rem;
+  margin: 2rem 0;
+  padding: 1rem 1.15rem;
+  border-left: 3px solid var(--cele);
+  background: var(--off-white);
+}
+
+.boletin-aviso--sin-icono {
+  gap: 0;
+}
+
+.boletin-aviso__icono {
+  flex: 0 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.boletin-aviso__cuerpo > :first-child {
+  margin-top: 0;
+}
+
+.boletin-aviso__cuerpo > :last-child {
+  margin-bottom: 0;
+}

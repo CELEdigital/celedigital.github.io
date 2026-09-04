@@ -1,4 +1,4 @@
-<section class="section-hub hub-single">
+<section class="section-hub hub-single{{ with .File }} hub-single--{{ .BaseFileName }}{{ end }}">
   <header class="section-hub__header">
     <div class="section-hub__header-text">
       {{ $parent := .CurrentSection }}

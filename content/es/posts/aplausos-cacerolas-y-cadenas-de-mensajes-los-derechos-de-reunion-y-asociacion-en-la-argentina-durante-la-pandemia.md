@@ -1,6 +1,7 @@
 ---
 author:
-- mmdg
+- Paula Roko
+- Franco Serra
 content_type:
 - blog
 date: '2020-09-21'

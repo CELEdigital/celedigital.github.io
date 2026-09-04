@@ -51,22 +51,7 @@
   color: var(--neutral-600);
 }
 
-/* Listas de barras: una por país, otra por objetivo legítimo invocado. */
-
-.obs-mes__section + .obs-mes__section {
-  margin-top: 1.4rem;
-}
-
-.obs-mes__section-title {
-  margin: 0 0 0.6rem;
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: var(--neutral-500, #888);
-}
-
-.obs-mes__bars {
+.obs-mes__countries {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -74,7 +59,7 @@
   gap: 0.45rem;
 }
 
-.obs-mes__row {
+.obs-mes__country {
   display: grid;
   grid-template-columns: 8rem 1fr 2.5rem;
   align-items: center;
@@ -82,7 +67,7 @@
   font-size: 0.88rem;
 }
 
-.obs-mes__row-name {
+.obs-mes__country-name {
   color: var(--neutral-800);
   overflow: hidden;
   text-overflow: ellipsis;
@@ -99,17 +84,15 @@
   display: block;
   height: 100%;
   min-width: 2px;
-  border-radius: 0 2px 2px 0;
   background: var(--cele);
 }
 
-.obs-mes__row-n {
+.obs-mes__country-n {
   text-align: right;
   font-variant-numeric: tabular-nums;
   color: var(--neutral-800);
 }
 
-<<<<<<< HEAD
 /* Objetivos legítimos: los nombres son largos, así que van sobre la barra en
    vez de en una columna fija como los países. */
 .obs-mes__objetivos {
@@ -154,6 +137,9 @@
   color: var(--neutral-800);
 }
 
+/* Color de reserva: el real lo pinta el shortcode en línea, con la paleta que
+   vive en partials/func/observatorio-mes-stats.html (la variante para email
+   necesita el hex literal, así que la paleta no puede vivir acá). */
 .obs-mes__bar--objetivo .obs-mes__bar-fill {
   background: var(--accent-blue);
 }
@@ -161,34 +147,6 @@
 .obs-mes__objetivo-rest {
   margin: 0.85rem 0 0;
   font-size: 0.82rem;
-=======
-/* Los objetivos tienen etiquetas largas ("Discriminación, violencia y discursos
-   de odio"), así que la columna es más ancha y el texto puede partirse. */
-
-.obs-mes__section--objetivos .obs-mes__row {
-  grid-template-columns: 13rem 1fr 2.5rem;
-  align-items: start;
-}
-
-.obs-mes__section--objetivos .obs-mes__row-name {
-  overflow: visible;
-  text-overflow: clip;
-  white-space: normal;
-  line-height: 1.3;
-}
-
-.obs-mes__section--objetivos .obs-mes__bar,
-.obs-mes__section--objetivos .obs-mes__row-n {
-  margin-top: 0.28rem;
-}
-
-/* El color de cada barra de objetivo lo pone el shortcode en línea: la paleta
-   vive en partials/func/observatorio-mes-stats.html porque la variante para
-   email también la necesita. Acá sólo queda el trato de la fila "Otros". */
-
-.obs-mes__row--otros .obs-mes__row-name,
-.obs-mes__row--otros .obs-mes__row-n {
->>>>>>> b067fe3966f4ae26793548b0ff35d21545222e54
   color: var(--neutral-600);
 }
 
@@ -216,18 +174,13 @@
     gap: 1.5rem;
   }
 
-  .obs-mes__row {
+  .obs-mes__country {
     grid-template-columns: 6rem 1fr 2rem;
     gap: 0.5rem;
     font-size: 0.82rem;
   }
 
-<<<<<<< HEAD
   .obs-mes__objetivo-head {
     font-size: 0.82rem;
-=======
-  .obs-mes__section--objetivos .obs-mes__row {
-    grid-template-columns: 8.5rem 1fr 2rem;
->>>>>>> b067fe3966f4ae26793548b0ff35d21545222e54
   }
 }

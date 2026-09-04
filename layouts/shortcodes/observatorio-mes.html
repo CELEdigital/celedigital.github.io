@@ -5,22 +5,13 @@ Uso:
   {{< observatorio-mes month="2025-06" >}}
   {{< observatorio-mes from="2025-04-01" to="2025-06-30" >}}
   {{< observatorio-mes month="2025-06" dataset="proyectos" >}}
-  {{< observatorio-mes month="2025-06" objetivos="12" >}}
 
 Parámetros:
-<<<<<<< HEAD
   month     "YYYY-MM" — deriva from/to al primer y último día del mes
   from/to   "YYYY-MM-DD" inclusive; se ignoran si hay month
   dataset   ambos (default) | proyectos | leyes
   objetivos cuántos objetivos legítimos listar (default 8; "todos" para no cortar)
   title     sobrescribe el encabezado
-=======
-  month      "YYYY-MM" — deriva from/to al primer y último día del mes
-  from/to    "YYYY-MM-DD" inclusive; se ignoran si hay month
-  dataset    ambos (default) | proyectos | leyes
-  objetivos  máximo de barras de "Objetivo legítimo" (8 por defecto; 0 las oculta)
-  title      sobrescribe el encabezado
->>>>>>> b067fe3966f4ae26793548b0ff35d21545222e54
 
 El cálculo vive en partials/func/observatorio-mes-stats.html; acá sólo se arma
 el marcado. La variante para email está en observatorio-mes.email.html.
@@ -33,7 +24,6 @@ el marcado. La variante para email está en observatorio-mes.email.html.
       "dataset" (.Get "dataset")
       "objetivos" (.Get "objetivos")
       "isES" (ne site.Language.Lang "en")
-      "objetivos" (.Get "objetivos")
       "position" .Position) -}}
 
 {{- $heading := .Get "title" | default (printf "%s · %s" $stats.label (i18n "obs_mes_titulo")) -}}
@@ -55,37 +45,17 @@ el marcado. La variante para email está en observatorio-mes.email.html.
   </div>
 
   {{- with $stats.countries }}
-  <div class="obs-mes__section">
-    <h4 class="obs-mes__section-title">{{ i18n "obs_mes_paises" }}</h4>
-    <ul class="obs-mes__bars">
-      {{- range . }}
-      <li class="obs-mes__row">
-        <span class="obs-mes__row-name">{{ .name }}</span>
-        <span class="obs-mes__bar" aria-hidden="true">
-          <span class="obs-mes__bar-fill" style="width: {{ .pct }}%"></span>
-        </span>
-        <span class="obs-mes__row-n">{{ .count }}</span>
-      </li>
-      {{- end }}
-    </ul>
-  </div>
-  {{- end }}
-
-  {{- with $stats.objetivos }}
-  <div class="obs-mes__section obs-mes__section--objetivos">
-    <h4 class="obs-mes__section-title">{{ i18n "obs_mes_objetivos" }}</h4>
-    <ul class="obs-mes__bars">
-      {{- range . }}
-      <li class="obs-mes__row{{ if .otros }} obs-mes__row--otros{{ end }}">
-        <span class="obs-mes__row-name" title="{{ .name }}">{{ .name }}</span>
-        <span class="obs-mes__bar" aria-hidden="true">
-          <span class="obs-mes__bar-fill" style="width: {{ .pct }}%; background: {{ .color }}"></span>
-        </span>
-        <span class="obs-mes__row-n">{{ .count }}</span>
-      </li>
-      {{- end }}
-    </ul>
-  </div>
+  <ul class="obs-mes__countries">
+    {{- range . }}
+    <li class="obs-mes__country">
+      <span class="obs-mes__country-name">{{ .name }}</span>
+      <span class="obs-mes__bar" aria-hidden="true">
+        <span class="obs-mes__bar-fill" style="width: {{ .pct }}%"></span>
+      </span>
+      <span class="obs-mes__country-n">{{ .count }}</span>
+    </li>
+    {{- end }}
+  </ul>
   {{- end }}
 
   {{- with $stats.objetivos }}
@@ -99,7 +69,7 @@ el marcado. La variante para email está en observatorio-mes.email.html.
           <span class="obs-mes__objetivo-n">{{ .count }}</span>
         </span>
         <span class="obs-mes__bar obs-mes__bar--objetivo" aria-hidden="true">
-          <span class="obs-mes__bar-fill" style="width: {{ .pct }}%"></span>
+          <span class="obs-mes__bar-fill" style="width: {{ .pct }}%; background: {{ .color }}"></span>
         </span>
       </li>
       {{- end }}

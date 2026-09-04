@@ -235,7 +235,6 @@ other = "fail the three-part test"
 [obs_mes_vacio]
 other = "No records for this period."
 
-<<<<<<< HEAD
 [obs_mes_objetivos]
 other = "Legitimate aim"
 
@@ -309,16 +308,3 @@ other = "Public transparency"
 
 [obs_obj_orden_publico]
 other = "Public order"
-=======
-[obs_mes_paises]
-other = "By country"
-
-[obs_mes_objetivos]
-other = "Legitimate aim invoked"
-
-[obs_mes_objetivos_otros]
-other = "Other"
-
-[boletin_sin_novedades]
-other = "No legislative developments this month."
->>>>>>> b067fe3966f4ae26793548b0ff35d21545222e54

@@ -10,22 +10,14 @@
     dataset   ambos|both|proyectos|leyes
     objetivos cuántos objetivos legítimos listar; "todos"/"all"/0 = sin tope (default 8)
     isES      bool, para el nombre del mes
-    objetivos int, cuántas barras de "Objetivo legítimo" como máximo (0 las oculta)
     position  .Position del shortcode, para los mensajes de error
 
   Salida (dict):
-<<<<<<< HEAD
     label       "junio 2025" o "1 de abril de 2025 – 30 de junio de 2025"
     totals      slice de dicts {kind, count, label}
     countries   slice de dicts {name, count, pct} ordenada desc
     objetivos   slice de dicts {name, count, pct} ordenada desc, ya recortada
     objetivosRest  cuántos objetivos quedaron fuera del tope (0 si ninguno)
-=======
-    label      "junio 2025" o "1 de abril de 2025 – 30 de junio de 2025"
-    totals     slice de dicts {kind, count, label}
-    countries  slice de dicts {name, count, pct} ordenada desc
-    objetivos  slice de dicts {name, count, pct, otros, color} ordenada desc
->>>>>>> b067fe3966f4ae26793548b0ff35d21545222e54
     limita, promueve, failTest, grand  enteros
 */ -}}
 
@@ -34,7 +26,6 @@
 {{- $to := .to | default "" -}}
 {{- $dataset := lower (.dataset | default "ambos") -}}
 {{- $isES := .isES -}}
-{{- $objLimit := int (.objetivos | default 8) -}}
 {{- $pos := .position -}}
 
 {{- /* Tope de la lista de objetivos legítimos */ -}}
@@ -87,16 +78,14 @@
       "kind" "proyectos"
       "path" "static/data/proyectos_clean.csv"
       "date" "Fecha de entrada"
-      "impact" "¿Limita el discurso?"
-      "objetivo" "Objetivo legítimo") -}}
+      "impact" "¿Limita el discurso?") -}}
 {{- end -}}
 {{- if or (eq $dataset "ambos") (eq $dataset "both") (eq $dataset "leyes") -}}
   {{- $sources = $sources | append (dict
       "kind" "leyes"
       "path" "static/data/leyes_clean.csv"
       "date" "Fecha de sanción"
-      "impact" "¿Limita o promueve el discurso?"
-      "objetivo" "Objetivo legítimo") -}}
+      "impact" "¿Limita o promueve el discurso?") -}}
 {{- end -}}
 {{- if not $sources -}}
   {{- errorf "observatorio-mes: dataset debe ser ambos|proyectos|leyes, se recibió %q en %s" $dataset $pos -}}
@@ -171,17 +160,6 @@
       {{- if eq $imp "Limita" -}}{{- $limita = add $limita 1 -}}{{- end -}}
       {{- if eq $imp "Promueve" -}}{{- $promueve = add $promueve 1 -}}{{- end -}}
       {{- if eq (upper (trim (index $row $testCol) " ")) "NO" -}}{{- $failTest = add $failTest 1 -}}{{- end -}}
-      {{- /* Objetivo legítimo: se agrupa sin distinguir mayúsculas ("Seguridad
-             Nacional" y "Seguridad nacional" son la misma categoría) y se
-             conserva la primera grafía vista como etiqueta. */ -}}
-      {{- $obj := trim (index $row $src.objetivo) " " -}}
-      {{- if $obj -}}
-        {{- $k := lower $obj -}}
-        {{- $objCounts = merge $objCounts (dict $k (add (int (index $objCounts $k | default 0)) 1)) -}}
-        {{- if not (index $objLabels $k) -}}
-          {{- $objLabels = merge $objLabels (dict $k $obj) -}}
-        {{- end -}}
-      {{- end -}}
     {{- end -}}
   {{- end -}}
   {{- $totals = $totals | append (dict "kind" $src.kind "count" $n "label" (i18n (printf "obs_mes_%s" $src.kind))) -}}
@@ -202,24 +180,6 @@
   {{- end -}}
 {{- end -}}
 
-<<<<<<< HEAD
-{{- /* Objetivos legítimos, mismo tratamiento que países más el tope de la lista */ -}}
-{{- $objRanked := slice -}}
-{{- range $gk, $count := $objCounts -}}
-  {{- $objRanked = $objRanked | append (dict "name" (index $objLabels $gk) "count" $count) -}}
-{{- end -}}
-{{- $objRanked = sort $objRanked "count" "desc" -}}
-{{- $objRest := 0 -}}
-{{- if and $objLimit (gt (len $objRanked) $objLimit) -}}
-  {{- $objRest = sub (len $objRanked) $objLimit -}}
-  {{- $objRanked = first $objLimit $objRanked -}}
-{{- end -}}
-{{- $objWithPct := slice -}}
-{{- if $objRanked -}}
-  {{- $max := (index $objRanked 0).count -}}
-  {{- range $objRanked -}}
-    {{- $objWithPct = $objWithPct | append (merge . (dict "pct" (math.Round (mul (div (float .count) $max) 100)))) -}}
-=======
 {{- /* Paleta categórica de los objetivos legítimos. El orden no es decorativo:
        es lo que garantiza la separación entre barras vecinas (peor par adyacente
        ΔE 15.1 con deuteranopía y 25.0 con visión normal sobre fondo blanco, contra
@@ -239,43 +199,29 @@
 {{- $palette := slice "#ad2b25" "#1c55b0" "#eda100" "#1FA9A2" "#eb6834" "#4a3aa7" "#E54F8A" "#008300" -}}
 {{- $grey := "#b3b0a8" -}}
 
-{{- /* Objetivos legítimos: ranking descendente, recortado a $objLimit barras;
-       lo que queda fuera se suma en una barra final "Otros". */ -}}
-{{- $objetivos := slice -}}
-{{- if gt $objLimit (len $palette) -}}
-  {{- warnf "observatorio-mes: objetivos=%d supera los %d colores de la paleta; las barras sobrantes van en gris en %s" $objLimit (len $palette) $pos -}}
+{{- /* Objetivos legítimos, mismo tratamiento que países más el tope de la lista */ -}}
+{{- $objRanked := slice -}}
+{{- range $gk, $count := $objCounts -}}
+  {{- $objRanked = $objRanked | append (dict "name" (index $objLabels $gk) "count" $count) -}}
 {{- end -}}
-{{- if gt $objLimit 0 -}}
-  {{- $objRanked := slice -}}
-  {{- range $key, $count := $objCounts -}}
-    {{- $objRanked = $objRanked | append (dict "name" (index $objLabels $key) "count" $count "otros" false) -}}
-  {{- end -}}
-  {{- $objRanked = sort $objRanked "count" "desc" -}}
-  {{- $shown := $objRanked -}}
-  {{- $rest := 0 -}}
-  {{- if gt (len $objRanked) $objLimit -}}
-    {{- $shown = first $objLimit $objRanked -}}
-    {{- range after $objLimit $objRanked -}}
-      {{- $rest = add $rest .count -}}
-    {{- end -}}
-  {{- end -}}
-  {{- if $shown -}}
-    {{- $objMax := (index $shown 0).count -}}
-    {{- if gt $rest $objMax -}}{{- $objMax = $rest -}}{{- end -}}
-    {{- range $i, $o := $shown -}}
-      {{- $objetivos = $objetivos | append (merge $o (dict
-          "pct" (math.Round (mul (div (float $o.count) $objMax) 100))
-          "color" (cond (lt $i (len $palette)) (index $palette (mod $i (len $palette))) $grey))) -}}
-    {{- end -}}
-    {{- if gt $rest 0 -}}
-      {{- $objetivos = $objetivos | append (dict
-          "name" (i18n "obs_mes_objetivos_otros")
-          "count" $rest
-          "otros" true
-          "color" $grey
-          "pct" (math.Round (mul (div (float $rest) $objMax) 100))) -}}
-    {{- end -}}
->>>>>>> b067fe3966f4ae26793548b0ff35d21545222e54
+{{- $objRanked = sort $objRanked "count" "desc" -}}
+{{- $objRest := 0 -}}
+{{- if and $objLimit (gt (len $objRanked) $objLimit) -}}
+  {{- $objRest = sub (len $objRanked) $objLimit -}}
+  {{- $objRanked = first $objLimit $objRanked -}}
+{{- end -}}
+{{- /* Se mide sobre la lista ya recortada, no sobre $objLimit, porque con
+       objetivos="todos" el tope es 0 y aun así pueden salir más de 8 barras. */ -}}
+{{- if gt (len $objRanked) (len $palette) -}}
+  {{- warnf "observatorio-mes: %d objetivos superan los %d colores de la paleta; las barras sobrantes van en gris en %s" (len $objRanked) (len $palette) $pos -}}
+{{- end -}}
+{{- $objWithPct := slice -}}
+{{- if $objRanked -}}
+  {{- $max := (index $objRanked 0).count -}}
+  {{- range $i, $o := $objRanked -}}
+    {{- $objWithPct = $objWithPct | append (merge $o (dict
+        "pct" (math.Round (mul (div (float $o.count) $max) 100))
+        "color" (cond (lt $i (len $palette)) (index $palette (mod $i (len $palette))) $grey))) -}}
   {{- end -}}
 {{- end -}}
 
@@ -283,12 +229,8 @@
       "label" $label
       "totals" $totals
       "countries" $withPct
-<<<<<<< HEAD
       "objetivos" $objWithPct
       "objetivosRest" $objRest
-=======
-      "objetivos" $objetivos
->>>>>>> b067fe3966f4ae26793548b0ff35d21545222e54
       "limita" $limita
       "promueve" $promueve
       "failTest" $failTest

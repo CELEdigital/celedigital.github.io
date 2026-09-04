@@ -17,23 +17,13 @@ desincronizarse.
       "dataset" (.Get "dataset")
       "objetivos" (.Get "objetivos")
       "isES" (ne site.Language.Lang "en")
-      "objetivos" (.Get "objetivos")
       "position" .Position) -}}
 
 {{- $heading := .Get "title" | default (printf "%s · %s" $stats.label (i18n "obs_mes_titulo")) -}}
-<<<<<<< HEAD
 {{- /* safeCSS: sin él el escaper de Go rechaza las comillas de 'Fira Sans' dentro
        de un atributo style y lo reemplaza por ZgotmplZ, matando la fuente. */ -}}
 {{- $sans := "'Fira Sans', Arial, Helvetica, sans-serif" | safeCSS -}}
 {{- $display := "Jost, Arial, Helvetica, sans-serif" | safeCSS -}}
-=======
-{{- /* Sin comillas alrededor de Fira Sans a propósito: CSS admite nombres de
-       familia de varias palabras sin entrecomillar, y así Go no escapa nada.
-       Con comillas el sanitizador descartaba la pila entera y escribía
-       font-family:ZgotmplZ en el correo. */ -}}
-{{- $sans := "Fira Sans, Arial, Helvetica, sans-serif" -}}
-{{- $display := "Jost, Arial, Helvetica, sans-serif" -}}
->>>>>>> b067fe3966f4ae26793548b0ff35d21545222e54
 
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse; border:1px solid #dddddd; background-color:#ffffff; margin:24px 0;">
   <tr>
@@ -62,9 +52,6 @@ desincronizarse.
       {{- with $stats.countries }}
       <!-- Países -->
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse;">
-        <tr>
-          <td colspan="3" style="padding:0 0 6px; font-family:{{ $display }}; font-size:11px; font-weight:700; letter-spacing:0.07em; text-transform:uppercase; color:#888888;">{{ i18n "obs_mes_paises" }}</td>
-        </tr>
         {{- range . }}
         <tr>
           <td width="130" style="width:130px; padding:4px 10px 4px 0; font-family:{{ $sans }}; font-size:13px; color:#333333;">{{ .name }}</td>
@@ -85,7 +72,6 @@ desincronizarse.
       {{- end }}
 
       {{- with $stats.objetivos }}
-<<<<<<< HEAD
       <!-- Objetivos legítimos: etiqueta y barra en filas separadas, porque los
            nombres son largos y una columna fija los cortaría en pantallas chicas -->
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse; margin:18px 0 0; border-top:1px solid #eeeeee;">
@@ -101,36 +87,18 @@ desincronizarse.
           <td colspan="2" style="padding:3px 0 0;">
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse;">
               <tr>
-                <td width="{{ .pct }}%" height="9" style="width:{{ .pct }}%; height:9px; background-color:#05334a; font-size:0; line-height:0;">&nbsp;</td>
-=======
-      <!-- Objetivo legítimo -->
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse; margin:18px 0 0;">
-        <tr>
-          <td colspan="3" style="padding:0 0 6px; font-family:{{ $display }}; font-size:11px; font-weight:700; letter-spacing:0.07em; text-transform:uppercase; color:#888888;">{{ i18n "obs_mes_objetivos" }}</td>
-        </tr>
-        {{- range . }}
-        <tr>
-          <td width="190" style="width:190px; padding:4px 10px 4px 0; font-family:{{ $sans }}; font-size:13px; color:{{ if .otros }}#888888{{ else }}#333333{{ end }};">{{ .name }}</td>
-          <td style="padding:4px 0;">
-            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse;">
-              <tr>
                 <td width="{{ .pct }}%" height="9" style="width:{{ .pct }}%; height:9px; background-color:{{ .color }}; font-size:0; line-height:0;">&nbsp;</td>
->>>>>>> b067fe3966f4ae26793548b0ff35d21545222e54
                 {{- if lt .pct 100.0 }}
                 <td height="9" style="height:9px; background-color:#f0f0f0; font-size:0; line-height:0;">&nbsp;</td>
                 {{- end }}
               </tr>
             </table>
           </td>
-<<<<<<< HEAD
         </tr>
         {{- end }}
         {{- if gt $stats.objetivosRest 0 }}
         <tr>
           <td colspan="2" style="padding:10px 0 0; font-family:{{ $sans }}; font-size:12px; color:#666666;">{{ i18n "obs_mes_objetivos_resto" (dict "Count" $stats.objetivosRest) }}</td>
-=======
-          <td width="40" align="right" style="width:40px; padding:4px 0 4px 10px; font-family:{{ $sans }}; font-size:13px; color:#333333; text-align:right;">{{ .count }}</td>
->>>>>>> b067fe3966f4ae26793548b0ff35d21545222e54
         </tr>
         {{- end }}
       </table>

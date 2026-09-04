@@ -14,6 +14,54 @@
                 href="http://localhost:1313/es/autores/agustina-del-campo/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/autores/carolina-botero/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/carolina-botero/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/carolina-botero/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/daphne-keller/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/daphne-keller/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/daphne-keller/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/joan-barata/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/joan-barata/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/joan-barata/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/michael-karanicolas/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/michael-karanicolas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/michael-karanicolas/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/autores/ona-flores/</loc>
     <xhtml:link
                 rel="alternate"
@@ -26,13 +74,73 @@
                 href="http://localhost:1313/es/autores/ona-flores/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/autores/paddy-leerssen/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/paddy-leerssen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/paddy-leerssen/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/paulina-gutierrez/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/paulina-gutierrez/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/paulina-gutierrez/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/taller/2023/program2023/</loc>
   </url><url>
     <loc>http://localhost:1313/es/taller/2024/program2024/</loc>
   </url><url>
     <loc>http://localhost:1313/es/taller/2025/program2025/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/autores/robert-gorwa/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/robert-gorwa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/robert-gorwa/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/taller/2026/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/autores/javier-pallero/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/javier-pallero/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/javier-pallero/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/luisa-fernanda-isaza/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/luisa-fernanda-isaza/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/luisa-fernanda-isaza/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/autores/ramiro-alvarez-ugarte/</loc>
     <xhtml:link
@@ -47,6 +155,18 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/taller/2025/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/autores/lina-paola-velasquez/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/lina-paola-velasquez/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/lina-paola-velasquez/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/autores/matias-gonzalez-mama/</loc>
     <xhtml:link
@@ -74,15 +194,171 @@
   </url><url>
     <loc>http://localhost:1313/es/taller/2024/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/autores/thiago-dias-oliva/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/thiago-dias-oliva/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/thiago-dias-oliva/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/heloisa-massaro/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/heloisa-massaro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/heloisa-massaro/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/juan-martin-marinangeli/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/juan-martin-marinangeli/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/juan-martin-marinangeli/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/martina-rapido-ragozzino/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/martina-rapido-ragozzino/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/martina-rapido-ragozzino/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/taller/2023/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/autores/david-greene/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/david-greene/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/david-greene/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/morena-schatzky/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/morena-schatzky/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/morena-schatzky/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/taller/2022/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/autores/juan-carlos-arjona-estevez/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/juan-carlos-arjona-estevez/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/juan-carlos-arjona-estevez/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/paula-roko/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/paula-roko/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/paula-roko/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/taller/2021/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/autores/alvaro-castellanos-howell/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/alvaro-castellanos-howell/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/alvaro-castellanos-howell/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/franco-serra/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/franco-serra/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/franco-serra/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/taller/2020/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/autores/susana-gonzales/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/susana-gonzales/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/susana-gonzales/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/taller/2019/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/autores/victoria-abatte/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/victoria-abatte/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/victoria-abatte/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/lucila-ailen-tula/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/lucila-ailen-tula/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/lucila-ailen-tula/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/taller/2018/</loc>
   </url><url>
@@ -96,11 +372,21 @@
   </url><url>
     <loc>http://localhost:1313/es/taller/2013/</loc>
   </url><url>
-    <loc>http://localhost:1313/es/observatorio-legislativo/boletin-julio-2026/</loc>
-    <lastmod>2026-08-12T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/es/posts/</loc>
+    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/</loc>
-    <lastmod>2026-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -112,30 +398,53 @@
                 href="http://localhost:1313/es/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/observatorio-legislativo/</loc>
-    <lastmod>2026-08-12T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/es/posts/seminario-cele-barata-lazar/</loc>
+    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/tiktok-got-serious-una-nueva-forma-de-protesta/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/legislative-observatory/"
+                href="http://localhost:1313/en/posts/seminario-cele-barata-lazar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/tiktok-got-serious-una-nueva-forma-de-protesta/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/observatorio-legislativo/"
+                href="http://localhost:1313/es/posts/seminario-cele-barata-lazar/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/</loc>
-    <lastmod>2026-08-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/es/tags/responsabilidad-de-intermediarios/</loc>
+    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/"
+                href="http://localhost:1313/en/tags/responsabilidad-de-intermediarios/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/"
+                href="http://localhost:1313/es/tags/responsabilidad-de-intermediarios/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/tags/</loc>
+    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/posts/brazil-intermediary-liability-decrees-2026/</loc>
@@ -160,13 +469,24 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/ha-muerto-la-libex/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/observatorio-legislativo/boletin-julio-2026/</loc>
+    <lastmod>2026-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/observatorio-legislativo/</loc>
+    <lastmod>2026-07-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/ha-muerto-la-libex/"
+                href="http://localhost:1313/en/legislative-observatory/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/ha-muerto-la-libex/"
+                href="http://localhost:1313/es/observatorio-legislativo/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/posts/sexta-edicion-taller-cele/</loc>
@@ -232,19 +552,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/tags/slapp/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/tags/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/posts/actores-privados-con-poder-cuasiestatal/</loc>
@@ -450,6 +757,16 @@
   </url><url>
     <loc>http://localhost:1313/es/tags/funcionarios-p%C3%BAblicos/</loc>
     <lastmod>2025-12-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/funcionarios-p%C3%BAblicos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/funcionarios-p%C3%BAblicos/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-noviembre-2025/</loc>
     <lastmod>2025-12-05T00:00:00+00:00</lastmod>
@@ -1029,6 +1346,16 @@
   </url><url>
     <loc>http://localhost:1313/es/tags/privacidad-y-vigilancia/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/privacidad-y-vigilancia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/privacidad-y-vigilancia/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/ley-seguridad-sri-lanka/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
@@ -1097,6 +1424,16 @@
   </url><url>
     <loc>http://localhost:1313/es/tags/censura-indirecta/</loc>
     <lastmod>2024-06-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/censura-indirecta/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/censura-indirecta/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/tiktok-bajo-amenaza-en-estados-unidos-y-la-union-europea-que-implicaciones-tiene-para-la-libertad-de-expresion/</loc>
     <lastmod>2024-06-18T00:00:00+00:00</lastmod>
@@ -1257,9 +1594,29 @@
   </url><url>
     <loc>http://localhost:1313/es/tags/desacato/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/desacato/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/desacato/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/tags/discursos-de-odio/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/discursos-de-odio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/discursos-de-odio/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/la-violencia-de-genero-en-la-vida-politica-de-la-mujer-colombiana-y-sus-desafios-para-la-libertad-de-expresion/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
@@ -1282,6 +1639,16 @@
   </url><url>
     <loc>http://localhost:1313/es/tags/curaci%C3%B3n-y-moderaci%C3%B3n-de-contenidos/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/curaci%C3%B3n-y-moderaci%C3%B3n-de-contenidos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/curaci%C3%B3n-y-moderaci%C3%B3n-de-contenidos/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-12-amicus-curiae-colombia-violencia-politica/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
@@ -1316,15 +1683,45 @@
   </url><url>
     <loc>http://localhost:1313/es/tags/inteligencia-artificial/</loc>
     <lastmod>2023-10-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/inteligencia-artificial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/inteligencia-artificial/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/tags/riesgos-/-risk-based-approaches/</loc>
     <lastmod>2023-10-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/riesgos-/-risk-based-approaches/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/riesgos-/-risk-based-approaches/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/la-corte-constitucional-de-colombia-limito-el-uso-de-inhibidores-de-internet-durante-protestas-sociales/</loc>
     <lastmod>2023-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/tags/restricci%C3%B3n-a-la-protesta-social/</loc>
     <lastmod>2023-10-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/restricci%C3%B3n-a-la-protesta-social/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/restricci%C3%B3n-a-la-protesta-social/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-septiembre-2023/</loc>
     <lastmod>2023-10-02T00:00:00+00:00</lastmod>
@@ -1356,9 +1753,29 @@
   </url><url>
     <loc>http://localhost:1313/es/tags/desinformaci%C3%B3n/</loc>
     <lastmod>2023-09-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/desinformaci%C3%B3n/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/desinformaci%C3%B3n/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/tags/hrias/</loc>
     <lastmod>2023-09-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/hrias/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/hrias/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/two-problems-for-using-human-rights-as-benchmarks-in-human-rights-impact-assessments/</loc>
     <lastmod>2023-09-13T00:00:00+00:00</lastmod>
@@ -1392,9 +1809,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/posts/el-liderazgo-esteril-de-brasil/</loc>
-    <lastmod>2023-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/tags/responsabilidad-de-intermediarios/</loc>
     <lastmod>2023-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/el-cele-celebro-la-edicion-2023-de-su-taller-en-buenos-aires/</loc>
@@ -1493,6 +1907,16 @@
   </url><url>
     <loc>http://localhost:1313/es/tags/violencia-contra-periodistas/</loc>
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/violencia-contra-periodistas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/violencia-contra-periodistas/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-10-amicus-curiae-colombia-pena-de-prision/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
@@ -1613,6 +2037,16 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/contenido-legal-pero-danino-y-poca-prevision-en-la-supervision/</loc>
     <lastmod>2022-10-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/contenido-legal-pero-danino-y-poca-prevision-en-la-supervision/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/contenido-legal-pero-danino-y-poca-prevision-en-la-supervision/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/informe-legislativo-7-la-nueva-ley-de-mercados-digitales-europea/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
@@ -1982,6 +2416,16 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/sobre-el-negacionismo-como-delito-penal/</loc>
     <lastmod>2021-04-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/sobre-el-negacionismo-como-delito-penal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/sobre-el-negacionismo-como-delito-penal/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/disinformation-in-democracy-or-the-democracy-of-disinformation-5154679/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
@@ -2007,9 +2451,29 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/lo-bueno-lo-malo-y-lo-feo-de-la-audiencia-de-las-plataformas-ante-el-congreso-de-ee-uu/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/lo-bueno-lo-malo-y-lo-feo-de-la-audiencia-de-las-plataformas-ante-el-congreso-de-ee-uu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/lo-bueno-lo-malo-y-lo-feo-de-la-audiencia-de-las-plataformas-ante-el-congreso-de-ee-uu/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/relatoria-especial-para-la-libertad-de-expresion/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/relatoria-especial-para-la-libertad-de-expresion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/relatoria-especial-para-la-libertad-de-expresion/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-febrero-2021-observatorio-legislativo-cele/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
@@ -2026,12 +2490,42 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/letrachica-y-el-oversight-board/</loc>
     <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/letrachica-y-el-oversight-board/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/letrachica-y-el-oversight-board/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/la-legitimidad-de-los-nuevos-gestores-del-debate-publico/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/la-legitimidad-de-los-nuevos-gestores-del-debate-publico/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/la-legitimidad-de-los-nuevos-gestores-del-debate-publico/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/noticias-falsas-en-internet-acciones-y-reacciones-de-tres-plataformas-presentacion-del-cele-ante-la-relatoria-especial-de-libertad-de-opinion-y-expresion-de-la-onu/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/noticias-falsas-en-internet-acciones-y-reacciones-de-tres-plataformas-presentacion-del-cele-ante-la-relatoria-especial-de-libertad-de-opinion-y-expresion-de-la-onu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/noticias-falsas-en-internet-acciones-y-reacciones-de-tres-plataformas-presentacion-del-cele-ante-la-relatoria-especial-de-libertad-de-opinion-y-expresion-de-la-onu/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/analysis-of-the-debate-process-on-legal-initiatives-for-personal-data-protection-and-their-conflicts-5154545/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
@@ -2041,105 +2535,385 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/informe-legislativo-latam-2020-21/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/informe-legislativo-latam-2020-21/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/informe-legislativo-latam-2020-21/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/el-ostracismo-de-trump/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/informe-anual-2020/</loc>
     <lastmod>2020-12-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/informe-anual-2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/informe-anual-2020/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/construyendo-letra-chica/</loc>
     <lastmod>2020-12-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/construyendo-letra-chica/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/construyendo-letra-chica/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/informe-legislativo-s-n-libertad-de-expresion-en-el-poder-legislativo-brasileno-temas-y-tendencias/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/13thsessionofforumonminorityissues/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/13thsessionofforumonminorityissues/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/13thsessionofforumonminorityissues/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/nueva-mesa-parlamentaria-en-el-igf2020/</loc>
     <lastmod>2020-11-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/nueva-mesa-parlamentaria-en-el-igf2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/nueva-mesa-parlamentaria-en-el-igf2020/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/las-redes-sociales-el-dia-despues-de-las-elecciones-en-ee-uu/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/las-redes-sociales-el-dia-despues-de-las-elecciones-en-ee-uu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/las-redes-sociales-el-dia-despues-de-las-elecciones-en-ee-uu/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/el-t-mec-mexicano-2020-practicas-y-lecciones/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/el-t-mec-mexicano-2020-practicas-y-lecciones/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/el-t-mec-mexicano-2020-practicas-y-lecciones/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/argentina-conectada-bis-mejores-practicas-y-lecciones-aprendidas-del-ejercicio-2020/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/ciberpatrullaje-o-inteligencia/</loc>
     <lastmod>2020-10-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/ciberpatrullaje-o-inteligencia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/ciberpatrullaje-o-inteligencia/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/platformlaw-como-funcionan-las-apelaciones-a-la-moderacion-privada-de-contenidos/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/platformlaw-como-funcionan-las-apelaciones-a-la-moderacion-privada-de-contenidos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/platformlaw-como-funcionan-las-apelaciones-a-la-moderacion-privada-de-contenidos/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/human-rights-impact-assessments-trends-challenges-and-opportunities-for-ict-sector-adoption-5152219/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/redes-sociales-en-america-latina-entre-la-espada-y-la-pared/</loc>
     <lastmod>2020-09-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/redes-sociales-en-america-latina-entre-la-espada-y-la-pared/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/redes-sociales-en-america-latina-entre-la-espada-y-la-pared/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/aplausos-cacerolas-y-cadenas-de-mensajes-los-derechos-de-reunion-y-asociacion-en-la-argentina-durante-la-pandemia/</loc>
     <lastmod>2020-09-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/aplausos-cacerolas-y-cadenas-de-mensajes-los-derechos-de-reunion-y-asociacion-en-la-argentina-durante-la-pandemia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/aplausos-cacerolas-y-cadenas-de-mensajes-los-derechos-de-reunion-y-asociacion-en-la-argentina-durante-la-pandemia/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/gobernanza-de-internet-y-poder-judicial/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/gobernanza-de-internet-y-poder-judicial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/gobernanza-de-internet-y-poder-judicial/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/disinformation-in-democracy-or-democracy-of-disinformation-5152211/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/guatemala-la-tentacion-de-usar-la-emergencia-para-silenciar-la-critica-y-criminalizar-las-fake-news/</loc>
     <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/guatemala-la-tentacion-de-usar-la-emergencia-para-silenciar-la-critica-y-criminalizar-las-fake-news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/guatemala-la-tentacion-de-usar-la-emergencia-para-silenciar-la-critica-y-criminalizar-las-fake-news/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/cfk-c-google-teoricamente-interesante-facticamente-mundano/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/cfk-c-google-teoricamente-interesante-facticamente-mundano/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/cfk-c-google-teoricamente-interesante-facticamente-mundano/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/covid-19-proteccion-de-datos-y-acceso-a-internet-durante-la-pandemia/</loc>
     <lastmod>2020-08-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/covid-19-proteccion-de-datos-y-acceso-a-internet-durante-la-pandemia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/covid-19-proteccion-de-datos-y-acceso-a-internet-durante-la-pandemia/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/ict-and-human-rights-towards-a-conceptual-framework-of-human-rights-impact-assessments-5152205/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/estudio-sobre-la-junta-de-supervision-de-facebook-modificar-las-expectativas/</loc>
     <lastmod>2020-07-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/estudio-sobre-la-junta-de-supervision-de-facebook-modificar-las-expectativas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/estudio-sobre-la-junta-de-supervision-de-facebook-modificar-las-expectativas/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/colombia-cne-otra-aproximacion-a-la-regulacion-de-la-campana-electoral-en-redes-sociales/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/colombia-cne-otra-aproximacion-a-la-regulacion-de-la-campana-electoral-en-redes-sociales/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/colombia-cne-otra-aproximacion-a-la-regulacion-de-la-campana-electoral-en-redes-sociales/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/taller-por-una-mejor-regulacion-de-internet-en-america-latina-cele20/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/taller-por-una-mejor-regulacion-de-internet-en-america-latina-cele20/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/taller-por-una-mejor-regulacion-de-internet-en-america-latina-cele20/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/encuesta-covid-19-acumulacion-de-datos-sin-objetivos-claros/</loc>
     <lastmod>2020-07-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/encuesta-covid-19-acumulacion-de-datos-sin-objetivos-claros/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/encuesta-covid-19-acumulacion-de-datos-sin-objetivos-claros/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/tiktok-got-serious-una-nueva-forma-de-protesta/</loc>
     <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/seminario-cele-barata-lazar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/seminario-cele-barata-lazar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/tiktok-got-serious-una-nueva-forma-de-protesta/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/tiktok-got-serious-una-nueva-forma-de-protesta/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/freedom-of-expression-and-the-digital-gender-gap-in-mexico-5152172/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/the-brazilian-congress-approach-to-disinformation-and-platform-regulation-puts-freedom-of-expression-at-risk/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/the-brazilian-congress-approach-to-disinformation-and-platform-regulation-puts-freedom-of-expression-at-risk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/the-brazilian-congress-approach-to-disinformation-and-platform-regulation-puts-freedom-of-expression-at-risk/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/sumando-contexto-la-editorial-de-zuckerberg-el-conflicto-twitter-trump-y-la-responsabilidad-de-intermediarios-frente-a-problemas-sociales-de-larga-data/</loc>
     <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/sumando-contexto-la-editorial-de-zuckerberg-el-conflicto-twitter-trump-y-la-responsabilidad-de-intermediarios-frente-a-problemas-sociales-de-larga-data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/sumando-contexto-la-editorial-de-zuckerberg-el-conflicto-twitter-trump-y-la-responsabilidad-de-intermediarios-frente-a-problemas-sociales-de-larga-data/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/facebook-bajo-la-lupa-excepciones-de-interes-periodistico-y-discurso-politico/</loc>
     <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/facebook-bajo-la-lupa-excepciones-de-interes-periodistico-y-discurso-politico/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/facebook-bajo-la-lupa-excepciones-de-interes-periodistico-y-discurso-politico/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/pandemia-y-control-de-la-desinformacion/</loc>
     <lastmod>2020-04-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/pandemia-y-control-de-la-desinformacion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/pandemia-y-control-de-la-desinformacion/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/el-rol-activo-de-las-plataformas-en-tiempos-de-pandemia-un-repaso-de-sus-politicas-y-los-vacios-que-comienzan-a-surgir/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/el-rol-activo-de-las-plataformas-en-tiempos-de-pandemia-un-repaso-de-sus-politicas-y-los-vacios-que-comienzan-a-surgir/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/el-rol-activo-de-las-plataformas-en-tiempos-de-pandemia-un-repaso-de-sus-politicas-y-los-vacios-que-comienzan-a-surgir/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/libertad-de-expresion-entre-la-logica-y-la-democracia/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/libertad-de-expresion-entre-la-logica-y-la-democracia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/libertad-de-expresion-entre-la-logica-y-la-democracia/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/coronavirus-proteccion-de-datos-y-confidencialidad-en-ecuador/</loc>
     <lastmod>2020-03-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/coronavirus-proteccion-de-datos-y-confidencialidad-en-ecuador/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/coronavirus-proteccion-de-datos-y-confidencialidad-en-ecuador/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/democratic-rule-of-law-and-internet-governance-the-key-role-of-judicial-operators-5152126/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
@@ -2170,18 +2944,58 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/sentencia-historica-de-la-corte-constitucional-del-ecuador/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/sentencia-historica-de-la-corte-constitucional-del-ecuador/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/sentencia-historica-de-la-corte-constitucional-del-ecuador/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/guardians-of-the-access-to-public-information-act-analysis-of-the-implementation-of-the-guarantor-bo-5152027/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/el-buen-uso-de-las-redes-sociales/</loc>
     <lastmod>2019-07-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/el-buen-uso-de-las-redes-sociales/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/el-buen-uso-de-las-redes-sociales/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/presentacion-del-observatorio-en-mexico/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/presentacion-del-observatorio-en-mexico/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/presentacion-del-observatorio-en-mexico/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/directiva-europea-de-derechos-de-autor/</loc>
     <lastmod>2019-05-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/directiva-europea-de-derechos-de-autor/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/directiva-europea-de-derechos-de-autor/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/considering-facebook-oversight-board-turning-on-expectations-5152017/</loc>
     <lastmod>2019-05-01T00:00:00+00:00</lastmod>
@@ -2200,6 +3014,16 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/entrada-2/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/entrada-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/entrada-2/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/primer-entrada-al-blog/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
@@ -2402,18 +3226,6 @@
                 href="http://localhost:1313/es/autores/lina-palacios/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/autores/paulina-gutierrez/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/autores/paulina-gutierrez/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/autores/paulina-gutierrez/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/autores/solana-babicola/</loc>
     <xhtml:link
                 rel="alternate"
@@ -2585,6 +3397,8 @@
                 hreflang="es"
                 href="http://localhost:1313/es/observatorio-legislativo/objetivos/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/es/observatorio-legislativo/objetivos-legitimos/</loc>
   </url><url>
     <loc>http://localhost:1313/es/temas/plataformas/</loc>
     <xhtml:link

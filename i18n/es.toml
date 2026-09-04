@@ -235,7 +235,6 @@ other = "no superan el test"
 [obs_mes_vacio]
 other = "Sin registros en este período."
 
-<<<<<<< HEAD
 [obs_mes_objetivos]
 other = "Objetivo legítimo"
 
@@ -309,16 +308,3 @@ other = "Transparencia pública"
 
 [obs_obj_orden_publico]
 other = "Orden público"
-=======
-[obs_mes_paises]
-other = "Por país"
-
-[obs_mes_objetivos]
-other = "Objetivo legítimo invocado"
-
-[obs_mes_objetivos_otros]
-other = "Otros"
-
-[boletin_sin_novedades]
-other = "Sin novedades legislativas este mes."
->>>>>>> b067fe3966f4ae26793548b0ff35d21545222e54

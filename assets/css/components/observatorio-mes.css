@@ -93,6 +93,60 @@
   color: var(--neutral-800);
 }
 
+/* Objetivos legítimos: los nombres son largos, así que van sobre la barra en
+   vez de en una columna fija como los países. */
+.obs-mes__objetivos {
+  margin: 1.4rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--neutral-200);
+}
+
+.obs-mes__subhead {
+  margin: 0 0 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--neutral-600);
+}
+
+.obs-mes__objetivo-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.obs-mes__objetivo-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.28rem;
+  font-size: 0.88rem;
+}
+
+.obs-mes__objetivo-name {
+  color: var(--neutral-800);
+}
+
+.obs-mes__objetivo-n {
+  flex: none;
+  font-variant-numeric: tabular-nums;
+  color: var(--neutral-800);
+}
+
+.obs-mes__bar--objetivo .obs-mes__bar-fill {
+  background: var(--accent-blue);
+}
+
+.obs-mes__objetivo-rest {
+  margin: 0.85rem 0 0;
+  font-size: 0.82rem;
+  color: var(--neutral-600);
+}
+
 .obs-mes__impact {
   display: flex;
   flex-wrap: wrap;
@@ -120,6 +174,10 @@
   .obs-mes__country {
     grid-template-columns: 6rem 1fr 2rem;
     gap: 0.5rem;
+    font-size: 0.82rem;
+  }
+
+  .obs-mes__objetivo-head {
     font-size: 0.82rem;
   }
 }

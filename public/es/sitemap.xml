@@ -96,6 +96,35 @@
   </url><url>
     <loc>http://localhost:1313/es/taller/2013/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/observatorio-legislativo/boletin-julio-2026/</loc>
+    <lastmod>2026-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/</loc>
+    <lastmod>2026-08-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/observatorio-legislativo/</loc>
+    <lastmod>2026-08-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/legislative-observatory/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/observatorio-legislativo/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/posts/</loc>
     <lastmod>2026-08-11T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -107,19 +136,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/</loc>
-    <lastmod>2026-08-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/posts/brazil-intermediary-liability-decrees-2026/</loc>
@@ -348,6 +364,16 @@
   </url><url>
     <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-10-por-nicolas-zara/</loc>
     <lastmod>2026-03-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-10-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-10-por-nicolas-zara/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-febrero-2026/</loc>
     <lastmod>2026-03-03T00:00:00+00:00</lastmod>
@@ -360,19 +386,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-febrero-2026/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/observatorio-legislativo/</loc>
-    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/legislative-observatory/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/observatorio-legislativo/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-40-contribucion-del-centro-de-estudios-en-libertad-de-expresion-a-la-consulta-impacto-de-la-i/</loc>
@@ -418,6 +431,16 @@
   </url><url>
     <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-9-por-nicolas-zara/</loc>
     <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-9-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-9-por-nicolas-zara/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-36-amicus-curiae-en-el-juicio-para-la-proteccion-de-los-derechos-politico-electorales-del-ciu/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
@@ -443,6 +466,16 @@
   </url><url>
     <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-8-por-nicolas-zara/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-8-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-8-por-nicolas-zara/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-35-observaciones-del-cele-a-la-solicitud-de-opinion-consultiva-sobre-democracia-y-su-protecci/</loc>
     <lastmod>2025-11-17T00:00:00+00:00</lastmod>
@@ -497,6 +530,16 @@
   </url><url>
     <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-7-por-nicolas-zara/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-7-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-7-por-nicolas-zara/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-agosto-2025/</loc>
     <lastmod>2025-09-05T00:00:00+00:00</lastmod>
@@ -579,6 +622,16 @@
   </url><url>
     <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-6-por-nicolas-zara/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-6-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-6-por-nicolas-zara/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-28-concepto-solicitado-por-la-corte-constitucional-accion-de-tutela-presentada-por-daniela-co/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
@@ -680,6 +733,16 @@
   </url><url>
     <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-5-por-nicolas-zara/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-5-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-5-por-nicolas-zara/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-abril-2025/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
@@ -748,6 +811,16 @@
   </url><url>
     <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-4-por-nicolas-zara/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-4-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-4-por-nicolas-zara/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-febrero-2025/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
@@ -814,6 +887,16 @@
   </url><url>
     <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-3-por-nicolas-zara/</loc>
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-3-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-3-por-nicolas-zara/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-noviembre-2024/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
@@ -860,6 +943,16 @@
   </url><url>
     <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-2-por-nicolas-zara/</loc>
     <lastmod>2024-11-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-2-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-2-por-nicolas-zara/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/el-acceso-a-datos-para-investigadores-los-desafios-de-la-sociedad-civil-frente-a-las-plataformas-digitales-una-conversacion-con-carlos-cortes-y-laura-palacio/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
@@ -907,6 +1000,16 @@
   </url><url>
     <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-1-por-nicolas-zara/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-1-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-1-por-nicolas-zara/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-agosto-2024/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>

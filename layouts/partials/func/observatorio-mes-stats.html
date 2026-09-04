@@ -8,13 +8,16 @@
     month     "YYYY-MM" (opcional si hay from/to)
     from/to   "YYYY-MM-DD" inclusive
     dataset   ambos|both|proyectos|leyes
+    objetivos cuántos objetivos legítimos listar; "todos"/"all"/0 = sin tope (default 8)
     isES      bool, para el nombre del mes
     position  .Position del shortcode, para los mensajes de error
 
   Salida (dict):
-    label      "junio 2025" o "1 de abril de 2025 – 30 de junio de 2025"
-    totals     slice de dicts {kind, count, label}
-    countries  slice de dicts {name, count, pct} ordenada desc
+    label       "junio 2025" o "1 de abril de 2025 – 30 de junio de 2025"
+    totals      slice de dicts {kind, count, label}
+    countries   slice de dicts {name, count, pct} ordenada desc
+    objetivos   slice de dicts {name, count, pct} ordenada desc, ya recortada
+    objetivosRest  cuántos objetivos quedaron fuera del tope (0 si ninguno)
     limita, promueve, failTest, grand  enteros
 */ -}}
 
@@ -24,6 +27,19 @@
 {{- $dataset := lower (.dataset | default "ambos") -}}
 {{- $isES := .isES -}}
 {{- $pos := .position -}}
+
+{{- /* Tope de la lista de objetivos legítimos */ -}}
+{{- $objLimit := 8 -}}
+{{- $objParam := lower (trim (string (.objetivos | default "")) " ") -}}
+{{- if $objParam -}}
+  {{- if in (slice "todos" "all" "0") $objParam -}}
+    {{- $objLimit = 0 -}}
+  {{- else if findRE `^\d+$` $objParam -}}
+    {{- $objLimit = int $objParam -}}
+  {{- else -}}
+    {{- errorf "observatorio-mes: objetivos debe ser un número o \"todos\", se recibió %q en %s" $objParam $pos -}}
+  {{- end -}}
+{{- end -}}
 
 {{- /* ── Período ── */ -}}
 {{- $label := "" -}}
@@ -75,9 +91,41 @@
   {{- errorf "observatorio-mes: dataset debe ser ambos|proyectos|leyes, se recibió %q en %s" $dataset $pos -}}
 {{- end -}}
 
+{{- /* ── Vocabulario de "Objetivo legítimo" ──
+  Las planillas escriben la misma categoría con mayúsculas distintas ("Seguridad
+  nacional" / "Seguridad Nacional") y a veces con variantes de redacción. El mapa
+  va de la forma en minúsculas al slug de i18n, así los conteos no se parten y la
+  etiqueta sale traducida. Un valor que no esté acá se cuenta igual, agrupado por
+  su forma en minúsculas y mostrado tal cual viene del CSV. */ -}}
+{{- $objSlugs := dict
+      "discriminación, violencia y discursos de odio" "odio"
+      "libertad de expresión y derechos políticos" "libertad_expresion"
+      "acceso a la información" "acceso_informacion"
+      "derechos de los niños" "ninez"
+      "privacidad y derechos arco" "privacidad"
+      "honor y reputación" "honor"
+      "acceso a internet e infraestructura" "acceso_internet"
+      "moderación de contenidos y responsabilidad de intermediarios" "moderacion"
+      "seguridad nacional" "seguridad_nacional"
+      "desinformación" "desinformacion"
+      "moral pública" "moral_publica"
+      "inteligencia artificial" "ia"
+      "derechos del consumidor" "consumidor"
+      "publicidad oficial" "publicidad_oficial"
+      "desc" "desc"
+      "propiedad intelectual" "propiedad_intelectual"
+      "libertad de conciencia y de religión" "religion"
+      "ciberseguridad" "ciberseguridad"
+      "gobierno digital" "gobierno_digital"
+      "apología" "apologia"
+      "transparencia pública" "transparencia"
+      "orden público" "orden_publico" -}}
+
 {{- /* ── Filtrado y conteo ── */ -}}
 {{- $totals := slice -}}
 {{- $countries := dict -}}
+{{- $objCounts := dict -}}
+{{- $objLabels := dict -}}
 {{- $limita := 0 -}}
 {{- $promueve := 0 -}}
 {{- $failTest := 0 -}}
@@ -94,6 +142,19 @@
       {{- $c := trim (index $row "País") " " -}}
       {{- if $c -}}
         {{- $countries = merge $countries (dict $c (add (int (index $countries $c | default 0)) 1)) -}}
+      {{- end -}}
+      {{- $o := trim (index $row "Objetivo legítimo") " " -}}
+      {{- if $o -}}
+        {{- $key := lower $o -}}
+        {{- $slug := index $objSlugs $key | default "" -}}
+        {{- $gk := $key -}}
+        {{- $lbl := $o -}}
+        {{- if $slug -}}
+          {{- $gk = $slug -}}
+          {{- $lbl = i18n (printf "obs_obj_%s" $slug) -}}
+        {{- end -}}
+        {{- $objCounts = merge $objCounts (dict $gk (add (int (index $objCounts $gk | default 0)) 1)) -}}
+        {{- $objLabels = merge $objLabels (dict $gk $lbl) -}}
       {{- end -}}
       {{- $imp := trim (index $row $src.impact) " " -}}
       {{- if eq $imp "Limita" -}}{{- $limita = add $limita 1 -}}{{- end -}}
@@ -119,10 +180,31 @@
   {{- end -}}
 {{- end -}}
 
+{{- /* Objetivos legítimos, mismo tratamiento que países más el tope de la lista */ -}}
+{{- $objRanked := slice -}}
+{{- range $gk, $count := $objCounts -}}
+  {{- $objRanked = $objRanked | append (dict "name" (index $objLabels $gk) "count" $count) -}}
+{{- end -}}
+{{- $objRanked = sort $objRanked "count" "desc" -}}
+{{- $objRest := 0 -}}
+{{- if and $objLimit (gt (len $objRanked) $objLimit) -}}
+  {{- $objRest = sub (len $objRanked) $objLimit -}}
+  {{- $objRanked = first $objLimit $objRanked -}}
+{{- end -}}
+{{- $objWithPct := slice -}}
+{{- if $objRanked -}}
+  {{- $max := (index $objRanked 0).count -}}
+  {{- range $objRanked -}}
+    {{- $objWithPct = $objWithPct | append (merge . (dict "pct" (math.Round (mul (div (float .count) $max) 100)))) -}}
+  {{- end -}}
+{{- end -}}
+
 {{- return dict
       "label" $label
       "totals" $totals
       "countries" $withPct
+      "objetivos" $objWithPct
+      "objetivosRest" $objRest
       "limita" $limita
       "promueve" $promueve
       "failTest" $failTest

@@ -7,10 +7,11 @@ Uso:
   {{< observatorio-mes month="2025-06" dataset="proyectos" >}}
 
 Parámetros:
-  month    "YYYY-MM" — deriva from/to al primer y último día del mes
-  from/to  "YYYY-MM-DD" inclusive; se ignoran si hay month
-  dataset  ambos (default) | proyectos | leyes
-  title    sobrescribe el encabezado
+  month     "YYYY-MM" — deriva from/to al primer y último día del mes
+  from/to   "YYYY-MM-DD" inclusive; se ignoran si hay month
+  dataset   ambos (default) | proyectos | leyes
+  objetivos cuántos objetivos legítimos listar (default 8; "todos" para no cortar)
+  title     sobrescribe el encabezado
 
 El cálculo vive en partials/func/observatorio-mes-stats.html; acá sólo se arma
 el marcado. La variante para email está en observatorio-mes.email.html.
@@ -21,6 +22,7 @@ el marcado. La variante para email está en observatorio-mes.email.html.
       "from" (.Get "from")
       "to" (.Get "to")
       "dataset" (.Get "dataset")
+      "objetivos" (.Get "objetivos")
       "isES" (ne site.Language.Lang "en")
       "position" .Position) -}}
 
@@ -54,6 +56,28 @@ el marcado. La variante para email está en observatorio-mes.email.html.
     </li>
     {{- end }}
   </ul>
+  {{- end }}
+
+  {{- with $stats.objetivos }}
+  <div class="obs-mes__objetivos">
+    <h3 class="obs-mes__subhead">{{ i18n "obs_mes_objetivos" }}</h3>
+    <ul class="obs-mes__objetivo-list">
+      {{- range . }}
+      <li class="obs-mes__objetivo">
+        <span class="obs-mes__objetivo-head">
+          <span class="obs-mes__objetivo-name">{{ .name }}</span>
+          <span class="obs-mes__objetivo-n">{{ .count }}</span>
+        </span>
+        <span class="obs-mes__bar obs-mes__bar--objetivo" aria-hidden="true">
+          <span class="obs-mes__bar-fill" style="width: {{ .pct }}%"></span>
+        </span>
+      </li>
+      {{- end }}
+    </ul>
+    {{- if gt $stats.objetivosRest 0 }}
+    <p class="obs-mes__objetivo-rest">{{ i18n "obs_mes_objetivos_resto" (dict "Count" $stats.objetivosRest) }}</p>
+    {{- end }}
+  </div>
   {{- end }}
 
   <p class="obs-mes__impact">

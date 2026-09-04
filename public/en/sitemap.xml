@@ -332,6 +332,32 @@
     <loc>http://localhost:1313/en/research/what-we-can-and-cannot-expect-from-the-exercise-of-public-functions-by-private-platforms/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/en/tags/institucional/</loc>
+    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/institucional/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/institucional/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-10-por-nicolas-zara/</loc>
+    <lastmod>2026-03-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-10-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-10-por-nicolas-zara/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-febrero-2026/</loc>
     <lastmod>2026-03-03T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -343,19 +369,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-febrero-2026/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/institucional/</loc>
-    <lastmod>2026-03-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/institucional/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/institucional/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/</loc>
@@ -400,6 +413,19 @@
                 href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-diciembre-2025/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-9-por-nicolas-zara/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-9-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-9-por-nicolas-zara/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2025/</loc>
     <lastmod>2025-12-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -411,6 +437,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2025/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-8-por-nicolas-zara/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-8-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-8-por-nicolas-zara/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-octubre-2025/</loc>
@@ -450,6 +489,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-septiembre-2025/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-7-por-nicolas-zara/</loc>
+    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-7-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-7-por-nicolas-zara/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-agosto-2025/</loc>
@@ -504,6 +556,19 @@
                 href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-julio-2025/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-6-por-nicolas-zara/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-6-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-6-por-nicolas-zara/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-junio-2025/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -530,6 +595,19 @@
                 href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-mayo-2025/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-5-por-nicolas-zara/</loc>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-5-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-5-por-nicolas-zara/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-abril-2025/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -554,6 +632,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-marzo-2025/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-4-por-nicolas-zara/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-4-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-4-por-nicolas-zara/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-febrero-2025/</loc>
@@ -595,6 +686,19 @@
                 href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-diciembre-2024/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-3-por-nicolas-zara/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-3-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-3-por-nicolas-zara/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2024/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -606,6 +710,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-noviembre-2024/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-2-por-nicolas-zara/</loc>
+    <lastmod>2024-11-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-2-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-2-por-nicolas-zara/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-octubre-2024/</loc>
@@ -632,6 +749,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-septiembre-2024-cloned/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-1-por-nicolas-zara/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-1-por-nicolas-zara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-1-por-nicolas-zara/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/legislative-observatory/boletin-mensual-observatorio-legislativo-agosto-2024/</loc>

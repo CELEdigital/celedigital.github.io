@@ -234,3 +234,77 @@ other = "fail the three-part test"
 
 [obs_mes_vacio]
 other = "No records for this period."
+
+[obs_mes_objetivos]
+other = "Legitimate aim"
+
+[obs_mes_objetivos_resto]
+other = "and {{ .Count }} more aims"
+
+# Vocabulary of the "Objetivo legítimo" column in the Observatorio CSVs.
+# Slugs are assigned in layouts/partials/func/observatorio-mes-stats.html.
+[obs_obj_odio]
+other = "Discrimination, violence and hate speech"
+
+[obs_obj_libertad_expresion]
+other = "Freedom of expression and political rights"
+
+[obs_obj_acceso_informacion]
+other = "Access to information"
+
+[obs_obj_ninez]
+other = "Children's rights"
+
+[obs_obj_privacidad]
+other = "Privacy and data subject rights"
+
+[obs_obj_honor]
+other = "Honour and reputation"
+
+[obs_obj_acceso_internet]
+other = "Internet access and infrastructure"
+
+[obs_obj_moderacion]
+other = "Content moderation and intermediary liability"
+
+[obs_obj_seguridad_nacional]
+other = "National security"
+
+[obs_obj_desinformacion]
+other = "Disinformation"
+
+[obs_obj_moral_publica]
+other = "Public morals"
+
+[obs_obj_ia]
+other = "Artificial intelligence"
+
+[obs_obj_consumidor]
+other = "Consumer rights"
+
+[obs_obj_publicidad_oficial]
+other = "Government advertising"
+
+[obs_obj_desc]
+other = "Economic, social and cultural rights"
+
+[obs_obj_propiedad_intelectual]
+other = "Intellectual property"
+
+[obs_obj_religion]
+other = "Freedom of conscience and religion"
+
+[obs_obj_ciberseguridad]
+other = "Cybersecurity"
+
+[obs_obj_gobierno_digital]
+other = "Digital government"
+
+[obs_obj_apologia]
+other = "Apologia for crime"
+
+[obs_obj_transparencia]
+other = "Public transparency"
+
+[obs_obj_orden_publico]
+other = "Public order"

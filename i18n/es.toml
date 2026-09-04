@@ -234,3 +234,77 @@ other = "no superan el test"
 
 [obs_mes_vacio]
 other = "Sin registros en este período."
+
+[obs_mes_objetivos]
+other = "Objetivo legítimo"
+
+[obs_mes_objetivos_resto]
+other = "y {{ .Count }} objetivos más"
+
+# Vocabulario de la columna "Objetivo legítimo" de los CSV del Observatorio.
+# Los slugs los asigna layouts/partials/func/observatorio-mes-stats.html.
+[obs_obj_odio]
+other = "Discriminación, violencia y discursos de odio"
+
+[obs_obj_libertad_expresion]
+other = "Libertad de expresión y derechos políticos"
+
+[obs_obj_acceso_informacion]
+other = "Acceso a la información"
+
+[obs_obj_ninez]
+other = "Derechos de los niños"
+
+[obs_obj_privacidad]
+other = "Privacidad y derechos ARCO"
+
+[obs_obj_honor]
+other = "Honor y reputación"
+
+[obs_obj_acceso_internet]
+other = "Acceso a internet e infraestructura"
+
+[obs_obj_moderacion]
+other = "Moderación de contenidos y responsabilidad de intermediarios"
+
+[obs_obj_seguridad_nacional]
+other = "Seguridad nacional"
+
+[obs_obj_desinformacion]
+other = "Desinformación"
+
+[obs_obj_moral_publica]
+other = "Moral pública"
+
+[obs_obj_ia]
+other = "Inteligencia artificial"
+
+[obs_obj_consumidor]
+other = "Derechos del consumidor"
+
+[obs_obj_publicidad_oficial]
+other = "Publicidad oficial"
+
+[obs_obj_desc]
+other = "DESC"
+
+[obs_obj_propiedad_intelectual]
+other = "Propiedad intelectual"
+
+[obs_obj_religion]
+other = "Libertad de conciencia y de religión"
+
+[obs_obj_ciberseguridad]
+other = "Ciberseguridad"
+
+[obs_obj_gobierno_digital]
+other = "Gobierno digital"
+
+[obs_obj_apologia]
+other = "Apología"
+
+[obs_obj_transparencia]
+other = "Transparencia pública"
+
+[obs_obj_orden_publico]
+other = "Orden público"

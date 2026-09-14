@@ -24,6 +24,3 @@ tags: []
 programs:
   - publicaciones
 ---
-
-Eduardo Bertoni, “La libertad de expresión ante el desafío de una “corriente
-regulatoria irreflexiva””, Artículo de investigación No. 75 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2025)

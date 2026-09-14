@@ -26,7 +26,7 @@ country: []
 placements:
   - hub: temas/plataformas
     block: destacado
-  - hub: temas/violencias
+  - hub: region/europa
     block: ultimas_noticias_analisis
   - hub: temas/regulacion-y-tecnologia
     block: ultimas_noticias_analisis

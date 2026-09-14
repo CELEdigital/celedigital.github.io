@@ -27,7 +27,7 @@ placements:
   - hub: temas/plataformas
     block: destacado
   - hub: region/europa
-    block: ultimas_noticias_analisis
+    block: destacado
   - hub: temas/regulacion-y-tecnologia
     block: ultimas_noticias_analisis
 tags:

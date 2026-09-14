@@ -31,11 +31,7 @@ placements:
   - hub: temas/regulacion-y-tecnologia
     block: ultimas_noticias_analisis
 tags:
-  - child safety
-  - DSA
-  - Online Safety
   - Digital Services Act
-  - Comisión Europea
 source_url: ''
 originally_published_in: La Silla Vacía https://www.lasillavacia.com/red-de-expertos/red-de-democracia-y-tecnologia/los-inciertos-caminos-de-la-union-europea-y-ee-uu-para-obligar-a-las-redes-a-proteger-a-los-menores/
 type: posts

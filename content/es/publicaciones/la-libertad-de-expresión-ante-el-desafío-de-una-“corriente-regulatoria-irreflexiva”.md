@@ -6,8 +6,6 @@ author:
   - Eduardo Bertoni
 content_type:
   - research
-programs:
-  - publicaciones
 ssrn_id: ''
 ssrn_url: ''
 reference: CELE Research Paper No. 75
@@ -23,6 +21,8 @@ placements:
   - hub: temas/regulacion-y-tecnologia
     block: publicaciones
 tags: []
+programs:
+  - publicaciones
 ---
 
 Eduardo Bertoni, “La libertad de expresión ante el desafío de una “corriente

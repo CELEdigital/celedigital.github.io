@@ -10,7 +10,7 @@ programs:
   - publicaciones
 ssrn_id: ''
 ssrn_url: ''
-reference: ''
+reference: CELE Research Paper No. 75
 abstract: ''
 file: /files/AI_75.pdf
 references: ''

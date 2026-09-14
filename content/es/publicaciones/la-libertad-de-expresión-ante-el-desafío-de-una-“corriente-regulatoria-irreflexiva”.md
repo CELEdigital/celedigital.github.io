@@ -1,7 +1,7 @@
 ---
 translationKey: ''
 title: La libertad de expresión ante el desafío de una “corriente regulatoria irreflexiva”
-date: 2021-07-25
+date: 2025-07-01
 author:
   - Eduardo Bertoni
 content_type:

@@ -20,9 +20,9 @@ country:
   - Argentina
 placements:
   - hub: region/america-latina
-    block: ultimas_noticias_analisis
+    block: publicaciones
   - hub: temas/regulacion-y-tecnologia
-    block: ultimas_noticias_analisis
+    block: publicaciones
 tags:
   - informe legislativo
 programs:

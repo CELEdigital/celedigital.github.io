@@ -23,5 +23,3 @@ country:
 placements: []
 tags: []
 ---
-
-![](/img/caratula-informe-17-argentina-1.png "Argentina – Nuevo Proyecto de Ley de Regulación de Intermediarios en Internet frente a la difusión de contenidos ilícitos")

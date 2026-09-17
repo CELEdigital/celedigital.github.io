@@ -1,13 +1,11 @@
 ---
-translationKey: ''
+translationKey: argentina-ley-intermediarios
 title: Argentina – Nuevo Proyecto de Ley de Regulación de Intermediarios en Internet frente a la difusión de contenidos ilícitos
 date: 2025-11-18
 author:
-  - Francesca Choncano Villanueva
+  - CELE
 content_type:
   - informe-legislativo
-programs:
-  - publicaciones
 ssrn_id: ''
 ssrn_url: ''
 reference: Informe Legislativo No. 17
@@ -19,7 +17,14 @@ issues:
   - Regulación y tecnología
 region: latam
 country:
-  - Perú
-placements: []
-tags: []
+  - Argentina
+placements:
+  - hub: region/america-latina
+    block: ultimas_noticias_analisis
+  - hub: temas/regulacion-y-tecnologia
+    block: ultimas_noticias_analisis
+tags:
+  - informe legislativo
+programs:
+  - publicaciones
 ---

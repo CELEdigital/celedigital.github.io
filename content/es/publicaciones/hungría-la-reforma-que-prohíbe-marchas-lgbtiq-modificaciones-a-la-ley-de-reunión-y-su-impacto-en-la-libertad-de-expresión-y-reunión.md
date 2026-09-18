@@ -6,12 +6,10 @@ author:
   - CELE
 content_type:
   - informe-legislativo
-programs:
-  - publicaciones
 ssrn_id: ''
 ssrn_url: ''
 reference: Informe Legislativo No. 16
-abstract: Análisis de la reforma húngara de marzo de 2025 que vincula la prohibición de marchas del Orgullo LGBTIQ+ con la 'ley de propaganda' de 2021, habilita el reconocimiento facial para identificar participantes y establece sanciones administrativas, evaluada bajo el test tripartito del Tribunal Europeo de Derechos Humanos.
+abstract: Análisis de la reforma húngara de marzo de 2025 que vincula la prohibición de marchas del Orgullo LGBTIQ+ con la "Ley de propaganda" de 2021, habilita el reconocimiento facial para identificar participantes y establece sanciones administrativas, evaluada bajo el test tripartito del Tribunal Europeo de Derechos Humanos.
 file: /files/Informe-legislativo-16-Hungria.pdf
 references: ''
 csl: ''
@@ -27,4 +25,6 @@ placements:
     block: ultimas_noticias_analisis
 tags:
   - informe legislativo
+programs:
+  - publicaciones
 ---

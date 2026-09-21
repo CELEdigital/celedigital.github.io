@@ -9,7 +9,7 @@ content_type:
   - informe-legislativo
 ssrn_id: ''
 ssrn_url: ''
-reference: Informe legislativo No. 13
+reference: Informe legislativo
 abstract: ''
 file: /files/informe-legislativo-brasil-13-1.pdf
 references: ''

@@ -261,6 +261,59 @@ combinan (Europa + agrupar por mecanismo = 5 bloques).
 - `static/data/bans_nudges.json` lo genera `build_bans_nudges_site.py` en otro
   proyecto: no editarlo a mano. El partial, el JS y el CSS sí son del sitio.
 
+### 12. Hub del Taller: flyer, fecha, subtítulo y subsecciones
+El hub `/taller/` (`layouts/partials/workshop-hub.html`) lee del front matter de
+`content/es/taller/_index.md` (y su espejo `content/en/workshop/_index.md`):
+
+| Campo | Qué es |
+|---|---|
+| `flyer` | Ruta dentro de `static/` (hoy `/flyers/placa2026.jpg`). Si queda vacío, no se dibuja nada |
+| `flyer_alt` | Texto alternativo del flyer; si falta, usa el título |
+| `location` | Lugar. Se imprime **antes** de la fecha, como «lugar \| fecha» |
+| `event_date` | Fecha (y hora) de la edición en curso. **No usar `date`**: es un campo reservado de Hugo |
+| `subtitle` | Lema de la edición. Lleva el subrayado rojo del sitio |
+
+El header quedó como en el resto de los hubs: columna de texto (título, fecha,
+subtítulo, description) y la ilustración de `image` a la derecha.
+
+**El flyer no va adentro del header.** Es un `<figure>` suelto entre
+`</header>` y las subsecciones, así que cae debajo de la franja crema y justo
+arriba de «Agenda», a ancho completo (tope 62rem). Ya se probó meterlo en el
+header, debajo del título: ahí queda encajonado en la columna de texto y, para
+que ocupe el ancho, hay que sacarlo —y sacar el `<h1>`— del
+`div.section-hub__header-text` y hacerlos filas propias del grid, lo que además
+obliga a repetirles a mano el padding lateral de los breakpoints de 900px y
+600px. No hace falta: fuera del header no necesita nada de eso.
+
+Debajo del header hay dos subsecciones fijas, **Agenda** y **Participantes**,
+antes de la barra de años. El cuerpo de cada una sale de un parámetro del mismo
+`_index.md` (`agenda` y `participantes`; en EN, `agenda` y `participants`) y
+acepta markdown. Si el parámetro está vacío, la sección igual se dibuja con el
+texto «Próximamente.» / «Coming soon.» — son placeholders a propósito, no un
+bug.
+
+La barra de años lleva encima un **`<h1>` «Ediciones anteriores»** / «Past
+editions» (clases `section-hub__title workshop-hub__editions-title`). Lleva la
+tipografía del título del hub y la **misma franja crema a ancho completo que el
+header** (`#f6f2e9`, con un filete de 6px en `--cele` arriba; mismo truco de márgenes negativos y mismos breakpoints de
+900px y 600px), para que marque el corte entre la edición en curso y el
+archivo. Es un `h1` a pedido, así que la página tiene dos: el título de la
+sección y éste. Agenda y Participantes siguen siendo `h2`. Quedó envuelta junto con él en un `section.workshop-hub__editions`
+para que el título y la barra compartan el espaciado en vez de separarse con el
+`gap: 2rem` del grid del hub. Envolverla es inofensivo: `workshop-hub.js` busca
+los links y los paneles con `querySelectorAll` sobre `.workshop-hub` entera, no
+sobre el padre de la barra (verificado: el toggle de años sigue andando).
+
+Ojo con dos cosas:
+- La lista de subsecciones está codificada en `$infoBlocks` dentro del partial,
+  con el nombre del parámetro y el título por idioma. Agregar una tercera es
+  sumar una entrada ahí.
+- Esto es el **hub**, no las ediciones. Cada año sigue leyendo su propio
+  `subtitle`/`description` desde `workshop-subhub-content.html`; ese camino no
+  se tocó.
+
+El CSS está arriba de `assets/css/components/workshop-hub.css`.
+
 ---
 
 ## Convenciones importantes

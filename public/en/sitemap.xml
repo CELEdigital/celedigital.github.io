@@ -352,8 +352,53 @@
                 href="http://localhost:1313/en/autores/lucila-ailen-tula/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/tags/child-safety/</loc>
+    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/comisi%C3%B3n-europea/</loc>
+    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/digital-services-act/</loc>
+    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/digital-services-act/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/digital-services-act/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/salvavidas-digital-union-europea/</loc>
+    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/salvavidas-digital-union-europea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/salvavidas-digital-union-europea/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/dsa/</loc>
+    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/dsa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/dsa/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -363,6 +408,35 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/online-safety/</loc>
+    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/platform-monetization-roundtable/</loc>
@@ -378,19 +452,6 @@
                 href="http://localhost:1313/en/posts/platform-monetization-roundtable/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2026-09-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/tags/responsabilidad-de-intermediarios/</loc>
     <lastmod>2026-09-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -402,19 +463,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/tags/responsabilidad-de-intermediarios/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
-    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/seminario-cele-barata-lazar/</loc>
@@ -542,32 +590,6 @@
     <loc>http://localhost:1313/en/posts/test2/</loc>
     <lastmod>2026-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/dsa/</loc>
-    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/dsa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/dsa/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/</loc>
-    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/noticias-cruzando-el-mar/</loc>
     <lastmod>2026-06-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -580,25 +602,6 @@
                 hreflang="en"
                 href="http://localhost:1313/en/noticias-cruzando-el-mar/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/flyers/</loc>
-    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/</loc>
-    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/violencia-de-g%C3%A9nero/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/test1/</loc>
-    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/publicaciones/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
@@ -1865,6 +1868,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/posts/nueva-mesa-parlamentaria-en-el-igf2020/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/</loc>
+    <lastmod>2020-11-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/violencia-de-g%C3%A9nero/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/las-redes-sociales-el-dia-despues-de-las-elecciones-en-ee-uu/</loc>

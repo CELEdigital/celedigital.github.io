@@ -1,3 +1,111 @@
+/* ── Hub header: fecha y subtítulo ─────────────────────── */
+
+.workshop-hub__meta {
+  margin: 0 0 0.75rem;
+  font-family: 'Inter';
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: var(--cele);
+}
+
+/* El separador es del CSS y no del markup: si falta uno de los dos campos,
+   la barra no queda colgada. */
+.workshop-hub__meta-item + .workshop-hub__meta-item::before {
+  content: "|";
+  margin: 0 0.45rem;
+  color: var(--neutral-600);
+  font-weight: 400;
+}
+
+.workshop-hub__subtitle {
+  position: relative;
+  margin: 0;
+  padding-bottom: 1.2rem;
+  font-size: 1.52rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.workshop-hub__subtitle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 34rem;
+  height: 6px;
+  background: var(--cele);
+  clip-path: polygon(0 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+}
+
+/* ── Flyer: fila propia entre el header y las subsecciones ───── */
+
+.workshop-hub__flyer {
+  margin: 0;
+  max-width: 62rem;
+}
+
+.workshop-hub__flyer img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ── Hub: subsecciones (Agenda, Participantes) ───────────────── */
+
+.workshop-hub__sections {
+  display: grid;
+  gap: 2rem;
+}
+
+.workshop-hub__section-title {
+  margin: 0 0 0.75rem;
+  padding-bottom: 0;
+  font-size: 1.52rem;
+  line-height: 1.25;
+}
+
+.workshop-hub__section-title::after {
+  content: none;
+}
+
+/* «Ediciones anteriores» es un <h1> con la tipografía del título del hub
+   (.section-hub__title) y la misma franja crema a ancho completo que
+   .section-hub__header, para que marque el corte entre la edición en curso
+   y el archivo. El ancho completo sale del mismo truco de márgenes negativos
+   del header; los breakpoints repiten los suyos. */
+.workshop-hub__editions-title {
+  margin: 0 calc(-50vw + 50%) 1.5rem;
+  padding: 2rem calc(50vw - 50%);
+  background: #f6f2e9;
+  border-top: 6px solid var(--cele);
+}
+
+@media (max-width: 900px) {
+  .workshop-hub__editions-title {
+    padding: 1.5rem calc(50vw - 50% + 1.25rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .workshop-hub__editions-title {
+    margin: 0 0 1.25rem;
+    padding: 1.5rem 1rem;
+  }
+}
+
+.workshop-hub__editions-title::after {
+  content: none;
+}
+
+.workshop-hub__placeholder {
+  margin: 0;
+  color: var(--neutral-600);
+  font-style: italic;
+}
+
 .workshop-links {
   display: flex;
   flex-wrap: wrap;

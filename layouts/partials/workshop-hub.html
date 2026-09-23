@@ -6,6 +6,20 @@
   <header class="section-hub__header section-hub__header--split">
     <div class="section-hub__header-text">
       <h1 class="section-hub__title">{{ .Title }}</h1>
+
+      {{ $location := .Params.location }}
+      {{ $eventDate := .Params.event_date }}
+      {{ if or $location $eventDate }}
+        <p class="workshop-hub__meta">
+          {{ with $location }}<span class="workshop-hub__meta-item workshop-hub__meta-item--place">{{ . }}</span>{{ end }}
+          {{ with $eventDate }}<span class="workshop-hub__meta-item workshop-hub__meta-item--date">{{ . }}</span>{{ end }}
+        </p>
+      {{ end }}
+
+      {{ with .Params.subtitle }}
+        <p class="workshop-hub__subtitle">{{ . }}</p>
+      {{ end }}
+
       {{ with $leftDescription }}
         <div class="section-hub__description">
           {{ . | markdownify }}
@@ -21,25 +35,52 @@
     </div>
   </header>
 
+  {{ with .Params.flyer }}
+    <figure class="workshop-hub__flyer">
+      <img src="{{ . | relURL }}" alt="{{ $.Params.flyer_alt | default $.Title }}" loading="lazy">
+    </figure>
+  {{ end }}
+
+  {{ $infoBlocks := cond $isES
+      (slice (dict "key" "agenda" "title" "Agenda") (dict "key" "participantes" "title" "Participantes"))
+      (slice (dict "key" "agenda" "title" "Agenda") (dict "key" "participants" "title" "Participants")) }}
+  <div class="workshop-hub__sections">
+    {{ range $infoBlocks }}
+      <section class="workshop-hub__section" id="taller-{{ .key }}">
+        <h2 class="workshop-hub__section-title">{{ .title }}</h2>
+        <div class="section-content workshop-hub__section-body">
+          {{ with index $.Params .key }}
+            {{ . | markdownify }}
+          {{ else }}
+            <p class="workshop-hub__placeholder">{{ cond $isES "Próximamente." "Coming soon." }}</p>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+  </div>
+
   {{ if gt (len $yearPages) 0 }}
-    <div class="workshop-links js-workshop-links" aria-label="{{ cond $isES "Subsecciones de Taller" "Workshop subsections" }}">
-      {{ range $idx, $page := $yearPages }}
-        {{ $label := replaceRE `(?i)^(taller|workshop)\s+` "" $page.Title }}
-        {{ $urlTrim := strings.TrimSuffix "/" $page.RelPermalink }}
-        {{ $urlParts := split $urlTrim "/" }}
-        {{ $slug := index $urlParts (sub (len $urlParts) 1) }}
-        <h3 class="workshop-links__item{{ if eq $idx 0 }} workshop-links__item--latest is-active{{ else }} workshop-links__item--older{{ end }}">
-          <a
-            href="{{ $page.RelPermalink }}"
-            class="workshop-links__trigger"
-            data-workshop-target="workshop-panel-{{ $idx }}"
-            data-workshop-slug="{{ $slug }}"
-            aria-controls="workshop-panel-{{ $idx }}"
-            {{ if eq $idx 0 }}aria-current="page"{{ end }}
-          >{{ $label }}</a>
-        </h3>
-      {{ end }}
-    </div>
+    <section class="workshop-hub__section workshop-hub__editions">
+      <h1 class="section-hub__title workshop-hub__editions-title">{{ cond $isES "Ediciones anteriores" "Past editions" }}</h1>
+      <div class="workshop-links js-workshop-links" aria-label="{{ cond $isES "Subsecciones de Taller" "Workshop subsections" }}">
+        {{ range $idx, $page := $yearPages }}
+          {{ $label := replaceRE `(?i)^(taller|workshop)\s+` "" $page.Title }}
+          {{ $urlTrim := strings.TrimSuffix "/" $page.RelPermalink }}
+          {{ $urlParts := split $urlTrim "/" }}
+          {{ $slug := index $urlParts (sub (len $urlParts) 1) }}
+          <h3 class="workshop-links__item{{ if eq $idx 0 }} workshop-links__item--latest is-active{{ else }} workshop-links__item--older{{ end }}">
+            <a
+              href="{{ $page.RelPermalink }}"
+              class="workshop-links__trigger"
+              data-workshop-target="workshop-panel-{{ $idx }}"
+              data-workshop-slug="{{ $slug }}"
+              aria-controls="workshop-panel-{{ $idx }}"
+              {{ if eq $idx 0 }}aria-current="page"{{ end }}
+            >{{ $label }}</a>
+          </h3>
+        {{ end }}
+      </div>
+    </section>
   {{ end }}
 
   {{ with .Content }}

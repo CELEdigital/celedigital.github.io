@@ -89,6 +89,32 @@ PREFIJOS_EXP = [
 ]
 
 
+# Cómo se presenta un expediente adentro del texto de un enlace. El enlace del
+# expediente no siempre es el primero del bullet: es muy común que el primero
+# esté sobre el verbo («Se [presentó](…) el [Proyecto de Ley 3916-D-2026](…)»).
+#
+# Son dos niveles y el orden importa. El primero son las formas con las que el
+# documento nombra el expediente *propio* de la entrada; el segundo, las formas
+# con las que cita una norma ya existente. Un bullet puede traer las dos —el
+# pedido de informes 4021-D-2026 *sobre* la Resolución ENACOM 663/2026— y el
+# expediente de la entrada es el del primer nivel.
+RE_EXP_PROPIO = re.compile(
+    r"^(?:el|la|los|las)?\s*"
+    r"(?:proyectos?\s+de\s+(?:ley|resolucion|acuerdo|declaracion)(?:\s+estatutaria)?"
+    r"|proyectos?|proposicion|iniciativa|expediente|boletin)"
+    r"\b.*\d"
+)
+RE_EXP_CITADO = re.compile(
+    r"^(?:el|la|los|las)?\s*"
+    r"(?:ley(?:\s+n)?|decreto|resolucion|sentencia|acuerdo|ordenanza|pl|pec|pdl)"
+    r"\b.*\d"
+)
+# Chile y Colombia a veces enlazan el número pelado («16962-01»).
+RE_EXP_PELADO = re.compile(r"^\d[\d.\-/]*\d$")
+
+RE_LINK = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+
+
 class Aviso(Exception):
     """Un problema que corta la conversión (a diferencia de los reportes)."""
 
@@ -333,6 +359,30 @@ def normalizar_exp(etiqueta_link: str, matriz: list[str]) -> str:
     return candidato
 
 
+def elegir_link_de_expediente(texto: str):
+    """Devuelve (match del enlace, ¿es el del expediente?).
+
+    Se prefiere el primer enlace que se llame como un expediente propio; si no
+    hay, el primero que cite una norma por número. Si ninguno se llama como un
+    expediente se devuelve el primero del bullet —que es lo que hacía el script
+    antes— pero marcado como no-expediente: son bullets de prensa o de decisiones
+    sin número, y sacarle un número a esa prosa daba cualquier cosa. El caso
+    testigo es el juicio a Andahazi, donde «Juzgado Civil N° 50» dejaba el
+    expediente en «50» y la matriz lo casaba con «Arts 47, 48, 49 y 50 CPF».
+    """
+    links = list(RE_LINK.finditer(texto))
+    if not links:
+        return None, False
+
+    etiquetas = [plegar(m.group(1)).strip(" ,.;:()") for m in links]
+
+    for patron in (RE_EXP_PELADO, RE_EXP_PROPIO, RE_EXP_CITADO):
+        for match, etiqueta in zip(links, etiquetas):
+            if patron.match(etiqueta):
+                return match, True
+    return links[0], False
+
+
 def parsear_entradas(
     lineas: list[str],
     pais: str,
@@ -377,17 +427,20 @@ def parsear_entradas(
 
         dia, mes, texto = int(fecha.group(1)), int(fecha.group(2)), fecha.group(3).strip()
 
-        # El primer enlace del bullet es el del expediente: así lo pide el
-        # manual («los enlaces van sobre el número de expediente»).
-        link = re.search(r"\[([^\]]+)\]\(([^)]+)\)", texto)
+        # El enlace del expediente: así lo pide el manual («los enlaces van
+        # sobre el número de expediente»), pero en el documento el primer
+        # enlace suele estar sobre el verbo.
+        link, es_exp = elegir_link_de_expediente(texto)
         url = link.group(2).strip() if link else ""
-        exp = normalizar_exp(link.group(1), matriz) if link else ""
+        exp = normalizar_exp(link.group(1), matriz) if es_exp else ""
 
         if link and url:
-            # Se reemplaza sólo la primera ocurrencia: un bullet puede enlazar
-            # varios expedientes (el paquete de Brasil enlaza cinco) y los demás
-            # quedan escritos con su URL completa.
-            texto = texto.replace(f"]({url})", "]($url)", 1)
+            # Se reemplaza por posición y no buscando la URL: un bullet puede
+            # enlazar la misma URL dos veces (el de la ANPD lo hace) y un
+            # `replace` pisaría la primera, que no es la que se eligió. Los
+            # demás enlaces quedan escritos con su URL completa.
+            ini, fin = link.span()
+            texto = f"{texto[:ini]}[{link.group(1)}]($url){texto[fin:]}"
         elif not link:
             url = ""
             texto = texto + "  <!-- TODO: falta el link -->"

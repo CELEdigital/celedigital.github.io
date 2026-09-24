@@ -590,6 +590,19 @@
     <loc>http://localhost:1313/en/posts/test2/</loc>
     <lastmod>2026-06-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/</loc>
+    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/noticias-cruzando-el-mar/</loc>
     <lastmod>2026-06-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -602,6 +615,25 @@
                 hreflang="en"
                 href="http://localhost:1313/en/noticias-cruzando-el-mar/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/flyers/</loc>
+    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/</loc>
+    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/violencia-de-g%C3%A9nero/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/test1/</loc>
+    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/publicaciones/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
@@ -1868,19 +1900,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/posts/nueva-mesa-parlamentaria-en-el-igf2020/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/</loc>
-    <lastmod>2020-11-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/violencia-de-g%C3%A9nero/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/las-redes-sociales-el-dia-despues-de-las-elecciones-en-ee-uu/</loc>

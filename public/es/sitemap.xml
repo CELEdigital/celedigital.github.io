@@ -204,6 +204,18 @@
                 href="http://localhost:1313/es/autores/thiago-dias-oliva/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/autores/francesca-chocano-villanueva/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/francesca-chocano-villanueva/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/francesca-chocano-villanueva/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/autores/heloisa-massaro/</loc>
     <xhtml:link
                 rel="alternate"
@@ -238,6 +250,18 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/autores/martina-rapido-ragozzino/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/autores/solana-babicola/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/solana-babicola/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/solana-babicola/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/taller/2023/</loc>
@@ -611,6 +635,16 @@
   </url><url>
     <loc>http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/</loc>
     <lastmod>2026-06-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/tags/noticias-cruzando-el-mar/</loc>
     <lastmod>2026-06-04T00:00:00+00:00</lastmod>
@@ -636,6 +670,9 @@
   </url><url>
     <loc>http://localhost:1313/es/tags/posiciones-dominantes/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/hacia-una-internet-libre-de-censura-v/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-41-ampliacion-a-las-observaciones-del-cele-a-la-solicitud-de-opinion-consultiva-sobre-democra/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
@@ -2047,6 +2084,9 @@
     <loc>http://localhost:1313/es/posts/internet-y-la-protesta-digital-en-manos-de-la-corte-constitucional-de-colombia-11917/</loc>
     <lastmod>2022-11-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/es/posts/internet-y-la-protesta-digital-en-manos-de-la-corte-constitucional-de-colombia/</loc>
+    <lastmod>2022-11-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-octubre-2022/</loc>
     <lastmod>2022-10-31T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -2400,6 +2440,9 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/igualdad-y-libertad-de-expresion-planteo-de-un-problema/</loc>
     <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/posts/novedades-cele/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/celeup-rightsscon-schedule/</loc>
     <lastmod>2021-06-08T00:00:00+00:00</lastmod>
@@ -3210,18 +3253,6 @@
                 href="http://localhost:1313/es/autores/andres-calderon/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/autores/francesca-chocano-villanueva/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/autores/francesca-chocano-villanueva/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/autores/francesca-chocano-villanueva/"
-                />
-  </url><url>
     <loc>http://localhost:1313/es/autores/josefina-del-campo/</loc>
     <xhtml:link
                 rel="alternate"
@@ -3244,18 +3275,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/autores/lina-palacios/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/autores/solana-babicola/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/autores/solana-babicola/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/autores/solana-babicola/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/autores/vladimir-garay/</loc>

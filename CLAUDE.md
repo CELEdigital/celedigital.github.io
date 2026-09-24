@@ -314,6 +314,34 @@ Ojo con dos cosas:
 
 El CSS está arriba de `assets/css/components/workshop-hub.css`.
 
+### 13. Boletines viejos migrados al formato nuevo
+Los 61 boletines de febrero 2021 a febrero 2026 (ES, y sus copias EN, que eran
+idénticas y lo siguen siendo) pasaron al formato de la sección 9 con
+`scripts/migrar_boletines_viejos.py`. Es de una sola vez e idempotente: saltea
+los archivos que ya tienen `paises`.
+
+- Se tiraron el blob base64 del mapa y las tablas de totales/temas desarmadas;
+  las reemplaza `{{< observatorio-mes >}}`. Slug, fecha, título y
+  `translationKey` no se tocaron, así que las URLs siguen iguales.
+- **El país de cada entrada se reconstruyó**: WordPress tenía los países en
+  pestañas y se perdieron. Sale de dominios/rutas de los enlaces, links y
+  expedientes de los CSV y pistas en el texto, más el hecho de que cada país es
+  un tramo contiguo. El orden de países **no es fijo** (desde 2025 Brasil va
+  anteúltimo), se deduce por archivo. Los casos dudosos revisados a mano están
+  en `FIJADAS`.
+- Las etiquetas viejas (~300 variantes en mayúsculas) se tradujeron a los 17
+  slugs con `ALIAS`. Honor/difamación → libertad-de-expresion; publicidad
+  comercial y ludopatía → defensa-del-consumidor. **Desinformación / fake news
+  no tiene slug y se descartó** (~100 usos); igual acceso a internet,
+  ciberseguridad, derechos humanos. Si se agrega `desinformacion` a
+  `data/etiquetas.yaml`, se puede re-etiquetar volviendo a correr el script
+  sobre la versión anterior de git.
+- `exp` sólo se escribió cuando el expediente está en la matriz, para no llenar
+  el build de avisos por normas que nunca entraron a la planilla.
+- 42 entradas de febrero–junio 2021 no tienen `fecha` (el formato viejo la
+  ponía en la prosa y no siempre con día): son los avisos «entrada sin
+  `fecha`» del build.
+
 ---
 
 ## Convenciones importantes

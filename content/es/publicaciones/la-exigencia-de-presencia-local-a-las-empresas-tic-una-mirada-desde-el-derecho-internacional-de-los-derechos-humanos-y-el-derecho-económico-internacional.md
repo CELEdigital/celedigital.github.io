@@ -11,7 +11,7 @@ programs:
   - publicaciones
 ssrn_id: ''
 ssrn_url: ''
-reference: ''
+reference: CELE Research Paper No. 55
 abstract: El artículo analiza normas de 11 países y de la Unión Europea que obligan a las empresas de tecnologías de la información y la comunicación (TIC) a tener presencia comercial, representantes locales o datos alojados en el país. Desde el derecho comercial internacional, los autores señalan que su compatibilidad con el Acuerdo General sobre el Comercio de Servicios (AGCS) depende de los compromisos de cada Estado. Desde la libertad de expresión, aplican el test tripartito y mencionan los tratados de asistencia legal mutua (MLAT) como alternativa.
 file: /files/Artículo_de_investigación_55_ESP.pdf
 references: ''

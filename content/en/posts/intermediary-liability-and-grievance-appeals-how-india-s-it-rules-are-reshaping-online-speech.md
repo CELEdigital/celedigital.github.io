@@ -15,7 +15,7 @@ outputs:
 newsletter_series: ''
 newsletter_number: ''
 tagline: ''
-image: ''
+image: /img/bandera-india-comprimida.jpg
 issues:
   - Regulación y tecnología
 region: ''

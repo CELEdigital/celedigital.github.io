@@ -18,6 +18,7 @@ tagline: ''
 image: /img/bandera-india-comprimida.jpg
 issues:
   - Regulación y tecnología
+  - Plataformas
 region: ''
 country:
   - India

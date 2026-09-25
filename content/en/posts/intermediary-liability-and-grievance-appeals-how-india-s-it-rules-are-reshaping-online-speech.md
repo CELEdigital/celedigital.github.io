@@ -16,11 +16,14 @@ newsletter_series: ''
 newsletter_number: ''
 tagline: ''
 image: ''
-issues: []
-region: global
+issues:
+  - Regulación y tecnología
+region: ''
 country:
   - India
-placements: []
+placements:
+  - hub: temas/regulacion-y-tecnologia
+    block: destacado
 tags: []
 source_url: ''
 originally_published_in: ''

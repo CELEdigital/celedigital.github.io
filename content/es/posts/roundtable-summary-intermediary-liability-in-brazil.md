@@ -1,17 +1,16 @@
 ---
 translationKey: ''
-title: Roundtable Summary | Intermediary Liability in Brazil
-slug: roundtable-summary-intermediary-liability-brazil
+title: Resumen de la Mesa | Responsabilidad de intermediarios en Brasil
+slug: resumen-mesa-responsabilidad-intermediarios-brasil
 date: 2026-09-10
-description: Summary of the Comparative Legislation Roundtable on intermediary liability in Brazil.
+description: Resumen de la Mesa de Legislación Comparada sobre responsabilidad de intermediarios en Brasil.
 author:
   - Josefina Gálvez
 content_type:
   - mesa
 programs: []
 featured: false
-outputs:
-  - html
+outputs: []
 newsletter_series: ''
 newsletter_number: ''
 tagline: ''
@@ -21,89 +20,83 @@ issues:
 region: latam
 country:
   - Brasil
-placements:
-  - hub: region/america-latina
-    block: ultimas_noticias_analisis
+placements: []
 tags: []
 source_url: ''
 originally_published_in: ''
 type: posts
 ---
 
-**Chatham House Rule:** This report follows the [Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule) throughout. 
+## 1. Antecedentes
 
-**AI disclaimer:** Artificial intelligence tools were used to help prepare this summary. The text was reviewed prior to circulation.
+Se recordó que el [Marco Civil da Internet (Ley N.º 12.965/2014)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm) estableció el artículo 19 como base de la responsabilidad de los intermediarios en Brasil, que en general protegía a las plataformas de responsabilidad por contenido de terceros, salvo que incumplieran una orden judicial de remoción. Se explicó que, tras aproximadamente una década sin reforma legislativa, el [Supremo Tribunal Federal (STF) resolvió en 2025 (Tema 987)](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5160549&numeroProcesso=1037396&classeProcesso=RE&numeroTema=987) que el artículo 19, por sí solo, brindaba una protección insuficiente a los derechos fundamentales y era inconstitucional por omisión. Se indicó que, por ello, el Tribunal estableció un esquema temporal de cuatro regímenes, a la espera de una acción legislativa. Se señaló además que, en aclaraciones dictadas en junio de 2026, el STF extendió la excepción del artículo 19 para los proveedores de "baja interferencia" más allá de los servicios de correo electrónico, y confirmó que el Poder Ejecutivo podía reglamentar por decreto la implementación y aplicación del esquema.
 
-**Summary drafted by** Josefina Gálvez, Research Assistant, CELE.
+## 2. Los cuatro regímenes de responsabilidad
 
-## **1. Background** 
+Se presentaron los cuatro regímenes del esquema temporal, descritos en los siguientes términos:
 
-The [Marco Civil da Internet (Law No. 12.965/2014)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm) established Article 19 as the baseline for intermediary liability in Brazil, generally shielding platforms from liability for third-party content unless they failed to comply with a judicial takedown order. After roughly a decade without congressional reform, the [Supreme Federal Court (STF) ruled in 2025 (Theme 987)](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5160549&numeroProcesso=1037396&classeProcesso=RE&numeroTema=987) that Article 19, standing alone, provided insufficient protection for fundamental rights and was unconstitutional by omission. The Court therefore established a temporary four-regime framework pending legislative action. In clarifying rulings issued in June 2026, the STF extended the Article 19 carve-out for “low-interference” providers beyond email services and confirmed that the Executive could regulate the implementation and enforcement of the framework by decree. 
+**Régimen 1 — Puerto seguro por orden judicial - El artículo 19 se mantiene para casos seleccionados:** La orden judicial específica sigue siendo el requisito para que exista responsabilidad en casos de difamación y ofensas contra el honor, y para las comunicaciones interpersonales protegidas y otros servicios que no interfieren en el flujo informativo.
 
-## **2. The four liability regimes** 
+**Régimen 2 — Notificación y acción - Delito general o acto ilícito:** Tras una notificación válida, los proveedores deben evaluar y actuar. La responsabilidad sigue la lógica del artículo 21, y se preserva la "duda razonable" luego de un análisis calificado. Es el régimen general para contenidos individuales.
 
-**Regime 1 — Court-order safe harbor - Article 19 remains for selected cases:** Specific court order remains the trigger for liability in defamation / offenses against honor and for protected interpersonal communications and other services that do not interfere with the informational flow. 
+**Régimen 3 — Debida diligencia I - Falla sistémica / delitos graves:** Para la lista taxativa de delitos graves, la responsabilidad depende de la falla sistémica: si se adoptaron medidas adecuadas para prevenir o remover el contenido en cuestión. Un contenido aislado no alcanza.
 
-**Regime 2 — Notice & action - General crime or unlawful act:** After a valid notice, providers must assess and act. Liability follows Article 21 logic, with “reasonable doubt” preserved after a qualified analysis. This is the general individual-content regime. 
+**Régimen 4 — Debida diligencia II - Publicidad paga y distribución artificial:** Se aplica una presunción relativa de culpa a los contenidos ilícitos difundidos mediante publicidad paga, impulsos (_boosting_) o redes de distribución artificial. El proveedor puede refutarla probando que actuó con diligencia y a tiempo.
 
-**Regime 3 — Due diligence I - Systemic failure / serious crimes:** For the exhaustive list of serious crimes, liability turns on systemic failure: whether adequate measures were adopted to prevent or remove the relevant content. Isolated content is not enough. 
+## 3. Qué hacen los Decretos
 
-**Regime 4 — Due diligence II - Paid ads & artificial distribution:** A relative presumption of fault applies to illegal content disseminated through paid ads, boosting, or artificial distribution networks. The provider can rebut it by proving diligent and timely action. 
+Se presentó que los Decretos convierten la tesis del STF de un juicio de responsabilidad en un marco administrativo y operativo, en cuatro planos:
 
-## **3. What the Decrees actually do** 
+**I. Traducir la tesis en procedimientos**
+El Decreto 12.975/2026 especifica los requisitos de las notificaciones, el acuse de recibo, las decisiones fundadas, las apelaciones, las salvaguardas contra notificaciones abusivas y el estándar de "duda razonable".
 
-They convert the STF thesis from a liability judgment into an administrative and operational framework. 
+**II. Separar la responsabilidad ex post de la gobernanza ex ante**
+Da forma concreta a los deberes frente a la falla sistémica: monitoreo de riesgos, prevención, transparencia, conservación de registros y evidencia de que se implementaron salvaguardas adecuadas.
 
-### **I. Translate the thesis into procedures** 
+**III. Diferenciar la distribución monetizada**
+Los arts. 16-K a 16-M aíslan la publicidad paga y el _boosting_: medidas preventivas de contratación, una presunción refutable de responsabilidad y la conservación de información sobre anuncios y anunciantes.
 
-Decree 12.975/2026 specifies notice requirements, acknowledgement, reasoned decisions, appeals, safeguards against abusive notices, and the “reasonable doubt” standard. 
+**IV. Crear un centro de gravedad regulatorio**
+El art. 19-A asigna a la ANPD la regulación, supervisión e investigación de los deberes de los proveedores. El Decreto 12.976/2026 aplica la misma lógica a la violencia contra las mujeres en el entorno digital.
 
-### **II. Separate ex post liability from ex ante governance** 
+En síntesis, se planteó que los Decretos funcionan como puente entre los estándares de responsabilidad civil fijados por el STF y la maquinaria de cumplimiento y fiscalización que deberá desarrollar la ANPD.
 
-It gives concrete form to systemic-failure duties: risk monitoring, prevention, transparency, record-keeping and evidence that adequate safeguards were actually implemented. 
+## 4. Próximo paso de la ANPD: definir el estándar de cumplimiento
 
-### **III. Differentiate monetized distribution** 
+Se señaló que la agenda de consulta pública es el espacio donde la textura abierta de los Decretos se convierte en norma operativa. Se identificaron los siguientes puntos:
 
-Arts. 16-K–16-M isolate paid advertising / boosting: preventive contracting measures, a rebuttable presumption of liability, and retention of ad / advertiser information. 
+**I. Definir los conceptos centrales**
+"Deber de cuidado / diligencia", "falla sistémica", "riesgo sistémico", "duda razonable" y "contenido idéntico".
 
-### **IV. Create a regulatory center of gravity** 
+**II. Fijar evidencia y métricas**
+¿Qué documentación, líneas de base, muestras, indicadores y contexto cualitativo pueden probar que los sistemas son adecuados, o que hay una falla sistémica?
 
-Art. 19-A places regulation, supervision and investigation of provider duties with ANPD; [Decree 12.976/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12976.htm) applies the same logic to violence against women in the digital environment. 
+**III. Calibrar según el riesgo y el servicio**
+Aplicar proporcionalidad según el tamaño del proveedor, el nivel de interferencia, el estado de la técnica y el riesgo propio de cada servicio, preservando las distinciones entre regímenes regulatorios.
 
-**Bottom line**: the Decrees are the bridge between civil-liability standards set by the STF and the compliance / enforcement machinery to be developed by ANPD. 
+**IV. Diseñar la fiscalización y los flujos de información**
+Estandarizar los reportes, la confidencialidad, las notificaciones y apelaciones, los requerimientos del regulador y la coordinación con otras autoridades, y favorecer una supervisión responsiva y gradual.
 
-## **4. ANPD’s next move: defining the compliance standard** 
+## 5. Dos preguntas abiertas planteadas durante la discusión
 
-The public-consultation agenda is where the open texture of the Decrees becomes operational law. 
+La discusión puso de relieve dos cuestiones sin resolver sobre el nuevo esquema. Primero, se cuestionó si el régimen está orientado en última instancia a los medios o a los resultados: ¿el cumplimiento depende principalmente de que los proveedores adopten procedimientos razonables, o la responsabilidad dependerá del volumen y los resultados de la moderación de contenidos? En particular, el concepto de "falla sistémica" exige definir implícitamente qué constituiría un "éxito sistémico".
 
-### **I. Define the core concepts** 
+Segundo, se plantearon preocupaciones sobre la expansión del alcance (_scope creep_). Las obligaciones accesorias relativas al acceso de investigadores a datos, los reportes de transparencia y la divulgación de evaluaciones de riesgo podrían llevar el esquema más allá de la responsabilidad tradicional de los intermediarios y acercarlo a una forma más amplia de regulación de plataformas.
 
-“Duty of care / diligence,” “systemic failure,” “systemic risk,” “reasonable doubt,” and “identical content.” 
+## 6. Discusión con el público
 
-### **II. Set evidence & metrics** 
+La discusión con el público se centró en varias cuestiones sin resolver sobre el nuevo esquema de responsabilidad de intermediarios del STF. Los participantes exploraron si el Régimen 3 se asemeja al enfoque basado en riesgos de la Ley de Servicios Digitales de la UE, en particular respecto del concepto de "riesgo sistémico", y cuestionaron si las evaluaciones de riesgo se limitan a la lista cerrada de delitos del esquema. También se examinó la relación entre el nuevo régimen de publicidad paga y las normas brasileñas vigentes de responsabilidad del consumidor para los marketplaces, incluyendo cuándo un marketplace puede ser considerado responsable por publicaciones promocionadas.
 
-What documentation, baselines, samples, indicators and qualitative context can prove adequate systems — or systemic failure? 
+Los participantes también manifestaron preocupaciones sobre la distinción entre "no interferencia" y moderación activa de contenidos, y cuestionaron si tratar la no interferencia como inherentemente más segura podría generar incentivos perversos; por ejemplo, que las plataformas con muy poca curaduría queden menos expuestas que las que moderan activamente. Esto llevó a discutir el riesgo de sobre-remoción, el rechazo expreso del STF a la responsabilidad objetiva y si salvaguardas como la defensa de la "duda razonable" serán efectivas en la práctica. También se discutieron la evolución de la doctrina de la no interferencia y la facultad de la ANPD de adaptar las obligaciones según el tipo y tamaño del servicio.
 
-### **III. Calibrate by risk and service** 
+La discusión abordó además la aplicación de las normas y la autoridad institucional. Los participantes cuestionaron el rol del Ejecutivo al dictar decretos para implementar un esquema establecido por el STF, si ese enfoque podría ser impugnado y cómo se establecería en la práctica la "falla sistémica". La división de responsabilidades, todavía incierta, entre la ANPD, de la que se espera que desarrolle estándares técnicos, y los tribunales, que conservan la potestad sobre las determinaciones de responsabilidad, surgió como una cuestión clave. También se discutió el tratamiento de la mensajería privada y de las funciones de carácter público: las comunicaciones privadas permanecen bajo el esquema de los arts. 19/16-P, mientras que funciones como los canales podrían quedar bajo el régimen aplicable a las plataformas.
 
-Apply proportionality by provider size, level of interference, state of the art and service-specific risk; preserve distinctions between regulatory regimes. 
+Por último, los participantes discutieron el futuro político e institucional del esquema, en particular ante las próximas elecciones en Brasil y la posibilidad de cambios en los decretos del Ejecutivo. El intercambio puso de manifiesto la tensión entre las preocupaciones por la regulación por decreto y las demandas de la industria de mayor certeza regulatoria, y señaló que ya hay impugnaciones a los decretos pendientes ante el STF.
 
-### **IV. Design enforcement & information flows** 
+## Aclaraciones
 
-Standardize reporting, confidentiality, notices / appeals, regulator requests and coordination with other authorities; favor responsive and graduated supervision. 
+**Regla de Chatham House:** Este resumen sigue la [Regla de Chatham House](https://www.chathamhouse.org/about-us/chatham-house-rule) en su totalidad.
 
-## **5. Two Open Questions Raised During the Discussion** 
+**Aclaración sobre el uso de IA:** Se utilizaron herramientas de inteligencia artificial para ayudar a elaborar este resumen. El texto fue revisado antes de su circulación.
 
-The discussion highlighted two unresolved questions about the new framework. First, it was questioned whether the regime is ultimately means- or results-oriented: does compliance depend primarily on whether providers adopt reasonable procedures, or will liability turn on the volume and outcomes of content moderation? In particular, the concept of “systemic failure” implicitly requires defining what would constitute “systemic success.” 
-
-Second, concerns were raised about scope creep. Ancillary obligations relating to researcher access to data, transparency reporting, and risk-assessment disclosures could potentially push the framework beyond traditional intermediary liability and toward a broader form of platform regulation. 
-
-## **6. Audience Discussion** 
-
-The audience discussion focused on several unresolved questions surrounding the STF’s new intermediary-liability framework. Participants explored whether Regime 3 resembles the EU Digital Services Act’s risk-based approach, particularly regarding the concept of “systemic risk,” and questioned whether risk assessments are limited to the framework’s closed list of crimes. The discussion also examined the relationship between the new paid-advertising regime and Brazil’s existing consumer-liability rules for marketplaces, including when a marketplace may be held responsible for promoted listings. 
-
-Participants also raised concerns about the distinction between “non-interference” and active content moderation, questioning whether treating non-interference as inherently safer could create perverse incentives—for example, making highly uncurated platforms less exposed than platforms that actively moderate content. This prompted discussion of the risk of over-removal, the STF’s express rejection of strict liability, and whether safeguards such as the “reasonable doubt” defense will be effective in practice. The evolution of the non-interference doctrine and the ANPD’s authority to tailor obligations according to the type and size of service were also discussed. 
-
-The discussion further addressed enforcement and institutional authority. Participants questioned the Executive’s role in issuing decrees to implement a framework established by the STF, whether such an approach could be challenged, and how “systemic failure” would be established in practice. The still-uncertain division of responsibilities between the ANPD, which is expected to develop technical standards, and the courts, which retain authority over liability determinations, emerged as a key issue. The treatment of private messaging and public-facing features was also discussed, with private communications remaining under the Article 19/16-P framework while features such as channels may fall under the platform-like regime. 
-
-Finally, participants discussed the political and institutional future of the framework, particularly in light of Brazil’s upcoming elections and the possibility of changes to the Executive’s decrees. The exchange highlighted the tension between concerns over decree-based regulation and industry demands for greater regulatory certainty, while noting that challenges to the decrees are already pending before the STF.
+**Resumen redactado por** Josefina Gálvez, Asistente de Investigación, CELE.

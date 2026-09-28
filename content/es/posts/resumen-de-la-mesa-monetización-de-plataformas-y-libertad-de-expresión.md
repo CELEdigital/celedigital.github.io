@@ -15,7 +15,7 @@ outputs:
 newsletter_series: ''
 newsletter_number: ''
 tagline: ''
-image: ''
+image: /img/shutterstock_256473613-scaled.jpg
 issues:
   - Plataformas
 region: global

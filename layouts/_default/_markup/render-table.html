@@ -2,12 +2,16 @@
 Tablas de Markdown.
 
 El programa de la edición en curso del Taller (un program*.md suelto en la raíz
-de taller/ o workshop/, al lado de _index.md) se escribe como tabla pero se
-dibuja como lista de sesiones: título y personas siempre a la vista, y la
-descripción se despliega debajo. La tabla es cómoda de escribir, pero como
-grilla no sirve mientras el programa no tenga horarios ni salas: tres de cinco
-columnas quedan en «-». Las columnas Horario y Sala aparecen solas en cuanto
-tienen datos. La columna Día se omite: el día ya es el encabezado ### de arriba.
+de taller/ o workshop/, al lado de _index.md) se escribe como tabla —una por
+día: Horario y una columna por track— pero se dibuja como grilla de franjas
+horarias con las sesiones en paralelo.
+
+Cada celda de sesión es
+  <details><summary><strong>Título</strong><em>Personas</em></summary>Descripción</details>
+o, sin descripción, sólo <strong>Título</strong><em>Personas</em>. Un texto sin
+<strong> es logística (pausas, almuerzo, registro). Una fila con contenido sólo
+en el primer track ocupa el ancho completo; si el título empieza con
+«SESIÓN PLENARIA #n:» o «Evento abierto:», ese prefijo pasa a ser el rótulo.
 
 Los programas de ediciones anteriores (carpetas de año) y cualquier otra tabla
 del sitio salen como tabla común, igual que antes de este hook.
@@ -24,78 +28,109 @@ del sitio salen como tabla común, igual que antes de este hook.
 
 {{- if $esPrograma -}}
   {{- $es := ne $p.Lang "en" -}}
-  {{- /* Qué columna es cuál, por el nombre del encabezado. */ -}}
-  {{- $col := dict "hora" -1 "actividad" -1 "personas" -1 "sala" -1 -}}
-  {{- range $i, $c := index .THead 0 -}}
-    {{- $h := lower (plainify $c.Text) -}}
-    {{- if or (strings.Contains $h "horario") (strings.Contains $h "time") -}}{{- $col = merge $col (dict "hora" $i) -}}
-    {{- else if or (strings.Contains $h "actividad") (strings.Contains $h "activity") (strings.Contains $h "session") -}}{{- $col = merge $col (dict "actividad" $i) -}}
-    {{- else if or (strings.Contains $h "persona") (strings.Contains $h "people") (strings.Contains $h "speaker") -}}{{- $col = merge $col (dict "personas" $i) -}}
-    {{- else if or (strings.Contains $h "sala") (strings.Contains $h "room") -}}{{- $col = merge $col (dict "sala" $i) -}}
-    {{- end -}}
-  {{- end -}}
+  {{- $tracks := slice -}}
+  {{- range $i, $c := index .THead 0 }}{{ if $i }}{{ $tracks = $tracks | append (plainify $c.Text) }}{{ end }}{{ end -}}
 
-  <ol class="programa">
-  {{- range $fila := .TBody -}}
-    {{- $celda := dict -}}
-    {{- range $k, $i := $col -}}
-      {{- $v := "" -}}
-      {{- if ge $i 0 }}{{ $v = trim (string (index $fila $i).Text) " " }}{{ end -}}
-      {{- if in (slice "-" "–" "—") $v }}{{ $v = "" }}{{ end -}}
-      {{- $celda = merge $celda (dict $k $v) -}}
-    {{- end -}}
+  <div class="programa" style="--tracks: {{ len $tracks }}">
+    <div class="programa__encabezado" aria-hidden="true">
+      <span></span>
+      {{- range $tracks }}<span>{{ . }}</span>{{ end -}}
+    </div>
+    <ol class="programa__franjas">
+    {{- range $fila := .TBody -}}
+      {{- $hora := trim (string (index $fila 0).Text) " " -}}
+      {{- if in (slice "-" "–" "—") $hora }}{{ $hora = "" }}{{ end -}}
 
-    {{- /* La actividad viene como <details><summary>Título</summary>Descripción</details>
-           o como texto suelto. */ -}}
-    {{- $act := $celda.actividad -}}
-    {{- $titulo := $act -}}
-    {{- $desc := "" -}}
-    {{- with findRESubmatch `(?s)^<details><summary>(.*?)</summary>(.*)</details>$` $act 1 -}}
-      {{- $titulo = index (index . 0) 1 -}}
-      {{- $desc = index (index . 0) 2 -}}
-    {{- end -}}
-    {{- $titulo = replaceRE `^<strong>(.*)</strong>$` "$1" $titulo -}}
-
-    {{- /* Las plenarias anclan cada día: el prefijo pasa a ser el rótulo. */ -}}
-    {{- $rotulo := "" -}}
-    {{- with findRESubmatch `(?i)^(sesión plenaria|plenary session)\s*#?\s*(\d*)\s*:?\s*` $titulo 1 -}}
-      {{- $n := index (index . 0) 2 -}}
-      {{- $rotulo = printf "%s %s" (cond $es "Sesión plenaria" "Plenary session") $n | strings.TrimSpace -}}
-      {{- $titulo = strings.TrimPrefix (index (index . 0) 0) $titulo -}}
-    {{- end -}}
-
-    {{- /* Descripción: <br><br> separa párrafos; la bibliografía pasa a lista. */ -}}
-    {{- $biblio := slice -}}
-    {{- $marca := cond $es "<strong>Bibliografía sugerida:</strong><br>" "<strong>Suggested reading:</strong><br>" -}}
-    {{- if strings.Contains $desc $marca -}}
-      {{- $partes := split $desc $marca -}}
-      {{- $desc = strings.TrimSuffix "<br><br>" (index $partes 0) -}}
-      {{- range split (strings.TrimPrefix "• " (index $partes 1)) "<br>• " -}}
-        {{- $biblio = $biblio | append . -}}
+      {{- /* Las celdas con contenido, con el track al que pertenecen. */ -}}
+      {{- $celdas := slice -}}
+      {{- range $i, $c := $fila -}}
+        {{- $v := trim (string $c.Text) " " -}}
+        {{- if and $i (not (in (slice "" "-" "–" "—") $v)) -}}
+          {{- $celdas = $celdas | append (dict "track" (index $tracks (sub $i 1)) "html" $v) -}}
+        {{- end -}}
       {{- end -}}
-    {{- end -}}
 
-    <li class="programa__sesion{{ if $rotulo }} programa__sesion--plenaria{{ end }}">
-      {{- with $celda.hora }}<p class="programa__hora">{{ . | safeHTML }}</p>{{ end -}}
-      {{- $cabeza := printf `%s<span class="programa__titulo">%s</span>%s` (cond (ne $rotulo "") (printf `<span class="programa__rotulo">%s</span>` $rotulo) "") $titulo (cond (ne $celda.personas "") (printf `<span class="programa__personas">%s</span>` $celda.personas) "") -}}
-      {{- if $desc -}}
-        <details class="programa__detalle">
-          <summary class="programa__cabeza">{{ $cabeza | safeHTML }}<span class="programa__icono" aria-hidden="true"></span></summary>
-          <div class="programa__texto">
-            {{- range split $desc "<br><br>" }}{{ with trim . " " }}<p>{{ . | safeHTML }}</p>{{ end }}{{ end -}}
-            {{- with $biblio -}}
-              <p class="programa__biblio-titulo">{{ cond $es "Bibliografía sugerida" "Suggested reading" }}</p>
-              <ul class="programa__biblio">{{ range . }}<li>{{ . | safeHTML }}</li>{{ end }}</ul>
+      {{- $sesiones := slice -}}
+      {{- range $celdas -}}
+        {{- $cab := .html -}}
+        {{- $desc := "" -}}
+        {{- with findRESubmatch `(?s)^<details><summary>(.*?)</summary>(.*)</details>$` .html 1 -}}
+          {{- $cab = index (index . 0) 1 -}}
+          {{- $desc = index (index . 0) 2 -}}
+        {{- end -}}
+        {{- $titulo := "" -}}
+        {{- with findRESubmatch `<strong>(.*?)</strong>` $cab 1 }}{{ $titulo = index (index . 0) 1 }}{{ end -}}
+        {{- $personas := "" -}}
+        {{- with findRESubmatch `<em>(.*?)</em>` $cab 1 }}{{ $personas = index (index . 0) 1 }}{{ end -}}
+
+        {{- $rotulo := "" -}}
+        {{- $tipo := "" -}}
+        {{- with findRESubmatch `(?i)^(sesión plenaria|plenary session)\s*#?\s*(\d*)\s*:\s*` $titulo 1 -}}
+          {{- $rotulo = printf "%s %s" (cond $es "Sesión plenaria" "Plenary session") (index (index . 0) 2) | strings.TrimSpace -}}
+          {{- $titulo = strings.TrimPrefix (index (index . 0) 0) $titulo -}}
+          {{- $tipo = "plenaria" -}}
+        {{- end -}}
+        {{- with findRESubmatch `(?i)^(evento abierto|open event)\s*:\s*` $titulo 1 -}}
+          {{- $rotulo = cond $es "Evento abierto" "Open event" -}}
+          {{- $titulo = strings.TrimPrefix (index (index . 0) 0) $titulo -}}
+        {{- end -}}
+
+        {{- /* Descripción: <br><br> separa párrafos; la bibliografía pasa a lista. */ -}}
+        {{- $biblio := slice -}}
+        {{- $marca := cond $es "<strong>Bibliografía sugerida:</strong><br>" "<strong>Suggested reading:</strong><br>" -}}
+        {{- if strings.Contains $desc $marca -}}
+          {{- $partes := split $desc $marca -}}
+          {{- $desc = strings.TrimSuffix "<br><br>" (index $partes 0) -}}
+          {{- range split (strings.TrimPrefix "• " (index $partes 1)) "<br>• " }}{{ $biblio = $biblio | append . }}{{ end -}}
+        {{- end -}}
+
+        {{- $sesiones = $sesiones | append (dict "track" .track "titulo" $titulo "personas" $personas "rotulo" $rotulo "tipo" $tipo "desc" $desc "biblio" $biblio "texto" (cond (eq $titulo "") $cab "")) -}}
+      {{- end -}}
+
+      {{- $general := and (eq (len $sesiones) 1) (eq (index $sesiones 0).track (index $tracks 0)) -}}
+      {{- $clase := "programa__franja--paralela" -}}
+      {{- if $general -}}
+        {{- $s := index $sesiones 0 -}}
+        {{- $clase = cond (eq $s.titulo "") "programa__franja--pausa" (cond (eq $s.tipo "plenaria") "programa__franja--plenaria" "programa__franja--general") -}}
+      {{- end -}}
+
+      {{- if $sesiones -}}
+      <li class="programa__franja {{ $clase }}">
+        <p class="programa__hora">{{ $hora | safeHTML }}</p>
+        <div class="programa__sesiones">
+          {{- range $sesiones -}}
+            {{- if eq .titulo "" -}}
+              <p class="programa__pausa">{{ .texto | safeHTML }}</p>
+            {{- else -}}
+              <div class="programa__sesion">
+                {{- $cabeza := printf `%s%s<span class="programa__titulo">%s</span>%s`
+                    (cond $general "" (printf `<span class="programa__track">%s</span>` .track))
+                    (cond (ne .rotulo "") (printf `<span class="programa__rotulo">%s</span>` .rotulo) "")
+                    .titulo
+                    (cond (ne .personas "") (printf `<span class="programa__personas">%s</span>` .personas) "") -}}
+                {{- if .desc -}}
+                  <details class="programa__detalle">
+                    <summary class="programa__cabeza">{{ $cabeza | safeHTML }}<span class="programa__icono" aria-hidden="true"></span></summary>
+                    <div class="programa__texto">
+                      {{- range split .desc "<br><br>" }}{{ with trim . " " }}<p>{{ . | safeHTML }}</p>{{ end }}{{ end -}}
+                      {{- with .biblio -}}
+                        <p class="programa__biblio-titulo">{{ cond $es "Bibliografía sugerida" "Suggested reading" }}</p>
+                        <ul class="programa__biblio">{{ range . }}<li>{{ . | safeHTML }}</li>{{ end }}</ul>
+                      {{- end -}}
+                    </div>
+                  </details>
+                {{- else -}}
+                  <div class="programa__cabeza">{{ $cabeza | safeHTML }}</div>
+                {{- end -}}
+              </div>
             {{- end -}}
-          </div>
-        </details>
-      {{- else -}}
-        <div class="programa__cabeza">{{ $cabeza | safeHTML }}</div>
+          {{- end -}}
+        </div>
+      </li>
       {{- end -}}
-      {{- with $celda.sala }}<p class="programa__sala">{{ . | safeHTML }}</p>{{ end -}}
-    </li>
-  {{- end -}}
-  </ol>
+    {{- end -}}
+    </ol>
+  </div>
 
 {{- else -}}
 <table

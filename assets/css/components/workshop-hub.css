@@ -149,9 +149,12 @@
 
 /* ── Programa de la edición en curso ─────────────────────────────
    Lo arma layouts/_default/_markup/render-table.html a partir de la tabla
-   de program*.md. Filas quietas separadas por un filete; las plenarias son
-   la única nota fuerte: franja crema con filete rojo, como la franja de
-   «Ediciones anteriores». Horario y sala sólo ocupan lugar si existen. */
+   de program*.md: una fila por franja horaria y una columna por track. Las
+   franjas son filas quietas separadas por un filete; las pausas se achican y
+   se apagan para que el ojo salte de bloque en bloque; las plenarias son la
+   única nota fuerte: franja crema con filete rojo, como «Ediciones
+   anteriores». Debajo de 1000px los tracks se apilan y cada sesión dice el
+   suyo. */
 
 .workshop-hub__section-body > p:first-child {
   max-width: 68ch;
@@ -159,10 +162,9 @@
   color: var(--neutral-600);
 }
 
-.workshop-hub__section-body h3,
-.programa-dia {
+.workshop-hub__section-body h3 {
   position: relative;
-  margin: 2.5rem 0 0.25rem;
+  margin: 3rem 0 1.25rem;
   padding-bottom: 0.9rem;
   font-family: 'Inter';
   font-size: 1.3rem;
@@ -184,63 +186,83 @@
 }
 
 .programa {
-  list-style: none;
+  --col-hora: 7.5rem;
+  --hueco: 2rem;
   margin: 0 0 1rem;
-  padding: 0;
-  max-width: 62rem;
 }
 
-/* Sin horario ni sala la sesión es una sola columna; cada dato que aparece
-   suma la suya. Una columna vacía igual se come su gap y corre el texto. */
-.programa__sesion {
+.programa__encabezado,
+.programa__franja {
   display: grid;
-  grid-template-columns: [cuerpo] minmax(0, 1fr);
-  column-gap: 1.5rem;
-  align-items: start;
+  grid-template-columns: var(--col-hora) minmax(0, 1fr);
+  column-gap: var(--hueco);
+}
+
+.programa__encabezado > span:not(:first-child),
+.programa__sesiones {
+  min-width: 0;
+}
+
+/* El encabezado reparte los tracks con la misma grilla que las sesiones. */
+.programa__encabezado {
+  grid-template-columns: var(--col-hora) repeat(var(--tracks), minmax(0, 1fr));
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--neutral-900);
+  font-family: 'Inter';
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--neutral-900);
+}
+
+.programa__franjas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.programa__franja {
   border-bottom: 1px solid var(--neutral-300);
 }
 
-.programa__sesion:has(> .programa__hora) {
-  grid-template-columns: [hora] 6.5rem [cuerpo] minmax(0, 1fr);
+.programa__sesiones {
+  display: grid;
+  column-gap: var(--hueco);
 }
 
-.programa__sesion:has(> .programa__sala) {
-  grid-template-columns: [cuerpo] minmax(0, 1fr) [sala] 10rem;
-}
-
-.programa__sesion:has(> .programa__hora):has(> .programa__sala) {
-  grid-template-columns: [hora] 6.5rem [cuerpo] minmax(0, 1fr) [sala] 10rem;
+.programa__franja--paralela .programa__sesiones {
+  grid-template-columns: repeat(var(--tracks), minmax(0, 1fr));
 }
 
 .programa__hora {
-  grid-column: hora;
   margin: 0;
-  padding-top: 1.15rem;
+  padding: 1.15rem 0;
   font-family: 'Inter';
   font-size: 0.95rem;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
+  line-height: 1.35;
+  color: var(--neutral-900);
   white-space: nowrap;
-  color: var(--cele);
 }
 
-.programa__detalle,
-.programa__sesion > .programa__cabeza {
-  grid-column: cuerpo;
-}
-
-.programa__sala {
-  grid-column: sala;
+/* Pausas, almuerzo, registro: renglón corto y apagado. */
+.programa__franja--pausa .programa__hora,
+.programa__pausa {
   margin: 0;
-  padding-top: 1.2rem;
-  font-size: 0.9rem;
+  padding: 0.6rem 0;
+  font-size: 0.92rem;
+  font-weight: 400;
   color: var(--neutral-600);
+}
+
+.programa__franja--pausa .programa__hora {
+  font-family: 'Inter';
 }
 
 .programa__cabeza {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  column-gap: 1.25rem;
+  column-gap: 1rem;
   padding: 1.1rem 0;
 }
 
@@ -253,10 +275,22 @@ summary.programa__cabeza::-webkit-details-marker {
   display: none;
 }
 
+.programa__track,
 .programa__rotulo,
 .programa__titulo,
 .programa__personas {
   grid-column: 1;
+}
+
+/* En la grilla el track ya está en el encabezado: queda sólo para lectores
+   de pantalla. Al apilar se vuelve visible (ver abajo). */
+.programa__track {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 .programa__rotulo {
@@ -269,16 +303,20 @@ summary.programa__cabeza::-webkit-details-marker {
 
 .programa__titulo {
   font-family: 'Inter';
-  font-size: 1.08rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.35;
   color: var(--neutral-900);
   text-wrap: pretty;
 }
 
+.programa__franja--general .programa__titulo {
+  font-size: 1.08rem;
+}
+
 .programa__personas {
   margin-top: 0.35rem;
-  font-size: 0.98rem;
+  font-size: 0.95rem;
   line-height: 1.45;
   color: var(--neutral-600);
 }
@@ -286,10 +324,10 @@ summary.programa__cabeza::-webkit-details-marker {
 /* Más/menos dibujado con dos barras: la vertical se pliega al abrir. */
 .programa__icono {
   grid-column: 2;
-  grid-row: 1 / span 3;
+  grid-row: 1 / span 4;
   position: relative;
-  width: 1rem;
-  height: 1rem;
+  width: 0.9rem;
+  height: 0.9rem;
   margin-top: 0.2rem;
 }
 
@@ -325,7 +363,7 @@ summary.programa__cabeza:focus-visible {
 .programa__texto {
   max-width: 68ch;
   padding: 0 0 1.4rem;
-  font-size: 1.02rem;
+  font-size: 0.98rem;
   line-height: 1.6;
   color: var(--neutral-800);
 }
@@ -350,7 +388,7 @@ summary.programa__cabeza:focus-visible {
 .programa__biblio-titulo {
   margin-top: 1.25rem !important;
   font-family: 'Inter';
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--neutral-900);
 }
@@ -359,7 +397,7 @@ summary.programa__cabeza:focus-visible {
   margin: 0;
   padding-left: 1.1rem;
   list-style: disc;
-  font-size: 0.96rem;
+  font-size: 0.93rem;
   line-height: 1.5;
 }
 
@@ -372,13 +410,13 @@ summary.programa__cabeza:focus-visible {
 }
 
 /* Plenarias: la franja se sale del renglón para que el texto quede alineado
-   con el de las demás sesiones. El desborde se dibuja con sombras y no con
+   con el de las demás filas. El desborde se dibuja con sombras y no con
    márgenes negativos: una sombra no genera scroll horizontal, y entre 900 y
    1280px el hub no tiene margen lateral donde meterse. De arriba hacia abajo:
    crema izquierda (tapa todo menos 4px), filete rojo, crema derecha. */
-.programa__sesion--plenaria {
+.programa__franja--plenaria {
   --sangrado: 1.25rem;
-  margin: 0.75rem 0;
+  margin: 0.5rem 0;
   background: #f6f2e9;
   border-bottom: none;
   box-shadow:
@@ -387,36 +425,67 @@ summary.programa__cabeza:focus-visible {
     var(--sangrado) 0 0 #f6f2e9;
 }
 
-.programa__sesion--plenaria .programa__titulo {
-  font-size: 1.22rem;
+.programa__franja--plenaria .programa__titulo {
+  font-size: 1.2rem;
 }
 
-@media (max-width: 700px) {
-  .programa__sesion {
+/* ── Tracks apilados ─────────────────────────────────────────── */
+@media (max-width: 1000px) {
+  .programa__encabezado {
+    display: none;
+  }
+
+  .programa__franja,
+  .programa__franja--paralela .programa__sesiones {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .programa__hora,
-  .programa__detalle,
-  .programa__sesion > .programa__cabeza,
-  .programa__sala {
-    grid-column: 1;
-  }
-
   .programa__hora {
-    padding-top: 1rem;
+    padding: 1rem 0 0;
   }
 
-  .programa__hora + .programa__detalle .programa__cabeza,
-  .programa__hora + .programa__cabeza {
-    padding-top: 0.3rem;
+  .programa__franja--pausa {
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 1.25rem;
   }
 
-  .programa__sala {
-    padding: 0 0 1rem;
+  .programa__franja--pausa .programa__hora {
+    padding: 0.6rem 0;
   }
 
-  .programa__sesion--plenaria {
+  .programa__cabeza {
+    padding: 0.6rem 0 1rem;
+  }
+
+  .programa__franja--paralela .programa__sesion + .programa__sesion {
+    border-top: 1px dashed var(--neutral-300);
+  }
+
+  .programa__franja--paralela .programa__cabeza {
+    padding-top: 0.9rem;
+  }
+
+  .programa__track {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip-path: none;
+    white-space: normal;
+    margin-bottom: 0.25rem;
+    font-family: 'Inter';
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--neutral-600);
+  }
+}
+
+@media (max-width: 600px) {
+  .programa {
+    --col-hora: 6.5rem;
+  }
+
+  .programa__franja--plenaria {
     --sangrado: 1rem;
   }
 }

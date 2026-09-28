@@ -3,39 +3,32 @@ translationKey: ''
 title: Roundtable Summary | Intermediary Liability in Brazil
 slug: roundtable-summary-intermediary-liability-brazil
 date: 2026-09-10
-description: Summary of the Comparative Legislation Roundtable on Intermediary Liability
-  in Brazil.
+description: Summary of the Comparative Legislation Roundtable on Intermediary Liability in Brazil.
 author:
-- Josefina Gálvez
+  - Josefina Gálvez
 content_type:
-- mesa
+  - mesa
 programs: []
 featured: false
 outputs:
-- html
+  - html
 newsletter_series: ''
 newsletter_number: ''
 tagline: ''
 image: /img/shutterstock_2262840399-scaled.jpg
 issues:
-- Plataformas
+  - Plataformas
 region: latam
 country:
-- Brasil
+  - Brasil
 placements:
-- hub: region/america-latina
-  block: ultimas_noticias_analisis
+  - hub: region/america-latina
+    block: ultimas_noticias_analisis
 tags: []
 source_url: ''
 originally_published_in: ''
 type: posts
 ---
-
-**Chatham House Rule:** This report adheres to the [Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule) throughout. 
-
-**AI disclaimer:** Artificial intelligence tools were used to help prepare this summary. The text was reviewed prior to circulation.
-
-**Summary drafted by** Josefina Gálvez, Research Assistant, CELE.
 
 ## **1. Background** 
 
@@ -108,3 +101,11 @@ Participants also raised concerns about the distinction between “non-interfere
 The discussion further addressed enforcement and institutional authority. Participants questioned the Executive Branch’s role in issuing decrees to implement a framework established by the STF, whether such an approach could be challenged, and how “systemic failure” would be established in practice. The still-uncertain division of responsibilities between the ANPD—which is expected to develop technical standards—and the courts—which retain authority over liability determinations—emerged as a key issue. The treatment of private messaging and public-facing features was also discussed, with private communications remaining under the Article 19/16-P framework while features such as channels may fall under the platform-like regime. 
 
 Finally, participants discussed the political and institutional future of the framework, particularly in light of Brazil’s upcoming elections and the possibility of changes to the Executive’s decrees. The discussion highlighted the tension between concerns over decree-based regulation and industry demands for greater regulatory certainty, while noting that challenges to the decrees are already pending before the STF.
+
+## **7. Disclaimers**
+
+**Chatham House Rule:** This report adheres to the [Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule) throughout. 
+
+**AI disclaimer:** Artificial intelligence tools were used to help prepare this summary. The text was reviewed prior to circulation.
+
+**Summary drafted by** Josefina Gálvez, Research Assistant, CELE.

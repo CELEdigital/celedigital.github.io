@@ -173,6 +173,27 @@ que conviene tener presente acá:
   `.md`. Reporta lo que no pudo resolver y lo marca con `TODO`; el resultado hay
   que leerlo antes de publicar.
 
+**Los 61 boletines viejos (feb 2021 – feb 2026) también están en este formato**
+(ES y EN; los EN son copia en castellano). Venían de WordPress con un bloque
+base64 de un mapa, tablas rotas, negritas partidas alrededor de los links y
+links a `observatoriolegislativocele.com`, que ya no responde. Al convertirlos:
+- **El país de cada entrada es inferido**: la importación de WordPress había
+  borrado los encabezados de país (salvo en feb–may 2021). Se dedujo de los
+  dominios de los links, los formatos de expediente y nombres propios, forzando
+  que cada país sea un bloque contiguo. Puede haber alguna entrada en el país
+  equivocado, sobre todo notas regionales (CIDH, SIP, ONU).
+- Las etiquetas viejas (texto libre en mayúsculas) se mapearon a los 17 slugs.
+  Las que no tienen equivalente (desinformación, honor, ciberseguridad, etc.)
+  se mapearon a `libertad-de-expresion` o se descartaron.
+- `exp` sólo se completó cuando el número aparece en la matriz; si no, el link
+  queda escrito entero en el texto.
+- ~40 entradas de feb–may 2021 no tienen `fecha` porque el original no la
+  decía: el build las avisa, es esperado.
+- Las tablas de estadísticas de arriba (proyectos por país, temas %) quedaron
+  como tablas Markdown en el cuerpo, antes de `{{< boletin-paises >}}`.
+- Se sacaron las dos imágenes del cuerpo (gráfico de marzo 2021, imagen de
+  WhatsApp de mayo 2021), ambas alojadas en el sitio viejo.
+
 ### 10. Dominio propio: `celeup.org`
 El sitio se publica en **https://celeup.org** (custom domain configurado en
 GitHub Pages; el repo sigue llamándose `celedigital.github.io` y GitHub redirige

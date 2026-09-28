@@ -13,18 +13,14 @@ content_type:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2026-02-04
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En su Informe Anual 2026, [Human Rights
@@ -36,27 +32,12 @@ paises:
           protestas sociales. En cuanto a la relación con la prensa, se señaló que
           las autoridades del gobierno han sido hostiles y estigmatizantes contra
           los periodistas.
-=======
-        url: https://www.baenegocios.com/politica/informe-denuncia-al-gobierno-por-socavar-los-controles-constitucionales-sobre-el-poder-ejecutivo/
-        texto: >-
-          En su Informe Anual 2026, [Human Rights Watch]($url) cuestionó al gobierno
-          de Javier Milei por intentar "socavar controles constitucionales",
-          obstaculizar la libertad de reunión y recortar programas sociales.
-          Asimismo, se criticó la política represiva indiscriminada e imprudente de
-          las fuerzas de seguridad contra las protestas sociales. En cuanto a la
-          relación con la prensa, se señaló que las autoridades del gobierno han
-          sido hostiles y estigmatizantes contra los periodistas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - protesta
 
       - fecha: 2026-02-05
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://drive.google.com/file/d/1y0DLYpMdSj6WunbhyppHHomliRxXwipN/view?usp=sharing
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El Gobierno nacional [abrió una cuenta en redes
           sociales](https://www.perfil.com/noticias/politica/ministerio-de-la-verdad-el-gobierno-lanza-una-oficina-de-respuesta-oficial-contra-el-periodismo.phtml)
@@ -75,15 +56,9 @@ paises:
           el historial hostil y estigmatizante de este gobierno con la prensa. Del
           lado de los representantes, diputado nacional del bloque Unión por la
           Patria, Nicolás Trotta presentó el [Proyecto de Declaración
-<<<<<<< HEAD
           7244-D-2025](https://drive.google.com/file/d/1y0DLYpMdSj6WunbhyppHHomliRxXwipN/view?usp=sharing),
           mediante el cual propone que la [Cámara de Diputados exprese su rechazo a
           la creación de esta “Oficina de Respuesta Oficial de la República
-=======
-          7244-D-2025]($url), mediante el cual propone que la [Cámara de Diputados
-          exprese su rechazo a la creación de esta “Oficina de Respuesta Oficial de
-          la República
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Argentina”](https://www.pagina12.com.ar/2026/02/07/presentaron-un-proyecto-para-rechazar-la-creacion-de-la-oficina-de-respuesta-oficial/)
           y manifieste su preocupación por la reiteración y recrudecimiento de
           acciones del Poder Ejecutivo Nacional que atentan contra el ejercicio de
@@ -93,10 +68,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2026-02-19
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 7340-D-2025
         url: https://drive.google.com/file/d/1t_rDeMcNf-iPfXAHy4eoIlLXcp3B6s26/view?usp=sharing
         texto: >-
@@ -117,7 +89,6 @@ paises:
           - plataformas-digitales
 
       - fecha: 2026-02-20
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada Marcela Marina Pagano presentó el [Proyecto de Ley N°
@@ -131,27 +102,12 @@ paises:
           la personalización algorítmica, la prohibición de este tipo de
           personalización para usuarios menores de 13 años, la prohibición de
           publicidad dirigida a menores de 16, así como sistemas de autorías y
-=======
-        url: https://drive.google.com/file/d/1P64RHhcoqDC9UbkmyXoaOAsidSgHoeVv/view?usp=sharing
-        texto: >-
-          La diputada Marcela Marina Pagano presentó el [Proyecto de Ley N°
-          7344-D-2025]($url), que buscaría establecer un marco normativo para la
-          protección de la autonomía cognitiva de los niños y niñas frente a los
-          sistemas algorítmicos de las plataformas digitales. El proyecto indica que
-          es derecho de los usuarios conocer los criterios generales de los sistemas
-          de recomendación, a optar por modalidades de visualización no
-          personalizadas, entre otras cosas. Se establece también un proceso de
-          consentimiento para la personalización algorítmica, la prohibición de este
-          tipo de personalización para usuarios menores de 13 años, la prohibición
-          de publicidad dirigida a menores de 16, así como sistemas de autorías y
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           evaluación de estas medidas.
         etiquetas:
           - proteccion-de-menores
           - plataformas-digitales
 
       - fecha: 2026-02-23
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada Marcela Marina Pagano presentó el [Proyecto de Ley N°
@@ -162,44 +118,23 @@ paises:
           digital”, herederos de activos digitales, entre otros. Se indican los
           sistemas administrativos para hacer efectivos los derechos establecidos y
           las obligaciones al respecto de las plataformas digitales.
-=======
-        url: https://drive.google.com/file/d/1152br_EN0Bt74bqvS-8QmxrNv-0JGjHx/view?usp=sharing
-        texto: >-
-          La diputada Marcela Marina Pagano presentó el [Proyecto de Ley N°
-          7369-D-2025]($url), que busca regular la planificación, transmisión
-          accesoria y gestión post-mortem de la identidad digital, datos y activos
-          digitales. Esto implicaría la creación de la figura del “Albacea digital”,
-          “Legado digital”, herederos de activos digitales, entre otros. Se indican
-          los sistemas administrativos para hacer efectivos los derechos
-          establecidos y las obligaciones al respecto de las plataformas digitales.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - proteccion-de-menores
           - plataformas-digitales
 
       - fecha: 2026-02-27
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.enteratenoticias.com.ar/actualidad/fopea-advierte-por-posible-derogacion-del-estatuto-del-periodista-y-sus-riesgos/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           A lo largo del mes, continuó el debate público acerca de la iniciativa
           legislativa de reforma laboral que presentó en diciembre el presidente
           Javier Milei, la cuál incluye la derogación del Estatuto del Periodista.
           Se reportaron múltiples encuentros entre organizaciones de la sociedad
           civil y representantes parlamentarios intentando comprometerlos a votar en
-<<<<<<< HEAD
           contra de la reforma. Asimismo, organizaciones como
           [FOPEA](https://www.enteratenoticias.com.ar/actualidad/fopea-advierte-por-posible-derogacion-del-estatuto-del-periodista-y-sus-riesgos/)
           elevaron múltiples comunicados acerca del riesgo de la derogación del
           Estatuto del Periodista, y [advirtieron que se podría recurrir a
           organismos
-=======
-          contra de la reforma. Asimismo, organizaciones como [FOPEA]($url) elevaron
-          múltiples comunicados acerca del riesgo de la derogación del Estatuto del
-          Periodista, y [advirtieron que se podría recurrir a organismos
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           internacionales](https://www.eldiarionuevodia.com.ar/locales/fopea-rechazo-en-diputados-la-derogacion-del-estatuto-del-periodista-y-advierte-que-es-un-grave-retroceso/)
           en caso que esta proceda. Durante el proceso de debate legislativo de la
           aprobación de la iniciativa, sindicatos y miembros de la prensa llevaron a
@@ -251,11 +186,7 @@ paises:
           - protesta
 
       - fecha: 2026-02-27
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.elancasti.com.ar/politica-y-economia/senadora-libertaria-celebro-la-agresion-al-camarografo-el-congreso-nadie-tiene-coronita-n606521
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Un caso de represión contra la prensa y manifestantes ganó atención
           nacional luego que la policía detuviera violentamente a doce activistas de
@@ -266,18 +197,11 @@ paises:
           las grabaciones, todos los involucrados fueron liberados. El caso desató
           una serie de respuestas de parte de las autoridades del gobierno y
           representantes de la sociedad civil: La senadora provincial bonaerense
-<<<<<<< HEAD
           [Florencia Arietto celebró el accionar de la
           policía](https://www.elancasti.com.ar/politica-y-economia/senadora-libertaria-celebro-la-agresion-al-camarografo-el-congreso-nadie-tiene-coronita-n606521)
           y la detención del reportero y los manifestantes. La diputada y periodista
           Marcela Pagano anunció que presentó una denuncia penal ante “un nuevo
           ataque a la libertad de expresión”. El [presidente Javier
-=======
-          [Florencia Arietto celebró el accionar de la policía]($url) y la detención
-          del reportero y los manifestantes. La diputada y periodista Marcela Pagano
-          anunció que presentó una denuncia penal ante “un nuevo ataque a la
-          libertad de expresión”. El [presidente Javier
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Milei](https://www.jornada.com.mx/noticia/2026/02/26/mundo/argentina-policias-golpean-a-camarografo-que-filmo-detencion-de-activistas-de-greenpeace)
           consideró a los periodistas y al Foro de Periodismo Argentino como
           “terroristas”. Finalmente, el
@@ -292,7 +216,6 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2026-02-11
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Corte de Apelaciones de Santiago [rechazó el recurso de reclamación
@@ -314,36 +237,12 @@ paises:
           darse cuenta de la sensibilidad del contenido. Además, el canal sostuvo
           que no hubo intención de revictimizar a la víctima y que el CNTV no
           consideró adecuadamente la naturaleza de una transmisión en vivo.
-=======
-        url: https://duplos.cl/actualidad/canal-trece-s-a-santiago-multa-contenido-inapropiado-26/253112/2026/02/11/
-        texto: >-
-          La Corte de Apelaciones de Santiago [rechazó el recurso de reclamación
-          presentado por Canal Trece S.A. contra el Consejo Nacional de Televisión
-          (CNTV)]($url), con lo que se ratificó la multa de 20 UTM impuesta por la
-          emisión de un segmento informativo que se transmitió en horario de
-          protección al menor, relacionado con la revisión de la prisión preventiva
-          del ex Subsecretario del Interior, Manuel Monsalve por una imputación de
-          violación consumada y abuso sexual. El CNTV señaló que el canal había
-          difundido contenidos que revictimizaban a la víctima y que no eran aptos
-          para menores durante el horario protegido. También destacó que el canal no
-          actuó con la diligencia necesaria para prevenir la emisión de contenido
-          sensible, y que, aunque el material provenía de una fuente oficial, el
-          canal es responsable de lo que decide transmitir. El canal argumentó que
-          la sanción era ilegal y desproporcionada, defendiendo que su cobertura se
-          basó en una audiencia pública retransmitida por el Poder Judicial a través
-          de su plataforma oficial. Según Canal Trece, su participación fue breve y
-          se interrumpió al darse cuenta de la sensibilidad del contenido. Además,
-          el canal sostuvo que no hubo intención de revictimizar a la víctima y que
-          el CNTV no consideró adecuadamente la naturaleza de una transmisión en
-          vivo.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - proteccion-de-menores
 
   - pais: Paraguay
     entradas:
       - fecha: 2026-02-12
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Instituto de Derecho y Economía Ambiental (IDEA) y Media Defence
@@ -361,31 +260,12 @@ paises:
           Media Defence a argumentar que el Estado Paraguayo ha faltado a sus
           responsabilidades en materia de libertad de expresión y acceso a la
           justicia, tanto a nivel nacional como internacional.
-=======
-        url: https://www.ultimahora.com/presentan-denuncia-contra-el-estado-ante-la-cidh-en-el-sexto-aniversario-de-crimen-de-leo-veras
-        texto: >-
-          El Instituto de Derecho y Economía Ambiental (IDEA) y Media Defence
-          [presentaron una petición ante la CIDH]($url) sobre la responsabilidad del
-          Estado paraguayo por el asesinato del periodista brasileño Lourenço “Léo”
-          Veras y la falta de debida diligencia en la investigación, procesamiento y
-          condena de los autores del mismo. Ambas organizaciones explicaron que el
-          comunicador no solo era fundador y director de un medio que cubría temas
-          vinculados al crimen organizado y la violencia en la región fronteriza
-          entre Paraguay y Brasil, sino que su asesinato es parte de un patrón en el
-          que una decena de reporteros han perdido la vida en esa misma zona bajo
-          circunstancias sospechosas. La falta de investigación efectiva de estos
-          crímenes es lo que lleva a IDEA y Media Defence a argumentar que el Estado
-          Paraguayo ha faltado a sus responsabilidades en materia de libertad de
-          expresión y acceso a la justicia, tanto a nivel nacional como
-          internacional.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: Colombia
     entradas:
       - fecha: 2026-01-21
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Sociedad Interamericana de Prensa
@@ -395,15 +275,6 @@ paises:
           del sistema judicial con el propósito de castigar y silenciar voces
           críticas”. Este pronunciamiento vino luego que la [Fundación para la
           Libertad de Prensa
-=======
-        url: https://www.eltiempo.com/mundo/latinoamerica/la-sociedad-interamericana-de-prensa-alerta-por-el-uso-del-sistema-judicial-para-hostigar-a-periodistas-y-medios-de-comunicacion-en-colombia-3525919
-        texto: >-
-          La [Sociedad Interamericana de Prensa (SIP)]($url) advirtió sobre un
-          aumento de acciones judiciales contra periodistas y medios de comunicación
-          en Colombia, lo que representaría “un uso abusivo del sistema judicial con
-          el propósito de castigar y silenciar voces críticas”. Este pronunciamiento
-          vino luego que la [Fundación para la Libertad de Prensa
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           (FLIP)](https://www.semana.com/nacion/articulo/flip-advierte-sobre-nuevo-caso-de-acoso-judicial-contra-la-periodista-lorena-beltran/202645/)
           señalara que múltiples casos recientes de investigaciones a periodistas
           constituyen un patrón de acoso judicial en el debate público.
@@ -413,7 +284,6 @@ paises:
   - pais: Ecuador
     entradas:
       - fecha: 2026-02-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Comando Conjunto de las Fuerzas Armadas de Ecuador [emitió lineamientos
@@ -430,23 +300,6 @@ paises:
           la misión y valores institucionales, o que afecten la imagen pública y la
           confianza ciudadana en las Fuerzas Armadas. Como era de esperar, la medida
           ha sido profundamente controversial. [Diversos
-=======
-        url: https://www.primicias.ec/seguridad/lineamientos-fuerzas-armadas-medios-comunicacion-ecuador-eventos-operativos-restricciones-acreditaciones-115776/
-        texto: >-
-          El Comando Conjunto de las Fuerzas Armadas de Ecuador [emitió lineamientos
-          para regular el acceso de los medios de comunicación]($url) a los eventos
-          institucionales en los niveles estratégico, operacional y táctico. De
-          acuerdo al documento, la acreditación de los medios y periodistas y el
-          acceso a los eventos sería dictado por una evaluación de la línea
-          editorial del medio, el tratamiento informativo histórico respecto a las
-          Fuerzas Armadas, el rigor informativo y conducta profesional, y la postura
-          institucional frente al rol constitucional de las FF.AA. Incluso se indicó
-          explícitamente que se restringiría el acceso a aquellos medios que
-          mantengan una postura sistemáticamente contraria a la misión y valores
-          institucionales, o que afecten la imagen pública y la confianza ciudadana
-          en las Fuerzas Armadas. Como era de esperar, la medida ha sido
-          profundamente controversial. [Diversos
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           periodistas](https://www.eldiario.ec/ecuador/periodistas-denuncian-nueva-censura-en-el-gobierno-de-daniel-noboa-esta-vez-de-las-ffaa-10022026/)
           y
           [organizaciones](https://www.extra.ec/noticia/ecuador/libertad-expresion-ecuador-orden-militar-encendio-alarmas-human-rights-watch-146844.html+)
@@ -473,7 +326,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2026-02-19
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Superintendencia de Compañías [dispuso la intervención de
@@ -481,14 +333,6 @@ paises:
           editora de los diarios EXPRESO y EXTRA como parte de un cuestionado
           proceso iniciado por la Secretaría Técnica de Gestión Inmobiliaria del
           Sector Público. En respuesta, la [SIP
-=======
-        url: https://www.expreso.ec/actualidad/intervienen-granasa-editora-de-expreso-y-extra-por-pedido-de-inmobiliar-275003.html
-        texto: >-
-          La Superintendencia de Compañías [dispuso la intervención de
-          GRANASA]($url), editora de los diarios EXPRESO y EXTRA como parte de un
-          cuestionado proceso iniciado por la Secretaría Técnica de Gestión
-          Inmobiliaria del Sector Público. En respuesta, la [SIP
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           advirtió](https://www.expreso.ec/actualidad/la-sip-expresa-preocupacion-por-intervencion-editora-de-expreso-y-extra-275057.html)
           que esta medida “plantea serias dudas sobre el respeto a las garantías
           fundamentales del debido proceso”. Martha Ramos, presidenta de la Comisión
@@ -509,7 +353,6 @@ paises:
   - pais: Guatemala
     entradas:
       - fecha: 2026-02-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Misión Especial de la Organización de los Estados Americanos en
@@ -522,26 +365,12 @@ paises:
           contra el orden democrático, y a evaluaciones previas de parte de la
           Comisión Interamericana de Derechos Humanos y la Relatoría Especial para
           la Libertad de Expresión en las que se ha documentado un patrón de
-=======
-        url: https://lahora.gt/nacionales/dguzman/2026/02/09/oea-expresa-preocupacion-por-postulacion-de-consuelo-porras-a-magistrada-de-la-cc/
-        texto: >-
-          La Misión Especial de la Organización de los Estados Americanos en
-          Guatemala expresó su [preocupación este lunes por la postulación de la
-          fiscal general del Ministerio Público]($url), Consuelo Porras, como
-          magistrada titular y suplente de la Corte de Constitucionalidad. La
-          preocupación de la OEA se debe a que, según el organismo, el Ministerio
-          Público ha incurrido en acciones que atentaron contra el orden
-          democrático, y a evaluaciones previas de parte de la Comisión
-          Interamericana de Derechos Humanos y la Relatoría Especial para la
-          Libertad de Expresión en las que se ha documentado un patrón de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           criminalización contra operadores de justicia, defensores de derechos
           humanos y periodistas durante su gestión.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2026-02-13
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Sociedad Interamericana de Prensa [celebró la liberación del periodista
@@ -551,23 +380,12 @@ paises:
           proceso ampliamente cuestionado por la ausencia de garantías plenas de
           debido proceso y por su carácter de represalia frente a su labor de
           investigación sobre corrupción y crimen organizado.
-=======
-        url: https://adepa.org.ar/sip-saluda-liberacion-jose-ruben-zamora-guatemala/
-        texto: >-
-          La Sociedad Interamericana de Prensa [celebró la liberación del periodista
-          guatemalteco José Rubén Zamora]($url), quien permaneció privado de
-          libertad durante más de tres años en un proceso ampliamente cuestionado
-          por la ausencia de garantías plenas de debido proceso y por su carácter de
-          represalia frente a su labor de investigación sobre corrupción y crimen
-          organizado.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: México
     entradas:
       - fecha: 2026-01-27
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Juez Tercero de Distrito en Materia Penal en el Estado de Puebla,
@@ -576,20 +394,10 @@ paises:
           en el juicio de amparo 825/2025, promovido a instancias de PROJUC en favor
           de ARTICLE 19, declarando inconstitucional el delito de “ciberasedio”
           establecido en el artículo 480 del Código Penal del Estado de Puebla.
-=======
-        url: https://articulo19.org/juzgado-ampara-a-article-19-y-declara-inconstitucional-el-delito-de-ciberasedio-en-puebla/
-        texto: >-
-          El Juez Tercero de Distrito en Materia Penal en el Estado de Puebla,
-          [concedió el amparo]($url) en el juicio de amparo 825/2025, promovido a
-          instancias de PROJUC en favor de ARTICLE 19, declarando inconstitucional
-          el delito de “ciberasedio” establecido en el artículo 480 del Código Penal
-          del Estado de Puebla.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2026-02-17
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En el Congreso fueron presentadas diversas iniciativas para establecer [la
@@ -597,13 +405,6 @@ paises:
           aplicaciones de
           citas](https://gaceta.diputados.gob.mx/Gaceta/66/2026/feb/20260217-II-1-1.html#Iniciativa17)
           y usuarios de [correo
-=======
-        url: https://gaceta.diputados.gob.mx/Gaceta/66/2026/feb/20260217-II-1-1.html#Iniciativa17
-        texto: >-
-          En el Congreso fueron presentadas diversas iniciativas para establecer [la
-          obligación de identificación de personas usuarias de redes sociales,
-          aplicaciones de citas]($url) y usuarios de [correo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           electrónico](https://gaceta.diputados.gob.mx/Gaceta/66/2026/feb/20260217-II-1-1.html#Iniciativa22)
           con el objetivo de establecer [verificaciones de
           edad](https://infosen.senado.gob.mx/sgsp/gaceta/66/2/2026-02-18-1/assets/documentos/Ini_PAN_Sen_Dorantes_LGDNNyA_18022026.pdf)
@@ -616,11 +417,7 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2026-01-12
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El desembargador Sérgio Fusquine Gonçalves, de la 19.ª Cámara Civil del
           Tribunal de Justicia de Rio Grande do Sul (TJRS), [determinó que dos
@@ -629,14 +426,9 @@ paises:
           compulsivo](https://www.tjrs.jus.br/novo/noticia/justica-determina-exclusao-de-usuario-compulsivo-de-plataformas-de-apostas-online/).
           El caso se originó a partir de una solicitud del propio usuario, quien
           alegó una falla de las plataformas en la adopción de políticas de juego
-<<<<<<< HEAD
           responsable previstas en la [Ley n.º
           14.790/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm)
           y en la [Ordenanza SPA/MF n.º
-=======
-          responsable previstas en la [Ley n.º 14.790/2023]($url) y en la [Ordenanza
-          SPA/MF n.º
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           1.231/2024](https://www.in.gov.br/en/web/dou/-/portaria-spa/mf-n-1.231-de-31-de-julho-de-2024-575670297),
           lo que lo habría llevado a desarrollar un trastorno de juego patológico
           (ludopatía), con un perjuicio de más de R$ 129.000. El usuario solicitó su
@@ -656,17 +448,12 @@ paises:
           - plataformas-digitales
 
       - fecha: 2026-01-15
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2026/01/0F708517CCDC1A_Sentenca-1.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El Juez de Goiás, Gustavo Braga Carvalho, del 4.º Juzgado Especial Civil
           de Goiânia (TJ/GO), [estimó parcialmente una demanda en la que una empresa
           alegó haber sido víctima de la creación de un sitio web y un perfil de
           Instagram fraudulentos, utilizados por terceros para cometer estafas
-<<<<<<< HEAD
           contra personas
           consumidoras](https://internetlab.org.br/wp-content/uploads/2026/01/0F708517CCDC1A_Sentenca-1.pdf).
           La acción se interpuso contra Facebook, la empresa de alojamiento
@@ -678,18 +465,6 @@ paises:
           empresa de alojamiento, el mantenimiento del sitio y del perfil
           fraudulentos tras tener conocimiento de la irregularidad configuró una
           falla en la prestación del servicio, en los términos del [Marco Civil de
-=======
-          contra personas consumidoras]($url). La acción se interpuso contra
-          Facebook, la empresa de alojamiento responsable del sitio y Google, bajo
-          el argumento de que, aun tras notificaciones y conocimiento inequívoco del
-          fraude, las plataformas no adoptaron medidas eficaces para retirar los
-          contenidos ilícitos. El juez reconoció la falta de legitimación pasiva de
-          Google, por actuar únicamente como proveedor de búsquedas, y entendió que,
-          respecto de Facebook y de la empresa de alojamiento, el mantenimiento del
-          sitio y del perfil fraudulentos tras tener conocimiento de la
-          irregularidad configuró una falla en la prestación del servicio, en los
-          términos del [Marco Civil de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Internet](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm).
           Así, bajo apercibimiento de multa diaria por incumplimiento, se ordenó la
           retirada definitiva del sitio y del perfil, así como la entrega de los
@@ -703,7 +478,6 @@ paises:
           - plataformas-digitales
 
       - fecha: 2026-01-20
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Autoridad Nacional de Protección de Datos (ANPD), el Ministerio Público
@@ -720,22 +494,6 @@ paises:
           Instituto Brasileño de Defensa del Consumidor (Idec) a integrantes del
           Comité Intersectorial para la Protección de los Derechos de Niños, Niñas y
           Adolescentes en el Entorno
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2026/01/recomendacao_conjunta_anpd_mpf_senacon_caso_grok.pdf
-        texto: >-
-          La Autoridad Nacional de Protección de Datos (ANPD), el Ministerio Público
-          Federal (MPF) y la Secretaría Nacional del Consumidor (Senacon) emitieron
-          una [recomendación conjunta]($url) a la empresa controladora de la
-          [plataforma X](https://x.com/?lang=pt) (antes Twitter) para la adopción de
-          medidas inmediatas que impidan que la inteligencia artificial Grok genere
-          y difunda contenidos sexualizados indebidos. La orientación incide
-          especialmente sobre contenidos que utilizan imágenes de personas reales
-          sin consentimiento, como mujeres, y sobre cualquier material de carácter
-          sexual que involucre a niños, niñas y adolescentes. La recomendación
-          resulta de un [oficio remitido por el Instituto Brasileño de Defensa del
-          Consumidor (Idec) a integrantes del Comité Intersectorial para la
-          Protección de los Derechos de Niños, Niñas y Adolescentes en el Entorno
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Digital](https://internetlab.org.br/wp-content/uploads/2026/01/Oficio-Comit-Intersetorial-Grok.pdf),
           en el cual se señalaron indicios de violaciones asociadas al uso de la
           herramienta de IA generativa integrada a X. Entre las medidas recomendadas
@@ -751,30 +509,19 @@ paises:
           uso indebido de datos personales.
         etiquetas:
           - inteligencia-artificial
-<<<<<<< HEAD
           - violencia-de-genero
           - proteccion-de-menores
 
       - fecha: 2026-01-28
         tipo: proyecto
-=======
-          - proteccion-de-menores
-
-      - fecha: 2026-01-28
-        url: https://internetlab.org.br/wp-content/uploads/2026/02/0707142-86.2026.8.07.0016-1769638724544-11113-decisao.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El juez Júlio César Lérias Ribeiro, [del 6.º Juzgado Especial Civil de
           Brasilia del Tribunal de Justicia del Distrito Federal y de los
           Territorios (TJDFT), concedió una tutela de urgencia para determinar que
           Meta reactive los perfiles de Facebook e Instagram de un precandidato a
-<<<<<<< HEAD
           diputado
           distrital](https://internetlab.org.br/wp-content/uploads/2026/02/0707142-86.2026.8.07.0016-1769638724544-11113-decisao.pdf).
           [De acuerdo con el sitio
-=======
-          diputado distrital]($url). [De acuerdo con el sitio
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Conjur](https://www.conjur.com.br/2026-jan-31/juiz-ordena-que-meta-reative-perfis-de-pre-candidato-a-deputado-distrital/),
           el precandidato perdió el acceso a las cuentas tras hacer clic en un
           enlace recibido por correo electrónico que aparentaba provenir de la
@@ -794,18 +541,13 @@ paises:
           - plataformas-digitales
 
       - fecha: 2026-01-29
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2026/02/252BC607CF83E7_doc_148922020.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El juez Danilo Fadel de Castro, de la 10.ª Vara Civil del Foro Central del
           Tribunal de Justicia de São Paulo (TJSP), [estimó parcialmente la acción
           de indemnización por daños morales interpuesta por el diputado federal
           Guilherme Boulos (PSOL/SP) contra Pablo Marçal, a raíz de la divulgación
           reiterada de informaciones falsas durante las elecciones a la alcaldía de
-<<<<<<< HEAD
           São Paulo en
           2024](https://internetlab.org.br/wp-content/uploads/2026/02/252BC607CF83E7_doc_148922020.pdf).
           Según la sentencia, Marçal promovió una campaña difamatoria al asociar
@@ -822,31 +564,12 @@ paises:
           ofensivo por terceros. Reconocido el daño moral, el juez condenó a Pablo
           Marçal al pago de una indemnización por el monto de R$ 100.000 a favor de
           Boulos.
-=======
-          São Paulo en 2024]($url). Según la sentencia, Marçal promovió una campaña
-          difamatoria al asociar públicamente a Boulos con el consumo de drogas
-          ilícitas y al difundir, en la víspera de la elección, un informe médico
-          falso que atribuía al adversario un supuesto brote psicótico derivado del
-          uso de cocaína. La decisión destacó que peritajes de la Policía Civil y de
-          la Policía Federal comprobaron la falsedad del documento, incluida la
-          falsificación de la firma de un médico ya fallecido, descartando la tesis
-          defensiva de desconocimiento del fraude. El magistrado entendió que la
-          conducta excedió los límites de la crítica política y de la libertad de
-          expresión, configurando un acto ilícito, potenciado por el amplio alcance
-          digital del demandado y por estrategias de incentivo a la replicación del
-          contenido ofensivo por terceros. Reconocido el daño moral, el juez condenó
-          a Pablo Marçal al pago de una indemnización por el monto de R$ 100.000 a
-          favor de Boulos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - electoral
           - libertad-de-expresion
 
       - fecha: 2026-02-02
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: PL 98/2026
         url: https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3077326&filename=PL%2098/2026
         texto: >-
@@ -868,10 +591,7 @@ paises:
           - proteccion-de-menores
 
       - fecha: 2026-02-02
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: PL 58/2026
         url: https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3075966&filename=PL%2058/2026
         texto: >-
@@ -896,7 +616,6 @@ paises:
           - defensa-del-consumidor
 
       - fecha: 2026-02-03
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Fue presentado el [Proyecto de Ley n.º
@@ -907,17 +626,6 @@ paises:
           generados por IA destinados a difamar, manipular la imagen de candidaturas
           o influir indebidamente en el voto. El texto también propone
           modificaciones al [Marco Civil de Internet (Ley n.º
-=======
-        url: https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3078129&filename=PL%20212/2026
-        texto: >-
-          Fue presentado el [Proyecto de Ley n.º 212/2026]($url), de autoría del
-          diputado federal Rubens Pereira Júnior (PT/MA), que criminaliza el uso de
-          deepfakes con finalidad electoral. La propuesta prevé una pena de 2 a 6
-          años para quien produzca o difunda contenidos generados por IA destinados
-          a difamar, manipular la imagen de candidaturas o influir indebidamente en
-          el voto. El texto también propone modificaciones al [Marco Civil de
-          Internet (Ley n.º
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           12.965/2014)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm),
           al prever la responsabilidad administrativa y civil solidaria de los
           proveedores de aplicaciones que, tras notificación formal de la autoridad
@@ -928,17 +636,12 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2026-02-03
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/03022026-STJ-garante-liberdade-de-imprensa-e-afasta-censura-a-noticias-com-criticas-a-agentes-publicos.aspx
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El vicepresidente del Superior Tribunal de Justicia (STJ), el ministro
           Luis Felipe Salomão, [suspendió medidas cautelares que prohibían a un
           periodista divulgar noticias que involucraban a una diputada, determinaban
           la remoción de publicaciones e imponían la suspensión temporal de sus
-<<<<<<< HEAD
           perfiles en redes
           sociales](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/03022026-STJ-garante-liberdade-de-imprensa-e-afasta-censura-a-noticias-com-criticas-a-agentes-publicos.aspx).
           La decisión fue dictada en un habeas corpus que cuestionaba la legalidad
@@ -950,17 +653,6 @@ paises:
           prohibida, conforme a la jurisprudencia del Supremo Tribunal Federal
           ([ADPF
           130](https://portal.stf.jus.br/processos/detalhe.asp?incidente=12837).
-=======
-          perfiles en redes sociales]($url). La decisión fue dictada en un habeas
-          corpus que cuestionaba la legalidad de las restricciones impuestas en una
-          investigación que examina una supuesta campaña de difamación y ataques al
-          honor de la parlamentaria, mediante publicaciones críticas e imputaciones
-          de actos ilícitos. Al analizar el caso, el ministro destacó que la
-          intervención estatal en la actividad periodística es excepcional y que la
-          censura previa está prohibida, conforme a la jurisprudencia del Supremo
-          Tribunal Federal ([ADPF
-          130](https://portal.stf.jus.br/processos/detalhe.asp?incidente=12837)).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Señaló además que eventuales excesos deben ser examinados por vías
           posteriores y menos gravosas, como el derecho de respuesta, la
           rectificación o la indemnización. Con ello, quedaron suspendidas las
@@ -970,11 +662,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2026-02-03
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/Lei/L15211.htm
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           [El Ministerio de Justicia y Seguridad Pública publicó la
           consolidación](https://www.gov.br/mj/pt-br/assuntos/noticias/mjsp-divulga-relatorio-sobre-verificacao-de-idade-na-internet)
@@ -984,7 +672,6 @@ paises:
           realizada entre octubre y noviembre de 2025. El material servirá de insumo
           para la elaboración del decreto que reglamentará la [Ley n.º 15.211/2025,
           conocida como el Estatuto Digital de la Niñez y la Adolescencia (ECA
-<<<<<<< HEAD
           Digital)](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/Lei/L15211.htm),
           que entra en vigor en marzo de 2026. Elaborado con el apoyo de
           instituciones como la UNESCO, la Autoridad Nacional de Protección de Datos
@@ -994,16 +681,6 @@ paises:
           riesgo, la definición de niveles de riesgo para distintos servicios
           digitales y los impactos de estas medidas sobre la privacidad, la
           inclusión digital y los costos para las empresas.
-=======
-          Digital)]($url), que entra en vigor en marzo de 2026. Elaborado con el
-          apoyo de instituciones como la UNESCO, la Autoridad Nacional de Protección
-          de Datos (ANPD) y la Secretaría Nacional del Consumidor (Senacon), el
-          documento sistematiza posiciones sobre la verificación etaria, entre las
-          cuales se incluyen la insuficiencia de la autodeclaración para servicios
-          de alto riesgo, la definición de niveles de riesgo para distintos
-          servicios digitales y los impactos de estas medidas sobre la privacidad,
-          la inclusión digital y los costos para las empresas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - proteccion-de-menores
           - plataformas-digitales
@@ -1011,24 +688,18 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2026-01-24
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Poder Ejecutivo promulgó el [Decreto Legislativo N°
           1700](https://busquedas.elperuano.pe/dispositivo/NL/2480387-2), que
-=======
-        url: https://busquedas.elperuano.pe/dispositivo/NL/2480387-2
-        texto: >-
-          El Poder Ejecutivo promulgó el [Decreto Legislativo N° 1700]($url), que
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           modifica la Ley de Delitos Informáticos para incorporar el tipo penal de
           adquisición, posesión y tráfico ilícito de datos informáticos. La
           redacción ambigua y amplia de la norma representa un riesgo para la
           libertad de expresión pues no diferencia entre las actividades ilícitas de
           hackeo y lucro con información confidencial, de otros fines lícitos como,
-<<<<<<< HEAD
-          por ejemplo, el acceso o posesión de datos con fines periodísticos. DATOS
-          DIGITALES CIBERDELITO
+          por ejemplo, el acceso o posesión de datos con fines periodísticos.
+        etiquetas:
+          - privacidad
 
       - fecha: 2026-02-11
         tipo: proyecto
@@ -1042,30 +713,11 @@ paises:
           aprobado delito de adquisición, posesión y tráfico ilícito de datos
           informáticos para amedrentar al periodista por exponer la negligencia
           municipal.
-=======
-          por ejemplo, el acceso o posesión de datos con fines periodísticos.
-        etiquetas:
-          - privacidad
-
-      - fecha: 2026-02-11
-        url: https://www.infobae.com/peru/2026/02/11/gestion-de-carlos-canales-amenaza-con-carcel-a-periodistas-por-revelar-fuga-de-datos-en-miraflores-denuncia-marco-sifuentes/
-        texto: >-
-          La gestión del Alcalde de Miraflores, Carlos Canales, [denunció penalmente
-          al equipo periodístico de “La Encerrona”]($url) tras la difusión de un
-          reportaje que informaba sobre una grave vulnerabilidad de seguridad en el
-          portal web del municipio que expuso datos personales de los vecinos. La
-          denuncia emplea el recientemente aprobado delito de adquisición, posesión
-          y tráfico ilícito de datos informáticos para amedrentar al periodista por
-          exponer la negligencia municipal.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2026-02-12
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 1739/12
         url: https://busquedas.elperuano.pe/dispositivo/NL/2487222-1
         texto: >-
@@ -1080,32 +732,20 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2026-02-20
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://lpderecho.pe/tc-declara-nula-condena-daniel-urresti-ordena-libertad-expediente-02939-2025-phc-tc/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El Tribunal Constitucional, en una controvertida decisión, declaró fundado
           el recurso de hábeas corpus interpuesto por el ex ministro y General del
           Ejército en retiro Daniel Urresti, [anulando la condena de 16 años que se
-<<<<<<< HEAD
           le impuso por el asesinato del periodista Hugo
           Bustíos](https://lpderecho.pe/tc-declara-nula-condena-daniel-urresti-ordena-libertad-expediente-02939-2025-phc-tc/)
           en noviembre de 1988; situación que generó alarma entre organizaciones de
           periodistas y defensores de derechos humanos, reactivando el debate sobre
           impunidad y protección de la labor periodística.
-=======
-          le impuso por el asesinato del periodista Hugo Bustíos]($url) en noviembre
-          de 1988; situación que generó alarma entre organizaciones de periodistas y
-          defensores de derechos humanos, reactivando el debate sobre impunidad y
-          protección de la labor periodística.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -1157,8 +797,4 @@ paises:
 | Moral Pública | 2,0% |
 | Otros | 11,0% |
 
-=======
-{{< observatorio-mes month="2026-02" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

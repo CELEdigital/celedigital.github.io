@@ -15,21 +15,15 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2025-11-18
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6604-D-2025
         url: https://drive.google.com/file/d/14r0R7szXV12qX3kuIw5OJZNAZd5atKph/view?usp=sharing
         texto: >-
@@ -55,10 +49,7 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2025-11-25
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6651-D-2025
         url: https://drive.google.com/file/d/1NOMdRPEJkK45b7wO_kSMb-4lIP6mYkM-/view?usp=sharing
         texto: >-
@@ -71,17 +62,10 @@ paises:
           verificación de identidad específicos, validados por la autoridad
           competente, y de protección de datos personales.
         etiquetas:
-<<<<<<< HEAD
           - plataformas-digitales
 
       - fecha: 2025-11-25
         tipo: proyecto
-=======
-          - privacidad
-          - plataformas-digitales
-
-      - fecha: 2025-11-25
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6653-D-2025
         url: https://drive.google.com/file/d/1zi2twM6OwrLau21WjbQjeTlLYdgWisYK/view?usp=sharing
         texto: >-
@@ -98,17 +82,11 @@ paises:
           generado al público por este tipo de campañas de desinformación.
         etiquetas:
           - electoral
-<<<<<<< HEAD
           - libertad-de-expresion
           - inteligencia-artificial
 
       - fecha: 2025-11-25
         tipo: proyecto
-=======
-          - inteligencia-artificial
-
-      - fecha: 2025-11-25
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6686-D-2025
         url: https://drive.google.com/file/d/1C-Pg7xZi6RdNzop9alOKTwiYfjQObUtr/view?usp=sharing
         texto: >-
@@ -122,10 +100,7 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-11-26
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6700-D-2025
         url: https://drive.google.com/file/d/1JivEtmLXLvV_rj0oZQgnmw1FtcTfcUtW/view?usp=sharing
         texto: >-
@@ -135,16 +110,11 @@ paises:
           consentimiento de alguna de las personas involucradas. Se indican también
           los agravantes de esta falta, así como otras disposiciones sobre la
           sanción.
-<<<<<<< HEAD
         etiquetas:
           - violencia-de-genero
 
       - fecha: 2025-11-26
         tipo: proyecto
-=======
-
-      - fecha: 2025-11-26
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6713-D-2025
         url: https://drive.google.com/file/d/1YzWv3Cq-EjLr91BTtdzrZ0DBe288UMpi/view?usp=sharing
         texto: >-
@@ -168,10 +138,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-11-26
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 1994/25
         url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/1994.25/S/PL
         texto: >-
@@ -183,17 +150,11 @@ paises:
           hacer explícito que las sanciones por este delito también aplican en los
           casos en que el exhibicionismo se realice por medios digitales.
         etiquetas:
-<<<<<<< HEAD
           - violencia-de-genero
           - inteligencia-artificial
 
       - fecha: 2025-11-27
         tipo: proyecto
-=======
-          - inteligencia-artificial
-
-      - fecha: 2025-11-27
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6751-D-2025
         url: https://drive.google.com/file/d/1C9tak1tnWji0NbceLc39jdTtIoVeKGRs/view?usp=sharing
         texto: >-
@@ -237,33 +198,20 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-11-27
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.primerafuente.com.ar/noticias/127031/libertad-prensa-apt-andhes-se-constituyeron-como-amicus-curiae
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La Asociación de Prensa de Tucumán (APT) y Abogados y Abogadas del
           Noroeste Argentino en Derechos Humanos y Estatutos Sociales (ANDHES)
           realizaron una presentación ante el Tribunal de Impugnación [con el fin de
-<<<<<<< HEAD
           convertirse en amicus curiae (amigos del
           tribunal)](https://www.primerafuente.com.ar/noticias/127031/libertad-prensa-apt-andhes-se-constituyeron-como-amicus-curiae),
           en el juicio por la medida cautelar que impide al canal de cable CCC
           criticar la labor de los fiscales del Ministerio Público Fiscal.
-=======
-          convertirse en amicus curiae (amigos del tribunal)]($url), en el juicio
-          por la medida cautelar que impide al canal de cable CCC criticar la labor
-          de los fiscales del Ministerio Público Fiscal.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2025-11-27
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 2030/25
         url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/2030.25/S/PL
         texto: >-
@@ -279,10 +227,7 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-11-28
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6768-D-2025
         url: https://drive.google.com/file/d/1BMOT3HurBgDIBce6LTmXeHAGVXuI0C28/view?usp=sharing
         texto: >-
@@ -292,16 +237,11 @@ paises:
           exposición indecente mediante tecnologías de la información, y por la
           difusión no consentida de contenido de desnudez, naturaleza sexual o
           representaciones sexuales.
-<<<<<<< HEAD
         etiquetas:
           - violencia-de-genero
 
       - fecha: 2025-11-28
         tipo: proyecto
-=======
-
-      - fecha: 2025-11-28
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6769-D-2025
         url: https://drive.google.com/file/d/1ydXfW9FsoDFwtww3BhXmmR_MGx91E95N/view?usp=sharing
         texto: >-
@@ -310,35 +250,22 @@ paises:
           La definición de este delito incluiría: Acoso; divulgación de datos
           personales de la víctima sin su consentimiento, causándole un daño y/o
           atentando contra su seguridad; e intentar establecer contacto directa o
-<<<<<<< HEAD
-          indirectamente con una persona sin su consentimiento. HOSTIGAMIENTO
-          DIGITAL
-
-      - fecha: 2025-11-28
-        tipo: proyecto
-=======
           indirectamente con una persona sin su consentimiento.
 
       - fecha: 2025-11-28
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+        tipo: proyecto
         exp: 6770-D-2025
         url: https://drive.google.com/file/d/1aCyGyh0LrBP4muu1jZp7k3A9pEbeZFUd/view?usp=sharing
         texto: >-
           La diputada Mónica Macha presentó el [Proyecto de Ley N°
           6770-D-2025]($url) que establecería sanciones penales y civiles para
           aquellas personas que suplanten digitalmente la identidad de otra persona
-<<<<<<< HEAD
-          sin su consentimiento. IDENTIDAD DIGITAL
-
-      - fecha: 2025-12-02
-        tipo: proyecto
-=======
           sin su consentimiento.
         etiquetas:
           - privacidad
 
       - fecha: 2025-12-02
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+        tipo: proyecto
         exp: 6821-D-2025
         url: https://drive.google.com/file/d/1OjpRmPfHIBVtwfZFgaIJC33tH2PWbMmp/view?usp=sharing
         texto: >-
@@ -352,10 +279,7 @@ paises:
           - privacidad
 
       - fecha: 2025-12-04
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6919-D-2025
         url: https://drive.google.com/file/d/1Itpk9hZUpw0l615OynEyxHd1bgwMZgYK/view?usp=sharing
         texto: >-
@@ -364,17 +288,10 @@ paises:
           Código Penal para los delitos de hostigamiento digital y de crear,
           transformar, suplantar, apropiarse, utilizar, difundir, publicar o
           distribuir por medios de comunicación la identidad de una persona ajena
-<<<<<<< HEAD
-          sin su consentimiento con la intención de cometer un delito. HOSTIGAMIENTO
-          DIGITAL
-
-      - fecha: 2025-12-09
-        tipo: proyecto
-=======
           sin su consentimiento con la intención de cometer un delito.
 
       - fecha: 2025-12-09
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+        tipo: proyecto
         exp: 6960-D-2025
         url: https://drive.google.com/file/d/1C7FXC-1zGyJp5xqLrKBMCC7XOIq1Ztwj/view?usp=sharing
         texto: >-
@@ -393,7 +310,6 @@ paises:
           civiles y rectificación de la información.
         etiquetas:
           - libertad-de-prensa
-<<<<<<< HEAD
           - libertad-de-expresion
 
       - fecha: 2025-12-11
@@ -403,15 +319,6 @@ paises:
           presidente Javier Milei contra el periodista Nicolás
           Lantos](https://www.perfil.com/noticias/politica/javier-milei-debera-pagar-mas-de-5-millones-tras-perder-una-denuncia-contra-un-periodista.phtml)
           por “calumnias e injurias”. Debido a esta derrota judicial, el presidente
-=======
-
-      - fecha: 2025-12-11
-        url: https://www.perfil.com/noticias/politica/javier-milei-debera-pagar-mas-de-5-millones-tras-perder-una-denuncia-contra-un-periodista.phtml
-        texto: >-
-          El Poder Judicial [falló en contra de la denuncia presentada por el
-          presidente Javier Milei contra el periodista Nicolás Lantos]($url) por
-          “calumnias e injurias”. Debido a esta derrota judicial, el presidente
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           deberá pagar a Lantos más de 5 millones y medio de pesos. Este fallo viene
           tras una seguidilla de denuncias del presidente contra múltiples
           periodistas opositores, en lo que el medio PERFIL calificó como un intento
@@ -420,20 +327,12 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-12-11
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El presidente Javier Milei presentó una [iniciativa legislativa de reforma
           laboral, que incluye la derogación del Estatuto del
           Periodista](https://www.politicargentina.com/notas/202512/70501-milei-suma-otro-ataque-a-la-prensa-la-derogacion-del-estatuto-del-periodista-con-la-reforma-laboral.html).
           La reforma laboral propuesta dejaría sin efecto la Ley 12.908 que regula
-=======
-        url: https://www.politicargentina.com/notas/202512/70501-milei-suma-otro-ataque-a-la-prensa-la-derogacion-del-estatuto-del-periodista-con-la-reforma-laboral.html
-        texto: >-
-          El presidente Javier Milei presentó una [iniciativa legislativa de reforma
-          laboral, que incluye la derogación del Estatuto del Periodista]($url). La
-          reforma laboral propuesta dejaría sin efecto la Ley 12.908 que regula
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           funciones, derechos y garantías de los periodistas profesionales. También
           buscará derogar artículos de la Ley de Servicios de Comunicación
           Audiovisual que establecen gravámenes a las señales audiovisuales con la
@@ -458,10 +357,7 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2025-12-16
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 18019-07
         url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=18682&prmBOLETIN=18019-07
         texto: >-
@@ -475,10 +371,7 @@ paises:
   - pais: Paraguay
     entradas:
       - fecha: 2025-12-03
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: S-2503075
         url: https://silpy.congreso.gov.py/web/expediente/150212
         texto: >-
@@ -497,10 +390,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-12-04
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: S-2503069
         url: https://silpy.congreso.gov.py/web/expediente/150188
         texto: >-
@@ -529,7 +419,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-12-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Cámara de Senadores resolvió [dejar en pausa hasta marzo de 2026 el
@@ -538,14 +427,6 @@ paises:
           Violencia](https://elnacional.com.py/politica/periodistas-pueden-esperar-senado-posterga-marzo-ley-proteccion-n97455).
           La postergación ocurre en medio de [cuestionamientos del contenido actual
           de la iniciativa
-=======
-        url: https://elnacional.com.py/politica/periodistas-pueden-esperar-senado-posterga-marzo-ley-proteccion-n97455
-        texto: >-
-          La Cámara de Senadores resolvió [dejar en pausa hasta marzo de 2026 el
-          debate sobre la Ley De Prevención, Protección y Asistencia a Periodistas y
-          Trabajadores de Prensa Víctimas de Violencia]($url). La postergación
-          ocurre en medio de [cuestionamientos del contenido actual de la iniciativa
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           legislativa](https://www.abc.com.py/politica/2025/12/10/varela-advierte-riesgo-de-libertad-de-expresion-con-nuevo-proyecto-de-proteccion-a-periodistas/),
           pero también de reclamos por parte de los trabajadores de la prensa acerca
           de la necesidad de establecer protecciones cuanto antes.
@@ -555,7 +436,6 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2025-12-12
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Juzgado 12 Penal Municipal con Función de Control de Garantías de Neiva
@@ -567,18 +447,6 @@ paises:
           había drogado y abusado sexualmente de su hijo. De acuerdo con el fallo,
           estas declaraciones vulneraron los derechos fundamentales al buen nombre y
           a la honra de Yolanda Robles Ramírez. Además, imputar la comisión de un
-=======
-        url: https://extrategiamedios.com/juez-exige-retractacion-al-presidente-de-la-corte-constitucional-por-senalamiento-grave-contra-la-madre-de-su-hijo/
-        texto: >-
-          El Juzgado 12 Penal Municipal con Función de Control de Garantías de Neiva
-          [ordenó al presidente de la Corte Constitucional]($url), Jorge Enrique
-          Ibáñez Najar, retractarse y presentar disculpas públicas a la madre de su
-          hijo mayor, Yolanda Inés Robles Ramírez, por señalamientos graves. En una
-          entrevista con Casa Macondo, el magistrado aseguró que ella había drogado
-          y abusado sexualmente de su hijo. De acuerdo con el fallo, estas
-          declaraciones vulneraron los derechos fundamentales al buen nombre y a la
-          honra de Yolanda Robles Ramírez. Además, imputar la comisión de un
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           presunto abuso sexual y difundir expresiones que la agravan puede generar
           riesgos adicionales para su integridad, más aún cuando provienen de una
           figura de alto rango institucional. Por ello, se le ha dado un plazo de 5
@@ -589,7 +457,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-12-12
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Tribunal Administrativo de Cundinamarca emitió un fallo por el cual se
@@ -599,30 +466,15 @@ paises:
           Marta Lucía Ramírez. Petro deberá retractarse de lo dicho en sus
           publicaciones del 29 de agosto, cuando señaló a la exvicepresidenta de
           tener como “socios comerciales” a un “narcotraficante y paramilitar”.
-=======
-        url: https://www.semana.com/nacion/articulo/tribunal-le-ordena-al-presidente-petro-retractarse-de-sus-senalamientos-contra-la-exvicepresidenta-marta-lucia-ramirez/202555/
-        texto: >-
-          El Tribunal Administrativo de Cundinamarca emitió un fallo por el cual se
-          le [ordena al presidente Gustavo Petro retractarse de las publicaciones
-          hechas en contra de la exvicepresidenta]($url) Marta Lucía Ramírez. Petro
-          deberá retractarse de lo dicho en sus publicaciones del 29 de agosto,
-          cuando señaló a la exvicepresidenta de tener como “socios comerciales” a
-          un “narcotraficante y paramilitar”.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2025-12-14
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.bluradio.com/nacion/juez-ordena-a-petro-retractarse-y-pedir-excusas-a-los-empresarios-roberto-y-luis-alberto-moreno-rg10
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Juzgado 35 Administrativo del Circuito Judicial de Bogotá, Sección
           Tercera, resolvió [amparar las acciones de tutela interpuestas por los
           empresarios Roberto Moreno Mejía y Luis Alberto Moreno Mejía contra el
-<<<<<<< HEAD
           presidente Gustavo
           Petro](https://www.bluradio.com/nacion/juez-ordena-a-petro-retractarse-y-pedir-excusas-a-los-empresarios-roberto-y-luis-alberto-moreno-rg10),
           por considerar vulnerados sus derechos fundamentales al buen nombre,
@@ -632,23 +484,12 @@ paises:
           tierras a través de la urbanización de la hacienda San Simón,
           respectivamente. Por ello, se le ordenó al presidente Petro retractarse y
           ofrecer disculpas públicas dentro de las siguientes 48 horas.
-=======
-          presidente Gustavo Petro]($url), por considerar vulnerados sus derechos
-          fundamentales al buen nombre, honra, igualdad y dignidad humana. En
-          declaraciones públicas de octubre y noviembre, Petro acusó sin pruebas a
-          los empresarios de estar involucrados en el robo del Banco del Pacífico y
-          en esquemas de lavado de activos o de tierras a través de la urbanización
-          de la hacienda San Simón, respectivamente. Por ello, se le ordenó al
-          presidente Petro retractarse y ofrecer disculpas públicas dentro de las
-          siguientes 48 horas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
   - pais: Ecuador
     entradas:
       - fecha: 2025-12-12
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Fundación Andina para la Observación y Estudio de Medios [(Fundamedios)
@@ -662,58 +503,10 @@ paises:
         etiquetas:
           - libertad-de-prensa
 
-      - fecha: 2025-12-12
-        tipo: proyecto
-        texto: >-
-          El [medio SOY502
-          reportó](https://www.soy502.com/articulo/crece-debate-sobre-regulacion-ia-guatemala-101962)
-          que en los últimos meses ha crecido entre los legisladores el debate
-          acerca de la regulación del uso de inteligencia artificial, especialmente
-          alrededor del Proyecto de Ley de Protección Digital contra Contenidos
-          Falsificados por Inteligencia Artificial del diputado Julio Portillo. El
-          medio recogió las perspectivas de cuatro de los jefes de bloque del
-          Congreso, quienes indicaron que consideran poco probable que el proyecto
-          sea exitoso debido a la dificultad de pasar regulaciones sobre los
-          espacios digitales y hacerlas efectivas.
-        etiquetas:
-          - inteligencia-artificial
-          - libertad-de-expresion
-=======
-        url: https://www.lahora.com.ec/seguridad/fundamedios-presento-una-notitia-criminis-en-fiscalia-por-agresion-a-periodistas-20251212-0027.html
-        texto: >-
-          La Fundación Andina para la Observación y Estudio de Medios [(Fundamedios)
-          presentó una notitia criminis en Fiscalía]($url) por la agresión que
-          sufrieron los equipos periodísticos de TC Televisión y Ecuavisa la
-          madrugada del 9 de diciembre de este año, en la Terminal Terrestre de
-          Guayaquil en una cobertura. La ONG exigió que este incidente se investigue
-          y sancione, y que se ofrezcan garantías para el ejercicio periodístico.
-        etiquetas:
-          - libertad-de-prensa
-
-  - pais: Guatemala
-    entradas:
-      - fecha: 2025-12-12
-        url: https://www.soy502.com/articulo/crece-debate-sobre-regulacion-ia-guatemala-101962
-        texto: >-
-          El [medio SOY502 reportó]($url) que en los últimos meses ha crecido entre
-          los legisladores el debate acerca de la regulación del uso de inteligencia
-          artificial, especialmente alrededor del Proyecto de Ley de Protección
-          Digital contra Contenidos Falsificados por Inteligencia Artificial del
-          diputado Julio Portillo. El medio recogió las perspectivas de cuatro de
-          los jefes de bloque del Congreso, quienes indicaron que consideran poco
-          probable que el proyecto sea exitoso debido a la dificultad de pasar
-          regulaciones sobre los espacios digitales y hacerlas efectivas.
-        etiquetas:
-          - inteligencia-artificial
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
-
   - pais: Brasil
     entradas:
       - fecha: 2025-11-19
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 12.965/2014
         url: https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm
         texto: >-
@@ -727,7 +520,6 @@ paises:
           contenido, la AGU también solicitó la identificación de contenidos
           desinformativos y la reducción de su alcance. En la notificación, la AGU
           enfatizó el reciente fallo del Supremo Tribunal Federal (STF) sobre el
-<<<<<<< HEAD
           Artículo 19 del Marco Civil de Internet ([Ley 12.965/2014]($url), a partir
           del cual las plataformas pueden ser responsabilizadas por el contenido
           generado por terceros en los casos en que, conociendo la existencia de
@@ -767,45 +559,6 @@ paises:
           objetivo prohibir que influenciadores digitales divulguen contenidos sobre
           asuntos que demanden conocimiento especializado y que puedan representar
           riesgos para los seguidores en caso de que no cuenten con formación o
-=======
-          Artículo 19 del Marco Civil de Internet ([Ley 12.965/2014]($url)), a
-          partir del cual las plataformas pueden ser responsabilizadas por el
-          contenido generado por terceros en los casos en que, conociendo la
-          existencia de contenido ilícito, no lo retiren. La notificación de la AGU
-          solicita la eliminación del contenido desinformativo en un plazo de hasta
-          72 horas y, de manera subsidiaria, la identificación y señalización de
-          contenidos engañosos, así como la reducción de su alcance.
-        etiquetas:
-          - plataformas-digitales
-
-      - fecha: 2025-11-25
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2587740
-        texto: >-
-          Fue presentado el [proyecto de ley n.º 5968/2025]($url), de autoría de la
-          diputada federal Ana Paula Lima (PT/SC), que tiene como objetivo modificar
-          el Marco Civil de Internet (Ley 12.965/14 – MCI), la principal ley
-          brasileña que regula los derechos y deberes en el uso de internet, para
-          hacer obligatoria la verificación y validación de la identidad del usuario
-          de aplicaciones de internet. Entre otras medidas, el proyecto propone que
-          los proveedores adopten procedimientos para verificar la identidad del
-          usuario con el objetivo de asegurar la autenticidad de la información
-          compartida, garantizando el sigilo de los datos personales. Además, la
-          propuesta prevé que los proveedores de aplicaciones garanticen mecanismos
-          gratuitos que permitan a las agencias de verificación de hechos señalar
-          informaciones difundidas.
-        etiquetas:
-          - privacidad
-          - plataformas-digitales
-
-      - fecha: 2025-11-26
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2589028
-        texto: >-
-          Fue presentado el [proyecto de ley n.º 5990/2025]($url), de autoría del
-          diputado federal Vicentinho Júnior (PP/TO), que tiene como objetivo
-          prohibir que influenciadores digitales divulguen contenidos sobre asuntos
-          que demanden conocimiento especializado y que puedan representar riesgos
-          para los seguidores en caso de que no cuenten con formación o
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           cualificación técnica sobre el tema. Entre otras medidas, la propuesta
           prevé una lista de asuntos sensibles que requieren la comprobación de
           conocimiento técnico, entre los cuales se incluyen procedimientos médicos,
@@ -816,7 +569,6 @@ paises:
           incumplimiento, como multa y suspensión temporal de la cuenta o perfil.
         etiquetas:
           - plataformas-digitales
-<<<<<<< HEAD
           - libertad-de-expresion
 
       - fecha: 2025-11-26
@@ -838,31 +590,10 @@ paises:
           responsabilizadas cuando quede probado que sabían que la información era
           falsa y, aun así, decidieron divulgarla, [entendiendo que la situación se
           encuadra en el caso concreto de Jovem
-=======
-
-      - fecha: 2025-11-26
-        url: https://www.migalhas.com.br/quentes/445350/jovem-pan-e-condenada-em-r-1-5-milhao-por-fake-news-nas-eleicoes
-        texto: >-
-          El [6.º Juzgado Civil Federal de São Paulo]($url), del Tribunal Regional
-          Federal de la 3.ª Región (TRF3), condenó a Rádio Panamericana, responsable
-          de “[Jovem Pan](https://jovempan.com.br/)”, uno de los principales grupos
-          de medios de comunicación y radio del país, al pago de R$ 1,58 millones en
-          concepto de indemnización por daños morales colectivos, en razón de la
-          difusión sistemática de desinformación sobre el proceso electoral, ataques
-          contra instituciones democráticas, incentivos a la desobediencia civil e
-          incitación a la intervención militar, en las elecciones de 2022. La
-          decisión fue dictada tras la apertura de una investigación y la posterior
-          interposición de una Acción Civil Pública por el Ministerio Público
-          Federal (MPF). La jueza que dictó la sentencia, Denise Avelar Aparecida,
-          señaló que las emisoras pueden ser responsabilizadas cuando quede probado
-          que sabían que la información era falsa y, aun así, decidieron divulgarla,
-          [entendiendo que la situación se encuadra en el caso concreto de Jovem
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Pan](https://internetlab.org.br/wp-content/uploads/2025/12/C55A4F5901D5E1_Sentencajovempan.pdf).
           No obstante, algunos pedidos formulados por el MPF fueron rechazados, como
           la revocación de las concesiones de radiodifusión de la empresa.
         etiquetas:
-<<<<<<< HEAD
           - libertad-de-expresion
           - electoral
 
@@ -894,42 +625,10 @@ paises:
           investigación de eventuales fallas sistémicas que favorecen la ocurrencia
           de estos fraudes. La OAB/SP solicita, además, multa diaria en caso de
           incumplimiento e indemnización por daños morales colectivos.
-=======
-          - electoral
-
-      - fecha: 2025-12-04
-        url: https://www.migalhas.com.br/quentes/445962/oab-sp-pede-que-whatsapp-responda-por-perfis-de-falsos-advogados
-        texto: >-
-          [Según el sitio Migalhas]($url), portal jurídico especializado en noticias
-          legales en Brasil, el 04.12, la sección paulista de la Orden de los
-          Abogados de Brasil (OAB/SP) interpuso una acción civil pública ante la
-          Justicia Federal para que Meta, las operadoras de telefonía y la Anatel,
-          agencia reguladora de las telecomunicaciones en Brasil, adopten medidas
-          eficaces de prevención y eliminación de perfiles utilizados en estafas
-          practicadas por individuos que se hacen pasar por abogados en WhatsApp.
-          Según la demanda, los estafadores han utilizado fotos, nombres y números
-          de profesionales para solicitar pagos indebidos a clientes y familiares,
-          causando perjuicios financieros y daños a la credibilidad de la abogacía.
-          La OAB/SP sostiene que Meta falla en la implementación de mecanismos de
-          identificación y bloqueo capaces de impedir la reactivación sucesiva de
-          estos perfiles fraudulentos y solicita que la empresa sea obligada a
-          mejorar los sistemas de verificación, eliminar cuentas sospechosas en un
-          plazo de hasta 2 horas y ofrecer un canal específico para denuncias de
-          falsos profesionales. En relación con las operadoras de telefonía, la
-          OAB/SP solicita, entre otras medidas, la verificación de identidad para la
-          contratación de nuevas líneas telefónicas, incluyendo biometría y cruce
-          con otras bases de datos, además de la creación de un canal para el
-          bloqueo inmediato de las líneas utilizadas en fraudes. En cuanto a la
-          Anatel, la acción requiere la investigación de eventuales fallas
-          sistémicas que favorecen la ocurrencia de estos fraudes. La OAB/SP
-          solicita, además, multa diaria en caso de incumplimiento e indemnización
-          por daños morales colectivos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - plataformas-digitales
 
       - fecha: 2025-12-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Fue presentado el [proyecto de ley n.º
@@ -943,36 +642,36 @@ paises:
           concurso, de la recolección y el registro de datos biométricos necesarios
           para el reconocimiento de los candidatos, y define medidas de seguridad
           para la verificación de identidad. La proposición busca fortalecer la
-=======
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2594578
-        texto: >-
-          Fue presentado el [proyecto de ley n.º 6294/2025]($url), de autoría del
-          diputado federal Amom Mandel (CIDADANIA/AM), que tiene como objetivo
-          determinar la obligatoriedad del uso de autenticación biométrica y
-          sistemas antifraude en concursos públicos federales y procesos selectivos
-          de la administración pública, mecanismos ampliamente utilizados en Brasil
-          para el ingreso al servicio público. Entre las previsiones, la propuesta
-          hace obligatoria la inclusión, en la convocatoria de cada concurso, de la
-          recolección y el registro de datos biométricos necesarios para el
-          reconocimiento de los candidatos, y define medidas de seguridad para la
-          verificación de identidad. La proposición busca fortalecer la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           transparencia y la credibilidad de los concursos públicos federales.
         etiquetas:
           - privacidad
           - acceso-a-la-informacion
 
+  - pais: Guatemala
+    entradas:
+      - fecha: 2025-12-12
+        tipo: proyecto
+        texto: >-
+          El [medio SOY502
+          reportó](https://www.soy502.com/articulo/crece-debate-sobre-regulacion-ia-guatemala-101962)
+          que en los últimos meses ha crecido entre los legisladores el debate
+          acerca de la regulación del uso de inteligencia artificial, especialmente
+          alrededor del Proyecto de Ley de Protección Digital contra Contenidos
+          Falsificados por Inteligencia Artificial del diputado Julio Portillo. El
+          medio recogió las perspectivas de cuatro de los jefes de bloque del
+          Congreso, quienes indicaron que consideran poco probable que el proyecto
+          sea exitoso debido a la dificultad de pasar regulaciones sobre los
+          espacios digitales y hacerlas efectivas.
+        etiquetas:
+          - inteligencia-artificial
+          - libertad-de-expresion
+
   - pais: Perú
     entradas:
       - fecha: 2025-11-20
-<<<<<<< HEAD
         tipo: proyecto
         exp: 13268/2025-CR
         url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13268'
-=======
-        exp: 13268/2025-CR
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13268
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La Congresista Katy Ugarte presentó el [Proyecto de Ley N°
           13268/2025-CR]($url), que busca prohibir, tanto a las plataformas
@@ -988,7 +687,6 @@ paises:
           - discurso-de-odio
 
       - fecha: 2025-11-21
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Congresista Pasión Dávila presentó el [Proyecto de Ley N°
@@ -1001,38 +699,17 @@ paises:
           riesgo de afectación a la libertad de expresión, el congresista ha
           señalado que la propuesta no restringe la participación ciudadana “real”
           en redes sociales.
-=======
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13404
-        texto: >-
-          El Congresista Pasión Dávila presentó el [Proyecto de Ley N°
-          13404/2025-CR]($url), que busca sancionar penalmente la manipulación
-          electoral mediante granjas de bots, cuentas falsas o sistemas
-          automatizados en plataformas digitales, destacando que estas prácticas
-          alteran el voto informado y distorsionan el proceso democrático. La
-          iniciativa se encuadra en un contexto pre electoral, a pocos meses de las
-          Elecciones Generales de 2026. Ante el riesgo de afectación a la libertad
-          de expresión, el congresista ha señalado que la propuesta no restringe la
-          participación ciudadana “real” en redes sociales.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - electoral
           - plataformas-digitales
 
       - fecha: 2025-12-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Congreso de la República, mediante [Ley N°
           32527](https://busquedas.elperuano.pe/dispositivo/NL/2468071-1), ha
           otorgado las facultades solicitadas por el Poder Ejecutivo para modificar
           el Código Penal, autorizando la creación del tipo penal de "revelación de
-=======
-        url: https://busquedas.elperuano.pe/dispositivo/NL/2468071-1
-        texto: >-
-          El Congreso de la República, mediante [Ley N° 32527]($url), ha otorgado
-          las facultades solicitadas por el Poder Ejecutivo para modificar el Código
-          Penal, autorizando la creación del tipo penal de "revelación de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           información reservada" en el marco de una investigación policial o
           judicial, así como la inhabilitación como pena aplicable para los
           funcionarios que incurran en dicha conducta. Aunque la norma señala que se
@@ -1045,28 +722,17 @@ paises:
           - vigilancia
 
       - fecha: 2025-12-20
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.infobae.com/peru/2025/12/13/video-registra-el-momento-del-asesinato-del-periodista-fernando-nunez-en-la-libertad-sicarios-lo-interceptaron-y-dispararon/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Tras ocho años de no presentarse crímenes letales contra periodistas, en
           el 2025 han asesinado a tres periodistas y uno se encuentra gravemente
           herido. El 05 de diciembre, sicarios [asesinaron al periodista Fernando
-<<<<<<< HEAD
           Núñez
           Guevara](https://www.infobae.com/peru/2025/12/13/video-registra-el-momento-del-asesinato-del-periodista-fernando-nunez-en-la-libertad-sicarios-lo-interceptaron-y-dispararon/),
           director del medio digital Kamila TV y dirigente de la Asociación Nacional
           de Periodistas (ANP) en Chepén, La Libertad. El 12 de diciembre el
           periodista Mitsar Castillejos, de Aguaytía, Ucayali, [sobrevivió a un
           ataque de
-=======
-          Núñez Guevara]($url), director del medio digital Kamila TV y dirigente de
-          la Asociación Nacional de Periodistas (ANP) en Chepén, La Libertad. El 12
-          de diciembre el periodista Mitsar Castillejos, de Aguaytía, Ucayali,
-          [sobrevivió a un ataque de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           sicarios](https://www.infobae.com/peru/2025/12/13/sicarios-atacan-a-balazos-a-periodista-mitzar-castillejos-en-la-puerta-de-su-casa-en-aguaytia-ucayali/)
           pero se encuentra en estado crítico internado en UCI. Asimismo, el 20 de
           diciembre [balearon el auto del periodista Anthony
@@ -1077,7 +743,6 @@ paises:
           - libertad-de-prensa
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -1125,8 +790,4 @@ paises:
 | Inteligencia artificial | 5,2% |
 | Moral pública | 4,9% |
 
-=======
-{{< observatorio-mes month="2025-12" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

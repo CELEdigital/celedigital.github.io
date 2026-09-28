@@ -15,18 +15,14 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2022-09-01
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El legislador de derecha García Moritán presentó [iniciativa
@@ -34,21 +30,12 @@ paises:
           para demoler el edificio del Ministerio de Desarrollo Social cuyo mural
           representa un símbolo del peronismo. Ante la iniciativa, artistas
           plásticos, urbanistas y políticos
-=======
-        url: https://twitter.com/Robergmoritan/status/1565002698528854021
-        texto: >-
-          El legislador de derecha García Moritán presentó [iniciativa
-          antipiquetera]($url) para demoler el edificio del Ministerio de Desarrollo
-          Social cuyo mural representa un símbolo del peronismo. Ante la iniciativa,
-          artistas plásticos, urbanistas y políticos
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [manifestaron](https://www.pagina12.com.ar/478106-moritan-el-demoledor-y-un-magnicidio-a-la-memoria-del-peroni)
           su indignación y rechazo frente al proyecto de ley.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-09-02
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Ramiro Gutiérrez, en representación del Frente Renovador,
@@ -56,13 +43,6 @@ paises:
           ley](https://www.pagina12.com.ar/478799-presentan-un-proyecto-para-incorporar-la-figura-de-magnicidi)
           en la Cámara Baja del Congreso para la incorporación del [delito de
           magnicidio y homicidio por odio
-=======
-        url: https://www.pagina12.com.ar/478799-presentan-un-proyecto-para-incorporar-la-figura-de-magnicidi
-        texto: >-
-          El diputado Ramiro Gutiérrez, en representación del Frente Renovador,
-          [presentó proyecto de ley]($url) en la Cámara Baja del Congreso para la
-          incorporación del [delito de magnicidio y homicidio por odio
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           político](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2022/PDF2022/TP2022/4564-D-2022.pdf)
           al Código Penal, como producto de un atentado en contra de la
           Vicepresidenta Cristina Kirchner. A su vez, desde los hechos ocurridos se
@@ -77,18 +57,11 @@ paises:
           - discurso-de-odio
 
       - fecha: 2022-09-12
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Agencia de Acceso a la Información Pública (AAIP) [emitió consulta
           pública](https://twitter.com/AAIPargentina/status/1569350410988670979)
           sobre el [Anteproyecto de Ley de Protección de Datos
-=======
-        url: https://twitter.com/AAIPargentina/status/1569350410988670979
-        texto: >-
-          La Agencia de Acceso a la Información Pública (AAIP) [emitió consulta
-          pública]($url) sobre el [Anteproyecto de Ley de Protección de Datos
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Personales](https://www.boletinoficial.gob.ar/detalleAviso/primera/271369/20220912)
           para conocer sobre el contenido de la norma que se pretende presentar ante
           el Congreso de Argentina.
@@ -97,7 +70,6 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2022-09-13
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se confirma la pena privativa de la libertad del ‘Youtuber’ Eduardo Miguel
@@ -105,14 +77,6 @@ paises:
           [discursos discriminatorios y de
           hostigamiento](https://www.lanacion.com.ar/politica/confirman-una-condena-de-30-dias-de-arresto-para-el-youtuber-que-insulto-a-fabiola-yanez-nid12092022/)
           en contra de Fabiola Yáñez. Adicionalmente, deberá realizar en el INADI un
-=======
-        url: https://www.lanacion.com.ar/politica/confirman-una-condena-de-30-dias-de-arresto-para-el-youtuber-que-insulto-a-fabiola-yanez-nid12092022/
-        texto: >-
-          Se confirma la pena privativa de la libertad del ‘Youtuber’ Eduardo Miguel
-          Prestofelippo conocido como “El Presto”, a 30 días de prisión por generar
-          [discursos discriminatorios y de hostigamiento]($url) en contra de Fabiola
-          Yáñez. Adicionalmente, deberá realizar en el INADI un
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [taller](https://www.pagina12.com.ar/481611-confirmaron-los-30-dias-de-prision-para-el-presto-por-hostig)
           sobre violencia de género y respeto hacia las mujeres.
         etiquetas:
@@ -122,17 +86,12 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2022-08-19
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2022/08/Decisa771oPET10543.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Alexandre de Moraes vs. empresarios. El [ministro Alexandre de Moraes, del
           Tribunal Supremo (STF), autorizó el registro e incautación, así como la
           violación del secreto de los datos telemáticos, de un grupo de empresarios
           que supuestamente abogaban por un golpe de Estado en conversaciones de
-<<<<<<< HEAD
           WhatsApp](https://internetlab.org.br/wp-content/uploads/2022/08/Decisa771oPET10543.pdf).
           El ministro consideró que el apoyo a un golpe fue explícito en las
           conversaciones del 31.07, e indicó que, además, había contenidos
@@ -140,14 +99,6 @@ paises:
           contra el coronavirus. [Moraes autorizó el registro y la incautación de
           los dispositivos electrónicos de los empresarios para evaluar la veracidad
           de los
-=======
-          WhatsApp]($url). El ministro consideró que el apoyo a un golpe fue
-          explícito en las conversaciones del 31.07, e indicó que, además, había
-          contenidos homófobos, ataques contra la prensa y los periodistas, y a la
-          vacuna contra el coronavirus. [Moraes autorizó el registro y la
-          incautación de los dispositivos electrónicos de los empresarios para
-          evaluar la veracidad de los
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           mensajes](https://www.cartacapital.com.br/politica/leia-a-integra-da-decisao-em-que-moraes-autorizou-a-operacao-contra-empresarios-bolsonaristas/).
           Además, ordenó a Google y a Apple que facilitaran el acceso y la descarga
           del contenido de las cuentas de los acusados. [El 14.09, el ministro
@@ -157,23 +108,14 @@ paises:
           - privacidad
 
       - fecha: 2022-08-23
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2022/08/B902F1DA6D45A1_decisao-tse-reuniao-embaixador.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Bolsonaro vs. TSE. [El Tribunal Superior Electoral (TSE), ordenó a
           Facebook, Instagram, Youtube y a la Empresa Brasil de Comunicación (EBC)
           retirar el video del encuentro de Jair Bolsonaro con embajadores en el que
-<<<<<<< HEAD
           el presidente hizo acusaciones contra la urna
           electrónica](https://internetlab.org.br/wp-content/uploads/2022/08/B902F1DA6D45A1_decisao-tse-reuniao-embaixador.pdf).
           El Partido Democrático del Trabajador (PDT), que solicitó la destitución,
-=======
-          el presidente hizo acusaciones contra la urna electrónica]($url). El
-          Partido Democrático del Trabajador (PDT), que solicitó la destitución,
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           alegó que el presidente "creó una atmósfera propicia para la propagación
           de todo tipo de desorden informativo" al afirmar que el sistema de voto
           electrónico es "receptivo al fraude y a las invasiones". [El ministro
@@ -190,7 +132,6 @@ paises:
           - plataformas-digitales
 
       - fecha: 2022-08-25
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Proyecto de ley para hacer inelegibles a los candidatos que atacan las
@@ -207,37 +148,16 @@ paises:
           vigente", y que la circulación de estas acusaciones "debe conducir a la
           inelegibilidad de sus promotores, en aras de preservar la
           institucionalidad democrática del país".
-=======
-        url: https://www25.senado.leg.br/web/atividade/materias/-/materia/154563?utm_source=substack&utm_medium=email
-        texto: >-
-          Proyecto de ley para hacer inelegibles a los candidatos que atacan las
-          urnas electrónicas y el proceso electoral. Se [presentó el Proyecto de Ley
-          Complementaria nº 120/2022]($url), que pretende inhabilitar para todos los
-          cargos en el gobierno a quienes "reiteradamente formulen, repliquen y
-          difundan, sin indicios y pruebas creíbles, acusaciones y sospechas sobre
-          la integridad de las urnas electrónicas y del proceso electoral en su
-          conjunto". La justificación del proyecto es que la desinformación dirigida
-          a las urnas electrónicas y al proceso electoral allana el camino para "la
-          complacencia con soluciones de fuerza y violencia política, incompatibles
-          con el orden constitucional vigente", y que la circulación de estas
-          acusaciones "debe conducir a la inelegibilidad de sus promotores, en aras
-          de preservar la institucionalidad democrática del país".
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-08-27
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2022/08/fake-news-combustiveis.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El TSE ordena retirar las publicaciones con desinformación sobre los
           precios de los combustibles. El [ministro Raul Araújo, del Tribunal
           Superior Electoral (TSE), ordenó la retirada de las publicaciones que
           difundían audios falsamente atribuidos a Aldo Rebelo, ex ministro de Lula
-<<<<<<< HEAD
           (PT), sobre el precio del
           combustible](https://internetlab.org.br/wp-content/uploads/2022/08/fake-news-combustiveis.pdf).
           La representación ante el TSE fue hecha por la coalición Brasil de la
@@ -255,34 +175,12 @@ paises:
           YouTube y Gettr que eliminaran las publicaciones en un plazo de 24 horas.
           Sin embargo, el magistrado no accedió a la petición de identificar otros
           perfiles que hayan compartido el contenido.
-=======
-          (PT), sobre el precio del combustible]($url). La representación ante el
-          TSE fue hecha por la coalición Brasil de la Esperanza. Según la coalición,
-          los acusados habrían difundido el falso mensaje de que Aldo Rebelo habría
-          culpado a los gobiernos del PT y al ex presidente Lula del aumento de los
-          precios de los combustibles, lo que constituiría publicidad irregular en
-          Internet. En la decisión de la medida cautelar, el ministro dijo que
-          "parece, de plano, que las publicaciones impugnadas, aunque en diferentes
-          formatos, son falsas, porque Aldo Rebelo no grabó el audio impugnado,
-          información que fue confirmada por él en su perfil de Twitter, el
-          24.05.2022, así como por varias agencias de verificación. Se trata, por
-          tanto, de contenidos producidos para difundir desinformación”. El ministro
-          concedió la medida cautelar para que se eliminaran 8 publicaciones, y
-          ordenó a Facebook, Instagram, TikTok, YouTube y Gettr que eliminaran las
-          publicaciones en un plazo de 24 horas. Sin embargo, el magistrado no
-          accedió a la petición de identificar otros perfiles que hayan compartido
-          el contenido.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - plataformas-digitales
 
       - fecha: 2022-08-28
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2022/08/tse-ordena-exclusao-fake-news-lula.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           [Desinformación] El ministro del TSE ordena retirar las publicaciones
           falsas sobre Lula. La ministra Maria Claudia Bucchianeri, del Tribunal
@@ -294,16 +192,10 @@ paises:
           través de gestiones ante el TSE. [El primero objetó las publicaciones de
           varios perfiles en las redes sociales que publicaban una foto de un hombre
           junto a Lula, afirmando que el chico era el hermano del hombre que lanzó
-<<<<<<< HEAD
           una puñalada al presidente Bolsonaro en
           2018](https://internetlab.org.br/wp-content/uploads/2022/08/tse-ordena-exclusao-fake-news-lula.pdf).
           [La segunda representación, a su vez, impugnó publicaciones de sitios como
           "O Antagonista", "Revista Oeste" y "7 minutos", así como el blog de José
-=======
-          una puñalada al presidente Bolsonaro en 2018]($url). [La segunda
-          representación, a su vez, impugnó publicaciones de sitios como "O
-          Antagonista", "Revista Oeste" y "7 minutos", así como el blog de José
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Fernandes Linhares Júnior y el twitter de Eduardo Bolsonaro, que contenían
           desinformación, relacionando al ex presidente con el discurso de que
           "quiere acabar con los empleos de los moto-mensajeros de Uber, iFood y
@@ -315,7 +207,6 @@ paises:
           En el contenido, gráficamente adulterado, el ex presidente supuestamente
           dijo que "compraría votos de los 'votantes bahianos' por R$10,00 y un
           sándwich de mortadela". En una de las decisiones, la ministra argumentó
-<<<<<<< HEAD
           que "para que el contenido pueda ser calificado como propaganda electoral
           desinformativa, es imprescindible la demostración de que se trata de un
           hecho 'notoriamente falso' o 'gravemente descontextualizado’", lo que
@@ -325,38 +216,18 @@ paises:
           descontextualizados, editados o manipulados", y que el vídeo en cuestión
           difunde un mensaje "manifiestamente falso y derivado de una grave
           descontextualización discursiva".
-=======
-          que **"para que el contenido pueda ser calificado como propaganda
-          electoral desinformativa, es imprescindible la demostración de que se
-          trata de un hecho 'notoriamente falso' o 'gravemente descontextualizado’",
-          **lo que identificó en el caso de la supuesta foto con el hermano de un
-          agresor político. También argumentó en la segunda decisión que la
-          desinformación también incluye **"contenidos con elementos verdaderos,
-          pero gravemente descontextualizados, editados o manipulados"**, y que el
-          vídeo en cuestión difunde un mensaje "manifiestamente falso y derivado de
-          una grave descontextualización discursiva".
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-09-01
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2022/09/decisao-eduardo-bolsonaro1.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           TSE ordena retirar publicaciones con desinformación sobre Lula e Iglesias.
           La [ministra Cármen Lúcia, del Tribunal Superior Electoral (TSE), ordenó
           la retirada de las publicaciones del diputado Eduardo Bolsonaro (PL/SP)
-<<<<<<< HEAD
           que asociaban a Lula (PT) con invasiones a
           iglesias](https://internetlab.org.br/wp-content/uploads/2022/09/decisao-eduardo-bolsonaro1.pdf)
           [y persecución de
-=======
-          que asociaban a Lula (PT) con invasiones a iglesias]($url) [y persecución
-          de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           cristianos](https://internetlab.org.br/wp-content/uploads/2022/09/decisao-eduardo-bolsonaro1.pdf).
           La representación ante el TSE fue realizada por la Coalición Brasil de la
           Esperanza y el ex presidente Luiz Inácio Lula da Silva contra el diputado
@@ -377,27 +248,17 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-09-06
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://esaj.tjsp.jus.br/pastadigital/abrirDocumentoEdt.do?nuProcesso=1004895-84.2021.8.26.0152&cdProcesso=480007SBU0000&cdForo=152&baseIndice=INDDS&nmAlias=PG5GRU&tpOrigem=2&flOrigem=P&cdServico=190101&acessibilidade=false&ticket=7upz7TIHKDNDY8NvtgdTSQnusAIbAwRw%2F457agFUiTreBxdKdyk%2FYfy%2FDhiHd%2BmJYgE7Ee5oNKfT461%2FMhfD8OOiCmnwD082Bhwt7VI69S2iUEcHmbHPc5dZDXQxN9dhSSa%2FaaSwdKVZgUo3VY5mVJXav8I0xIIxnkJKU8XBAhT1vZtkMsMoTCfZC2FQSIsd0raz0XiJ8ObWrkC7Di%2Bz4EL81nfhQe%2FCT7MZM4YD4xJAiwSG8E4VI2hXBpD4DGoZBRcr3B2VjNyFT8loyDcfiVzfeXyiKKtZpGxBKXxfzJERHEJmA1xS20jeik%2BeQqVMdmmKYEuKft%2FIWw9na7KcuGqi7bYEKCmyfi1jtxyj8hre4UXMM88WMAm0SOjaH40kwZ3QY%2BthDPGTyFSLAWFZDBu34vLLvETd%2BefirxV2TW4%3D
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Leonardo Attuch vs. Filipe Garcia Martins. El [Tribunal de Justicia de São
           Paulo (TJSP) condenó al periodista Leonardo Attuch a pagar una
           indemnización por daños y perjuicios de R$15 mil al asesor internacional
           de Jair Bolsonaro, Filipe Garcia Martins, por publicar dos tuits en los
-<<<<<<< HEAD
           que le llamaba
           "nazi"](https://esaj.tjsp.jus.br/pastadigital/abrirDocumentoEdt.do?nuProcesso=1004895-84.2021.8.26.0152&cdProcesso=480007SBU0000&cdForo=152&baseIndice=INDDS&nmAlias=PG5GRU&tpOrigem=2&flOrigem=P&cdServico=190101&acessibilidade=false&ticket=7upz7TIHKDNDY8NvtgdTSQnusAIbAwRw%2F457agFUiTreBxdKdyk%2FYfy%2FDhiHd%2BmJYgE7Ee5oNKfT461%2FMhfD8OOiCmnwD082Bhwt7VI69S2iUEcHmbHPc5dZDXQxN9dhSSa%2FaaSwdKVZgUo3VY5mVJXav8I0xIIxnkJKU8XBAhT1vZtkMsMoTCfZC2FQSIsd0raz0XiJ8ObWrkC7Di%2Bz4EL81nfhQe%2FCT7MZM4YD4xJAiwSG8E4VI2hXBpD4DGoZBRcr3B2VjNyFT8loyDcfiVzfeXyiKKtZpGxBKXxfzJERHEJmA1xS20jeik%2BeQqVMdmmKYEuKft%2FIWw9na7KcuGqi7bYEKCmyfi1jtxyj8hre4UXMM88WMAm0SOjaH40kwZ3QY%2BthDPGTyFSLAWFZDBu34vLLvETd%2BefirxV2TW4%3D).
           Las publicaciones hacían referencia a un [supuesto gesto supremacista
           realizado por el ayudante durante una sesión del Senado Federal, que
           simbolizaba el término "WP" ("_white
-=======
-          que le llamaba "nazi"]($url). Las publicaciones hacían referencia a un
-          [supuesto gesto supremacista realizado por el ayudante durante una sesión
-          del Senado Federal, que simbolizaba el término "WP" ("_white
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           power_")](https://www.jota.info/coberturas-especiais/liberdade-de-expressao/jornalista-condenado-por-chamar-filipe-martins-assessor-de-bolsonaro-de-nazistinha-07092022).
           En la sentencia, el juez argumentó que, a pesar de haber sido denunciado
           por el delito de racismo, Filipe había sido absuelto sumariamente por
@@ -414,7 +275,6 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2022-09-01
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Tribunal Administrativo de Antioquia
@@ -426,23 +286,11 @@ paises:
           amenazas a agresiones de las que había sido víctima. La decisión se da a
           nueve años del asesinato del periodista, quien fue asesinado en septiembre
           de 2013.
-=======
-        url: https://flip.org.co/index.php/es/informacion/pronunciamientos/item/2949-tribunal-administrativo-de-antioquia-confirma-la-responsabilidad-del-estado-en-el-homicidio-de-edison-molina
-        texto: >-
-          El Tribunal Administrativo de Antioquia [confirmó]($url) la decisión del
-          juzgado administrativo de primera instancia que declaró la responsabilidad
-          del Estado de Colombia por el asesinato del periodista Edison Molina. Esta
-          responsabilidad se deriva de la falta de protección del Estado para el
-          comunicador, a pesar de que este había reportado las amenazas a agresiones
-          de las que había sido víctima. La decisión se da a nueve años del
-          asesinato del periodista, quien fue asesinado en septiembre de 2013.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
 
       - fecha: 2022-09-06
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La alianza de medios de comunicación y periodistas La Liga Contra el
@@ -454,18 +302,6 @@ paises:
           participar en hechos violentos durante el paro y de cometer delitos como
           tortura, terrorismo y concierto para delinquir, que podrían darles más de
           40 años de prisión. No obstante, [los periodistas han
-=======
-        url: https://ligacontraelsilencio.com/2022/09/06/z11-en-el-paro-nacional-anatomia-de-un-falso-positivo-judicial/?utm_source=social
-        texto: >-
-          La alianza de medios de comunicación y periodistas La Liga Contra el
-          Silencio denunció un [falso positivo judicial ]($url)de la Fiscalía
-          General de la Nación contra dos periodistas comunitarios del medio Z11
-          Suba, Jonathan Stiven Cortez y Karina Cepeda, quienes cubrieron el Paro
-          Nacional de 2021. Los periodistas fueron acusados de participar en hechos
-          violentos durante el paro y de cometer delitos como tortura, terrorismo y
-          concierto para delinquir, que podrían darles más de 40 años de prisión. No
-          obstante, [los periodistas han
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           mostrado](https://www.youtube.com/watch?v=SWhTScQvYWw) que no han cometido
           los delitos de los que son acusados, sino que se encontraban haciendo
           cubrimiento del paro nacional.
@@ -474,16 +310,11 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-09-15
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.europapress.es/portaltic/socialmedia/noticia-consejo-asesor-meta-cuestiona-eficacia-eliminacion-automatizada-imagenes-facebook-20220915175648.html
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El Consejo asesor de contenidos de Meta (Oversight Board) dictó una nueva
           decisión en un caso relacionado con Colombia. [El caso trató la
           publicación en Facebook de una caricatura sobre la violencia policial en
-<<<<<<< HEAD
           Colombia en contexto de protesta
           social.](https://www.europapress.es/portaltic/socialmedia/noticia-consejo-asesor-meta-cuestiona-eficacia-eliminacion-automatizada-imagenes-facebook-20220915175648.html)
           Si bien la caricatura fue publicada originalmente en 2020, la imagen fue
@@ -494,36 +325,18 @@ paises:
           cosas, publicará en sus informes de transparencia la tasa de errores
           relacionadas con el contenido incluido equivocadamente en estos bancos de
           contenidos.
-=======
-          Colombia en contexto de protesta social.]($url) Si bien la caricatura fue
-          publicada originalmente en 2020, la imagen fue retirada en enero de 2022
-          dado que fue incluida por error en un banco de contenidos infractores.
-          Luego de que el Consejo seleccionará este caso para estudio, Meta
-          reconoció el error y restableció el contenido. Sin embargo, el Consejo
-          dictó decisión recomendando a Meta que, entre otras cosas, publicará en
-          sus informes de transparencia la tasa de errores relacionadas con el
-          contenido incluido equivocadamente en estos bancos de contenidos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - plataformas-digitales
 
-<<<<<<< HEAD
+  - pais: Ecuador
+    entradas:
       - fecha: 2022-09-20
         tipo: proyecto
         texto: >-
           Desconocidos lanzaron material pirotécnico contra la vivienda de un
           periodista del periódico Expreso como [acto violento y
           amenazante](https://es-us.finanzas.yahoo.com/noticias/sip-condena-ataques-periodista-ecuatoriano-180509116.html)
-=======
-  - pais: Ecuador
-    entradas:
-      - fecha: 2022-09-20
-        url: https://es-us.finanzas.yahoo.com/noticias/sip-condena-ataques-periodista-ecuatoriano-180509116.html
-        texto: >-
-          Desconocidos lanzaron material pirotécnico contra la vivienda de un
-          periodista del periódico Expreso como [acto violento y amenazante]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           contra su trabajo periodístico. El gobierno, por su parte, declaró su
           solidaridad frente a los hechos ocurridos y
           [recalcó](https://www.swissinfo.ch/spa/ecuador-prensa_lanzan-material-pirot%C3%A9cnico-contra-vivienda-de-periodista-en-ecuador/47915556)
@@ -538,7 +351,6 @@ paises:
   - pais: México
     entradas:
       - fecha: 2022-08-29
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Suprema Corte de Justicia de la Nación emitió el [comunicado No.
@@ -548,21 +360,10 @@ paises:
           procedimiento legislativo, entre ellas “que no se respetó el derecho a la
           participación de todas las fuerzas políticas con representación
           parlamentaria, en condiciones de libertad e igualdad”.
-=======
-        url: https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=7036
-        texto: >-
-          La Suprema Corte de Justicia de la Nación emitió el [comunicado No.
-          313/2022]($url) en el que informa que se invalida el decreto por el que se
-          reformó la Ley Federal de Telecomunicaciones y Radiodifusión, por
-          violaciones al procedimiento legislativo, entre ellas “que no se respetó
-          el derecho a la participación de todas las fuerzas políticas con
-          representación parlamentaria, en condiciones de libertad e igualdad”.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-09-07
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Artículo 19 emitió un
@@ -575,23 +376,10 @@ paises:
           CEDH/23/2020-R y la determinación de la reparación a las víctimas. En los
           medios locales se difundió que la periodista era exhibida como una vil
           extorsionadora.
-=======
-        url: https://articulo19.org/periodista-en-tapachula-es-victima-de-discursos-estigmatizantes-y-es-revictimizada/
-        texto: >-
-          Artículo 19 emitió un [comunicado]($url) en el que señaló que la
-          periodista de Los Angeles Press Cinthia Alvarado Enríquez fue víctima de
-          discurso estigmatizante y campaña de desprestigio por parte de la
-          presidenta municipal de Tapachula, Chiapas. Los hechos ocurrieron
-          posterior al “Foro de Justicia Terapéutica” en la que la periodista y la
-          funcionaria debatieron de los alcances de la Recomendación CEDH/23/2020-R
-          y la determinación de la reparación a las víctimas. En los medios locales
-          se difundió que la periodista era exhibida como una vil extorsionadora.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-09-11
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Senadora Nestora Salgado
@@ -600,19 +388,10 @@ paises:
           Unidos Mexicanos “para incorporar el derecho a la memoria, la verdad y la
           justicia por hechos del pasado, que hayan sido violatorios de derechos
           humanos”.
-=======
-        url: https://comunicacionsocial.senado.gob.mx/informacion/comunicados/3625-garantizar-derecho-a-la-verdad-por-violaciones-de-derechos-humanos-en-el-pasado-piden-en-el-senado
-        texto: >-
-          La [Senadora Nestora Salgado García]($url) propuso reformar el artículo 1º
-          de la Constitución Política de los Estados Unidos Mexicanos “para
-          incorporar el derecho a la memoria, la verdad y la justicia por hechos del
-          pasado, que hayan sido violatorios de derechos humanos”.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-09-28
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El poder judicial autoriza la [vinculación a proceso de dos
@@ -621,34 +400,17 @@ paises:
           reportaje en el que muestran que antes de ser candidata plurinominal se
           dedicaba a ser edecán de televisión y que apareció en la Revista H para
           Hombres mostrando algunas imágenes que aparecieron en dicha publicación.
-=======
-        url: https://twitter.com/CiroGomezL/status/1575485043845259264?s=20&t=rcbg6kJ41sB6Ty2gnM4CoQ
-        texto: >-
-          El poder judicial autoriza la [vinculación a proceso de dos
-          periodistas]($url) por violencia política de género contra una candidata
-          por elaborar un reportaje en el que muestran que antes de ser candidata
-          plurinominal se dedicaba a ser edecán de televisión y que apareció en la
-          Revista H para Hombres mostrando algunas imágenes que aparecieron en dicha
-          publicación.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - violencia-de-genero
 
   - pais: Paraguay
     entradas:
       - fecha: 2022-09-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El juez de Sentencia, Juan Carlos Zárate, [absolvió de
           culpa](https://www.ultimahora.com/absuelven-periodista-y-directora-n3022044.html)
           y reproche a la directora del diario ABC Color, Natalia Zuccolillo, y al
-=======
-        url: https://www.ultimahora.com/absuelven-periodista-y-directora-n3022044.html
-        texto: >-
-          El juez de Sentencia, Juan Carlos Zárate, [absolvió de culpa]($url) y
-          reproche a la directora del diario ABC Color, Natalia Zuccolillo, y al
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           periodista de ese medio, Juan Carlos Lezcano, tras el [juicio
           oral](https://www.abc.com.py/nacionales/2022/09/05/tribunal-falla-a-favor-de-la-libertad-de-prensa/).
           Habían sido querellados por los presuntos delitos de difamación, calumnia
@@ -659,7 +421,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-09-06
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Proyecto de Ley que [“Aprueba El Acuerdo Sobre Comercio Electrónico Del
@@ -676,23 +437,6 @@ paises:
           internacionales, y que este Instrumento Internacional se ajuste a la
           creciente necesidad de que el derecho aplicable a la comercialización de
           bienes y servicios por medios electrónicos y los principios generales
-=======
-        url: http://silpy.congreso.gov.py/expediente/126547
-        texto: >-
-          Proyecto de Ley que [“Aprueba El Acuerdo Sobre Comercio Electrónico Del
-          Mercosur”]($url) tiene por objetivo otorgar un marco jurídico que consagre
-          las normas y principios relativos al comercio electrónico en el MERCOSUR,
-          con miras a aprovechar el potencial económico y las oportunidades
-          proporcionadas por el mismo respondiendo a la necesidad de que se
-          establezcan medidas que garanticen la seguridad y la confianza en la
-          producción, distribución, comercialización, venta o entrega de bienes y
-          servicios por medios electrónicos y promover relaciones armoniosas a nivel
-          internacional, teniendo en cuenta que la asimetría en los marcos jurídicos
-          nacionales sobre la materia hace necesaria la suscripción de acuerdos con
-          estándares internacionales, y que este Instrumento Internacional se ajuste
-          a la creciente necesidad de que el derecho aplicable a la comercialización
-          de bienes y servicios por medios electrónicos y los principios generales
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           gobiernen su funcionamiento.
         etiquetas:
           - defensa-del-consumidor
@@ -700,7 +444,6 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2022-08-31
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [La Sala Penal Permanente de la Corte Suprema de Justicia del Perú
@@ -714,25 +457,10 @@ paises:
           declaró que no había base legal para establecer tales restricciones o
           imponer un deber de reserva como medio de coerción para evitar los riesgos
           procesales de fuga o de obstaculización del proceso.
-=======
-        url: https://twitter.com/Poder_Judicial_/status/1565871629099565056
-        texto: >-
-          [La Sala Penal Permanente de la Corte Suprema de Justicia del Perú
-          resolvió el recurso de casación]($url) presentado por el ex presidente
-          Pedro Pablo Kuckzynski para revocar la detención domiciliaria y otras
-          restricciones en su contra. Entre estas se encontraban las prohibiciones
-          de: (i) efectuar declaraciones a los medios de prensa, radial, escrita o
-          televisiva, respecto del caso, y (ii) realizar actividad política, directa
-          o indirectamente. La sentencia declaró que no había base legal para
-          establecer tales restricciones o imponer un deber de reserva como medio de
-          coerción para evitar los riesgos procesales de fuga o de obstaculización
-          del proceso.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-09-07
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Tribunal de Contrataciones del Estado del Organismo Supervisor de las
@@ -753,33 +481,11 @@ paises:
           funcionario. El diario La República denunció que se trata de “una
           intención perversa de parte de la OSCE para sancionar a un medio de
           comunicación crítico del actual Gobierno”.
-=======
-        url: https://ipys.org/libertad-de-expresion/alertas/peru-sancionan-a-grupo-la-republica-impidiendo-que-contrate-publicidad-con-el-estado
-        texto: >-
-          El Tribunal de Contrataciones del Estado del Organismo Supervisor de las
-          Contrataciones del Estado (OSCE), dependiente del Poder Ejecutivo,
-          [sancionó al Grupo La República Publicaciones]($url), que edita el diario
-          del mismo nombre, impidiéndole contratar publicidad estatal por cuatro y
-          cinco meses. El OSCE atribuye al diario La República haber transgredido la
-          Ley de Contrataciones del Estado, Ley 30225, por haber sido contratada
-          para la publicación de avisos con diversas entidades estatales, pese a que
-          una accionista del diario es madre de la entonces ministra de comercio
-          exterior y turismo Claudia Cornejo Mohme. Ello, pese a que el Tribunal
-          Constitucional ya había interpretado con anterioridad que la prohibición
-          de que los familiares contraten con cualquier entidad del estado sólo
-          aplicaban al presidente de la República, en cambio para ministros,
-          congresistas y otros altos funcionarios la interdicción se circunscribe a
-          la contratación con la misma entidad donde labora el funcionario. El
-          diario La República denunció que se trata de “una intención perversa de
-          parte de la OSCE para sancionar a un medio de comunicación crítico del
-          actual Gobierno”.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -827,8 +533,4 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
-=======
-{{< observatorio-mes month="2022-09" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

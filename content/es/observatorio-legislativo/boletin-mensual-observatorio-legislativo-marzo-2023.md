@@ -15,27 +15,19 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2023-03-01
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.pagina12.com.ar/527760-dictamen-contra-ramiro-marra-por-incentivar-a-la-discriminac
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo
           (INAD) emitió dictamen contra Ramiro Marra por "incentivar la
           discriminación" a piqueteros ante los cortes de calles y rutas que se
-<<<<<<< HEAD
           llevaron a cabo por las protestas sociales. El INAD
           [expresó](https://www.pagina12.com.ar/527760-dictamen-contra-ramiro-marra-por-incentivar-a-la-discriminac)
           que “la designación de un ‘movimiento’, su presentación y su página web,
@@ -47,40 +39,21 @@ paises:
           ser protegido prioritariamente en nuestra democracia, sobre todo si las
           protestas vienen de grupos que atraviesan situaciones de desigualdad
           estructural”.
-=======
-          llevaron a cabo por las protestas sociales. El INAD [expresó]($url) que
-          “la designación de un ‘movimiento’, su presentación y su página web, junto
-          con las declaraciones al respecto del denunciado, pretenden incentivar a
-          la discriminación a todas las otras personas, y -si es exitoso- no faltará
-          mucho para que se lleve adelante algún hecho de violencia en contra de los
-          grupos de piqueteros, justamente, incentivados por políticas como el MAPA
-          (…) la protesta social es un derecho que debe ser protegido
-          prioritariamente en nuestra democracia, sobre todo si las protestas vienen
-          de grupos que atraviesan situaciones de desigualdad estructural”.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - discurso-de-odio
 
       - fecha: 2023-03-02
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En Argentina se
           [aprobó](https://www.intramed.net/contenidover.asp?contenidoid=103768#:~:text=Se%20podr%C3%A1%20acceder%20desde%20todo%20el%20pa%C3%ADs.&text=La%20C%C3%A1mara%20de%20Diputados%20aprob%C3%B3,digitalizado%20en%20todo%20el%20pa%C3%ADs)
           una ley para que las historias clínicas de los pacientes sean
           digitalizadas y se carguen en un sistema único.
-=======
-        url: https://www.intramed.net/contenidover.asp?contenidoid=103768#:~:text=Se%20podr%C3%A1%20acceder%20desde%20todo%20el%20pa%C3%ADs.&text=La%20C%C3%A1mara%20de%20Diputados%20aprob%C3%B3,digitalizado%20en%20todo%20el%20pa%C3%ADs
-        texto: >-
-          En Argentina se [aprobó]($url) una ley para que las historias clínicas de
-          los pacientes sean digitalizadas y se carguen en un sistema único.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2023-03-03
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Los organismos de derechos humanos y de activismo feminista “Agrupación
@@ -89,21 +62,11 @@ paises:
           OEA](https://www.pagina12.com.ar/528335-organizaciones-feministas-presentaron-el-caso-de-milagro-sal),
           frente al hostigamiento en el que se ven enfrentadas las mujeres por
           ejercer política desde hace siete años en la provincia de Jujuy.
-=======
-        url: https://www.pagina12.com.ar/528335-organizaciones-feministas-presentaron-el-caso-de-milagro-sal
-        texto: >-
-          Los organismos de derechos humanos y de activismo feminista “Agrupación
-          Tupac Amaru” presentaron el caso de Milagro Sala ante la [Comisión de
-          Expertas de la OEA]($url), frente al hostigamiento en el que se ven
-          enfrentadas las mujeres por ejercer política desde hace siete años en la
-          provincia de Jujuy.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - violencia-de-genero
           - discurso-de-odio
 
       - fecha: 2023-03-06
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diseñador Roberto Piazza ha sido el centro de distintas discusiones
@@ -111,15 +74,6 @@ paises:
           [discursos](https://www.pagina12.com.ar/529266-de-pedir-pena-de-muerte-a-odiar-a-los-negros-de-cabeza-un-re)
           que iban en contra de la comunidad LGBTIQ+, la comunidad afrodescendiente
           y mujeres que participan en la política. El Comité de Expertas de la OEA
-=======
-        url: https://www.pagina12.com.ar/529266-de-pedir-pena-de-muerte-a-odiar-a-los-negros-de-cabeza-un-re
-        texto: >-
-          El diseñador Roberto Piazza ha sido el centro de distintas discusiones
-          ante las expresiones realizadas en una entrevista televisiva,
-          [discursos]($url) que iban en contra de la comunidad LGBTIQ+, la comunidad
-          afrodescendiente y mujeres que participan en la política. El Comité de
-          Expertas de la OEA
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [alertó](https://www.pagina12.com.ar/528958-el-disenador-roberto-piazza-destila-odio-por-television)
           sobre este tipo de discursos que han sido transmitidos en los medios de
           comunicación y las consecuencias que ello traería en la lucha contra la
@@ -129,20 +83,12 @@ paises:
           - discurso-de-odio
 
       - fecha: 2023-03-21
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Vandalizan una obra de arte feminista en una exposición realizada en la
           Universidad Nacional de Cuyo. [La obra de arte fue
           vandalizada](https://www.infobae.com/cultura/2023/03/21/arte-y-polemica-en-mendoza-la-verdadera-historia/)
           por personas de ideología católica al estar de acuerdo con el comunicado
-=======
-        url: https://www.infobae.com/cultura/2023/03/21/arte-y-polemica-en-mendoza-la-verdadera-historia/
-        texto: >-
-          Vandalizan una obra de arte feminista en una exposición realizada en la
-          Universidad Nacional de Cuyo. [La obra de arte fue vandalizada]($url) por
-          personas de ideología católica al estar de acuerdo con el comunicado
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           oficial del Arzobispado de Mendoza al indicar que dicha muestra “reproduce
           de manera ofensiva y grosera imágenes y símbolos religiosos”, sin embargo,
           luego de los hechos sucedidos el Arzobispo emitió un documento en el que
@@ -151,7 +97,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-03-22
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En Argentina se aumenta la [violencia contra las mujeres que ejercen
@@ -159,15 +104,6 @@ paises:
           Para Luciana Peker, el tipo de violencia en la que están sometidas las
           periodistas está basada por su género al estar sometidas a discursos de
           odio y discrimianción para silenciar su trabajo periodístico.
-=======
-        url: https://www.infobae.com/opinion/2023/03/22/ni-cazadoras-ni-cazadas-no-hay-libertad-de-expresion-si-hay-violencia-contra-las-periodistas/?s=09
-        texto: >-
-          En Argentina se aumenta la [violencia contra las mujeres que ejercen
-          periodismo]($url). Para Luciana Peker, el tipo de violencia en la que
-          están sometidas las periodistas está basada por su género al estar
-          sometidas a discursos de odio y discrimianción para silenciar su trabajo
-          periodístico.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - discurso-de-odio
@@ -176,27 +112,18 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2023-02-23
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://portal.stf.jus.br/processos/detalhe.asp?incidente=5320379
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El STF determina que las autoridades brasileñas pueden solicitar
           directamente información a plataformas en el extranjero. El Supremo
           Tribunal Federal (STF) [determinó que las autoridades brasileñas pueden
-<<<<<<< HEAD
           solicitar datos directamente a plataformas con sede en el
           exterior](https://portal.stf.jus.br/processos/detalhe.asp?incidente=5320379),
-=======
-          solicitar datos directamente a plataformas con sede en el exterior]($url),
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           sin necesariamente involucrar al Ministro de la Justicia brasileño. De esa
           manera, aunque haya confirmado la constitucionalidad del Decreto
           3810/2001, que promulgó el Acuerdo de Asistencia Judicial y Penal entre
           Brasil y los Estados Unidos (MLAT) - según el cual las solicitudes de
           datos deben ser intermediadas por el Ministerio de Justicia - el Tribunal
-<<<<<<< HEAD
           entendió que el poder judicial brasileño puede utilizar otros recursos
           para obtener información de los proveedores, tales como citaciones
           directas de las empresas en Brasil o las cartas rogatorias, en virtud del
@@ -209,20 +136,6 @@ paises:
           al Legislativo y al Ejecutivo para que tomen medidas en relación a la Ley
           General de Protección de Datos para Fines Penales ([LGPD
           Penal](https://internetlab.org.br/pt/semanario/25-11-2022/#20532) y a
-=======
-          entendió que el **poder judicial brasileño puede utilizar otros recursos
-          para obtener información de los proveedores**, tales como citaciones
-          directas de las empresas en Brasil o las cartas rogatorias, en virtud del
-          artículo 11 del [_Marco Civil da Internet
-          _](http://www.planalto.gov.br/CCivil_03/_Ato2011-2014/2014/Lei/L12965.htm)(MCI).
-          Los ministros siguieron [el voto del ponente Gilmar
-          Mendes](https://www.jota.info/stf/do-supremo/gilmar-mlat-e-constitucional-mas-acordo-nao-e-a-unica-forma-de-obtencao-de-prova-29092022),
-          que **destacó la baja efectividad de los casos que han utilizado el
-          procedimiento establecido en el MLAT**, y determinó que el STF debe
-          informar al Legislativo y al Ejecutivo para que tomen medidas en relación
-          a la Ley General de Protección de Datos para Fines Penales ([LGPD
-          Penal](https://internetlab.org.br/pt/semanario/25-11-2022/#20532)) y a
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           nuevos acuerdos bilaterales o multilaterales. El ministro Alexandre de
           Moraes destacó que la norma MLAT debe ser adoptada de forma complementaria
           - sólo cuando sea imposible para las autoridades nacionales obtener
@@ -231,17 +144,12 @@ paises:
           - privacidad
 
       - fecha: 2023-03-03
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.migalhas.com.br/quentes/382409/justica-rejeita-queixa-crime-de-queiroz-contra-porchat--miliciano
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Rechazada la denuncia penal de Queiroz contra Porchat, presentada tras la
           difusión de una entrevista en Youtube. Una instancia penal del Tribunal de
           Justicia de Río de Janeiro [rechazó una denuncia criminal presentada por
           Fabrício Queiroz, candidato a diputado estatal en las últimas elecciones,
-<<<<<<< HEAD
           contra el presentador de televisión Fábio
           Porchat](https://www.migalhas.com.br/quentes/382409/justica-rejeita-queixa-crime-de-queiroz-contra-porchat--miliciano).
           La demanda, presentada tras el presentador haber dicho, en entrevista en
@@ -256,29 +164,11 @@ paises:
           sobre la corrupción. El magistrado afirmó, además, que, al haberse lanzado
           Queiroz como candidato a diputado en las elecciones de 2022, se sometió al
           escrutinio público y a la crítica.
-=======
-          contra el presentador de televisión Fábio Porchat]($url). La demanda,
-          presentada tras **el presentador haber dicho, en entrevista en Youtube,
-          que Queiroz sería "miliciano" y "un tipo que mataba gente"**, se basaba en
-          acusaciones de ofensa al honor, difamación e injuria. Al analizar el caso,
-          el juez André Felipe Veras de Oliveira **entendió que no había violación
-          del honor porque el discurso de Porchat sería una mera crítica política,
-          propia del régimen democrático**. En este sentido, la decisión señaló
-          que** la entrevista se hizo en año electoral** y, en **el momento en que
-          Porchat dio las declaraciones, la discusión era sobre política** - una
-          comparación entre los gobiernos del PT y Jair Bolsonaro sobre la
-          corrupción. El magistrado afirmó, además, que, al haberse lanzado Queiroz
-          como candidato a diputado en las elecciones de 2022, **se sometió al
-          escrutinio público y a la crítica**.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2023-03-07
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: PL 944/2023
         url: https://www25.senado.leg.br/web/atividade/materias/-/materia/156052
         texto: >-
@@ -290,19 +180,13 @@ paises:
           218-C del Código Penal, que tipifica la difusión de escenas de sexo de la
           víctima por ex parejas, con fines de venganza o humillación. El proyecto
           pretende establecer la obligación de asistir a programas de recuperación y
-<<<<<<< HEAD
           reeducación, además de prever la medida cautelar de suspensión de cuenta
           en las redes sociales, incluyendo aplicaciones de mensajería.
-=======
-          reeducación, además de **prever la medida cautelar de suspensión de cuenta
-          en las redes sociales, incluyendo aplicaciones de mensajería**.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - plataformas-digitales
           - libertad-de-expresion
 
       - fecha: 2023-03-13
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Diputados de los partidos PSOL y REDE presentan propuesta para incluir
@@ -314,27 +198,11 @@ paises:
           mecanismos de prevención y denuncia, así como sistemas de monitoreo de la
           difusión de discursos de odio dirigidos a mujeres, negros, indígenas y
           LGBTQIA+](https://nucleo.jor.br/curtas/2023-03-13-psol-rede-alteracao-mci-discursoodio/).
-=======
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351200
-        texto: >-
-          Diputados de los partidos PSOL y REDE presentan propuesta para incluir
-          dispositivo contra el discurso del odio en las plataformas. Los [diputados
-          de los partidos PSOL y REDE presentaron el PL 1087/2023]($url), que busca
-          incluir en el _Marco Civil da Internet_ (ley 12.965/2014) una disposición
-          que determine que [las **plataformas digitales implementen mecanismos de
-          prevención y denuncia, así como sistemas de monitoreo de la difusión de
-          discursos de odio dirigidos a mujeres, negros, indígenas y
-          LGBTQIA+**](https://nucleo.jor.br/curtas/2023-03-13-psol-rede-alteracao-mci-discursoodio/).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           En la [justificación del
           proyecto](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2242780&filename=PL%201087/2023),
           los diputados abordan la propagación del discurso de odio en contra de
           grupos marginados en las plataformas digitales, argumentando la necesidad
-<<<<<<< HEAD
           de una mayor regulación del ecosistema_ online_. Además, afirman que la
-=======
-          de una mayor regulación del ecosistema _online_. Además, afirman que la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           protección contra el discurso de odio y la violencia está poco contemplada
           en el Marco Civil. Los parlamentarios presentaron cifras del [proyecto
           MonitorA](https://internetlab.org.br/pt/projetos/monitora-observatorio-de-violencia-politica/)
@@ -346,16 +214,11 @@ paises:
           - discurso-de-odio
 
       - fecha: 2023-03-14
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2023/03/20230000193288.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           TJSP decide que la señalización "noticias falsas" realizada por una
           agencia de verificación de noticias no configura censura. El [Tribunal de
           Justicia de São Paulo denegó solicitud de indemnización por daños morales
-<<<<<<< HEAD
           y materiales solicitados por la Revista
           Oeste](https://internetlab.org.br/wp-content/uploads/2023/03/20230000193288.pdf)
           a la agencia de verificación de hechos Aos Fatos. La demanda había sido
@@ -372,30 +235,12 @@ paises:
           habría impedido la producción y difusión de contenidos periodísticos por
           parte de la revista. Los jueces reconocieron los peligros de la
           desinformación y la importancia del chequeo de noticias.
-=======
-          y materiales solicitados por la Revista Oeste]($url) a la agencia de
-          verificación de hechos Aos Fatos. La demanda había sido presentada por la
-          revista contra la agencia por considerar que la **señalización de dos de
-          sus reportajes como “contenido de desinformación” habría sido arbitraria,
-          perjudicando la circulación de su material en plataformas digitales**,
-          causándole pérdidas de suscripciones. **La sentencia del juicio de primera
-          instancia acceptó la acción, al considerar que la agencia operaba "con la
-          intención indisimulada de censurar a otros proveedores de contenidos" **y
-          que este comportamiento sería "incompatible con las libertades civiles y
-          políticas. La decisión, sin embargo, **fue revocada en segunda
-          instancia**, por considerar que **no hubo manifestaciones injuriosas o
-          difamatorias por parte de la agencia**, y que **su actuación no habría
-          impedido la producción y difusión de contenidos periodísticos por parte de
-          la revista**. Los jueces reconocieron los peligros de la desinformación y
-          la importancia del chequeo de noticias.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
   - pais: Chile
     entradas:
       - fecha: 2023-03-25
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Relatoría Especial para la Libertad de Expresión (RELE) de la Comisión
@@ -403,14 +248,6 @@ paises:
           [instó](https://twitter.com/RELE_CIDH/status/1639312531305951232?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1639312531305951232%7Ctwgr%5E0baafe925cb74de5a58fc68936ab4f3ecbc9e784%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.resumenlatinoamericano.org%2F2023%2F03%2F25%2Fchile-relatoria-especial-para-la-libertad-de-expresion-de-la-cidh-insta-al-estado-a-investigar-atentado-contra-resumen%2F)
           al Estado de Chile investigar el robo e intento de incendio que sufrió
           esta semana la oficina de
-=======
-        url: https://twitter.com/RELE_CIDH/status/1639312531305951232?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1639312531305951232%7Ctwgr%5E0baafe925cb74de5a58fc68936ab4f3ecbc9e784%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.resumenlatinoamericano.org%2F2023%2F03%2F25%2Fchile-relatoria-especial-para-la-libertad-de-expresion-de-la-cidh-insta-al-estado-a-investigar-atentado-contra-resumen%2F
-        texto: >-
-          La Relatoría Especial para la Libertad de Expresión (RELE) de la Comisión
-          Interamericana de Derechos Humanos (CIDH) [instó]($url) al Estado de Chile
-          investigar el robo e intento de incendio que sufrió esta semana la oficina
-          de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [Resumen.cl](https://www.resumenlatinoamericano.org/2023/03/25/chile-relatoria-especial-para-la-libertad-de-expresion-de-la-cidh-insta-al-estado-a-investigar-atentado-contra-resumen/),
           el segundo atentado contra las instalaciones en menos de un año, así como
           a garantizar la seguridad del equipo. Hasta la fecha, ningún organismo
@@ -419,11 +256,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-03-28
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://prnoticias.com/2023/03/28/chile-impulsan-ley-para-la-proteccion-a-periodistas-y-trabajadores-de-la-prensa/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Periodistas de varios países de la región se reunieron en el Primer
           Encuentro Latinoamericano y Caribeño por la Seguridad y Protección de
@@ -432,16 +265,10 @@ paises:
           de “Ley modelo de protección a periodistas y personas trabajadoras de la
           prensa” que cuenta con el respaldo de la UNESCO y otras organizaciones
           especializadas en libertad de expresión. La Comisión de la Cámara de
-<<<<<<< HEAD
           Diputados de Chile está
           [discutiendo](https://prnoticias.com/2023/03/28/chile-impulsan-ley-para-la-proteccion-a-periodistas-y-trabajadores-de-la-prensa/)
           la aprobación de la propuesta legislativa y se espera que para finales de
           año ya esté aprobada en el senado chileno.
-=======
-          Diputados de Chile está [discutiendo]($url) la aprobación de la propuesta
-          legislativa y se espera que para finales de año ya esté aprobada en el
-          senado chileno.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
@@ -449,7 +276,6 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2023-03-07
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Un representante del Partido Liberal presentó un [proyecto de ley
@@ -463,37 +289,15 @@ paises:
           debatidos por los candidatos. Los candidatos que no cumplan con la
           obligación de debatir serían sancionados con la reducción de espacios de
           publicidad audiovisual, los cuales serían entregados a otros candidatos.
-=======
-        url: https://www.camara.gov.co/debates-presidenciales
-        texto: >-
-          Un representante del Partido Liberal presentó un [proyecto de ley
-          estatutaria]($url) que busca reglamentar y hacer obligatoria la
-          participación de candidatos presidenciales en por lo menos dos debates
-          presidenciales durante el periodo de campaña. Según el proyecto, se busca
-          que la ciudadanía pueda conocer las plataformas, propuestas y planes de
-          gobierno. El proyecto incluso establece un procedimiento, liderado por el
-          Consejo Nacional Electoral, por el cual se discutirían y determinarían los
-          temas que serían debatidos por los candidatos. Los candidatos que no
-          cumplan con la obligación de debatir serían sancionados con la reducción
-          de espacios de publicidad audiovisual, los cuales serían entregados a
-          otros candidatos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - electoral
 
       - fecha: 2023-03-14
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Un grupo de congresistas de partidos de todo el espectro político presentó
           un [proyecto de ley que busca incrementar la
           transparencia](https://www.camara.gov.co/congreso-virtual) y la
-=======
-        url: https://www.camara.gov.co/congreso-virtual
-        texto: >-
-          Un grupo de congresistas de partidos de todo el espectro político presentó
-          un [proyecto de ley que busca incrementar la transparencia]($url) y la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           participación ciudadana en los trámites legislativos. El proyecto propone
           la creación de una plataforma virtual que permitiría la interacción entre
           congresistas y ciudadanos de forma que estos puedan hacer aportes para los
@@ -504,7 +308,6 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2023-03-16
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Dos representantes del Partido Liberal presentaron un proyecto de ley que
@@ -525,27 +328,6 @@ paises:
           repetición de personalidades con delirio de omnipotencia y megalomanía".
           No obstante, una restricción a este tipo de contenidos sería contraria a
           las garantías que la constitución asegura a la libertad de expresión.
-=======
-        url: https://www.camara.gov.co/apologia-al-narcotrafico-0
-        texto: >-
-          Dos representantes del Partido Liberal presentaron un proyecto de ley que
-          busca [crear el delito de apología al narcotráfico]($url). Bajo este
-          delito, el proyecto busca castigar a quienes difundan "ideas o doctrinas"
-          que propicien, promuevan o justifiquen el narcotráfico. Sin embargo, la
-          redacción amplia y ambigua del artículo es contraria a las exigencias para
-          las restricciones a la libertad de expresión. En efecto, no es claro qué
-          tipo de conductas se pretenden prohibir, en especial si se considera que
-          la exposición de motivos del mismo proyecto se refiere con desaprobación,
-          por ejemplo, a las series de televisión que retratan el narcotráfico.
-          Según el proyecto: "El mundo del entretenimiento se ha lucrado sin
-          siquiera un asomo de responsabilidad, de la tragedia de los colombianos,
-          es tiempo de aprovechar la gran posibilidad de difusión de los medios
-          modernos para paulatinamente cambiar lo que se entiende por narcotráfico y
-          narcotraficantes, para generar una cultura de repudio y no repetición de
-          personalidades con delirio de omnipotencia y megalomanía". No obstante,
-          una restricción a este tipo de contenidos sería contraria a las garantías
-          que la constitución asegura a la libertad de expresión.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - discurso-de-odio
@@ -553,16 +335,11 @@ paises:
   - pais: Ecuador
     entradas:
       - fecha: 2023-03-23
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.infobae.com/america/america-latina/2023/03/23/denuncian-que-guia-elaborada-por-la-fiscalia-de-ecuador-para-periodistas-va-en-contra-de-la-libertad-de-expresion/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           En Ecuador existe una Guía Práctica para la actuación fiscal en los casos
           que se relacionan con vulneraciones al derecho a la libertad de expresión
           y la protección de periodistas y trabajadores de la comunicación. Dicho
-<<<<<<< HEAD
           documento ha sido
           [criticado](https://www.infobae.com/america/america-latina/2023/03/23/denuncian-que-guia-elaborada-por-la-fiscalia-de-ecuador-para-periodistas-va-en-contra-de-la-libertad-de-expresion/)
           por cuanto a que la Fiscalía se ha encargado de especificar que existe la
@@ -579,15 +356,6 @@ paises:
       - fecha: 2023-03-23
         tipo: proyecto
         texto: >-
-=======
-          documento ha sido [criticado]($url) por cuanto a que la Fiscalía se ha
-          encargado de especificar que existe la prohibición de circular información
-          que corresponda a investigaciones previas, recordando la existencia del
-          artículo 180 del Código Orgánico Integral Penal , que establece una pena
-          probática de la libertad de uno a tres años como sanción de quien decida
-          difundir dicha información, incurriendo a posibles actos de censura o
-          autocensura para los periodistas. LIBERTAD DE EXPRESION LIBERTAD DE PRENSA
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Fernando Villavicencio
           [pidió](https://www.eluniverso.com/noticias/politica/fernando-villavicencio-pidio-a-la-corte-idh-monitorear-denuncias-de-xavier-jordan-contra-periodistas-y-medios-de-comunicacion-ecuatorianos-nota/)
           a la Corte IDH monitorear denuncias de Xavier Jordán contra periodistas y
@@ -597,7 +365,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-03-28
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Karol Noroña, periodista ecuatoriana especializada en coberturas de
@@ -605,14 +372,6 @@ paises:
           vida](https://www.infobae.com/america/america-latina/2023/03/28/una-periodista-ecuatoriana-que-cubre-la-crisis-carcelaria-tuvo-que-salir-del-pais-porque-su-vida-corre-peligro/);
           así lo informó este martes el medio digital GK, del que Noroña forma
           parte. Adicional a ello, en la misma semana cuatro periodistas recibieron
-=======
-        url: https://www.infobae.com/america/america-latina/2023/03/28/una-periodista-ecuatoriana-que-cubre-la-crisis-carcelaria-tuvo-que-salir-del-pais-porque-su-vida-corre-peligro/
-        texto: >-
-          Karol Noroña, periodista ecuatoriana especializada en coberturas de
-          seguridad, [abandonó el país ante amenazas directas a su vida]($url); así
-          lo informó este martes el medio digital GK, del que Noroña forma parte.
-          Adicional a ello, en la misma semana cuatro periodistas recibieron
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           explosivos escondidos en memorias USB a pocos días de cumplirse cinco años
           del secuestro y homicidio de los periodistas del diario El Comercio.
         etiquetas:
@@ -621,27 +380,17 @@ paises:
   - pais: Guatemala
     entradas:
       - fecha: 2023-03-01
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Acusan a la Fiscalía de Guatemala de buscar [“intimidar a
           periodistas”](https://www.elespectador.com/mundo/america/acusan-a-la-fiscalia-de-guatemala-de-buscar-intimidar-a-periodistas-noticias-hoy/).
           El medio El Periódico hizo un llamado a la prensa local para detener lo
           que llamaron un “nuevo golpe contra la libertad de expresión”.
-=======
-        url: https://www.elespectador.com/mundo/america/acusan-a-la-fiscalia-de-guatemala-de-buscar-intimidar-a-periodistas-noticias-hoy/
-        texto: >-
-          Acusan a la Fiscalía de Guatemala de buscar [“intimidar a
-          periodistas”]($url). El medio El Periódico hizo un llamado a la prensa
-          local para detener lo que llamaron un “nuevo golpe contra la libertad de
-          expresión”.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
 
       - fecha: 2023-03-02
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Juez ordena investigar a nueve periodistas en Guatemala, el magistrado
@@ -653,22 +402,10 @@ paises:
           periodística acusó que el Ministerio Público quiere “intimidar” a
           trabajadores de prensa en un país del que tuvieron que irse cinco en 2022
           por problemas similares.
-=======
-        url: https://www.france24.com/es/am%C3%A9rica-latina/20230302-un-golpe-a-la-libertad-de-expresi%C3%B3n-juez-ordena-investigar-a-nueve-periodistas-en-guatemala
-        texto: >-
-          Juez ordena investigar a nueve periodistas en Guatemala, el magistrado
-          Jimi Brener Ramírez [aprobó]($url) la investigación contra reporteros y
-          columnistas por publicaciones sobre el proceso penal que involucra a José
-          Zamora Marroquín, fundador del medio de comunicación y que está preso
-          desde julio de 2022. La entidad periodística acusó que el Ministerio
-          Público quiere “intimidar” a trabajadores de prensa en un país del que
-          tuvieron que irse cinco en 2022 por problemas similares.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2023-03-07
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Organizaciones de la sociedad civil se han
@@ -677,22 +414,12 @@ paises:
           persecución penal a periodistas y medios de comunicación. Entre los
           firmantes del comunicado figuran la Asociación de Periodistas de Guatemala
           (APG), Circulo Nacional de Prensa y Federación de Escuelas Radiofónicas.
-=======
-        url: https://www.elpais.com.co/mundo/periodistas-de-guatemala-en-alerta-por-persecucion-penal-a-comunicadores.html
-        texto: >-
-          Organizaciones de la sociedad civil se han [comprometido]($url) a realizar
-          "vigilar y defender la libertad de expresión" ante alerta por persecución
-          penal a periodistas y medios de comunicación. Entre los firmantes del
-          comunicado figuran la Asociación de Periodistas de Guatemala (APG),
-          Circulo Nacional de Prensa y Federación de Escuelas Radiofónicas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: México
     entradas:
       - fecha: 2023-02-04
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [periodista Paulina
@@ -765,85 +492,14 @@ paises:
           Puebla. Por ello, las organizaciones Artículo 19 y la Red Nacional de
           Periodistas, Comunicación e Información de la Mujer A.C. (Cimac)
           solicitaron el 13 de marzo de 2023 a la Comisión de Derechos Humanos del
-=======
-        url: https://articulo19.org/organizaciones-rechazan-agresiones-contra-periodistas-de-el-popular/
-        texto: >-
-          La [periodista Paulina Milán]($url) fue expulsada del evento al que
-          asistió previo pago, el cual fue convocado por la empresa BHIP. La
-          periodista fue retirada del evento después de realizar preguntas sobre la
-          Alerta que emitió la Comisión Federal para la Protección contra Riesgos
-          Sanitarios. Previo a exigir su salida del evento le obligaron a borrar el
-          material que recopiló. Por ello, las organizaciones Artículo 19 y la Red
-          Nacional de Periodistas, Comunicación e Información de la Mujer A.C.
-          (Cimac) solicitaron el 13 de marzo de 2023 a la Fiscalía General del
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Estado de Puebla investigue los hechos; y, el Mecanismo de Protección para
           las Personas Defensoras de Derechos Humanos y Periodistas determine en su
           caso las medidas adecuadas para proteger a las periodistas.
         etiquetas:
           - libertad-de-prensa
 
-<<<<<<< HEAD
       - fecha: 2023-03-06
         tipo: proyecto
-=======
-      - fecha: 2023-02-24
-        url: https://articulo19.org/policia-estatal-de-campeche-detiene-arbitrariamente-a-periodista/
-        texto: >-
-          El [periodista Juan Pablo Cu]($url) fue detenido por elementos de la
-          Secretaría de Protección y Seguridad Ciudadana de Campeche sin motivo
-          legal alguno, razón por la que fue liberado después de estar 25 minutos en
-          las instalaciones de la Secretaría. No obstante lo anterior, al periodista
-          antes mencionado como al periodista Abraham Martínez les fueron retenidas
-          sus respectivas motocicletas del 24 hasta el 27 de febrero de 2023. Es por
-          lo referido que el 2 de marzo de 2023, la organización Artículo 19 emitió
-          comunicado exigiendo al Gobierno de Campeche, una política para la
-          protección de periodistas, en las que se incluya capacitación a los
-          policías para evitar que se repitan actos de hostigamiento. Asimismo,
-          requirió a la Comisión de Derechos Humanos del Estado de Campeche a la
-          atención de las quejas interpuestas por los periodistas antes mencionados,
-          y a la Secretaría de Protección y Seguridad Ciudadana a investigar de
-          forma diligente a los policías que intervinieron en los hechos.
-        etiquetas:
-          - libertad-de-prensa
-
-      - fecha: 2023-02-25
-        url: https://articulo19.org/policia-de-accion-y-reaccion-de-coahuila-golpea-a-escoltas-e-intimida-a-periodista-en-acuna/
-        texto: >-
-          Elementos de la corporación de policía de Acción y Reacción de Coahuila
-          agredieron a personal de la Secretaría de Seguridad y Protección Ciudadana
-          de la misma entidad, que fungen por mandato del Mecanismo de Protección
-          para Personas Defensoras de Derechos Humanos y Periodistas como escolta de
-          la [periodista Gloria Ruiz]($url). Por ello, la organización Artículo 19
-          emitió un comunicado el 1 de marzo de 2023 requiriendo a la Secretaría de
-          Seguridad y Protección Ciudadana abstenerse de actos intimidatorios contra
-          la periodista, y abrir una investigación por la actuación de los policías
-          agresores. También solicita que la Secretaría de Seguridad y Protección
-          Ciudadana y el Mecanismo de Protección para Personas Defensoras de
-          Derechos Humanos y Periodistas se coordinen adecuadamente para prevenir
-          agresiones contra la periodista. Y, a la Fiscalía General de Justicia de
-          Coahuila a que investigue los hechos antes mencionados.
-        etiquetas:
-          - libertad-de-prensa
-
-      - fecha: 2023-02-28
-        url: https://articulo19.org/organizaciones-rechazan-agresiones-contra-periodistas-de-el-popular/
-        texto: >-
-          La [periodista Carolina Fernández]($url) fue acusada de difamación y
-          amenaza por parte de Verónica Vélez. Los hechos son preocupantes
-          considerando que Verónica Vélez es parte de la Comisión de Protección a
-          Defensores de Derechos Humanos y Periodistas de Puebla. Por ello, las
-          organizaciones Artículo 19 y la Red Nacional de Periodistas, Comunicación
-          e Información de la Mujer A.C. (Cimac) solicitaron el 13 de marzo de 2023
-          a la Comisión de Derechos Humanos del Estado de Puebla investigue los
-          hechos; y, el Mecanismo de Protección para las Personas Defensoras de
-          Derechos Humanos y Periodistas determine en su caso las medidas adecuadas
-          para proteger a las periodistas.
-        etiquetas:
-          - libertad-de-prensa
-
-      - fecha: 2023-03-06
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La Suprema Corte de Justicia de la Nación declaró inválido el delito de
           “Halconeo” regulado en el Código Penal del Estado de Guanajuato por
@@ -853,7 +509,6 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2023-03-07
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Las organizaciones [R3D, Artículo 19 y
@@ -864,24 +519,11 @@ paises:
           Defensa Nacional brinde información del Centro Militar de Inteligencia;
           que se haga pública la información del contrato con la Comercializadora
           Antsua S.A. de C.V., entre otras cuestiones.
-=======
-        url: https://articulo19.org/estructura-secreta-del-ejercito-espio-con-pegasus-a-raymundo-ramos-con-pleno-conocimiento-del-secretario-de-la-defensa/
-        texto: >-
-          Las organizaciones [R3D, Artículo 19 y SocialTic]($url) emitieron un
-          comunicado en el que dan a conocer que el Ejército mexicano espió al
-          defensor de derechos humanos Raymundo Ramos, por lo que solicitan a las
-          autoridades que cese el espionaje militar; que la Secretaría de la Defensa
-          Nacional brinde información del Centro Militar de Inteligencia; que se
-          haga pública la información del contrato con la Comercializadora Antsua
-          S.A. de C.V., entre otras cuestiones.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
           - vigilancia
 
       - fecha: 2023-03-08
-<<<<<<< HEAD
-        tipo: proyecto
         texto: >-
           La [periodista Chantal
           Flores](https://articulo19.org/article-19-denuncia-ataques-contra-mujeres-periodistas-en-el-marco-del-8m/)
@@ -891,23 +533,14 @@ paises:
           emitió un comunicado el 22 de marzo de 2023 en el que exhorta a la
           Secretaría de Seguridad del Estado de Nuevo León a evitar actos contra la
           integridad de personas que cubren protestas sociales e investigar a los
-          servidores públicos que agredieron a la periodista. LIBERTAD DE EXPRESION
+          servidores públicos que agredieron a la periodista.
+        etiquetas:
+          - libertad-de-expresion
+
+      - fecha: 2023-03-08
+        texto: >-
           En las manifestaciones del 8M en Guanajuato se presentaron tres lonas con
           la imagen de la periodista [Rosario Martínez de la
-=======
-        url: https://articulo19.org/article-19-denuncia-ataques-contra-mujeres-periodistas-en-el-marco-del-8m/
-        texto: >-
-          La [periodista Chantal Flores]($url) fue amenazada por personal de la
-          Secretaría de Seguridad del Estado de Nuevo León, al preguntar sobre las
-          detenciones que se llevaron a cabo por parte de las autoridades durante la
-          Marcha 8M. La organización Artículo 19 emitió un comunicado el 22 de marzo
-          de 2023 en el que exhorta a la Secretaría de Seguridad del Estado de Nuevo
-          León a evitar actos contra la integridad de personas que cubren protestas
-          sociales e investigar a los servidores públicos que agredieron a la
-          periodista. LIBERTAD DE EXPRESION En las manifestaciones del 8M en
-          Guanajuato se presentaron tres lonas con la imagen de la periodista
-          [Rosario Martínez de la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Vega](https://articulo19.org/article-19-denuncia-ataques-contra-mujeres-periodistas-en-el-marco-del-8m/)
           en la que se le acusa de extorsionar a políticos. La periodista cubre
           temas de política y corrupción, en particular de apoyos sociales. Como
@@ -922,18 +555,11 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-03-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Las [periodistas Natalie Hoyos López y Michelle Hoyos
           López](https://articulo19.org/article-19-denuncia-ataques-contra-mujeres-periodistas-en-el-marco-del-8m/)
           fueron detenidas arbitrariamente y recibieron tratos crueles, inhumanos y
-=======
-        url: https://articulo19.org/article-19-denuncia-ataques-contra-mujeres-periodistas-en-el-marco-del-8m/
-        texto: >-
-          Las [periodistas Natalie Hoyos López y Michelle Hoyos López]($url) fueron
-          detenidas arbitrariamente y recibieron tratos crueles, inhumanos y
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           degradantes por parte del personal de la policía municipal de Izúcar de
           Matamoros, Puebla. Después de los tratos recibidos, fueron puestas en
           libertad previo pago de 1,900 pesos por concepto de pago por ensuciar las
@@ -946,7 +572,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-03-14
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Las organizaciones [R3D, Artículo 19 y
@@ -956,31 +581,15 @@ paises:
           a fin de que explique el uso de Pegasus en contra de un defensor de
           derechos humanos y dos periodistas, esto en el marco de la instalación de
           la Comisión Bicameral de Seguridad Nacional.
-=======
-        url: https://articulo19.org/wp-content/uploads/2023/03/Comunicado_Comparecencia_LCS.pdf
-        texto: >-
-          Las organizaciones [R3D, Artículo 19 y SocialTic]($url) emitieron un
-          comunicado en el que solicitan que el Senado de la República solicite la
-          comparecencia del General Secretario Luis Cresencio Sandoval, a fin de que
-          explique el uso de Pegasus en contra de un defensor de derechos humanos y
-          dos periodistas, esto en el marco de la instalación de la Comisión
-          Bicameral de Seguridad Nacional.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
           - vigilancia
 
       - fecha: 2023-03-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Senado de la República [derogó la Ley sobre Delitos de
           Imprenta](https://comunicacionsocial.senado.gob.mx/informacion/comunicados/5372-por-unanimidad-aprueba-el-senado-proyecto-que-abroga-ley-sobre-delitos-de-imprenta)
-=======
-        url: https://comunicacionsocial.senado.gob.mx/informacion/comunicados/5372-por-unanimidad-aprueba-el-senado-proyecto-que-abroga-ley-sobre-delitos-de-imprenta
-        texto: >-
-          El Senado de la República [derogó la Ley sobre Delitos de Imprenta]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           por considerar que limita el ejercicio de la libertad de expresión. Esta
           decisión deja sin efectos la reforma propuesta a esta misma ley el 14 de
           febrero pasado en la Cámara de Diputados en la que se proponía endurecer
@@ -989,7 +598,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-03-21
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización R3D exhortó al Senado de la República para que no apruebe
@@ -1000,38 +608,19 @@ paises:
           la Secretaría de Gobernación. R3D recordó que anteriormente la Suprema
           Corte de Justicia de la Nación declaró inconstitucional una base de datos
           similar en el caso del Padrón Nacional de Usuarios de Telefonía Móvil.
-=======
-        url: https://r3d.mx/2023/03/21/la-aprobacion-del-sistema-nacional-de-registro-e-identidad-atenta-contra-el-derecho-a-la-privacidad/
-        texto: >-
-          La organización R3D exhortó al Senado de la República para que no apruebe
-          la creación del [Sistema Nacional de Registro e Identidad]($url) regulado
-          en la Ley General de Operación de los Registros Civiles por constituir una
-          base de datos biométricos centralizada y bajo el control de la Secretaría
-          de Gobernación. R3D recordó que anteriormente la Suprema Corte de Justicia
-          de la Nación declaró inconstitucional una base de datos similar en el caso
-          del Padrón Nacional de Usuarios de Telefonía Móvil.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2023-03-31
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://comunicacionsocial.senado.gob.mx/informacion/comunicados/5222-destaca-ricardo-monreal-consenso-del-senado-para-designar-a-dos-comisionados-del-inai
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El 31 de marzo de 2023 termina el periodo de un tercer integrante del
           Instituto Nacional de Transparencia, Acceso a la Información y Protección
           de Datos Personales y estas vacancias impiden que esta institución pueda
           tomar decisiones con el número de integrantes que exige la ley. Es por
           ello, que el presidente de la Junta de Coordinación Política, Ricardo
-<<<<<<< HEAD
           Monreal Ávila destacó el consenso alcanzado el [1 de marzo de
           2023](https://comunicacionsocial.senado.gob.mx/informacion/comunicados/5222-destaca-ricardo-monreal-consenso-del-senado-para-designar-a-dos-comisionados-del-inai)
-=======
-          Monreal Ávila destacó el consenso alcanzado el [1 de marzo de 2023]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           para designar a dos personas para ocupar las vacancias en este órgano
           colegiado. Sin embargo, el [15 de marzo de
           2023](https://comunicacionsocial.senado.gob.mx/informacion/comunicados/5391-objetar-nombramientos-de-inai-facultad-del-ejecutivo-se-hara-otra-propuesta-monreal),
@@ -1055,7 +644,6 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2023-03-01
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [El gobierno
@@ -1067,18 +655,6 @@ paises:
           Salud, el Estado Mayor General de la Policía Nacional, el Ministerio de
           Justicia y el Colegio de Periodistas. El contenido del proyecto ha sido
           criticado por [poner en riesgo la libertad de
-=======
-        url: https://ipys.org/libertad-de-expresion/alertas/peru-gobierno-propone-reglamentar-la-cobertura-periodistica-de-las-protestas
-        texto: >-
-          [El gobierno publicó]($url) en el diario oficial “El Peruano” el proyecto
-          de "Protocolo de actuación interinstitucional para la coordinación y
-          atención a periodistas y comunicadores sociales en el contexto de
-          alteración al orden público". El documento fue elaborado por el Ministerio
-          del Interior, el Ministerio de Salud, el Estado Mayor General de la
-          Policía Nacional, el Ministerio de Justicia y el Colegio de Periodistas.
-          El contenido del proyecto ha sido criticado por [poner en riesgo la
-          libertad de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           prensa](https://ipys.org/noticias/libertad-de-expresion/ifex-alc-presenta-observaciones-criticas-al-protocolo-de-actuacion-para-la-atencion-a-periodistas-en-peru).
           Allí se contempla que la Policía señale a los periodistas la "ubicación
           adecuada" para la cobertura en escenarios de violencia y advierte que
@@ -1091,20 +667,12 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-03-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La congresista Noelia Herrera, del partido político Renovación Popular,
           [presentó el proyecto de ley N.º 4177/2022-CR en el
           Congreso](https://ipys.org/libertad-de-expresion/alertas/peru-congresista-presento-proyecto-de-ley-para-obligar-titulo-y-colegiatura-a-periodistas-que-ejerzan-la-profesion).
           La iniciativa legislativa plantea que solo los periodistas con título y
-=======
-        url: https://ipys.org/libertad-de-expresion/alertas/peru-congresista-presento-proyecto-de-ley-para-obligar-titulo-y-colegiatura-a-periodistas-que-ejerzan-la-profesion
-        texto: >-
-          La congresista Noelia Herrera, del partido político Renovación Popular,
-          [presentó el proyecto de ley N.º 4177/2022-CR en el Congreso]($url). La
-          iniciativa legislativa plantea que solo los periodistas con título y
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           colegiados puedan ejercer la profesión, lo que contradice el libre
           ejercicio del periodismo. En la [Opinión Consultiva OC
           5-85](https://www.corteidh.or.cr/docs/opiniones/seriea_05_esp.pdf), la
@@ -1119,10 +687,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-03-12
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 44131/2022-CR
         url: https://wb2server.congreso.gob.pe/spley-portal-service/archivo/ODI1NTU=/pdf/PL0443120230309
         texto: >-
@@ -1138,20 +703,12 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-03-14
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Comisión de Justicia del Congreso de la República del Perú emitió un
           dictamen aprobatorio del Proyecto de Ley Nº 2862/2022-CR. Este proyecto
           [propone aumentar las penas en los delitos de difamación y
           calumnia](https://ipys.org/libertad-de-expresion/alertas/peru-congreso-aprueba-dictamen-para-incrementar-las-penas-en-el-delitos-de-difamacion-y-calumnia)
-=======
-        url: https://ipys.org/libertad-de-expresion/alertas/peru-congreso-aprueba-dictamen-para-incrementar-las-penas-en-el-delitos-de-difamacion-y-calumnia
-        texto: >-
-          La Comisión de Justicia del Congreso de la República del Perú emitió un
-          dictamen aprobatorio del Proyecto de Ley Nº 2862/2022-CR. Este proyecto
-          [propone aumentar las penas en los delitos de difamación y calumnia]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           cuando se utilicen medios de comunicación social, redes sociales o sitios
           web de manera indebida. Las penas de cárcel para estos delitos aumentarían
           de tres a cuatro años. Esta decisión ha sido cuestionada por
@@ -1163,7 +720,6 @@ paises:
           - libertad-de-expresion
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -1211,8 +767,4 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
-=======
-{{< observatorio-mes month="2023-03" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

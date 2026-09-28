@@ -15,18 +15,14 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1365217-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2021-05-11
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 11 de mayo, la Cámara Nacional de Apelaciones en lo Civil y Comercial
@@ -39,19 +35,6 @@ paises:
           suficientes y que la actividad de los buscadores de internet se encuentra
           amparada por la garantía constitucional de libertad de expresión y
           protegida por la [Ley de Servicio de
-=======
-        url: https://www.diariojudicial.com/nota/89219
-        texto: >-
-          El 11 de mayo, la Cámara Nacional de Apelaciones en lo Civil y Comercial
-          Federal [revocó]($url) una sentencia de primera instancia que había hecho
-          lugar a una medida cautelar solicitada por Victoria Vanucci contra Google.
-          En primera instancia se le ordenó a la empresa eliminar el nombre,
-          fotografías y toda otra referencia que identificara a Vanucci con palabras
-          difamatorias. La Cámara revocó esa decisión alegando que la demandante no
-          había acompañado pruebas suficientes y que la actividad de los buscadores
-          de internet se encuentra amparada por la garantía constitucional de
-          libertad de expresión y protegida por la [Ley de Servicio de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Internet.](http://servicios.infoleg.gob.ar/infolegInternet/anexos/105000-109999/107145/norma.htm)
           Esta última dispone que “la búsqueda, recepción y difusión de información
           e ideas de toda índole, a través del servicio de Internet, se considera
@@ -59,16 +42,11 @@ paises:
           expresión”.
 
       - fecha: 2021-05-12
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://acij.org.ar/agencia-de-acceso-a-la-informacion-publica-el-poder-ejecutivo-nacional-debera-presentar-una-nueva-propuesta-para-designar-a-su-autoridad/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El 12 de mayo, luego de la polémica desatada por su candidatura y tras
           varios reclamos y observaciones efectuadas por organizaciones de la
           sociedad civil, la ciudadanía y academia, el Poder Ejecutivo decidió [no
-<<<<<<< HEAD
           confirmar](https://acij.org.ar/agencia-de-acceso-a-la-informacion-publica-el-poder-ejecutivo-nacional-debera-presentar-una-nueva-propuesta-para-designar-a-su-autoridad/)
           al candidato propuesto para ocupar el cargo titular de la Agencia de
           Acceso a la Información Pública. Las observaciones realizadas durante el
@@ -86,24 +64,6 @@ paises:
           anunciadas por la empresa. Por otro lado, el 15 de mayo la Secretaría de
           Comercio Interior de la Nación, en base a un informe de la Comisión
           Nacional de Defensa de la Competencia,
-=======
-          confirmar]($url) al candidato propuesto para ocupar el cargo titular de la
-          Agencia de Acceso a la Información Pública. Las observaciones realizadas
-          durante el marco de una audiencia pública en marzo se habían concentrado
-          en la falta de idoneidad y autonomía del candidato por lo que será clave
-          para la nueva candidatura que la persona propuesta cumpla con estos
-          requisitos y que exista una discusión abierta y participativa en torno a
-          su designación.
-
-      - fecha: 2021-05-14
-        url: https://www.argentina.gob.ar/noticias/investigacion-de-oficio-whatsapp
-        texto: >-
-          El 14 de mayo la Agencia de Acceso a la Información Pública inició una
-          [investigación]($url) de oficio a Whatsapp debido a las nuevas políticas
-          de privacidad anunciadas por la empresa. Por otro lado, el 15 de mayo la
-          Secretaría de Comercio Interior de la Nación, en base a un informe de la
-          Comisión Nacional de Defensa de la Competencia,
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [dictó](https://www.argentina.gob.ar/noticias/comercio-interior-dicto-una-medida-cautelar-contra-facebook-para-evitar-que-whatsapp-0)
           una medida cautelar para Whatsapp suspenda la puesta en vigor de las su
           nuevas políticas de privacidad por considerar que incurriría en una
@@ -118,37 +78,22 @@ paises:
           [aquí](https://www.vialibre.org.ar/cndc-intervencion-clave-frente-a-los-nuevos-terminos-de-uso-de-whatsapp/).
 
       - fecha: 2021-05-14
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: http://www.alianzaregional.net/wp-content/uploads/2021/05/Articulo-XIII-1.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El 14 de mayo se publicó el capítulo sobre Argentina del informe Artículo
           XIII sobre Internet, Libertad de Expresión y Espacio Cívico en América
           Latina de la Alianza Regional en el que el CELE trabajó junto a ACIJ. El
-<<<<<<< HEAD
           capítulo se puede acceder
           [aquí](http://www.alianzaregional.net/wp-content/uploads/2021/05/Articulo-XIII-1.pdf).
-=======
-          capítulo se puede acceder [aquí]($url).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Brasil
     entradas:
       - fecha: 2021-05-03
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 03 de mayo, el Fiscal General de la República, Augusto Aras, presentó
           ante el Comité de Ética de la Universidad de São Paulo un
           [reclamo](https://www.internetlab.org.br/wp-content/uploads/2021/05/aras-contesta-conduta-professor-usp.pdf)
-=======
-        url: https://www.internetlab.org.br/wp-content/uploads/2021/05/aras-contesta-conduta-professor-usp.pdf
-        texto: >-
-          El 03 de mayo, el Fiscal General de la República, Augusto Aras, presentó
-          ante el Comité de Ética de la Universidad de São Paulo un [reclamo ]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           contra Conrado Hüber Mendes, profesor de la Facultad de Derecho. A
           principios de año, Hübner utilizó su cuenta de Twitter para referirse a
           Aras como "Poste-General de la República" y “siervo del presidente” Jair
@@ -167,20 +112,12 @@ paises:
           difamación.
 
       - fecha: 2021-05-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 05 de mayo, la Cámara de Diputados aprobó el [Proyecto de Ley (PL)
           2462/1991](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=18156&ord=1),
           que deroga la Ley de Seguridad Nacional y se adjuntó al texto aprobado el
           [PL
-=======
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=18156&ord=1
-        texto: >-
-          El 05 de mayo, la Cámara de Diputados aprobó el [Proyecto de Ley (PL)
-          2462/1991]($url), que deroga la Ley de Seguridad Nacional y se adjuntó al
-          texto aprobado el [PL
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           6764/2002](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=51185).
           La Cámara decidió tipificar los delitos de atentados a la soberanía,
           atentados a la integridad nacional, espionaje, abolición violenta del
@@ -196,7 +133,6 @@ paises:
           fue remitido al Senado.
 
       - fecha: 2021-05-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 10 de mayo, el Tercer Grupo Civil de la Corte de Jusitcia del Distrito
@@ -210,19 +146,6 @@ paises:
           sociales del periodista.
 
       - tipo: proyecto
-=======
-        url: https://www.internetlab.org.br/wp-content/uploads/2021/05/B279F001CD087F_gleisi.pdf
-        texto: >-
-          El 10 de mayo, el Tercer Grupo Civil de la Corte de Jusitcia del Distrito
-          Federal y Territorio [condenó]($url), al periodista Augusto Nunes al pago
-          de R$30.000 en concepto de indemnización a la diputada Gleisi Hoffman por
-          atribuirle el término "amante" en más de 70 publicaciones. Según la
-          sentencia, la diputada alegó que el periodista había publicado estas
-          difamaciones en el “Blog do Augusto Nunes” y en la revista Veja, en
-          programas de radio y en las redes sociales del periodista.
-
-      - url: http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8771.htm
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Luego de que el presidente Jair Bolsonaro declarara que el gobierno estaba
           trabajando en un [nuevo decreto reglamentario para el Marco Civil da
@@ -231,7 +154,6 @@ paises:
           Turismo](https://sei.mctic.gov.br/sei/modulos/pesquisa-mctic/md_pesq_documento_consulta_externa.php?kyYA5XsU6Px7dqTJLoaxwRt-PyIDKXJce6L1E0_KGOnkWip_2GyxoA4SSzWxSuHCZ3mk6gskykWWpFukmuw0S74maj0RMElY_RdupQlnjHXVnr0hnl9JQHakOh92VoQS)
           y se remitió a los Ministerios de Justicia y Seguridad Pública; Ciencia,
           Tecnología e Innovaciones y Comunicaciones. El texto modificaría el
-<<<<<<< HEAD
           [Decreto
           8.711/2016](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8771.htm)
           y prohibiría a los proveedores de aplicaciones de Internet excluir,
@@ -259,31 +181,6 @@ paises:
           telecomunicaciones. El proyecto pasó a la Cámara de Diputados para
           continuar la última etapa de su tramitación. Al entender a Internet como
           un [servicio
-=======
-          [Decreto 8.711/2016]($url) y prohibiría a los proveedores de aplicaciones
-          de Internet excluir, suspender o limitar la difusión de contenido generado
-          por el usuario en sus aplicaciones sin una orden judicial. Las excepciones
-          a esta regla serían: la restricción de contenido por violación del
-          Estatuto de los Niños y Adolescentes, el requerimiento del usuario, o de
-          un tercero (afectado en su imagen, privacidad o derechos de autor), y
-          otros casos específicos (como desnudez y apoyo a la práctica de actos
-          ilícitos u organizaciones delictivas). La suspensión de cuentas de
-          usuarios, incluso en los servicios pagos, también estarían alcanzadas por
-          el requisito de orden judicial excepto en aquellos casos que se traten de
-          cuentas creadas para asumir la identidad de terceros para engañar al
-          público o "administradas predominantemente por cualquier programa
-          informático o tecnología para simular o reemplazar actividades humanas ”.
-
-  - pais: Chile
-    entradas:
-      - url: https://www.senado.cl/internet-como-servicio-publico-el-desafio-del-acceso-%20equitativo-y-la/senado/2021-04-15/102930.html
-        texto: >-
-          El Senado de Chile [aprobó]($url) el proyecto de ley (impulsado
-          originalmente por ex Bachelet en 2018) para reconocer el acceso a Internet
-          como un servicio público de telecomunicaciones. El proyecto pasó a la
-          Cámara de Diputados para continuar la última etapa de su tramitación. Al
-          entender a Internet como un [servicio
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           básico](https://digitalpolicylaw.com/proyecto-de-ley-busca-transformar-que-internet-en-%20chile-sea-un-servicio-publico/%20Senado%20Chile),
           éste se encontrará sujeto a la regulación como concesión y servicio, por
           lo que los proveedores deberán garantizar una prestación continua y de
@@ -295,7 +192,6 @@ paises:
           transparencia e igualdad en la asignación de los recursos. Se establece
           que dichos principios estarán plasmados en el “Plan Nacional Digital”.
 
-<<<<<<< HEAD
       - tipo: proyecto
         texto: >-
           El Consejo para la Transparencia de Chile (CPLT)
@@ -312,23 +208,6 @@ paises:
           el que consideró violatorio de la privacidad de los afectados.
           Organizaciones de la sociedad civil dedicadas a temas de tecnología, datos
           y derechos han realizado una declaración pública de
-=======
-      - url: https://interferencia.cl/articulos/consejo-para-la-transparencia-valida-entrega-de-%20datos-de-15-millones-de-celulares-cadem
-        texto: >-
-          El Consejo para la Transparencia de Chile (CPLT) [validó]($url) la entrega
-          de los datos (relacionados con nombre y número de teléfono, tipo de plan,
-          comuna y ciudad de residencia, tráfico de datos y voz en determinado mes,
-          entre otros) de los más de 15 millones de usuarias y usuarios de telefonía
-          móvil en Chile requerida por la Subsecretaría de Telecomunicaciones de
-          Chile (SUBTEL). SUBTEL justificó este pedido en la realización de
-          encuestas de satisfacción a personas usuarias de los servicios de
-          telefonía móvil. No obstante, la Asociación de Telefonía Móvil (ATELMO
-          S.A) presentó objeciones ante el CPLT a inicios de diciembre de 2020 con
-          el objetivo de que se pronunciara respecto al actuar de SUBTEL el que
-          consideró violatorio de la privacidad de los afectados. Organizaciones de
-          la sociedad civil dedicadas a temas de tecnología, datos y derechos han
-          realizado una declaración pública de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [rechazo](https://lavozdelosquesobran.cl/cercano-a-la-udi-fue-unico-opositor-a-masiva-%20entrega-de-datos-de-celulares-a-cadem-aprobada-por-cplt-gloria-de-la-fuente-ps-%20voto-a-favor/)
           a esta situación, por considerar que hay una abierta vulneración a la
           protección de los datos personales de la ciudadanía. Asimismo, exigieron
@@ -339,12 +218,8 @@ paises:
 
   - pais: Colombia
     entradas:
-<<<<<<< HEAD
       - tipo: proyecto
         texto: >-
-=======
-      - texto: >-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Avanza en el Congreso el proyecto de ley "Internet como Servicio Público
           Esencial y Universal” (109/20 Cámara, 324/20 Senado). Este proyecto busca
           establecer el acceso a internet como un servicio público de carácter
@@ -358,20 +233,12 @@ paises:
           aprobación en el cuarto y último debate, en mayo el texto pasó a
           conciliación por ambas cámaras.
 
-<<<<<<< HEAD
       - tipo: proyecto
         texto: >-
           En mayo, el Tribunal Administrativo de Cundinamarca ordenó al Gobierno
           Nacional la entrega de los contratos de la compra de vacunas contra la
           COVID-19, los cuales había mantenido bajo reserva. [El
           Tribunal](https://www.asuntoslegales.com.co/actualidad/tribunal-administrativo-de-cundinamarca-pidio-contratos-de-vacunacion-al-gobierno-3173781)
-=======
-      - url: https://www.asuntoslegales.com.co/actualidad/tribunal-administrativo-de-cundinamarca-pidio-contratos-de-vacunacion-al-gobierno-3173781
-        texto: >-
-          En mayo, el Tribunal Administrativo de Cundinamarca ordenó al Gobierno
-          Nacional la entrega de los contratos de la compra de vacunas contra la
-          COVID-19, los cuales había mantenido bajo reserva. [El Tribunal]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           explicó que el derecho a acceder a información pública es fundamental, que
           el Gobierno no tenía razones para mantener la reserva, que la difusión de
           la información no pone en peligro la salud pública y que las cláusulas de
@@ -379,7 +246,6 @@ paises:
 
   - pais: Ecuador
     entradas:
-<<<<<<< HEAD
       - tipo: proyecto
         texto: >-
           Ecuador
@@ -390,16 +256,6 @@ paises:
           masiva de datos personales que conmocionó a Ecuador e hizo latente la
           necesidad de contar con un mecanismo legal para proteger estos activos. La
           ley
-=======
-      - url: https://www.primicias.ec/noticias/tecnologia/asamblea-aprueba-ley-proteccion-datos-personales/
-        texto: >-
-          Ecuador [estrena]($url) nueva Ley de Protección de Datos Personales: a
-          pesar de que, desde 2008, la Constitución ecuatoriana ya proveía
-          disposiciones de protección de datos. Se trata de una norma presentada en
-          el contexto de una filtración masiva de datos personales que conmocionó a
-          Ecuador e hizo latente la necesidad de contar con un mecanismo legal para
-          proteger estos activos. La ley
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [desarrolla](https://www.primicias.ec/noticias/tecnologia/ley-proteccion-datos-asamblea/)
           el principio del consentimiento expreso para el tratamiento de datos -que
           incluye la divulgación, rectificación y eliminación-, los derechos del
@@ -408,7 +264,6 @@ paises:
           ley se crea la Autoridad Nacional de Datos Personales, a cargo del
           Registro Nacional de Protección de Datos Personales.
 
-<<<<<<< HEAD
       - tipo: proyecto
         texto: >-
           La Asamblea Nacional envió al Ejecutivo un [proyecto de
@@ -419,17 +274,6 @@ paises:
           persona que “grabe, difunda, o publique datos personales de terceros”.
           Esta norma amplia, fue defendida por la Asamblea Nacional como una forma
           de garantizar seguridad e integridad a las víctimas del ciberacoso. Sin
-=======
-      - url: https://www.eluniverso.com/noticias/politica/ley-de-violencia-digital-mantiene-penalizacion-por-publicar-secretos-o-informacion-personal-de-terceros-nota/
-        texto: >-
-          La Asamblea Nacional envió al Ejecutivo un [proyecto de ley]($url) que
-          pretende proteger a las víctimas del ciberacoso y de la violencia sexual,
-          lo que incluyó una propuesta de reforma al artículo 178 Código Orgánico
-          Integral Penal que sanciona con prisión de 1 a 3 años a la persona que
-          “grabe, difunda, o publique datos personales de terceros” . Esta norma
-          amplia, fue defendida por la Asamblea Nacional como una forma de
-          garantizar seguridad e integridad a las víctimas del ciberacoso. Sin
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           embargo, para diversas organizaciones de protección de derechos humanos,
           la amplitud resulta un disuasivo para los periodistas e incumple
           estándares mínimos de proporcionalidad, idoneidad y necesidad. Cualquier
@@ -443,7 +287,6 @@ paises:
           expresión está aún en discusión.
 
       - fecha: 2021-05-24
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 24 de mayo, Guillermo Lasso Mendoza inicia su primer periodo de
@@ -461,29 +304,11 @@ paises:
   - pais: Guatemala
     entradas:
       - tipo: proyecto
-=======
-        url: https://www.expreso.ec/actualidad/urgen-lasso-medidas-defender-libertad-expresion-ecuador-104074.html
-        texto: >-
-          El 24 de mayo, Guillermo Lasso Mendoza inicia su primer periodo de
-          Gobierno con enormes expectativas en cuanto a la defensa de la [libertad
-          de expresión]($url). Si bien han existido avances importantes, la Ley
-          Orgánica de Comunicación aún tiene disposiciones potencialmente dañinas,
-          el Estado ha hecho muy poco para fomentar la participación ciudadana y la
-          desconcentración de los medios de comunicación. El Presidente electo ha
-          ofrecido derogar la Ley de Comunicación y cumplir los más altos estándares
-          de respeto, por medio de todas las carteras de Estado, incluyendo la
-          Secretaría de Derechos Humanos.
-
-  - pais: Guatemala
-    entradas:
-      - url: https://www.wola.org/es/analisis/nueva-ley-ong-guatemala/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La Corte de Constitucionalidad de Guatemala, mediante acciones de amparo
           planteadas en el primer trimestre del año 2020, había dejado en suspenso
           la entrada en vigencia del Decreto 4-2020 del Congreso, que contiene
           reformas a la [Ley de Organizaciones No Gubernamentales Para el
-<<<<<<< HEAD
           Desarrollo](https://www.wola.org/es/analisis/nueva-ley-ong-guatemala/).
           Estas reformas legislativas han sido consideradas una amenaza en contra de
           la libertad de asociación de las personas en Guatemala; e inclusive ha
@@ -501,24 +326,6 @@ paises:
         texto: >-
           El partido político Winaq presentó una [iniciativa de
           ley](https://www.congreso.gob.gt/noticias_congreso/5925/2021/2)
-=======
-          Desarrollo]($url). Estas reformas legislativas han sido consideradas una
-          amenaza en contra de la libertad de asociación de las personas en
-          Guatemala; e inclusive ha llegado a ser identificada popularmente como una
-          “ley mordaza” contra instituciones no lucrativas que el Gobierno pudiera
-          considerar como “opositores incómodos”. En particular porque permitiría
-          que el gobierno cancele, sin mediar proceso legal alguno, a una ONG que en
-          su opinión, vulnere el “orden público” en Guatemala. La Corte de
-          Constitucionalidad revocó su decisión anterior, dejando sin efecto el
-          amparo provisional otorgado en marzo del 2020 y por lo tanto la Corte ha
-          dado [vía
-          libre](https://www.dw.com/es/corte-de-guatemala-da-luz-verde-a-cuestionada-ley-sobre-ong/a-57515905)
-          para que entren en vigor las polémicas reformas.
-
-      - url: https://www.congreso.gob.gt/noticias_congreso/5925/2021/2
-        texto: >-
-          El partido político Winaq presentó una [iniciativa de ley]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           identificada con el número de registro 5891, titulada “Ley de Acceso
           Universal a la Tecnología Educativa”. Mediante dicha iniciativa, además de
           crear la obligación de proveer dispositivos electrónicos y plataformas,
@@ -532,18 +339,13 @@ paises:
   - pais: México
     entradas:
       - fecha: 2021-04-16
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-139-21.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El 16 de abril se publicaron en el Diario Oficial de la Federación las
           reformas y adiciones a diversas disposiciones de la Ley Federal de
           Telecomunicaciones y Radiodifusión para crear el Padrón Nacional de
           Usuarios de Telefonía Móvil. Al respecto, el 27 de abril el Instituto
           Nacional de Transparencia, Acceso a la Información y Protección de Datos
-<<<<<<< HEAD
           Personales
           [anunció](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-139-21.pdf)
           que interpondrá una acción de inconstitucionalidad ante la Suprema Corte
@@ -551,13 +353,6 @@ paises:
           vulneran los derechos de protección de datos personales y de acceso a la
           información. Por su parte, el 12 de mayo el Instituto Federal de
           Telecomunicaciones [hizo
-=======
-          Personales [anunció]($url) que interpondrá una acción de
-          inconstitucionalidad ante la Suprema Corte de Justicia de la Nación por
-          considerar que diversas disposiciones vulneran los derechos de protección
-          de datos personales y de acceso a la información. Por su parte, el 12 de
-          mayo el Instituto Federal de Telecomunicaciones [hizo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           público](http://www.ift.org.mx/comunicacion-y-medios/comunicados-ift/es/el-pleno-del-ift-aprueba-interponer-controversia-constitucional-en-contra-de-diversas-disposiciones)
           que interpondrá una controversia constitucional porque considera que no se
           cuenta con los recursos financieros para crear el Padrón, así como porque
@@ -573,7 +368,6 @@ paises:
           [#Noalpadrón](https://noalpadron.mx/).
 
       - fecha: 2021-05-11
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 11 de mayo la Comisión Nacional de los Derechos Humanos (CNDH) emitió
@@ -589,21 +383,6 @@ paises:
           Coordinación Ejecutiva Nacional del Mecanismo de Protección de Personas
           Defensoras de Derechos Humanos y Periodistas, adscrita a la Subsecretaría
           de Derechos Humanos hizo
-=======
-        url: https://www.cndh.org.mx/sites/default/files/documentos/2021-05/Posicionamiento_CNDH_11_mayo.pdf
-        texto: >-
-          El 11 de mayo la Comisión Nacional de los Derechos Humanos (CNDH) emitió
-          un [posicionamiento]($url) en el que solicitó al Mecanismo de Protección
-          de Personas Defensoras de Derechos Humanos y Periodistas, que reconsidere
-          la negativa de brindar protección a la servidora pública Sanjuana Martínez
-          Montemayor (Directora de la Agencia de Noticias – NOTIMEX-). La solicitud
-          está fundada en que la CNDH considera que Sotomayor estaría siendo víctima
-          de ataques por parte de diversas personas integrantes del sindicato de
-          SUTNOTIMEX, de ARTICULO 19 y del medio informativo ARISTEGUI NOTICIAS. Al
-          respecto, la Coordinación Ejecutiva Nacional del Mecanismo de Protección
-          de Personas Defensoras de Derechos Humanos y Periodistas, adscrita a la
-          Subsecretaría de Derechos Humanos hizo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [pública](http://www.alejandroencinas.mx/home/el-mecanismo-para-la-proteccion-de-personas-defensoras-de-derechos-humanos-y-periodistas-reitera-su-compromiso-con-la-proteccion-de-personas-defensoras-de-derechos-humanos-y-periodistas/)
           su discrepancia con la CNDH. Dijo específicamente que las situaciones
           descritas por Montemayor como agresiones, están vinculadas a su carácter y
@@ -612,7 +391,6 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2021-05-07
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 7 de mayo, la bancada parlamentaria Descentralización Democrática
@@ -631,36 +409,13 @@ paises:
 
       - fecha: 2021-05-19
         tipo: proyecto
-=======
-        url: https://leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL07661-20210507.pdf
-        texto: >-
-          El 7 de mayo, la bancada parlamentaria Descentralización Democrática
-          presentó un [proyecto de ley]($url) que prohíbe la creación o utilización
-          de cuentas falsas o anónimas en redes sociales de Internet, que sean
-          usadas para “difamar o vulnerar la intimidad personal y familiar de otra
-          persona”. En tal sentido, busca modificar el artículo 132 del Código Penal
-          (difamación), estableciendo una pena privativa de la libertad más grave
-          (de 4 a 7 años de cárcel) cuando la difamación se produce a través de
-          cuentas falsas o anónimas, incluyendo el supuesto de reproducir o repetir
-          la difamación, injuria o calumnia imputada por otro. La misma pena
-          agravada aplica para la difamación a través de medios de comunicación,
-          incluyendo las redes sociales, en general.
-
-      - fecha: 2021-05-19
-        url: https://gestion.pe/peru/politica/pedro-castillo-intenta-amedrentar-a-la-prensa-al-anunciar-que-divulgara-sueldos-de-periodistas-elecciones-2021-peru-libre-segunda-vuelta-electoral-nndc-noticia/?ref=gesr
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El 19 de mayo de 2021, el candidato presidencial Pedro Castillo manifestó,
           en un mitin en Ayacucho, que daría a conocer el sueldo de los conductores
           de programas de televisión luego de asegurar que realizaban “[campañas de_
-<<<<<<< HEAD
           ‘terruqueo’_ en su
           contra](https://gestion.pe/peru/politica/pedro-castillo-intenta-amedrentar-a-la-prensa-al-anunciar-que-divulgara-sueldos-de-periodistas-elecciones-2021-peru-libre-segunda-vuelta-electoral-nndc-noticia/?ref=gesr)”.
           Seguidamente, sus simpatizantes insultaron y
-=======
-          ‘terruqueo’_ en su contra]($url)”. Seguidamente, sus simpatizantes
-          insultaron y
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [agredieron](https://rpp.pe/peru/actualidad/consejo-de-la-prensa-peruana-condena-ataque-a-periodista-durante-mitin-de-pedro-castillo-en-ayacucho-noticia-1337871?ref=rpp)
           físicamente a los periodistas que se encontraban en dicho evento. Así, el
           20 de mayo, el Consejo de la Prensa Peruana y el Instituto de Prensa y
@@ -672,20 +427,9 @@ paises:
 ---
 
 ## Tendencia legislativa 2021
-<<<<<<< HEAD
 
 Durante 2021 y hasta la fecha hemos identificado varios proyectos legislativos presentados en los Congresos de los 9 países que conforman el Observatorio Legislativo que de manera directa e indirecta afectan la libertad de expresión. Los proyectos legislativos buscan regular distintos temas como: fake news, acceso a la información, violencia de género, privacidad, apología, responsabilidad de intermediarios, moderación de contenidos, seguridad nacional, terrorismo, reputación y honor entre otros. De la totalidad de proyectos presentados en 2021 identificamos que, según el test del Sistema Interamericano de Derechos Humanos, un 31% promueve la libertad de expresión mientras que un 68% la limita.
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 {{< boletin-paises >}}
 
-<<<<<<< HEAD
 Agradecemos a nuestros/as consultores/as por su trabajo y aportes para este boletín regional: Matías González (Argentina), Ártur Pericles (Brasil), Luisa Isaza (Colombia), Patricia Peña (Chile), Victor Cabezas (Ecuador), Álvaro Castellanos (Guatemala) Juan Carlos Arjona Estévez (México), y Andrés Calderón (Perú).
-=======
-{{< observatorio-mes month="2021-05" >}}
-
-{{< boletin-paises >}}
-
-Agradecemos a nuestros/as consultores/as por su trabajo y aportes para este boletín regional: Matías González (Argentina), Ártur Pericles (Brasil), Luisa Isaza (Colombia), Patricia Peña (Chile), Victor Cabezas (Ecuador), Álvaro Castellanos (Guatemala) Juan Carlos Arjona Estévez (México), y Andrés Calderón (Perú),
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6

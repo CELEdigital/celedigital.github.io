@@ -15,21 +15,15 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2025-09-01
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 4736-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/4736-D-2025.pdf
         texto: >-
@@ -46,10 +40,7 @@ paises:
           - accesibilidad
 
       - fecha: 2025-09-02
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 1508/25
         url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/1508.25/S/PL
         texto: >-
@@ -64,10 +55,7 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-09-04
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 4868-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/4868-D-2025.pdf
         texto: >-
@@ -78,16 +66,10 @@ paises:
           a la protección de derechos difusos, de incidencia colectiva y de
           intereses individuales homogéneos. El régimen incluye disposiciones
           específicas acerca del procedimiento completo para estas acciones
-<<<<<<< HEAD
-          colectivas y los costos y honorarios. PROTECCIÓN DE DERECHOS HUMANOS
-
-      - fecha: 2025-09-05
-        tipo: proyecto
-=======
           colectivas y los costos y honorarios.
 
       - fecha: 2025-09-05
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+        tipo: proyecto
         exp: 4872-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/4872-D-2025.pdf
         texto: >-
@@ -107,7 +89,6 @@ paises:
           - privacidad
 
       - fecha: 2025-09-06
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Asociación de Entidades Periodísticas Argentinas (ADEPA), llevó a cabo
@@ -116,15 +97,6 @@ paises:
           Durante esta asamblea, advirtió acerca del peligro que representan para la
           labor periodística y la democracia el rápido aumento en la desinformación
           y la irrupción de la inteligencia artificial. Asimismo, señaló que los
-=======
-        url: https://www.lanacion.com.ar/sociedad/adepa-hizo-un-fuerte-llamado-a-defender-la-libertad-de-expresion-y-afrontar-los-desafios-de-la-nid06092025/
-        texto: >-
-          La Asociación de Entidades Periodísticas Argentinas (ADEPA), llevó a cabo
-          su [63ª Asamblea General Ordinaria en Puerto Madryn]($url). Durante esta
-          asamblea, advirtió acerca del peligro que representan para la labor
-          periodística y la democracia el rápido aumento en la desinformación y la
-          irrupción de la inteligencia artificial. Asimismo, señaló que los
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           constantes insultos del Presidente de la Nación contra medios y
           periodistas han traído consigo una notable degradación de la discusión
           pública en los últimos seis meses. Además, la ADEPA eligió a su [nuevo
@@ -134,11 +106,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-09-07
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.pagina12.com.ar/855637-apelan-la-cautelar-del-juez-maraniello-que-prohibe-la-difusi
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Tras la difusión en la prensa de audios en los que se escucha
           presuntamente al ahora exdirector de la Agencia Nacional de Discapacidad
@@ -146,15 +114,10 @@ paises:
           compra de medicamentos para discapacitados que involucra a Karina Milei,
           secretaria general de la Presidencia, el juez Patricio Alejandro
           Maraniello le otorgó al Gobierno nacional una [cautelar para censurar
-<<<<<<< HEAD
           dicha
           divulgación](https://www.pagina12.com.ar/855637-apelan-la-cautelar-del-juez-maraniello-que-prohibe-la-difusi).
           La medida fue apelada por abogados y [repudiada por la Asociación de
           Entidades Periodísticas
-=======
-          dicha divulgación]($url). La medida fue apelada por abogados y [repudiada
-          por la Asociación de Entidades Periodísticas
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Argentinas](https://www.lanacion.com.ar/editoriales/el-escandalo-de-los-audios-y-la-censura-previa-nid08092025/),
           y por la [senadora Silvia Estela
           Sapag](https://www.senado.gob.ar/senadores/senador/251), especialmente
@@ -175,20 +138,12 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-09-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Provincia de Santa Fe aprobó su nueva
           Constitución](https://eleconomista.com.ar/politica/la-constitucion-santa-fe-consolida-libertad-expresion-n88564),
           que trae consigo el reconocimiento de nuevos derechos, tales como el
           acceso universal, equitativo, asequible, sin discriminación, continuo y de
-=======
-        url: https://eleconomista.com.ar/politica/la-constitucion-santa-fe-consolida-libertad-expresion-n88564
-        texto: >-
-          La [Provincia de Santa Fe aprobó su nueva Constitución]($url), que trae
-          consigo el reconocimiento de nuevos derechos, tales como el acceso
-          universal, equitativo, asequible, sin discriminación, continuo y de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           calidad a la tecnología, a la conectividad y a la infraestructura
           tecnológica; y el derecho a la protección de datos personales en entornos
           digitales. Estos derechos incluyen obligaciones para el Estado de
@@ -210,10 +165,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-09-12
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 5079-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/5079-D-2025.pdf
         texto: >-
@@ -228,15 +180,10 @@ paises:
         etiquetas:
           - inteligencia-artificial
           - electoral
-<<<<<<< HEAD
           - libertad-de-expresion
 
       - fecha: 2025-09-11
         tipo: proyecto
-=======
-
-      - fecha: 2025-09-11
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 5034-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/5034-D-2025.pdf
         texto: >-
@@ -265,10 +212,7 @@ paises:
           - vigilancia
 
       - fecha: 2025-09-19
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 5223-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/5223-D-2025.pdf
         texto: >-
@@ -282,19 +226,13 @@ paises:
           vista involuntariamente por terceros en espacios digitales.
         etiquetas:
           - inteligencia-artificial
-<<<<<<< HEAD
           - violencia-de-genero
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           - proteccion-de-menores
 
   - pais: Chile
     entradas:
       - fecha: 2025-09-01
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 17797-06
         url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=18449&prmBOLETIN=17797-06
         texto: >-
@@ -308,10 +246,7 @@ paises:
           - protesta
 
       - fecha: 2025-09-02
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 17808-07
         url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=18460&prmBOLETIN=17808-07
         texto: >-
@@ -323,7 +258,6 @@ paises:
         etiquetas:
           - inteligencia-artificial
           - privacidad
-<<<<<<< HEAD
           - violencia-de-genero
 
       - fecha: 2025-09-06
@@ -344,27 +278,10 @@ paises:
         etiquetas:
           - libertad-de-expresion
           - violencia-de-genero
-=======
-
-      - fecha: 2025-09-06
-        url: https://pagina19.cl/destacado/de-trump-a-kast-trolls-bots-y-patos-verdes/
-        texto: >-
-          Un reportaje del canal Chilevisión reveló que un [director de Canal 13,
-          Patricio Góngora, estaría detrás de una red de cuentas anónimas de bots y
-          de actores coordinados]($url) con el objetivo de difundir campañas de odio
-          contra Evelyn Matthei, Jeannette Jara y el gobierno del Presidente Gabriel
-          Boric. Jeannette Jara llamó a José Antonio Kast, en nombre de quien los
-          ataques se llevaron a cabo en muchos casos, a pronunciarse al respecto.
-          Por su parte, Evelyn Matthei explicó que esta es una situación que ella ya
-          había denunciado con anterioridad. Posteriormente, el [Colegio de
-          Periodistas](https://radio.uchile.cl/2025/09/08/colegio-de-periodistas-por-caso-bots-la-libertad-de-expresion-no-debe-usarse-como-pretexto-para-difundir-odio-y-desinformacion/)
-          se pronunció en una dura condena de las acciones evidenciadas en el caso.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Paraguay
     entradas:
       - fecha: 2025-09-23
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           A nivel nacional resonaron los casos de ataques violentos a tres
@@ -374,16 +291,6 @@ paises:
           en solidaridad con los periodistas el ministro de Tecnologías de la
           Información y Comunicación, Gustavo Villate, y el presidente del Congreso
           Nacional, Basilio Núñez. Asimismo, [Raúl
-=======
-        url: https://www.laclave.com.py/2025/09/21/autoridades-nacionales-condenan-ataques-contra-periodistas-en-paraguay/
-        texto: >-
-          A nivel nacional resonaron los casos de ataques violentos a tres
-          periodistas paraguayos, Carlos Benítez, Fabián Costa y Aníbal Gómez.
-          Frente a esto, se [pronunciaron ]($url)en solidaridad con los periodistas
-          el ministro de Tecnologías de la Información y Comunicación, Gustavo
-          Villate, y el presidente del Congreso Nacional, Basilio Núñez. Asimismo,
-          [Raúl
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Latorre](https://www.adndigital.com.py/latorre-reafirma-defensa-de-la-libertad-de-expresion/),
           presidente de la Cámara de Diputados, se pronunció para condenar los
           hechos y ratificar su compromiso con la defensa de la libertad de
@@ -396,7 +303,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-09-23
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Sindicato de Periodistas del
@@ -410,20 +316,6 @@ paises:
           Se exigió, por ello, la aprobación de la Ley de Protección a Periodistas y
           Personas Defensoras de Derechos Humanos, actualmente estancada en el
           Congreso. Desde el Congreso, el [Senador Mario
-=======
-        url: https://www.ultimahora.com/el-spp-urge-aprobar-ley-de-proteccion-a-periodistas
-        texto: >-
-          El [Sindicato de Periodistas del Paraguay]($url) realizó una declaración
-          pública frente al Palacio de Justicia con el fin de exigir medidas
-          efectivas para proteger a los comunicadores del país. Esto se hizo en la
-          antesala de la audiencia de la Corte Interamericana de Derechos Humanos
-          para evaluar el cumplimiento de las medidas dictadas en el caso Santiago
-          Leguizamón. El sindicato advirtió que no se han cumplido las medidas y que
-          esta inacción afecta a todos los periodistas del país. Se exigió, por
-          ello, la aprobación de la Ley de Protección a Periodistas y Personas
-          Defensoras de Derechos Humanos, actualmente estancada en el Congreso.
-          Desde el Congreso, el [Senador Mario
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Varela](https://elnacional.com.py/nacionales/spp-exige-cumplimiento-sentencia-corte-idh-caso-santiago-leguizamon-n93005)
           continuó defendiendo y promoviendo el proyecto; y [desde la Corte de la
           IDH](https://www.lanacion.com.py/politica/2025/09/23/presidenta-de-la-corte-idh-abogo-al-congreso-aprobar-el-proyecto-de-proteccion-a-periodistas/),
@@ -433,20 +325,12 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-09-24
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Cámara de Diputados volvió a [postergar el debate de la Ley de
           Protección de Datos
           Personales](https://www.ultimahora.com/la-camara-baja-vuelve-a-postergar-iniciativa-de-proteccion-de-datos).
           La Ley ha generado controversia y debate público a lo largo del mes, con
-=======
-        url: https://www.ultimahora.com/la-camara-baja-vuelve-a-postergar-iniciativa-de-proteccion-de-datos
-        texto: >-
-          La Cámara de Diputados volvió a [postergar el debate de la Ley de
-          Protección de Datos Personales]($url). La Ley ha generado controversia y
-          debate público a lo largo del mes, con
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [analistas](https://elnacional.com.py/politica/advierten-aprobacion-ley-datos-personales-seria-retroceso-significativo-n92048)
           y [medios de
           comunicación](https://www.abc.com.py/politica/2025/09/08/doble-riesgo-de-impunidad-y-ataque-a-la-transparencia-de-mano-de-diputados/)
@@ -465,10 +349,7 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2025-09-03
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: Arts 3, 15, 145, 177, 212, 217, 219BIS, 223, 226, 246, y 298 LFTyR
         url: https://www.camara.gov.co/derechos-de-las-personas-autistas-y-neurodivergentes
         texto: >-
@@ -482,16 +363,10 @@ paises:
           autistas y neurodivergentes el ejercicio pleno de sus derechos políticos;
           y la creación de la Instancia Nacional de Consulta sobre Autismo y
           Neurodivergencia, un Plan Nacional de Inclusión para Personas Autistas y
-<<<<<<< HEAD
-          Neurodivergentes y Planes territoriales de inclusión. DERECHOS HUMANOS
-
-      - fecha: 2025-09-03
-        tipo: proyecto
-=======
           Neurodivergentes y Planes territoriales de inclusión.
 
       - fecha: 2025-09-03
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+        tipo: proyecto
         exp: Artículo 246 bis de la Ley Federal de Telecomunicaciones y Radiodifusión y artículo 301 de la Ley General de Salud
         url: https://www.camara.gov.co/paridad-electoral
         texto: >-
@@ -499,17 +374,10 @@ paises:
           2025]($url), que establece un requisito obligatorio de paridad de género
           en la conformación de listas para corporaciones de elección popular.
         etiquetas:
-<<<<<<< HEAD
           - electoral
 
       - fecha: 2025-09-03
         tipo: proyecto
-=======
-          - violencia-de-genero
-          - electoral
-
-      - fecha: 2025-09-03
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 3064/13
         url: https://www.camara.gov.co/ley-contra-el-grooming
         texto: >-
@@ -527,7 +395,6 @@ paises:
           - proteccion-de-menores
 
       - fecha: 2025-09-11
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Canal 1 calificó la investigación de la Superintendencia de Industria y
@@ -539,25 +406,12 @@ paises:
           el canal presentó su versión de los hechos y denunció públicamente que
           este acto de parte del gobierno es parte de un patrón de hostigamiento
           contra sus reporteros y su casa periodística.
-=======
-        url: https://www.larepublica.co/empresas/canal-1-denuncia-que-se-vulnera-la-libertad-de-prensa-ante-investigacion-de-la-sic-4222544
-        texto: >-
-          El Canal 1 calificó la investigación de la Superintendencia de Industria y
-          Comercio como un ["acto de persecución contra la libertad de prensa y un
-          intento de hostigamiento sistemático desde altas instancias"]($url). La
-          investigación se desató debido a que se alega que Canal 1 y Caracol Radio
-          no habrían anunciado su presunta integración. En su pronunciamiento, el
-          canal presentó su versión de los hechos y denunció públicamente que este
-          acto de parte del gobierno es parte de un patrón de hostigamiento contra
-          sus reporteros y su casa periodística.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: Ecuador
     entradas:
       - fecha: 2025-09-06
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Tribunal Contencioso Electoral (TCE) [sancionó al prefecto de
@@ -570,24 +424,10 @@ paises:
           candidato a la Asamblea, César Robles, del movimiento Izquierda
           Democrática, lo cual está expresamente prohibido para autoridades en
           funciones durante el proceso electoral.
-=======
-        url: https://www.diariolosandes.com.ec/prefecto-de-chimborazo-sancionado-tce-le-retira-derechos-politicos-por-infraccion-grave/
-        texto: >-
-          El Tribunal Contencioso Electoral (TCE) [sancionó al prefecto de
-          Chimborazo Hermel Tayupanda Cuvi con la suspensión de sus derechos de
-          participación política por tres meses]($url), tras hallarlo culpable de
-          una infracción electoral grave. Su infracción, según la denuncia
-          presentada el 12 de febrero, fue haber incurrido en actos de promoción
-          política directa e indirecta en favor del entonces candidato a la
-          Asamblea, César Robles, del movimiento Izquierda Democrática, lo cual está
-          expresamente prohibido para autoridades en funciones durante el proceso
-          electoral.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - electoral
 
       - fecha: 2025-09-08
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El alto comisionado de la ONU para los Derechos Humanos, [Volker
@@ -600,25 +440,11 @@ paises:
           expanden desproporcionadamente la capacidad del Estado para vigilar y
           reducir el espacio cívico, y que reducen la confianza pública y el acceso
           a financiación de las organizaciones civiles.
-=======
-        url: https://www.eldiario.ec/mundo/volker-turk-critica-en-ginebra-medidas-del-gobierno-de-ecuador-contra-la-corte-constitucional-08092025/
-        texto: >-
-          El alto comisionado de la ONU para los Derechos Humanos, [Volker
-          Türk]($url), criticó duramente los ataques del presidente Daniel Noboa a
-          la independencia de la Corte Constitucional. Durante la sesión inaugural
-          del Consejo de Derechos Humanos, Türk llamó la atención de la ONU acerca
-          de la Ley Orgánica de Inteligencia y la Ley Orgánica para el Control de
-          Flujos Irregulares de Capitales. El alto comisionado argumentó que estas
-          leyes expanden desproporcionadamente la capacidad del Estado para vigilar
-          y reducir el espacio cívico, y que reducen la confianza pública y el
-          acceso a financiación de las organizaciones civiles.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - vigilancia
           - protesta
 
       - fecha: 2025-09-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Relator Especial de las Naciones Unidas sobre Derechos Humanos y Lucha
@@ -627,20 +453,10 @@ paises:
           curiae](https://www.ecuavisa.com/noticias/politica/relator-onu-corte-constitucional-ley-inteligencia-AB10118383)
           con observaciones a la Ley de Inteligencia,en el marco de las audiencias
           por demandas de inconstitucionalidad contra la ley.
-=======
-        url: https://www.ecuavisa.com/noticias/politica/relator-onu-corte-constitucional-ley-inteligencia-AB10118383
-        texto: >-
-          El Relator Especial de las Naciones Unidas sobre Derechos Humanos y Lucha
-          contra el Terrorismo, Ben Saul, presentó a la Corte Constitucional un
-          [amicus curiae]($url) con observaciones a la Ley de Inteligencia,en el
-          marco de las audiencias por demandas de inconstitucionalidad contra la
-          ley.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - vigilancia
 
       - fecha: 2025-09-24
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Desde el 15 de
@@ -648,14 +464,6 @@ paises:
           se reportó un aumento en las manifestaciones en respuesta a la eliminación
           del subsidio al diésel. En respuesta a estas protestas, el presidente
           Daniel Noboa decretó [estado de excepción en siete
-=======
-        url: https://www.extra.ec/noticia/quito/manifestantes-cierran-un-acceso-vial-en-el-sur-de-quito-estos-son-los-datos-concidos-136819.html
-        texto: >-
-          [Desde el 15 de septiembre]($url) se reportó un aumento en las
-          manifestaciones en respuesta a la eliminación del subsidio al diésel. En
-          respuesta a estas protestas, el presidente Daniel Noboa decretó [estado de
-          excepción en siete
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           provincias](https://www.elcomercio.com/actualidad/seguridad/daniel-noboa-estado-excepcion-siete-provincias-protestas-subsidio-diesel/?source=Internal&ref=Single+Related+Tip),
           movilizando a la Policía Nacional y a las Fuerzas Armadas. En los días
           siguientes, la Conaie (Confederación de Nacionalidades Indígenas de
@@ -678,7 +486,6 @@ paises:
   - pais: Guatemala
     entradas:
       - fecha: 2025-09-07
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           A través del portal de adquisiciones del Estado, se hizo público que el
@@ -693,27 +500,12 @@ paises:
           generar líneas de tiempo, destacar alertas críticas y generar borradores
           asistidos de resoluciones. El proyecto se justifica con la finalidad de
           agilizar el análisis de estas acciones.
-=======
-        url: https://lahora.gt/investigacion/diego/2025/09/07/organismo-judicial-compra-una-inteligencia-artificial-para-agilizar-el-analisis-de-amparos/
-        texto: >-
-          A través del portal de adquisiciones del Estado, se hizo público que el
-          Organismo Judicial aprobó en julio la [contratación de un servicio de
-          inteligencia artificial]($url) a la empresa BDG Sociedad Anónima por un
-          monto de 87 mil 770 quetzales destinado al análisis de expedientes de
-          amparo. Según los documentos, el sistema tendría la capacidad de aprender
-          de la legislación y jurisprudencia nacional, brindar resúmenes generales
-          de cada expediente, identificar argumentos y entidades clave, ordenar
-          referencias legales, generar líneas de tiempo, destacar alertas críticas y
-          generar borradores asistidos de resoluciones. El proyecto se justifica con
-          la finalidad de agilizar el análisis de estas acciones.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
   - pais: México
     entradas:
       - fecha: 2025-09-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Diversas [iniciativas en la Cámara de
@@ -722,20 +514,10 @@ paises:
           turnadas a comisiones (p. ej., Gobernación y Población; Hacienda; Ciencia,
           Tecnología e Innovación), incluyendo propuestas sobre definiciones,
           alcances y lineamientos vinculados a IA en marcos sectoriales.
-=======
-        url: https://sitl.diputados.gob.mx/LXVI_leg/iniciativas_por_pernplxvi.php?iddipt=478&pert=6&utm_source=chatgpt.com
-        texto: >-
-          Diversas [iniciativas en la Cámara de Diputados]($url) con referencias a
-          _inteligencia artificial_ (IA) fueron presentadas y turnadas a comisiones
-          (p. ej., Gobernación y Población; Hacienda; Ciencia, Tecnología e
-          Innovación), incluyendo propuestas sobre definiciones, alcances y
-          lineamientos vinculados a IA en marcos sectoriales.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2025-09-16
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La senadora Beatriz Mojica difundió una [iniciativa para reformar la Ley
@@ -743,32 +525,17 @@ paises:
           Autor](https://morena.senado.gob.mx/actrices-y-actores-no-deben-ser-victimas-de-la-ia-mojica-morga/)
           a fin de exigir consentimiento expreso y remuneración por el uso de voces
           clonadas con IA de intérpretes y actores, y obligaciones de transparencia.
-=======
-        url: https://morena.senado.gob.mx/actrices-y-actores-no-deben-ser-victimas-de-la-ia-mojica-morga/
-        texto: >-
-          La senadora Beatriz Mojica difundió una [iniciativa para reformar la Ley
-          Federal del Derecho de Autor]($url) a fin de exigir consentimiento expreso
-          y remuneración por el uso de voces clonadas con IA de intérpretes y
-          actores, y obligaciones de transparencia.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
           - propiedad-intelectual
 
       - fecha: 2025-09-24
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Comisión de Inteligencia Artificial del Senado llevó a cabo este mes
           [un evento
           público](https://www.senado.gob.mx/66/gaceta_del_senado/documento/152854),
           además de su [cuarta Reunión Ordinaria
-=======
-        url: https://www.senado.gob.mx/66/gaceta_del_senado/documento/152854
-        texto: >-
-          La Comisión de Inteligencia Artificial del Senado llevó a cabo este mes
-          [un evento público]($url), además de su [cuarta Reunión Ordinaria
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           (30/09)](https://www.senado.gob.mx/66/gaceta_del_senado/documento/153335);
           evidenciando la continuidad de su trabajo legislativo y de divulgación
           técnica sobre IA.
@@ -776,7 +543,6 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2025-09-30
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Senado comunicó [avances rumbo a una Ley General para Regular y
@@ -784,20 +550,12 @@ paises:
           IA](https://comunicacionsocial.senado.gob.mx/informacion/comunicados/12966-senadores-avanzan-en-creacion-de-marco-normativo-para-regular-inteligencia-artificial-en-mexico)
           en México, destacando el objetivo de establecer un marco normativo
           integral.
-=======
-        url: https://comunicacionsocial.senado.gob.mx/informacion/comunicados/12966-senadores-avanzan-en-creacion-de-marco-normativo-para-regular-inteligencia-artificial-en-mexico
-        texto: >-
-          El Senado comunicó [avances rumbo a una Ley General para Regular y
-          Fomentar el Uso de la IA]($url) en México, destacando el objetivo de
-          establecer un marco normativo integral.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
   - pais: Brasil
     entradas:
       - fecha: 2025-09-02
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El relator Aguinaldo Ribeiro [señaló que el PL de IA debería votarse antes
@@ -805,36 +563,20 @@ paises:
           año](https://teletime.com.br/02/09/2025/pl-de-inteligencia-artificial-deve-ser-votado-ate-final-do-ano-diz-relator/)
           y coordinó con el Senado para acelerar su trámite una vez aprobado en la
           Cámara.
-=======
-        url: https://teletime.com.br/02/09/2025/pl-de-inteligencia-artificial-deve-ser-votado-ate-final-do-ano-diz-relator/
-        texto: >-
-          El relator Aguinaldo Ribeiro [señaló que el PL de IA debería votarse antes
-          de fin de año]($url) y coordinó con el Senado para acelerar su trámite una
-          vez aprobado en la Cámara.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2025-09-16
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Comisión Especial de la Cámara [continuó audiencias y sesiones
           técnicas](https://www.youtube.com/playlist?list=PLitz1J-q25kOAG8vGvUndwLKD8anrselx)
           sobre sistemas de IA en el sector público e infraestructuras críticas, en
           el marco del PL 2338/2023.
-=======
-        url: https://www.youtube.com/playlist?list=PLitz1J-q25kOAG8vGvUndwLKD8anrselx
-        texto: >-
-          La Comisión Especial de la Cámara [continuó audiencias y sesiones
-          técnicas]($url) sobre sistemas de IA en el sector público e
-          infraestructuras críticas, en el marco del PL 2338/2023.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2025-03-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Siguen en curso en la Cámara [iniciativas conexas al marco regulatorio de
@@ -846,31 +588,14 @@ paises:
           - inteligencia-artificial
           - acceso-a-la-informacion
           - libertad-de-expresion
-=======
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2520003
-        texto: >-
-          Siguen en curso en la Cámara [iniciativas conexas al marco regulatorio de
-          IA (p. ej., PL 2688/2025]($url) con audiencias sobre gobernanza,
-          responsabilidad y chatbots) y propuestas para marcado/etiquetado de
-          deepfakes.
-        etiquetas:
-          - inteligencia-artificial
-          - acceso-a-la-informacion
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Perú
     entradas:
       - fecha: 2025-09-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Poder Ejecutivo [aprobó el Reglamento de la Ley N.º
           31814](https://www.elperuano.pe/noticia/278516-la-ia-ya-tiene-reglas-claras-en-peru-revisa-el-nuevo-reglamento-y-preparate-para-aplicarlo)
-=======
-        url: https://www.elperuano.pe/noticia/278516-la-ia-ya-tiene-reglas-claras-en-peru-revisa-el-nuevo-reglamento-y-preparate-para-aplicarlo
-        texto: >-
-          El Poder Ejecutivo [aprobó el Reglamento de la Ley N.º 31814]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           mediante el Decreto Supremo N.º 115-2025-PCM, estableciendo el marco
           jurídico para el desarrollo, implementación y uso de sistemas de IA en el
           país (principios, obligaciones, clasificación de riesgos y cronograma de
@@ -879,7 +604,6 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2025-09-12
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Análisis
@@ -887,19 +611,10 @@ paises:
           destaca que el nuevo Reglamento impone límites al uso de IA en procesos de
           recursos humanos (selección, contratación y evaluación), recomendando
           adecuaciones de cumplimiento en el sector privado.
-=======
-        url: https://lpderecho.pe/inteligencia-artificial-nueva-regulacion-establece-limites-en-procesos-seleccion-contratacion-evaluacion-personal/
-        texto: >-
-          [Análisis técnico-jurídico]($url) destaca que el nuevo Reglamento impone
-          límites al uso de IA en procesos de recursos humanos (selección,
-          contratación y evaluación), recomendando adecuaciones de cumplimiento en
-          el sector privado.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -947,8 +662,4 @@ paises:
 | Inteligencia artificial | 5,2% |
 | Moral pública | 4,9% |
 
-=======
-{{< observatorio-mes month="2025-09" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

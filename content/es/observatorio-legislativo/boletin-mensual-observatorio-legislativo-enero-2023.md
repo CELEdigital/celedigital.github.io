@@ -15,19 +15,14 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2023-01-04
-<<<<<<< HEAD
-        tipo: proyecto
         texto: >-
           [La ONU acepta recomendaciones de FOPEA sobre Libertad de Expresión para
           Argentina.](https://www.fopea.org/la-onu-acepta-recomendaciones-de-fopea-sobre-libertad-de-expresion-para-argentina/)
@@ -36,22 +31,15 @@ paises:
           a la Libertad de Expresión y de opinión al país de Argentina, ante la
           preocupación por las agresiones a periodistas, mencionando los casos de
           Irene Benito (Tucumán), Daniel Enz (Entre Ríos) y Daniel Santoro (Ciudad
-          de Buenos Aires). LIBERTAD DE EXPRESION LIBERTAD DE PRENSA Periodistas
-          denuncian "graves problemas” para acceder a la información pública. Según
-          SIP, [en
-=======
-        url: https://www.fopea.org/la-onu-acepta-recomendaciones-de-fopea-sobre-libertad-de-expresion-para-argentina/
+          de Buenos Aires).
+        etiquetas:
+          - libertad-de-expresion
+          - libertad-de-prensa
+
+      - fecha: 2023-01-04
         texto: >-
-          [La ONU acepta recomendaciones de FOPEA sobre Libertad de Expresión para
-          Argentina.]($url) Dentro de las recomendaciones y alertas presentadas por
-          la organización se incorporó la solicitud de visita de la Relatoría
-          Especial sobre el Derecho a la Libertad de Expresión y de opinión al país
-          de Argentina, ante la preocupación por las agresiones a periodistas,
-          mencionando los casos de Irene Benito (Tucumán), Daniel Enz (Entre Ríos) y
-          Daniel Santoro (Ciudad de Buenos Aires). LIBERTAD DE EXPRESION LIBERTAD DE
-          PRENSA Periodistas denuncian "graves problemas” para acceder a la
-          información pública. Según SIP, [en
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+          Periodistas denuncian "graves problemas” para acceder a la información
+          pública. Según SIP, [en
           Argentina](https://elauditor.info/actualidad/periodistas-denuncian--graves-problemas--para-acceder-a-la-informacion-publica_a63ade643aaa8954bd5218cb2)
           “Aún es sensible la cantidad de casos denunciados de actos de violencia
           contra periodistas, además de dos ataques graves a medios de comunicación.
@@ -65,8 +53,6 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2022-12-12
-<<<<<<< HEAD
-        tipo: proyecto
         texto: >-
           Proyecto de ley pretende prohibir manifestaciones ideológicas de los
           organismos públicos. El Diputado Federal Kim Kataguiri (UNIÃO/SP) presentó
@@ -87,10 +73,15 @@ paises:
           sin entrar en el terreno de las discusiones políticas, ni siquiera de
           forma encubierta". Además, subraya que es inadecuado utilizar recursos
           humanos y financieros públicos para "jugar a la política" y "lanzar
-          campañas [...] que no tienen nada que ver con sus actividades". LIBERTAD
-          DE EXPRESION Proyecto de ley busca conceder amnistía a manifestantes
-          políticos de las elecciones. La Cámara de Representantes recibió el
-          [proyecto de ley 2954/2022, del diputado federal José Medeiros
+          campañas [...] que no tienen nada que ver con sus actividades".
+        etiquetas:
+          - libertad-de-expresion
+
+      - fecha: 2022-12-12
+        texto: >-
+          Proyecto de ley busca conceder amnistía a manifestantes políticos de las
+          elecciones. La Cámara de Representantes recibió el [proyecto de ley
+          2954/2022, del diputado federal José Medeiros
           (PL/MT)](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2341882),
           que propone conceder amnistía a todos los manifestantes que hayan
           financiado o participado en protestas relacionadas con las elecciones de
@@ -105,47 +96,6 @@ paises:
           sanciones administrativas y penales aplicadas por cualquier rama de la
           República "incluso si se derivan del incumplimiento de requerimientos,
           medidas cautelares, o a través de decisiones o sentencias definitivas o no
-=======
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2341882
-        texto: >-
-          **Proyecto de ley pretende prohibir manifestaciones ideológicas de los
-          organismos públicos. **El Diputado Federal Kim Kataguiri (UNIÃO/SP)
-          presentó en la Cámara de Diputados proyecto de ley - [PL
-          2957/2022](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2341927)
-          - que prevé neutralidad ideológica en las actividades de la Administración
-          Pública en Brasil. **El proyecto busca prohibir**, **para cualquier
-          funcionario público **que ejerza actividades administrativas en los
-          poderes ejecutivo, legislativo y judicial, el Ministerio Público y la
-          Defensoría Pública: **(i) la promoción o crítica de candidatos o partidos
-          políticos; (ii) el uso de lenguaje neutral que "muestre posicionamiento
-          ideológico"; (iii) el fomento o desaliento de "cualquier tipo de
-          comportamiento relacionado con la sexualidad y la expresión de género,
-          salvo lo necesario para cumplir con la ley penal"; (iv) el fomento de
-          "cualquier tipo de división racial entre las personas", excepto lo que sea
-          "necesario para cumplir la ley penal"**. En la justificación del proyecto,
-          el diputado afirma la necesidad de que los órganos administrativos
-          "ejerzan exclusivamente sus funciones, sin entrar en el terreno de las
-          discusiones políticas, ni siquiera de forma encubierta". Además, subraya
-          que es inadecuado utilizar recursos humanos y financieros públicos para
-          "jugar a la política" y "lanzar campañas [...] que no tienen nada que ver
-          con sus actividades". LIBERTAD DE EXPRESION **Proyecto de ley busca
-          conceder amnistía a manifestantes políticos de las elecciones.** La Cámara
-          de Representantes recibió el [proyecto de ley 2954/2022, del diputado
-          federal José Medeiros (PL/MT)]($url), que propone conceder amnistía a
-          todos los manifestantes que hayan financiado o participado en protestas
-          relacionadas con las elecciones de 2022 y "cuestiones conexas". El
-          proyecto de ley **extiende la amnistía a todos aquellos que se hayan
-          manifestado, mediante actos individuales o colectivos, en protestas que
-          hayan tenido lugar en el periodo comprendido entre el 1 de junio de 2022 y
-          su entrada en vigor, y contempla cualquier "discurso, comentario o
-          publicación en redes sociales o cualquier plataforma en Internet"**.
-          **Quedan excluidos del ámbito de aplicación de la amnistía el abuso de
-          autoridad y los delitos de responsabilidad cometidos exclusivamente por
-          autoridades judiciales**. La amnistía abarcaría todas las sanciones
-          administrativas y penales aplicadas por cualquier rama de la República
-          "incluso si se derivan del incumplimiento de requerimientos, medidas
-          cautelares, o a través de decisiones o sentencias definitivas o no
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           recurribles, así como por cualquier órgano de la administración pública y
           cualquier entidad pública". En la justificación, el diputado cita la gran
           polarización en las últimas elecciones presidenciales y la exigencia de
@@ -160,8 +110,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-12-13
-<<<<<<< HEAD
-        tipo: proyecto
         texto: >-
           Suspenden las redes sociales de una jueza por publicaciones políticas.
           [Según el sitio web del Consejo Nacional de Justicia (CNJ), el Corregidor
@@ -181,10 +129,16 @@ paises:
           compatibilizarse con el resto de derechos y garantías de un Estado de
           Derecho, "especialmente el derecho a ser juzgado ante un magistrado
           imparcial e independiente que respete la dignidad del cargo y de la
-          justicia". LIBERTAD DE EXPRESION El proyecto de ley pretende hacer pública
-          e incondicional la acción penal del delito de difamación racial. Se
-          presentó a la Cámara de Diputados el [Proyecto de Ley nº 2972/2022, de
-          autoría del Diputado Federal Acácio Favacho
+          justicia".
+        etiquetas:
+          - libertad-de-expresion
+
+      - fecha: 2022-12-13
+        texto: >-
+          El proyecto de ley pretende hacer pública e incondicional la acción penal
+          del delito de difamación racial. Se presentó a la Cámara de Diputados el
+          [Proyecto de Ley nº 2972/2022, de autoría del Diputado Federal Acácio
+          Favacho
           (MDB/AP)](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2342290),
           con el objetivo de que la persecución de los casos de difamación racial,
           prevista en el art. 140 §3 del Código Penal, sea pública no condicionada.
@@ -195,60 +149,22 @@ paises:
           de ejercicio de la acción penal contra los delitos de ofensa racial con el
           entendimiento del Supremo Tribunal Federal, que sostuvo que el delito de
           ofensa racial es un tipo del género racismo y, por lo tanto,
-=======
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2342290
-        texto: >-
-          **Suspenden las redes sociales de una jueza por publicaciones políticas.
-          ** [Según el sitio web del Consejo Nacional de Justicia (CNJ), el
-          Corregidor Nacional de Justicia, Luis Felipe Salomón, determinó que
-          Instagram y Twitter deberían suspender los perfiles de la jueza del
-          Tribunal Regional Federal de la 1ª Región (TRF-1) Maria do Carmo
-          Cardoso](https://www.cnj.jus.br/corregedor-manda-suspender-perfis-de-magistrada-em-redes-sociais-por-postagem-politica/).
-          La decisión se debió a las **publicaciones realizadas por la magistrada
-          que alentaban y elogiaban la realización de movilizaciones
-          antidemocráticas que rodean instalaciones militares en algunas ciudades
-          brasileñas**. El ministro argumentó que había urgencia en bloquear el
-          contenido para evitar nuevas infracciones no administrativas y
-          electorales, de manera a mantener la armonía institucional y social hasta
-          la fecha de la toma de posesión del Presidente y Vicepresidente de la
-          República. También señaló que, aunque la manifestación del pensamiento y
-          la libertad de expresión son derechos fundamentales, no son absolutos, por
-          lo que deben compatibilizarse con el resto de derechos y garantías de un
-          Estado de Derecho, **"especialmente el derecho a ser juzgado ante un
-          magistrado imparcial e independiente que respete la dignidad del cargo y
-          de la justicia".** LIBERTAD DE EXPRESION **El proyecto de ley pretende
-          hacer pública e incondicional la acción penal del delito de difamación
-          racial. **Se presentó a la Cámara de Diputados el [Proyecto de Ley nº
-          2972/2022, de autoría del Diputado Federal Acácio Favacho (MDB/AP)]($url),
-          con el objetivo de que la persecución de los casos de difamación racial,
-          prevista en el art. 140 §3 del Código Penal, sea pública no condicionada.
-          Según el texto propuesto, **la persecución de los casos de insultos
-          racistas no dependerá de la presentación de una denuncia penal por parte
-          de la víctima, sino de la Fiscalía**. En la justificación del proyecto de
-          ley, el diputado afirma que el texto propuesto pretende armonizar el
-          procedimiento de ejercicio de la acción penal contra los delitos de ofensa
-          racial con el entendimiento del Supremo Tribunal Federal, que sostuvo que
-          el delito de ofensa racial es un tipo del género racismo y, por lo tanto,
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           imprescriptible, en los términos del artículo 5º, XLII, de la Constitución
           Federal. El parlamentario destaca la necesidad de la medida para enfrentar
           el racismo en Brasil, considerando que la víctima del crimen de racismo
           (como confirma la decisión del Supremo Tribunal Federal) "no es sólo la
-          persona ofendida, sino toda la humanidad". LIBERTAD DE EXPRESION RACISMO
-<<<<<<< HEAD
-          CODIGO PENAL La regulación del lobbying en Brasil enfrenta retos de
-          libertad de expresión. El proyecto de ley para regular el lobby en Brasil,
-          [PL 4391/2021](https://www.camara.leg.br/propostas-legislativas/2311923),
-          pasa ahora por modificaciones en la Comisión de Trabajo y Administración
-          de la Cámara de Diputados. Según [una materia publicada en el periódico
-=======
-          CODIGO PENAL **La regulación del lobbying en Brasil enfrenta retos de
-          libertad de expresión. **El proyecto de ley para regular el lobby en
-          Brasil, [PL
+          persona ofendida, sino toda la humanidad".
+        etiquetas:
+          - libertad-de-expresion
+          - discurso-de-odio
+
+      - fecha: 2022-12-13
+        texto: >-
+          La regulación del lobbying en Brasil enfrenta retos de libertad de
+          expresión. El proyecto de ley para regular el lobby en Brasil, [PL
           4391/2021](https://www.camara.leg.br/propostas-legislativas/2311923), pasa
           ahora por modificaciones en la Comisión de Trabajo y Administración de la
           Cámara de Diputados. Según [una materia publicada en el periódico
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           JOTA](https://www.jota.info/opiniao-e-analise/artigos/regulamentacao-do-lobby-pede-um-processo-transparente-e-participativo-21112022),
           el texto prevé como infracción administrativa "actuar de forma que se
           avergüence o acose a los participantes de eventos con interacción
@@ -256,22 +172,14 @@ paises:
           representante (o a la organización por él representada) una sanción que
           puede alcanzar hasta el 5% de los ingresos brutos (artículo 17, §5) además
           de la suspensión del profesional por hasta 30 días”. Las autoras destacan
-<<<<<<< HEAD
           que “los verbos ‘avergonzar’ y ‘acosar’ dejan lugar a interpretaciones
           amplias e, incluso, pueden conducir a la responsabilidad de la libre
           expresión del pensamiento, la libertad de expresión y los discursos en
           defensa de la garantía de los derechos”.
-=======
-          que **“los verbos ‘avergonzar’ y ‘acosar’ dejan lugar a interpretaciones
-          amplias e, incluso, pueden conducir a la responsabilidad de la libre
-          expresión del pensamiento, la libertad de expresión y los discursos en
-          defensa de la garantía de los derechos”**.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-12-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Policía Federal inicia operaciones contra apoyadores de Bolsonaro que
@@ -288,23 +196,6 @@ paises:
           jamás realizada. Las medidas fueron cumplidas por PF el jueves (15/12) en
           ocho estados - Acre, Amazonas, Espirito Santo, Mato Grosso, Mato Grosso do
           Sul, Paraná, Rondonia y Santa Catarina - y el Distrito Federal. No se
-=======
-        url: https://www.jota.info/stf/do-supremo/pf-faz-operacao-contra-bolsonaristas-que-bloquearam-rodovias-depois-das-eleicoes-15122022
-        texto: >-
-          **La Policía Federal inicia operaciones contra apoyadores de Bolsonaro que
-          bloquean las vías de circulación en Brasil.** [Según una materia en
-          JOTA]($url), el ministro Alexandre de Moraes, del Supremo Tribunal Federal
-          (STF),** autorizó 103 medidas de registro e incautación, cuatro órdenes de
-          detención, así como la ruptura del secreto bancario, la incautación de
-          pasaportes, la suspensión de los certificados CAC (Coleccionista, Tirador
-          Deportivo y Cazador) y el bloqueo de las cuentas bancarias de los
-          sospechosos de organizar y financiar actos antidemocráticos**. El ministro
-          también ordenó el bloqueo de 168 perfiles en redes sociales. **Se trata de
-          la mayor operación contra los financiadores de actos antidemocráticos
-          jamás realizada**. Las medidas fueron cumplidas por PF el jueves (15/12)
-          en ocho estados - Acre, Amazonas, Espirito Santo, Mato Grosso, Mato Grosso
-          do Sul, Paraná, Rondonia y Santa Catarina - y el Distrito Federal. No se
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           revelaron los nombres de los destinatarios de las órdenes emitidas por
           Moraes. La operación se produce después de que los Bolsonaristas
           promovieron un allanamiento en Brasilia, quemando vehículos, y a poco más
@@ -317,17 +208,10 @@ paises:
           - electoral
 
       - fecha: 2023-01-01
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Gobierno Lula pública regulación de la nueva organización ministerial. El
           Presidente Lula emitió la [Medida Provisional
-=======
-        url: http://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11362.htm
-        texto: >-
-          **Gobierno Lula pública regulación de la nueva organización ministerial.
-          **El Presidente Lula emitió la [Medida Provisional
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           1.154/2023](http://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/Mpv/mpv1154.htm),
           organizando la estructura básica de los órganos de la Presidencia de la
           República de los Ministerios. Bajo la nueva estructura, [el Ministerio de
@@ -346,14 +230,9 @@ paises:
           acceso de la población a internet, la inclusión digital y el uso de los
           medios de comunicación en la educación están entre sus
           prioridades.](https://teletime.com.br/02/01/2023/juscelino-filho-lembra-do-papel-do-congresso-e-aponta-inclusao-digital-como-prioridade/)
-<<<<<<< HEAD
           Además, el 01.01, fue publicado [el decreto
           11.362/2023](http://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11362.htm),
           que trata sobre la estructura y atribuciones de la Secom. Entre las
-=======
-          Además, el 01.01, fue publicado [el decreto 11.362/2023]($url), que trata
-          sobre la estructura y atribuciones de la Secom. Entre las
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           responsabilidades de la Secretaría se encuentran la coordinación e
           implementación de acciones para el acceso a la información y la lucha
           contra la desinformación, la promoción de la libertad de expresión y de
@@ -386,7 +265,6 @@ paises:
           - plataformas-digitales
 
       - fecha: 2023-01-08
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Alexandre de Moraes concede pedido de la Procuraduría Federal de la Nación
@@ -410,30 +288,6 @@ paises:
           territorio nacional; (v) el almacenamiento, por parte de las empresas de
           telecomunicaciones, de registros de conexión para identificar a los
           usuarios en la Praça dos Três Poderes el día de los hechos y (vi) la
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2023/01/2023-01-08-17-55-46.pdf
-        texto: >-
-          **Alexandre de Moraes concede pedido de la Procuraduría Federal de la
-          Nación (Advocacia Geral da União - AGU) y determina el bloqueo de cuentas
-          en redes sociales y la detención de los implicados.** [La Procuraduría
-          Federal de la Nación (AGU) presentó un recurso ante el Supremo Tribunal
-          Federal (STF)]($url) en el que solicita la adopción de medidas para
-          contener los actos antidemocráticos ocurridos en la Praça dos Tres
-          Poderes, en Brasilia. La AGU solicitó (i) la desocupación de los edificios
-          públicos federales en todo el territorio nacional y la disolución de todos
-          los actos antidemocráticos en las unidades militares; (ii) la detención de
-          todos los involucrados en los actos de invasión, incluido el ex Secretario
-          de Seguridad Pública del Distrito Federal (Brasília) y los agentes
-          públicos responsables de actos u omisiones; (iii) la identificación y
-          remoción, por parte de las plataformas de redes sociales, de contenidos
-          que inciten a actos de invasión y depredación de edificios públicos en
-          todo el territorio nacional; (iv) la interrupción de la monetización de
-          perfiles y transmisión de medios, por parte de las plataformas sociales,
-          que promuevan actos de invasión y depredación de edificios públicos en
-          todo el territorio nacional; (v) el almacenamiento, por parte de las
-          empresas de telecomunicaciones, de registros de conexión para identificar
-          a los usuarios en la Praça dos Três Poderes el día de los hechos y (vi) la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           responsabilidad civil y penal de los responsables de actos ilícitos. [El
           ministro Alexandre de Moraes, del STF, concedió las solicitudes de la
           Procuraduría](https://internetlab.org.br/wp-content/uploads/2023/01/decisao-inq-4879-df.pdf)
@@ -443,12 +297,10 @@ paises:
           del exsecretario de Seguridad del Distrito Federal, Anderson
           Torres.](https://internetlab.org.br/wp-content/uploads/2023/01/decisao-stf-alexandre-anderson-torres.pdf)
         etiquetas:
-<<<<<<< HEAD
           - libertad-de-expresion
           - electoral
 
       - fecha: 2023-01-09
-        tipo: proyecto
         texto: >-
           La Fiscalía de la República (Ministerio Público Federal - MPF) abre
           investigación en contra de Jovem Pan por desinformación, incitación a
@@ -460,22 +312,6 @@ paises:
           edificios de los 3 poderes de la República por apoyadores del expresidente
           Jair Bolsonaro, que se realizaron el 01.08, [generando daños incalculables
           al patrimonio de las sedes de
-=======
-          - electoral
-
-      - fecha: 2023-01-09
-        url: https://www.mpf.mp.br/sp/sala-de-imprensa/noticias-sp/mpf-instaura-inquerito-contra-a-jovem-pan-por-divulgar-fake-news-e-incitar-atos-antidemocraticos
-        texto: >-
-          **La Fiscalía de la República (Ministerio Público Federal - MPF) abre
-          investigación en contra de Jovem Pan por desinformación, incitación a
-          actos antidemocráticos y abuso de concesión pública.** [El Ministerio
-          Público Federal abrió una investigación civil contra la Red Joven Pan por
-          supuesta difusión de contenido desinformativo y abuso de concesión
-          pública.]($url) El proceso señala hechos violentos que culminaron con la
-          invasión de los edificios de los 3 poderes de la República por apoyadores
-          del expresidente Jair Bolsonaro, que se realizaron el 01.08, [generando
-          daños incalculables al patrimonio de las sedes de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           gobierno](https://g1.globo.com/df/distrito-federal/noticia/2023/01/09/veja-o-custo-estimado-de-itens-destruidos-em-atos-terroristas-por-bolsonaristas-radicais.ghtml).
           El MPF constató, por medio de investigación preliminar, que la Red Jovem
           Pan difundió desinformación “para socavar la confianza de los ciudadanos
@@ -494,15 +330,15 @@ paises:
           por el canal en YouTube. También solicita a los responsables de YouTube
           que conserven la totalidad de los videos publicados por Jovem Pan,
           comunicando los videos eliminados y los mencionados en la ordenanza.
-<<<<<<< HEAD
-          LIBERTAD DE EXPRESION DESINFORMACION ELECCIONES Facebook e Instagram se
-          comprometen a eliminar contenido sobre el ataque a Brasilia tras decisión
-          del STF. Luego de una [decisión del ministro Alexandre de
-=======
-          LIBERTAD DE EXPRESION DESINFORMACION ELECCIONES **Facebook e Instagram se
-          comprometen a eliminar contenido sobre el ataque a Brasilia tras decisión
-          del STF.** Luego de una [decisión del ministro Alexandre de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+        etiquetas:
+          - libertad-de-expresion
+          - electoral
+
+      - fecha: 2023-01-09
+        texto: >-
+          Facebook e Instagram se comprometen a eliminar contenido sobre el ataque a
+          Brasilia tras decisión del STF. Luego de una [decisión del ministro
+          Alexandre de
           Moraes](https://www.telesintese.com.br/facebook-vai-remover-conteudos-dos-vandalos-de-brasilia-e-que-apoiem-golpe/)
           que determinó que las plataformas identifiquen y eliminen contenidos que
           promuevan actos de vandalismo e inciten a la invasión de edificios
@@ -523,7 +359,6 @@ paises:
           - plataformas-digitales
 
       - fecha: 2023-01-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Consejo Nacional de Justicia determina suspensión de redes sociales de
@@ -553,43 +388,12 @@ paises:
           Meta deberían recibir una orden para suspender inmediatamente los perfiles
           de Valois, bajo pena de una multa diaria de R$ 20.000. [Las plataformas
           siguieron la decisión y suspendieron las cuentas de
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2023/01/sei-1475803-decisao-1.pdf
-        texto: >-
-          **Consejo Nacional de Justicia determina suspensión de redes sociales de
-          juez por publicaciones consideradas de carácter partidista. **El
-          [Corregidor Nacional de Justicia, Luis Felipe Salomão, del Consejo
-          Nacional de Justicia (CNJ), determinó la suspensión de las cuentas de
-          todas las redes sociales del juez Luis Carlos Valois, del Tribunal de
-          Justicia de Amazonas (TJ/AM), por conducta presuntamente incompatible con
-          sus deberes funcionales como juez]($url). En la decisión, el Corregidor
-          enumeró las publicaciones del juez en diferentes redes sociales,
-          clasificándolas como de carácter partidista. Salomão menciona que el
-          artículo 19 del Marco Civil da Internet “permite la indisponibilidad de
-          contenidos que violen la legislación interna, incluso bajo pena de
-          responsabilidad civil del proveedor de la aplicación en caso de omisión”.
-          También argumenta que la manifestación del pensamiento y la libertad de
-          expresión son derechos constitucionales fundamentales de los magistrados,
-          dentro y fuera de las redes sociales, pero que no son derechos absolutos.
-          Según el Corregidor, para garantizar la debida protección al Estado
-          Democrático de Derecho, es necesario imponer la suspensión, de manera
-          urgente - para evitar nuevas infracciones administrativas - de los
-          perfiles de Valois en Facebook, Twitter e Instagram. El Corregidor también
-          ordenó la interposición de una denuncia disciplinaria contra el juez y la
-          emisión de una carta de orden al departamento de asuntos internos del
-          TJ/AM, para que promueva una citación personal al juez. Por último,
-          Salomão determinó que las empresas Twitter y Meta deberían recibir una
-          orden para suspender inmediatamente los perfiles de Valois, bajo pena de
-          una multa diaria de R$ 20.000. [Las plataformas siguieron la decisión y
-          suspendieron las cuentas de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Valois.](https://www.estadao.com.br/politica/twitter-juiz-luiz-carlos-valois-cnj-brasilia-entenda-motivo/)
         etiquetas:
           - libertad-de-expresion
           - plataformas-digitales
 
       - fecha: 2023-01-25
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Alexandre de Moraes multa a Telegram en R$ 1,2 millones por no bloquear el
@@ -601,18 +405,6 @@ paises:
           diputado federal electo Nikolas Ferreira (PL-MG). [La decisión, emitida el
           11.01, determinaba el bloqueo de perfiles de agentes que utilizaran la
           aplicación para promover actos
-=======
-        url: https://g1.globo.com/politica/noticia/2023/01/25/moraes-multa-telegram-por-nao-bloquear-conta-do-deputado-nikolas-ferreira.ghtml
-        texto: >-
-          **Alexandre de Moraes multa a Telegram en R$ 1,2 millones por no bloquear
-          el perfil del diputado Nikolas Ferreira. **El [ministro Alexandre de
-          Moraes, del Supremo Tribunal Federal (STF), determinó que la plataforma
-          Telegram pague, en cinco días, una multa de R $1,2 millón]($url), por
-          incumplimiento de una orden judicial de bloqueo del perfil del diputado
-          federal electo Nikolas Ferreira (PL-MG). [La decisión, emitida el 11.01,
-          determinaba el bloqueo de perfiles de agentes que utilizaran la aplicación
-          para promover actos
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           antidemocráticos](https://internetlab.org.br/wp-content/uploads/2023/01/agu-11-01.pdf).
           La plataforma tenía un plazo de dos horas, contadas a partir de la
           recepción de la orden judicial, el 13.01, para retirar los perfiles
@@ -630,7 +422,8 @@ paises:
           - libertad-de-expresion
           - plataformas-digitales
 
-<<<<<<< HEAD
+  - pais: Chile
+    entradas:
       - fecha: 2023-01-25
         tipo: proyecto
         texto: >-
@@ -639,24 +432,12 @@ paises:
           la decisión emitida por el Tribunal de Garantía de Concepción donde se
           condena al director del periódico Resumen, por injurias y calumnias en el
           marco de una investigación periodística a funcionarios públicos.
-=======
-  - pais: Chile
-    entradas:
-      - fecha: 2023-01-25
-        url: https://www.mapuexpress.org/2023/01/25/colegio-de-periodistas-rechaza-condena-a-director-de-periodico-resumen/
-        texto: >-
-          El Colegio de Periodistas [rechaza]($url) la decisión emitida por el
-          Tribunal de Garantía de Concepción donde se condena al director del
-          periódico Resumen, por injurias y calumnias en el marco de una
-          investigación periodística a funcionarios públicos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: Colombia
     entradas:
       - fecha: 2023-01-11
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Corte Constitucional de Colombia anunció su decisión en el caso [T-454
@@ -668,17 +449,6 @@ paises:
           la Policía Jorge Hilario Estupiñán con un caso de corrupción. A tres años
           de la publicación de la historia, en agosto de 2017, el coronel y su
           familia presentaron una demanda de reparación de perjuicios contra la
-=======
-        url: https://www.corteconstitucional.gov.co/Relatoria/2022/T-454-22.htm
-        texto: >-
-          La Corte Constitucional de Colombia anunció su decisión en el caso [T-454
-          de 2022]($url), en el cual revirtió una millonaria condena en una caso de
-          difamación contra la periodista Vicky Dávila. En mayo de 2014, la emisora
-          radial La FM, dirigida por Dávila, publicó una historia que vinculaba al
-          Coronel de la Policía Jorge Hilario Estupiñán con un caso de corrupción. A
-          tres años de la publicación de la historia, en agosto de 2017, el coronel
-          y su familia presentaron una demanda de reparación de perjuicios contra la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           periodista y la emisora, argumentando que los comentarios constituían
           injurias y calumnias. A pesar de que la periodista y el medio de
           comunicación fueron exonerados en primera instancia, el tribunal de
@@ -700,7 +470,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-01-25
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se hizo pública la decisión de la Corte Constitucional de rechazar por
@@ -711,16 +480,6 @@ paises:
           [Wikipedia](https://es.wikipedia.org/wiki/Juan_Pablo_Gallo). Gallo
           argumentó que Wikipedia estaba violando sus derechos al buen nombre, a la
           honra y a la presunción de inocencia al no permitirle editar la
-=======
-        url: https://www.eltiempo.com/justicia/cortes/tutela-de-senador-electo-para-editar-informacion-que-sale-en-wikipedia-677891
-        texto: >-
-          Se hizo pública la decisión de la Corte Constitucional de rechazar por
-          improcedente la acción de tutela presentada por el senador y exalcalde
-          Juan Pablo Gallo Maya, quien buscaba [editar]($url) la información que
-          aparece en [Wikipedia](https://es.wikipedia.org/wiki/Juan_Pablo_Gallo).
-          Gallo argumentó que Wikipedia estaba violando sus derechos al buen nombre,
-          a la honra y a la presunción de inocencia al no permitirle editar la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           información que se encuentra disponible en la sección "Controversias". La
           Corte consideró que la tutela no era procedente, dado que el senador no
           acudió a los mecanismos dispuestos por la propia plataforma en estos
@@ -731,24 +490,15 @@ paises:
   - pais: Ecuador
     entradas:
       - fecha: 2023-01-17
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.infobae.com/america/agencias/2023/01/17/ecuador-preocupacion-por-la-libertad-de-expresion/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El periodista Andersson Boscán denunció que funcionarios públicos habrían
           solicitado grandes sumas de dinero con el aparente propósito de beneficiar
           a Danilo Carrera, cuñado del presidente ecuatoriano Guillermo Lasso. Ante
-<<<<<<< HEAD
           dicha denuncia, [el periodista fue
           demandado](https://www.infobae.com/america/agencias/2023/01/17/ecuador-preocupacion-por-la-libertad-de-expresion/)
           por daño moral por un monto de 500.000 dólares. Situación que preocupó a
           las
-=======
-          dicha denuncia, [el periodista fue demandado]($url) por daño moral por un
-          monto de 500.000 dólares. Situación que preocupó a las
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [organizaciones](https://www.elcomercio.com/actualidad/ecuador/organizaciones-sociales-alerta-libertad-expresion.html)
           expertas en libertad de expresión, debido a la extralimitación en la
           demanda.
@@ -758,7 +508,6 @@ paises:
   - pais: México
     entradas:
       - fecha: 2022-12-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [periodista Ciro Gómez Leyva sufrió un
@@ -767,29 +516,14 @@ paises:
           Secretaría de Seguridad Ciudadana y la Fiscalía General de Justicia, ambas
           de la Ciudad de México, han realizado una investigación y detención de
           personas que se relacionan con los hechos del 15 de diciembre de 2022.
-=======
-        url: https://www.elfinanciero.com.mx/cdmx/2023/01/18/atentado-contra-ciro-gomez-leyva-vinculan-a-proceso-a-lider-de-celula-criminal-que-lo-ataco/
-        texto: >-
-          El [periodista Ciro Gómez Leyva sufrió un atentado]($url) a su vida.
-          Durante el mes de diciembre de 2022 y enero de 2023, la Secretaría de
-          Seguridad Ciudadana y la Fiscalía General de Justicia, ambas de la Ciudad
-          de México, han realizado una investigación y detención de personas que se
-          relacionan con los hechos del 15 de diciembre de 2022.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2023-01-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En el [marco de los hechos de violencia en el Estado de
           Sinaloa](https://articulo19.org/article-19-cpj-y-rsf-llaman-a-las-autoridades-a-garantizar-la-seguridad-de-la-prensa-en-sinaloa/),
-=======
-        url: https://articulo19.org/article-19-cpj-y-rsf-llaman-a-las-autoridades-a-garantizar-la-seguridad-de-la-prensa-en-sinaloa/
-        texto: >-
-          En el [marco de los hechos de violencia en el Estado de Sinaloa]($url),
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           diversos medios de comunicación sufrieron agresiones (robo de cuatro
           automóviles, de cinco robos de equipos de trabajo y amenazas con armas de
           fuego). Por ello, Artículo 19 exhortó al Presidente de la República y al
@@ -803,7 +537,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-01-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Director de Informativo Esma
@@ -815,23 +548,10 @@ paises:
           de la entidad a realizar una investigación diligente. Asimismo, solicitó
           al Mecanismo de Protección de Defensores(as) y Periodistas que incorpore
           esta amenaza al periodista a sus análisis de riesgo.
-=======
-        url: https://articulo19.org/periodista-recibe-como-amenaza-cabezas-porcinas-en-una-hielera/
-        texto: >-
-          El [Director de Informativo Esma Valles]($url) recibió amenazas en su
-          domicilio que están relacionadas con reportajes publicados en diciembre de
-          2022 y enero de 2023 con relación a la Caña de Azúcar. Al respecto,
-          Artículo 19 exhorta al Gobierno de San Luis Potosí a condenar la agresión
-          contra la prensa y a la Fiscalía General de Justicia de la entidad a
-          realizar una investigación diligente. Asimismo, solicitó al Mecanismo de
-          Protección de Defensores(as) y Periodistas que incorpore esta amenaza al
-          periodista a sus análisis de riesgo.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2023-01-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           R3D mostró su preocupación con la resolución del Instituto Nacional de
@@ -842,23 +562,11 @@ paises:
           la información de cómo funcionan estas herramientas que capturan y
           almacenan datos biométricos debe considerarse de interés público. Para R3D
           es preocupante que esta base de datos sea compartida con autoridades de la
-=======
-        url: https://r3d.mx/2023/01/10/inai-y-ligamx-ocultan-funcionamiento-del-fan-id/
-        texto: >-
-          R3D mostró su preocupación con la resolución del Instituto Nacional de
-          Transparencia, Acceso a la Información y Protección de Datos Personales en
-          la que negó la solicitud de transparencia del [FANID]($url) bajo el
-          supuesto de protección de Secreto Industrial, sin considerar que la
-          información de cómo funcionan estas herramientas que capturan y almacenan
-          datos biométricos debe considerarse de interés público. Para R3D es
-          preocupante que esta base de datos sea compartida con autoridades de la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Secretaría de Seguridad Ciudadana.
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2023-01-16
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [R3D refiere a las
@@ -868,20 +576,10 @@ paises:
           a través de la modificación de estructura orgánica del Gobierno de la
           Ciudad de México en la estructura de la Secretaría de Gobierno, y la
           instalación de diversas antenas falsas.
-=======
-        url: https://r3d.mx/2023/01/16/red-de-espionaje-del-gobierno-de-mancera-uso-antenas-falsas-para-intervenir-comunicaciones-privadas/
-        texto: >-
-          [R3D refiere a las detenciones]($url) de ex servidores públicos del
-          Gobierno del ex Jefe de Gobierno, Miguel Ángel Mancera que tienen relación
-          con una red de espionaje gubernamental, a través de la modificación de
-          estructura orgánica del Gobierno de la Ciudad de México en la estructura
-          de la Secretaría de Gobierno, y la instalación de diversas antenas falsas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2023-01-17
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Instituto Nacional de Transparencia, Acceso a la Información y
@@ -890,19 +588,10 @@ paises:
           indicó que la Fiscalía General de la República (FGR) debe hacer público el
           número de denuncias por apertura y uso de tomas clandestinas de agua
           potable en el país.
-=======
-        url: https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Nota%20INAI-004-23.pdf
-        texto: >-
-          El [Instituto Nacional de Transparencia, Acceso a la Información y
-          Protección de Datos Personales]($url) indicó que la Fiscalía General de la
-          República (FGR) debe hacer público el número de denuncias por apertura y
-          uso de tomas clandestinas de agua potable en el país.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2023-01-18
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [R3D informó que la Federación Mexicana de
@@ -912,20 +601,10 @@ paises:
           personas que asistieron a partidos de la Selección Mexicana en el Estado
           Azteca, aunque precisó que la sanción no tiene relación con la aplicación
           FANID.
-=======
-        url: https://r3d.mx/2023/01/18/fmf-recibe-multa-del-inai-por-registro-de-personas-en-partidos-de-la-seleccion-mexicana/
-        texto: >-
-          [R3D informó que la Federación Mexicana de Fútbol]($url) comunicó que el
-          Instituto Nacional de Transparencia, Acceso a la Información y Protección
-          de Datos Personales les multó por el registro de personas que asistieron a
-          partidos de la Selección Mexicana en el Estado Azteca, aunque precisó que
-          la sanción no tiene relación con la aplicación FANID.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2023-01-22
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Instituto Nacional de Transparencia, Acceso a la Información y
@@ -942,16 +621,6 @@ paises:
         tipo: proyecto
         texto: >-
           [Radio Cáritas denuncia amenazas contra su
-=======
-        url: https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-016-23.pdf
-        texto: >-
-          El [Instituto Nacional de Transparencia, Acceso a la Información y
-          Protección de Datos Personales,]($url) a través de la Comisionada Josefina
-          Román Vergara invitó a la ciudadanía a denunciar penalmente las
-          aplicaciones Montadeudas por considerar que violan la Ley Federal de
-          Protección de Datos Personales en Posesión de los Particulares. PROTECCION
-          DE DATOS PERSONALES **25/01** [Radio Cáritas denuncia amenazas contra su
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           labor.](https://www.dw.com/es/paraguay-radio-c%C3%A1ritas-denuncia-amenazas-contra-su-labor/a-64505956)
           Miguel Ángel Ortiz, director de la empresa de comunicación, señaló que un
           desconocido se comunicó vía telefóno con la emisora para exigir, bajo
@@ -964,7 +633,6 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2023-01-19
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Poder Judicial [sentenció, en primera instancia, a la periodista
@@ -988,29 +656,6 @@ paises:
           mencionar a la reportera Lourdes Paucar y el camarógrafo Willy Nueva de
           Canal N, agredidos en el centro de Lima el 19 de enero, al periodista de
           La Encerrona, Jonathan Castro,
-=======
-        url: https://elcomercio.pe/lima/sucesos/milagros-leiva-condenan-a-periodista-por-caso-de-difamacion-a-la-exministra-anahi-durand-willaxtv-noticia/
-        texto: >-
-          El Poder Judicial [sentenció, en primera instancia, a la periodista
-          Milagros Leiva y a Willax Televisión]($url), como tercero responsable, por
-          difamación en agravio de la exministra de la Mujer y Poblaciones
-          Vulnerables Anahí Durand. En una sentencia cuestionable, la jueza
-          consideró que se había agraviado a Durand, por una nota televisiva en la
-          que se señalaba que Durand tenía vínculos con el terrorismo. En la nota,
-          se indicaba que Durand había tenido una relación sentimental con una
-          persona condenada por el delito de terrorismo, había participado de la
-          presentación de un libro de otro sentenciado ex terrorista, y había
-          firmado un comunicado pidiendo el cambio de centro penitenciario de otro
-          reo por terrorismo. Leiva fue sentenciada “al fallo condenatorio con
-          normas de conducta por un año y el pago de 20 mil soles”. La periodista
-          anunció que apelará la sentencia. LIBERTAD DE PRENSA DIFAMACION A lo largo
-          del mes de enero, en diferentes regiones del país, se produjeron una serie
-          de manifestaciones en protesta al gobierno de la presidenta Dina Boluarte,
-          en las que reporteros de diversos medios de comunicación fueron agredidos
-          por manifestantes. Entre ellos, se pueden mencionar a la reportera Lourdes
-          Paucar y el camarógrafo Willy Nueva de Canal N, agredidos en el centro de
-          Lima el 19 de enero, al periodista de La Encerrona, Jonathan Castro,
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [agredido](https://www.swissinfo.ch/spa/per%C3%BA-crisis_grupo-ultraconservador-agrede-a-periodista-que-cubr%C3%ADa-las-protestas-en-lima/48219302)
           físicamente el 19 de enero en Miraflores por integrantes del grupo
           denominado La Resistencia, quienes además intentaron arrebatarle la
@@ -1027,29 +672,19 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-01-21
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.facebook.com/ANPgremiodelaprensaperuana/posts/539847478176977
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La periodista Patricia Condori, de la Red de Periodistas de Juliaca, el
           reportero de Radio Huancané y Líder TV, Percy Pampamallco Yancachajlla, y
           el reportero de Radio Sudamericana de Juliaca, César Huasaca Abarca,
-<<<<<<< HEAD
           [fueron arbitrariamente
           detenidos](https://www.facebook.com/ANPgremiodelaprensaperuana/posts/539847478176977)
           por la Policía cuando cubrían la intervención policial en la Universidad
           Nacional Mayor de San Marcos.
-=======
-          [fueron arbitrariamente detenidos]($url) por la Policía cuando cubrían la
-          intervención policial en la Universidad Nacional Mayor de San Marcos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -1097,8 +732,4 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
-=======
-{{< observatorio-mes month="2023-01" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

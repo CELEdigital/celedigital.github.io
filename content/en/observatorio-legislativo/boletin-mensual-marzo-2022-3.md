@@ -1,15 +1,5 @@
 ---
-<<<<<<< HEAD
 title: 'Boletín mensual Observatorio Legislativo | Marzo 2022'
-=======
-author: [CELE]
-content_type: [boletin]
-date: '2022-03-31'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 slug: boletin-mensual-marzo-2022-3
 date: 2022-03-31
 translationKey: wp-10526
@@ -25,18 +15,14 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2022-03-02
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Alberto Fernández
@@ -46,21 +32,10 @@ paises:
           Inteligencia (AFI) dedicada al espionaje político y a la manipulación del
           poder judicial, con el fin de tener un mayor control sobre el manejo de la
           vigilancia y evitar repetir los hechos de espionaje ilegal.
-=======
-        url: https://www.pagina12.com.ar/405026-las-claves-del-proyecto-de-ley-de-inteligencia-que-anuncio-a
-        texto: >-
-          Alberto Fernández [anunció]($url) que adelantará iniciativa legislativa
-          para reformar la Ley de Inteligencia, en atención a los hechos ocurridos
-          con la Agencia Federal de Inteligencia (AFI) dedicada al espionaje
-          político y a la manipulación del poder judicial, con el fin de tener un
-          mayor control sobre el manejo de la vigilancia y evitar repetir los hechos
-          de espionaje ilegal.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - vigilancia
 
       - fecha: 2022-03-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Agencia de Acceso a la Información Pública, entidad encargada de
@@ -68,40 +43,21 @@ paises:
           pública y la promoción de medidas transparentes,
           [nombró](https://www.boletinoficial.gob.ar/detalleAviso/primera/258730/20220310)
           a la magíster Beatriz de Anchorena, licenciada en Ciencia Política como la
-=======
-        url: https://www.boletinoficial.gob.ar/detalleAviso/primera/258730/20220310
-        texto: >-
-          La Agencia de Acceso a la Información Pública, entidad encargada de
-          garantizar y materializar el ejercicio del derecho a la información
-          pública y la promoción de medidas transparentes, [nombró]($url) a la
-          magíster Beatriz de Anchorena, licenciada en Ciencia Política como la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           nueva Directora de la entidad.
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2022-03-23
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.filo.news/amp/espectaculos/Record-de-denuncias-en-la-Defensoria-del-Publico-por-discursos-de-odio-en-medios-20220323-0012.html
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La Defensoría del Público de Servicios de Comunicación Audiovisual anunció
           haber recibido 750 reclamos frente a opiniones presentadas en programas de
           televisión contra las mujeres feministas, comunidades LGBTIQ+ y la
-<<<<<<< HEAD
           población trans, generando un [discurso de
           odio](https://www.filo.news/amp/espectaculos/Record-de-denuncias-en-la-Defensoria-del-Publico-por-discursos-de-odio-en-medios-20220323-0012.html).
           Uno de los programas denunciados corresponde a _“Mañanísima”_ al presentar
           un diálogo transodiante al aire con la Diputada Amalia Granata. Adicional
           a ello, la funcionaria publicó en su cuenta de
-=======
-          población trans, generando un [discurso de odio]($url). Uno de los
-          programas denunciados corresponde a _“Mañanísima”_ al presentar un diálogo
-          transodiante al aire con la Diputada Amalia Granata. Adicional a ello, la
-          funcionaria publicó en su cuenta de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [Twitter](https://twitter.com/AmelieGranata/status/1506025319173558272)
           sobre las acciones legales que tomará en contra de Franco Torchia,
           periodista y activista por los derechos de la comunidad LGBTIQ+, por los
@@ -109,13 +65,8 @@ paises:
           injurias](https://amp.eltrecetv.com.ar/noticias/amalia-granata-lleva-a-la-justicia-a-franco-torchia-por-los-delitos-de-calumnias-e-injurias_167319)
           al haber expuesto su
           [posición](https://www.clarin.com/fama/amalia-granata-lleva-juicio-franco-torchia-trato-delincuente-_0_1uDD8G2Ehq.html)
-<<<<<<< HEAD
           frente a lo sucedido en el programa de televisión. También el programa_
           “Viviana Con Vos” _terminó involucrado en las denuncias tras las fuertes
-=======
-          frente a lo sucedido en el programa de televisión. También el programa
-          _“Viviana Con Vos” _terminó involucrado en las denuncias tras las fuertes
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [declaraciones](https://www.perfil.com/noticias/politica/viviana-canosa-contra-el-dia-de-la-mujer-verde-empiecen-por-darse-un-bano-depilarse-e-ir-a-laburar.phtml)
           de la presentadora Viviana Canpsa contra los movimientos feministas en el
           marco del Día Internacional de la Mujer, deslegitimando sus causas para
@@ -125,45 +76,29 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-03-29
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Gobierno anunció un acuerdo para promover [“el buen uso de las redes
           sociales, que dejen de intoxicar el espíritu de nuestra
           democracia”](https://www.infobae.com/politica/2022/03/29/el-gobierno-anuncio-un-proyecto-para-regular-las-redes-sociales-y-que-dejen-de-intoxicar-a-la-democracia/)
-=======
-        url: https://www.infobae.com/politica/2022/03/29/el-gobierno-anuncio-un-proyecto-para-regular-las-redes-sociales-y-que-dejen-de-intoxicar-a-la-democracia/
-        texto: >-
-          **El Gobierno anunció un acuerdo para promover [“el buen uso de las redes
-          sociales, que dejen de intoxicar el espíritu de nuestra democracia”]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           como propósito de abordar los desafíos que implica el ejercicio de la
           ciudadanía a través del uso de internet. El secretario de Asuntos
           Estratégicos, Gustavo Beliz, resaltó que el objetivo de Pacto por la
           Información y la Democracia no es regular esta propuesta a través de la
           ley sino la realización de estudios e interpretaciones de la influencia de
           las redes sociales en la democracia. Una estrategia al que llaman “Redes
-<<<<<<< HEAD
           para el bien común”.
-=======
-          para el bien común”.**
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
   - pais: Brasil
     entradas:
       - fecha: 2022-03-14
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://esaj.tjsp.jus.br/cposg/search.do?conversationId=&paginaConsulta=0&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1030110-92.2019&foroNumeroUnificado=0100&dePesquisaNuUnificado=1030110-92.2019.8.26.0100&dePesquisaNuUnificado=UNIFICADO&dePesquisa=&tipoNuProcesso=UNIFICADO#?cdDocumento=27
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           [El Tribunal de Justicia de São Paulo publicó una sentencia en la que
           mantuvo la condena de la Liga Cristiana Mundial a pagar una indemnización
           por la publicación de contenidos ofensivos dirigidos a la fe
-<<<<<<< HEAD
           islámica](https://esaj.tjsp.jus.br/cposg/search.do?conversationId=&paginaConsulta=0&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1030110-92.2019&foroNumeroUnificado=0100&dePesquisaNuUnificado=1030110-92.2019.8.26.0100&dePesquisaNuUnificado=UNIFICADO&dePesquisa=&tipoNuProcesso=UNIFICADO#?cdDocumento=27).
           El contenido hace referencia a tres videos de entrevistas con el
           presidente de la Liga Cristiana, en las que sugiere cerrar mezquitas en
@@ -176,19 +111,6 @@ paises:
           religiosa, lo que vulnera el derecho constitucional a la libertad de
           creencias. Así, la indemnización representaría un desincentivo a la
           conducta señalada y tendría el poder de proteger el derecho difuso
-=======
-          islámica]($url). El contenido hace referencia a tres videos de entrevistas
-          con el presidente de la Liga Cristiana, en las que sugiere cerrar
-          mezquitas en Brasil, exigir un certificado de bautismo cristiano para
-          ingresar al país y el vínculo entre el Islam y el terrorismo. Según el
-          relator del caso, el contenido está dirigido a la universalidad de los
-          seguidores de la religión islámica, indicando un espíritu de difusión del
-          odio. Señala que tales declaraciones van más allá de la mera expresión del
-          pensamiento crítico, pudiendo fomentar la persecución étnica y la
-          intolerancia religiosa, lo que vulnera el derecho constitucional a la
-          libertad de creencias. Así, la indemnización representaría un desincentivo
-          a la conducta señalada y tendría el poder de proteger el derecho difuso
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           involucrado. La sentencia confirmada por la sentencia determinó que la
           Liga Cristiana pague R$ 35.167,00 por daños morales colectivos, que serán
           revertidos al Fondo Estatal para la Defensa de los Intereses Difusos.
@@ -197,16 +119,11 @@ paises:
           - discurso-de-odio
 
       - fecha: 2022-03-15
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.jota.info/coberturas-especiais/liberdade-de-expressao/danilo-gentili-ministerio-justica-remocao-filme-15032022
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Danilo Gentili vs Ministerio de Justicia. El [Ministerio de Justicia y
           Seguridad Pública, a través de la Secretaría Nacional del Consumidor,
           ordenó que siete plataformas de streaming retiraran de inmediato la
-<<<<<<< HEAD
           película “Como ser o pior estudante da
           escola"](https://www.jota.info/coberturas-especiais/liberdade-de-expressao/danilo-gentili-ministerio-justica-remocao-filme-15032022),
           basada en un libro del comediante brasileño Danilo Gentili. La orden
@@ -214,14 +131,6 @@ paises:
           el niño y adolescente consumista”. [El secretario de Cultura, Mario Frías,
           había reclamado en Twitter que la película haga apología de los abusos
           sexuales a
-=======
-          película “Como ser o pior estudante da escola"]($url), basada en un libro
-          del comediante brasileño Danilo Gentili. La orden establece que la
-          suspensión busca garantizar “la protección necesaria para el niño y
-          adolescente consumista”. [El secretario de Cultura, Mario Frías, había
-          reclamado en Twitter que la película haga apología de los abusos sexuales
-          a
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           menores](https://twitter.com/mfriasoficial/status/1503151076266098693?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1503151076266098693%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.jota.info%2Fcoberturas-especiais%2Fliberdade-de-expressao%2Fdanilo-gentili-ministerio-justica-remocao-filme-15032022),
           debido a una escena en la que un personaje mayor intenta convencer a dos
           menores de edad para que lo masturben. La orden impone una multa diaria de
@@ -232,7 +141,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-03-16
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Eduardo Bolsonaro vs Acciona. A fines de febrero, [el Tribunal de Justicia
@@ -241,15 +149,6 @@ paises:
           Bolsonaro](https://www.jota.info/coberturas-especiais/liberdade-de-expressao/eduardo-bolsonaro-post-sexista-twitter-16032022).
           [La publicación consiste en una versión satirizada de un video de 2020 de
           la empresa de infraestructura
-=======
-        url: https://www.jota.info/coberturas-especiais/liberdade-de-expressao/eduardo-bolsonaro-post-sexista-twitter-16032022
-        texto: >-
-          Eduardo Bolsonaro vs Acciona. A fines de febrero, [el Tribunal de Justicia
-          de São Paulo otorgó la determinación de destitución inmediata de un tweet
-          del diputado federal, Eduardo Bolsonaro]($url). [La publicación consiste
-          en una versión satirizada de un video de 2020 de la empresa de
-          infraestructura
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Acciona](https://twitter.com/BolsonaroSP/status/1489595557496733703), que
           destacaba la contratación de ingenieras para realizar obras en el metro de
           São Paulo, [que terminó derribada a principios de febrero de
@@ -268,7 +167,6 @@ paises:
           - discurso-de-odio
 
       - fecha: 2022-03-20
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           STF vs Telegram. El [ministro del Supremo Tribunal Federal, Alexandre de
@@ -277,15 +175,6 @@ paises:
           ministro](http://www.stf.jus.br/arquivo/cms/noticiaNoticiaStf/anexo/DecisaoTelegram20mar.pdf).
           Días antes, el 17 de marzo, [Alexandre de Moraes había determinado el
           bloqueo de la aplicación de mensajería en todo
-=======
-        url: http://www.stf.jus.br/arquivo/cms/noticiaNoticiaStf/anexo/DecisaoTelegram20mar.pdf
-        texto: >-
-          STF vs Telegram. El [ministro del Supremo Tribunal Federal, Alexandre de
-          Moraes, revocó la orden de bloqueo de Telegram, luego de que la empresa
-          cumpliera con las determinaciones del ministro]($url). Días antes, el 17
-          de marzo, [Alexandre de Moraes había determinado el bloqueo de la
-          aplicación de mensajería en todo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Brasil](http://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=483659&ori=1).
           La
           [decisión](http://www.stf.jus.br/arquivo/cms/noticiaNoticiaStf/anexo/DespachoTelegram1.pdf)
@@ -324,32 +213,19 @@ paises:
           la aplicación indicó un representante legal en Brasil e informó la
           adopción de medidas para combatir la desinformación. Para saber más acerca
           del tema, vea los boletines mensuales de
-<<<<<<< HEAD
           [enero](/en/legislative-observatory/boletin-mensual-enero-2022/) y
           [febrero](/en/legislative-observatory/boletin-mensual-febrero-2022-2/).
-=======
-          [enero](https://observatoriolegislativocele.com/boletin-mensual-enero-2022/)
-          y
-          [febrero](https://observatoriolegislativocele.com/boletin-mensual-febrero-2022-2/).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: Chile
     entradas:
       - fecha: 2022-03-16
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se aprueban en Convención Constitucional de Chile las [primeras
           normas](https://www.chileconvencion.cl/news_cconstitucional/pleno-de-la-convencion-aprueba-normas-sobre-derechos-digitales-y-culturales/)
           sobre derecho a la
-=======
-        url: https://www.chileconvencion.cl/news_cconstitucional/pleno-de-la-convencion-aprueba-normas-sobre-derechos-digitales-y-culturales/
-        texto: >-
-          Se aprueban en Convención Constitucional de Chile las [primeras
-          normas]($url) sobre derecho a la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [comunicación](https://www.latercera.com/politica/noticia/pleno-de-la-convencion-aprueba-articulos-para-respetar-la-libertad-de-prensa-promover-el-pluralismo-de-los-medios-y-limitar-su-concentracion/JG5X3EHPKVGYZFLO2PUXEBHVXI/)
           y derechos digitales. Entre fines de febrero y durante marzo 2022, el
           pleno de la Convención Constitucional de Chile ha aprobado el [primer
@@ -369,7 +245,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-03-24
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Avanza el [proyecto de ley de
@@ -383,35 +258,16 @@ paises:
           relación a ese punto, queda establecido que el Ministerio Público podrá
           pedir información y datos a los operadores de telecomunicaciones, previa
           autorización judicial. El Convenio de Budapest
-=======
-        url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=12715&prmBOLETIN=12192-25
-        texto: >-
-          Avanza el [proyecto de ley de ciberdelitos]($url) en Chile. La Cámara de
-          Diputados de Chile ratificó por unanimidad la propuesta de la Comisión
-          Mixta y dejó a un paso de ser ley el proyecto que busca adecuar la
-          normativa local sobre ciberdelitos al Convenio de Budapest. La propuesta,
-          que en sus instancias previas recibió quejas por parte de asociaciones
-          vinculadas al sector, terminó así su trámite legislativo y quedó lista
-          para su promulgación como ley nacional. En relación a ese punto, queda
-          establecido que el Ministerio Público podrá pedir información y datos a
-          los operadores de telecomunicaciones, previa autorización judicial. El
-          Convenio de Budapest
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [busca](https://dplnews.com/chile-adecuara-su-normativa-de-ciberdelitos-al-convenio-de-budapest/)
           homogeneizar la forma en que los países enfrentan hechos ilícitos en
           ambientes digitales. En Chile, la aprobación definitiva generaría también
           la modificación de otros cuerpos legales y la derogación de la ley 19,223,
           por la que en la actualidad se tipifican figuras penales relativas a la
-<<<<<<< HEAD
-          informática. CIBERDELITOS
-=======
           informática.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Colombia
     entradas:
       - fecha: 2022-03-12
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se cumplen dos años de la expedición del [Decreto Legislativo 491 de
@@ -425,30 +281,11 @@ paises:
           las entidades públicas se ha normalizado, el gobierno nacional se ha
           negado a revocar el decreto. En noviembre de 2021 se aprobó un proyecto de
           ley que busca revocarlo, pero este fue objetado por el presidente.
-=======
-        url: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=111114
-        texto: >-
-          Se cumplen dos años de la expedición del [Decreto Legislativo 491 de
-          2020]($url) que, en el marco de estado de emergencia declarado por el
-          gobierno por la pandemia del Covid-19, duplicó los tiempos de respuesta de
-          las solicitudes de acceso a la información pública. Desde la expedición
-          del decreto, el término para responder a las petición de documentos pasó
-          de diez a veinte días y de las demás peticiones pasó de quince a treinta
-          días. A pesar de los reclamos de periodistas e investigadores y de que el
-          funcionamiento de las entidades públicas se ha normalizado, el gobierno
-          nacional se ha negado a revocar el decreto. En noviembre de 2021 se aprobó
-          un proyecto de ley que busca revocarlo, pero este fue objetado por el
-          presidente.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2022-03-13
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://flip.org.co/index.php/es/informacion/pronunciamientos/item/2873-alerta-por-restricciones-al-cubrimiento-electoral
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Se llevaron a cabo las elecciones al Congreso de Colombia y las consultas
           interpartidistas para definir los candidatos que participarán en la
@@ -456,7 +293,6 @@ paises:
           periodos electorales, según denunció la Fundación para la Libertad de
           Prensa (FLIP) hubo dos tipos de restricciones al trabajo de la prensa. Por
           una parte, previo al día de las elecciones, el [Ministerio del Interior
-<<<<<<< HEAD
           expidió
           regulación](https://flip.org.co/index.php/es/informacion/pronunciamientos/item/2873-alerta-por-restricciones-al-cubrimiento-electoral)
           para el día de las elecciones que limita ilegítimamente el trabajo
@@ -469,19 +305,6 @@ paises:
           información confirmada únicamente por fuentes oficiales, lo cual es una
           forma de censura prohibida por la Constitución. Por otra parte, en el día
           de las elecciones, [la FLIP
-=======
-          expidió regulación]($url) para el día de las elecciones que limita
-          ilegítimamente el trabajo periodístico exigiendo que los reporteros
-          obtengan una "acreditación" ante la Registraduría Nacional para poder
-          hacer cubrir las elecciones en los puestos de votación. Esta exigencia
-          desconoce la jurisprudencia nacional e interamericana que ha aclarado que
-          el periodismo es un ejercicio libre para el que no se pueden exigir
-          habilitaciones o documentos especiales. Además, la regulación del
-          Ministerio exigía que los medios sólo publicaran información confirmada
-          únicamente por fuentes oficiales, lo cual es una forma de censura
-          prohibida por la Constitución. Por otra parte, en el día de las
-          elecciones, [la FLIP
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           documentó](https://flip.org.co/index.php/es/informacion/pronunciamientos/item/2878-funcionarios-de-registraduria-y-policia-obstaculizan-el-cubrimiento-durante-las-elecciones)
           ocho casos de obstrucciones al trabajo de la prensa, que en su mayoría
           fueron ocasionadas por funcionarios, fuerza pública y candidatos.
@@ -489,10 +312,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-03-21
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 4330/2015-CR
         url: http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/proyectos%20de%20ley/2021%20-%202022/PL%20330-22%20Acosos%20Sexual.pdf
         texto: >-
@@ -512,7 +332,6 @@ paises:
   - pais: Ecuador
     entradas:
       - fecha: 2022-03-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se cierra el caso [Heidy Borja v.
@@ -520,14 +339,6 @@ paises:
           En anteriores entregas del boletín informamos sobre el caso de la jueza
           Heidy Borja en contra del canal Teleamazonas. Básicamente se trata de una
           funcionaria judicial que demandó a un canal y a un periodista por proferir
-=======
-        url: http://www.vocesdelsurunidas.org/incidentes/jueza-ecuador-accion-de-proteccion/
-        texto: >-
-          Se cierra el caso [Heidy Borja v. Teleamazonas]($url). En anteriores
-          entregas del boletín informamos sobre el caso de la jueza Heidy Borja en
-          contra del canal Teleamazonas. Básicamente se trata de una funcionaria
-          judicial que demandó a un canal y a un periodista por proferir
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [opiniones](https://www.teleamazonas.com/no-sancionaran-a-jueza-que-dio-medidas-alternativas-a-responsable-de-atropello-en-guayaquil/)
           sobre su actual como jueza y sobre sus decisiones; para la funcionaria se
           habían realizado opiniones inexactas y perniciosas sobre las providencias
@@ -546,7 +357,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-03-21
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Presidente Guillermo Lasso condecora a periodista perseguido. Durante la
@@ -570,30 +380,6 @@ paises:
           Derechos Humanos falló a su favor y declaró la violación de sus derechos
           humanos. Con un nuevo Gobierno Emilio Palacio ha regresado al país y fue
           condecorado por el presidente Guillermo Lasso.
-=======
-        url: https://www.expreso.ec/actualidad/emilio-palacio-regresa-ecuador-luego-10-anos-exilio-123945.html
-        texto: >-
-          Presidente Guillermo Lasso condecora a periodista perseguido. Durante la
-          última semana de marzo el presidente de Ecuador Guillermo Lasso
-          [condecoró]($url) al periodista Emilio Palacio en el Palacio de Gobierno
-          de Quito. Esto coincidió con el regreso de Palacio después de más de 10
-          años de exilio en Estados Unidos por la persecución política de la que fue
-          víctima durante el Gobierno de Rafael Correa por publicar un editorial
-          controversial. Recordemos que el 30 de septiembre de 2010 hubo una
-          revuelta policial que condujo a una caótica situación de orden público en
-          todo el territorio ecuatoriano. Esto derivó en que el presidente Rafael
-          Correa acuse a la oposición de un golpe de Estado y se presentara en tono
-          beligerante en un hospital repleto de civiles donde se amontonaban cientos
-          de policías rebeldes. Frente a este escenario Emilio Palacio escribió un
-          editorial en el que criticó la posición del gobernante durante las
-          revueltas y que encendió la furia de Rafael Correa. Posteriormente
-          vinieron una serie de demandas millonarias en el orden civil y el riesgo
-          de demandas penales en un sistema totalmente cooptado por Rafael Correa
-          generaron que Emilio Palacio huya del país. A fines del año 2021 la Corte
-          Interamericana de Derechos Humanos falló a su favor y declaró la violación
-          de sus derechos humanos. Con un nuevo Gobierno Emilio Palacio ha regresado
-          al país y fue condecorado por el presidente Guillermo Lasso.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
@@ -601,17 +387,12 @@ paises:
   - pais: Guatemala
     entradas:
       - fecha: 2022-03-10
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://prensa.gob.gt/comunicado/presidente-giammattei-rechazara-iniciativa-de-ley-del-congreso-sobre-proteccion-de-la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El Congreso de la República de Guatemala aprobó el decreto 18-2022 que
           contiene la denominada “Ley para la Protección de la Vida y la Familia”.
           No obstante, por considerar que la misma representaba un grave retroceso
           en materia de derechos humanos, entre ellos, la libertad de expresión, el
-<<<<<<< HEAD
           Presidente de la República [requirió
           “archivar”](https://prensa.gob.gt/comunicado/presidente-giammattei-rechazara-iniciativa-de-ley-del-congreso-sobre-proteccion-de-la)
           dicho decreto y evitar así el tener que vetar en caso le hubiese sido
@@ -630,31 +411,11 @@ paises:
           diversidad sexual y la ideología de género o enseñar como normales las
           conductas sexuales distintas a la heterosexualidad o que sean
           incompatibles con los aspectos biológicos o genéticos del ser humano”.
-=======
-          Presidente de la República [requirió “archivar”]($url) dicho decreto y
-          evitar así el tener que vetar en caso le hubiese sido remitido para la
-          correspondiente sanción y publicación de la ley. El decreto 18-2022
-          efectivamente fue archivado por la Junta Directiva del Congreso de la
-          República, pero fue motivo suficiente para que tanto la sociedad civil en
-          Guatemala como la comunidad internacional, se refirieron a esta acción del
-          poder legislativo como algo perturbador por contemplar leyes claramente
-          discriminatorias. Bajo la “excusa” de promover la protección del derecho a
-          la vida, la familia, la institución del matrimonio entre un hombre y una
-          mujer, la libertad de conciencia y de expresión y el derecho de los padres
-          a educar y orientar a sus hijos y formarlos en el ámbito de la sexualidad,
-          se incluía, entre otros aspectos, la “prohibición a las entidades
-          educativas públicas y privadas, de promover en la niñez y adolescencia,
-          políticas o programas relativos a la diversidad sexual y la ideología de
-          género o enseñar como normales las conductas sexuales distintas a la
-          heterosexualidad o que sean incompatibles con los aspectos biológicos o
-          genéticos del ser humano”.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - discurso-de-odio
 
       - fecha: 2022-03-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En consonancia con una sentencia dictada por la Corte Interamericana de
@@ -674,26 +435,6 @@ paises:
           valores de los pueblos originarios que configuran la Guatemala”. Esta
           iniciativa, presentada por diputados de la “oposición” a finales de enero
           de 2022 [aún no recibe dictamen favorable o
-=======
-        url: https://www.congreso.gob.gt/detalle_pdf/iniciativas/5834#gsc.tab=0
-        texto: >-
-          ** **En consonancia con una sentencia dictada por la Corte Interamericana
-          de Derechos Humanos y reportada en meses pasados, en la cual se consideró
-          que el Estado de Guatemala vulnera derechos de los pueblos indígenas en
-          materia de radios comunitarias, se presentó al Congreso de la República la
-          [iniciativa]($url) de ley número 5965 titulada “Ley Reguladora de las
-          Radios Comunitarias”, que presupone reformas a la Ley General de
-          Telecomunicaciones que permitan efectivamente el otorgamiento del derecho
-          de uso de frecuencias de espectro radioeléctrico en favor de comunidades
-          indígenas. Define como “radios comunitarias” aquellas “vinculadas al
-          ejercicio de la radiodifusión en el contexto de la libertad de expresión
-          materializada en las ondas electromagnéticas con cobertura y programación
-          con los idiomas Maya, Garífuna o Xinkas, con base en las condiciones de la
-          localidad y contextualizado culturalmente. Promueve las identidades,
-          principios y valores de los pueblos originarios que configuran la
-          Guatemala”. Esta iniciativa, presentada por diputados de la “oposición” a
-          finales de enero de 2022 [aún no recibe dictamen favorable o
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           desfavorable](https://ifex.org/es/exigen-al-estado-de-guatemala-que-cumpla-con-sentencia-de-la-corte-idh-sobre-las-radios-comunitarias-indigenas/)
           de las comisiones legislativas correspondientes, por lo que será motivo de
           seguimiento en subsiguientes informes en este medio.
@@ -703,32 +444,28 @@ paises:
   - pais: México
     entradas:
       - fecha: 2022-03-04
-<<<<<<< HEAD
-        tipo: proyecto
         texto: >-
           El periodista [Juan Carlos
           Muñiz](https://www.tvazteca.com/aztecanoticias/juan-carlos-muniz-fresnillo-mej?msclkid=0b6f4bebb07e11ecab2487f3439f34ef)
           fue privado de su vida en Fresnillo, Zacatecas. El periodista como muchas
           otras personas que desempeñan este trabajo, tenía dos ocupaciones siendo
           una de taxista, por lo que [Artículo
-=======
-        url: https://www.tvazteca.com/aztecanoticias/juan-carlos-muniz-fresnillo-mej?msclkid=0b6f4bebb07e11ecab2487f3439f34ef
-        texto: >-
-          El periodista [Juan Carlos Muñiz]($url) fue privado de su vida en
-          Fresnillo, Zacatecas. El periodista como muchas otras personas que
-          desempeñan este trabajo, tenía dos ocupaciones siendo una de taxista, por
-          lo que [Artículo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           19](https://articulo19.org/asesinato-de-juan-carlos-muniz-resalta-la-precariedad-laboral-y-la-escalada-letal-de-violencia-contra-periodistas/)
           exigió a las autoridades estatales aplicar el Protocolo Homologado de
           Investigación de Delitos cometidos contra la Libertad de Expresión para
-          investigar este homicidio. LIBERTAD DE EXPRESION VIOLENCIA CONTRA
-          PERIODISTAS El fotoperiodista Jesús Humberto González Deleija fue avisado
-          por vecinos que el portón de su domicilio fue abierto, no siendo esta la
-          primera ocasión, ya que, de forma reciente, el 28 de febrero su oficina
-          también fue abierta por una persona desconocida. Actualmente el periodista
-          es beneficiario del Mecanismo Federal de Protección a Personas Defensoras
-          y Periodistas. [Artículo
+          investigar este homicidio.
+        etiquetas:
+          - libertad-de-expresion
+          - libertad-de-prensa
+
+      - fecha: 2022-03-04
+        texto: >-
+          El fotoperiodista Jesús Humberto González Deleija fue avisado por vecinos
+          que el portón de su domicilio fue abierto, no siendo esta la primera
+          ocasión, ya que, de forma reciente, el 28 de febrero su oficina también
+          fue abierta por una persona desconocida. Actualmente el periodista es
+          beneficiario del Mecanismo Federal de Protección a Personas Defensoras y
+          Periodistas. [Artículo
           19](https://articulo19.org/allanan-oficinas-y-domicilio-de-periodista-beneficiario-del-mecanismo-en-reynosa/)
           solicitó a las autoridades federales llevar a cabo las acciones
           conducentes para proteger al fotoperiodista.
@@ -737,7 +474,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-03-08
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En el marco de las protestas feministas del 8M, en opinión del [Frente por
@@ -747,20 +483,10 @@ paises:
           realizó expresiones estigmatizantes contra las mujeres manifestantes.
         etiquetas:
           - libertad-de-expresion
-=======
-        url: https://articulo19.org/estigmatizacion-y-violaciones-a-dh-por-parte-del-estado-en-el-contexto-de-la-protesta-feminista-del-8m/
-        texto: >-
-          En el marco de las protestas feministas del 8M, en opinión del [Frente por
-          la Libertad de Expresión y la Protesta Social]($url), el Presidente de la
-          República en México, Andrés Manuel López Obrador, realizó expresiones
-          estigmatizantes contra las mujeres manifestantes.
-        etiquetas:
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           - discurso-de-odio
           - violencia-de-genero
 
       - fecha: 2022-03-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El periodista y director del medio digital Monitor Michoacán, [Armando
@@ -773,18 +499,6 @@ paises:
           investigar las agresiones. Los mecanismos de protección enfocadas a los
           refugios, impiden continuar el ejercicio de la libertad de expresión.
           [Artículo
-=======
-        url: https://www.publimetro.com.mx/noticias/2022/03/16/armando-linares-el-dia-que-advirtio-que-temia-por-su-vida/?msclkid=524bf26bb05611ec81e6c87347a3bc30
-        texto: >-
-          El periodista y director del medio digital Monitor Michoacán, [Armando
-          Linares López]($url) fue asesinado. El periodista denunció amenazas
-          previas y tiene como antecedente el homicidio del que fue víctima su
-          colega periodista Roberto Toledo. Artículo 19 resalta la importancia de
-          una coordinación interinstitucional para prevenir y proteger a
-          periodistas, y no sólo para investigar las agresiones. Los mecanismos de
-          protección enfocadas a los refugios, impiden continuar el ejercicio de la
-          libertad de expresión. [Artículo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           19](https://articulo19.org/ante-el-asesinato-de-armando-linares-el-estado-revictimiza-y-omite-sus-responsabilidades/)
           exige a las autoridades municipales, estatales y federales a no
           revictimizar a la víctima, ni a sus familiares, así como brindarles acceso
@@ -794,31 +508,23 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-03-16
-<<<<<<< HEAD
-        tipo: proyecto
         texto: >-
           La Suprema [Corte de Justicia de la
           Nación](https://politica.expansion.mx/mexico/2022/03/16/scjn-ampara-a-sergio-aguayo-contra-la-demanda-de-humberto-moreira?msclkid=e0e8118cb07c11ec8145f748610adb21)
           determinó desestimar la demanda por daño moral interpuesta por el ex
           gobernador de Coahuila, Humberto Moreira a partir de una columna del
           académico y periodista Sergio Aguayo en la que vierte opiniones con
-          relación al ex funcionario estatal. LIBERTAD DE EXPRESION LIBERTAD DE
-          PRENSA Derivado de los hechos de violencia ocurridos en la tribuna del
-          Estadio de Querétaro durante un partido de fútbol, la Federación Mexicana
-          de Futbol decidió implementar un registro biométrico para el ingreso a los
-          estadios, lo cual para
-=======
-        url: https://politica.expansion.mx/mexico/2022/03/16/scjn-ampara-a-sergio-aguayo-contra-la-demanda-de-humberto-moreira?msclkid=e0e8118cb07c11ec8145f748610adb21
+          relación al ex funcionario estatal.
+        etiquetas:
+          - libertad-de-expresion
+          - libertad-de-prensa
+
+      - fecha: 2022-03-16
         texto: >-
-          La Suprema [Corte de Justicia de la Nación]($url) determinó desestimar la
-          demanda por daño moral interpuesta por el ex gobernador de Coahuila,
-          Humberto Moreira a partir de una columna del académico y periodista Sergio
-          Aguayo en la que vierte opiniones con relación al ex funcionario estatal.
-          LIBERTAD DE EXPRESION LIBERTAD DE PRENSA Derivado de los hechos de
-          violencia ocurridos en la tribuna del Estadio de Querétaro durante un
-          partido de fútbol, la Federación Mexicana de Futbol decidió implementar un
-          registro biométrico para el ingreso a los estadios, lo cual para
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+          Derivado de los hechos de violencia ocurridos en la tribuna del Estadio de
+          Querétaro durante un partido de fútbol, la Federación Mexicana de Futbol
+          decidió implementar un registro biométrico para el ingreso a los estadios,
+          lo cual para
           [R3D](https://r3d.mx/2022/03/16/fmf-y-liga-mx-imponen-medidas-autoritarias-y-demagogicas-que-ponen-en-riesgo-a-la-aficion/)
           no guarda relación con medidas efectivas para prevenir la violencia en los
           estadios.
@@ -827,23 +533,14 @@ paises:
           - privacidad
 
       - fecha: 2022-03-19
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.debate.com.mx/politica/Confirmado-FGR-investiga-a-Chumel-Torres-por-presunta-violencia-machista-contra-senadora-de-Morena-20220314-0225.html?msclkid=fdb83c73b05711ecb9b6c8d312c05650
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La Fiscalía Especializada en Delitos de Violencia contra las Mujeres y
           Trata de Personas de la Fiscalía General de la República, inició una
           investigación por el delito de “apología del delito o de algún vicio”, en
-<<<<<<< HEAD
           contra del comunicador [Chumel
           Torres](https://www.debate.com.mx/politica/Confirmado-FGR-investiga-a-Chumel-Torres-por-presunta-violencia-machista-contra-senadora-de-Morena-20220314-0225.html?msclkid=fdb83c73b05711ecb9b6c8d312c05650),
           por sus expresiones hacía la senadora Bertha Caraveo. [Artículo
-=======
-          contra del comunicador [Chumel Torres]($url), por sus expresiones hacía la
-          senadora Bertha Caraveo. [Artículo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           19](https://articulo19.org/erradicar-la-violencia-de-genero-no-implica-la-persecucion-penal-que-atenta-contra-la-libertad-de-expresion/)
           expresó su preocupación porque las personas servidoras públicas están más
           sujetas al escrutinio público, y el contexto de las palabras del
@@ -858,7 +555,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-03-24
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El periodista y director del portal “El Informativo”, [Jorge Luis Camero
@@ -868,17 +564,6 @@ paises:
           está enfocada a delitos de narcomenudeo, descartando el análisis de su
           labor como periodista como indica el protocolo de investigación
           especializado en la materia. Por ello, [Artículo
-=======
-        url: https://abcnoticias.mx/nacional/2022/2/25/matan-al-periodista-jorge-camero-zazueta-en-sonora-157550.html?msclkid=0dd1217ab05811ec853509ffd8654874
-        texto: >-
-          El periodista y director del portal “El Informativo”, [Jorge Luis Camero
-          Zazueta]($url) fue asesinado con arma de fuego. Al día siguiente, la
-          Fiscalía General de Justicia de Sonora informó que la línea de
-          investigación del homicidio está enfocada a delitos de narcomenudeo,
-          descartando el análisis de su labor como periodista como indica el
-          protocolo de investigación especializado en la materia. Por ello,
-          [Artículo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           19](https://articulo19.org/jorge-luis-camero-periodista-asesinado-en-sonora/)
           exigió a diversas autoridades municipales, estatales y federales, la
           investigación diligente con base en el Protocolo Homologado de
@@ -892,7 +577,6 @@ paises:
   - pais: Paraguay
     entradas:
       - fecha: 2022-02-25
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Proyecto de Ley](http://silpy.congreso.gov.py/expediente/125154) “Que
@@ -905,24 +589,10 @@ paises:
           sean consideradas de importancia por el Ministerio de Salud Pública y
           Bienestar Social, las cuales serán determinadas en la reglamentación de la
           presente ley.
-=======
-        url: http://silpy.congreso.gov.py/expediente/125154
-        texto: >-
-          [Proyecto de Ley]($url) “Que requiere la presentación del certificado
-          sanitario para la asistencia a eventos masivos, tramitar el ingreso al
-          país y demás actividades que establezca el ministerio de salud pública y
-          bienestar social”. Tiene por objeto la implementación de requerir la
-          presentación del certificado sanitario para la participación en eventos
-          masivos, ya sean públicos o privados, tramitar el ingreso al país, así
-          como las demás actividades que sean consideradas de importancia por el
-          Ministerio de Salud Pública y Bienestar Social, las cuales serán
-          determinadas en la reglamentación de la presente ley.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-03-06
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Experto en ciberseguridad señala la
@@ -932,22 +602,11 @@ paises:
           los ciudadanos ante el espionaje y el mal uso que se puedan dar a los
           datos sustraídos. Señaló que el país necesita una ley de protección de
           datos y un ente que regule el mismo.
-=======
-        url: https://www.ultimahora.com/experto-ciberseguridad-senala-la-necesidad-una-agencia-proteccion-datos-el-pais-n2990004.html
-        texto: >-
-          Experto en ciberseguridad señala la [necesidad]($url) de una Agencia de
-          Protección de Datos en el Paraguay. Miguel Ángel Gaspar, experto en
-          ciberseguridad, habló sobre lo vulnerables que se encuentran los
-          ciudadanos ante el espionaje y el mal uso que se puedan dar a los datos
-          sustraídos. Señaló que el país necesita una ley de protección de datos y
-          un ente que regule el mismo.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - vigilancia
           - privacidad
 
       - fecha: 2022-03-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Proyecto de Ley](http://silpy.congreso.gov.py/expediente/125227) “Que
@@ -955,67 +614,38 @@ paises:
           24 hs, en puertos públicos y privados que permitan aumentar la eficacia en
           la lucha contra el crimen organizado, en materia de narcotráfico, tráfico
           de armas y contrabando”
-=======
-        url: http://silpy.congreso.gov.py/expediente/125227
-        texto: >-
-          [Proyecto de Ley]($url) “Que implementa la obligatoriedad de contar con
-          escáner en funcionamiento las 24 hs, en puertos públicos y privados que
-          permitan aumentar la eficacia en la lucha contra el crimen organizado, en
-          materia de narcotráfico, tráfico de armas y contrabando”
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - vigilancia
 
       - fecha: 2022-03-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           José Luís Chilavert irá a [Juicio
           Oral](https://www.extra.com.py/deportes/chilavert-ira-juicio-oral-difamacion-y-calumnia-n2991458.html)
           por difamación y calumnia. Fue querellado por sus publicaciones en redes
           sociales. El Juez de primera instancia pondrá fecha al juicio oral.
-=======
-        url: https://www.extra.com.py/deportes/chilavert-ira-juicio-oral-difamacion-y-calumnia-n2991458.html
-        texto: >-
-          José Luís Chilavert irá a [Juicio Oral]($url) por difamación y calumnia.
-          Fue querellado por sus publicaciones en redes sociales. El Juez de primera
-          instancia pondrá fecha al juicio oral.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-03-24
-<<<<<<< HEAD
-        tipo: proyecto
         texto: >-
           Juez absuelve a ex concejal querellado por calumnia por ex intendenta. La
           querella fue promovida por supuestamente lesionar el [honor y la
           reputación](https://www.abc.com.py/nacionales/2022/03/24/juez-absuelve-a-exconcejal-querellado-por-ex-intendenta-de-quiindy/)
           de la ex intendenta por divulgar, el ex concejal, en sus redes sociales
-          supuestos hechos de corrupción de manera sistemática. CALUMNIAS E INJURIAS
-          DIFAMACION Varios internautas de las redes sociales reportaron que
-          resurgió un método de spameo y hackeo que promete "ver quién visitó el
-          perfil" en Twitter y que podría poner en riesgo la ciberseguridad de las
-          cuentas personales de los usuarios de la red del pájaro azul. El
-          Ministerio de Tecnologías de la Información y la Comunicación (Mitic), a
-          través de su Equipo de Respuestas ante Incidentes Cibernéticos de
-          Paraguay,
-=======
-        url: https://www.abc.com.py/nacionales/2022/03/24/juez-absuelve-a-exconcejal-querellado-por-ex-intendenta-de-quiindy/
+          supuestos hechos de corrupción de manera sistemática.
+        etiquetas:
+          - libertad-de-expresion
+
+      - fecha: 2022-03-24
         texto: >-
-          Juez absuelve a ex concejal querellado por calumnia por ex intendenta. La
-          querella fue promovida por supuestamente lesionar el [honor y la
-          reputación]($url) de la ex intendenta por divulgar, el ex concejal, en sus
-          redes sociales supuestos hechos de corrupción de manera sistemática.
-          CALUMNIAS E INJURIAS DIFAMACION Varios internautas de las redes sociales
-          reportaron que resurgió un método de spameo y hackeo que promete "ver
-          quién visitó el perfil" en Twitter y que podría poner en riesgo la
-          ciberseguridad de las cuentas personales de los usuarios de la red del
-          pájaro azul. El Ministerio de Tecnologías de la Información y la
-          Comunicación (Mitic), a través de su Equipo de Respuestas ante Incidentes
-          Cibernéticos de Paraguay,
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+          Varios internautas de las redes sociales reportaron que resurgió un método
+          de spameo y hackeo que promete "ver quién visitó el perfil" en Twitter y
+          que podría poner en riesgo la ciberseguridad de las cuentas personales de
+          los usuarios de la red del pájaro azul. El Ministerio de Tecnologías de la
+          Información y la Comunicación (Mitic), a través de su Equipo de Respuestas
+          ante Incidentes Cibernéticos de Paraguay,
           [recomendó](https://www.ultimahora.com/ciberseguridad-recomiendan-no-abrir-enlaces-que-prometen-ver-quien-visito-perfil-twitter-n2993034.html)
           tener cuidado con las aplicaciones o sitios que prometen "ver quién visitó
           tu perfil" y evitar ingresar a los enlaces (o links) para proteger la
@@ -1027,7 +657,6 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2022-02-06
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se
@@ -1042,26 +671,10 @@ paises:
           Castillo, «no constituiría una infracción al régimen de transparencia en
           tanto y en cuanto dichas reuniones no tengan el carácter de oficiales o no
           versen sobre asuntos de la gestión pública».
-=======
-        url: https://www.expreso.com.pe/politica/limpian-a-castillo-de-sus-reuniones-en-brena/
-        texto: >-
-          Se [publicó]($url) el informe jurídico N° 017-2021-JUS/DGTAIPD, por parte
-          de la Autoridad Nacional de Transparencia, relacionado con los hechos
-          descritos en el reportaje periodístico de Cuarto Poder (28/11/21), en el
-          que se da a conocer que el Presidente de la República habría sostenido
-          reuniones clandestinas con diversas personas (funcionarios y
-          particulares), fuera de Palacio de Gobierno y a altas horas de la noche.
-          En el informe se concluye que el no contar con registro oficial de las
-          visitas al presidente Pedro Castillo, «no constituiría una infracción al
-          régimen de transparencia en tanto y en cuanto dichas reuniones no tengan
-          el carácter de oficiales o no versen sobre asuntos de la gestión pública».
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2022-02-22
-<<<<<<< HEAD
-        tipo: proyecto
         texto: >-
           El periodista Enrique Chávez, conductor del programa «Cara a cara» del
           canal estatal TV Perú,
@@ -1072,22 +685,13 @@ paises:
           Chávez, esto ocurrió después de que hubo una directiva de la gerencia de
           prensa para que ni noticieros ni programas periodísticos emitieran la nota
           donde el presidente Pedro Castillo dijo que la prensa “es un chiste”.
-          LIBERTAD DE EXPRESION Manifestantes extremistas, integrantes del
-          movimiento conocido como “La Resistencia”, [llegaron con
-=======
-        url: http://www.vocesdelsurunidas.org/incidentes/peru-periodista-alera-sobre-falta-de-pluralidad-en-canal-del-estado/
+        etiquetas:
+          - libertad-de-expresion
+
+      - fecha: 2022-02-22
         texto: >-
-          El periodista Enrique Chávez, conductor del programa «Cara a cara» del
-          canal estatal TV Perú, [denunció]($url) al aire que fue separado de su
-          cargo al no renovársele su orden de servicio que vencía el 28 de febrero y
-          que venía siendo actualizada automáticamente desde hacía siete años. De
-          acuerdo al testimonio de Chávez, esto ocurrió después de que hubo una
-          directiva de la gerencia de prensa para que ni noticieros ni programas
-          periodísticos emitieran la nota donde el presidente Pedro Castillo dijo
-          que la prensa “es un chiste”. LIBERTAD DE EXPRESION Manifestantes
-          extremistas, integrantes del movimiento conocido como “La Resistencia”,
-          [llegaron con
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+          Manifestantes extremistas, integrantes del movimiento conocido como “La
+          Resistencia”, [llegaron con
           pancartas](https://ipys.org/libertad-de-expresion/alertas/peru-manifestantes-de-ultraderecha-protestan-frente-a-casa-de-periodista)
           a las afueras de la vivienda del periodista Jaime Chincha para lanzar
           gritos e insultos en su contra. Los manifestantes llevaban pancartas con
@@ -1100,25 +704,15 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-02-23
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://ipys.org/noticias/libertad-de-expresion/organizaciones-periodisticas-piden-visita-al-peru-del-relator-especial-de-libertad-de-expresion-de-la-cidh
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Con motivo de los recientes atentados contra la libertad de expresión en
           el Perú, el Consejo de la Prensa Peruana, el Instituto Prensa y Sociedad y
           la Asociación Nacional de Periodistas del Perú [invitaron
-<<<<<<< HEAD
           oficialment](https://ipys.org/noticias/libertad-de-expresion/organizaciones-periodisticas-piden-visita-al-peru-del-relator-especial-de-libertad-de-expresion-de-la-cidh)e
           al Relator Especial para Libertad de Expresión de la Comisión
           Interamericana de Derechos Humanos, Pedro Vaca, a visitar el Perú e
           investigar lo que viene ocurriendo en el país. Los hechos que suscitaron
-=======
-          oficialment]($url)e al Relator Especial para Libertad de Expresión de la
-          Comisión Interamericana de Derechos Humanos, Pedro Vaca, a visitar el Perú
-          e investigar lo que viene ocurriendo en el país. Los hechos que suscitaron
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           esta carta han sido las iniciativas de los tres poderes del Estado peruano
           que afectan el derecho de los peruanos a expresarse libremente y el de los
           periodistas a informar. Desde el Poder Ejecutivo, se ha creado una
@@ -1134,7 +728,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-03-08
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Periodistas de varios medios de comunicación [fueron
@@ -1144,20 +737,10 @@ paises:
           República, donde se llevaba a cabo la presentación del Gabinete
           Ministerial de Aníbal Torres para pedir el voto de confianza de los
           parlamentarios.
-=======
-        url: https://www.ipys.org/public/index.php/libertad-de-expresion/alertas/peru-turba-de-simpatizantes-del-presidente-pedro-castillo-atacan-a-periodistas-que-cubrian-las-afueras-del-congreso
-        texto: >-
-          Periodistas de varios medios de comunicación [fueron atacados]($url) a
-          golpes, empujones e insultos por manifestantes afines al gobierno de Pedro
-          Castillo. Esto se produjo en los exteriores del Congreso de la República,
-          donde se llevaba a cabo la presentación del Gabinete Ministerial de Aníbal
-          Torres para pedir el voto de confianza de los parlamentarios.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-03-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Tribunal de Transparencia y Acceso a la Información Pública notificó la
@@ -1168,35 +751,16 @@ paises:
           reunieron con el presidente Pedro Castillo en un inmueble ubicado en el
           distrito de Breña. En tal sentido, ordenaron al Despacho Presidencial a
           producir y entregar dicho registro de visitas.
-=======
-        url: https://laley.pe/art/13019/pedro-castillo-tribunal-de-transparencia-ordena-hacer-publico-el-registro-de-visitas-a-la-casa-de-brena
-        texto: >-
-          El Tribunal de Transparencia y Acceso a la Información Pública notificó la
-          [Resolución 000433-2022-JUS/TTAIP-PRIMERA SALA]($url), por la que se
-          declaró fundado el recurso de apelación presentado contra la negativa del
-          Despacho Presidencial a entregar la lista de personas que se reunieron con
-          el presidente Pedro Castillo en un inmueble ubicado en el distrito de
-          Breña. En tal sentido, ordenaron al Despacho Presidencial a producir y
-          entregar dicho registro de visitas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2022-03-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La periodista Diana Falcón, reportera de RPP, [fue
           agredida](https://ipys.org/libertad-de-expresion/alertas/peru-reportera-es-agredida-por-seguridad-del-estado-para-impedir-cobertura-de-actividad-presidencial-1)
           por un miembro de seguridad del Estado que resguardaba el traslado a pie
           del presidente Pedro Castillo y miembros de su gabinete de ministros desde
-=======
-        url: https://ipys.org/libertad-de-expresion/alertas/peru-reportera-es-agredida-por-seguridad-del-estado-para-impedir-cobertura-de-actividad-presidencial-1
-        texto: >-
-          La periodista Diana Falcón, reportera de RPP, [fue agredida]($url) por un
-          miembro de seguridad del Estado que resguardaba el traslado a pie del
-          presidente Pedro Castillo y miembros de su gabinete de ministros desde
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Palacio de Gobierno hasta el Congreso. Mientras que al día siguiente, el
           16 de marzo de 2022, personal de seguridad del presidente Pedro Castillo
           [limitó el acceso de la
@@ -1207,7 +771,6 @@ paises:
           - libertad-de-prensa
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -1255,8 +818,4 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
-=======
-{{< observatorio-mes month="2022-03" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

@@ -1,15 +1,5 @@
 ---
-<<<<<<< HEAD
 title: 'Boletín mensual Observatorio Legislativo | Febrero 2022'
-=======
-author: [Editor]
-content_type: [boletin]
-date: '2022-02-28'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 slug: boletin-mensual-febrero-2022-2
 date: 2022-02-28
 translationKey: wp-10284
@@ -25,18 +15,14 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2022-02-01
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El youtuber Fabio Yañez
@@ -46,31 +32,15 @@ paises:
           Yañez se encuentra inmerso en un proceso penal por discriminación contra
           la mujer, hostigamiento digital y difusión de imágenes al realizar tres
           publicaciones durante 2020 en redes sociales contra la primera dama.
-=======
-        url: https://www.pagina12.com.ar/398971-juicio-de-fabiola-yanez-a-el-presto-el-youtuber-agredio-a-un
-        texto: >-
-          El youtuber Fabio Yañez [agredió]($url) verbalmente a una periodista que
-          le preguntó si sentía arrepentimiento por las agresiones ejercidas contra
-          la primera dama. Cabe destacar, que Fabio Yañez se encuentra inmerso en un
-          proceso penal por discriminación contra la mujer, hostigamiento digital y
-          difusión de imágenes al realizar tres publicaciones durante 2020 en redes
-          sociales contra la primera dama.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - violencia-de-genero
 
       - fecha: 2022-02-02
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El legislador macrista, Juan Pablo Arenaza, publicó un
           [tuit](https://twitter.com/jparenaza/status/1488629887833296898?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1488629887833296898%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fiframely.pagina12.com.ar%2Fapi%2Fiframe%3Furl%3Dhttps3A2F2Ftwitter.com2Fjparenaza2Fstatus2F1488629887833296898v%3D1app%3D1key%3D68ad19d170f26a7756ad0a90caf18fc1playerjs%3D1)
-=======
-        url: https://twitter.com/jparenaza/status/1488629887833296898?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1488629887833296898%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fiframely.pagina12.com.ar%2Fapi%2Fiframe%3Furl%3Dhttps3A2F2Ftwitter.com2Fjparenaza2Fstatus2F1488629887833296898v%3D1app%3D1key%3D68ad19d170f26a7756ad0a90caf18fc1playerjs%3D1
-        texto: >-
-          El legislador macrista, Juan Pablo Arenaza, publicó un [tuit]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           clasista contra las personas que asistieron a la Marcha del 1F por la
           “Democratización de la Justicia”. El tuit generó
           [controversia](https://www.pagina12.com.ar/399227-el-tuit-discriminador-del-legislador-macrista-juan-pablo-are)
@@ -81,7 +51,6 @@ paises:
           - discurso-de-odio
 
       - fecha: 2022-02-03
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Indec
@@ -94,24 +63,10 @@ paises:
           personal y sensible sin que se tuviera en cuenta el consentimiento expreso
           e informado sobre la obtención de datos que afectan la privacidad,
           intimidad y autodeterminación de los datos personales.
-=======
-        url: https://www.pagina12.com.ar/399501-el-indec-quito-el-dni-del-cuestionario-definitivo-del-censo
-        texto: >-
-          El Indec [eliminó]($url) el DNI del cuestionario definitivo del Censo
-          luego de que varias organizaciones y movimientos sociales presentaran un
-          habeas data mediante el cual solicitaron la suspensión del Censo Nacional.
-          Encontraron que al incluir el DNI como requisito obligatorio afectaba la
-          ley de Protección de Datos Personales por cuanto se recolecta cierta
-          cantidad de información personal y sensible sin que se tuviera en cuenta
-          el consentimiento expreso e informado sobre la obtención de datos que
-          afectan la privacidad, intimidad y autodeterminación de los datos
-          personales.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2022-02-04
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Corte Suprema de Justicia
@@ -119,19 +74,10 @@ paises:
           su agenda para discutir la constitucionalidad del bloqueo de información
           disponible en internet, en URLs específicas, que aluden a la privacidad de
           los recurrentes por hechos del pasado.
-=======
-        url: https://www.pagina12.com.ar/399689-el-cultivo-de-cannabis-y-el-derecho-al-olvido-en-internet-en
-        texto: >-
-          La Corte Suprema de Justicia [comunicó]($url) su agenda para discutir la
-          constitucionalidad del bloqueo de información disponible en internet, en
-          URLs específicas, que aluden a la privacidad de los recurrentes por hechos
-          del pasado.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2022-02-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El legislador Ramiro Marra,
@@ -146,26 +92,10 @@ paises:
           si los reclamos son legítimos, no pueden realizarse piquetes que terminan
           por violar otras normas y afectar a toda la comunidad". El proyecto
           comenzará a debatirse después del 1 de marzo.
-=======
-        url: https://www.pagina12.com.ar/399802-caba-propone-prohibir-las-protestas-y-designar-un-lugar-para
-        texto: >-
-          El legislador Ramiro Marra, [presentó]($url) un proyecto de ley que busca
-          prohibir las manifestaciones en las calles que impidan la “libertad de
-          circulación” y el “funcionamiento normal de los servicios públicos” y en
-          su lugar, propone la creación de “espacio particular” que permita la
-          realización de las protestas sin generar inconvenientes. El legislador
-          alegó que "Ninguna demanda es argumento suficiente para permitir a grupos
-          de personas realizar cortes de calles o rutas, al igual que actos de
-          violencia", considera y agrega que "incluso si los reclamos son legítimos,
-          no pueden realizarse piquetes que terminan por violar otras normas y
-          afectar a toda la comunidad". El proyecto comenzará a debatirse después
-          del 1 de marzo.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-02-08
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Poder Judicial de Chaco fue víctima de
@@ -175,35 +105,17 @@ paises:
           pago de un rescate a cambio de la devolución del material. Esta situación
           llevó a que se declarara la suspensión de términos y audiencias, esperando
           que la afectación sea mínima.
-=======
-        url: https://www.lanacion.com.ar/politica/hackearon-al-poder-judicial-de-chaco-y-piden-un-rescate-por-la-informacion-nid08022022/
-        texto: >-
-          El Poder Judicial de Chaco fue víctima de [hackers]($url) que se
-          infiltraron a la plataforma de gestión de expedientes y otros sistemas,
-          tomando el control de la información disponible y reclamaron el pago de un
-          rescate a cambio de la devolución del material. Esta situación llevó a que
-          se declarara la suspensión de términos y audiencias, esperando que la
-          afectación sea mínima.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
           - privacidad
 
       - fecha: 2022-02-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Facundo Suárez Lastra fue
           [víctima](https://www.pagina12.com.ar/400917-estafa-por-whatsapp-facundo-suarez-lastra-sufrio-el-mismo-at)
           de la suplantación de la identidad al ser hackeada su cuenta de WhatsApp,
           en caso similar, sucedió lo mismo con el humorista [Roberto
-=======
-        url: https://www.pagina12.com.ar/400917-estafa-por-whatsapp-facundo-suarez-lastra-sufrio-el-mismo-at
-        texto: >-
-          El diputado Facundo Suárez Lastra fue [víctima]($url) de la suplantación
-          de la identidad al ser hackeada su cuenta de WhatsApp, en caso similar,
-          sucedió lo mismo con el humorista [Roberto
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Moldavsky](https://www.pagina12.com.ar/400240-estafa-por-whatsapp-roberto-moldavsky-conto-como-lo-enganaro).
           Estos ataques informáticos están creciendo en las últimas semanas para
           estafar a las personas que están almacenadas como contactos en los números
@@ -212,43 +124,27 @@ paises:
           - privacidad
 
       - fecha: 2022-02-11
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.infobae.com/politica/2022/02/11/gabriela-cerruti-se-disculpo-con-los-periodistas-a-los-que-increpo-en-la-conferencia-de-prensa/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Gabriela Cerruti se disculpó con los periodistas luego de tener un
           enfrentamiento con la periodista del diario La Nación Cecilia Devanna al
           consultarle a la portavoz del gobierno por los elogios del presidente a
           líderes de China y Rusia durante la reciente gira oficial. Cerruti, en su
-<<<<<<< HEAD
           lugar, decidió
           [desacreditar](https://www.infobae.com/politica/2022/02/11/gabriela-cerruti-se-disculpo-con-los-periodistas-a-los-que-increpo-en-la-conferencia-de-prensa/)
           el trabajo periodístico y puso en duda la veracidad de las fuentes
           consultadas y de la información.
-=======
-          lugar, decidió [desacreditar]($url) el trabajo periodístico y puso en duda
-          la veracidad de las fuentes consultadas y de la información.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - libertad-de-expresion
 
       - fecha: 2022-02-14
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Hay [nueva
           candidata](/es/posts/nueva-candidatura-para-la-direccion-de-la-aaip/) para
           ocupar el cargo de directora de la Agencia de Acceso a la Información
           Pública. Sería la magíster [Beatriz de
-=======
-        url: https://observatoriolegislativocele.com/nueva-candidatura-para-la-direccion-de-la-aaip/
-        texto: >-
-          Hay [nueva candidata]($url) para ocupar el cargo de directora de la
-          Agencia de Acceso a la Información Pública. Sería la magíster [Beatriz de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Anchorena](https://elauditor.info/transparencia-y-participacion/nueva-candidata-para-la-agencia-de-acceso-a-la-informacion_a62065ed09de5fa0e1e68cc23)
           seleccionada a través de la Jefatura de Gabinete, facultada por el
           artículo 21 de la Ley de Acceso a la Información Pública.
@@ -256,7 +152,6 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2022-02-17
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Al igual que el diputado Facundo Suárez y el humorista Roberto Moldavsky,
@@ -264,19 +159,10 @@ paises:
           hackeo](https://www.pagina12.com.ar/402107-hackean-el-whatsapp-a-un-diputado-bonaerense-y-se-quedaron-c)
           en WhatsApp, Instagram y Twitter para estafar a las personas almacenadas
           como contactos.
-=======
-        url: https://www.pagina12.com.ar/402107-hackean-el-whatsapp-a-un-diputado-bonaerense-y-se-quedaron-c
-        texto: >-
-          Al igual que el diputado Facundo Suárez y el humorista Roberto Moldavsky,
-          el diputado provincial Ruben Eslaiman fue [víctima de hackeo]($url) en
-          WhatsApp, Instagram y Twitter para estafar a las personas almacenadas como
-          contactos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2022-02-19
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Corte Suprema de Justicia ordenó
@@ -288,35 +174,16 @@ paises:
           principal del libro “Hermano”. La suspensión se dio por parte de la jueza
           Andrea Alejandra Imatz para que se pueda estudiar de fondo sobre la
           libertad de expresión y la intimidad del secreto periodístico.
-=======
-        url: https://www.pagina12.com.ar/402475-la-corte-suprema-suspendio-el-fallo-que-obligaba-a-santiago-
-        texto: >-
-          La Corte Suprema de Justicia ordenó [suspender]($url) la medida preliminar
-          emitida por el juzgado civil que pretendía obligar al periodista Santiago
-          O’Donnell a entregarle a Mariano Macri (hermano del expresidente), los
-          audios de las entrevistas realizadas en las que se narró la trama del
-          poder y negocios de la familia Macri, como fuente principal del libro
-          “Hermano”. La suspensión se dio por parte de la jueza Andrea Alejandra
-          Imatz para que se pueda estudiar de fondo sobre la libertad de expresión y
-          la intimidad del secreto periodístico.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
 
       - fecha: 2022-02-21
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El ministro de Ambiente de la Nación, Juan Cabandié
           [respondió](https://twitter.com/juancabandie/status/1495428058542706688?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1495428058542706688%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fiframely.pagina12.com.ar%2Fapi%2Fiframe%3Furl%3Dhttps3A2F2Ftwitter.com2Fjuancabandie2Fstatus2F1495428058542706688v%3D1app%3D1key%3D68ad19d170f26a7756ad0a90caf18fc1playerjs%3D1)
           ante las acusaciones realizadas por la líder de la Coalición Cívica, Elisa
-=======
-        url: https://twitter.com/juancabandie/status/1495428058542706688?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1495428058542706688%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fiframely.pagina12.com.ar%2Fapi%2Fiframe%3Furl%3Dhttps3A2F2Ftwitter.com2Fjuancabandie2Fstatus2F1495428058542706688v%3D1app%3D1key%3D68ad19d170f26a7756ad0a90caf18fc1playerjs%3D1
-        texto: >-
-          El ministro de Ambiente de la Nación, Juan Cabandié [respondió]($url) ante
-          las acusaciones realizadas por la líder de la Coalición Cívica, Elisa
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Carrió, indicando que fue víctima de [fake
           news](https://www.pagina12.com.ar/402809-incendios-en-corrientes-juan-cabandie-desmintio-una-fake-new)
           al referirse a los incendios de Corrientes como “un abandono intencional a
@@ -324,7 +191,6 @@ paises:
           figura pública en criticar este acontecimiento contra el gobierno.
           Patricia Bullrich y el senador radical Alfredo Cornejo también realizaron
           críticas contra el gobierno por motivos de la desinformación.
-<<<<<<< HEAD
         etiquetas:
           - libertad-de-expresion
 
@@ -340,19 +206,6 @@ paises:
           ronda testimonial fueron citados la interventora de la Agencia Federal de
           Inteligencia (AFI) Cristina Caamaño, el diputado Diego Santilli y el juez
           de garantías de Avellaneda Luis Carzoglio, entre otros.
-=======
-
-      - fecha: 2022-02-23
-        url: https://www.pagina12.com.ar/403129-espionaje-ilegal-llaman-a-declarar-a-mariano-macri
-        texto: >-
-          Llaman a [declarar]($url) a Mariano Macri por las declaraciones realizadas
-          en el libro “Hermano” y que pueda dar declaración testimonial en el caso
-          de investigación a Mauricio Macri por espiar y usar agentes de
-          inteligencia y contrainteligencia. Mariano deberá presentarse el 21 de
-          marzo. En la misma ronda testimonial fueron citados la interventora de la
-          Agencia Federal de Inteligencia (AFI) Cristina Caamaño, el diputado Diego
-          Santilli y el juez de garantías de Avellaneda Luis Carzoglio, entre otros.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
           - vigilancia
@@ -360,7 +213,6 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2022-01-06
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [El Ministerio Público de la Federación solicitó a Twitter información
@@ -370,16 +222,6 @@ paises:
           La encuesta pide a Twitter que: (i) proporcionar información detallada
           sobre la disponibilidad, para los usuarios de la plataforma, de una forma
           de reportar contenido de desinformación relacionado con la pandemia de
-=======
-        url: https://images.jota.info/wp-content/uploads/2022/01/pr-sp-00000472-2022.pdf
-        texto: >-
-          [El Ministerio Público de la Federación solicitó a Twitter información
-          detallada sobre la difusión, en la plataforma, de contenidos de
-          desinformación sobre la pandemia del Covid-19]($url). La encuesta pide a
-          Twitter que: (i) proporcionar información detallada sobre la
-          disponibilidad, para los usuarios de la plataforma, de una forma de
-          reportar contenido de desinformación relacionado con la pandemia de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           COVID-19, que aún está en progreso; (ii) informar específicamente por qué
           los usuarios de otros países tienen la opción de reportar contenido de
           desinformación a la plataforma, mientras que los usuarios brasileños no;
@@ -398,16 +240,11 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2022-01-28
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.camara.leg.br/noticias/847691-camara-aprova-punicao-para-quem-divulgar-imagem-que-incentive-violencia-no-transito/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           [La Cámara de Diputados aprobó un proyecto de ley 130/20 que prohíbe la
           difusión en redes sociales o en cualquier otro medio digital de
           fotografías o videos de la práctica de infracciones muy graves de
-<<<<<<< HEAD
           tránsito](https://www.camara.leg.br/noticias/847691-camara-aprova-punicao-para-quem-divulgar-imagem-que-incentive-violencia-no-transito/).
           La prohibición se extiende también a la difusión, publicación o difusión
           de conductas que pongan en riesgo la integridad física propia y de
@@ -420,19 +257,6 @@ paises:
           exclusión a la persona que la publicó electrónicamente, conteniendo la
           identificación de la medida adoptada, la motivación de la decisión e
           información sobre los procedimientos de impugnación. En caso de
-=======
-          tránsito]($url). La prohibición se extiende también a la difusión,
-          publicación o difusión de conductas que pongan en riesgo la integridad
-          física propia y de terceros o que constituyan un delito de tránsito y la
-          difusión en medios electrónicos e impresos. La persona que divulgue estos
-          hechos será sancionada con multa, mientras que las plataformas digitales
-          deberán retirar el contenido dentro de las 24 horas siguientes a la
-          notificación por parte de la autoridad judicial, si esto no ocurre,
-          también serán multados. En caso de desistimiento, estas empresas deberán
-          comunicar la exclusión a la persona que la publicó electrónicamente,
-          conteniendo la identificación de la medida adoptada, la motivación de la
-          decisión e información sobre los procedimientos de impugnación. En caso de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           reincidencia de estos delitos en el plazo de 12 meses, las penas se
           duplicarán. Sin embargo, no se prohibirán las publicaciones de terceros
           que pretendan denunciar estos actos como una forma de utilidad pública.
@@ -441,17 +265,12 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-02-01
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.conjur.com.br/2022-fev-03/gilmar-derruba-censura-noticia-piaui-marcius-melhem
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El [Ministro del Supremo Tribunal Federal Gilmar Mendes suspendió, en el
           expediente judicial nº 49.463, la decisión del Tribunal de Justicia de Río
           de Janeiro (TJ-RJ), que prohibió a la Revista Piauí publicar sobre las
           denuncias de acoso sexual y moral contra el comediante Marcius
-<<<<<<< HEAD
           Melhem](https://www.conjur.com.br/2022-fev-03/gilmar-derruba-censura-noticia-piaui-marcius-melhem).
           El auto de agosto de 2021 determinó la prohibición por la duración de las
           investigaciones, bajo pena de pago de multa de R $500 mil y remoción de la
@@ -462,39 +281,19 @@ paises:
           "hubo censura judicial indebida contra información periodística relevante
           de interés público". El expediente judicial nº 49.463 permanece en secreto
           judicial.
-=======
-          Melhem]($url). El auto de agosto de 2021 determinó la prohibición por la
-          duración de las investigaciones, bajo pena de pago de multa de R $500 mil
-          y remoción de la publicación. De acuerdo con el portal Consultor Jurídico,
-          en la decisión que suspendió la prohibición, el ministro Gilmar Mendes
-          afirmó que la decisión del TJ-RJ desautoriza un entendimiento consolidado
-          del Supremo Tribunal Federal en el sentido de prohibir la censura previa y
-          agregó que "hubo censura judicial indebida contra información periodística
-          relevante de interés público". El expediente judicial nº 49.463 permanece
-          en secreto judicial.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - censura
 
       - fecha: 2022-02-15
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.conjur.com.br/dl/hans-patricia.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El [Tribunal de Justicia de São Paulo (TJSP) anuló la sentencia que había
           condenado a Hans River, ex empleado de Yacows, empresa de envío de
           mensajes masivos, a pagar R$ 50 mil a la periodista Patrícia Campos
-<<<<<<< HEAD
           Mello](https://www.conjur.com.br/dl/hans-patricia.pdf). [Mello es autora
           de reportajes que denunciaron un esquema irregular de tiroteo de mensajes
           en las elecciones de
-=======
-          Mello]($url). [Mello es autora de reportajes que denunciaron un esquema
-          irregular de tiroteo de mensajes en las elecciones de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           2018](https://www1.folha.uol.com.br/poder/2018/10/empresarios-bancam-campanha-contra-o-pt-pelo-whatsapp.shtml)
           y River fue una de sus fuentes durante su investigación. [Durante la
           'Comision Parlamentar de Inquerito sobre desinformación, River dijo que
@@ -508,16 +307,11 @@ paises:
           entendieron que la decisión del juez no analizó todas las cuestiones
           planteadas por River, quien respondió a la acción de Campos Mello con una
           reconvención - en la que pedía R$ 150 mil por daño moral por presuntos
-<<<<<<< HEAD
-          daños causados ​​por sus reportajes de investigación.
-=======
           daños causados por sus reportajes de investigación.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-02-25
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [ministro Alexandre de Moraes, del Tribunal Supremo Federal (STF),
@@ -528,35 +322,18 @@ paises:
           en Brasil por un período inicial de 48 horas”. Además, Moraes fijó una
           multa de R $100.000 diarios por perfil indicado y no bloqueado en el plazo
           prescrito, sin perjuicio de la imposición de otras medidas coercitivas.
-=======
-        url: https://www1.folha.uol.com.br/colunas/painel/2022/02/moraes-determina-bloqueio-de-perfis-do-telegram-e-ameaca-suspender-aplicativo.shtml?utm_source=twitter&utm_medium=social&utm_campaign=comptw&origin=folha
-        texto: >-
-          El [ministro Alexandre de Moraes, del Tribunal Supremo Federal (STF),
-          ordenó la suspensión de los perfiles de Telegram en un plazo de 24
-          horas]($url). Si la aplicación rusa no cumple con la determinación, la
-          plataforma estaría sujeta a “suspensión de la operación de los servicios
-          de Telegram en Brasil por un período inicial de 48 horas”. Además, Moraes
-          fijó una multa de R $100.000 diarios por perfil indicado y no bloqueado en
-          el plazo prescrito, sin perjuicio de la imposición de otras medidas
-          coercitivas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: Chile
     entradas:
       - fecha: 2022-01-03
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://plataforma.chileconvencion.cl/m/iniciativa_popular/detalle?id=18374
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Durante diciembre y enero 2022, la Comisión Nº7 de la Convención
           Constitucional de Chile sobre Sistemas de Conocimientos, Cultura, Ciencia,
           Tecnología, Artes y Patrimonio ha seguido su trabajo en relación a la
           presentación de propuestas para la incorporación del [derecho a la
-<<<<<<< HEAD
           comunicación y derechos
           digitales](https://plataforma.chileconvencion.cl/m/iniciativa_popular/detalle?id=18374)
           en la nueva Constitución que se debate en Chile. Algunas de las normas
@@ -569,26 +346,12 @@ paises:
           otras tres iniciativas relacionadas. Estas deben conseguir el apoyo de 15
           mil firmas de ciudadanos y ciudadanas para también ser revisadas y
           debatidas durante marzo del 2022.
-=======
-          comunicación y derechos digitales]($url) en la nueva Constitución que se
-          debate en Chile. Algunas de las normas propuestas por convencionales y que
-          ya cuentan con la aprobación general para su discusión son: derecho a la
-          conectividad digital, alfabetización digital, protección a datos
-          personales, derecho a la comunicación. El 01 de febrero de 2022 es el
-          cierre de presentación y propuestas de iniciativas de normas populares a
-          través de la plataforma digital de participación de la Convención, a
-          través de las que se han sumado al menos otras tres iniciativas
-          relacionadas. Estas deben conseguir el apoyo de 15 mil firmas de
-          ciudadanos y ciudadanas para también ser revisadas y debatidas durante
-          marzo del 2022.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - acceso-a-la-informacion
           - libertad-de-prensa
 
       - fecha: 2022-01-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Un grupo de diputados y diputadas del Frente Amplio presentó a comienzos
@@ -605,22 +368,6 @@ paises:
           Rojas, Marcela Sandoval, Jorge Brito, Tomás Hirsch, Amaro Labra y Patricio
           Rosas. El proyecto - ingresado a la Comisión de Cultura, Artes y
           Comunicaciones-, [busca
-=======
-        url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=15276&prmBOLETIN=14785-24
-        texto: >-
-          Un grupo de diputados y diputadas del Frente Amplio presentó a comienzos
-          de enero de 2022 un [proyecto de ley]($url) que busca regular las
-          plataformas digitales y redes sociales que actualmente existen en el país
-          y cuyo objetivo es “regular la transparencia, adherencia a estándares de
-          derechos humanos, debido proceso y rendición de cuentas en la difusión de
-          contenido, información y servicios a través de las plataformas digitales,
-          con el fin de normar su operación y funcionamiento en el territorio
-          nacional". La iniciativa fue elaborada por el diputado Marcelo Díaz (Unir)
-          y contó con el respaldo de los parlamentarios del Frente Amplio, Claudia
-          Mix, Maite Orsini, Camila Rojas, Marcela Sandoval, Jorge Brito, Tomás
-          Hirsch, Amaro Labra y Patricio Rosas. El proyecto - ingresado a la
-          Comisión de Cultura, Artes y Comunicaciones-, [busca
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           regular](https://www.t13.cl/noticia/politica/diputados-del-frente-amplio-presentan-proyecto-ley-regula-uso-plataformas-digitales-05-01-2022)
           a las plataformas digitales en la "formación y conservación de la libertad
           de información y que permitan el desarrollo de una verdadera democracia,
@@ -634,7 +381,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-01-25
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La última semana de enero, la Comisión Mixta del Congreso chileno aprobó
@@ -644,16 +390,6 @@ paises:
           cualquier ciudadano a todo proveedor de servicios de telecomunicaciones y
           de Internet sin orden judicial previa, en el contexto de investigaciones
           en curso. Inmediatamente después de la sesión -[tramitación del
-=======
-        url: https://www.elmostrador.cl/noticias/2022/01/28/proyecto-que-entrega-datos-personales-a-fiscalia-sin-orden-judicial-para-investigar-delitos-informaticos-genera-polemica-sobre-la-vigilancia-en-el-ciberespacio/
-        texto: >-
-          La última semana de enero , la Comisión Mixta del Congreso chileno aprobó
-          una norma que [busca modificar el Código Penal]($url) para que el
-          Ministerio Público pueda solicitar datos personales de cualquier ciudadano
-          a todo proveedor de servicios de telecomunicaciones y de Internet sin
-          orden judicial previa, en el contexto de investigaciones en curso.
-          Inmediatamente después de la sesión -[tramitación del
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           proyecto](https://www.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=12192-25)-,
           representantes de organizaciones del sector privado, sociedad civil y
           academia publicaron una declaración pública en medios chilenos para
@@ -673,35 +409,23 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2022-02-08
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.youtube.com/watch?v=0ZAp8n9igY8
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Se presentaron dos graves hechos que alzaron las alarmas sobre la
           seguridad de los periodistas en Colombia. El 8 de febrero, la reconocida
           periodista Claudia Julieta Duque devolvió su esquema de protección a la
           Unidad Nacional de Protección (UNP), la entidad oficial que otorga medidas
           de seguridad a periodistas, tras hacer [graves denuncias en contra de la
-<<<<<<< HEAD
           entidad](https://www.youtube.com/watch?v=0ZAp8n9igY8). Según informó la
           periodista, la UNP ha estado monitoreando sus acciones y movimientos
           durante meses, poniendo en riesgo su seguridad y la de sus fuentes.
           Además, la periodista contó que la UNP negó falsamente tener acceso a esta
           información.
-=======
-          entidad]($url). Según informó la periodista, la UNP ha estado monitoreando
-          sus acciones y movimientos durante meses, poniendo en riesgo su seguridad
-          y la de sus fuentes. Además, la periodista contó que la UNP negó
-          falsamente tener acceso a esta información.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - vigilancia
           - libertad-de-prensa
 
       - fecha: 2022-02-03
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Corte Constitucional de Colombia dictó
@@ -711,16 +435,6 @@ paises:
           de tutela al considerar que los periodistas y el medio habían violado su
           derecho fundamental al buen nombre al señalar haber tomado fotos de libros
           de estados financieros de una sociedad de la que es accionista, a pesar de
-=======
-        url: https://www.corteconstitucional.gov.co/Relatoria/2022/T-028-22.htm
-        texto: >-
-          La Corte Constitucional de Colombia dictó [sentencia]($url) protegiendo el
-          derecho a la libertad de expresión de dos periodistas y un reconocido
-          medio de comunicación radial. Un ciudadano interpuso una acción de tutela
-          al considerar que los periodistas y el medio habían violado su derecho
-          fundamental al buen nombre al señalar haber tomado fotos de libros de
-          estados financieros de una sociedad de la que es accionista, a pesar de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           que tal acción está prohibida por la ley. Para tomar su decisión, la Corte
           recogió unos parámetros fijados en 2019 en la sentencia T-155/19 para
           orientar la labor del juez a la hora de evaluar el contexto del acto de
@@ -738,7 +452,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-02-21
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El gobierno nacional lanzó el primer [Plan Decenal de Lenguas
@@ -747,23 +460,12 @@ paises:
           siguen vivas en territorios de Colombia. De acuerdo con el Ministerio de
           Cultura, este es un plan único en América Latina. Este plan fue construído
           con el apoyo de líderes de los pueblos indígenas, gitanos, palenqueros y
-          raizales. DERECHOS DE LOS INDIGENAS
+          raizales.
 
       - fecha: 2022-02-22
         tipo: proyecto
         texto: >-
           En la noche del 22 de febrero el periodista de investigación [Julián
-=======
-        url: https://www.elespectador.com/el-magazin-cultural/se-lanzo-el-plan-decenal-de-lenguas-nativas/
-        texto: >-
-          El gobierno nacional lanzó el primer [Plan Decenal de Lenguas
-          Nativas]($url), que buscará proteger y evitar la extinción de 68 lenguas
-          nativas que siguen vivas en territorios de Colombia. De acuerdo con el
-          Ministerio de Cultura, este es un plan único en América Latina. Este plan
-          fue construído con el apoyo de líderes de los pueblos indígenas, gitanos,
-          palenqueros y raizales. DERECHOS DE LOS INDIGENAS **22/02** En la noche
-          del 22 de febrero el periodista de investigación [Julián
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Martínez](https://twitter.com/JulianFMartinez/status/1496348942942015489)
           fue víctima de un ataque en la ciudad de Bogotá, luego de reunirse con una
           de sus fuentes. [Según reportó la Fundación para la Libertad de Prensa
@@ -776,17 +478,12 @@ paises:
   - pais: Guatemala
     entradas:
       - fecha: 2022-01-03
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.observacom.org/investigacion-muestra-concentracion-de-medios-de-angel-gonzales-el-fantasma-y-su-relacion-con-el-gobierno-de-rafael-correa/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Los concursos de frecuencias siguen en el ojo del huracán: desde el año
           2016 Ecuador ha tratado de llevar a cabo concursos para la asignación de
           frecuencias tanto en AM como en FM. Sin embargo, esto ha sido severamente
           cuestionado e incluso ha generado que muchos funcionarios públicos se
-<<<<<<< HEAD
           encuentren
           [investigados](https://www.observacom.org/investigacion-muestra-concentracion-de-medios-de-angel-gonzales-el-fantasma-y-su-relacion-con-el-gobierno-de-rafael-correa/).
           El concurso del año 2016 tuvo serios cuestionamientos por cuanto los
@@ -803,29 +500,12 @@ paises:
           comunitarias ya haya iniciado. Este escenario es crítico para la libertad
           de expresión pues la asignación de frecuencias es un proceso que puede
           determinar la vigencia estructural del derecho.
-=======
-          encuentren [investigados]($url). El concurso del año 2016 tuvo serios
-          cuestionamientos por cuanto los criterios para la asignación de
-          frecuencias podían ser fácilmente manipulados y la asignación misma podía
-          ser usada como un elemento de presión política o para favorecer a ciertos
-          actores más benevolentes con el Gobierno. Esta situación generó que la
-          Contraloría General del Estado realice observaciones y un estudio completo
-          que derivó en la nulidad de muchos procesos. En el año 2020 se realizó de
-          nuevo un concurso en el que se pretendía solventar los cuestionamientos
-          del año 2016. Esto lamentablemente no ocurrió y derivó en que actualmente
-          la Contraloría se encuentra haciendo de nuevo un examen de validez y de
-          cumplimiento. Todo esto a las puertas de que el concurso de frecuencias
-          para estaciones comunitarias ya haya iniciado. Este escenario es crítico
-          para la libertad de expresión pues la asignación de frecuencias es un
-          proceso que puede determinar la vigencia estructural del derecho.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - acceso-a-la-informacion
           - libertad-de-prensa
 
       - fecha: 2022-02-16
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Congreso de la República
@@ -835,16 +515,6 @@ paises:
           niñez y la adolescencia a través de medios tecnológicos (Iniciativa No.
           5898). Se establecen figuras delictivas con el fin de proteger el derecho
           a la salud, integridad e indemnidad sexual de los menores y adolescentes.
-=======
-        url: https://agn.gt/aprueban-reformas-al-codigo-penal-para-proteccion-de-ninez-y-adolescencia/
-        texto: >-
-          El Congreso de la República [aprobó]($url) el Decreto 11-2022, que
-          contiene reformas al Decreto 17-73 del Congreso, Código Penal de
-          Guatemala, en relación a delitos cometidos en contra de la niñez y la
-          adolescencia a través de medios tecnológicos (Iniciativa No. 5898). Se
-          establecen figuras delictivas con el fin de proteger el derecho a la
-          salud, integridad e indemnidad sexual de los menores y adolescentes.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Curiosamente, uno de los considerandos establece que el acceso a internet
           es un derecho humano declarado por el Consejo de Derechos Humanos de
           Naciones Unidas y que actualmente, el desarrollo de la tecnología ha
@@ -866,20 +536,12 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-02-21
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Asociación de Periodistas de Guatemala (APG),
           [emitió](https://twitter.com/lahoragt/status/1495828975939108864?cxt=HHwWgICyueihoMIpAAAA)
           el 21 de los corrientes su comunicado 07-02-2022, titulado “La APG Exhorta
           a Comisión Postuladora Escoger a Candidatos Idóneos para Próximo Fiscal”.
-=======
-        url: https://twitter.com/lahoragt/status/1495828975939108864?cxt=HHwWgICyueihoMIpAAAA
-        texto: >-
-          La Asociación de Periodistas de Guatemala (APG), [emitió]($url) el 21 de
-          los corrientes su comunicado 07-02-2022, titulado “La APG Exhorta a
-          Comisión Postuladora Escoger a Candidatos Idóneos para Próximo Fiscal”.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           “Ante la grave situación sociopolítica que atraviesa Guatemala, el
           deterioro y retrocesos en el sistema de justicia, la APG considera que el
           proceso de elección del nuevo(a) Fiscal General y Jefe(a) del Ministerio
@@ -901,7 +563,6 @@ paises:
   - pais: México
     entradas:
       - fecha: 2022-02-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El periodista Heber López Vázquez fue asesinado en Oaxaca, México,
@@ -913,27 +574,11 @@ paises:
           Vázquez. Por otro lado, se requirió al Mecanismo de Protección a Personas
           Defensoras de Derechos Humanos y Periodistas a gestionar acciones de
           protección para familiares y colegas del periodista asesinado.
-=======
-        url: https://articulo19.org/heber-fernando-lopez-vasquez-quinto-periodista-asesinado-en-2022-en-posible-vinculo-con-la-labor-informativa/
-        texto: >-
-          El periodista Heber López Vázquez fue asesinado en Oaxaca, México,
-          convirtiéndose en el 30 periodista asesinado en el periodo de gobierno de
-          Andrés Manuel López Obrador. [Artículo 19]($url), solicitó a la Fiscalía
-          General de Justicia de Oaxaca que realice las investigaciones considerando
-          la labor periodista del señor Heber López Vázquez. Por otro lado, se
-          requirió al Mecanismo de Protección a Personas Defensoras de Derechos
-          Humanos y Periodistas a gestionar acciones de protección para familiares y
-          colegas del periodista asesinado.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-02-11
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://mexico.as.com/mexico/2022/02/11/actualidad/1644612981_378364.html
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Derivado de la publicación de un reportaje del periodista Carlos Loret de
           Mola en la que se muestra información que presuntamente muestra actos de
@@ -943,12 +588,8 @@ paises:
           Nacional de Acceso a la Información Pública y otras instituciones como la
           Unidad de Inteligencia Financiera que hagan público los datos de este
           periodista, e insiste que ciertos periodistas deben hacer públicos sus
-<<<<<<< HEAD
           ingresos. Al respecto, diversos [medios de
           comunicación](https://mexico.as.com/mexico/2022/02/11/actualidad/1644612981_378364.html),
-=======
-          ingresos. Al respecto, diversos [medios de comunicación]($url),
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [especialistas, periodistas y
           políticos](https://www.publimetro.com.mx/noticias/2022/02/12/todossomosloret-crean-space-en-twitter-apoyar-al-periodista/)
           han mostrado rechazo por afectar la libertad de expresión.
@@ -957,26 +598,17 @@ paises:
           - privacidad
 
       - fecha: 2022-02-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [R3D](https://r3d.mx/2022/02/17/empresario-se-declara-culpable-de-vender-equipo-de-espionaje-en-mexico-a-sabiendas-de-su-uso-ilegal/)
           informa que el empresario Carlos Guerrero admitió su culpabilidad ante una
           Corte Federal en los Estados Unidos de América, por la venta ilegal de
           equipo de espionaje a diversas autoridades mexicanas.
-=======
-        url: https://r3d.mx/2022/02/17/empresario-se-declara-culpable-de-vender-equipo-de-espionaje-en-mexico-a-sabiendas-de-su-uso-ilegal/
-        texto: >-
-          [R3D]($url) informa que el empresario Carlos Guerrero admitió su
-          culpabilidad ante una Corte Federal en los Estados Unidos de América, por
-          la venta ilegal de equipo de espionaje a diversas autoridades mexicanas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - vigilancia
           - privacidad
 
       - fecha: 2022-02-17
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Diversas organizaciones de la sociedad
@@ -985,20 +617,10 @@ paises:
           código penal local, ello considerando los estándares en derechos humanos
           en la materia, y el uso incremental que ha tenido por parte de servidores
           públicos del Estado de Yucatán de 2015 a la fecha.
-=======
-        url: https://articulo19.org/organizaciones-respaldan-peticion-de-periodistas-en-yucatan-para-derogar-el-delito-de-difamacion/
-        texto: >-
-          [Diversas organizaciones de la sociedad civil]($url) solicitaron al
-          Congreso de Yucatán derogar el delito de difamación de su código penal
-          local, ello considerando los estándares en derechos humanos en la materia,
-          y el uso incremental que ha tenido por parte de servidores públicos del
-          Estado de Yucatán de 2015 a la fecha.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2022-02-18
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Las organizaciones de la sociedad civil, [Propuesta Cívica y Artículo
@@ -1010,19 +632,6 @@ paises:
           periodista y académico refirió en su podcast en 2021. Ésta es la segunda
           demanda presentada por el Ex Gobernador, quien en 2016 demandó por primera
           ocasión por un monto de diez millones de pesos (492,000 USD).
-=======
-        url: https://articulo19.org/el-exgobernador-humberto-moreira-demanda-por-segunda-ocasion-al-periodista-y-academico-sergio-aguayo/
-        texto: >-
-          Las organizaciones de la sociedad civil, [Propuesta Cívica y Artículo
-          19]($url), condenaron que el Ex Gobernador de Coahuila, México, Humberto
-          Moreira, haya demandado por daño moral al periodista y académico, Sergio
-          Aguayo, quien en 2020 publicó una obra donde se documentan graves
-          violaciones a derechos humanos durante el periodo de gobierno del Ex
-          Gobernador, y el periodista y académico refirió en su podcast en 2021.
-          Ésta es la segunda demanda presentada por el Ex Gobernador, quien en 2016
-          demandó por primera ocasión por un monto de diez millones de pesos
-          (492,000 USD).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
           - libertad-de-expresion
@@ -1030,7 +639,6 @@ paises:
   - pais: Paraguay
     entradas:
       - fecha: 2022-01-28
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La policía emite
@@ -1038,18 +646,10 @@ paises:
           para la protección de datos personales. En el marco del día internacional
           para la protección de datos personales, la policía nacional emitió unos
           consejos a ser aplicados.
-=======
-        url: https://www.hoy.com.py/nacionales/policia-emite-recomendaciones-para-la-proteccion-de-datos-personales
-        texto: >-
-          La policía emite [recomendaciones]($url) para la protección de datos
-          personales. En el marco del día internacional para la protección de datos
-          personales, la policía nacional emitió unos consejos a ser aplicados.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2022-01-30
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Ministerio Público
@@ -1058,20 +658,10 @@ paises:
           infantil en el país. Según los datos recabados por el Ministerio Público,
           en el 2019 se abrieron 960 casos, en el 2020 un total de 915, en el 2021
           se recepcionaron 2.796 casos.
-=======
-        url: https://www.hoy.com.py/nacionales/reportan-un-300-de-incremento-de-casos-de-pornografia-infantil
-        texto: >-
-          El Ministerio Público [reportó]($url) un incremento del 300% de las
-          investigaciones de casos de pornografía infantil en el país. Según los
-          datos recabados por el Ministerio Público, en el 2019 se abrieron 960
-          casos, en el 2020 un total de 915, en el 2021 se recepcionaron 2.796
-          casos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - proteccion-de-menores
 
       - fecha: 2022-02-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Alemán
@@ -1083,22 +673,10 @@ paises:
           herir a dos policías que intentaron detenerlo. El hombre es también
           investigado por presunta pornografía infantil, informó Raúl Ramírez,
           periodista de Última Hora.
-=======
-        url: https://www.ultimahora.com/aleman-investigado-pornografia-infantil-ira-tacumbu-n2985964.html
-        texto: >-
-          Alemán [investigado]($url) por pornografía infantil irá a prisión. La
-          jueza penal de Garantías Alicia Pedrozo decretó este miércoles la prisión
-          preventiva en la Penitenciaría Nacional de Tacumbú del ciudadano alemán
-          Wilfried Rudolf Frankes, de 65 años, imputado por tentativa de homicidio y
-          resistencia, tras disparar y herir a dos policías que intentaron
-          detenerlo. El hombre es también investigado por presunta pornografía
-          infantil, informó Raúl Ramírez, periodista de Última Hora.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - proteccion-de-menores
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -1146,8 +724,4 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
-=======
-{{< observatorio-mes month="2022-02" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

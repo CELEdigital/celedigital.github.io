@@ -15,24 +15,15 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
 
 paises:
-  - pais: Brasil
-    entradas:
-      - fecha: 2024-06-27
-        tipo: proyecto
-=======
-
-paises:
   - pais: Argentina
     entradas:
       - fecha: 2024-06-27
-        url: https://www.perfil.com/noticias/actualidad/el-gobierno-lanzo-una-campana-para-que-sea-obligatoria-la-matricula-nacional-de-periodistas.phtml
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+        tipo: proyecto
         texto: >-
           El Gobierno lanzó una campaña para que sea obligatoria la matrícula
           nacional de periodistas y dio marcha atrás. El Ministerio de Capital
@@ -46,7 +37,6 @@ paises:
           después la cuenta de X de Capital Humano eliminó la publicación. Lo mismo
           se hizo con el sitio oficial del Gobierno donde se podía tramitar y se
           indicaba dicha obligación. Sin embargo, desde la cartera de Capital Humano
-<<<<<<< HEAD
           explicaron al [medio periodístico
           PERFIL](https://www.perfil.com/noticias/actualidad/el-gobierno-lanzo-una-campana-para-que-sea-obligatoria-la-matricula-nacional-de-periodistas.phtml)
           que no es un trámite obligatorio, a la par que precisaron que se trata de
@@ -56,6 +46,8 @@ paises:
         etiquetas:
           - libertad-de-prensa
 
+  - pais: Brasil
+    entradas:
       - fecha: 2024-05-25
         tipo: proyecto
         texto: >-
@@ -67,27 +59,6 @@ paises:
           2.848/1940](https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm#:~:text=Entende%2Dse%20em%20leg%C3%ADtima%20defesa,direito%20seu%20ou%20de%20outrem.&text=Excesso%20culposo-,Par%C3%A1grafo%20%C3%BAnico.,%C3%A9%20pun%C3%ADvel%20como%20crime%20culposo.)
           y el Marco Civil de Internet ([Ley n.º
           12.965/2014](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm)
-=======
-          explicaron al [medio periodístico PERFIL]($url) que no es un trámite
-          obligatorio, a la par que precisaron que se trata de un servicio que ya
-          existía y que se encontraba bajo la órbita del Ministerio de Trabajo
-          (actual Secretaría de Trabajo, Empleo y Seguridad Social).
-        etiquetas:
-          - libertad-de-prensa
-
-  - pais: Brasil
-    entradas:
-      - fecha: 2024-05-25
-        url: https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm#:~:text=Entende%2Dse%20em%20leg%C3%ADtima%20defesa,direito%20seu%20ou%20de%20outrem.&text=Excesso%20culposo-,Par%C3%A1grafo%20%C3%BAnico.,%C3%A9%20pun%C3%ADvel%20como%20crime%20culposo.
-        texto: >-
-          **Propuesta tiene como objetivo tipificar la creación y circulación de
-          "noticias falsas".** El 24.05, [la diputada Erika Kokay (PT/DF) presentó
-          el proyecto de ley n.º
-          2051/2024](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2436470),
-          que modifica el Código Penal ([Decreto-Ley n.º 2.848/1940]($url)) y el
-          Marco Civil de Internet ([Ley n.º
-          12.965/2014](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm))
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           para tipificar la creación y circulación de noticias falsas que
           distorsionen temas vinculados a intereses públicos relevantes, incluyendo
           educación, medio ambiente, salud, seguridad pública y economía nacional.
@@ -108,7 +79,6 @@ paises:
           la diputada ejemplifica la relevancia del proyecto con el contexto de las
           tragedias de las inundaciones en Rio Grande do Sul, que han sido objeto de
           desinformación, afectando las operaciones de rescate como consecuencia.
-<<<<<<< HEAD
         etiquetas:
           - libertad-de-expresion
 
@@ -143,39 +113,6 @@ paises:
           [representación](https://www.migalhas.com.br/arquivos/2024/5/B445BA3CAFE0BF_consultaunificadapje.tse.jus.b.pdf)
           contra Waldeli dos Santos Rosa, precandidato a la alcaldía de Costa Rica,
           y Matheus da Silva Vaz, colaborador de Waldeli, fue presentada por la
-=======
-
-      - fecha: 2024-05-27
-        url: https://www.migalhas.com.br/arquivos/2024/5/348EB1BEC64D73_SENT.pdf
-        texto: >-
-          **Juez condena a la Unión a indemnizar por el bloqueo prolongado de
-          Instagram.** El 27.05, el juez José Jácomo Gimenes, del 1er Juzgado
-          Federal de Maringá de la Justicia Federal de Paraná, condenó a la Unión a
-          indemnizar a un político por la demora en la reactivación de su perfil en
-          Instagram. Según la [decisión]($url), el autor de la acción era diputado
-          estatal y sus redes sociales fueron bloqueadas por el Tribunal Superior
-          Electoral (TSE) en noviembre de 2022. Los bloqueos habrían ocurrido por
-          una publicación en la que el político divulgaba el lugar donde estarían
-          los ministros del Supremo Tribunal Federal (STF), con la frase
-          “Oportunidad imperdible” en la publicación. En diciembre de 2022, el STF,
-          en una decisión emitida por el ministro Alexandre de Moraes, ordenó la
-          reactivación de los perfiles del político en diferentes redes sociales;
-          sin embargo, Instagram no fue mencionado. El desbloqueo del perfil de
-          Instagram solo ocurrió en mayo del año siguiente. La decisión del juez
-          Gimenes no identificó error judicial en el bloqueo de las redes sociales,
-          pero señaló un error procedimental del STF por la demora en desbloquear el
-          perfil de Instagram del diputado. Debido a la demora injustificada, el
-          juez determinó que la Unión debe pagar R$20.000,00 al político, por los
-          daños morales causados al autor de la acción. MODERACIÓN DE CONTENIDOS
-          TRE-MS multa a precandidato a la alcaldía por uso de deepfake contra el
-          alcalde. La jueza electoral Laisa de Oliveira Ferneda Marcolini, de la 38ª
-          Zona Electoral de Costa Rica del Tribunal Regional Federal de Mato Grosso
-          do Sul (TRE-MS), multó a los opositores del alcalde de Costa Rica-MS por
-          el uso de deepfake. La [representación
-          ](https://www.migalhas.com.br/arquivos/2024/5/B445BA3CAFE0BF_consultaunificadapje.tse.jus.b.pdf)contra
-          Waldeli dos Santos Rosa, precandidato a la alcaldía de Costa Rica, y
-          Matheus da Silva Vaz, colaborador de Waldeli, fue presentada por la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Comisión Provisional del Partido Progresista (PP) de Costa Rica debido a
           un video que utilizaba inteligencia artificial para crear un video falso
           contra el alcalde de la ciudad, Cleverson Alves dos Santos (PP/MS). En el
@@ -188,23 +125,16 @@ paises:
           alcalde, ordenando la retirada del video y estableciendo multas,
           aumentadas por la reincidencia de los hombres, de R$10.000,00 para Waldeli
           y R$5.000,00 para Matheus.
-<<<<<<< HEAD
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-06-04
         tipo: proyecto
-=======
-
-      - fecha: 2024-06-04
-        url: https://www.tjdft.jus.br/institucional/imprensa/noticias/2024/junho/mulher-que-teve-conta-comercial-em-rede-social-excluida-sera-indenizada
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Meta es condenada a restablecer cuentas comerciales y a indemnizar a una
           usuaria. El magistrado Júlio Ribeiro, del 6º Juzgado Especial Civil de
           Brasilia (TJDFT), [condenó a Meta a pagar R$ 2 mil por daños morales a una
           usuaria que tuvo tres cuentas comerciales eliminadas en Facebook e
-<<<<<<< HEAD
           Instagram](https://www.tjdft.jus.br/institucional/imprensa/noticias/2024/junho/mulher-que-teve-conta-comercial-em-rede-social-excluida-sera-indenizada).
           Además, la sentencia determinó el restablecimiento de los perfiles. Según
           los autos, la usuaria utiliza las redes sociales para divulgar su empresa
@@ -214,16 +144,6 @@ paises:
           estarían difundiendo contenido de desnudez. En el proceso, Meta alegó que
           puede limitar y restringir determinadas publicaciones de acuerdo con los
           términos y servicios de sus plataformas. Sin embargo, la sentencia
-=======
-          Instagram]($url). Además, la sentencia determinó el restablecimiento de
-          los perfiles. Según los autos, la usuaria utiliza las redes sociales para
-          divulgar su empresa dedicada a la reconstrucción mamaria de víctimas de
-          cáncer o de procedimientos estéticos mal realizados. Ocurre que, en enero
-          de 2024, Meta desactivó sus perfiles bajo la justificación de que las
-          cuentas estarían difundiendo contenido de desnudez. En el proceso, Meta
-          alegó que puede limitar y restringir determinadas publicaciones de acuerdo
-          con los términos y servicios de sus plataformas. Sin embargo, la sentencia
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           entendió que las alegaciones de Meta fueron genéricas, de modo que no se
           detallaron las publicaciones de la usuaria que infringieron las normas de
           la plataforma. Además, el juez señaló que las imágenes difundidas no
@@ -233,10 +153,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2024-06-05
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: PL 2630/2020
         url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2256735
         texto: >-
@@ -260,28 +177,18 @@ paises:
           "[madura](https://www.camara.leg.br/noticias/1069265-lira-cria-grupo-de-trabalho-para-analise-de-projeto-que-trata-das-redes-sociais/)"
           de la propuesta. Con 20 parlamentarios en su composición, el grupo debe
           presentar los resultados de este análisis y el nuevo texto en 90 días.
-<<<<<<< HEAD
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-06-07
         tipo: proyecto
-=======
-
-      - fecha: 2024-06-07
-        url: https://www25.senado.leg.br/web/atividade/materias/-/materia/157233
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           PL sobre la regulación de IA pasa por cambios y los parlamentarios debaten
           ajustes con representantes de diversos sectores en el Pleno del Senado. El
           relator del proyecto de marco legal para la Inteligencia Artificial ([PL
-<<<<<<< HEAD
           nº
           2338/2023](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233),
           el senador Eduardo Gomes (PL/TO), presentó un [nuevo
-=======
-          nº 2338/2023]($url)), el senador Eduardo Gomes (PL/TO), presentó un [nuevo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           sustituto](https://legis.senado.leg.br/sdleg-getter/documento?dm=9630164&ts=1718211973834&rendition_principal=S&disposition=inline)
           que será analizado como dictamen final de la comisión temporal responsable
           del tema en el Senado. Entre los ajustes realizados en la propuesta está
@@ -317,10 +224,7 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2024-06-18
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 12.965/2014
         url: https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm
         texto: >-
@@ -336,40 +240,26 @@ paises:
           de incumplimiento de estos deberes, el proyecto establece la
           responsabilidad solidaria del proveedor de la red social por el daño
           eventualmente causado por el anuncio falso, excluyendo la aplicación del
-<<<<<<< HEAD
           artículo 19 del Marco Civil de Internet ([Ley nº 12.965/2014]($url), que
-=======
-          artículo 19 del Marco Civil de Internet ([Ley nº 12.965/2014]($url)), que
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           prevé la responsabilidad de las plataformas solo después de una orden
           judicial. En su
           [justificación](https://legis.senado.leg.br/sdleg-getter/documento?dm=9639926&ts=1718823855788&disposition=inline),
           el senador menciona ejemplos de publicidades engañosas y defiende la
           necesidad de una "intervención firme que también responsabilice a los
           proveedores de redes sociales".
-<<<<<<< HEAD
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-06-27
         tipo: proyecto
-=======
-
-      - fecha: 2024-06-27
-        url: https://www.migalhas.com.br/arquivos/2024/6/D421EBB8DDA5EF_Documento_510013464838.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La Justicia Federal suspende contenidos que incitan a la violencia
           policial. La [27ª Vara Federal de Río de Janeiro decidió que Google debe
           suspender la disponibilidad de contenidos específicos transmitidos por
           policías en programas de podcast y videocast en YouTube, por difundir
-<<<<<<< HEAD
           discursos de odio e incitar a la violencia
           policial](https://www.migalhas.com.br/arquivos/2024/6/D421EBB8DDA5EF_Documento_510013464838.pdf).
           La [decisión
-=======
-          discursos de odio e incitar a la violencia policial]($url). La [decisión
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           provisional](https://www.migalhas.com.br/arquivos/2024/6/D421EBB8DDA5EF_Documento_510013464838.pdf)
           afirma que las publicaciones que deben ser suspendidas "[constituyen
           contenido inapropiado, al parecer violando derechos humanos de diversas
@@ -395,7 +285,6 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2024-06-18
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se archivó en la Cámara de Representantes el [proyecto de ley 241/22 S
@@ -404,14 +293,6 @@ paises:
           En principio, este proyecto buscaba prevenir y sancionar la violencia
           digital de género. Sin embargo, varios organizaciones de la sociedad civil
           se manifestaron [en contra del
-=======
-        url: https://congresovisible.uniandes.edu.co/proyectos-de-ley/ppor-medio-de-la-cual-se-modifica-el-codigo-penal-y-de-procedimiento-penal-se-crea-el-capitulo-de-la-violacion-a-la-intimidad-personal-mediante-el-uso-de-las-tecnologias-de-la-informacion-y-las-comunicaciones-se-tipifica-el-delito-de-violencia-digital-de-genero-y-se-dictan-otras-disposiciones-delito-de-violencia-digital-de-genero/12825/
-        texto: >-
-          Se archivó en la Cámara de Representantes el [proyecto de ley 241/22 S
-          366/24 C]($url). En principio, este proyecto buscaba prevenir y sancionar
-          la violencia digital de género. Sin embargo, varios organizaciones de la
-          sociedad civil se manifestaron [en contra del
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           proyecto](https://www.lasillavacia.com/en-vivo/organismos-civiles-piden-archivo-de-proyecto-contra-violencia-digital/).
           Entre otras cosas, argumentaron que el proyecto dificultaba el acceso a la
           justicia y afectaba la libertad de expresión. En efecto, el proyecto
@@ -425,7 +306,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-06-27
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Fue [asesinado](https://x.com/FLIP_org/status/1806443653478470112) en
@@ -434,23 +314,12 @@ paises:
           difundía información sobre de La Gabarra y otros municipios cercanos. Este
           es el cuarto homicidio de un periodista en Colombia en lo que va del año.
           De acuerdo con [cifras de la Fundación para la Libertad de Prensa
-=======
-        url: https://x.com/FLIP_org/status/1806443653478470112
-        texto: >-
-          Fue [asesinado]($url) en Tibú, Norte de Santander, el periodista Jorge
-          Méndez. Méndez era el administrador del sitio "La Gabarra con una mirada
-          diferente", en la que difundía información sobre de La Gabarra y otros
-          municipios cercanos. Este es el cuarto homicidio de un periodista en
-          Colombia en lo que va del año. De acuerdo con [cifras de la Fundación para
-          la Libertad de Prensa
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           (FLIP)](https://flip.org.co/en/pronunciamientos/estos-son-los-periodistas-asesinados-en-colombia-por-causas-asociadas-a-su-oficio),
           esta cifra no se alcanzaba desde 2003.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-06-21
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Misión de Observación Electoral (MOE) publicó un [balance del cierre de
@@ -461,23 +330,12 @@ paises:
           6 fueron aprobados (es decir, 72% se archivaron). Sin embargo, destacó la
           aprobación de una ley para la transparencia y rendición de cuentas por
           parte de congresistas.
-=======
-        url: https://www.moe.org.co/en/balance-del-cierre-de-la-legislatura-del-congreso-de-la-republica-2023-2024/
-        texto: >-
-          La Misión de Observación Electoral (MOE) publicó un [balance del cierre de
-          la legislatura]($url) en relación con los proyectos de ley relacionados
-          con temas políticos-electorales. Según la MOE, de los 57 proyectos
-          discutidos, sólo 6 fueron aprobados (es decir, 72% se archivaron). Sin
-          embargo, destacó la aprobación de una ley para la transparencia y
-          rendición de cuentas por parte de congresistas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
   - pais: México
     entradas:
       - fecha: 2024-05-27
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [organización Artículo
@@ -489,23 +347,10 @@ paises:
           versión testada de la misma. La decisión tiene un impacto relevante, en
           virtud de que la Comisión Nacional de los Derechos Humanos eliminó de su
           página 2,540 recomendaciones y testó la información.
-=======
-        url: https://articulo19.org/juez-reconoce-que-la-cndh-violo-el-derecho-a-la-verdad-y-al-acceso-a-la-informacion-al-testar-recomendaciones-de-derechos-humanos/
-        texto: >-
-          La [organización Artículo 19]($url) dio a conocer que el 17 de mayo del
-          mismo año el Juez Segundo de Distrito en Materia Administrativa de la
-          Ciudad de México otorgó el amparo 1545/2023, derivado de la decisión de la
-          CNDH de eliminar de su página web la Recomendación 26/2006 relativa al
-          caso y posteriormente publicar una versión testada de la misma. La
-          decisión tiene un impacto relevante, en virtud de que la Comisión Nacional
-          de los Derechos Humanos eliminó de su página 2,540 recomendaciones y testó
-          la información.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-05-23
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [organización
@@ -519,35 +364,15 @@ paises:
           de filtros de reconocimiento facial para las imágenes recabadas por las
           cámaras de vigilancia, así como otros sistemas de reconocimiento mediante
           biométricos.
-=======
-        url: https://r3d.mx/2024/05/23/gobierno-de-chihuahua-reserva-informacion-tecnica-sobre-la-plataforma-centinela/
-        texto: >-
-          La [organización R3D]($url) dio a conocer que el Gobierno de Chihuahua
-          decidió reservar la información técnica sobre la Plataforma Centinela, la
-          cual tiene como propósito la instalación de una red de 3 mil cámaras de
-          seguridad con movimiento, 4 mil cámaras fijas, 102 arcos de identificación
-          vehicular, vigilancia aérea con drones, 40 remolques de videovigilancia
-          móvil y la construcción de un centro de mando, la Torre Centinela, en los
-          que se incluirá la instalación de filtros de reconocimiento facial para
-          las imágenes recabadas por las cámaras de vigilancia, así como otros
-          sistemas de reconocimiento mediante biométricos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2024-05-30
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Las [organizaciones Artículo 19 y
           R3D](https://articulo19.org/pleno-de-la-scjn-valida-censura-digital-y-criminalizar-la-elusion-de-candados-digitales/)
           condenaron la decisión de la [Suprema Corte de Justicia de la
-=======
-        url: https://articulo19.org/pleno-de-la-scjn-valida-censura-digital-y-criminalizar-la-elusion-de-candados-digitales/
-        texto: >-
-          Las [organizaciones Artículo 19 y R3D]($url) condenaron la decisión de la
-          [Suprema Corte de Justicia de la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Nación](https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=7859)
           por determinar la validez de las reformas a la Ley Federal de Derechos de
           Autor y el Código Penal Federal, ante las acciones de inconstitucionalidad
@@ -568,7 +393,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-06-08
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Las [organizaciones Artículo 19, Amnistía Internacional y el Comité para
@@ -596,28 +420,6 @@ paises:
       - fecha: 2024-06-08
         tipo: proyecto
         texto: >-
-=======
-        url: https://articulo19.org/continua-la-violencia-contra-alberto-amaro-policias-ministeriales-de-tlaxcala-lo-amenazan-con-arma-de-fuego/
-        texto: >-
-          Las [organizaciones Artículo 19, Amnistía Internacional y el Comité para
-          Protección a Periodistas]($url) condenaron la amenaza de elementos de la
-          Procuraduría de Tlaxcala en contra del director del Periódico La Prensa de
-          Tlaxcala ocurrida el 4 de junio del mismo año. Las organizaciones
-          resaltaron que el periodista es beneficiario del Mecanismo de Protección a
-          Personas Defensoras de Derechos Humanos y Periodistas. La amenaza fue de
-          un sujeto que sacó medio cuerpo de su vehículo empuñando una pistola,
-          quien posteriormente se identificó como policía de investigación, y
-          resultó ser el hermano de otro servidor público que apareció en una nota
-          periodística acusado de extersión. De conformidad con registros de las
-          organizaciones antes mencionadas, el periodista ha recibido otras
-          amenazas, siendo las más reciente en mayo de 2024 y en septiembre de 2023.
-          Por lo anterior, las organizaciones exigieron a la Procuraduría General
-          del Estado de Tlaxcala inicien la investigación correspondiente por las
-          amenazas contra el periodista; al Mecanismo de Protección Federal a
-          garantizar la eficacia de las medidas de protección del periodista, y a
-          las autoridades del Estado de Tlaxcala para que reconozcan la importancia
-          de la labor periodística. VIOLENCIA CONTRA PERIODISTAS LIBERTAD DE PRENSA
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           La [organización Artículo
           19](https://articulo19.org/scjn-vulnera-otra-vez-la-libertad-de-expresion-mantiene-vigencia-del-delito-de-halconeo-en-aguascalientes/),
           cuestionó la decisión de la Suprema Corte de Justicia de la Nación tomada
@@ -637,16 +439,10 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-06-14
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Las [organizaciones Artículo 19 y la Red de Periodista de
           Puebla](https://articulo19.org/preocupa-a-red-de-periodistas-de-puebla-y-article-19-falta-de-condiciones-para-ejercer-la-labor-periodistica-en-atlixco/)
-=======
-        url: https://articulo19.org/preocupa-a-red-de-periodistas-de-puebla-y-article-19-falta-de-condiciones-para-ejercer-la-labor-periodistica-en-atlixco/
-        texto: >-
-          Las [organizaciones Artículo 19 y la Red de Periodista de Puebla]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           expresaron su preocupación por el bloque informativo que sufrieron las
           periodistas de los medios de Contextos Noticias, y Diario Cambio por
           pobladores de San Jerónimo Coyula el 11 de junio de 2024. Las periodistas
@@ -661,7 +457,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-06-21
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [organización Artículo
@@ -681,42 +476,16 @@ paises:
           víctima. Y, a la Comisión Ejecutiva de Atención a Víctimas de la Ciudad de
           México a investigar al personal responsable por la toma de fotografías al
           periodista sin su consentimiento.
-=======
-        url: https://articulo19.org/fgjcdmx-revictimiza-y-retiene-a-humberto-padgett-su-caso-se-mantiene-en-impunidad/
-        texto: >-
-          La [organización Artículo 19]($url) condenó el actuar de la Fiscalía
-          General de Justicia de la Ciudad de México y de la Comisión Ejecutiva de
-          Atención a Víctimas de la Ciudad de México en el caso del periodista
-          Humberto Padgett, porque le informaron que enviarían la carpeta de
-          investigación en la que es víctima está en el archivo desde 2022 sin que
-          se le hubiese informado y se le detuvo por insultos a la autoridad.
-          Además, un día antes, personal de la Comisión Ejecutiva de Atención a
-          Víctimas de la Ciudad de México tomó fotos del periodista sin su
-          consentimiento. Por lo anterior, la organización exhortó a la Fiscalía
-          General de Justicia de la Ciudad de México ha respetar los derechos de las
-          víctimas y acatar la Recomendación 19/2019 de la Comisión de Derechos
-          Humanos de la Ciudad de México y mantener activa la investigación del caso
-          en el que está vinculado el periodista como víctima. Y, a la Comisión
-          Ejecutiva de Atención a Víctimas de la Ciudad de México a investigar al
-          personal responsable por la toma de fotografías al periodista sin su
-          consentimiento.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: Perú
     entradas:
       - fecha: 2024-05-31
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Asociación Nacional de Periodistas (ANP)
           [reportó](https://x.com/ANP_periodistas/status/1796586681438699780) que
-=======
-        url: https://x.com/ANP_periodistas/status/1796586681438699780
-        texto: >-
-          La Asociación Nacional de Periodistas (ANP) [reportó]($url) que
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           periodistas de diversos medios de comunicación fueron encerrados en una
           sala durante la cobertura de un simulacro en el que participaba la
           presidenta Dina Boluarte. Los periodistas transmitieron desde detrás de un
@@ -727,7 +496,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-06-04
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Instituto de Prensa y Sociedad (IPYS)
@@ -736,15 +504,6 @@ paises:
           presidenta Dina Boluarte y del ministro de Educación en el distrito de La
           Molina, fueron acordonados en un estrado para evitar preguntas a la
           mandataria. Asimismo, la Asociación Nacional de Periodistas (ANP)
-=======
-        url: https://www.ipys.org/alertas/per%C3%BA-periodistas-son-nuevamente-acordonados-para-evitar-preguntas-la-presidenta
-        texto: >-
-          El Instituto de Prensa y Sociedad (IPYS) [reportó]($url) que periodistas
-          de varios medios que acudieron a cubrir actividades de la presidenta Dina
-          Boluarte y del ministro de Educación en el distrito de La Molina, fueron
-          acordonados en un estrado para evitar preguntas a la mandataria. Asimismo,
-          la Asociación Nacional de Periodistas (ANP)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [informó](https://x.com/ANP_periodistas/status/1798045674451394710) que,
           como parte de un protocolo de seguridad, la prensa estuvo impedida de
           salir del estrado mientras la presidenta estaba presente. IPYS y el
@@ -756,18 +515,11 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-06-12
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Comisión de Descentralización del Congreso
           [aprobó](https://wb2server.congreso.gob.pe/service-alfresco/alfresko/detalle/preview/file?idDocument=cdc9bb47-93f6-45d0-b1ce-bf1f472422b2&key=47j6sp1KH2elP2IphiOp78e)
           un predictamen para modificar el Decreto Legislativo 829, que regula el
-=======
-        url: https://wb2server.congreso.gob.pe/service-alfresco/alfresko/detalle/preview/file?idDocument=cdc9bb47-93f6-45d0-b1ce-bf1f472422b2&key=47j6sp1KH2elP2IphiOp78e
-        texto: >-
-          La Comisión de Descentralización del Congreso [aprobó]($url) un
-          predictamen para modificar el Decreto Legislativo 829, que regula el
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Instituto Nacional de Radio y Televisión del Perú (IRTP), añadiendo un
           representante del Congreso en su Consejo Directivo. El [Instituto Prensa y
           Sociedad](https://www.ipys.org/alertas/comisi%C3%B3n-del-congreso-aprueba-predictamen-que-pone-en-riesgo-autonom%C3%ADa-de-los-medios)
@@ -784,7 +536,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-06-18
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Instituto Prensa y Sociedad (IPYS)
@@ -794,21 +545,11 @@ paises:
           político de organizaciones civiles que reciben fondos de cooperación
           internacional, entre otros propósitos. Según el IPYS y la [Asociación
           Nacional de
-=======
-        url: https://www.ipys.org/alertas/el-ipys-rechaza-el-predictamen-anti-ong-aprobado-en-el-congreso
-        texto: >-
-          El Instituto Prensa y Sociedad (IPYS) [calificó]($url) de atentatorio
-          contra la libertad de expresión el predictamen aprobado por la Comisión de
-          Relaciones Exteriores del Congreso que prohíbe el activismo político de
-          organizaciones civiles que reciben fondos de cooperación internacional,
-          entre otros propósitos. Según el IPYS y la [Asociación Nacional de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Periodistas](https://x.com/ANP_periodistas/status/1800672173813911572),
           las organizaciones defensoras de la libertad de expresión necesitan
           propiciar cambios políticos y normativos para cumplir su misión, y el
           predictamen no solo impediría que las asociaciones civiles contraten con
           el Estado o participen en el debate de políticas públicas, sino que
-<<<<<<< HEAD
           también afectaría gravemente su autonomía.
         etiquetas:
           - libertad-de-expresion
@@ -817,10 +558,6 @@ paises:
         tipo: proyecto
         texto: >-
           El micro noticiero La Encerrona
-=======
-          también afectaría gravemente su autonomía. LIBERTAD DE EXPRESIÓN El micro
-          noticiero La Encerrona
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [difundió](https://x.com/laencerronaperu/status/1803437577740890282) un
           audio en el que el ministro del Interior, Juan José Santiváñez, pide
           "controlar" al periodista Marco Sifuentes para evitar críticas sobre su
@@ -836,7 +573,6 @@ paises:
           - libertad-de-expresion
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -883,8 +619,4 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
-=======
-{{< observatorio-mes month="2024-06" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

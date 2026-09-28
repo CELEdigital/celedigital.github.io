@@ -335,33 +335,37 @@ Ojo con dos cosas:
 
 El CSS está arriba de `assets/css/components/workshop-hub.css`.
 
-### 13. Boletines viejos migrados al formato nuevo
-Los 61 boletines de febrero 2021 a febrero 2026 (ES, y sus copias EN, que eran
-idénticas y lo siguen siendo) pasaron al formato de la sección 9 con
-`scripts/migrar_boletines_viejos.py`. Es de una sola vez e idempotente: saltea
-los archivos que ya tienen `paises`.
+### 13. Boletines viejos: dos migraciones y cuál quedó
+Los 61 boletines viejos se migraron **dos veces**, en paralelo: una en local
+(la de la sección 9) y otra en el remoto con `scripts/migrar_boletines_viejos.py`.
+El merge del 28/09/2026 (`989962e`) commiteó los 122 archivos (ES + EN) con
+marcadores de conflicto y el build se cayó. **Quedó la versión local**
+(`7c4ce66`), más estos arreglos:
 
-- Se tiraron el blob base64 del mapa y las tablas de totales/temas desarmadas;
-  las reemplaza `{{< observatorio-mes >}}`. Slug, fecha, título y
-  `translationKey` no se tocaron, así que las URLs siguen iguales.
-- **El país de cada entrada se reconstruyó**: WordPress tenía los países en
-  pestañas y se perdieron. Sale de dominios/rutas de los enlaces, links y
-  expedientes de los CSV y pistas en el texto, más el hecho de que cada país es
-  un tramo contiguo. El orden de países **no es fijo** (desde 2025 Brasil va
-  anteúltimo), se deduce por archivo. Los casos dudosos revisados a mano están
-  en `FIJADAS`.
-- Las etiquetas viejas (~300 variantes en mayúsculas) se tradujeron a los 17
-  slugs con `ALIAS`. Honor/difamación → libertad-de-expresion; publicidad
-  comercial y ludopatía → defensa-del-consumidor. **Desinformación / fake news
-  no tiene slug y se descartó** (~100 usos); igual acceso a internet,
-  ciberseguridad, derechos humanos. Si se agrega `desinformacion` a
-  `data/etiquetas.yaml`, se puede re-etiquetar volviendo a correr el script
-  sobre la versión anterior de git.
-- `exp` sólo se escribió cuando el expediente está en la matriz, para no llenar
-  el build de avisos por normas que nunca entraron a la planilla.
-- 42 entradas de febrero–junio 2021 no tienen `fecha` (el formato viejo la
-  ponía en la prosa y no siempre con día): son los avisos «entrada sin
-  `fecha`» del build.
+- **Cuerpo**: se conservan las tablas históricas de proyectos por país y temas,
+  tal como se publicaron. **No** se usa `{{< observatorio-mes >}}` en los
+  boletines viejos (eso era de la versión del script).
+- **Colas de etiquetas**: ~100 entradas todavía tenían las etiquetas viejas en
+  mayúsculas pegadas al final del texto («… ciudadanía. SEGURIDAD NACIONAL»).
+  Se sacaron con `separar_cola()` del script y se sumaron a `etiquetas` (máx. 3);
+  las que no tienen slug se descartaron, con el mismo criterio de `ALIAS`.
+- **Entradas pegadas**: 38 entradas juntaban dos o tres noticias
+  («… LIBERTAD DE EXPRESION 24/01 El Tribunal Supremo…»). Se partieron en ese
+  corte: cada trozo se lleva las etiquetas que tenía detrás, y la fecha `dd/mm`
+  si la había (si no, hereda la de la entrada).
+- **Países**: 20 entradas cambiaron de país tras revisarlas una por una (entre
+  otras: Salta/La Rioja → Argentina, Lasso → Ecuador, la comisión chilena contra
+  la desinformación → Chile, ley de ONG → Paraguay). La que queda dudosa es la
+  del balance regional de la SIP en abril 2023, que sigue en Guatemala.
+- Se borraron restos de HTML (`/span>`) y espacios de ancho cero.
+
+`migrar_boletines_viejos.py` sigue en el repo, pero **no volver a correrlo**
+sobre estos archivos: saltea los que ya tienen `paises`, y su salida pegaba más
+entradas que la local y dejaba links a `observatoriolegislativocele.com`.
+
+Siguen valiendo: las entradas de feb–jun 2021 sin `fecha` (avisos esperados del
+build), `exp` sólo cuando el expediente está en la matriz, y que desinformación
+no tiene slug.
 
 ---
 

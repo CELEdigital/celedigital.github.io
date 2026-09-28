@@ -1,15 +1,5 @@
 ---
-<<<<<<< HEAD
 title: 'Boletín mensual Observatorio Legislativo | Noviembre 2021'
-=======
-author: [Editor]
-content_type: [boletin]
-date: '2021-12-03'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 slug: boletin-mensual-noviembre-2021-2-2
 date: 2021-12-03
 translationKey: wp-9432
@@ -25,18 +15,14 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2021-11-11
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Los jueces de la Corte Suprema de Justicia de la Nación expresaron sus
@@ -53,28 +39,10 @@ paises:
           por el Cambio denunciaron a este peritaje como un ataque a la libertad de
           expresión, un intento de criminalizar la opinión que afecta la inmunidad
           parlamentaria.
-=======
-        url: https://www.lanacion.com.ar/politica/malestar-en-la-corte-por-el-ciberpatrullaje-de-las-opiniones-de-mauricio-macri-y-elisa-carrio-sobre-nid11112021/
-        texto: >-
-          Los jueces de la Corte Suprema de Justicia de la Nación expresaron sus
-          [preocupaciones]($url) por la investigación judicial sobre las opiniones
-          del ex-presidente de Argentina, Mauricio Macri, acerca de ciertos jueces.
-          Este estudio fue pedido por el fiscal Franco Picardi con el objetivo de
-          determinar determinar la expresiones descalificantes o injuriosas que
-          pudieron tener entre 2015 y 2019 Mauricio Macri y un grupo de dirigentes
-          de Cambiemos y abogados sobre la jueza de Casación Ana María Figueroa y la
-          exprocuradora General Alejandra Gils Carbó, en el marco de la la causa en
-          la que se investiga supuestas presiones a los magistrados para obtener
-          resultados favorables durante el gobierno de Cambiemos. La Coalición
-          Civica y Juntos por el Cambio denunciaron a este peritaje como un ataque a
-          la libertad de expresión, un intento de criminalizar la opinión que afecta
-          la inmunidad parlamentaria.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2021-11-18
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Con posterioridad al resultado de las elecciones de noviembre de 2021 el
@@ -85,34 +53,15 @@ paises:
           este sentido, propuso modificar algunos artículos de la Ley de Medios para
           garantizar mecanismos de equidad que ayuden a morigerar la incidencia que
           los medios tienen en la construcción de los marcos mentales de la gente.
-=======
-        url: https://www.lanacion.com.ar/sociedad/tras-la-derrota-jorge-capitanich-pidio-regular-los-medios-la-gente-piensa-lo-que-los-periodistas-nid18112021/
-        texto: >-
-          Con posterioridad al resultado de las elecciones de noviembre de 2021 el
-          Gobernador de la Provincia de Chaco, Jorge Capitanich, pidió [regular
-          más]($url) a los medios de comunicación expresando que éstos son
-          hegemónicos y que las personas “piensan lo que los medios y los
-          periodistas proponen”. En este sentido, propuso modificar algunos
-          artículos de la Ley de Medios para garantizar mecanismos de equidad que
-          ayuden a morigerar la incidencia que los medios tienen en la construcción
-          de los marcos mentales de la gente.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2021-11-23
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En la fecha nueve personas encapuchadas realizaron un
           [ataque](https://www.lanacion.com.ar/seguridad/atacaron-la-redaccion-de-clarin-con-bombas-molotov-nid23112021/)
           con bombas molotov contra la sede de uno de los medios más importantes de
-=======
-        url: https://www.lanacion.com.ar/seguridad/atacaron-la-redaccion-de-clarin-con-bombas-molotov-nid23112021/
-        texto: >-
-          En la fecha nueve personas encapuchadas realizaron un [ataque]($url) con
-          bombas molotov contra la sede de uno de los medios más importantes de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Argentina, el diario Clarín. La empresa calificó al ataque consistía en
           una manifestación violenta contra un medio de comunicación. Ese mismo día
           el presidente de Argentina, Alberto Fernandez,
@@ -127,16 +76,11 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2021-10-28
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.tse.jus.br/imprensa/noticias-tse/2021/Outubro/plenario-cassa-deputado-francischini-por-propagar-desinformacao-contra-o-sistema-eletronico-de-votacao
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El [Tribunal Superior Electoral (TSE) decidió revocar el mandato y
           declarar inelegible al diputado de estado Fernando Francischini por la
           difusión de noticias falsas sobre fraude en máquinas de votación
-<<<<<<< HEAD
           electrónica](https://www.tse.jus.br/imprensa/noticias-tse/2021/Outubro/plenario-cassa-deputado-francischini-por-propagar-desinformacao-contra-o-sistema-eletronico-de-votacao).
           El tribunal aceptó un recurso ordinario del Ministerio Público Electoral,
           que investigó al diputado por haberse presentado en vivo en sus redes
@@ -149,19 +93,6 @@ paises:
           pedían la revocatoria de la boleta Bolsonaro-Mourão por abuso de poder
           económico y mal uso de los medios de comunicación en la campaña electoral
           de
-=======
-          electrónica]($url). El tribunal aceptó un recurso ordinario del Ministerio
-          Público Electoral, que investigó al diputado por haberse presentado en
-          vivo en sus redes sociales unos minutos antes del cierre de la votación en
-          las elecciones de 2018, en el que arrojó dudas sobre la corrección de las
-          máquinas de votación electrónica. Según el ministro que reporta el caso,
-          la conducta del diputado constituye un abuso de poder político y uso
-          indebido de los medios de comunicación. Ese mismo día, [el TSE decidió por
-          unanimidad desestimar las Acciones de Investigación Judicial Electoral
-          (Aije) que pedían la revocatoria de la boleta Bolsonaro-Mourão por abuso
-          de poder económico y mal uso de los medios de comunicación en la campaña
-          electoral de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           2018](https://www.tse.jus.br/imprensa/noticias-tse/2021/Outubro/tse-julga-improcedentes-acoes-contra-jair-bolsonaro-e-hamilton-mourao)
           por el disparo ilegal de mensajes masivos, a través del WhatsApp, durante
           la campaña y uso fraudulento de datos personales para este fin. Las
@@ -171,17 +102,12 @@ paises:
           las elecciones presidenciales. El Tribunal concluyó que, a pesar de que
           ocurrieron los disparos, los hechos no fueron capaces de influir en el
           resultado de las elecciones, ni el vínculo entre las irregularidades y la
-<<<<<<< HEAD
           boleta ganadora fue probado. En la misma ocasión, sin embargo, el TSE
-=======
-          boleta ganadora fue probado.** E**n la misma ocasión, sin embargo, el TSE
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           estableció la tesis de que el uso de aplicaciones de mensajería
           instantánea, como WhatsApp, para promover los disparos que contengan
           información declaraciones falsas en detrimento de candidatos contrarios,
           puede representar abuso de poder económico y uso indebido de las redes
           sociales.
-<<<<<<< HEAD
         etiquetas:
           - libertad-de-expresion
 
@@ -192,15 +118,6 @@ paises:
           aprobación](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra;jsessionid=node0yjxske2jcomk1tl3fz1si6k1y16997937.node0?codteor=2097604&filename=REL+1/2021+GTNET)
           del [PL Nº 2.630 / 2020 (Proyecto Ley para combatir las Fake
           News)](https://www25.senado.leg.br/web/atividade/materias/-/materia/141944),
-=======
-
-      - fecha: 2021-10-28
-        url: https://www25.senado.leg.br/web/atividade/materias/-/materia/141944
-        texto: >-
-          El diputado [Orlando Silva presentó un informe para la
-          aprobación](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra;jsessionid=node0yjxske2jcomk1tl3fz1si6k1y16997937.node0?codteor=2097604&filename=REL+1/2021+GTNET)
-          del [PL Nº 2.630 / 2020 (Proyecto Ley para combatir las Fake News)]($url),
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           con una propuesta de sustituto. El texto fue elaborado por el Grupo de
           Trabajo para el Mejoramiento de la Legislación Brasileña - Internet
           (GTNET). En el nuevo texto se propone un artículo que regule la solicitud
@@ -223,18 +140,11 @@ paises:
           de la adecuación de las políticas y procedimientos de moderación de
           contenidos.
         etiquetas:
-<<<<<<< HEAD
           - libertad-de-expresion
           - plataformas-digitales
 
       - fecha: 2021-11-04
         tipo: proyecto
-=======
-          - plataformas-digitales
-
-      - fecha: 2021-11-04
-        url: https://www25.senado.leg.br/web/atividade/materias/-/materia/150546
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           En la fecha, como conclusión del dictamen nº 1/2021 de la Comisión de
           Encuesta Parlamentaria (CPI, en portugués) sobre la conducta del gobierno
@@ -242,18 +152,11 @@ paises:
           proyectos de ley al Senado Federal para frenar la creación y difusión de
           noticias falsas a través de internet. El [Proyecto de Ley N ° 3814/2021
           busca modificar el Marco Civil da Internet ("MCI" — Ley N ° 12.965 / 14) y
-<<<<<<< HEAD
           la Ley de Blanqueo de Capitales (Ley N ° 9.613 /
           98).](https://www25.senado.leg.br/web/atividade/materias/-/materia/150546)
           De acuerdo con la propuesta, el MCI requeriría que los proveedores de
           conexión y aplicación identifiquen a sus usuarios a través de su nombre
           completo, fecha de nacimiento y CPF (CNPJ, si es una persona jurídica),
-=======
-          la Ley de Blanqueo de Capitales (Ley N ° 9.613 / 98).]($url) De acuerdo
-          con la propuesta, el MCI requeriría que los proveedores de conexión y
-          aplicación identifiquen a sus usuarios a través de su nombre completo,
-          fecha de nacimiento y CPF (CNPJ, si es una persona jurídica),
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           proporcionado obligatoriamente por los usuarios como condición para el uso
           del servicio, y que debe ser validado por los proveedores con base en los
           datos de la Hacienda Federal. [El proyecto de ley Nº 3813/2021, por su
@@ -265,7 +168,6 @@ paises:
           - plataformas-digitales
 
       - fecha: 2021-11-08
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Ministerio Público Federal (MPF) inició una investigación civil
@@ -277,18 +179,6 @@ paises:
           empresas responsables de las plataformas WhatsApp, Telegram, Facebook,
           Instagram, Twitter, TikTok y YouTube para enviar, en un plazo de diez
           días, información sobre las medidas tomadas por ellos contra prácticas
-=======
-        url: http://www.mpf.mp.br/sp/sala-de-imprensa/noticias-sp/mpf-abre-investigacao-sobre-atuacao-de-plataformas-no-combate-a-fake-news-e-ataques-na-internet
-        texto: >-
-          El [Ministerio Público Federal (MPF) inició una investigación civil
-          pública para investigar posibles violaciones a los derechos fundamentales
-          cometidas por proveedores de aplicaciones de Internet]($url) derivadas de
-          sus políticas de combate a prácticas organizadas de desinformación y
-          violencia en el mundo digital. La encuesta oficia a las empresas
-          responsables de las plataformas WhatsApp, Telegram, Facebook, Instagram,
-          Twitter, TikTok y YouTube para enviar, en un plazo de diez días,
-          información sobre las medidas tomadas por ellos contra prácticas
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           organizadas de desinformación y producción de contenido falso, así como
           como disparos masivos y el uso de robots y perfiles ficticios. También
           habrá audiencias públicas y consultas con expertos en el tema. [Según la
@@ -303,7 +193,6 @@ paises:
           - plataformas-digitales
 
       - fecha: 2021-11-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Tribunal Supremo Federal (STF) concedió parcialmente la denuncia
@@ -329,36 +218,10 @@ paises:
           irreversibilidad de la medida”. El Ministro Fachin ordenó la suspensión de
           los efectos de la decisión reclamada hasta la sentencia sobre el fondo del
           reclamo.
-=======
-        url: https://www.internetlab.org.br/wp-content/uploads/2021/11/decisao-assessor-bolsonaro.pdf
-        texto: >-
-          El [Tribunal Supremo Federal (STF) concedió parcialmente la denuncia
-          interpuesta por el periodista Renato Rovai]($url), contra la decisión del
-          Tribunal de Justicia de São Paulo (TJ-SP) que determinó que el periodista
-          excluía un tweet criticando al asesor especial de Asuntos Internacionales
-          de la Presidencia de la República, Filipe Martins. Rovai habría publicado
-          en Twitter una reproducion de un artículo de la Revista Fórum sobre un
-          gesto supremacista de Felipe Martins en el Senado y un tweet del Museo del
-          Holocausto sobre el repudio a los actos nazis y supremacistas. En sus
-          publicaciones, el periodista hizo comentarios críticos sobre la conducta
-          del asesor. Martins interpuso una demanda contra el periodista en la que
-          solicitó una indemnización por daño moral y la exclusión de publicaciones.
-          En primera instancia, un juez rechazó la medida cautelar de Martins de
-          excluir las postagens. En el TJ-SP, sin embargo, la decisión fue revocada,
-          comenzando a determinar la exclusión de uno de los tweets. Al juzgar el
-          amparo urgente solicitado en la denuncia interpuesta por Rovai, el STF
-          entendió que “las premisas que sustentan el hecho denunciado no son
-          suficientes para autorizar la violación, aunque sea provisional, del
-          derecho a la libertad de expresión, más aún sin la formación de el sistema
-          contradictorio y ante la posible irreversibilidad de la medida”. El
-          Ministro Fachin ordenó la suspensión de los efectos de la decisión
-          reclamada hasta la sentencia sobre el fondo del reclamo.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2021-11-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [II Juzgado Especial Civil de São Paulo denegó una demanda de
@@ -377,42 +240,16 @@ paises:
           denegó las solicitudes alegando que no hubo daño moral “ya que no hubo
           violaciones a los derechos a la imagen, intimidad, privacidad y honor" de
           los dos.
-=======
-        url: https://esaj.tjsp.jus.br/cpopg/show.do?processo.codigo=0G0008GFN0000&processo.foro=16&processo.numero=1010268-19.2021.8.26.0016&uuidCaptcha=sajcaptcha_5c2a2e380bc1446999ad41acc612d0b9
-        texto: >-
-          El [II Juzgado Especial Civil de São Paulo denegó una demanda de
-          indemnización presentada por dos hombres de apellido Bolsonaro contra el
-          periodico “Folha de São Paulo”]($url). En julio demandaron al vehículo y
-          al columnista Ruy Castro, responsable de un artículo publicado en abril de
-          este año bajo el título “Extinción del nombre Bolsonaro”. En el texto,
-          Castro opina que el apellido del presidente de la República desaparecerá
-          por la ausencia de personas que deseen utilizarlo. Los demandantes,
-          Marcelo Blanco Bolsonaro de Moura y José Paulo Bolsonaro de Moura
-          argumentaron que la columna ofende su honor y solicitaron que el diario y
-          el columnista, en conjunto, sean condenados al pago de una indemnización
-          por daño moral, además de solicitar la remoción inmediata del texto desde
-          el aire y una retractación. El tribunal denegó las solicitudes alegando
-          que no hubo daño moral “ya que no hubo violaciones a los derechos a la
-          imagen, intimidad, privacidad y honor" de los dos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2021-11-22
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [IV Juzgado Civil del Distrito Judicial de Río de Janeiro ordenó que el
           diputado federal Marcelo Freixo retire de sus publicaciones en Facebook e
           Instagram un montaje con una foto del senador Flávio
           Bolsonaro](https://www.internetlab.org.br/wp-content/uploads/2021/11/decisao-liminar-freixo.pdf).
-=======
-        url: https://www.internetlab.org.br/wp-content/uploads/2021/11/decisao-liminar-freixo.pdf
-        texto: >-
-          El [IV Juzgado Civil del Distrito Judicial de Río de Janeiro ordenó que el
-          diputado federal Marcelo Freixo retire de sus publicaciones en Facebook e
-          Instagram un montaje con una foto del senador Flávio Bolsonaro]($url).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Según la decisión, las publicaciones, realizadas el 12/11, simulaban un
           expediente policial con el hijo del presidente Jair Bolsonaro sosteniendo
           un cartel con las palabras: “Lavado de dinero”, “Organización criminal” y
@@ -431,16 +268,11 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2021-11-23
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://g1.globo.com/politica/noticia/2021/11/23/provedores-terao-que-informar-dados-de-usuario-que-ofender-marielle-nas-redes-decide-stj.ghtml
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           [El Tribunal Superior de Justicia (STJ) dictaminó que los proveedores de
           conexión deberán proporcionar datos que identifiquen a los usuarios
           responsables de publicar material ofensivo a Marielle Franco, ex-concejala
-<<<<<<< HEAD
           de Río de Janeiro asesinada en
           2018](https://g1.globo.com/politica/noticia/2021/11/23/provedores-terao-que-informar-dados-de-usuario-que-ofender-marielle-nas-redes-decide-stj.ghtml).
           Los ministros analizaron un recurso de apelación interpuesto por la pareja
@@ -455,28 +287,12 @@ paises:
           conflicto con la Ley General de Protección de Datos. Los proveedores
           deben, dentro de los diez días posteriores a la notificación, informar el
           nombre, dirección, DNI y CPF de los responsables de las publicaciones.
-=======
-          de Río de Janeiro asesinada en 2018]($url). Los ministros analizaron un
-          recurso de apelación interpuesto por la pareja de Marielle, Mónica
-          Benício, y su hermana, Arielle Barbosa, contra la decisión del Tribunal de
-          Justicia de Rio de Janeiro que negó el acceso a los datos de los
-          responsables de publicaciones consideradas ofensivas. Por unanimidad, los
-          ministros siguieron el entendimiento del relator, quien abogó por la
-          remoción del derecho a la privacidad de los usuarios ante la posibilidad
-          de que hayan cometido delitos contra el honor y la memoria de Marielle.
-          Asimismo, según el ponente, la solicitud de la familia de la exconsejera
-          estaría respaldada por el Marco Civil da Internet, sin conflicto con la
-          Ley General de Protección de Datos. Los proveedores deben, dentro de los
-          diez días posteriores a la notificación, informar el nombre, dirección,
-          DNI y CPF de los responsables de las publicaciones.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - plataformas-digitales
 
   - pais: Chile
     entradas:
       - fecha: 2021-11-20
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Continúan audiencias públicas en Convención Constitucional de Chile para
@@ -501,35 +317,10 @@ paises:
           de Televisoras Comunitarias, Centro de Estudios sobre Derecho Informático,
           Instituto Chileno de Derecho y Tecnología y el Capítulo Chile de Internet
           Society.
-=======
-        url: https://www.cconstituyente.cl/comisiones/comision_integrantes.aspx?prmID=31
-        texto: >-
-          Continúan audiencias públicas en Convención Constitucional de Chile para
-          los temas de derecho a la comunicación y derechos digitales Durante todo
-          el mes de noviembre, la [Comisión Nº7 ]($url)de la Convención
-          Constitucional de Chile sobre Sistemas de Conocimientos, Cultura, Ciencia,
-          Tecnología, Artes y Patrimonio ha seguido recibiendo audiencias públicas
-          con la participación de organizaciones e instituciones, expertas y
-          expertos en el área de las comunicaciones y tecnologías digitales, para
-          presentar propuestas y análisis en relación a la incorporación del derecho
-          a la comunicación y derechos digitales en la nueva Constitución que se
-          debate en Chile. Los temas de estas propuestas han abordado desde las
-          garantías a los principios de libertad de expresión y pluralismo, la
-          promoción de la democratización del sector de los medios de comunicación,
-          enfoque de género en las comunicaciones pero también sobre la necesidad de
-          reforzar el rol del Estado en la promoción de derechos como la
-          conectividad, protección de datos personales y privacidad, entre otros.
-          Algunas de las organizaciones que se han presentado son: Colegio de
-          Periodistas de Chile, ONG Derechos Digitales, MediaLab de FLACSO Chile,
-          Red de Periodistas Feministas Chile, Asociación de Televisoras
-          Comunitarias, Centro de Estudios sobre Derecho Informático, Instituto
-          Chileno de Derecho y Tecnología y el Capítulo Chile de Internet Society.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2021-11-28
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Continúa la
@@ -542,19 +333,6 @@ paises:
           de la propuesta para la libertad de expresión, situaciones de censura,
           entre otras. A la reciente carta propuesta de Internet Society Capítulo
           Chile con la adhesión de varias organizaciones de sociedad civil chilenas
-=======
-        url: https://www.chvnoticias.cl/historias/proyecto-regulacion-plataformas-%20digitales_20211128/
-        texto: >-
-          Continúa la [tramitación]($url) del proyecto de ley que busca regular a
-          plataformas digitales en Chile y que actualmente está en la Comisión de
-          Desafíos del Futuro, Ciencia, Tecnología e Innovación del Senado. El
-          proyecto de ley ha seguido recibiendo observaciones críticas de parte de
-          organizaciones de sociedad civil chilenas como internacionales, que han
-          advertido sobre los riesgos de la propuesta para la libertad de expresión,
-          situaciones de censura, entre otras. A la reciente carta propuesta de
-          Internet Society Capítulo Chile con la adhesión de varias organizaciones
-          de sociedad civil chilenas
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [alertando](https://www.derechosdigitales.org/16879/) sobre la propuesta
           del proyecto de ley, se ha sumado otra coordinada desde la ONG Derechos
           Digitales. El Relator de Libertad de Expresión de la Comisión
@@ -568,10 +346,7 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2021-11-17
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El partido del gobierno, Centro Democrático, presentó un proyecto de ley
           para permitir que en las campañas electorales al Congreso, gobernaciones,
@@ -585,17 +360,12 @@ paises:
           - electoral
 
       - fecha: 2021-11-22
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://web.karisma.org.co/el-codigo-electoral-sin-debate-ni-transparencia-una-reforma-llena-de-problemas/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La Registraduría Nacional del Estado Civil y el Consejo Nacional Electoral
           solicitaron a la Corte Constitucional acelerar el estudio automático de
           constitucionalidad del Código Electoral. El código, que fue aprobado en
           diciembre de 2020, recibió críticas de [organizaciones de la sociedad
-<<<<<<< HEAD
           civil](https://web.karisma.org.co/el-codigo-electoral-sin-debate-ni-transparencia-una-reforma-llena-de-problemas/)
           porque, entre otras cosas, podría castigar expresiones críticas en contra
           de partidos y movimientos políticos. La promulgación del código, que
@@ -603,14 +373,6 @@ paises:
           la Registraduría y el Consejo Nacional Electoral por las elecciones
           presidenciales de marzo de 2022. Sin embargo, el 22 de noviembre, la Corte
           Constitucional decidió [no acelerar el
-=======
-          civil]($url) porque, entre otras cosas, podría castigar expresiones
-          críticas en contra de partidos y movimientos políticos. La promulgación
-          del código, que requiere la aprobación previa de la Corte Constitucional,
-          es de interés de la Registraduría y el Consejo Nacional Electoral por las
-          elecciones presidenciales de marzo de 2022. Sin embargo, el 22 de
-          noviembre, la Corte Constitucional decidió [no acelerar el
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           trámite](https://www.asuntoslegales.com.co/actualidad/corte-constitucional-decidio-no-tramitar-el-nuevo-codigo-electoral-con-urgencia-nacional-3264816),
           encontrando que los argumentos dados por estas instituciones no son
           suficientes. La Corte tiene plazo para resolver hasta febrero de 2022.
@@ -618,7 +380,6 @@ paises:
           - electoral
 
       - fecha: 2021-11-24
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En la fecha se cumplieron cinco años de la firma del acuerdo de paz entre
@@ -638,56 +399,25 @@ paises:
           operativos como cortes constantes de energía en algunas regiones. En el
           asunto de la pauta oficial no hay avances. El informe completo de la FLIP
           se encuentra
-=======
-        url: https://flip.org.co/index.php/es/informacion/noticias/item/2830-prensa-y-paz-que-se-ha-cumplido-y-que-sigue-pendiente
-        texto: >-
-          En la fecha se cumplieron cinco años de la firma del acuerdo de paz entre
-          el gobierno de Colombia y la guerrilla de las FARC. Este acuerdo
-          estableció [tres puntos claves]($url) sobre el fortalecimiento de los
-          medios de comunicación en el país: (i) abrir convocatorias para nuevas
-          emisoras comunitarias y capacitaciones dirigidas a trabajadores de estos
-          medios, (ii) creación de veinte emisoras de paz en territorios altamente
-          impactados por el conflicto y (iii) promover ajustes a la regulación para
-          la asignación de la pauta oficial. Según reporta la Fundación para la
-          Libertad de Prensa (FLIP), tras cinco años el gobierno ha cumplido a
-          medias. Si bien ha avanzado en abrir las convocatorias para nuevas
-          emisoras, la FLIP denuncia que no ha habido acompañamiento que garantice
-          la sostenibilidad de los nuevos medios. Once de veinte emisoras para la
-          paz han sido creadas, pero enfrentan problemas operativos como cortes
-          constantes de energía en algunas regiones. En el asunto de la pauta
-          oficial no hay avances. El informe completo de la FLIP se encuentra
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [aquí](https://flip.org.co/images/FLIP_C.E._Medios_acuerdo-paz_2021.pdf).
         etiquetas:
           - libertad-de-expresion
           - publicidad-oficial
           - discurso-de-odio
 
-<<<<<<< HEAD
   - pais: Ecuador
     entradas:
       - fecha: 2021-11-13
         tipo: proyecto
-=======
-  - pais: México
-    entradas:
-      - fecha: 2021-11-13
-        url: https://elpais.com/internacional/2021-11-13/nueva-masacre-en-la-carcel-de-guayaquil-con-al-menos-58-presos-muertos.html
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Ecuador vive un momento extremadamente complejo y sensible por las
           masacres que azotan las cárceles en el país y que dejan cientos de
           muertos. Hasta este momento el Estado no ha podido tomar un control
           efectivo de las cárceles en el país lo que genera una situación de extrema
           inseguridad y ausencia de garantías para la vida de las personas privadas
-<<<<<<< HEAD
           de libertad. El 13 de noviembre de 2021, una
           [masacre](https://elpais.com/internacional/2021-11-13/nueva-masacre-en-la-carcel-de-guayaquil-con-al-menos-58-presos-muertos.html)
           en la Penitenciaría del Litoral, en Guayaquil, dejó alrededor de setenta
-=======
-          de libertad. El 13 de noviembre de 2021, una [masacre]($url) en la
-          Penitenciaría del Litoral, en Guayaquil, dejó alrededor de setenta
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           muertos. Este es un asunto de enorme trascendencia nacional y de
           particular importancia para la vigencia de los derechos humanos en el
           país, sin embargo la capacidad de los periodistas de cubrir las noticias y
@@ -699,7 +429,6 @@ paises:
         etiquetas:
           - libertad-de-prensa
 
-<<<<<<< HEAD
   - pais: México
     entradas:
       - fecha: 2021-11-01
@@ -713,23 +442,10 @@ paises:
           acción para erradicar la violencia contra la prensa, medidas de protección
           para las familias de los periodistas antes mencionadas, y una
           investigación diligente de los asesinatos.
-=======
-      - fecha: 2021-11-01
-        url: https://articulo19.org/dos-asesinatos-y-abusos-de-poder-resultados-de-un-estado-que-omite-proteger-a-la-prensa/
-        texto: >-
-          La organización [Artículo 19]($url) condenó los asesinatos de dos
-          periodistas (Fredy López – Chiapas y Alfredo Cardoso – Guerrero) ocurridas
-          los días 28 y 29 de octubre de 2021 respectivamente, y exigió a las
-          autoridades federales y estatales tomar acción para erradicar la violencia
-          contra la prensa, medidas de protección para las familias de los
-          periodistas antes mencionadas, y una investigación diligente de los
-          asesinatos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2021-11-02
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización [Artículo
@@ -738,31 +454,16 @@ paises:
           Juan Nelcio Espinoza Menera porque hay fuertes indicios de que el
           periodista fue víctima de tortura a manos de servidores públicos de
           Coahuila.
-=======
-        url: https://articulo19.org/article-19-confirma-tortura-de-autoridades-estatales-de-coahuila-como-causa-de-muerte-del-periodista-juan-nelcio/
-        texto: >-
-          La organización [Artículo 19]($url) actualizó información a la opinión
-          pública de la muerte del periodistas Juan Nelcio Espinoza Menera porque
-          hay fuertes indicios de que el periodista fue víctima de tortura a manos
-          de servidores públicos de Coahuila.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2021-11-04
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización [Artículo
           19](https://articulo19.org/iniciativa-de-reforma-criminaliza-la-libertad-de-expresion-en-las-consultas-populares-y-la-revocacion-de-mandato/)
           alertaba de la iniciativa a presentarse el 9 de noviembre de 2021 por el
           [Senador Salomón Jara
-=======
-        url: https://articulo19.org/iniciativa-de-reforma-criminaliza-la-libertad-de-expresion-en-las-consultas-populares-y-la-revocacion-de-mandato/
-        texto: >-
-          La organización [Artículo 19]($url) alertaba de la iniciativa a
-          presentarse el 9 de noviembre de 2021 por el [Senador Salomón Jara
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Cruz](https://infosen.senado.gob.mx/sgsp/gaceta/65/1/2021-11-09-1/assets/documentos/Ini_Morena_Sen_Jara_Delitos_Electorales.pdf),
           del Partido MORENA, en la que se busca reformar las leyes federales de
           consulta popular y de revocación de mandato, así como la ley general en
@@ -778,7 +479,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2021-11-08
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Fiscalía General de la
@@ -787,15 +487,6 @@ paises:
           su probable responsabilidad en la comisión del delito de intervención
           ilegal de comunicaciones agravado en perjuicio de una periodista,
           utilizando el software conocido públicamente como _Pegasus_”. [Artículo
-=======
-        url: https://www.gob.mx/fgr/prensa/comunicado-fgr-449-21-fgr-informa
-        texto: >-
-          La [Fiscalía General de la República]($url) anunció que “obtuvo orden de
-          aprehensión en contra de Juan Carlos “G”, por su probable responsabilidad
-          en la comisión del delito de intervención ilegal de comunicaciones
-          agravado en perjuicio de una periodista, utilizando el software conocido
-          públicamente como _Pegasus_”. [Artículo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           19](https://articulo19.org/avance-del-caso-pegasus-en-mexico-debe-ser-un-punto-de-no-retorno-que-ayude-a-esclarecer-un-crimen-de-talla-mundial/)
           reconoce a periodistas y personas defensoras de derechos humanos que
           denunciaron los hechos en 2017.
@@ -803,7 +494,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2021-11-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización
@@ -815,23 +505,10 @@ paises:
           garantiza la cadena de confianza y este organismo autónomo ha impedido
           revisar las observaciones realizadas a las auditorías al sistema de voto
           por internet, al reservar la información por cinco años.
-=======
-        url: https://r3d.mx/2021/11/09/consejero-presidente-del-ine-miente-sobre-el-voto-por-internet-a-la-camara-de-diputados/
-        texto: >-
-          La organización [R3D]($url) señaló que el Presidente del Instituto
-          Nacional Electoral de México, mintió en su comparecencia ante la Cámara de
-          Diputados/as/es al decir que no hay ningún reclamo por el voto por
-          internet. Al respecto R3D recordó que existen cuestionamientos porque el
-          diseño para el voto por internet no garantiza la cadena de confianza y
-          este organismo autónomo ha impedido revisar las observaciones realizadas a
-          las auditorías al sistema de voto por internet, al reservar la información
-          por cinco años.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - electoral
 
       - fecha: 2021-11-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Varias organizaciones de la sociedad
@@ -842,22 +519,10 @@ paises:
           diversos actos de violencia contra la periodista Cecilia Reyna Solís
           Martín quien ha dado seguimiento a las violaciones de derechos humanos
           ocurridas en la protesta del 9 de noviembre de 2020.
-=======
-        url: https://articulo19.org/aumentan-hostigamientos-contra-periodista-en-quintana-roo-a-un-ano-de-las-protestas-feministas-del-9n/
-        texto: >-
-          [Varias organizaciones de la sociedad civil]($url) (Artículo 19, el Comité
-          de Protección a Periodistas, Comunicación e Información de la Mujer A.C.,
-          la Red Nacional de Periodistas, la Red de Periodistas de Quintana Roo y
-          Reporteros Sin Fronteras) alertaron sobre diversos actos de violencia
-          contra la periodista Cecilia Reyna Solís Martín quien ha dado seguimiento
-          a las violaciones de derechos humanos ocurridas en la protesta del 9 de
-          noviembre de 2020.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2021-11-16
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Relatoría Especial para la Libertad de Expresión de la Comisión
@@ -869,18 +534,6 @@ paises:
           liderazgo público que ejercían oposición al gobierno. Es de resaltar que
           en el marco del 181 periodo de sesiones (18 a 29 de octubre de 2021) de la
           Comisión Interamericana de Derechos Humanos, [R3D, Artículo 19 y el Centro
-=======
-        url: http://www.oas.org/es/cidh/expresion/showarticle.asp?artID=1218&lID=2
-        texto: >-
-          La [Relatoría Especial para la Libertad de Expresión de la Comisión
-          Interamericana de Derechos Humanos]($url) exhortó al Estado de México a
-          continuar sus esfuerzos en la investigación del uso del software Pegasus
-          en México, mismo que se utilizó para espiar a periodistas, personas
-          defensoras de derechos humanos y personas con liderazgo público que
-          ejercían oposición al gobierno. Es de resaltar que en el marco del 181
-          periodo de sesiones (18 a 29 de octubre de 2021) de la Comisión
-          Interamericana de Derechos Humanos, [R3D, Artículo 19 y el Centro
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           PRODH](https://r3d.mx/2021/10/27/el-estado-mexicano-debe-esclarecer-el-uso-de-pegasus-y-garantizar-su-no-repeticion-piden-organizaciones-ante-la-cidh/)
           cuestionaron la ausencia de controles democráticos y la falta de
           transparencia en el uso e implementación estatal de tecnologías de
@@ -889,7 +542,6 @@ paises:
           - vigilancia
 
       - fecha: 2021-11-17
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En la fecha se notificó al Congreso de la Unión la determinación del
@@ -902,34 +554,16 @@ paises:
           que el ejercicio de dicho gasto cumpla con los criterios indicados,
           disminuyendo así la discrecionalidad de los agentes gubernamentales
           involucrados.”
-=======
-        url: https://articulo19.org/el-congreso-de-la-union-tiene-un-mes-para-emitir-nueva-ley-que-regule-la-publicidad-oficial/
-        texto: >-
-          En la fecha se notificó al Congreso de la Unión la determinación del
-          amparo en revisión 308/2020 promovido por la organización [Artículo
-          19]($url), en la que se declaró inconstitucional la Ley General de
-          Comunicación Social, y subsanar las deficiencias a más tardar el 15 de
-          diciembre de 2021, en particular lo que ordena es cumplir con los
-          requisitos de “contar con procedimientos concretos y reglas específicas
-          encaminadas a garantizar que el ejercicio de dicho gasto cumpla con los
-          criterios indicados, disminuyendo así la discrecionalidad de los agentes
-          gubernamentales involucrados.”
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2021-11-18
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://articulo19.org/cndh-actua-desproporcionada-e-ilegalmente-contra-defensor-de-ddhh/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Diversas organizaciones de la sociedad civil mexicanas ([Centro de
           Derechos Humanos Miguel Agustín Pro, Centro de Derechos Humanos de la
           Montaña “Tlachinollan”, Centro de Derechos Humanos Fray Bartolomé de las
           Casas, Artículo 19 y Comisión Independiente de Derechos Humanos de
-<<<<<<< HEAD
           Morelos](https://articulo19.org/cndh-actua-desproporcionada-e-ilegalmente-contra-defensor-de-ddhh/)
           plantearon su preocupación por las acciones legales que ha impulsado la
           Comisión Nacional de los Derechos Humanos (CNDH) en contra del defensor de
@@ -950,30 +584,10 @@ paises:
           medios y una posible investigación por lavado de dinero, puede
           interpretarse como hostigamiento por el ejercicio de la libertad de
           expresión.
-=======
-          Morelos]($url)) plantearon su preocupación por las acciones legales que ha
-          impulsado la Comisión Nacional de los Derechos Humanos (CNDH) en contra
-          del defensor de derechos humanos José Martínez Cruz, quien fungió como
-          Primer Visitador General de la CNDH y expresó públicamente sus diferencias
-          con la actual titular del organismo por la falta de investigación sobre el
-          Ejército en graves violaciones a derechos humanos.
-
-      - fecha: 2021-11-18
-        url: https://articulo19.org/gobierno-de-puebla-mantiene-acoso-contra-prensa-critica/
-        texto: >-
-          La organización [Artículo 19]($url) alertó sobre diversos actos de la
-          Secretaría de Planeación y Finanzas de Puebla contra los medios de
-          comunicación e-consulta, dirigido Rodolfo Ruíz y El Popular a través de su
-          directora Carolina Fernández, que en el contexto de las siete demandas de
-          daño moral en contra de estos mismos medios y una posible investigación
-          por lavado de dinero, puede interpretarse como hostigamiento por el
-          ejercicio de la libertad de expresión.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2021-11-22
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En la fecha se publicó en el Diario Oficial de la Federación, el
@@ -981,14 +595,6 @@ paises:
           por el cual se clasifica como proyectos de interés público y seguridad
           nacional los proyectos y obras del Gobierno Federal vinculados a
           infraestructura en comunicaciones, telecomunicaciones, aduanero,
-=======
-        url: http://dof.gob.mx/nota_detalle.php?codigo=5635985&fecha=22/11/2021
-        texto: >-
-          En la fecha se publicó en el Diario Oficial de la Federación, el
-          [Acuerdo]($url) por el cual se clasifica como proyectos de interés público
-          y seguridad nacional los proyectos y obras del Gobierno Federal vinculados
-          a infraestructura en comunicaciones, telecomunicaciones, aduanero,
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           fronterizo, hidráulico, hídrico, medio ambiente, turístico, salud, vías
           férreas, ferrocarriles, energéticos, puertos, aeropuertos, o lo que se
           consideren prioritarios o estratégicos para el desarrollo nacional. La
@@ -1005,17 +611,11 @@ paises:
           Controversia Constitucional ante la Suprema Corte de Justicia de la Nación
           en contra del Acuerdo que determina obras de infraestructura del Gobierno
           Federal como Seguridad Nacional ([Comunicado
-<<<<<<< HEAD
           INAI-412-21.pdf](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-412-21.pdf).
-          CONECTIVIDAD
-=======
-          INAI-412-21.pdf](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-412-21.pdf)).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Paraguay
     entradas:
       - fecha: 2021-11-02
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se presentó en la Cámara de Diputados el [Proyecto de
@@ -1028,25 +628,10 @@ paises:
           libertad, la seguridad y la estabilidad laboral de todas aquellas personas
           que se encuentren en situación de riesgo como consecuencia del ejercicio
           del periodismo, el trabajo de prensa o la defensa de los derechos humanos.
-=======
-        url: http://silpy.congreso.gov.py/expediente/124598
-        texto: >-
-          Se presentó en la Cámara de Diputados el [Proyecto de Ley]($url) de
-          Protección a Periodistas, Comunicadores y Defensores de los Derechos
-          Humanos.Este proyecto tiene el objetivo de establecer las bases de
-          cooperación y coordinación entre los Poderes del Estado, organismos
-          públicos internacionales, instituciones públicas, organizaciones, personas
-          privadas y sociedad civil con el fin de garantizar la vida, la integridad,
-          la libertad, la seguridad y la estabilidad laboral de todas aquellas
-          personas que se encuentren en situación de riesgo como consecuencia del
-          ejercicio del periodismo , el trabajo de prensa o la defensa de los
-          derechos humanos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2021-11-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En la fecha, por iniciativa del Poder Ejecutivo ingresó el [Proyecto de
@@ -1069,49 +654,16 @@ paises:
           documentos confidenciales que afectan a los derechos y libertades de la
           ciudadanía (protección de datos) y las empresas, documentación sub judice,
           la estabilidad entre el punto de origen y destino, entre otras.
-          COOPERACION INTERNACIONAL
-=======
-        url: http://silpy.congreso.gov.py/expediente/124673
-        texto: >-
-          En la fecha, por iniciativa del Poder Ejecutivo ingresó el [Proyecto de
-          Ley]($url) “Que Aprueba El Tratado Relativo a La Transmisión Electrónica
-          de Solicitudes de Cooperación Jurídica Internacional entre Autoridades
-          Centrales”, Firmado en la Ciudad de Medellín, República de Colombia, El 24
-          Y 25 de Julio de 2019. El Tratado es un acuerdo internacional para la
-          transmisión electrónica de solicitudes de cooperación jurídica
-          internacional entre Autoridades Centrales, negociado en el marco de la
-          Conferencia de Ministros de Justicia de los Países Iberoamericanos
-          (COMJIB). Regula el uso de la plataforma electrónica Iber@, sistema de
-          comunicación seguro de la Red Iberoamericana de Cooperación Jurídica
-          Internacional (IberRed), como medio formal y preferente de transmisión de
-          solicitudes de cooperación jurídica internacional entre autoridades
-          centrales mediante certificados electrónicos seguros, dotados de firma
-          digital, en el marco de los tratados vigentes entre las Partes.Por tanto,
-          se efectuará un paso del servicio de courier al virtual, lo cual tendrá
-          ventajas en la celeridad de los envíos, la seguridad e integridad de los
-          expedientes, documentos confidenciales que afectan a los derechos y
-          libertades de la ciudadanía (protección de datos) y las empresas,
-          documentación sub judice, la estabilidad entre el punto de origen y
-          destino, entre otras.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Perú
     entradas:
       - fecha: 2021-11-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Ministerio Público [inició una
           investigación](https://ojo-publico.com/3147/fiscalia-investiga-ojopublico-por-publicar-audios-del-caso-lava-jato)
           contra un periodista por supuesto delito de revelación de la identidad de
           un aspirante a colaborador eficaz, tipificado en el [artículo
-=======
-        url: https://ojo-publico.com/3147/fiscalia-investiga-ojopublico-por-publicar-audios-del-caso-lava-jato
-        texto: >-
-          El Ministerio Público [inició una investigación]($url) contra un
-          periodista por supuesto delito de revelación de la identidad de un
-          aspirante a colaborador eficaz, tipificado en el [artículo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           409-B](https://lpderecho.pe/codigo-penal-peruano-actualizado/#:~:text=Art%C3%ADculo%20409%2DB,2%20y%204.)
           del Código Penal. La investigación penal se ha dirigido contra Ernesto
           Cabral, periodista de Ojo Público, quien en el año 2019 escribió un
@@ -1134,7 +686,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2021-11-17
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El líder del partido político Alianza para el Progreso (APP), César Acuña,
@@ -1143,16 +694,6 @@ paises:
           Acosta y la editorial Penguin Random House Perú, para garantizar el pago
           de la reparación civil que Acuña ha requerido como parte de su querella
           contra el periodista y la editorial por supuesto delito de
-=======
-        url: https://larepublica.pe/politica/2021/11/17/cesar-acuna-solicito-embargar-bienes-de-periodista-christopher-acosta-por-querella-en-su-contra/
-        texto: >-
-          El líder del partido político Alianza para el Progreso (APP), César Acuña,
-          [solicitó]($url) al Poder Judicial el embargo de los bienes del periodista
-          Christopher Acosta y la editorial Penguin Random House Perú, para
-          garantizar el pago de la reparación civil que Acuña ha requerido como
-          parte de su querella contra el periodista y la editorial por supuesto
-          delito de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [difamación](https://lpderecho.pe/codigo-penal-peruano-actualizado/#:~:text=Art%C3%ADculo%20132.%2D%C2%A0Difamaci%C3%B3n,sesenticinco%20d%C3%ADas%2Dmulta).
           El periodista es el autor del libro “Plata como cancha”, el cual se centra
           en una investigación sobre Acuña, por lo que este último exigió 100
@@ -1168,7 +709,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2021-11-22
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En la fecha el ministro de Energía y Minas, Eduardo González,
@@ -1176,20 +716,11 @@ paises:
           que solo brindará declaraciones a los medios de comunicación “que no me
           hagan problemas”, evidenciando un tratamiento discriminatorio contra la
           prensa.
-=======
-        url: https://peru21.pe/politica/ministro-de-energia-y-minas-dice-que-respondera-a-medios-que-no-le-hagan-problemas-pero-los-esta-buscando-mirtha-vasquez-minem-mineria-oro-noticia/
-        texto: >-
-          En la fecha el ministro de Energía y Minas, Eduardo González,
-          [afirmó]($url) que solo brindará declaraciones a los medios de
-          comunicación “que no me hagan problemas”, evidenciando un tratamiento
-          discriminatorio contra la prensa.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - libertad-de-expresion
 
       - fecha: 2021-11-28
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El programa periodístico Cuarto Poder reveló que el presidente Pedro
@@ -1199,15 +730,6 @@ paises:
           distinto al Palacio de Gobierno, entre ellos y con representantes de
           empresas proveedoras del Estado. Ello pese a que la [Contraloría General
           de la
-=======
-        url: https://www.youtube.com/watch?v=PEr7vWIEECc
-        texto: >-
-          El programa periodístico Cuarto Poder reveló que el presidente Pedro
-          Castillo, un ministro de Estado y congresistas del partido oficialista
-          habían sostenido [reuniones secretas]($url) en un inmueble distinto al
-          Palacio de Gobierno, entre ellos y con representantes de empresas
-          proveedoras del Estado. Ello pese a que la [Contraloría General de la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           República](https://www.americatv.com.pe/noticias/actualidad/contraloria-advierte-falta-transparencia-gestion-pedro-castillo-n443643)
           y diversas organizaciones de la sociedad civil habían advertido hace unos
           meses que dicha práctica infringía los deberes de transparencia previstos
@@ -1217,7 +739,6 @@ paises:
           - acceso-a-la-informacion
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -1265,8 +786,4 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
-=======
-{{< observatorio-mes month="2021-11" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

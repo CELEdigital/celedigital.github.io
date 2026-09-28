@@ -1,16 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
-author: [mmdg]
-content_type: [boletin]
-date: '2021-03-10'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-scaled.jpg
-programs: [policy]
-slug: boletin-mensual-febrero-2021-observatorio-legislativo-cele
-tags: [institucional]
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 title: Boletín Mensual Febrero 2021 Observatorio Legislativo CELE
 slug: boletin-mensual-febrero-2021-observatorio-legislativo-cele
 date: 2021-03-10
@@ -27,17 +15,13 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
-<<<<<<< HEAD
       - tipo: proyecto
         texto: >-
           El 18 de febrero el presidente del CELS, Horacio Verbitsky, dio a conocer
@@ -46,16 +30,6 @@ paises:
           que habría accedido a la vacuna contra el COVID-19 por su cercanía con el
           entonces Ministro de Salud, Ginés García. Esto ocasionó que diversos
           sectores de la sociedad expresarán su descontento y
-=======
-      - fecha: 2021-02-18
-        url: https://www.infobae.com/politica/2021/02/19/horacio-verbitsky-admitio-que-llamo-a-gines-gonzalez-garcia-y-se-vacuno-en-el-ministerio-de-salud/
-        texto: >-
-          El 18 de febrero el presidente del CELS, Horacio Verbitsky, dio a conocer
-          en una [entrevista radial]($url) que habría accedido a la vacuna contra el
-          COVID-19 por su cercanía con el entonces Ministro de Salud, Ginés García.
-          Esto ocasionó que diversos sectores de la sociedad expresarán su
-          descontento y
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [protestasen](https://es.euronews.com/2021/02/28/protesta-por-el-escandalo-de-las-vacunas-vip-en-argentina)
           por la existencia de un potencial vacunatorio VIP para personas cercanas
           al poder además de exigir la
@@ -72,7 +46,6 @@ paises:
           autoridad judicial o sin autorización del paciente sería ilegal.
 
       - fecha: 2021-02-18
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 18 de febrero el Poder Ejecutivo mediante la Resolución 100/2021
@@ -82,35 +55,17 @@ paises:
           candidatura hasta el 13 de marzo de 2021 y convocó a la sociedad civil a
           una audiencia pública virtual el 23 de marzo de 2021. La postulación no
           fue bien recibida por diversas organizaciones de la [sociedad
-=======
-        url: https://www.argentina.gob.ar/noticias/propuesta-de-candidato-director-de-la-agencia#:~:text=El%20Poder%20Ejecutivo%20Nacional%20propuso,a%20director%20de%20la%20Agencia.&text=Mediante%20la%20publicaci%C3%B3n%20de%20la,Acceso%20a%20la%20Informaci%C3%B3n%20P%C3%BAblica.
-        texto: >-
-          El 18 de febrero el Poder Ejecutivo mediante la Resolución 100/2021
-          [postuló]($url) a Juan Fuertes para el cargo de Director de la Agencia de
-          Acceso a la Información Pública. Además habilitó la recepción de
-          comentarios a la candidatura hasta el 13 de marzo de 2021 y convocó a la
-          sociedad civil a una audiencia pública virtual el 23 de marzo de 2021. La
-          postulación no fue bien recibida por diversas organizaciones de la
-          [sociedad
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           civil](https://twitter.com/poderciudadano/status/1362378637463465989?s=20)
           por considerar que el candidato no es
           [idóneo](https://twitter.com/ACIJargentina/status/1367487909599862788?s=20)
           para el puesto en cuestión por no contar con demostrada experiencia en la
           temática.
 
-<<<<<<< HEAD
       - tipo: proyecto
         texto: >-
           Durante el discurso de apertura legislativa el presidente Alberto
           Fernández dio a conocer la [iniciativa para crear un DNI con
           chip](https://www.lavoz.com.ar/ciudadanos/dni-con-chip-dudas-por-seguridad-del-proyecto-de-alberto-fernandez).
-=======
-      - url: https://www.lavoz.com.ar/ciudadanos/dni-con-chip-dudas-por-seguridad-del-proyecto-de-alberto-fernandez
-        texto: >-
-          Durante el discurso de apertura legislativa el presidente Alberto
-          Fernández dio a conocer la [iniciativa para crear un DNI con chip]($url).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Distintas organizaciones de la [sociedad
           civil](https://twitter.com/FViaLibre/status/1368969763691585543?s=20) se
           expresaron en contra de este proyecto mencionando que no sería necesario
@@ -120,7 +75,6 @@ paises:
 
   - pais: Brasil
     entradas:
-<<<<<<< HEAD
       - tipo: proyecto
         texto: >-
           Se presentaron ante la Cámara de Diputados de Brasil tres proyectos de ley
@@ -139,71 +93,33 @@ paises:
           Los proyectos de ley aún están pendientes de votación.
 
       - tipo: proyecto
-=======
-      - url: https://www.internetlab.org.br/pt/itens-semanario/mci-pl-preve-ordem-judicial-como-requisito-para-moderacao-de-conteudo/
-        texto: >-
-          Se presentaron ante la Cámara de Diputados de Brasil tres proyectos de ley
-          sobre moderación de contenidos. El primero de ellos prevé [una orden
-          judicial como requisito]($url) para moderar los contenidos en Internet; el
-          segundo agrega nuevas disposiciones sobre el tema al Marco Brasileño de
-          Derechos Civiles en Internet (MCI), como la [nulidad de cláusulas
-          contractuales y términos de
-          adhesión](https://www.internetlab.org.br/pt/itens-semanario/mci-pl-preve-nulidade-de-clausulas-contratuais-de-moderacao-de-conteudo/)
-          que prevén "suspensión o indisponibilidad del contenido del usuario
-          **debido a orientación política o expresión de opinión**"; el tercero
-          pretende **responsabilizar judicialmente** a las plataformas de la
-          actividad de moderación de contenidos que [“censura o etiqueta contenido
-          de
-          opinión"](https://www.internetlab.org.br/pt/itens-semanario/responsabilidade-de-intermediarios-pl-quer-responsabilizar-plataformas-pela-atividade-de-moderacao-de-conteudo/).
-          Los proyectos de ley aún están pendientes de votación.
-
-      - url: https://www1.folha.uol.com.br/poder/2021/02/youtube-encerra-canal-bolsonarista-terca-livre-por-tempo-indeterminado.shtml
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El Tribunal de Justicia de San Pablo ha determinado que Google,
           propietario de YouTube, reactive dos cuentas de vídeo vinculadas a la
           extrema derecha y la defensa de las posiciones del presidente Jair
           Bolsonaro (Terça Livre TV y Terça Livre Live). [Ambas cuentas fueron
-<<<<<<< HEAD
           desactivadas por la plataforma a principios de
           febrero](https://www1.folha.uol.com.br/poder/2021/02/youtube-encerra-canal-bolsonarista-terca-livre-por-tempo-indeterminado.shtml),
           por incumplimiento de los lineamientos de la comunidad de Youtube. El juez
-=======
-          desactivadas por la plataforma a principios de febrero]($url), por
-          incumplimiento de los lineamientos de la comunidad de Youtube. El juez
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           consideró desproporcionada la medida de la plataforma, violando la
           garantía constitucional de libertad de expresión e información.
 
   - pais: Colombia
     entradas:
       - fecha: 2021-02-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 9 de febrero, la Ministra de las Tecnologías de la Información y las
           Comunicaciones, Karen Abudinen, [informó que el gobierno
           invertirá](https://www.mintic.gov.co/portal/inicio/Sala-de-Prensa/Noticias/161632:En-el-Dia-del-Periodista-la-ministra-Karen-Abudinen-ratifico-que-se-invertiran-85-mil-millones-para-financiar-la-transformacion-digital-de-los-medios-de-comunicacion)
-=======
-        url: https://www.mintic.gov.co/portal/inicio/Sala-de-Prensa/Noticias/161632:En-el-Dia-del-Periodista-la-ministra-Karen-Abudinen-ratifico-que-se-invertiran-85-mil-millones-para-financiar-la-transformacion-digital-de-los-medios-de-comunicacion
-        texto: >-
-          El 9 de febrero, la Ministra de las Tecnologías de la Información y las
-          Comunicaciones, Karen Abudinen, [informó que el gobierno invertirá]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           85 mil millones de pesos para financiar la reactivación económica y la
           transformación digital de los medios de comunicación
 
       - fecha: 2021-02-04
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 4 de febrero, la Corte Suprema de Justicia [revocó una
           condena](https://www.elespectador.com/noticias/judicial/vicky-davila-no-tendra-que-indemnizar-a-oficial-de-la-policia-corte-suprema/)
-=======
-        url: https://www.elespectador.com/noticias/judicial/vicky-davila-no-tendra-que-indemnizar-a-oficial-de-la-policia-corte-suprema/
-        texto: >-
-          El 4 de febrero, la Corte Suprema de Justicia [revocó una condena]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           contra Vicky Dávila, una de las periodistas más conocidas del país, que
           había sido dictada por el Tribunal de Bogotá. En la sentencia de octubre
           de 2020, la periodista había sido condenada a rectificar y pagar una alta
@@ -220,7 +136,6 @@ paises:
 
   - pais: Ecuador
     entradas:
-<<<<<<< HEAD
       - tipo: proyecto
         texto: >-
           En Ecuador se está juzgando un [caso
@@ -252,37 +167,6 @@ paises:
       - tipo: proyecto
         exp: '5792'
         url: 'https://www.fundacionlibertad.com/articulo/iniciativa-de-ley-5792-reformas-al-decreto-57-2008-ley-de-acceso-la-informacion-publica#:~:text=La%20iniciativa%205792%20entr%C3%B3%20a,Jos%C3%A9%20Alejandro%20de%20Le%C3%B3n%20Maldonado.'
-=======
-      - url: https://www.fundamedios.org.ec/alertas/fundamedios-rechaza-uso-sistema-de-justicia-vulnerar-libertad-de-expresion/#:~:text=La%20jueza%20Heidy%20Borja%20present%C3%B3,Malta%20en%20Guayaquil%20el%20a%C3%B1o
-        texto: >-
-          En Ecuador se está juzgando un [caso paradigmático]($url) en materia de
-          libertad de expresión. Veamos los antecedentes. A finales del año pasado
-          un accidente de tránsito conmocionó a la ciudadanía. Una mujer en estado
-          de ebriedad manejando un vehículo, arrolló a una persona y las imágenes
-          quedaron captadas en las cámaras de seguridad. La mujer fue aprehendida y
-          puesta a órdenes de una jueza quien dictó una medida alternativa a la
-          prisión preventiva. El caso impactó, y un medio de comunicación que cubrió
-          los hechos criticó a la jueza y cuestionó su accionar al ordenar una
-          medida que, en criterio de los periodistas, era insuficiente para la
-          gravedad del caso y daría cabida a que la procesada se fugue. La Jueza
-          presentó una acción de protección constitucional [la acción de amparo
-          ecuatoriana] señalando que el medio de comunicación había violado su
-          derecho a la honra y al buen nombre. El canal de TV se defendió con base
-          en los estándares de libertad de expresión nacionales e internacionales,
-          argumentando: a) que el caso es de interés público y que el discurso está
-          especialmente protegido al versar sobre la actuación de una funcionaria
-          pública; b) que las opiniones vertidas no están sujetas a un juicio de
-          veracidad. En sentencia de primera instancia, un Juez aceptó la demanda,
-          declaró la violación de derechos y ordenó diversas medidas de reparación
-          incluyendo: a) cursos de capacitación a periodistas; b) reparación
-          material; c) disculpas públicas a la Jueza. Actualmente el caso se
-          encuentra en fase de apelación.
-
-  - pais: Guatemala
-    entradas:
-      - exp: '5792'
-        url: https://www.fundacionlibertad.com/articulo/iniciativa-de-ley-5792-reformas-al-decreto-57-2008-ley-de-acceso-la-informacion-publica#:~:text=La%20iniciativa%205792%20entr%C3%B3%20a,Jos%C3%A9%20Alejandro%20de%20Le%C3%B3n%20Maldonado.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Avanza con paso firme en el Congreso de la República, la [Iniciativa de
           ley 5792]($url). Ha recibido ya dictamen favorable de la Comisión de
@@ -310,7 +194,6 @@ paises:
 
   - pais: México
     entradas:
-<<<<<<< HEAD
       - tipo: proyecto
         texto: >-
           El Presidente de la Junta de Coordinación Política del Senado, Ricardo
@@ -318,14 +201,6 @@ paises:
           [iniciativa](https://ricardomonrealavila.com/wp-content/uploads/2021/02/REDES-SOCIALES-Propuesta-Iniciativa-29.01.21.pdf)
           -aún no presentada formalmente en el Senado- para regular las plataformas
           digitales. Al respecto anunció un [foro digital
-=======
-      - url: https://ricardomonrealavila.com/wp-content/uploads/2021/02/REDES-SOCIALES-Propuesta-Iniciativa-29.01.21.pdf
-        texto: >-
-          El Presidente de la Junta de Coordinación Política del Senado, Ricardo
-          Monreal elaboró una [iniciativa]($url) -aún no presentada formalmente en
-          el Senado- para regular las plataformas digitales. Al respecto anunció un
-          [foro digital
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           abierto](https://ricardomonrealavila.com/regulacion-de-las-redes-sociales-en-mexico)
           para luego de concluir el proceso de consultas presentar la iniciativa en
           el Senado. La propuesta ha sido cuestionada por diversas organizaciones de
@@ -338,10 +213,7 @@ paises:
           derecho a la información ().
 
       - fecha: 2021-02-18
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El 18 de febrero, el 2do Tribunal Colegiado de Circuito en Materia
           Administrativa, Especializado en Competencia Económica, Radiodifusión y
@@ -352,7 +224,6 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2021-02-19
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 19 de febrero de 2021, el Gobierno Peruano publicó el [Reglamento de la
@@ -384,35 +255,4 @@ paises:
 
 {{< boletin-paises >}}
 
-=======
-        url: https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-el-reglamento-del-decreto-legisl-decreto-supremo-n-029-2021-pcm-1929103-3/
-        texto: >-
-          El 19 de febrero de 2021, el Gobierno Peruano publicó el [Reglamento de la
-          Ley de Gobierno Digital]($url) que establece las principales obligaciones
-          de las entidades públicas en materia de identidad digital,
-          interoperabilidad, provisión de servicios digitales, expediente
-          electrónico, arquitectura y seguridad digital, y gobierno de datos.
-
-      - fecha: 2021-02-26
-        url: https://leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL07222-20210226.pdf
-        texto: >-
-          El 26 de febrero de 2021, el partido Acción Popular presentó un [proyecto
-          de ley]($url) que plantea un gran número de prohibiciones para los
-          usuarios de redes sociales en Internet como: publicar cualquier
-          información de otra persona sin su consentimiento, descargar gratuitamente
-          contenidos protegidos por derechos de autor, publicar comentarios
-          “insultantes o amenazantes”, “usar lenguaje violento que incite al odio o
-          discriminar”, difundir noticias falsas “para atacar a un oponente político
-          o comercial”, o abrir una cuenta siendo menor de 14 años de edad. Además,
-          impone a los proveedores de estos servicios una obligación de vigilancia y
-          denuncia de cualquier acto criminal, y el deber de suscribir códigos de
-          conducta con un organismo regulador estatal para que asuman la
-          responsabilidad de implementar mecanismos de suspensión de contenidos.
----
-
-{{< observatorio-mes month="2021-02" >}}
-
-{{< boletin-paises >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 Agradecemos a nuestros/as consultores/as por su trabajo y aportes para este boletín regional: Juan Carlos Arjona Estévez (México), Victor Cabezas (Ecuador), Andrés Calderón (Perú), Álvaro Castellanos (Guatemala), Luisa Isaza (Colombia), Matías González (Argentina) Ártur Pericles (Brasil).

@@ -1,15 +1,5 @@
 ---
-<<<<<<< HEAD
 title: 'Boletín mensual Observatorio Legislativo | Julio 2022'
-=======
-author: [CELE]
-content_type: [boletin]
-date: '2022-07-29'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 slug: boletin-mensual-observatorio-legislativo-julio-2022
 date: 2022-07-29
 translationKey: wp-11768
@@ -25,18 +15,14 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2022-07-07
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo
@@ -44,13 +30,6 @@ paises:
           pronunció](https://www.lanacion.com.ar/sociedad/el-inadi-va-contra-el-gobierno-porteno-por-la-prohibicion-del-lenguaje-inclusivo-que-dijo-victoria-nid07072022/)
           respecto a la [normatividad que impuso el alcalde Larreta para prohibir el
           lenguaje
-=======
-        url: https://www.lanacion.com.ar/sociedad/el-inadi-va-contra-el-gobierno-porteno-por-la-prohibicion-del-lenguaje-inclusivo-que-dijo-victoria-nid07072022/
-        texto: >-
-          El Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo
-          (INADI), en cabeza de Victoria Donda, [se pronunció]($url) respecto a la
-          [normatividad que impuso el alcalde Larreta para prohibir el lenguaje
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           inclusivo](https://documentosboletinoficial.buenosaires.gob.ar/publico/ck_PE-RES-MEDGC-MEDGC-2566-22-6395.pdf)
           en las escuelas y confirmó que presentará un “Amicus Curiae” en el recurso
           de amparo presentado por la Federación Argentina de Lesbianas, Gays,
@@ -60,37 +39,31 @@ paises:
           Adujo que se vulneraron los derechos de una parte de la población a no ser
           discriminada y a ser invisibilizada. Desde el Centro de Estudios y
           Libertad de Expresión recomendamos la lectura del análisis de [Matías
-<<<<<<< HEAD
           González](/es/posts/la-batalla-por-la-inclusion-es-mas-que-linguistica/)
-=======
-          González](https://observatoriolegislativocele.com/la-batalla-por-la-inclusion-es-mas-que-linguistica/)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           sobre los desafíos del lenguaje inclusivo en Argentina.
         etiquetas:
           - libertad-de-expresion
           - discurso-de-odio
 
       - fecha: 2022-07-23
-<<<<<<< HEAD
-        tipo: proyecto
         texto: >-
           La Secretaría de Derechos Humanos de la Nación
           [denunció](https://www.pagina12.com.ar/439233-el-gobierno-denuncio-penalmente-a-aldo-rico-por-delitos-cont)
           penalmente al veterano Aldo Rico por generar un
-=======
-        url: https://www.pagina12.com.ar/439233-el-gobierno-denuncio-penalmente-a-aldo-rico-por-delitos-cont
-        texto: >-
-          La Secretaría de Derechos Humanos de la Nación [denunció]($url) penalmente
-          al veterano Aldo Rico por generar un
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [discurso](https://www.youtube.com/watch?v=NJq1rT6IFiM) en redes sociales
           donde incita a la población, especialmente a los militares y militares
           retirados, para alzarse en contra de la Constitución Nacional y de
           disponer de los poderes públicos democráticos, generando un mensaje
           golpista. Centros de defensa de los derechos humanos no dudaron en
           pronunciarse y alertar la gravedad del discurso difundido por Aldo Rico y
-          las consecuencias que ello puede acarrear. DISCURSO DE ODIO APOLOGIA El
-          gobierno provincial y la Comisión Nacional por el Derecho a la Identidad
+          las consecuencias que ello puede acarrear.
+        etiquetas:
+          - discurso-de-odio
+
+      - fecha: 2022-07-23
+        texto: >-
+          El gobierno provincial y la Comisión Nacional por el Derecho a la
+          Identidad
           [firmaron](https://www.pagina12.com.ar/439283-facilitan-el-acceso-a-la-informacion-para-identificar-a-vict)
           un acuerdo para generar un Registro de datos de personas que fueron
           víctimas durante la última dictadura cívico militar en Argentina. Esto con
@@ -101,11 +74,7 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2022-07-27
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.infobae.com/politica/2022/07/20/fuerte-respaldo-de-la-oposicion-a-ricardo-lopez-murphy-tras-el-bloqueo-de-militantes-k-que-sufrio-en-la-uba/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El diputado Ricardo López Murphy tuvo un altercado con los militantes
           kirchneristas al intentar ingresar al recinto de la Universidad de Buenos
@@ -114,23 +83,16 @@ paises:
           diputado y en el que le exigieron respuesta frente a la implementación del
           presupuesto educativo del 2001, cuando ejercía como ministro de Economía.
           Ante el bloqueo, dirigentes de la oposición [no dudaron en
-<<<<<<< HEAD
           pronunciarse](https://www.infobae.com/politica/2022/07/20/fuerte-respaldo-de-la-oposicion-a-ricardo-lopez-murphy-tras-el-bloqueo-de-militantes-k-que-sufrio-en-la-uba/)
           y respaldar al diputado, aduciendo la vulneración al derecho a la libertad
           de expresión de Ricardo Murphy por impedir la divulgación de su postura en
           dicha Universidad.
-=======
-          pronunciarse]($url) y respaldar al diputado, aduciendo la vulneración al
-          derecho a la libertad de expresión de Ricardo Murphy por impedir la
-          divulgación de su postura en dicha Universidad.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
   - pais: Brasil
     entradas:
       - fecha: 2022-06-08
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Instagram vs cantante. [La 4ª Clase de Apelaciones de los Tribunales
@@ -147,22 +109,6 @@ paises:
           diagonal de los derechos fundamentales" debe observarse en las relaciones
           entre particulares, "no siendo razonable la obstaculización injustificada
           del uso de los servicios disponibles para el
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2022/06/Documento-sem-titulo.pdf
-        texto: >-
-          Instagram vs cantante. [La 4ª Clase de Apelaciones de los Tribunales
-          Civiles y Penales Especiales de Bahía ordenó a Instagram indemnizar a un
-          cantante por la suspensión de su cuenta]($url) en la plataforma. El
-          cantante argumentó que la plataforma habría suspendido su cuenta sin
-          justificación y que el bloqueo lo habría perjudicado, ya que se le impidió
-          realizar transmisiones en directo. Instagram replicó que la suspensión
-          temporal se debía a la sospecha de práctica de spam por parte del usuario
-          y que liberó la cuenta tras concluir que no había ninguna violación de las
-          políticas de la plataforma. [En la decisión, el tribunal decidió que la
-          "eficacia horizontal y diagonal de los derechos fundamentales" debe
-          observarse en las relaciones entre particulares, "no siendo razonable la
-          obstaculización injustificada del uso de los servicios disponibles para el
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           público"](https://www.conjur.com.br/2022-jun-20/cantor-influencer-indenizado-bloqueio-instagram#:~:text=Cantor%20e%20digital%20influencer%20ser%C3%A1%20indenizado%20por%20bloqueio%20imotivado%20de%20rede%20social&text=Sob%20pena%20de%20causar%20dano,de%20acesso%20aos%20seus%20servi%C3%A7os.).
           También expresó que la "actitud arbitraria" de Instagram habría frustrado
           las expectativas del cantante, impedido el desempeño regular de su
@@ -172,28 +118,17 @@ paises:
           - censura
 
       - fecha: 2022-06-17
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2022/06/jud_semanario_24.06_moraes_pco.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Moraes vs OPC. El [ministro del Tribunal Supremo Federal (STF), Alexandre
           de Moraes, ordenó a las plataformas Twitter, Facebook, Instagram, Youtube,
           TikTok y Telegram a bloquear, en un plazo de 24 horas, los perfiles del
-<<<<<<< HEAD
           Partido da Causa Operária
           (PCO)](https://internetlab.org.br/wp-content/uploads/2022/06/jud_semanario_24.06_moraes_pco.pdf).
           La decisión se emitió después de que las plataformas presentarán recursos
           interlocutorios contra otra decisión del ministro, que [incluía al PCO en
           la investigación de noticias falsas y determinaba la suspensión de las
           cuentas del partido en las redes
-=======
-          Partido da Causa Operária (PCO)]($url). La decisión se emitió después de
-          que las plataformas presentarán recursos interlocutorios contra otra
-          decisión del ministro, que [incluía al PCO en la investigación de noticias
-          falsas y determinaba la suspensión de las cuentas del partido en las redes
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           sociales](https://internetlab.org.br/pt/semanario/10-06-2022/#19354). En
           el recurso, las plataformas solicitaron que el ministro reconsiderara la
           determinación anterior. [En la primera
@@ -212,16 +147,11 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-06-21
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://processo.stj.jus.br/processo/pesquisa/?src=1.1.2&aplicacao=processos.ea&tipoPesquisa=tipoPesquisaGenerica&num_registro=201402917771
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Desindexación de contenidos. [La 3ª Sala del Tribunal Superior de
           Justicia, por mayoría, confirmó la decisión del Tribunal que había
           determinado la desindexación de los resultados de los motores de búsqueda
-<<<<<<< HEAD
           en un caso que implicaba a una
           fiscal.](https://processo.stj.jus.br/processo/pesquisa/?src=1.1.2&aplicacao=processos.ea&tipoPesquisa=tipoPesquisaGenerica&num_registro=201402917771)
           En el caso, la fiscal había presentado una demanda contra Google, Yahoo y
@@ -229,14 +159,6 @@ paises:
           que incluían su nombre en relación con las acusaciones de fraude en el XLI
           Concurso de la Magistratura del Estado de Rio de Janeiro. El Tribunal ya
           había determinado que las plataformas debían desindexar los contenidos
-=======
-          en un caso que implicaba a una fiscal.]($url) En el caso, la fiscal había
-          presentado una demanda contra Google, Yahoo y Microsoft impugnando la
-          existencia de resultados de búsqueda en Internet que incluían su nombre en
-          relación con las acusaciones de fraude en el XLI Concurso de la
-          Magistratura del Estado de Rio de Janeiro. El Tribunal ya había
-          determinado que las plataformas debían desindexar los contenidos
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           relacionados con la fiscal. Sin embargo, en 2021, [el Tribunal Supremo
           Federal (STF) fijó la tesis de que el derecho al olvido es incompatible
           con la Constitución
@@ -253,16 +175,11 @@ paises:
           - privacidad
 
       - fecha: 2022-06-24
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2022/06/gregorio-hang-acordao.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Duvivier vs Luciano Hang. El [Tribunal de Justicia de Rio de Janeiro
           (TJ-RJ), negó el recurso presentado por el comediante Gregório Duvivier,
           en una acción de daños y perjuicios a favor del empresario Luciano
-<<<<<<< HEAD
           Hang](https://internetlab.org.br/wp-content/uploads/2022/06/gregorio-hang-acordao.pdf).
           Duvivier había sido condenado a pagar R$ 25 mil al Hang, propietario de la
           cadena de tiendas Havan, por publicar una foto en su perfil personal de
@@ -276,27 +193,12 @@ paises:
           uso del verbo 'matar' no se utilizó en el sentido literal de la palabra,
           sino como una forma de broma, el acto acabó generando una ola de odio"
           contra Hang, incitada por el tweet de
-=======
-          Hang]($url). Duvivier había sido condenado a pagar R$ 25 mil al Hang,
-          propietario de la cadena de tiendas Havan, por publicar una foto en su
-          perfil personal de Twitter con la leyenda "estoy tisti [(triste)] alguien
-          mata al viejo de Havan" (sic). La publicación alcanzó grandes
-          proporciones, lo que, según los jueces, habría generado una incitación a
-          la violencia contra Luciano. Gregório Duvivier impugnó la decisión
-          alegando que Hang es una figura pública, sujeta al escrutinio público, y
-          que él mismo sería uno de los humoristas más famosos del país, función
-          vinculada a la libertad de expresión y de prensa. [El ponente de la acción
-          argumentó que "aunque el uso del verbo 'matar' no se utilizó en el sentido
-          literal de la palabra, sino como una forma de broma, el acto acabó
-          generando una ola de odio" contra Hang, incitada por el tweet de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Duvivier](https://www.conjur.com.br/2022-jun-24/tj-rj-nega-recurso-duvivier-indenizar-luciano-hang#:~:text=Com%20esse%20entendimento%2C%20a%2019%C2%AA,uma%20postagem%20em%20rede%20social.).
         etiquetas:
           - libertad-de-expresion
           - discurso-de-odio
 
       - fecha: 2022-06-25
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           PGR vs Roberto Jefferson. [El Supremo Tribunal Federal (STF) decidió
@@ -308,17 +210,6 @@ paises:
           los delitos de incitación al delito de daños contra el patrimonio público,
           calumnias y homofobia. [La PGR destaca 7 hechos delictivos que
           presuntamente realizó
-=======
-        url: https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=489575&ori=1
-        texto: >-
-          PGR vs Roberto Jefferson. [El Supremo Tribunal Federal (STF) decidió
-          aceptar la acusación contra el exdiputado Roberto Jefferson (PTB/RJ) por
-          varios delitos]($url) relacionados al uso indebido de su libertad de
-          expresión. La Procuraduría General de la República (PGR) emitió la
-          denuncia contra el exdiputado por los delitos de incitación al delito de
-          daños contra el patrimonio público, calumnias y homofobia. [La PGR destaca
-          7 hechos delictivos que presuntamente realizó
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Jefferson](https://internetlab.org.br/wp-content/uploads/2022/06/B12471B96B9C85_voto-alexandre-jefferson.pdf):
           (i) incitación, en un programa de radio, a invadir el Senado Federal,
           impidiendo el libre ejercicio del Poder Legislativo; (ii) incitación, en
@@ -341,17 +232,12 @@ paises:
           - discurso-de-odio
 
       - fecha: 2022-06-29
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://internetlab.org.br/wp-content/uploads/2022/07/duvivier-mbl.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           MBL vs Duvivier. El [Tribunal de Justicia de Rio de Janeiro (TJ-RJ)
           condenó al Movimento Brasil Livre (MBL) a indemnizar al humorista Gregório
           Duvivier por el uso de su imagen en las críticas relacionadas con la Ley
           Rouanet (destinada a creación de programa nacionales de incentivo a la
-<<<<<<< HEAD
           cultura) publicadas en
           Facebook](https://internetlab.org.br/wp-content/uploads/2022/07/duvivier-mbl.pdf).
           Los mensajes hacían referencia a una operación de la Policía Federal
@@ -369,41 +255,18 @@ paises:
           indemnización de R$50 mil al humorista y la retirada de las publicaciones
           de Facebook, pero no aceptó las peticiones relativas a futuras
           publicaciones, alegando que constituyen "censura
-=======
-          cultura) publicadas en Facebook]($url). Los mensajes hacían referencia a
-          una operación de la Policía Federal llamada "Boca Livre", que pretendía
-          investigar la malversación de fondos por esa ley. Duvivier argumentó que
-          las publicaciones de la página del MBL buscaban vincular los beneficios
-          ilegales a la imagen de artistas posicionados políticamente en la
-          izquierda, como él mismo, el cantante Tico Santa Cruz y el actor Wagner
-          Moura, y que, debido al gran alcance de las publicaciones, se sucedieran
-          varios comentarios con ataques a su honor. En el recurso, el humorista
-          solicitaba una indemnización, así como la retirada de las citadas
-          publicaciones y la prohibición de nuevas publicaciones con la misma
-          noticia, o cualquier otra que exponga el nombre del autor de forma
-          "sensacionalista". [En la decisión de segunda instancia, el magistrado
-          ponente ordenó a la demandada el pago de una indemnización de R$50 mil al
-          humorista y la retirada de las publicaciones de Facebook, pero no aceptó
-          las peticiones relativas a futuras publicaciones, alegando que constituyen
-          "censura
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           previa"](https://www.conjur.com.br/2022-jun-30/mbl-indenizara-usar-imagem-duvivier-post-lei-rouanet).
         etiquetas:
           - censura
           - libertad-de-expresion
 
       - fecha: 2022-07-17
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2022/7/18/14/18/49/22c0c66e73a3a1c80609e1639dee402843bccab817b46008279fb929920c65ad
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Desinformación y elecciones. [El ministro Alexandre de Moraes, del
           Tribunal Superior Electoral (TSE), ordenó la retirada de varias
           publicaciones que contenían desinformación sobre el ex presidente, y
           actual candidato, Luiz Inácio Lula da Silva y el Partido de los
-<<<<<<< HEAD
           Trabajadores
           (PT)](https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2022/7/18/14/18/49/22c0c66e73a3a1c80609e1639dee402843bccab817b46008279fb929920c65ad).
           Las publicaciones fueron realizadas por personajes públicos, medios de
@@ -414,16 +277,6 @@ paises:
           Lula da Silva equiparando a los pobres con el papel higiénico" y
           "manifestaciones del ex presidente sugiriendo la existencia de una
           asociación entre el PT, el fascismo y el
-=======
-          Trabajadores (PT)]($url). Las publicaciones fueron realizadas por
-          personajes públicos, medios de comunicación, canales de YouTube y perfiles
-          en la red social Gettr. El contenido implica ["ilusiones sobre la
-          implicación entre el grupo criminal Primer Comando de la Capital (PCC), el
-          PT y el asesinato del ex alcalde Celso Daniel en 2002", "supuestos
-          discursos del precandidato Luiz Inácio Lula da Silva equiparando a los
-          pobres con el papel higiénico" y "manifestaciones del ex presidente
-          sugiriendo la existencia de una asociación entre el PT, el fascismo y el
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           nazismo"](https://www.jota.info/coberturas-especiais/liberdade-de-expressao/moraes-determina-que-bolsonaristas-removam-fake-news-associando-pt-ao-pcc-e-nazismo-18072022).
           En su decisión, el ministro dijo que la difusión de contenidos no veraces
           "puede comprometer la imparcialidad del proceso electoral, hiriendo los
@@ -440,7 +293,6 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2022-07-07
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Consejo de Estado confirmó en segunda instancia la condena en contra
@@ -456,39 +308,16 @@ paises:
           de Cundinamarca declaró la responsabilidad del Estado, decisión que fue
           confirmada por el Consejo de Estado, señalando que los crímenes fueron una
           grave violación a derechos humanos.
-=======
-        url: https://flip.org.co/index.php/es/informacion/pronunciamientos/item/2927-consejo-de-estado-declara-responsabilidad-del-estado-por-la-persecucion-del-das-en-contra-de-la-periodista-claudia-julieta-duque
-        texto: >-
-          El Consejo de Estado confirmó en segunda instancia la condena en contra
-          del Estado de Colombia por su responsabilidad por crímenes en contra de la
-          periodista [Claudia Julieta Duque]($url). En 2001, mientras investigaba el
-          asesinato del periodista Jaime Garzón, Duque fue víctima de una estrategia
-          de tortura organizada por el extinto Departamento Administrativo de
-          Seguridad (DAS), la institución estatal encargada de la inteligencia y
-          contrainteligencia en Colombia. Dicha estrategia involucró el secuestro,
-          vigilancia ilegal y tortura psicológica en contra de la periodista. En
-          marzo de 2020, el Tribunal Administrativo de Cundinamarca declaró la
-          responsabilidad del Estado, decisión que fue confirmada por el Consejo de
-          Estado, señalando que los crímenes fueron una grave violación a derechos
-          humanos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
 
       - fecha: 2022-07-13
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Fundación para la Libertad de Prensa [reportó
           agresiones](https://twitter.com/flip_org/status/1547316592228319232?s=21&t=bLay8QrN_S5cfCH5Wditew)
           en contra de los periodistas que han denunciado la presunta apropiación
-=======
-        url: https://twitter.com/flip_org/status/1547316592228319232?s=21&t=bLay8QrN_S5cfCH5Wditew
-        texto: >-
-          La Fundación para la Libertad de Prensa [reportó agresiones]($url) en
-          contra de los periodistas que han denunciado la presunta apropiación
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           ilegal por parte de funcionarios de los fondos destinados a los municipios
           priorizados por el proceso de paz. Según lo informado por la FLIP, uno de
           los periodistas que lideró la investigación fue víctima de amenazas y, por
@@ -499,11 +328,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-07-26
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.elespectador.com/judicial/corte-constitucional-ordena-rectificacion-al-autor-de-matarife/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La Corte Constitucional notificó su decisión a favor del expresidente
           Álvaro Uribe en un caso de tutela iniciado por Uribe en contra del
@@ -511,20 +336,15 @@ paises:
           periodista afirmaba, entre otras cosas, que Uribe era un genocida,
           narcotraficante, cabeza de un grupo paramilitar y responsable de varios
           asesinatos. Aunque el tribunal no ordenó retirar la serie de internet, sí
-<<<<<<< HEAD
           [ordenó
           rectificar](https://www.elespectador.com/judicial/corte-constitucional-ordena-rectificacion-al-autor-de-matarife/)
           estas afirmaciones.
-=======
-          [ordenó rectificar]($url) estas afirmaciones.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
   - pais: México
     entradas:
       - fecha: 2022-06-29
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [reportero del diario El Expreso en
@@ -535,21 +355,10 @@ paises:
           brindar medidas de atención y protección a la familia de Antonio de la
           Cruz, y al Gobernador tomar acciones para frenar la violencia en su
           entidad.
-=======
-        url: https://articulo19.org/asesinato-de-periodista-antonio-de-la-cruz-en-tamaulipas-refleja-ausencia-del-estado/
-        texto: >-
-          El [reportero del diario El Expreso en Tamaulipas]($url), Antonio de la
-          Cruz y sus hijas fueron atacadas con arma de fuego, y como consecuencia el
-          periodista perdió la vida. Artículo 19 exigió a las autoridades de
-          Tamaulipas, México el realizar una investigación diligente, brindar
-          medidas de atención y protección a la familia de Antonio de la Cruz, y al
-          Gobernador tomar acciones para frenar la violencia en su entidad.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-06-30
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [reportera Ana
@@ -561,38 +370,21 @@ paises:
           de julio de 2022, Artículo 19 denunció el hecho y exigió a las autoridades
           de Morelos una investigación diligente, y el respecto al ejercicio libre
           de la labor periodística en la entidad.
-=======
-        url: https://articulo19.org/periodista-de-morelos-es-agredida-por-la-policia-y-recibe-intimidaciones-en-linea-tras-denunciar/
-        texto: >-
-          La [reportera Ana Lilia]($url) sufrió agresiones por parte de un Policía
-          de Investigación de la Fiscalía General de Justicia del Estado de Morelos,
-          mientras cubría la conferencia del ex titular de la Unidad de Inteligencia
-          Financiera, Santiago Nieto. A este hecho le siguieron una serie de
-          amenazas en sus redes sociales. El 5 de julio de 2022, Artículo 19
-          denunció el hecho y exigió a las autoridades de Morelos una investigación
-          diligente, y el respecto al ejercicio libre de la labor periodística en la
-          entidad.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-07-01
-<<<<<<< HEAD
-        tipo: proyecto
         texto: >-
           Se dio a conocer que el ex titular de la Comisión Nacional de Búsqueda,
           Roberto Cabrera Alfaro fue [declarado
           culpable](https://r3d.mx/2022/07/01/extitular-de-la-comision-nacional-de-busqueda-es-sentenciado-por-entregar-perfiles-geneticos-a-empresa-privada/)
           de entregar más de 45 mil perfiles genéticos a una empresa privada.
-          PRIVACIDAD DATOS PERSONALES La [periodista Susana
-=======
-        url: https://r3d.mx/2022/07/01/extitular-de-la-comision-nacional-de-busqueda-es-sentenciado-por-entregar-perfiles-geneticos-a-empresa-privada/
+        etiquetas:
+          - privacidad
+
+      - fecha: 2022-07-01
         texto: >-
-          Se dio a conocer que el ex titular de la Comisión Nacional de Búsqueda,
-          Roberto Cabrera Alfaro fue [declarado culpable]($url) de entregar más de
-          45 mil perfiles genéticos a una empresa privada. PRIVACIDAD DATOS
-          PERSONALES La [periodista Susana
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+          La [periodista Susana
           Carreño](https://articulo19.org/organizaciones-exigen-a-autoridades-de-jalisco-investigar-ataque-contra-susana-mendoza-sin-desestimar-su-labor-periodistica/)
           fue atacada en su vehículo después de concluir la transmisión del programa
           Casa Ejidal de Vallarta. La agresión consistió en que chocaron su vehículo
@@ -605,7 +397,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-07-06
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Martha Olivia
@@ -618,23 +409,10 @@ paises:
           de redes sociales de Twitter y Facebook. Artículo 19 solicitó a las
           autoridades las medidas de protección a la periodista y la investigación
           de estos hechos.
-=======
-        url: https://articulo19.org/en-ascenso-violencia-contra-la-prensa-en-tamaulipas-urgen-acciones-preventivas-por-parte-del-estado/
-        texto: >-
-          [Martha Olivia López]($url), directora del medio digital de En un 2x3 y
-          corresponsal de otros medios de comunicación, fue intimidada por elementos
-          de seguridad de Tamaulipas, México, a partir de la documentación que hizo
-          sobre los bloqueos en la carretera de Ciudad Victoria-Monterrey. Estos
-          actos de intimidación fueron seguidos de una serie de acciones de personas
-          desconocidas en su usuario de redes sociales de Twitter y Facebook.
-          Artículo 19 solicitó a las autoridades las medidas de protección a la
-          periodista y la investigación de estos hechos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-07-12
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Artículo 19 y
@@ -648,25 +426,11 @@ paises:
           protección empresarial, sin considerar el respeto de los derechos humanos.
           Por lo anterior, las organizaciones pusieron a disposición de las
           autoridades los 10 principios sobre ciberseguridad.
-=======
-        url: https://articulo19.org/congreso-debe-incluir-a-la-sociedad-civil-en-la-creacion-la-ley-de-ciberseguridad-su-exclusion-es-antidemocratica-e-ignora-enfoque-de-dh%ef%bf%bc/
-        texto: >-
-          [Artículo 19 y R3D]($url) mostraron su preocupación con el proceso
-          legislativo en la Cámara de Diputados/as y Senadores/as en la creación de
-          una Ley Federal de Ciberseguridad. Las organizaciones señalan que hay al
-          menos quince proyectos, los cuales repiten los mismos vicios en su
-          contenido, en particular al criminalizar el uso cotidiano de internet en
-          el ejercicio de la libertad de expresión; y tener énfasis en las medidas
-          de seguridad y protección empresarial, sin considerar el respeto de los
-          derechos humanos. Por lo anterior, las organizaciones pusieron a
-          disposición de las autoridades los 10 principios sobre ciberseguridad.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
           - libertad-de-expresion
 
       - fecha: 2022-07-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [periodista Iván Soto
@@ -681,45 +445,21 @@ paises:
           Propuesta Cívica emitieron un comunicado exigiendo que las autoridades se
           abstengan de criminalizar al periodista, se establezcan medidas de
           protección y que se investiguen las amenazas del funcionario.
-=======
-        url: https://articulo19.org/gobernador-de-durango-amenaza-nuevamente-a-periodista/
-        texto: >-
-          El [periodista Iván Soto Hernández]($url), director del medio digital En
-          Vivo Durango denunció las amenazas que le realizó vía telefónica el 10 de
-          julio de 2022, el Gobernador de Durango, México. Las amenazas surgen del
-          reclamo del periodista por las agresiones sexuales que sufrió su hija y la
-          omisión en la realización de una investigación diligente por parte de las
-          autoridades en las que se señala como uno de los perpetradores al hijo de
-          un integrante de un partido político de la entidad. Al respecto, las
-          organizaciones Artículo 19 y Propuesta Cívica emitieron un comunicado
-          exigiendo que las autoridades se abstengan de criminalizar al periodista,
-          se establezcan medidas de protección y que se investiguen las amenazas del
-          funcionario.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - libertad-de-expresion
 
       - fecha: 2022-07-19
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://articulo19.org/enogdai/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Artículo 19 presentó la evaluación que realizó a los 33 Organismos
           Garantes del Derecho a la Información en México, denominada [_Evaluación
           Nacional de los Organismos Garantes del Derecho a la Información
-<<<<<<< HEAD
           (ENOGDAI)_](https://articulo19.org/enogdai/).
-=======
-          (ENOGDAI)_]($url).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2022-07-21
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [periodista Marina del Carmen Morales
@@ -729,23 +469,12 @@ paises:
           su familia con imágenes de cuerpos desmembrados. Al respecto, el 27 de
           julio de 2022, Artículo 19 emitió un comunicado requiriendo que las
           autoridades protejan a la periodista y que se investiguen estos hechos.
-=======
-        url: https://articulo19.org/periodista-recibe-amenazas-debido-a-sus-coberturas-sobre-politica-local-en-veracruz/
-        texto: >-
-          La [periodista Marina del Carmen Morales Carvallo]($url) recibió amenazas
-          como consecuencia de su labor periodística en Veracruz, México. Las
-          amenazas empezaron en 2021, en los que se incluyen mensajes a su familia
-          con imágenes de cuerpos desmembrados. Al respecto, el 27 de julio de 2022,
-          Artículo 19 emitió un comunicado requiriendo que las autoridades protejan
-          a la periodista y que se investiguen estos hechos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: Paraguay
     entradas:
       - fecha: 2022-07-01
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Un estudio realizado por el Instituto Nacional de Estadística (INE)
@@ -753,27 +482,13 @@ paises:
           internet](https://www.lanacion.com.py/pais/2022/07/01/datos-del-ine-77-de-la-poblacion-paraguaya-accede-actualmente-a-internet/).
           Los paraguayos utilizan en gran cantidad y en un gran porcentaje las redes
           sociales, y en menor porcentaje para acceder a las plataformas digitales
-          de servicios del Gobierno. ACCESO A INTERNET
+          de servicios del Gobierno.
 
       - fecha: 2022-07-19
         tipo: proyecto
         texto: >-
           La organización TEDIC [lanzó la campaña “Mis datos, mis
           derechos”](https://www.lanacion.com.py/pais/2022/07/19/tedic-lanza-campana-para-solicitar-aprobacion-de-la-ley-de-proteccion-de-datos-personales-en-el-congreso/)
-=======
-        url: https://www.lanacion.com.py/pais/2022/07/01/datos-del-ine-77-de-la-poblacion-paraguaya-accede-actualmente-a-internet/
-        texto: >-
-          Un estudio realizado por el Instituto Nacional de Estadística (INE)
-          [reveló que 77% de la población paraguaya accede actualmente a
-          internet]($url). Los paraguayos utilizan en gran cantidad y en un gran
-          porcentaje las redes sociales, y en menor porcentaje para acceder a las
-          plataformas digitales de servicios del Gobierno.
-
-      - fecha: 2022-07-19
-        url: https://www.lanacion.com.py/pais/2022/07/19/tedic-lanza-campana-para-solicitar-aprobacion-de-la-ley-de-proteccion-de-datos-personales-en-el-congreso/
-        texto: >-
-          La organización TEDIC [lanzó la campaña “Mis datos, mis derechos”]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           que busca hacer hincapié en la necesidad de contar con una ley de
           protección de datos personales en Paraguay. Bajo el lema “Mis datos, mis
           derechos”, esta iniciativa busca generar conciencia en todas las personas
@@ -784,7 +499,6 @@ paises:
           - privacidad
 
       - fecha: 2022-07-24
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Ley que regula la comercialización de criptoactivos fue sancionada por el
@@ -793,35 +507,18 @@ paises:
           sancionó la ley que regula la minería, comercialización, intermediación,
           intercambio, transferencia, custodia y administración de criptoactivos o
           instrumentos que permitan el control sobre criptoactivos.
-=======
-        url: https://www.hoy.com.py/especiales/los-alcances-de-la-nueva-ley-de-criptoactivos
-        texto: >-
-          [Ley que regula la comercialización de criptoactivos fue sancionada por el
-          Congreso]($url) y aguarda su promulgación o veto de parte del Ejecutivo.
-          El Legislativo sancionó la ley que regula la minería, comercialización,
-          intermediación, intercambio, transferencia, custodia y administración de
-          criptoactivos o instrumentos que permitan el control sobre criptoactivos.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - defensa-del-consumidor
 
   - pais: Perú
     entradas:
       - fecha: 2022-07-06
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Ejecutivo [remitió un proyecto de
           ley](https://canaln.pe/actualidad/ejecutivo-presenta-proyecto-ley-que-propone-sancionar-filtracion-informacion-n448048)
           al Congreso de la República que busca sancionar la difusión de información
           sobre una investigación penal. Este contempla que cualquiera de las partes
-=======
-        url: https://canaln.pe/actualidad/ejecutivo-presenta-proyecto-ley-que-propone-sancionar-filtracion-informacion-n448048
-        texto: >-
-          El Ejecutivo [remitió un proyecto de ley]($url) al Congreso de la
-          República que busca sancionar la difusión de información sobre una
-          investigación penal. Este contempla que cualquiera de las partes
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           -incluyendo a los operadores de justicia y periodistas - que difunda dicha
           información, a la misma que se le cataloga de reservada, sin excepciones,
           será sancionado con una pena privativa de libertad. El Instituto de Prensa
@@ -834,7 +531,6 @@ paises:
           parte, la Defensoría del Pueblo expresó su preocupación y señaló que esta
           propuesta buscaría inhibir la labor colaborativa de quienes brindan
           información esencial a las y los periodistas, afectando así la libertad de
-<<<<<<< HEAD
           expresión y el derecho a la información de la ciudadanía.
         etiquetas:
           - libertad-de-expresion
@@ -846,12 +542,6 @@ paises:
           El periodista de Cuarto Poder, Eduardo Quispe, su camarógrafo Elmer
           Valdivieso y el chofer de la móvil del equipo periodístico del canal de
           televisión fueron [retenidos por rondas
-=======
-          expresión y el derecho a la información de la ciudadanía. LIBERTAD DE
-          EXPRESION ACCESO A LA INFORMACION El periodista de Cuarto Poder, Eduardo
-          Quispe, su camarógrafo Elmer Valdivieso y el chofer de la móvil del equipo
-          periodístico del canal de televisión fueron [retenidos por rondas
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           campesinas](https://vocesdelsurunidas.org/incidentes/peru-rondas-campesinas-secuestran-periodistas-y-obligan-a-leer-mensaje-a-su-favor/)
           de Chadín, Chota, región Cajamarca, al nor-este del país, y forzados a
           leer un mensaje de “rectificación” y de compromiso a “no hacer daño al
@@ -867,7 +557,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-07-16
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Se publicó la Ley 31515, que modifica la regulación de la publicidad
@@ -880,24 +569,10 @@ paises:
           pauta de los avisos “cobren porcentajes o pago adicional alguno, como
           comisión de servicio, a los medios contratados para pasar los avisos de la
           publicidad estatal”
-=======
-        url: https://busquedas.elperuano.pe/normaslegales/ley-que-modifica-la-ley-28874-ley-que-regula-la-publicidad-ley-n-31515-2087208-1/
-        texto: >-
-          [Se publicó la Ley 31515, que modifica la regulación de la publicidad
-          estatal]($url). Entre los principales problemas de esta ley, destaca la
-          asignación de porcentajes mínimos de contratación de medios distritales,
-          provinciales y regionales, con prescindencia de que dichos medios sean
-          idóneos para transmitir eficazmente los mensajes publicitarios a la
-          población objetivo. Asimismo, se prohíbe que las centrales de medios
-          contratadas para hacer la pauta de los avisos “cobren porcentajes o pago
-          adicional alguno, como comisión de servicio, a los medios contratados para
-          pasar los avisos de la publicidad estatal”
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -945,8 +620,4 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
-=======
-{{< observatorio-mes month="2022-07" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

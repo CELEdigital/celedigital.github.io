@@ -15,18 +15,14 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2025-06-18
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada Ana Clara Romero presentó el [Proyecto de Ley N°
@@ -40,28 +36,11 @@ paises:
           salvo consentimiento expreso del usuario. También modifica los artículos
           sobre autoridad de aplicación y régimen sancionatorio, fortaleciendo el
           control sobre este tipo de comunicaciones.
-=======
-        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/3218-D-2025.pdf
-        texto: >-
-          La diputada Ana Clara Romero presentó el [Proyecto de Ley N°
-          3218-D-2025]($url). La iniciativa propone incorporar nuevas obligaciones a
-          la Ley N° 26.951 ("No Llame") para reforzar el derecho de los usuarios a
-          identificar llamadas y mensajes con fines comerciales, informativos o
-          publicitarios. El proyecto establece que estas comunicaciones deben
-          realizarse desde números con un prefijo especial asignado por el ENACOM, y
-          prohíbe su emisión entre las 21:00 y las 9:00, así como durante domingos y
-          feriados, salvo consentimiento expreso del usuario. También modifica los
-          artículos sobre autoridad de aplicación y régimen sancionatorio,
-          fortaleciendo el control sobre este tipo de comunicaciones.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2025-06-11
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 3101-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/3101-D-2025.pdf
         texto: >-
@@ -78,10 +57,7 @@ paises:
           - proteccion-de-menores
 
       - fecha: 2025-06-10
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 3034-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/3034-D-2025.pdf
         texto: >-
@@ -99,7 +75,6 @@ paises:
           - proteccion-de-menores
 
       - fecha: 2025-06-06
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se presentó ante la Cámara de Diputados el [Proyecto de Ley N°
@@ -110,26 +85,12 @@ paises:
           durante el proceso de compra, tanto en medios digitales como físicos. Se
           prohíbe desglosar cargos adicionales bajo conceptos como “service charge”
           o “gastos de gestión”, salvo que correspondan a opciones voluntarias
-          elegidas por el usuario. PUBLICIDAD
-
-      - fecha: 2025-06-05
-        tipo: proyecto
-=======
-        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2984-D-2025.pdf
-        texto: >-
-          Se presentó ante la Cámara de Diputados el [Proyecto de Ley N°
-          2984-D-2025]($url), presentado por Oscar Agost. La iniciativa busca
-          garantizar el derecho a la información del consumidor mediante la
-          obligación de publicar el precio final total de entradas para espectáculos
-          públicos en toda publicidad y durante el proceso de compra, tanto en
-          medios digitales como físicos. Se prohíbe desglosar cargos adicionales
-          bajo conceptos como “service charge” o “gastos de gestión”, salvo que
-          correspondan a opciones voluntarias elegidas por el usuario.
+          elegidas por el usuario.
         etiquetas:
           - defensa-del-consumidor
 
       - fecha: 2025-06-05
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+        tipo: proyecto
         exp: 2961-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2961-D-2025.pdf
         texto: >-
@@ -146,7 +107,6 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-06-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El senador Bartolomé Abdala presentó el [Proyecto de Ley
@@ -155,20 +115,10 @@ paises:
           iniciativa establece que los menores de 16 años no podrán otorgar por sí
           mismos consentimiento para el tratamiento de sus datos, debiendo hacerlo
           sus representantes legales.
-=======
-        url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/968.25/S/PL
-        texto: >-
-          El senador Bartolomé Abdala presentó el [Proyecto de Ley
-          S-0968/2025]($url), que propone modificar la Ley 25.326 de Protección de
-          Datos Personales. La iniciativa establece que los menores de 16 años no
-          podrán otorgar por sí mismos consentimiento para el tratamiento de sus
-          datos, debiendo hacerlo sus representantes legales.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - proteccion-de-menores
 
       - fecha: 2025-06-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La senadora Anabel Fernández Sagasti presentó el [Proyecto de Ley
@@ -181,24 +131,10 @@ paises:
           Identidad de Género. La iniciativa refuerza el derecho a ser juzgado con
           imparcialidad y sin discriminación, especialmente en causas que involucran
           a colectivos históricamente vulnerados.
-=======
-        url: http://senado.gob.ar/parlamentario/comisiones/verExp/949.25/S/PL
-        texto: >-
-          La senadora Anabel Fernández Sagasti presentó el [Proyecto de Ley
-          S-0949/2025]($url), que modifica el Código Procesal Penal de la Nación, el
-          Código Procesal Penal Federal y la Ley 26.485 para establecer como causal
-          de recusación o inhibición judicial la manifestación pública de posturas
-          contrarias a la perspectiva de género, la hostilidad hacia mujeres y
-          personas LGBTIQ+, la utilización de discursos de odio o el incumplimiento
-          de la Ley de Identidad de Género. La iniciativa refuerza el derecho a ser
-          juzgado con imparcialidad y sin discriminación, especialmente en causas
-          que involucran a colectivos históricamente vulnerados.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - discurso-de-odio
 
       - fecha: 2025-06-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La senadora Anabel Fernández Sagasti presentó el [Proyecto de Ley
@@ -211,25 +147,10 @@ paises:
           reparar las desapariciones forzadas, reconoce el derecho de los familiares
           a la información y a la verdad, y prohíbe expresamente las detenciones
           secretas y la obstaculización del acceso a registros oficiales.
-=======
-        url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/939.25/S/PL
-        texto: >-
-          La senadora Anabel Fernández Sagasti presentó el [Proyecto de Ley
-          S-0939/2025]($url), que propone otorgar jerarquía constitucional, en los
-          términos del artículo 75 inciso 22 de la Constitución Nacional, a la
-          Convención Internacional para la Protección de Todas las Personas contra
-          las Desapariciones Forzadas, adoptada por la ONU en 2006 y aprobada por la
-          Ley 26.298. El tratado establece obligaciones estatales para prevenir,
-          sancionar y reparar las desapariciones forzadas, reconoce el derecho de
-          los familiares a la información y a la verdad, y prohíbe expresamente las
-          detenciones secretas y la obstaculización del acceso a registros
-          oficiales.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2025-06-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La senadora Lucila Crexell presentó el [Proyecto de Ley
@@ -239,22 +160,11 @@ paises:
           penalizaría con prisión de hasta tres años a quienes impidan o restrinjan
           de manera deliberada el paso de personas o medios de transporte mediante
           el uso de elementos materiales o cadenas humanas.
-=======
-        url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/932.25/S/PL
-        texto: >-
-          La senadora Lucila Crexell presentó el [Proyecto de Ley
-          S-0932/2025]($url), que propone modificar el Código Penal para incorporar
-          el delito de obstrucción ilegítima de la libre circulación en la vía
-          pública. La norma penalizaría con prisión de hasta tres años a quienes
-          impidan o restrinjan de manera deliberada el paso de personas o medios de
-          transporte mediante el uso de elementos materiales o cadenas humanas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - protesta
           - libertad-de-expresion
 
       - fecha: 2025-06-04
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La senadora Lucila Crexell presentó el [Proyecto de Ley N°
@@ -265,25 +175,11 @@ paises:
           realiza con intención de cometer un delito o causar daño. Establece
           agravantes por edad, género o vínculo con la víctima, y prevé campañas de
           concientización sobre cuidados digitales.
-=======
-        url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/923.25/S/PL
-        texto: >-
-          La senadora Lucila Crexell presentó el [Proyecto de Ley N°
-          S-0923/25]($url). El proyecto incorpora un nuevo artículo al Código Penal
-          para tipificar penalmente la suplantación de identidad digital mediante el
-          uso de datos personales, imagen o inteligencia artificial sin
-          consentimiento, cuando se realiza con intención de cometer un delito o
-          causar daño. Establece agravantes por edad, género o vínculo con la
-          víctima, y prevé campañas de concientización sobre cuidados digitales.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2025-06-03
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 2906-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2906-D-2025.pdf
         texto: >-
@@ -292,16 +188,11 @@ paises:
           Electorales contra la Desinformación. La iniciativa establece el
           etiquetado obligatorio de contenidos generados por IA durante campañas
           políticas.
-<<<<<<< HEAD
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2025-06-03
         tipo: proyecto
-=======
-
-      - fecha: 2025-06-03
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 2904-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2904-D-2025.pdf
         texto: >-
@@ -316,10 +207,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-06-03
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 2903-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2903-D-2025.pdf
         texto: >-
@@ -333,10 +221,7 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2025-05-30
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 2818-D-2025
         url: https://www.hcdn.gob.ar/diputados/mborrego/proyecto.html?exp=2818-D-2025
         texto: >-
@@ -353,7 +238,6 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2025-06-17
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Los senadores Bianchi, Castro González, Castro Prieto, Kusanovic y Walker
@@ -361,19 +245,10 @@ paises:
           17.618-19](https://www.camara.cl/verDoc.aspx?prmID=17849&prmTIPO=INICIATIVA),
           que regula la obligación de establecer un sello visible y rastreable en
           todo contenido generado o modificado por IA que utilice datos personales.
-=======
-        url: https://www.camara.cl/verDoc.aspx?prmID=17849&prmTIPO=INICIATIVA
-        texto: >-
-          Los senadores Bianchi, Castro González, Castro Prieto, Kusanovic y Walker
-          presentaron el [Proyecto de Ley 17.618-19]($url), que regula la obligación
-          de establecer un sello visible y rastreable en todo contenido generado o
-          modificado por IA que utilice datos personales.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2025-06-13
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El ministro del Interior, [Álvaro
@@ -381,22 +256,11 @@ paises:
           rechazó públicamente el proyecto conocido como “Ley Mordaza 2.0”, que
           propone penalizar la divulgación de información de investigaciones penales
           reservadas, incluyendo a periodistas.
-=======
-        url: https://thetimes.cl/contenido/5546/alvaro-elizalde-rechaza-ley-mordaza-20-que-limita-libertad-de-expresion
-        texto: >-
-          El ministro del Interior, [Álvaro Elizalde]($url), rechazó públicamente el
-          proyecto conocido como “Ley Mordaza 2.0”, que propone penalizar la
-          divulgación de información de investigaciones penales reservadas,
-          incluyendo a periodistas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2025-06-10
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 17611-15
         url: https://www.camara.cl/legislacion/proyectosdeley/tramitacion.aspx?prmID=18255&prmBOLETIN=17611-15
         texto: >-
@@ -413,7 +277,6 @@ paises:
   - pais: Paraguay
     entradas:
       - fecha: 2025-06-23
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           A [finales de mayo de
@@ -422,24 +285,12 @@ paises:
           Salud, incluyendo nombres, direcciones, deudas fiscales y registros
           biométricos de reconocimiento facial. También se vieron afectados sistemas
           del TSJE, Hacienda, Banco Central, Itaipú y Policía Nacional.
-=======
-        url: https://www.tedic.org/ciberseguridad-en-paraguay-entre-la-urgencia-y-la-improvisacion-legislativa
-        texto: >-
-          A [finales de mayo de 2025]($url) se detectó una fuga masiva de datos
-          sensibles desde el Ministerio de Salud, incluyendo nombres, direcciones,
-          deudas fiscales y registros biométricos de reconocimiento facial. También
-          se vieron afectados sistemas del TSJE, Hacienda, Banco Central, Itaipú y
-          Policía Nacional.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
           - acceso-a-la-informacion
 
       - fecha: 2025-06-18
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: D-2585358
         url: https://silpy.congreso.gov.py/web/expediente/143792
         texto: >-
@@ -454,10 +305,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-06-12
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: D-2585276
         url: https://silpy.congreso.gov.py/web/expediente/143643
         texto: >-
@@ -470,16 +318,10 @@ paises:
           ciberseguridad y protección al usuario, además de disposiciones
           específicas para el uso y fiscalización de energía eléctrica. También
           propone sanciones administrativas y penales para las operaciones no
-<<<<<<< HEAD
-          registradas o clandestinas. REGULACIÓN DIGITAL
-
-      - fecha: 2025-06-12
-        tipo: proyecto
-=======
           registradas o clandestinas.
 
       - fecha: 2025-06-12
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+        tipo: proyecto
         exp: D-2585277
         url: https://silpy.congreso.gov.py/web/expediente/143651
         texto: >-
@@ -493,17 +335,11 @@ paises:
           excepciones para usos artísticos, educativos o satíricos, siempre que se
           advierta.
         etiquetas:
-<<<<<<< HEAD
           - libertad-de-expresion
           - plataformas-digitales
 
       - fecha: 2025-06-02
         tipo: proyecto
-=======
-          - plataformas-digitales
-
-      - fecha: 2025-06-02
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: D-2584931
         url: https://silpy.congreso.gov.py/web/expediente/143375
         texto: >-
@@ -519,34 +355,9 @@ paises:
         etiquetas:
           - plataformas-digitales
 
-<<<<<<< HEAD
-      - fecha: 2025-06-06
-        tipo: proyecto
-        texto: >-
-          [La Corte declaró
-          inexequible](https://colombiacheck.com/investigaciones/el-fin-de-whatsapp-gratis-la-decision-de-la-corte-constitucional-y-tus-derechos-en)
-          la tarifa cero (zero-rating) aplicada por operadores de internet que
-          ofrecían acceso “gratuito” solo a ciertas plataformas, al considerar que
-          viola el principio de neutralidad de la red.
-=======
-  - pais: Colombia
-    entradas:
-      - fecha: 2025-06-06
-        url: https://colombiacheck.com/investigaciones/el-fin-de-whatsapp-gratis-la-decision-de-la-corte-constitucional-y-tus-derechos-en
-        texto: >-
-          [La Corte declaró inexequible]($url) la tarifa cero (zero-rating) aplicada
-          por operadores de internet que ofrecían acceso “gratuito” solo a ciertas
-          plataformas, al considerar que viola el principio de neutralidad de la
-          red.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
-        etiquetas:
-          - libertad-de-expresion
-          - acceso-a-la-informacion
-
   - pais: Ecuador
     entradas:
       - fecha: 2025-06-13
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se publicó en el Registro Oficial la [Ley Orgánica Reformatoria a la Ley
@@ -559,35 +370,15 @@ paises:
           por operadores. Asimismo, refuerza la obligación estatal de garantizar
           precios equitativos y calidad en el servicio, además de prever mecanismos
           de control sobre el destino de los fondos recaudados.
-=======
-        url: https://www.asambleanacional.gob.ec/es/system/files/ro_7.pdf
-        texto: >-
-          Se publicó en el Registro Oficial la [Ley Orgánica Reformatoria a la Ley
-          Orgánica de Telecomunicaciones]($url). La norma introduce reformas clave
-          para garantizar el acceso universal a los servicios de telecomunicaciones,
-          especialmente en zonas rurales y fronterizas, y promueve la reducción de
-          la brecha digital mediante proyectos financiados por la contribución del
-          1% sobre ingresos facturados por operadores. Asimismo, refuerza la
-          obligación estatal de garantizar precios equitativos y calidad en el
-          servicio, además de prever mecanismos de control sobre el destino de los
-          fondos recaudados.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2025-06-11
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Entró en vigencia la [nueva Ley Orgánica de
           Inteligencia](https://www.udlachannel.com/2025/06/16/ley-de-inteligencia-en-ecuador-seguridad-nacional-o-riesgo-a-la-privacidad).
           Esta norma crea un Sistema Nacional de Inteligencia con siete subsistemas
-=======
-        url: https://www.udlachannel.com/2025/06/16/ley-de-inteligencia-en-ecuador-seguridad-nacional-o-riesgo-a-la-privacidad
-        texto: >-
-          Entró en vigencia la [nueva Ley Orgánica de Inteligencia]($url). Esta
-          norma crea un Sistema Nacional de Inteligencia con siete subsistemas
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           (militar, policial, financiero, tributario, aduanero, penitenciario y casa
           militar), todos sin controles judiciales ni parlamentarios. Permite
           interceptar comunicaciones y acceder a datos de telecomunicaciones
@@ -599,7 +390,6 @@ paises:
           - privacidad
 
       - fecha: 2025-06-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se publicó la [Ley Orgánica Reformatoria a la Ley Orgánica de
@@ -610,54 +400,29 @@ paises:
           Comunicación de la Presidencia. También establece nuevas directrices sobre
           la administración, financiamiento y contenido de los medios públicos,
           incorporando principios de transparencia, pluralismo, participación
-          ciudadana y producción nacional. MEDIOS
-=======
-        url: https://www.asambleanacional.gob.ec/es/system/files/ro_5.pdf
-        texto: >-
-          Se publicó la [Ley Orgánica Reformatoria a la Ley Orgánica de
-          Comunicación]($url), que modifica la estructura y administración de los
-          medios públicos en el país. La norma dispone la disolución de la Empresa
-          Pública de Medios Públicos EP y transfiere sus funciones a la Secretaría
-          General de Comunicación de la Presidencia. También establece nuevas
-          directrices sobre la administración, financiamiento y contenido de los
-          medios públicos, incorporando principios de transparencia, pluralismo,
-          participación ciudadana y producción nacional.
+          ciudadana y producción nacional.
         etiquetas:
           - libertad-de-prensa
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Guatemala
     entradas:
       - fecha: 2025-06-22
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: '6347'
         url: https://lahora.gt/nacionales/asalay/2025/06/22/que-se-sabe-de-la-iniciativa-de-ley-que-promueve-la-ciberseguridad-en-guatemala/
         texto: >-
           Se estancó en comisión el dictamen del [Proyecto de Iniciativa 6347]($url)
           sobre ciberseguridad. La propuesta mantiene debates pendientes sobre
           definición de delitos en línea y sanciones, lo que genera preocupación
-<<<<<<< HEAD
-          entre defensores de derechos digitales. CIBERSEGURIDAD
-=======
           entre defensores de derechos digitales.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: México
     entradas:
       - fecha: 2025-06-13
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El estado de Puebla aprobó una reforma a su [Ley de
           Ciberseguridad](https://elpais.com/mexico/2025-06-18/hasta-tres-anos-de-prision-por-insultar-en-redes-sociales-la-reforma-a-la-ley-de-ciberseguridad-en-puebla-pone-en-alerta-a-periodistas-y-activistas.html)
-=======
-        url: https://elpais.com/mexico/2025-06-18/hasta-tres-anos-de-prision-por-insultar-en-redes-sociales-la-reforma-a-la-ley-de-ciberseguridad-en-puebla-pone-en-alerta-a-periodistas-y-activistas.html
-        texto: >-
-          El estado de Puebla aprobó una reforma a su [Ley de Ciberseguridad]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           que incorpora el delito de “ciberasedio”, castigando con 11 meses a 3 años
           de prisión y multas entre 50 y 300 días de salario mínimo a quienes
           insulten, agravian u ofendan reiteradamente en redes sociales.
@@ -667,7 +432,6 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2025-06-23
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se presentó el [Proyecto de Ley N°
@@ -676,23 +440,11 @@ paises:
           artificial en la educación básica y superior, tanto pública como privada.
           La norma especifica que la IA solo podrá ser usada como herramienta de
           apoyo, siempre bajo supervisión del profesorado.
-=======
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2527320
-        texto: >-
-          Se presentó el [Proyecto de Ley N° 3003/2025]($url) que prohíbe la
-          sustitución de docentes por sistemas de inteligencia artificial en la
-          educación básica y superior, tanto pública como privada. La norma
-          especifica que la IA solo podrá ser usada como herramienta de apoyo,
-          siempre bajo supervisión del profesorado.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2025-06-18
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: PL 2986/2025
         url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2527137
         texto: >-
@@ -709,7 +461,6 @@ paises:
           - proteccion-de-menores
 
       - fecha: 2025-06-18
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Reginaldo Veras presentó el [Proyecto de Ley N°
@@ -730,31 +481,11 @@ paises:
         texto: >-
           El diputado Juarez Costa presentó el [Proyecto de Ley N°
           2984/25](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2527116),
-=======
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2527110
-        texto: >-
-          El diputado Reginaldo Veras presentó el [Proyecto de Ley N°
-          2983/25]($url). El proyecto establece la obligatoriedad de identificación
-          visible de contenidos digitales generados o manipulados por inteligencia
-          artificial, incluyendo _deepfakes_, avatares sintéticos y textos
-          automatizados. También impone a las plataformas digitales la incorporación
-          de filtros opcionales para restringir dichos contenidos, sanciona su
-          difusión sin identificación y dispone campañas públicas de educación
-          mediática para la ciudadanía, especialmente para grupos vulnerables.
-        etiquetas:
-          - inteligencia-artificial
-
-      - fecha: 2025-06-18
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2527116
-        texto: >-
-          El diputado Juarez Costa presentó el [Proyecto de Ley N° 2984/25]($url),
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           el cual busca modificar el Código de Defensa del Consumidor para prohibir
           que empresas realicen llamadas telefónicas ofreciendo productos o
           servicios, salvo que exista solicitud o autorización expresa y renovable
           del consumidor.
         etiquetas:
-<<<<<<< HEAD
           - privacidad
 
       - fecha: 2025-06-11
@@ -764,25 +495,11 @@ paises:
           2247/2025](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2507861)
           presentado por el diputado Vitor Lippi, que propone establecer una
           tributación y responsabilidad fiscal para las plataformas digitales.
-=======
-          - defensa-del-consumidor
-          - privacidad
-
-      - fecha: 2025-06-11
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2507861
-        texto: >-
-          Pasó a Comisión el [PL 2247/2025 ]($url)presentado por el diputado Vitor
-          Lippi, que propone establecer una tributación y responsabilidad fiscal
-          para las plataformas digitales.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2025-06-10
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: PL 2802/2025
         url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2523777
         texto: >-
@@ -797,26 +514,16 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-06-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El humorista Léo Lins fue [condenado a 8 años y 3
           meses](https://g1.globo.com/sp/sao-paulo/noticia/2025/06/03/leo-lins-e-condenado-a-oito-anos-de-prisao-por-publicar-conteudo-preconceituoso-e-discriminatorio-contra-minorias.ghtml)
           de prisión por difundir contenido ofensivo contra minorías.
-=======
-        url: https://g1.globo.com/sp/sao-paulo/noticia/2025/06/03/leo-lins-e-condenado-a-oito-anos-de-prisao-por-publicar-conteudo-preconceituoso-e-discriminatorio-contra-minorias.ghtml
-        texto: >-
-          El humorista Léo Lins fue [condenado a 8 años y 3 meses]($url) de prisión
-          por difundir contenido ofensivo contra minorías.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2025-06-04
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: PL 2715/2025
         url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2520697
         texto: >-
@@ -832,16 +539,10 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-06-02
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Nelson Barbudo presentó el [Proyecto de Ley N°
           2696/25](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2520103).
-=======
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2520103
-        texto: >-
-          El diputado Nelson Barbudo presentó el [Proyecto de Ley N° 2696/25]($url).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           El proyecto modifica la Ley de Crímenes Ambientales para agravar las penas
           por graffitis urbanos y responsabilizar penalmente a establecimientos que
           vendan productos como pinturas en aerosol sin cumplir exigencias legales.
@@ -850,10 +551,23 @@ paises:
         etiquetas:
           - libertad-de-expresion
 
+  - pais: Colombia
+    entradas:
+      - fecha: 2025-06-06
+        tipo: proyecto
+        texto: >-
+          [La Corte declaró
+          inexequible](https://colombiacheck.com/investigaciones/el-fin-de-whatsapp-gratis-la-decision-de-la-corte-constitucional-y-tus-derechos-en)
+          la tarifa cero (zero-rating) aplicada por operadores de internet que
+          ofrecían acceso “gratuito” solo a ciertas plataformas, al considerar que
+          viola el principio de neutralidad de la red.
+        etiquetas:
+          - libertad-de-expresion
+          - acceso-a-la-informacion
+
   - pais: Perú
     entradas:
       - fecha: 2025-06-13
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Sociedad Interamericana de Prensa
@@ -862,28 +576,18 @@ paises:
           de prensa en Perú. Denunciaron amenazas, censura y hostigamiento judicial
           contra periodistas. Incluyendo especialmente el caso de una reportera de
           La República víctima de hackeo y bloqueo tras denunciar a un empresario.
-=======
-        url: https://www.infobae.com/peru/2025/06/14/la-sip-reitera-la-degradacion-de-la-libertad-de-expresion-en-el-peru-tras-recientes-casos-que-afectan-a-periodistas-y-medios
-        texto: >-
-          La [Sociedad Interamericana de Prensa (SIP)]($url) emitió un comunicado
-          alertando sobre un “grave retroceso” en la libertad de prensa en Perú.
-          Denunciaron amenazas, censura y hostigamiento judicial contra periodistas.
-          Incluyendo especialmente el caso de una reportera de La República víctima
-          de hackeo y bloqueo tras denunciar a un empresario.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - censura
 
       - fecha: 2025-06-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Congreso aprobó en primera votación el [Proyecto de Ley
           7549](https://comunicaciones.congreso.gob.pe/noticias/aprueban-dictamen-que-otorga-amnistia-a-miembros-de-ff-aa-y-pnp-que-lucharon-en-contra-del-terrorismo/),
           que busca otorgar amnistía a responsables de graves violaciones a los
           derechos humanos cometidas entre 1980 y 2000, incluidos miembros de las
-          FF.AA., PNP y comités de autodefensa. MEMORIA DERECHOS HUMANOS
+          FF.AA., PNP y comités de autodefensa.
 ---
 
 **Proyectos por país**
@@ -933,16 +637,4 @@ paises:
 | Inteligencia artificial | 5,2% |
 | Moral pública | 4,9% |
 
-=======
-        url: https://comunicaciones.congreso.gob.pe/noticias/aprueban-dictamen-que-otorga-amnistia-a-miembros-de-ff-aa-y-pnp-que-lucharon-en-contra-del-terrorismo/
-        texto: >-
-          El Congreso aprobó en primera votación el [Proyecto de Ley 7549]($url),
-          que busca otorgar amnistía a responsables de graves violaciones a los
-          derechos humanos cometidas entre 1980 y 2000, incluidos miembros de las
-          FF.AA., PNP y comités de autodefensa.
----
-
-{{< observatorio-mes month="2025-06" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

@@ -1,15 +1,5 @@
 ---
-<<<<<<< HEAD
 title: 'Boletín mensual Observatorio Legislativo | Agosto 2021'
-=======
-author: [mmdg]
-content_type: [boletin]
-date: '2021-08-30'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 slug: boletin-mensual-agosto-2021
 date: 2021-08-30
 translationKey: wp-9180
@@ -25,18 +15,14 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
-<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2021-08-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           En el marco de las elecciones de 2021 en Argentina, se
@@ -63,35 +49,11 @@ paises:
           iniciativa fue presentada por el Senador Luenzo, Presidente de la Comisión
           de Sistemas, Medios de Comunicación y Libertad de Expresión. Según expresa
           el proyecto de ley su “ objeto es posibilitar el acceso de la totalidad de
-=======
-        url: https://www.ellitoral.com/index.php/id_um/311822-vuelve-reverso-la-alianza-de-medios-contra-la-desinformacion-electoral-elecciones-2021-politica.html
-        texto: >-
-          En el marco de las elecciones de 2021 en Argentina, se [anunció]($url) el
-          retorno de REVERSO. Se trata de una alianza de la que participan Facebook
-          Journalism Project, Google News Initiative, TikTok y Twitter, más de 40 de
-          los principales medios* (de gráfica, digitales, radio y TV), bajo la
-          coordinación de Chequeado. El objetivo de esta iniciativa es difundir de
-          manera conjunta verificaciones a contenidos sospechosos virales para poner
-          en evidencia y desalentar a quienes utilicen contenidos desinformantes en
-          la campaña.
-
-      - fecha: 2021-08-11
-        url: https://www.telam.com.ar/notas/202108/564661-senadores-libertad-de-expresion-internet.html
-        texto: >-
-          Se [debatió]($url) en el Senado el [proyecto de ley
-          ](https://www.senado.gob.ar/parlamentario/comisiones/verExp/1802.21/S/PL)1802/2021
-          que tiene como finalidad declarar en todo el país a Internet como un
-          servicio público, esencial, estratégico y en competencia. Esta iniciativa
-          fue presentada por el Senador Luenzo, Presidente de la Comisión de
-          Sistemas, Medios de Comunicación y Libertad de Expresión. Según expresa el
-          proyecto de ley su “ objeto es posibilitar el acceso de la totalidad de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           los habitantes de la República Argentina a los servicios de la información
           y las comunicaciones en condiciones sociales y geográficas equitativas,
           con los más altos parámetros de calidad, promoviendo políticas
           diferenciadas que tiendan a equilibrar el desigual desarrollo relativo de
-<<<<<<< HEAD
-          provincias y regiones" ACCESO A INTERNET
+          provincias y regiones"
 
       - fecha: 2021-08-18
         tipo: proyecto
@@ -102,17 +64,6 @@ paises:
           Argentina para apoyar a casi 150 medios de comunicación de todos los
           tamaños y regiones del país, y capacitar a más de 3.000 periodistas por
           año. Además de [acuerdos
-=======
-          provincias y regiones"
-
-      - fecha: 2021-08-18
-        url: https://www.infobae.com/economia/2021/08/18/facebook-invertira-mas-usd-15-millones-en-un-ano-en-la-industria-de-noticias-en-argentina/
-        texto: >-
-          Facebook [anunció]($url) un programa de inversión de 3 años en la
-          industria de noticias en Argentina para apoyar a casi 150 medios de
-          comunicación de todos los tamaños y regiones del país, y capacitar a más
-          de 3.000 periodistas por año. Además de [acuerdos
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           comerciales](https://tn.com.ar/sociedad/2021/08/18/facebook-cierra-acuerdos-con-la-industria-periodistica-de-argentina/)
           con varios medios, la empresa invertirá 1.5 millones de dólares en los
           próximos 12 meses en fondos para innovación y proyectos desarrollados
@@ -123,17 +74,11 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2021-08-23
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El oficialismo
           [presentó](https://twitter.com/elcancillercom/status/1430308766742990848?s=21)
           en la Cámara de Diputados un [proyecto de
-=======
-        url: https://twitter.com/elcancillercom/status/1430308766742990848?s=21
-        texto: >-
-          El oficialismo [presentó]($url) en la Cámara de Diputados un [proyecto de
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           ley](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2021/PDF2021/TP2021/3541-D-2021.pdf)
           3541/2021 que busca penalizar conductas negacionistas. Por un lado,
           establece que quien públicamente niegue, justifique, reivindique, exalte,
@@ -154,13 +99,8 @@ paises:
           autoridades competentes. Finalmente, se eleva entre ⅓ y ½ el mínimo y en
           un medio la escala penal de todo delito vinculado a las conductas
           mencionadas anteriormente. En esta línea, recomendamos [esta
-<<<<<<< HEAD
           lectura](/en/posts/sobre-el-negacionismo-como-delito-penal/) del
           investigador del CELE, Ramiro Álvarez Ugarte.
-=======
-          lectura](https://observatoriolegislativocele.com/sobre-el-negacionismo-como-delito-penal/)
-          del investigador del CELE, Ramiro Álvarez Ugarte.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - discurso-de-odio
           - libertad-de-expresion
@@ -169,23 +109,15 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2021-08-01
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Durante todo el mes de agosto se realizaron audiencias públicas en la
           Cámara de Diputados para continuar el debate sobre un Proyecto de Ley (PL)
           de combate a las Fake News. Las audiencias a respecto del PL son
-=======
-        texto: >-
-          Durante todo el mes de agosto se realizaron audiencias públicas en la
-          Cámara de Diputados para continuar el debate sobre un Proyecto de Ley (PL)
-          de combate a las **Fake News**. Las audiencias a respecto del PL son
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           conducidas por el grupo de trabajo de Mejoramiento de la Legislación
           Brasileña - Internet, responsable de emitir opiniones sobre el proyecto, y
           tienen como objetivo debatir el proyecto con especialistas,
           organizaciones, empresas y representantes de entidades y gobiernos.
-<<<<<<< HEAD
         etiquetas:
           - libertad-de-expresion
 
@@ -206,25 +138,6 @@ paises:
           contenidos en el exterior, aspecto relacionado con los méritos de la
           acción". [Para saber más acerca del tema, vea el boletín mensual de
           julio.](/en/legislative-observatory/boletin-mensual-julio-2021/)
-=======
-
-      - fecha: 2021-08-03
-        url: https://www.internetlab.org.br/wp-content/uploads/2021/08/doc_375185703.pdf
-        texto: >-
-          El 03.08, el [Tribunal de Justicia de São Paulo denegó la solicitud de
-          reactivar los canales de youtube Terça Livre en el exterior]($url). Las
-          cuentas ya habían sido restablecidas en territorio nacional, por decisión
-          judicial, luego de dos bloqueos consecutivos por parte de YouTube. En la
-          solicitud, Terça Livre cuestionó el mantenimiento del bloqueo de la
-          ciudadanía brasileña en el exterior y afirmó que el hecho genera un riesgo
-          de daño irreparable a los ingresos de la empresa periodística, además de
-          restringir la libertad de comunicación. El relator entendió que el tema
-          involucra "discusión sobre la efectividad de las decisiones del Poder
-          Judicial brasileño sobre la disponibilidad de contenidos en el exterior,
-          aspecto relacionado con los méritos de la acción". [Para saber más acerca
-          del tema, vea el boletín mensual de
-          julio.](https://observatoriolegislativocele.com/pt/Boletim-mensal-de-julho-de-2021/)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - plataformas-digitales
           - libertad-de-expresion
@@ -247,29 +160,17 @@ paises:
           étnico, con el fin de impedir o entorpecer su campaña electoral o el
           desempeño de su mandato electivo”, [según se describe en el boletín
           mensual de
-<<<<<<< HEAD
           julio](/en/legislative-observatory/boletin-mensual-julio-2021/).
-=======
-          julio](https://observatoriolegislativocele.com/pt/Boletim-mensal-de-julho-de-2021/).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - electoral
 
       - fecha: 2021-08-15
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se [desestimó la denuncia penal interpuesta por el Fiscal General de la
           República, Augusto Aras, contra el profesor universitario Conrado Hübner
           Mendes](https://www.internetlab.org.br/wp-content/uploads/2021/08/1031439-94.2021.4.01.3400_670275961.pdf).
           En [la
-=======
-        url: https://www.internetlab.org.br/wp-content/uploads/2021/08/1031439-94.2021.4.01.3400_670275961.pdf
-        texto: >-
-          Se [desestimó la denuncia penal interpuesta por el Fiscal General de la
-          República, Augusto Aras, contra el profesor universitario Conrado Hübner
-          Mendes]($url). En [la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           denuncia](https://www.jota.info/wp-content/uploads/2021/05/conrado-hubner-mendes-queixa-crime-peticcca7acc83o-inicial-19-05-2021.pdf),
           Aras se refirió a un texto del profesor en su columna en el periodico
           Folha de S.Paulo, así como a algunas publicaciones en su Twitter, donde el
@@ -284,27 +185,16 @@ paises:
           declaraciones "están dentro del ámbito de la mera expresión de opinión y
           no de degradación o insulto". [Para saber más acerca del tema, vea el
           boletín mensual de
-<<<<<<< HEAD
           mayo](/en/legislative-observatory/boletin-mensual-mayo-2021/).
-=======
-          mayo](https://observatoriolegislativocele.com/pt/Boletim-Mensal-de-maio-de-2021/).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2021-08-10
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Senado Federal aprobó el [Proyecto de Ley
           2.108/2021](https://www25.senado.leg.br/web/atividade/materias/-/materia/148741),
           que deroga la [Ley de Seguridad Nacional (ley
-=======
-        url: https://www25.senado.leg.br/web/atividade/materias/-/materia/148741
-        texto: >-
-          El Senado Federal aprobó el [Proyecto de Ley 2.108/2021]($url), que deroga
-          la [Ley de Seguridad Nacional (ley
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           7170/1983)](https://www12.senado.leg.br/noticias/materias/2021/08/10/texto-aprovado-revoga-lsn-e-substitui-regras-por-novos-crimes-no-codigo-penal)
           e incluye un nuevo título en el Código Penal sobre delitos contra el
           Estado Democrático de Derecho. [La Cámara de Diputados había votado el
@@ -314,24 +204,15 @@ paises:
           Código Penal se dividen en diez capítulos, que tratan de los delitos
           contra la soberanía nacional, las instituciones democráticas, el
           funcionamiento de las instituciones democráticas en el proceso electoral,
-<<<<<<< HEAD
-          el funcionamiento de los servicios esenciales y la ciudadanía. SEGURIDAD
-          NACIONAL
-
-      - fecha: 2021-08-16
-        tipo: proyecto
-=======
           el funcionamiento de los servicios esenciales y la ciudadanía.
 
       - fecha: 2021-08-16
-        url: https://www.tse.jus.br/imprensa/noticias-tse/2021/Agosto/corregedor-do-tse-determina-que-plataformas-digitais-suspendam-repasses-financeiros-a-paginas-que-propagam-desinformacao
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
+        tipo: proyecto
         texto: >-
           El Inspector General de Justicia Electoral, el ministro Luis Felipe
           Salomão, [determinó que las plataformas digitales YouTube, Twitch.TV,
           Twitter, Instagram y Facebook suspendan la transferencia de montos,
           derivados de la monetización, a las personas y páginas indicadas en la
-<<<<<<< HEAD
           Consulta Administrativa 0600371 -
           71](https://www.tse.jus.br/imprensa/noticias-tse/2021/Agosto/corregedor-do-tse-determina-que-plataformas-digitais-suspendam-repasses-financeiros-a-paginas-que-propagam-desinformacao)
           y que se han dedicado, de manera demostrada, a difundir desinformación.
@@ -349,57 +230,26 @@ paises:
           difusión de la desinformación. [El 02.08, el Tribunal Superior Electoral
           (TSE) también aprobó un informe penal contra el presidente Jair Bolsonaro
           y lo presentó al Tribunal Supremo Federal (STF, en
-=======
-          Consulta Administrativa 0600371 - 71]($url) y que se han dedicado, de
-          manera demostrada, a difundir desinformación. Esta consulta tiene como
-          objetivo investigar la red de personas que difunden noticias falsas,
-          investigar hechos que puedan constituir abuso de poder económico y
-          político, mal uso de los medios de comunicación, corrupción, fraude,
-          conducta prohibida a los agentes públicos y anticipación propagandística,
-          en cuanto a ataques contra la sistema de voto electrónico y la legitimidad
-          de las elecciones de 2022. La determinación propone que las plataformas
-          prohiban el uso de algoritmos que sugieran o indiquen otros canales y
-          videos de contenido político, con excepción de la investigación activa por
-          parte de los internautas por palabras clave, con el objetivo de evitar que
-          los canales, perfiles y páginas objeto de la investigación sigan
-          alimentándose, interrumpiendo la difusión de la desinformación. [El 02.08,
-          el Tribunal Superior Electoral (TSE) también aprobó un informe penal
-          contra el presidente Jair Bolsonaro y lo presentó al Tribunal Supremo
-          Federal (STF, en
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           portugés),](https://www.internetlab.org.br/wp-content/uploads/2021/08/oficio-noticia-crime-TSE-bolsonaro.pdf)
           que lo aceptó en los términos de la "[investigación de
           fake-news](http://www.stf.jus.br/portal/cms/verNoticiaDetalhe.asp?idConteudo=405790)",
           la qual averigua amenazas y difusión de noticias falsas en Internet contra
           miembros del STF y sus familias. También en el ámbito de la “investigación
           de fake-news”, [el ministro del Tribunal Supremo (STF) Alexandre de Moraes
-<<<<<<< HEAD
           ordenó la prisión preventiva del ex-diputado Roberto
           Jefferson](https://www.internetlab.org.br/wp-content/uploads/2021/08/8EE5F2DD9CFFE3_decisaoministro.pdf)
           por publicaciones en redes sociales que estarían vinculadas a ataques a la
-=======
-          ordenó la prisión preventiva del ex-diputado Roberto Jefferson
-          ](https://www.internetlab.org.br/wp-content/uploads/2021/08/8EE5F2DD9CFFE3_decisaoministro.pdf)por
-          publicaciones en redes sociales que estarían vinculadas a ataques a la
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           democracia y a las instituciones. La orden también incluye un mandato de
           registro e incautación en direcciones vinculadas a Jefferson, incluidos
           dispositivos electrónicos, con autorización para acceder al contenido
           almacenado, así como la determinación de bloquear su cuenta de Twitter.
-<<<<<<< HEAD
         etiquetas:
           - libertad-de-expresion
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Chile
     entradas:
       - fecha: 2021-08-01
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://laneta.cl/conoce-las-propuestas-de-reglamento-de-todas-las-comisiones/
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Durante agosto se han activado en las comisiones de comunicaciones y
           derechos humanos de la Convención Constitucional de Chile, las audiencias
@@ -419,7 +269,6 @@ paises:
           de las y los convencionales. En la propuesta se define noticia falsa como
           “la expresión, a través de cualquier medio físico o digital, de un hecho
           que se presenta real siendo falso”. Más informaciones sobre el avance del
-<<<<<<< HEAD
           proceso constituyente
           [aqui](https://laneta.cl/conoce-las-propuestas-de-reglamento-de-todas-las-comisiones/).
         etiquetas:
@@ -438,30 +287,11 @@ paises:
           funcionamiento de los servicios de televisión en los 12 meses anteriores
           al periodo fiscalizado, por infracción a las Normas sobre la Transmisión
           de Programas Culturales.
-=======
-          proceso constituyente [aqui]($url).
-
-      - fecha: 2021-08-24
-        url: https://www.eldesconcierto.cl/tipos-moviles/pantalla/2021/08/24/confirman-multa-a-tvn-por-no-emitir-minimo-de-programacion-de-contenido-cultural.html
-        texto: >-
-          La Corte de Apelaciones de Santiago [confirmó]($url) la multa de 20 UTM –
-          Unidad Tributaria Mensual (aproximadamente USD 1300) aplicada por el
-          Consejo Nacional de Televisión (CNTV) a la señal Televisión Nacional (TVN)
-          por no respetar la cuota mínima de programación cultural, en abril del año
-          pasado. Es importante recordar que TVN ya cuenta con con cuatro sanciones
-          previas por no respetar el correcto funcionamiento de los servicios de
-          televisión en los 12 meses anteriores al periodo fiscalizado, por
-          infracción a las Normas sobre la Transmisión de Programas Culturales.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2021-08-27
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://www.df.cl/noticias/empresas/industria/canales-respaldan-formula-de-la-subtel-para-destrabar-discusion-por/2021-08-26/203156.html
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Desde que se dictó la Ley de Televisión Digital en Chile, en 2014,
           cableoperadores y canales de televisión abierta discutían sobre cómo
@@ -474,13 +304,9 @@ paises:
           de fiscalización de la Subsecretaría de Telecomunicaciones (Subtel) de
           Chile. Después de ocho años de roces, la autoridad actualizó la norma
           técnica, reemplazando las mediciones en terreno por la aplicación de un
-<<<<<<< HEAD
           software,
           [respaldada](https://www.df.cl/noticias/empresas/industria/canales-respaldan-formula-de-la-subtel-para-destrabar-discusion-por/2021-08-26/203156.html)
           por los canales de televisión.
-=======
-          software, [respaldada]($url) por los canales de televisión.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
@@ -503,8 +329,7 @@ paises:
           en un mes. Finalmente, el Fondo Único de Tecnologías de la Información y
           las Comunicaciones financiará el desarrollo de líneas de crédito para los
           proveedores que brinden acceso a internet fijo residencial que tengan
-<<<<<<< HEAD
-          menos de 30 mil usuarios. ACCESO A INTERNET
+          menos de 30 mil usuarios.
 
       - fecha: 2021-08-05
         tipo: proyecto
@@ -527,30 +352,6 @@ paises:
           pública](https://www.youtube.com/watch?v=1yBMhkUMfY8&ab_channel=Canalvideos-Comisi%C3%B3nPrimera-)
           en la que escuchó las opiniones de diversos sectores en relación con el
           proyecto de ley que pretende
-=======
-          menos de 30 mil usuarios.
-
-      - fecha: 2021-08-05
-        url: https://congresovisible.uniandes.edu.co/proyectos-de-ley/ppor-medio-del-cual-se-reglamenta-la-publicidad-en-redes-sociales-y-se-dictan-otras-disposiciones-reglamenta-la-publicidad-en-redes-sociales/11022/#tab=2
-        texto: >-
-          Avanza el [proyecto de ley]($url) que busca regular la publicidad en redes
-          sociales. En agosto se presentó ponencia para segundo debate en la Cámara
-          de Representantes, haciendo algunas modificaciones al texto aprobado en
-          primer debate, pero manteniendo la obligación de anunciadores e
-          influenciadores de incluir advertencias en sus publicaciones que entreguen
-          información sobre los productos y sus riesgos y explicando que se trata de
-          un anuncio.
-        etiquetas:
-          - plataformas-digitales
-          - defensa-del-consumidor
-
-      - fecha: 2021-08-09
-        url: https://www.youtube.com/watch?v=1yBMhkUMfY8&ab_channel=Canalvideos-Comisi%C3%B3nPrimera-
-        texto: >-
-          El 9 de agosto, la Cámara de Representantes realizó una [audiencia
-          pública]($url) en la que escuchó las opiniones de diversos sectores en
-          relación con el proyecto de ley que pretende
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [regular](https://www.camara.gov.co/proteccion-ninos) a medios de
           comunicación y proveedores de servicios de internet, con el objetivo de
           proteger a los niños de contenidos que puedan afectar su integridad moral,
@@ -562,18 +363,13 @@ paises:
           [escándalo](https://www.asuntoslegales.com.co/actualidad/mintic-enfrentara-debate-en-el-congreso-por-presunto-detrimento-de-70000-millones-3215373)
           por la pérdida de 70.000 millones de pesos colombianos hace pensar que el
           Ministerio dejará de impulsar el proyecto de protección de menores.
-<<<<<<< HEAD
         etiquetas:
           - proteccion-de-menores
           - plataformas-digitales
-=======
-          PROTECCION DE NIÑOS, NIÑAS Y ADOLESCENTES MODERACION DE CONTENIDOS
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Ecuador
     entradas:
       - fecha: 2021-08-01
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [caso de la Jueza Heidy Borja se
@@ -589,27 +385,11 @@ paises:
           septiembre tendrá lugar la audiencia de apelación requerida por el canal
           de televisión que estima que el derecho a la libertad de expresión de sus
           periodistas se ha vulnerado.
-=======
-        url: https://www.eltelegrafo.com.ec/noticias/judicial/12/procesos-legales-contra-periodistas-diario-la-hora-teleamazonas-por-cumplir-su-labor
-        texto: >-
-          El [caso de la Jueza Heidy Borja se reactiva]($url). Una funcionaria
-          judicial ha demandado a un canal de televisión por haber proferido lo que
-          ella considera pronunciamientos infamantes y atentatorios contra su honra.
-          Diversos periodistas del canal emitieron opiniones críticas sobre el
-          accionar de la Jueza en el contexto de un caso polémico en el que una
-          mujer en estado de ebriedad arrolló a un transeúnte. En primera instancia,
-          la demanda de la Jueza fue aceptada y se ordenó al canal ofrecer disculpas
-          públicas, realizar entrenamientos a sus periodistas y, eventualmente,
-          indemnizarla. La primera semana de septiembre tendrá lugar la audiencia de
-          apelación requerida por el canal de televisión que estima que el derecho a
-          la libertad de expresión de sus periodistas se ha vulnerado.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - libertad-de-expresion
 
       - fecha: 2021-08-05
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [caso de los periodistas de la
@@ -622,19 +402,6 @@ paises:
           denuncia penal contra los periodistas, acusándolos de delitos de odio.
           Este proceso será sustanciado por un fiscal y, eventualmente, generará una
           indagación e investigación penal.
-=======
-        url: https://www.swissinfo.ch/spa/ecuador-prensa_pol%C3%A9mica-en-ecuador-por-las-injurias-de-presentadores-de-tv-a-l%C3%ADder-ind%C3%ADgena/46762080
-        texto: >-
-          El [caso de los periodistas de la Posta]($url) toma un giro inesperado:
-          Luego de que dos periodistas hicieran alusiones críticas a un líder
-          indígena -llamándolo CABRÓN y lanzando dardos sobre su rostro- la opinión
-          pública se encendió y generó que ellos renuncien al programa. Lo que
-          parecía un caso superado, cambió inusitadamente cuando el señor Álex
-          Flores, del colectivo “Va por ti Ecuador”, presentó una denuncia penal
-          contra los periodistas, acusándolos de delitos de odio. Este proceso será
-          sustanciado por un fiscal y, eventualmente, generará una indagación e
-          investigación penal.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - libertad-de-expresion
@@ -642,18 +409,13 @@ paises:
   - pais: Guatemala
     entradas:
       - fecha: 2021-08-14
-<<<<<<< HEAD
         tipo: proyecto
-=======
-        url: https://sgp.gob.gt/wp-content/uploads/2021/08/DG-006-2021.pdf
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El Presidente Alejandro Giammatei intentó implantar un nuevo Estado de
           Calamidad Pública, como consecuencia del incremento sustancial de
           contagios por la nueva cepa del Covid19 (la variante delta). No obstante
           que finalmente fue infructuoso ese intento, al no haber sido aprobado este
           nuevo régimen de excepción constitucional por el Congreso de la República,
-<<<<<<< HEAD
           el [Decreto Gubernativo
           6-2021](https://sgp.gob.gt/wp-content/uploads/2021/08/DG-006-2021.pdf)
           incluyó dos aspectos que se han considerado como una afronta a la libertad
@@ -669,40 +431,17 @@ paises:
           35-08-2021 manifestando su indignación ante la creciente actitud del
           gobierno de restringir la libertad de expresión. Inclusive, José Miguel
           Vivanco (Human Rights Watch) se
-=======
-          el [Decreto Gubernativo 6-2021]($url) incluyó dos aspectos que se han
-          considerado como una afronta a la libertad de expresión: a) en primer
-          lugar se incluye como derecho sujeto a restricición, el contenido en el
-          artículo 5 (libertad de acción), que entre otras cosas, expresa que
-          ninguna persona puede ser perseguida ni molestada por sus opiniones o por
-          sus actos que no impliquen infracción a la ley, y además, basado en una
-          vetusta Ley de Orden Público, se advirtió la imposición de sanciones
-          legales (civiles y penales) en caso los medios de comunicación no eviten
-          las publicaciones que puedan causar confusión o pánico o agraven la
-          situación. No obstante que no llegó a cobrar efecto, la Asociación de
-          Periodistas de Guatemala emitió el comunicado No, 35-08-2021 manifestando
-          su indignación ante la creciente actitud del gobierno de restringir la
-          libertad de expresión. Inclusive, José Miguel Vivanco (Human Rights Watch)
-          se
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [pronunció](https://twitter.com/JMVivancoHRW/status/1429864379437174784)
           con preocupación al respecto.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2021-08-27
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Asociación de Periodistas de Guatemala emitió un
           [comunicado](https://www.dw.com/es/asociaci%C3%B3n-de-periodistas-de-guatemala-condena-acoso-judicial-contra-la-hora/a-59010237)
           en el que repudia la denuncia penal en contra de los/as directivos/as del
-=======
-        url: https://www.dw.com/es/asociaci%C3%B3n-de-periodistas-de-guatemala-condena-acoso-judicial-contra-la-hora/a-59010237
-        texto: >-
-          La Asociación de Periodistas de Guatemala emitió un [comunicado]($url) en
-          el que repudia la denuncia penal en contra de los/as directivos/as del
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Diario La Hora por parte de Alejandra Carrillo. Carrillo es la Directora
           del Instituto de la Víctima y ex diputada del Partido Patriota. Según la
           AGP, la Directora busca censurar al medio periodístico mediante acoso
@@ -717,7 +456,6 @@ paises:
   - pais: México
     entradas:
       - fecha: 2021-07-29
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Cuatro periodistas
@@ -734,54 +472,24 @@ paises:
           llevar a cabo investigaciones diligentes, imparciales y efectivas; y, al
           Mecanismo de Protección a Periodistas a coordinar medidas de protección a
           favor de las mujeres periodistas agredidas.
-=======
-        url: https://articulo19.org/organizaciones-condenan-incremento-de-violencia-contra-mujeres-periodistas-en-puebla/
-        texto: >-
-          [Cuatro periodistas mujeres]($url) fueron agredidas en el ejercicio de su
-          profesión en el Estado de Puebla. Las periodistas forman parte de Portal
-          de Noticias Ambientales Tierra Baldía, Reportera de Municipios Puebla,
-          Reportera de La Jornada de Oriente, y Reportera de Imagen Puebla. Al
-          respecto, la Red Puebla de Periodistas Red Nacional de Periodistas, la Red
-          Internacional de Periodistas con Visión de Género Comunicación e
-          Información de la Mujer A.C., y Artículo 19 exigieron al Gobernador del
-          Estado de Puebla garantizar el ejercicio del periodismo, la libertad de
-          expresión y una vida libre de violencia para las mujeres; al Fiscal
-          General del Estado a llevar a cabo investigaciones diligentes, imparciales
-          y efectivas; y, al Mecanismo de Protección a Periodistas a coordinar
-          medidas de protección a favor de las mujeres periodistas agredidas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - violencia-de-genero
 
       - fecha: 2021-08-09
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Personas encapuchadas y con armas largas amenazaron a través de una cuenta
           de la [plataforma digital
           _twitter_,](https://articulo19.org/amenazas-publicas-contra-la-prensa-desde-el-crimen-organizado-muestran-vacios-desde-el-estado/)
           a diversos medios de comunicación y periodistas.
-=======
-        url: https://articulo19.org/amenazas-publicas-contra-la-prensa-desde-el-crimen-organizado-muestran-vacios-desde-el-estado/
-        texto: >-
-          Personas encapuchadas y con armas largas amenazaron a través de una cuenta
-          de la [plataforma digital _twitter_,]($url) a diversos medios de
-          comunicación y periodistas.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2021-08-16
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Fundar](https://fundar.org.mx/publicidad-oficial-2020/) y [Artículo
-=======
-        url: https://fundar.org.mx/publicidad-oficial-2020/
-        texto: >-
-          [Fundar]($url) y [Artículo
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           19](https://articulo19.org/las-tendencias-de-la-publicidad-oficial-en-el-segundo-ano-de-amlo/)
           presentaron el Informe sobre Gasto en Publicidad Oficial de 2020, en el
           que resalta por segundo año consecutivo una disminución sustancial de
@@ -796,7 +504,6 @@ paises:
           - publicidad-oficial
 
       - fecha: 2021-08-18
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [La periodista independiente Tere
@@ -813,38 +520,15 @@ paises:
           garantizar su vida, integridad personal y libre ejercicio de la libertad
           de expresión; y, que la Comisión Ejecutiva de Atención a Víctimas del
           Estado de México le dé atención integral.
-=======
-        url: https://articulo19.org/tere-montano-es-victima-de-secuestro-robo-amenazas-de-muerte-y-violencia-de-genero/
-        texto: >-
-          [La periodista independiente Tere Montaño]($url), quien colabora con la
-          Revista Proceso, fue víctima de secuestro, robo, amenazas de muerte y
-          agresión en Toluca, Estado de México. Las personas que la agredieron le
-          preguntaban si era periodista y le robaron su equipo de trabajo ubicado en
-          su domicilio. Al respecto, Artículo 19 y el Comité para la Protección de
-          los Periodistas exigieron a las Fiscalías General de la República y del
-          Estado de México una investigación diligente aplicando el aplicando el
-          Protocolo Homologado de Investigación de Delitos cometidos contra la
-          Libertad de Expresión; que el Mecanismo de Protección a Periodistas le
-          brinde protección a la periodista Tere Montaño para garantizar su vida,
-          integridad personal y libre ejercicio de la libertad de expresión; y, que
-          la Comisión Ejecutiva de Atención a Víctimas del Estado de México le dé
-          atención integral.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - violencia-de-genero
 
       - fecha: 2021-08-19
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Primera Sala de la Suprema Corte de Justicia de la
           Nación](https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=6550)
-=======
-        url: https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=6550
-        texto: >-
-          La [Primera Sala de la Suprema Corte de Justicia de la Nación]($url)
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           (SCJN) determinó inconstitucional el actuar del Congreso del Estado de
           Yucatán de votar por medio de cédulas secretas, por violar los principios
           de legalidad y seguridad jurídicas, así como el derecho a la información,
@@ -859,10 +543,7 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2021-08-02
-<<<<<<< HEAD
         tipo: proyecto
-=======
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: Ley No. 27806
         url: https://espij.minjus.gob.pe/spij-ext-web/detallenorma/H829967
         texto: >-
@@ -878,15 +559,9 @@ paises:
           también advirtió esta falta, que podía
           [vulnerar](https://larepublica.pe/politica/2021/08/01/piden-al-presidente-pedro-castillo-cumplir-obligaciones-sobre-transparencia/)
           la Ley de Transparencia y Acceso a la Información Pública ([Ley
-<<<<<<< HEAD
           27806]($url), y la Ley de Gestión de Intereses en la Administración
           Pública ([Ley
           28024](https://espij.minjus.gob.pe/spij-ext-web/detallenorma/H848156).
-=======
-          27806]($url)), y la Ley de Gestión de Intereses en la Administración
-          Pública ([Ley
-          28024](https://espij.minjus.gob.pe/spij-ext-web/detallenorma/H848156)).
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Durante los primeros días de agosto, el gobierno de Pedro Castillo
           [impidió](https://gestion.pe/peru/politica/pedro-castillo-se-evito-acceso-a-la-prensa-para-ceremonia-con-ffaa-y-pnp-en-palacio-de-gobierno-nndc-noticia/?ref=gesr)
           que los medios de comunicación pudieran ingresar a diversos eventos
@@ -906,7 +581,6 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2021-08-16
-<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El presidente [se
@@ -915,21 +589,11 @@ paises:
           encontraba el presidente de SNRTV, quien indicó que Castillo "comentó su
           posición firme en la defensa y respeto a la libertad de expresión y al
           derecho a la información que tienen todos los peruanos”.
-=======
-        url: https://rpp.pe/peru/actualidad/snrtv-pedro-castillo-nos-expreso-su-posicion-firme-en-la-defensa-y-respeto-a-la-libertad-de-expresion-noticia-1352801?ref=rpp
-        texto: >-
-          El presidente [se reunió]($url) con representantes de diversos medios de
-          comunicación, entre los cuales se encontraba el presidente de SNRTV, quien
-          indicó que Castillo "comentó su posición firme en la defensa y respeto a
-          la libertad de expresión y al derecho a la información que tienen todos
-          los peruanos”.
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - acceso-a-la-informacion
 ---
 
-<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -959,8 +623,4 @@ paises:
 | Reputación y honor | 15,8% |
 | Responsabilidad de intermediarios | 5,3% |
 
-=======
-{{< observatorio-mes month="2021-08" >}}
-
->>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

@@ -15,14 +15,18 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
+<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2024-09-20
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada Mónica Fein presentó el proyecto de ley "[Entornos Digitales
@@ -35,10 +39,24 @@ paises:
           inclusivo y apropiado, los riesgos derivados del uso precoz e inapropiado
           de los entornos digitales. Asimismo, el deber de incluir una funcionalidad
           de control parental de servicios, aplicaciones y contenido.
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/5379-D-2024.pdf
+        texto: >-
+          La diputada Mónica Fein presentó el proyecto de ley "[Entornos Digitales
+          Seguros para las Infancias y Adolescencias]($url)". El proyecto busca
+          establecer medidas con la finalidad de garantizar la protección y el
+          ejercicio de los derechos de las infancias y adolescencias en los entornos
+          digitales. Para ello, la norma establece la obligación de las plataformas
+          digitales de informar, a través de un lenguaje accesible, inclusivo y
+          apropiado, los riesgos derivados del uso precoz e inapropiado de los
+          entornos digitales. Asimismo, el deber de incluir una funcionalidad de
+          control parental de servicios, aplicaciones y contenido.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - plataformas-digitales
 
       - fecha: 2024-09-17
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El senador Eduardo E. de Pedro, presentó el proyecto de ley “[Regulación
@@ -51,15 +69,33 @@ paises:
           promoción en eventos o actividades públicas. Asimismo, obliga a dichas
           empresas a solicitar el dominio de internet “bet.ar”, e inscribirse en el
           Registro de Control Online del Sistema de Apuestas.
+=======
+        url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/1770.24/S/PL
+        texto: >-
+          El senador Eduardo E. de Pedro, presentó el proyecto de ley “[Regulación
+          de la actividad de operadores de juegos de azar y/o apuestas en línea y
+          medidas de prevención para la ludopatía infantojuvenil]($url)”. El
+          proyecto regula la actividad, registro y publicidad de personas y empresas
+          vinculadas a juegos de azar y apuestas en línea. Para ello, se prohíbe que
+          estas realicen cualquier tipo de publicidad, patrocinio o promoción en
+          eventos o actividades públicas. Asimismo, obliga a dichas empresas a
+          solicitar el dominio de internet “bet.ar”, e inscribirse en el Registro de
+          Control Online del Sistema de Apuestas.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - plataformas-digitales
 
       - fecha: 2024-09-16
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/5188-D-2024.pdf
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La diputada Maria Gisela Marziotta, presentó el proyecto de ley
           “[Capacitación permanente y obligatoria en materia de prevención de la
           difusión de discursos de odio y fake news en entidades prestadoras de
+<<<<<<< HEAD
           servicios de comunicación
           audiovisual](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/5188-D-2024.pdf)”.
           El proyecto establece una capacitación obligatoria anual para quienes
@@ -87,10 +123,36 @@ paises:
           ‘reglamentar’ seis artículos de la Ley de acceso a la información pública,
           la norma pretende establecer una legislación propia en la materia, lo cual
           sería inconstitucional.
+=======
+          servicios de comunicación audiovisual]($url)”. El proyecto establece una
+          capacitación obligatoria anual para quienes ocupen cargos de conducción en
+          entidades de comunicación audiovisual y trabajadores involucrados en la
+          conducción editorial. Los temas incluyen: (i) prevención y erradicación de
+          discursos de odio; (ii) identificación y prevención de noticias falsas;
+          (iii) uso responsable del sistema judicial y riesgos del lawfare; (iv)
+          fomento de la ética periodística y derechos humanos; y (v) estrategias de
+          comunicación inclusivas y antidiscriminatorias.
+        etiquetas:
+          - libertad-de-prensa
+
+      - fecha: 2024-09-11
+        url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/1718.24/S/PL
+        texto: >-
+          El senador Daniel P. Bensusán presentó el proyecto de ley para “[Declarar
+          nulo de nulidad absoluta el decreto N° 780/24, que reglamenta su similar
+          27275 derecho de acceso a la información publica]($url)”. El proyecto
+          busca derogar el Decreto N° 780/2024 porque sostiene que es contraria a
+          los estándares internacionales en materia de acceso a la información
+          pública. Asimismo, señala que, bajo el pretexto de ‘reglamentar’ seis
+          artículos de la Ley de acceso a la información pública, la norma pretende
+          establecer una legislación propia en la materia, lo cual sería
+          inconstitucional.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2024-09-10
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El senador Jesús F. Rejal, presentó el proyecto de ley “[Regulación de la
@@ -114,6 +176,30 @@ paises:
           27275. Modificaciones sobre el derecho de acceso y
           excepciones](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/5053-D-2024.pdf)”.
           El proyecto modifica el Decreto Nº 780/2024, con el fin de subsanar sus
+=======
+        url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/1675.24/S/PL
+        texto: >-
+          El senador Jesús F. Rejal, presentó el proyecto de ley “[Regulación de la
+          publicidad de los juegos de azar y apuestas online para controlar la
+          cyberludopatía]($url)”. El proyecto prohíbe la publicidad y promoción de
+          los juegos de azar y apuestas online, en forma directa o indirecta a
+          través de medios de difusión o comunicación; eventos artísticos y/o
+          deportivos; o, estrategias de marketing. Asimismo, establece que los
+          operadores de juegos y apuestas en línea deberán implementar mecanismos
+          efectivos de verificación de edad para asegurar que los menores de edad no
+          puedan participar en actividades de juego.
+        etiquetas:
+          - defensa-del-consumidor
+          - plataformas-digitales
+
+      - fecha: 2024-09-09
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/5053-D-2024.pdf
+        texto: >-
+          Los diputados Julia Strada, Martín Soria, Carolina Yutrovic y Pablo Carro,
+          presentaron el proyecto de ley “[Acceso a la información pública – Ley N°
+          27275. Modificaciones sobre el derecho de acceso y excepciones]($url)”. El
+          proyecto modifica el Decreto Nº 780/2024, con el fin de subsanar sus
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           defectos de inconstitucionalidad. La norma enfatiza que los límites al
           derecho de acceso a la información pública son únicamente aquellos
           establecidos por ley.
@@ -121,21 +207,33 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2024-09-04
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/4932-D-2024.pdf
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Los diputados Victoria Borrego, Juan Manuel López, Marcela Campagnoli,
           Maximiliano Ferraro, Mónica Frade, Paula Oliveto presentaron el proyecto
           de ley “[Derogación del decreto 780/2024 que restringe el acceso a la
+<<<<<<< HEAD
           información
           pública](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/4932-D-2024.pdf)”.
           En los fundamentos del proyecto se señala que la norma objeto de la
           derogación, a pesar de ser reglamentaria, pretende establecer una
           legislación propia en materia de acceso a la información pública, lo cual
           sería inconstitucional.
+=======
+          información pública]($url)”. En los fundamentos del proyecto se señala que
+          la norma objeto de la derogación, a pesar de ser reglamentaria, pretende
+          establecer una legislación propia en materia de acceso a la información
+          pública, lo cual sería inconstitucional.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2024-09-04
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Esteban Paulón presentó el proyecto de ley “[Declárese
@@ -146,26 +244,49 @@ paises:
           derogación sería constitucional pues, a pesar de ser reglamentaria,
           pretende establecer una legislación propia en materia de acceso a la
           información pública.
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/4931-D-2024.pdf
+        texto: >-
+          El diputado Esteban Paulón presentó el proyecto de ley “[Declárese
+          insanablemente nulo el decreto N° 780/24 que restringe el acceso a la
+          información pública]($url)”. En los fundamentos del proyecto se señala que
+          la norma objeto de la derogación sería constitucional pues, a pesar de ser
+          reglamentaria, pretende establecer una legislación propia en materia de
+          acceso a la información pública.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2024-09-04
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/4929-D-2024.pdf
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La diputada Emilia Orozco presentó el proyecto de ley “[Estatuto del
           periodista profesional -Ley 12908- incorporación del artículo 38 bis sobre
           creación de la cláusula de conciencia del periodista en situaciones de
           riesgo para su integridad, independencia y la libertad de
+<<<<<<< HEAD
           expresión](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/4929-D-2024.pdf)”.
           El proyecto crea la “cláusula de conciencia”, que es un derecho del
           periodista que habilita a equiparar a un despido indirecto cuando la
           situación creada por exigencias laborales que notoriamente pongan en
           riesgo su integridad, independencia o la libertad de expresión, según los
           supuestos que se detallan en la norma.
+=======
+          expresión]($url)”. El proyecto crea la “cláusula de conciencia”, que es un
+          derecho del periodista que habilita a equiparar a un despido indirecto
+          cuando la situación creada por exigencias laborales que notoriamente
+          pongan en riesgo su integridad, independencia o la libertad de expresión,
+          según los supuestos que se detallan en la norma.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-09-04
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Agost Carreño y otros, presentaron el proyecto de ley
@@ -175,10 +296,20 @@ paises:
           En los fundamentos del proyecto se señala que la norma sería contraria a
           los estándares constitucionales en materia de acceso a la información
           pública
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/4925-D-2024.pdf
+        texto: >-
+          El diputado Agost Carreño y otros, presentaron el proyecto de ley
+          “[Declárese nulo de nulidad absoluta e insanable el decreto Nº 780/24 que
+          restringe el acceso a la información pública]($url)”. En los fundamentos
+          del proyecto se señala que la norma sería contraria a los estándares
+          constitucionales en materia de acceso a la información pública
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2024-09-04
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada Blanca Inés Osuna y otros presentaron el proyecto de ley
@@ -188,10 +319,20 @@ paises:
           En los fundamentos del proyecto se señala que la norma sería contraria a
           los estándares internacionales en materia de acceso a la información
           pública.
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/4913-D-2024.pdf
+        texto: >-
+          La diputada Blanca Inés Osuna y otros presentaron el proyecto de ley
+          “[Derogación del decreto 780/2024, por el cual se limita el derecho de
+          acceso a la información pública]($url)”. En los fundamentos del proyecto
+          se señala que la norma sería contraria a los estándares internacionales en
+          materia de acceso a la información pública.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2024-09-04
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada Ana Carolina Gaillard y otros presentaron el proyecto de ley
@@ -201,11 +342,23 @@ paises:
           En los fundamentos del proyecto se señala que la norma sería contraria a
           los estándares internacionales en materia de acceso a la información
           pública.
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/4880-D-2024.pdf
+        texto: >-
+          La diputada Ana Carolina Gaillard y otros presentaron el proyecto de ley
+          “[Declarase la nulidad del decreto 780/2024 que restringe el acceso a la
+          información pública]($url)”. En los fundamentos del proyecto se señala que
+          la norma sería contraria a los estándares internacionales en materia de
+          acceso a la información pública.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2024-09-02
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 780/2024
         url: https://www.boletinoficial.gob.ar/detalleAviso/primera/313139/20240902
         texto: >-
@@ -225,6 +378,7 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2024-09-27
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El juez Alexandre de Moraes, del Supremo Tribunal Federal (STF), [rechazó
@@ -232,13 +386,26 @@ paises:
           solicitud](https://noticias.stf.jus.br/postsnoticias/retomada-de-funcionamento-do-x-depende-do-pagamento-integral-das-multas-decide-stf/)
           de reanudación de operaciones presentada por X (antes Twitter) el día
           anterior. El 26.09, X había [solicitado al STF su
+=======
+        url: https://noticias.stf.jus.br/postsnoticias/retomada-de-funcionamento-do-x-depende-do-pagamento-integral-das-multas-decide-stf/
+        texto: >-
+          El juez Alexandre de Moraes, del Supremo Tribunal Federal (STF), [rechazó
+          la solicitud ]($url)de reanudación de operaciones presentada por X (antes
+          Twitter) el día anterior. El 26.09, X había [solicitado al STF su
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           desbloqueo](https://www.conjur.com.br/2024-set-26/x-recua-diz-que-regularizou-situacao-e-pede-desbloqueio-no-brasil/),
           alegando que había cumplido las [órdenes
           judiciales](https://internetlab.org.br/pt/semanario/20-09-2024/#23503) de
           nombrar un representante legal, bloquear perfiles y pagar multas. Sin
+<<<<<<< HEAD
           embargo, Moraes
           [afirmó](https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2024/09/27195937/DECISAO-X.pdf)
           que que, para que la plataforma vuelva a operar en Brasil, [deberá
+=======
+          embargo, Moraes [afirmó
+          ](https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2024/09/27195937/DECISAO-X.pdf)que
+          que, para que la plataforma vuelva a operar en Brasil, [deberá
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           pagar](https://g1.globo.com/politica/noticia/2024/09/27/moraes-faz-novas-exigencias-para-x-voltar-ao-ar.ghtml)
           por completo una multa de $10 millones de reales por incumplimiento y
           confirmar que los montos bloqueados en las cuentas de Starlink se
@@ -249,6 +416,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2024-09-25
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Jorge Goetten (REPÚBLICA/SC) presentó el [Proyecto de Ley
@@ -265,11 +433,29 @@ paises:
           de hasta dos años de prisión o multas. Las plataformas podrían enfrentar
           sanciones administrativas, aplicadas por la Autoridad Nacional de
           Protección de Datos (ANPD). En su
+=======
+        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459132
+        texto: >-
+          El diputado Jorge Goetten (REPÚBLICA/SC) presentó el [Proyecto de Ley
+          3689/2024]($url), que propone normas para la promoción de productos y
+          servicios en internet por influencers digitales. El texto define a un
+          influencer como cualquier persona que promocione productos o servicios en
+          línea a cambio de pago o beneficios. El proyecto exige transparencia en
+          los contenidos publicitarios y prohíbe la promoción de actividades
+          exclusivas para médicos, procedimientos estéticos complejos, productos
+          para fumadores y apuestas en plataformas accesibles a menores. También
+          establece que plataformas y patrocinadores deben asegurar el cumplimiento
+          de las normas antes de efectuar pagos, y que el incumplimiento podría
+          resultar en penas de hasta dos años de prisión o multas. Las plataformas
+          podrían enfrentar sanciones administrativas, aplicadas por la Autoridad
+          Nacional de Protección de Datos (ANPD). En su
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [justificación](https://internetlab.org.br/wp-content/uploads/2024/09/PL-3689-2024.pdf),
           el diputado destaca que la creciente influencia de los influencers y la
           falta de transparencia en los contenidos patrocinados pueden inducir a
           comportamientos inapropiados, especialmente en temas de salud y apuestas.
         etiquetas:
+<<<<<<< HEAD
           - plataformas-digitales
 
       - fecha: 2024-09-21
@@ -279,18 +465,36 @@ paises:
           adicionales](https://noticias.stf.jus.br/postsnoticias/stf-estabelece-prazo-de-5-dias-para-envio-de-documentacao-da-representacao-do-x-no-brasil/#:~:text=STF%20estabelece%20prazo%20de%205,representa%C3%A7%C3%A3o%20do%20X%20no%20Brasil)
           a X para designar formalmente un representante en Brasil, tras una
           petición de los abogados de Elon Musk, que [argumentaron
+=======
+          - defensa-del-consumidor
+          - plataformas-digitales
+
+      - fecha: 2024-09-21
+        url: https://noticias.stf.jus.br/postsnoticias/stf-estabelece-prazo-de-5-dias-para-envio-de-documentacao-da-representacao-do-x-no-brasil/#:~:text=STF%20estabelece%20prazo%20de%205,representa%C3%A7%C3%A3o%20do%20X%20no%20Brasil
+        texto: >-
+          Moraes había concedido [cinco días adicionales]($url) a X para designar
+          formalmente un representante en Brasil, tras una petición de los abogados
+          de Elon Musk, que [argumentaron
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           retrasos](https://www.conjur.com.br/2024-set-21/alexandre-diz-que-x-nao-cumpriu-decisao-e-concede-extensao-de-prazo/)
           por el envío de documentos corporativos desde Irlanda. Además, el juez
           ordenó a la Policía Federal y a Anatel que presentaran informes sobre el
           acceso a la plataforma para calcular posibles multas. El 25.09, las
+<<<<<<< HEAD
           autoridades enviaron sus
           [informes](https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2024/09/26/pf-e-anatel-enviam-ao-stf-relatorios-sobre-acessos-ao-x-mesmo-com-bloqueio.htm)
           al STF sobre el uso de X en Brasil tras el bloqueo.
+=======
+          autoridades enviaron sus [informes
+          ](https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2024/09/26/pf-e-anatel-enviam-ao-stf-relatorios-sobre-acessos-ao-x-mesmo-com-bloqueio.htm)al
+          STF sobre el uso de X en Brasil tras el bloqueo.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - plataformas-digitales
 
       - fecha: 2024-09-19
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Según una [columna
@@ -304,11 +508,26 @@ paises:
           [respondieron](https://www1.folha.uol.com.br/colunas/monicabergamo/2024/09/x-de-musk-diz-ao-stf-que-vai-indicar-representante-legal-no-brasil.shtml)
           ese mismo día, afirmando que la empresa nombraría un representante en el
           plazo estipulado por Moraes.
+=======
+        url: https://www1.folha.uol.com.br/colunas/monicabergamo/2024/09/x-comeca-a-cumprir-ordens-do-stf-e-alexandre-de-moraes-diz-que-e-preciso-paciencia.shtml
+        texto: >-
+          Según una [columna periodística]($url), el bufete Pinheiro Neto fue
+          recontratado por X para su representación en Brasil. Sin embargo, Moraes
+          consideró [irregular
+          ](https://internetlab.org.br/wp-content/uploads/2024/09/pet-12404-representacao-legal.pdf)esta
+          representación ya que X aún no nombró un representante legal en el país,
+          dando al bufete 24 horas para comprobar la validez de su mandato. Los
+          abogados de X [respondieron
+          ](https://www1.folha.uol.com.br/colunas/monicabergamo/2024/09/x-de-musk-diz-ao-stf-que-vai-indicar-representante-legal-no-brasil.shtml)ese
+          mismo día, afirmando que la empresa nombraría un representante en el plazo
+          estipulado por Moraes.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - plataformas-digitales
 
       - fecha: 2024-09-18
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [X volvió a
@@ -318,6 +537,15 @@ paises:
           "cualquier tecnología suficientemente avanzada es indistinguible de la
           magia", en referencia a Arthur C. Clarke. En respuesta, Moraes [ordenó a
           Anatel restablecer el
+=======
+        url: https://www1.folha.uol.com.br/mercado/2024/09/x-ex-twitter-voltou-no-brasil-ou-quase-isso-entenda-a-polemica.shtml
+        texto: >-
+          [X volvió a funcionar]($url) para algunos usuarios en Brasil tras un
+          cambio en la dirección IP, redirigida a servicios como Cloudflare. Ese
+          día, Musk publicó en X: "cualquier tecnología suficientemente avanzada es
+          indistinguible de la magia", en referencia a Arthur C. Clarke. En
+          respuesta, Moraes [ordenó a Anatel restablecer el
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           bloqueo](https://internetlab.org.br/wp-content/uploads/2024/09/0423DCCAF2B97EC8C6E350E6ADC47489.pdf),
           acusando a X de "contumacia voluntaria e ilícita". También instruyó a la
           plataforma suspender el uso de servicios de alojamiento para eludir la
@@ -338,6 +566,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2024-09-16
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El senador Randolfe Rodrigues (PT/AP) presentó el [Proyecto de Ley
@@ -345,6 +574,14 @@ paises:
           que busca prohibir la publicidad, patrocinio y promoción de casas de
           apuestas deportivas, juegos en línea y otros juegos de azar. El proyecto
           modifica la [Ley nº
+=======
+        url: https://www25.senado.leg.br/web/atividade/materias/-/materia/165405
+        texto: >-
+          El senador Randolfe Rodrigues (PT/AP) presentó el [Proyecto de Ley
+          3563/2024]($url), que busca prohibir la publicidad, patrocinio y promoción
+          de casas de apuestas deportivas, juegos en línea y otros juegos de azar.
+          El proyecto modifica la [Ley nº
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           13.756/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13756.htm),
           que regula el destino de la recaudación de loterías, y la [Ley nº
           14.790/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm),
@@ -359,10 +596,17 @@ paises:
           similar](https://internetlab.org.br/pt/semanario/13-09-2024/#23451) para
           prohibir la publicidad de las casas de apuestas.
         etiquetas:
+<<<<<<< HEAD
           - plataformas-digitales
 
       - fecha: 2024-09-16
         tipo: proyecto
+=======
+          - defensa-del-consumidor
+          - plataformas-digitales
+
+      - fecha: 2024-09-16
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: PL 3568/2024
         url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2458351
         texto: >-
@@ -371,7 +615,11 @@ paises:
           texto, las plataformas deben retirar contenidos que ofenden el honor del
           afectado tras cinco años de su publicación. El proyecto impone multas de
           hasta $25.000 reales a las plataformas que no cumplan con la solicitud del
+<<<<<<< HEAD
           ofendido. En su
+=======
+          ofendido**.** En su
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [justificación](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2477217&filename=PL%203568/2024),
           el diputado argumenta que, aunque el Supremo Tribunal Federal haya
           considerado el derecho al olvido incompatible con la Constitución, este
@@ -381,6 +629,7 @@ paises:
           - privacidad
 
       - fecha: 2024-09-11
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Procuraduría General de la República (PGR) se
@@ -398,6 +647,23 @@ paises:
           Acciones por Incumplimiento de Precepto Fundamental (ADPF)
           [1188](https://noticias.stf.jus.br/postsnoticias/stf-pede-manifestacao-da-agu-e-da-pgr-sobre-acoes-que-contestam-suspensao-do-x-no-brasil/)
           y
+=======
+        url: https://noticias.stf.jus.br/postsnoticias/stf-pede-manifestacao-da-agu-e-da-pgr-sobre-acoes-que-contestam-suspensao-do-x-no-brasil/
+        texto: >-
+          La Procuraduría General de la República (PGR) se [pronunció
+          ](https://www.mpf.mp.br/pgr/noticias-pgr2/2024/pgr-diz-que-adpf-e-acao-inadequada-para-questionar-decisao-do-supremo-sobre-x)en
+          contra de las solicitudes del Partido Novo y de la Orden de los Abogados
+          de Brasil (OAB) para que el Supremo Tribunal Federal (STF) [revise
+          ](https://www.jota.info/stf/do-supremo/pgr-rejeita-acoes-que-pedem-liberacao-do-x-antigo-twitter-no-brasil)la
+          decisión de la 1ª Sala que ordenó la [suspensión de
+          X](https://internetlab.org.br/pt/semanario/06-09-2024/#23415) en Brasil y
+          impuso multas a los usuarios que intentaran seguir accediendo a la
+          plataforma. El 05.09, el juez Nunes Marques, relator de las dos acciones,
+          había pedido la [opinión
+          ](https://noticias.stf.jus.br/postsnoticias/stf-pede-manifestacao-da-agu-e-da-pgr-sobre-acoes-que-contestam-suspensao-do-x-no-brasil/)de
+          la Procuraduría General de la Unión (AGU) y de la PGR sobre las Acciones
+          por Incumplimiento de Precepto Fundamental (ADPF) [1188]($url) y
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [1190](https://internetlab.org.br/wp-content/uploads/2024/09/NMPecaOAB.pdf).
           La [ADPF
           1188](https://portal.stf.jus.br/processos/detalhe.asp?incidente=7020946),
@@ -419,6 +685,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2024-09-11
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El juez Alexandre de Moraes, del Supremo Tribunal Federal (STF), [ordenó
@@ -427,6 +694,15 @@ paises:
           de 18,35 millones de reales bloqueados de X (antes Twitter) y Starlink a
           las cuentas federales. Ambas empresas son dirigidas por Elon Musk y fueron
           responsabilizadas solidariamente por formar un ["grupo económico de
+=======
+        url: https://noticias.stf.jus.br/postsnoticias/stf-determina-transferencia-de-r-1835-milhoes-bloqueados-da-x-e-da-starlink-para-conta-da-uniao/
+        texto: >-
+          El juez Alexandre de Moraes, del Supremo Tribunal Federal (STF)**,
+          **[ordenó la transferencia]($url) de 18,35 millones de reales bloqueados
+          de X (antes Twitter) y Starlink a las cuentas federales. Ambas empresas
+          son dirigidas por Elon Musk y fueron responsabilizadas solidariamente por
+          formar un ["grupo económico de
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           hecho"](https://g1.globo.com/politica/noticia/2024/09/13/moraes-manda-transferir-r-182-milhoes-do-x-e-da-starlink-para-a-uniao-e-desbloqueia-contas-das-empresas.ghtml).
           Los montos transferidos fueron 7,28 millones de X y 11,06 millones de
           Starlink, correspondientes a [multas impuestas por el
@@ -440,6 +716,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2024-09-10
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Abogacía General de la Unión (AGU) solicitó al Supremo Tribunal Federal
@@ -455,6 +732,21 @@ paises:
           1.057.258](https://portal.stf.jus.br/processos/detalhe.asp?incidente=5217273)
           ([Tema
           533](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=533).
+=======
+        url: https://www.gov.br/agu/pt-br/comunicacao/noticias/agu-defende-no-stf-possibilidade-de-responsabilizacao-de-plataformas-digitais-por-conteudos-que-violam-direitos-fundamentais
+        texto: >-
+          La Abogacía General de la Unión (AGU) solicitó al Supremo Tribunal Federal
+          (STF) su [adhesión como _amicus curiae_]($url) en dos casos que tratan la
+          responsabilidad de los proveedores de aplicaciones de Internet por
+          contenidos generados por terceros: el [Recurso Extraordinario nº
+          1.037.396](https://portal.stf.jus.br/processos/detalhe.asp?incidente=5160549)
+          ([Tema
+          987](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5160549&numeroProcesso=1037396&classeProcesso=RE&numeroTema=987))
+          y el [Recurso Extraordinario nº
+          1.057.258](https://portal.stf.jus.br/processos/detalhe.asp?incidente=5217273)
+          ([Tema
+          533](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=533)).
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           El Tema 987 debate la constitucionalidad del artículo 19 del [Marco Civil
           de Internet
           (MCI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm),
@@ -475,6 +767,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2024-09-10
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado federal Reginaldo Lopes (PT/MG) presentó el [Proyecto de Ley
@@ -504,6 +797,35 @@ paises:
           Moraes de [suspender las actividades de
           X](https://noticias.stf.jus.br/postsnoticias/stf-confirma-decisao-que-suspendeu-o-x-antigo-twitter-em-todo-o-pais/)
           en Brasil. En sus votos, los(as) ministros(as) [Cármen
+=======
+        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2457525
+        texto: >-
+          El diputado federal Reginaldo Lopes (PT/MG) presentó el [Proyecto de Ley
+          nº 3511/2024]($url), que busca prohibir la publicidad de empresas y casas
+          de apuestas, online y offline. El texto estipula la prohibición de
+          anunciar, publicitar y promover productos relacionados con apuestas y
+          juegos de azar en cualquier medio de comunicación. El proyecto prevé
+          sanciones progresivas para las personas y empresas que incumplan la nueva
+          ley, que van desde advertencias y multas hasta la suspensión de
+          actividades, cancelación de licencias, prohibición de obtener nuevas
+          licencias, prohibición de realizar ciertas actividades, exclusión de
+          concursos públicos e incluso la inhabilitación para actuar como
+          administrador en cualquier modalidad de lotería. En su justificación, el
+          diputado destaca el rápido crecimiento de las llamadas “bets” en Brasil en
+          los últimos años, advirtiendo sobre los perjuicios que estas actividades
+          generan en la población. Según el diputado, este crecimiento se debe en
+          gran medida a la intensa publicidad promovida por estas empresas.
+        etiquetas:
+          - defensa-del-consumidor
+          - plataformas-digitales
+
+      - fecha: 2024-09-02
+        url: https://noticias.stf.jus.br/postsnoticias/stf-confirma-decisao-que-suspendeu-o-x-antigo-twitter-em-todo-o-pais/
+        texto: >-
+          La Primera Sala del STF confirmó por mayoría la decisión de Alexandre de
+          Moraes de [suspender las actividades de X]($url) en Brasil. En sus votos,
+          los(as) ministros(as) [Cármen
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Lúcia](https://internetlab.org.br/wp-content/uploads/2024/09/6264615-1.pdf),
           [Dino](https://internetlab.org.br/wp-content/uploads/2024/09/voto-Dino-bloqueio-X.pdf)
           y
@@ -523,6 +845,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2024-08-30
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Alexandre de Moraes, ministro del Supremo Tribunal Federal (STF), [ordenó
@@ -534,6 +857,17 @@ paises:
           Nacional de Telecomunicaciones (Anatel) para que tomara las medidas
           necesarias en un plazo de 24 horas a fin de hacer efectiva la suspensión,
           lo cual fue [ejecutado dentro del
+=======
+        url: https://internetlab.org.br/wp-content/uploads/2024/09/PET-12404-Assinada.pdf
+        texto: >-
+          Alexandre de Moraes, ministro del Supremo Tribunal Federal (STF), [ordenó
+          la suspensión]($url) de la plataforma X en todo Brasil hasta que la
+          empresa cumpla con todas las órdenes judiciales pendientes, pague las
+          multas acumuladas y designe un representante legal en Brasil. El ministro
+          instruyó a la Agencia Nacional de Telecomunicaciones (Anatel) para que
+          tomara las medidas necesarias en un plazo de 24 horas a fin de hacer
+          efectiva la suspensión, lo cual fue [ejecutado dentro del
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           plazo](https://www.gov.br/anatel/pt-br/anatel-recebe-intimacao-do-stf-para-suspensao-do-x-antigo-twitter)
           establecido. La decisión también incluyó la citación a Google y Apple para
           que implementaran “barreras tecnológicas” en sus tiendas de aplicaciones,
@@ -541,10 +875,17 @@ paises:
           - tecnología que permite el acceso a contenido bloqueado geográficamente.
           Además, Moraes impuso una multa diaria de 50.000 reales a individuos y
           empresas que utilicen “subterfugios tecnológicos”, como VPNs, para
+<<<<<<< HEAD
           continuar accediendo a X en Brasil. El mismo día, Moraes
           [reconsideró](https://www.cnnbrasil.com.br/blogs/luisa-martins/politica/moraes-recua-em-decisao-sobre-uso-de-vpn/)
           las órdenes dirigidas a Google y Apple, permitiéndoles mantener las VPN en
           sus tiendas en línea, pero mantuvo la multa para aquellos que las utilicen
+=======
+          continuar accediendo a X en Brasil. El mismo día, Moraes [reconsideró
+          ](https://www.cnnbrasil.com.br/blogs/luisa-martins/politica/moraes-recua-em-decisao-sobre-uso-de-vpn/)las
+          órdenes dirigidas a Google y Apple, permitiéndoles mantener las VPN en sus
+          tiendas en línea, pero mantuvo la multa para aquellos que las utilicen
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           para acceder a X. La decisión se emitió en el contexto de la petición
           [12.404/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6888934),
           bajo secreto judicial, tras el [incumplimiento de Elon
@@ -569,11 +910,16 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2024-09-03
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=17732&prmBOLETIN=17112-19
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Los diputados Johannes Kaiser, Tomás Lagomarsino y Cristóbal
           Urruticoechea, presentaron el proyecto de ley que “[Establece límites al
           desarrollo de la inteligencia artificial, en resguardo de los derechos
+<<<<<<< HEAD
           humanos
           fundamentales](https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=17732&prmBOLETIN=17112-19)”.
           El proyecto establece un derecho de autonomía de conformidad con el cual
@@ -581,6 +927,13 @@ paises:
           manipular o coaccionar a los seres humanos. Asimismo, se reconoce el
           derecho a la privacidad, transparencia, seguridad y responsabilidad,
           respecto al uso de la IA.
+=======
+          humanos fundamentales]($url)”. El proyecto establece un derecho de
+          autonomía de conformidad con el cual los sistemas de inteligencia
+          artificial (IA) no deben diseñarse para manipular o coaccionar a los seres
+          humanos. Asimismo, se reconoce el derecho a la privacidad, transparencia,
+          seguridad y responsabilidad, respecto al uso de la IA.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
           - privacidad
@@ -588,10 +941,16 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2024-09-27
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Consejo de Estado admitió para estudio una [acción de
           tutela](https://redmas.com.co/colombia/El-presidente-Petro-a-enfrentar-la-justicia-por-tratar-de-munecas-de-la-mafia-a-unas-periodistas-colombianas-20240927-0057.html)
+=======
+        url: https://redmas.com.co/colombia/El-presidente-Petro-a-enfrentar-la-justicia-por-tratar-de-munecas-de-la-mafia-a-unas-periodistas-colombianas-20240927-0057.html
+        texto: >-
+          El Consejo de Estado admitió para estudio una [acción de tutela]($url)
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           presentada por un grupo de 19 mujeres periodistas, representadas por la
           Fundación para la Libertad de Prensa (FLIP) y El Veinte, en contra del
           presidente Gustavo Petro. La tutela es una respuesta al [patrón de
@@ -613,6 +972,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-09-24
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Tres mujeres
@@ -625,6 +985,18 @@ paises:
           septiembre se anunció que otra congresista presentará un segundo proyecto
           de ley sobre violencia digital de género conocido como el "[proyecto de
           ley Olimpia
+=======
+        url: https://x.com/SenadoGovCo/status/1838334143173627977/photo/1
+        texto: >-
+          [Tres mujeres congresistas]($url) de diferentes partidos radicaron el
+          "proyecto de ley de protección digital", el cual busca adoptar medidas de
+          sensibilización, prevención, protección, reparación y penalización de la
+          violencia de género digital. Entre otras cosas, el proyecto busca
+          criminalizar la difusión no consentida de contenido íntimo sexual en
+          internet. Además, el 17 de septiembre se anunció que otra congresista
+          presentará un segundo proyecto de ley sobre violencia digital de género
+          conocido como el "[proyecto de ley Olimpia
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Colombia](https://www.senado.gov.co/index.php/el-senado/noticias/5784-ley-olimpia-busca-sancionar-conductas-en-materia-de-violencia-digital)",
           en referencia al conjunto de reformas legislativas en México que se
           crearon para combatir la violencia digital. De forma similar, este segundo
@@ -636,6 +1008,7 @@ paises:
           - violencia-de-genero
 
       - fecha: 2024-09-04
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El presidente Gustavo Petro
@@ -648,10 +1021,24 @@ paises:
           dinero en efectivo y posibles irregularidades legales tanto en Colombia
           como en Israel. La compra se realizó sin dejar registro en el Sistema
           Electrónico de Contratación Pública de Colombia.
+=======
+        url: https://elpais.com/america-colombia/2024-09-06/pegasus-en-colombia-las-claves-para-entender-la-denuncia-de-petro.html
+        texto: >-
+          El presidente Gustavo Petro [reveló]($url) que la Dirección de
+          Inteligencia de la Policía (Dipol) habría adquirido durante la
+          administración anterior el software espía Pegasus, el cual se ha usado en
+          decenas de países para espiar a periodistas, defensores de derechos
+          humanos y opositores políticos. El software se habría adquirido de manera
+          clandestina, involucrando el transporte de grandes sumas de dinero en
+          efectivo y posibles irregularidades legales tanto en Colombia como en
+          Israel. La compra se realizó sin dejar registro en el Sistema Electrónico
+          de Contratación Pública de Colombia.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - privacidad
 
+<<<<<<< HEAD
   - pais: Ecuador
     entradas:
       - fecha: 2024-09-13
@@ -671,12 +1058,34 @@ paises:
     entradas:
       - fecha: 2024-09-10
         tipo: proyecto
+=======
+  - pais: México
+    entradas:
+      - fecha: 2024-09-13
+        url: https://www.ecuavisa.com/noticias/politica/tribunalrechazo-accion-wilman-teran-contra-ecuavisa-DX7990342
+        texto: >-
+          El Poder Judicial [denegó la acción de protección presentada por Wilman
+          Terán]($url) en contra de Ecuavisa. En la mencionada resolución se
+          determinó que el medio de comunicación no violó ningún derecho de Terán,
+          quien pretendía que los jueces ordenen al SNAI que lo trasladen desde la
+          Cárcel 4 de Quito hasta el set del programa “Contacto Directo” para
+          responder a la fiscal general, Diana Salazar.
+        etiquetas:
+          - libertad-de-prensa
+
+      - fecha: 2024-09-10
+        url: https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-237-24.pdf
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Durante el mes de septiembre, el comisionado Adrián Alcalá Méndez y las
           comisionadas Blanca Lilia Ibarra Cadena y Norma Julieta del Río Venegas
           del Instituto Nacional de Transparencia, Acceso a la Información y
+<<<<<<< HEAD
           Protección de Datos Personales, en los comunicados
           [237-24](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-237-24.pdf),
+=======
+          Protección de Datos Personales, en los comunicados [237-24]($url),
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [243-224](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-243-24.pdf),
           [259-24](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-259-24.pdf)
           y
@@ -689,12 +1098,17 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2024-09-05
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://articulo19.org/represion-y-criminalizacion-de-la-protesta-contra-personas-defensoras-y-periodistas-en-xochimilco-y-tlalpan-el-5-de-septiembre-de-2024/
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La organización Artículo 19 informa que el 5 de septiembre del mismo año,
           manifestantes de la Comunidad Otomí y colectivos en la lucha por la tierra
           y territorio, estudiantes de la Universidad Nacional Autónoma de México y
           la Universidad Autónoma Metropolitana fueron [intervenidos mientras
+<<<<<<< HEAD
           ejercían su derecho a la
           protesta](https://articulo19.org/represion-y-criminalizacion-de-la-protesta-contra-personas-defensoras-y-periodistas-en-xochimilco-y-tlalpan-el-5-de-septiembre-de-2024/)
           en la explanada de la Alcaldía Xochimilco en la Ciudad de México. Esta
@@ -703,18 +1117,33 @@ paises:
           interrumpieron la protesta y cinco personas que protestaban fueron
           detenidas y trasladadas a la Fiscalía General de Justicia de la Ciudad de
           México.
+=======
+          ejercían su derecho a la protesta]($url) en la explanada de la Alcaldía
+          Xochimilco en la Ciudad de México. Esta protesta fue cubierta por diversos
+          medios de comunicación. Mientras transcurría la protesta diversas personas
+          encapuchadas y armadas interrumpieron la protesta y cinco personas que
+          protestaban fueron detenidas y trasladadas a la Fiscalía General de
+          Justicia de la Ciudad de México.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
   - pais: Perú
     entradas:
       - fecha: 2024-09-18
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Instituto de Prensa y
           Sociedad](https://www.ipys.org/alertas/per%C3%BA-ministro-del-interior-amenaza-una-vez-m%C3%A1s-con-criminalizar-el-trabajo-de-la-prensa)
           (IPYS) y la [Asociación Nacional de
           Periodistas](https://x.com/ANP_periodistas/status/1836498716271763654)
+=======
+        url: https://www.ipys.org/alertas/per%C3%BA-ministro-del-interior-amenaza-una-vez-m%C3%A1s-con-criminalizar-el-trabajo-de-la-prensa
+        texto: >-
+          El [Instituto de Prensa y Sociedad]($url) (IPYS) y la [Asociación Nacional
+          de Periodistas](https://x.com/ANP_periodistas/status/1836498716271763654)
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           (ANP) reportaron que el ministro del Interior, Juan José Santiváñez,
           amenazó a la periodista Karla Ramírez con denunciarla por difamación, tras
           la difusión de una carta oficial del Congreso en la que el presidente de
@@ -729,6 +1158,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-09-18
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se publicó la Resolución de Secretaría General [N.°
@@ -742,11 +1172,27 @@ paises:
           Esta decisión también se produce en el contexto de una investigación sobre
           el posible uso del auto presidencial por Vladimir Cerrón, prófugo líder
           del partido Perú Libre, por el que fue electa la actual jefa de Estado.
+=======
+        url: https://www.gob.pe/institucion/presidencia/normas-legales/6001841-000042-2024-dp-sg
+        texto: >-
+          Se publicó la Resolución de Secretaría General [N.°
+          000042-2024-DP/SG]($url), mediante la cual el Palacio de Gobierno
+          clasificó como “reservado” el plan de seguridad de la presidenta de la
+          República y la información relacionada con el vehículo conocido como el
+          “cofre” que la traslada, argumentando que es parte de dicho plan. Esta
+          norma fue emitida pocas horas antes de la sesión de la Comisión de
+          Fiscalización y Contraloría del Congreso, impidiendo que el grupo de
+          trabajo accediera a la información solicitada. Esta decisión también se
+          produce en el contexto de una investigación sobre el posible uso del auto
+          presidencial por Vladimir Cerrón, prófugo líder del partido Perú Libre,
+          por el que fue electa la actual jefa de Estado.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2024-09-13
         tipo: decreto
+<<<<<<< HEAD
         texto: >-
           Se publicó en el Diario Oficial “El Peruano” el Decreto Legislativo [N°
           1649](https://busquedas.elperuano.pe/dispositivo/NL/2324653-6) que
@@ -759,10 +1205,25 @@ paises:
           reproducción se realiza con fines comerciales y supera las dos Unidades
           Impositivas Tributarias, la pena aumenta a cuatro a ocho años de prisión y
           una multa de sesenta a ciento veinte días.
+=======
+        url: https://busquedas.elperuano.pe/dispositivo/NL/2324653-6
+        texto: >-
+          Se publicó en el Diario Oficial “El Peruano” el Decreto Legislativo [N°
+          1649]($url) que modifica el artículo 217 del Código Penal. A partir de
+          éste, se introduce como conducta punible el “[reproducir] total o
+          parcialmente una película, por cualquier medio o procedimiento, dentro de
+          las salas de cine o análogos” sin la autorización previa y escrita del
+          autor o titular de derechos, previendo así una sanción de pena privativa
+          de libertad de dos a seis años y una multa de treinta a noventa días.
+          Asimismo, si la reproducción se realiza con fines comerciales y supera las
+          dos Unidades Impositivas Tributarias, la pena aumenta a cuatro a ocho años
+          de prisión y una multa de sesenta a ciento veinte días.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-09-10
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Comisión de Propuesta de Reforma del Instituto Nacional de Radio y
@@ -779,15 +1240,38 @@ paises:
           Consejo Directivo y al presidente del nuevo instituto, así como la
           creación del puesto de defensor del público, que se encargaría de
           supervisar las quejas ciudadanas y solicitudes de rectificación.
+=======
+        url: https://consejoprensaperuana.org.pe/el-cpp-presenta-anteproyecto-de-ley-para-independizar-linea-editorial-del-irtp/
+        texto: >-
+          La Comisión de Propuesta de Reforma del Instituto Nacional de Radio y
+          Televisión del Perú (IRTP), creada por el Consejo de la Prensa Peruana
+          (CPP), presentó un [anteproyecto de ley]($url) que busca garantizar la
+          independencia editorial del IRTP respecto de los poderes del Estado. El
+          documento propone la creación del Instituto Nacional de Cine, Radio y
+          Televisión del Perú (ICRTP), así como la Comisión Nacional de Cine, Radio,
+          Televisión y Medios Digitales (Conacrat). La última estaría conformada por
+          organizaciones civiles y encargada de monitorear y consultar sobre la
+          gestión del IRTP. Además, se establecería un proceso meritocrático para
+          seleccionar a los miembros del Consejo Directivo y al presidente del nuevo
+          instituto, así como la creación del puesto de defensor del público, que se
+          encargaría de supervisar las quejas ciudadanas y solicitudes de
+          rectificación.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-09-10
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Instituto de Prensa y
           Sociedad](https://www.ipys.org/alertas/per%C3%BA-vocero-presidencial-pide-al-ministerio-p%C3%BAblico-investigar-coberturas-period%C3%ADsticas-de)
           (IPYS), el [Consejo de la Prensa
+=======
+        url: https://www.ipys.org/alertas/per%C3%BA-vocero-presidencial-pide-al-ministerio-p%C3%BAblico-investigar-coberturas-period%C3%ADsticas-de
+        texto: >-
+          El [Instituto de Prensa y Sociedad]($url) (IPYS), el [Consejo de la Prensa
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Peruana](https://x.com/ConsejodePrensa/status/1834281213743562924) (CPP) y
           la [Asociación Nacional de
           Periodistas](https://x.com/ANP_periodistas/status/1833589539765694595)
@@ -805,6 +1289,7 @@ paises:
           - libertad-de-prensa
 ---
 
+<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -851,4 +1336,8 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
+=======
+{{< observatorio-mes month="2024-09" >}}
+
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

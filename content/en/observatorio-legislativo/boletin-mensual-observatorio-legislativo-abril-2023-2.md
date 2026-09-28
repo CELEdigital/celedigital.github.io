@@ -15,28 +15,41 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
+<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2023-04-01
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://www.pagina12.com.ar/536856-americo-balbuena-fue-condenado-a-dos-anos-de-prision-por-esp
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Américo Balbuena fue condenado a dos años de prisión por espionaje ilegal.
           El juez federal Daniel Rafecas lo encontró responsable de haber llevado a
           cabo actividades de inteligencia relacionadas con obtener información de
           integrantes de organizaciones y activistas, [valiéndose del rol de
+<<<<<<< HEAD
           periodista
           infiltrado](https://www.pagina12.com.ar/536856-americo-balbuena-fue-condenado-a-dos-anos-de-prision-por-esp)
           como espía durante once años en la Agencia Rodolfo Walsh.
+=======
+          periodista infiltrado]($url) como espía durante once años en la Agencia
+          Rodolfo Walsh.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
           - vigilancia
 
       - fecha: 2023-04-07
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Cámpora, organización política en Argentina,
@@ -44,6 +57,13 @@ paises:
           que la Vicepresidenta Cristina Kirchner y su familia han sido objeto de
           discursos de odio, violencia, humillación y hostigamiento. Lo anterior,
           debido a los
+=======
+        url: https://twitter.com/la_campora/status/1644514843892891649?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1644514843892891649%7Ctwgr%5E61e8ed68577237710b9766149108f87fe19dfdab%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fiframely.pagina12.com.ar%2Fapi%2Fiframe%3Furl%3Dhttps3A2F2Ftwitter.com2Fla_campora2Fstatus2F1644514843892891649v%3D1app%3D1key%3D68ad19d170f26a7756ad0a90caf18fc1playerjs%3D1
+        texto: >-
+          La Cámpora, organización política en Argentina, [denunció]($url) que la
+          Vicepresidenta Cristina Kirchner y su familia han sido objeto de discursos
+          de odio, violencia, humillación y hostigamiento. Lo anterior, debido a los
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [pronunciamientos](https://www.pagina12.com.ar/538790-la-campora-denuncio-a-canosa-y-di-marco-por-discurso-de-odio)
           de la periodista Laura di Marco en el canal de La Nación, la Defensoría
           del Pueblo de Servicios de Comunicación Audiovisual estableció que
@@ -53,6 +73,7 @@ paises:
           - discurso-de-odio
 
       - fecha: 2023-04-19
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Repudiable ataque antisemita contra un candidato a intendente en Rosario:
@@ -61,13 +82,24 @@ paises:
           vandalizaron un local de Roberto Sukerman, dibujando una estrella de David
           y escribiendo insultos sobre la fotografía del dirigente del Frente de
           Todos.
+=======
+        url: https://www.infobae.com/politica/2023/04/19/repudiable-ataque-antisemita-contra-un-candidato-a-intendente-en-rosario-hay-una-proliferacion-de-los-discursos-de-odio/
+        texto: >-
+          Repudiable ataque antisemita contra un candidato a intendente en Rosario:
+          “Hay una proliferación de los [discursos de odio]($url)”. vandalizaron un
+          local de Roberto Sukerman, dibujando una estrella de David y escribiendo
+          insultos sobre la fotografía del dirigente del Frente de Todos.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - discurso-de-odio
 
   - pais: Brasil
     entradas:
       - fecha: 2023-03-31
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: PL 2630/2020
         url: https://www25.senado.leg.br/web/atividade/materias/-/materia/141944
         texto: >-
@@ -102,10 +134,17 @@ paises:
           Lucha contra la Desinformación.
         etiquetas:
           - plataformas-digitales
+<<<<<<< HEAD
           - libertad-de-expresion
 
       - fecha: 2023-04-12
         tipo: proyecto
+=======
+
+      - fecha: 2023-04-12
+        exp: PL 1798/2023
+        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2355748
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El Ministerio de Justicia y Seguridad Pública (MJSP) emitió la [Norma
           Administrativa
@@ -144,6 +183,7 @@ paises:
           extrapolando sus competencias al determinar “lo que es la verdad y lo que
           debe estar publicado o
           no”](https://www.jota.info/executivo/partido-novo-propoe-derrubar-portaria-do-ministerio-da-justica-que-regulamenta-plataformas-13042023).
+<<<<<<< HEAD
         etiquetas:
           - libertad-de-expresion
           - plataformas-digitales
@@ -159,6 +199,14 @@ paises:
           Aquino](https://www.camara.leg.br/deputados/220622) (PODEMOS/MG) presentó
           el [PL 1798/2023]($url), que prevé la prohibición de la difusión de
           imágenes, vídeos u otras informaciones sobre los autores de masacres,
+=======
+          LIBERTAD DE EXPRESION MODERACIÓN DE CONTENIDOS Proyectos de ley pretenden
+          prohibir la difusión de imágenes, vídeos u otras informaciones de los
+          autores de masacres, terrorismo o tiroteos violentos. la [diputada federal
+          Nely Aquino](https://www.camara.leg.br/deputados/220622) (PODEMOS/MG)
+          presentó el [PL 1798/2023]($url), que prevé la prohibición de la difusión
+          de imágenes, vídeos u otras informaciones sobre los autores de masacres,
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           terrorismo o tiroteos violentos. En la justificación, la parlamentaria
           enumera eventos recientes para destacar la relevancia de la cuestión y
           argumenta que la difusión de este tipo de contenidos puede generar un
@@ -174,6 +222,7 @@ paises:
           proyecto mencionado anteriormente, el parlamentario argumenta que la
           difusión de informaciones de esta naturaleza tiene un efecto multiplicador
           y puede causar "glorificación del criminal", de modo a incentivar la
+<<<<<<< HEAD
           comisión de otros delitos.
         etiquetas:
           - libertad-de-expresion
@@ -182,12 +231,21 @@ paises:
       - fecha: 2023-04-12
         tipo: proyecto
         texto: >-
+=======
+          comisión de otros delitos. LIBERTAD DE EXPRESION MODERACIÓN DE CONTENIDOS
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Magno Malta no tendrá que pagar indemnización a Xuxa por crítica de libro
           hecha en video publicado en Internet, decide Tribunal de Justicia de São
           Paulo. La 2ª Sala de Derecho Privado del Tribunal de Justicia de São Paulo
           (TJSP) [denegó una solicitud de indemnización de R$150.000 por daños
+<<<<<<< HEAD
           morales](https://www.jota.info/justica/magno-malta-nao-deve-indenizar-xuxa-por-criticas-a-livro-lgbtqia-decide-tjsp-13042023)
           formulada por la presentadora de televisión Xuxa Meneghel
+=======
+          morales
+          ](https://www.jota.info/justica/magno-malta-nao-deve-indenizar-xuxa-por-criticas-a-livro-lgbtqia-decide-tjsp-13042023)formulada
+          por la presentadora de televisión Xuxa Meneghel
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [contra](https://internetlab.org.br/wp-content/uploads/2023/04/acordao-tjsp-xuxa.pdf)
           el senador Magno Malta. Después de que la presentadora concediera una
           entrevista en 2020 sobre su libro "Maya: Rainbow Baby" (aún no publicado
@@ -208,7 +266,10 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-04-13
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Tribunal de Justicia del Rio Grande del Sur decide que Carla Zambelli
           deberá pagar daños morales a Manuela d'Ávila por publicar montaje en redes
@@ -216,6 +277,7 @@ paises:
           (TJRS) condenó a la diputada federal Carla Zambelli a pagar R$20.000 en
           daños morales a la ex parlamentaria Manuela d'Ávila. La demanda fue
           presentada después de que Zambelli publicara en sus cuentas de Instagram,
+<<<<<<< HEAD
           Facebook y Twitter un montaje en el que Manuela, Sâmia Bomfim y Talíria
           Petrone, celebrabando la decisión del Tribunal Supremo de Colombia que
           acogió la petición de declaración de inconstitucionalidad del delito de
@@ -227,10 +289,25 @@ paises:
           apelación, por unanimidad, sostuvo que aunque las figuras públicas tengan
           la intimidad relativizada debido a su exposición, la libertad de expresión
           no puede servir de salvaguardia para los discursos ofensivos al honor.
+=======
+          Facebook y Twitter **un montaje en el que Manuela, Sâmia Bomfim y Talíria
+          Petrone, celebrabando la decisión del Tribunal Supremo de Colombia que
+          acogió la petición de declaración de inconstitucionalidad del delito de
+          aborto, aparecen con cuernos en la cabeza, bajo el título "izquierda
+          genocida"**. Manuela alegó que la imagen configuraba difamación e
+          insultaba su honor, mientras que Zambelli justificó que sólo respondía a
+          manifestaciones políticas. En primer grado, el 2º Tribunal Civil del Foro
+          Central de Porto Alegre desestimó la acción. Sin embargo, la corte de
+          apelación, por unanimidad, sostuvo que aunque las figuras públicas tengan
+          la intimidad relativizada debido a su exposición, **la libertad de
+          expresión no puede servir de salvaguardia para los discursos ofensivos al
+          honor**.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2023-04-18
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           TSE mantiene multas contra Carla Zambelli y Flávio Bolsonaro por difundir
@@ -239,6 +316,15 @@ paises:
           Superior Electoral (TSE) [mantuvo, por mayoría, la condena de la diputada
           federal Carla Zambelli y del senador Flávio Bolsonaro a la exclusión de un
           vídeo publicado en las redes sociales y al pago de
+=======
+        url: https://internetlab.org.br/wp-content/uploads/2023/04/decisao-tse-zambelli-flavio.pdf
+        texto: >-
+          TSE mantiene multas contra Carla Zambelli y Flávio Bolsonaro por difundir
+          noticias falsas en las redes sociales. El [Tribunal]($url) Superior
+          Electoral (TSE) [mantuvo, por mayoría, la condena de la diputada federal
+          Carla Zambelli y del senador Flávio Bolsonaro a la exclusión de un vídeo
+          publicado en las redes sociales y al pago de
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           multas](https://www.migalhas.com.br/quentes/385087/eleicoes-tse-mantem-multa-a-zambelli-e-flavio-bolsonaro-por-fake-news).
           El Tribunal confirmó la
           [decisión](https://internetlab.org.br/wp-content/uploads/2023/04/tse-moraes-zambelli.pdf)
@@ -258,6 +344,7 @@ paises:
         etiquetas:
           - libertad-de-expresion
 
+<<<<<<< HEAD
   - pais: Chile
     entradas:
       - fecha: 2023-03-25
@@ -285,11 +372,36 @@ paises:
           compartió una experiencia con una herramienta de Inteligencia Artificial a
           la que preguntó cuáles son los principales desafíos para el periodismo
           americano en este año.
+=======
+  - pais: Paraguay
+    entradas:
+      - fecha: 2023-03-25
+        url: https://www.elciudadano.com/chile/tribunal-constitucional-admite-a-tramite-solicitud-de-inconstitucionalidad-en-condena-a-director-de-resumen/04/26/
+        texto: >-
+          Tribunal Constitucional [admite]($url) a trámite solicitud de
+          inconstitucionalidad en condena a director de Resumen ante la sentencia
+          desproporcionada que ordenó cárcel a Felipe Soto por una publicación en
+          prensa ha sido condenada por organismos nacionales e internacionales.
+        etiquetas:
+          - libertad-de-prensa
+
+      - fecha: 2023-03-23
+        url: https://www.sipiapa.org/notas/1215875-trabas-al-ejercicio-del-periodismo-la-sostenibilidad-y-la-independencia-los-medios-son-las-principales-preocupaciones-destaca-carlos-jornet
+        texto: >-
+          El presidente de la Comisión de Libertad de Prensa e Información de la
+          Sociedad Interamericana (SIP), Carlos Jornet, [presentó]($url) un balance
+          sobre la libertad de prensa en las Américas durante la inauguración de la
+          Reunión de Medio Año de la organización, quien también compartió una
+          experiencia con una herramienta de Inteligencia Artificial a la que
+          preguntó cuáles son los principales desafíos para el periodismo americano
+          en este año.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - libertad-de-expresion
 
       - fecha: 2023-04-27
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Escritores internacionales
@@ -298,10 +410,20 @@ paises:
           crítico y opositor del gobierno guatemalteco, al haber sido acusado de
           cometer actos de lavado de activos. El periodista fue detenido tras haber
           denunciado actos de corrupción por parte de Ronald Navarijo.
+=======
+        url: http://c22f14b4453887797ec1767da246ccfd
+        texto: >-
+          Escritores internacionales [dudan]($url) de la legitimidad del proceso
+          judicial al que estuvo sometido el periodista José Rubén Zamora, crítico y
+          opositor del gobierno guatemalteco, al haber sido acusado de cometer actos
+          de lavado de activos. El periodista fue detenido tras haber denunciado
+          actos de corrupción por parte de Ronald Navarijo.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
 
+<<<<<<< HEAD
   - pais: Paraguay
     entradas:
       - fecha: 2023-04-21
@@ -309,6 +431,12 @@ paises:
         texto: >-
           La Misión de Observación Electoral de la OEA [comenzó su
           despliegue](https://www.infobae.com/america/america-latina/2023/04/21/la-mision-de-observacion-electoral-de-la-oea-comenzo-su-despliegue-en-paraguay/)
+=======
+      - fecha: 2023-04-21
+        url: https://www.infobae.com/america/america-latina/2023/04/21/la-mision-de-observacion-electoral-de-la-oea-comenzo-su-despliegue-en-paraguay/
+        texto: >-
+          La Misión de Observación Electoral de la OEA [comenzó su despliegue]($url)
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           en Paraguay. El organismo interamericano expresó que serían 60
           especialistas y observadores de 18 nacionalidades para acompañar la
           votación en la que se elegirá presidente, vicepresidente, diputados,
@@ -317,11 +445,17 @@ paises:
           - electoral
 
       - fecha: 2023-04-26
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Presentan [iniciativa
           legislativa](https://www.senado.gov.py/index.php/noticias/noticias-comisiones/11411-presentan-iniciativa-para-proteccion-de-periodistas-y-defensores-de-derechos-humanos-2023-04-26-16-25-47)
           para proteger a los
+=======
+        url: https://www.senado.gov.py/index.php/noticias/noticias-comisiones/11411-presentan-iniciativa-para-proteccion-de-periodistas-y-defensores-de-derechos-humanos-2023-04-26-16-25-47
+        texto: >-
+          Presentan [iniciativa legislativa]($url) para proteger a los
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [periodistas](https://www.adndigital.com.py/dia-del-periodista-sindicato-pide-garantizar-la-libertad-de-expresion/)
           y defensores de derechos humanos. El secretario general del Sindicato de
           Periodistas del Paraguay, Santiago Ortíz, mencionó que el objetivo de este
@@ -335,12 +469,20 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2023-03-30
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Dos comisiones del Congreso peruano aprobaron dos dictámenes (uno a cargo
           de la Comisión de [Transportes y
           Comunicaciones](https://wb2server.congreso.gob.pe/spley-portal-service/archivo/NjA3NDQ=/pdf/PL%202170%20(MAY)),
           y otro a cargo de la de [Cultura y Patrimonio
+=======
+        url: https://wb2server.congreso.gob.pe/spley-portal-service/archivo/NjA3NDQ=/pdf/PL%202170%20(MAY
+        texto: >-
+          Dos comisiones del Congreso peruano aprobaron dos dictámenes (uno a cargo
+          de la Comisión de [Transportes y Comunicaciones]($url)), y otro a cargo de
+          la de [Cultura y Patrimonio
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Cultural](https://wb2server.congreso.gob.pe/spley-portal-service/archivo/ODQxMjI=/pdf/PL%202170%20(MAY)))
           que plantean imponer cuotas de contenido a las empresas de radio y
           televisión, obligándolas a dedicar entre el 30% y el 40% de su
@@ -360,6 +502,7 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-04-10
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El medio de comunicación Latina TV [exigió mediante una carta
@@ -373,10 +516,26 @@ paises:
           El alcalde no respondió a la pregunta de la periodista, sino que se
           refirió de manera grotesca a las piernas de la reportera. Ante las
           críticas, el alcalde dedicó insultos públicos a Álvarez y a Gómez.
+=======
+        url: https://ipys.org/libertad-de-expresion/alertas/peru-alcalde-de-trujillo-insulta-y-difama-a-periodistas
+        texto: >-
+          El medio de comunicación Latina TV [exigió mediante una carta
+          notarial]($url) al alcalde de Trujillo, Arturo Fernández, que se
+          rectifique por los insultos y frases difamatorias que profirió contra los
+          periodistas de esa televisora Lorena Álvarez y Santiago Gómez. El pasado 3
+          de abril ambos periodistas comentaron de forma crítica las impropias
+          frases del alcalde Fernández contra una periodista de Trujillo que le hizo
+          una pregunta sobre la rehabilitación de las pistas tras las lluvias
+          ocurridas en la ciudad. El alcalde no respondió a la pregunta de la
+          periodista, sino que se refirió de manera grotesca a las piernas de la
+          reportera. Ante las críticas, el alcalde dedicó insultos públicos a
+          Álvarez y a Gómez.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2023-04-12
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Tercera Sala Penal Superior Nacional Liquidadora Transitoria de la
@@ -389,11 +548,25 @@ paises:
           Contrainteligencia de la base contrasubversiva de Castropampa en Ayacucho.
           El periodista fue abatido cuando se dirigía a cubrir un crimen cometido
           contra una familia en Huanta.
+=======
+        url: https://elcomercio.pe/politica/justicia/en-vivo-daniel-urresti-poder-judicial-anuncia-si-sentencia-a-25-anos-de-carcel-a-exministro-por-asesinato-de-periodista-hugo-bustios-noticia/#:~:text=El%20ex%20candidato%20presidencial%20y,24%20de%20noviembre%20de%201988.
+        texto: >-
+          La Tercera Sala Penal Superior Nacional Liquidadora Transitoria de la
+          Corte Superior de Justicia de Lima [condenó]($url) a Daniel Urresti,
+          político y ex candidato presidencial, a 12 años de prisión por haber
+          ordenado el asesinato del periodista Hugo Bustios en 1988. Según los
+          magistrados, Urresti dispuso el operativo para asesinar a Bustíos mientras
+          era jefe de la Sección de Inteligencia y Contrainteligencia de la base
+          contrasubversiva de Castropampa en Ayacucho. El periodista fue abatido
+          cuando se dirigía a cubrir un crimen cometido contra una familia en
+          Huanta.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
           - vigilancia
 
       - fecha: 2023-04-18
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Primera Fiscalía Corporativa Especializada en Delitos de Corrupción de
@@ -404,6 +577,17 @@ paises:
           en supuestos chats y publicaciones en el diario Expreso, sostiene que Ugaz
           se habría enriquecido ilícitamente mientras era parte del equipo de prensa
           de la ex alcaldesa de Lima, Susana Villarán. Ugaz ha denunciado que estas
+=======
+        url: https://ipys.org/libertad-de-expresion/alertas/peru-fiscalia-de-la-nacion-ordena-nueva-investigacion-contra-periodista
+        texto: >-
+          La Primera Fiscalía Corporativa Especializada en Delitos de Corrupción de
+          Funcionarios [inició una nueva investigación]($url) por enriquecimiento
+          ilícito contra la periodista Paola Ugaz, luego de recibir una denuncia
+          presentada por Luciano Revoredo. La denuncia, basada en supuestos chats y
+          publicaciones en el diario Expreso, sostiene que Ugaz se habría
+          enriquecido ilícitamente mientras era parte del equipo de prensa de la ex
+          alcaldesa de Lima, Susana Villarán. Ugaz ha denunciado que estas
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           acusaciones forman parte de una campaña de difamación sistemática para
           desprestigiar su trabajo de investigación sobre el grupo religioso
           Sodalicio Vida Cristiana. Sus investigaciones, junto al periodista Pedro
@@ -414,12 +598,20 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-04-19
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Se emitió la
           sentencia](https://lpderecho.pe/difusion-fotos-intimas-facebook-agraviada-envio-whatsapp-exp-00122-2020/?fbclid=IwAR0UAgRubrhbJIDOAiITeqp-xz0-lcBxrU0SjyG0m13VE7Yj8RGDGkf3cEQ)
           en un caso de difusión de imágenes íntimas en Facebook ([Exp.
           00122-2020](https://img.lpderecho.pe/wp-content/uploads/2020/12/Expediente-00122-2020-LP.pdf).
+=======
+        url: https://lpderecho.pe/difusion-fotos-intimas-facebook-agraviada-envio-whatsapp-exp-00122-2020/?fbclid=IwAR0UAgRubrhbJIDOAiITeqp-xz0-lcBxrU0SjyG0m13VE7Yj8RGDGkf3cEQ
+        texto: >-
+          [Se emitió la sentencia]($url) en un caso de difusión de imágenes íntimas
+          en Facebook ([Exp.
+          00122-2020](https://img.lpderecho.pe/wp-content/uploads/2020/12/Expediente-00122-2020-LP.pdf)).
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Si bien se había acreditado que la denunciada había publicado en la red
           sociales las fotos íntimas que la denunciante le envió por error vía
           Whatsapp, el juzgado concluyó que no se había producido el delito de
@@ -432,6 +624,7 @@ paises:
           - privacidad
 ---
 
+<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -479,4 +672,8 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
+=======
+{{< observatorio-mes month="2023-04" >}}
+
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

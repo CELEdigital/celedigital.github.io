@@ -15,15 +15,21 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
+<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2024-12-26
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 7479-D-2024
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/7479-D-2024.pdf
         texto: >-
@@ -39,6 +45,7 @@ paises:
           las FFAA, lo que podría restringir la cobertura periodística y el libre
           flujo informativo en dichas áreas. Por lo que el proyecto busca preservar
           la clara separación entre defensa nacional y seguridad interior.
+<<<<<<< HEAD
           MILITARIZACIÓN ZONAS RESTRINGIDAS
 
       - fecha: 2024-12-23
@@ -66,10 +73,36 @@ paises:
           cuyo objeto es regular la actividad de los prestadores que ofrecen
           servicios a través de plataformas digitales, así como delimitar los
           derechos y obligaciones de los mismos.
+=======
+
+      - fecha: 2024-12-23
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/7463-D-2024.pdf
+        texto: >-
+          Los diputados Varinia Lis Marín y Ariel Rauschenberger presentaron el
+          [Proyecto de Ley N°7463-D-2024]($url). El proyecto modifica el artículo 8°
+          de la Ley 24240 de Defensa del Consumidor, estableciendo la obligatoriedad
+          de incluir una advertencia visible en toda publicidad que contenga
+          imágenes de personas modificadas o retocadas digitalmente. La iniciativa
+          busca proteger a los consumidores mediante la transparencia en la
+          publicidad y prevenir los efectos negativos de los estándares de belleza
+          irreales en la salud mental, especialmente en jóvenes y mujeres.
+        etiquetas:
+          - defensa-del-consumidor
+          - acceso-a-la-informacion
+
+      - fecha: 2024-12-19
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/7444-D-2024.pdf
+        texto: >-
+          El diputado Juan Manuel Lopez presentó el [Proyecto de Ley
+          N°7444-D-2024]($url) cuyo objeto es regular la actividad de los
+          prestadores que ofrecen servicios a través de plataformas digitales, así
+          como delimitar los derechos y obligaciones de los mismos.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - plataformas-digitales
 
       - fecha: 2024-12-16
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El senador Sergio Napoleón Leavy presentó el [Proyecto de Ley N°
@@ -83,10 +116,25 @@ paises:
           materia de regulación de IA para elaborar propuestas legislativas que
           establezcan un marco normativo que proteja los derechos humanos, la
           privacidad y la seguridad de los ciudadanos.
+=======
+        url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/2405.24/S/PL
+        texto: >-
+          El senador Sergio Napoleón Leavy presentó el [Proyecto de Ley N°
+          2405/24]($url) para crear la Comisión Bicameral Permanente para la
+          Regulación Estratégica e Integral de la Inteligencia Artificial (IA) en el
+          ámbito del Congreso de la Nación. El proyecto establece la creación de una
+          comisión compuesta por 10 senadores y 10 diputados, que contará con un
+          Cuerpo Transdisciplinario de Asesores. Según lo estipulado en el proyecto,
+          la Comisión tendrá como objetivo estudiar y analizar experiencias
+          nacionales e internacionales en materia de regulación de IA para elaborar
+          propuestas legislativas que establezcan un marco normativo que proteja los
+          derechos humanos, la privacidad y la seguridad de los ciudadanos.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2024-12-10
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se presentó el “[Informe sobre Libertad de Expresión en Argentina
@@ -95,10 +143,20 @@ paises:
           la Universidad de Buenos Aires (UBA), la Federación Argentina de
           Trabajadores de Prensa (FATPREN) y el Sindicato de Prensa de Buenos Aires
           (SiPreBA).
+=======
+        url: https://www.sipreba.org/wp-content/uploads/2024/12/INFORME.-LIBERTAD-DE-EXPRESION-FINAL.pdf
+        texto: >-
+          Se presentó el “[Informe sobre Libertad de Expresión en Argentina
+          2024]($url)”, elaborado conjuntamente por la Carrera de Ciencias de la
+          Comunicación de la Universidad de Buenos Aires (UBA), la Federación
+          Argentina de Trabajadores de Prensa (FATPREN) y el Sindicato de Prensa de
+          Buenos Aires (SiPreBA).
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-12-06
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada Pamela Calletti presentó el [Proyecto de Ley N°
@@ -111,6 +169,19 @@ paises:
 
       - fecha: 2024-12-04
         tipo: proyecto
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/7309-D-2024.pdf
+        texto: >-
+          La diputada Pamela Calletti presentó el [Proyecto de Ley N°
+          7309-D-2024]($url), que crea un Sistema Integral de Radarización de
+          Vigilancia y Control Aeroespacial en las zonas fronterizas del norte de
+          Argentina. Este proyecto tiene como objetivo fortalecer la seguridad y
+          soberanía nacional mediante la instalación de radares para prevenir
+          actividades ilícitas como el narcotráfico, el contrabando y la trata de
+          personas.
+
+      - fecha: 2024-12-04
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 7268-D-2024
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/7268-D-2024.pdf
         texto: >-
@@ -127,7 +198,10 @@ paises:
           - defensa-del-consumidor
 
       - fecha: 2024-12-02
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 7225-D-2024
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/7225-D-2024.pdf
         texto: >-
@@ -148,19 +222,34 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2024-12-18
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El senador Bianchi presentó el Proyecto de Ley [N°
           17308-13](https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=17941&prmBOLETIN=17308-13),
           que busca prohibir la realización de publicidad por parte de las
+=======
+        url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=17941&prmBOLETIN=17308-13
+        texto: >-
+          El senador Bianchi presentó el Proyecto de Ley [N° 17308-13]($url), que
+          busca prohibir la realización de publicidad por parte de las
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Administradoras de Fondos de Pensiones en medios de comunicación,
           especialmente en contextos de contingencia política. Este proyecto se
           fundamenta en la necesidad de proteger la integridad del sistema de
           pensiones y evitar la manipulación de la línea editorial de los medios a
+<<<<<<< HEAD
           través del financiamiento publicitario. PUBLICIDAD
 
       - fecha: 2024-12-17
         tipo: proyecto
+=======
+          través del financiamiento publicitario.
+        etiquetas:
+          - defensa-del-consumidor
+
+      - fecha: 2024-12-17
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 17307-07
         url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=17940&prmBOLETIN=17307-07
         texto: >-
@@ -177,6 +266,7 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2024-12-13
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se publicó la [Ley N°
@@ -188,10 +278,23 @@ paises:
           define estándares para la protección de datos sensibles. Su implementación
           será supervisada por la nueva agencia, que además gestionará un Registro
           Nacional de Sanciones y Cumplimiento.
+=======
+        url: https://www.bcn.cl/leychile/navegar?idNorma=1209272
+        texto: >-
+          Se publicó la [Ley N° 21.719]($url), que regula la protección y el
+          tratamiento de los datos personales y crea la Agencia de Protección de
+          Datos Personales. Esta normativa introduce los principios de licitud,
+          seguridad, y transparencia en el tratamiento de datos, reconoce derechos
+          como acceso, rectificación, supresión y portabilidad, y define estándares
+          para la protección de datos sensibles. Su implementación será supervisada
+          por la nueva agencia, que además gestionará un Registro Nacional de
+          Sanciones y Cumplimiento.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2024-12-04
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Tomás Ignacio Lagomarsino presentó un [Proyecto de Ley que
@@ -199,10 +302,19 @@ paises:
           N°20.370](https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=17916&prmBOLETIN=17285-04),
           buscando así eliminar los límites de edad para el ingreso a la educación
           especial en personas con discapacidad visual o auditiva.
+=======
+        url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=17916&prmBOLETIN=17285-04
+        texto: >-
+          El diputado Tomás Ignacio Lagomarsino presentó un [Proyecto de Ley que
+          modifica la Ley N°20.370]($url), buscando así eliminar los límites de edad
+          para el ingreso a la educación especial en personas con discapacidad
+          visual o auditiva.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Ecuador
     entradas:
       - fecha: 2024-12-18
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La asambleísta Pierina Correa Delgado presentó el [Proyecto de Ley Nº
@@ -239,15 +351,56 @@ paises:
           establece al Ministerio de Tecnología, Información y Comunicación (MITIC)
           como autoridad de aplicación, y propone un Plan Nacional de Conectividad
           para universalizar el acceso a Internet.
+=======
+        url: https://www.asambleanacional.gob.ec/sites/default/files/private/asambleanacional/filesasambleanacionalnameuid-19130/2459.%20Proyecto%20de%20Ley%20Org%C3%A1nica%20de%20protecci%C3%B3n%20a%20trabajadores%20de%20plataformas%20digitales%20de%20servicios%20(As.%20Pierina%20Correa%20-%20460348
+        texto: >-
+          La asambleísta Pierina Correa Delgado presentó el [Proyecto de Ley Nº
+          AN-CDPS-2024-0095-M]($url)/PP-PRO~1.PDF), dicho proyecto tiene como
+          objetivo regular y proteger la relación entre los trabajadores de
+          plataformas digitales y las empresas que prestan estos servicios.
+          Asimismo, establece derechos y obligaciones para ambas partes y garantiza
+          el derecho a la desconexión digital.
+        etiquetas:
+          - plataformas-digitales
+
+      - fecha: 2024-12-09
+        url: https://elpais.com/america/2024-12-10/el-gobierno-de-ecuador-destruye-las-muestras-geneticas-de-presos-que-tomo-de-manera-ilegal.html
+        texto: >-
+          [El gobierno destruyó muestras genéticas]($url) de presos que fueron
+          tomadas ilegalmente como parte de un censo penitenciario. Dicha acción se
+          realizó después de que una investigación revelara que el gobierno estaba
+          creando una base de perfiles genéticos de presos sin su consentimiento, lo
+          que generó preocupaciones sobre violaciones a los derechos humanos y a la
+          privacidad.
+        etiquetas:
+          - acceso-a-la-informacion
+
+  - pais: Paraguay
+    entradas:
+      - fecha: 2024-12-11
+        url: https://silpy.congreso.gov.py/web/expediente/139424
+        texto: >-
+          Se presentó ante la Cámara de Senadores el [Proyecto de Ley
+          N°171141]($url) el cual busca declarar el acceso a Internet como derecho
+          humano y crear condiciones para eliminar la brecha digital en el país.
+          Asimismo, establece al Ministerio de Tecnología, Información y
+          Comunicación (MITIC) como autoridad de aplicación, y propone un Plan
+          Nacional de Conectividad para universalizar el acceso a Internet.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
   - pais: Guatemala
     entradas:
       - fecha: 2024-12-05
+<<<<<<< HEAD
         tipo: proyecto
         exp: '6464'
         url: 'https://www.congreso.gob.gt/detalle_pdf/iniciativas/6196#gsc.tab=0'
+=======
+        exp: '6464'
+        url: https://www.congreso.gob.gt/detalle_pdf/iniciativas/6196#gsc.tab=0
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El diputado Jorge Mario Villagrán Álvarez presentó la iniciativa de [Ley
           N° 6464]($url), que busca aprobar la Ley de Protección de Datos Personales
@@ -262,6 +415,7 @@ paises:
   - pais: México
     entradas:
       - fecha: 2024-12-24
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se publicó en el [Diario Oficial de la
@@ -271,6 +425,16 @@ paises:
           de plataformas digitales. En el proceso de reforma legislativa,
           [R3D](https://r3d.mx/2024/12/10/la-reforma-laboral-para-trabajadores-de-plataformas-digitales-es-gran-avance-pero-debe-garantizar-la-proteccion-de-datos-y-la-transparencia-algoritmica/)
           alertó sobre algunos aspectos a mejorar en la regulación, entre ellas: (i)
+=======
+        url: https://www.dof.gob.mx/nota_detalle.php?codigo=5746132&fecha=24/12/2024#gsc.tab=0
+        texto: >-
+          Se publicó en el [Diario Oficial de la Federación]($url) la reforma a la
+          Ley Federal del Trabajo para establecer un régimen laboral especial para
+          las personas trabajadoras que se empleen bajo la modalidad de plataformas
+          digitales. En el proceso de reforma legislativa, [R3D
+          ](https://r3d.mx/2024/12/10/la-reforma-laboral-para-trabajadores-de-plataformas-digitales-es-gran-avance-pero-debe-garantizar-la-proteccion-de-datos-y-la-transparencia-algoritmica/)alertó
+          sobre algunos aspectos a mejorar en la regulación, entre ellas: (i)
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Presentación de evaluaciones de impacto para los sistemas automatizados
           utilizados por las plataformas digitales; (ii) Procedimientos de revisión
           y supervisión humana calificada en las decisiones automatizadas; (iii)
@@ -293,6 +457,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2024-12-20
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se publicó en el Diario Oficial de la Federación la reforma constitucional
@@ -302,10 +467,21 @@ paises:
           Instituto Nacional de Transparencia, Acceso a la Información y Protección
           de Datos Personales, a la Comisión Federal de Competencia Económica, y al
           Instituto Federal de Telecomunicaciones.
+=======
+        url: https://www.dof.gob.mx/nota_detalle.php?codigo=5745905&fecha=20/12/2024#gsc.tab=0
+        texto: >-
+          Se publicó en el Diario Oficial de la Federación la reforma constitucional
+          en materia de [simplificación orgánica]($url), en la que se desaparece
+          como órganos autónomos constitucionales al Instituto Nacional de
+          Transparencia, Acceso a la Información y Protección de Datos Personales, a
+          la Comisión Federal de Competencia Económica, y al Instituto Federal de
+          Telecomunicaciones.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2024-12-12
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Senado de la República aprobó una reforma a la [Ley General de Derechos
@@ -316,10 +492,22 @@ paises:
           daño a la intimidad de este sector de la población, así como de cualquier
           otra forma que provoque daño a su privacidad, seguridad y dignidad,
           mediante el uso de tecnologías de la información y la comunicación.
+=======
+        url: https://comunicacionsocial.senado.gob.mx/informacion/comunicados/10659-senado-aprueba-por-unanimidad-reformas-para-garantizar-acceso-seguro-de-los-menores-a-internet
+        texto: >-
+          El Senado de la República aprobó una reforma a la [Ley General de Derechos
+          de Niñas, Niños y Adolescentes]($url) con el objetivo de promover
+          políticas de prevención, protección, atención y sanción del ciberacoso y
+          de todas las formas de violencia que causen daño a la intimidad de este
+          sector de la población, así como de cualquier otra forma que provoque daño
+          a su privacidad, seguridad y dignidad, mediante el uso de tecnologías de
+          la información y la comunicación.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - proteccion-de-menores
 
       - fecha: 2024-12-11
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Séptimo Tribunal Colegiado en Materia Administrativa del Primer
@@ -329,10 +517,21 @@ paises:
           recomendaciones emitidas entre 1990 y 2015 viola el derecho a la verdad y
           el acceso a la información de las víctimas y de la sociedad. Esta decisión
           fue aplaudida por la organización Artículo 19.
+=======
+        url: https://articulo19.org/cndh-violo-el-derecho-a-la-verdad-tribunal-confirma-la-obligacion-de-publicar-integramente-todas-las-recomendaciones-testadas/
+        texto: >-
+          El [Séptimo Tribunal Colegiado en Materia Administrativa del Primer
+          Circuito]($url) declaró que la decisión de la Comisión Nacional de los
+          Derechos Humanos de testar (borrar información) hasta el punto de hacer
+          ilegibles más de 2,543 recomendaciones emitidas entre 1990 y 2015 viola el
+          derecho a la verdad y el acceso a la información de las víctimas y de la
+          sociedad. Esta decisión fue aplaudida por la organización Artículo 19.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2024-12-10
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Las [Comisiones de Cultura, y de Ciencia, Humanidades, Tecnología e
@@ -341,17 +540,33 @@ paises:
           en reunión con representantes de la industria fonográfica dialogaron con
           relación a regular el uso de la inteligencia artificial y nuevas
           herramientas para combatir la piratería digital y competencia desleal.
+=======
+        url: https://comunicacionsocial.senado.gob.mx/informacion/comunicados/10579-pirateria-digital-y-regulacion-de-inteligencia-artificial-retos-para-la-industria-fonografica-coinciden-en-el-senado
+        texto: >-
+          Las [Comisiones de Cultura, y de Ciencia, Humanidades, Tecnología e
+          Innovación de la Cámara de Senadores/as]($url) en reunión con
+          representantes de la industria fonográfica dialogaron con relación a
+          regular el uso de la inteligencia artificial y nuevas herramientas para
+          combatir la piratería digital y competencia desleal.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
   - pais: Perú
     entradas:
       - fecha: 2024-12-23
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Asociación Nacional de Periodistas del Perú
           (ANP)](https://x.com/ANP_periodistas/status/1871240090263142726) denunció
           que equipos periodísticos de los canales televisivos Latina, Canal N y RPP
+=======
+        url: https://x.com/ANP_periodistas/status/1871240090263142726
+        texto: >-
+          La [Asociación Nacional de Periodistas del Perú (ANP)]($url) denunció que
+          equipos periodísticos de los canales televisivos Latina, Canal N y RPP
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           fueron retenidos tras las rejas durante una actividad oficial de la
           presidenta Dina Boluarte en Villa María del Triunfo. Esta acción, ocurrida
           durante la inauguración de la Comisaría de Nuevo Progreso, se suma a otros
@@ -363,11 +578,18 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-12-16
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Instituto de Prensa y Sociedad
           (IPYS)](https://ipys.org/alertas/tc-ordena-la-presidencia-de-la-rep%C3%BAblica-responder-recomendaciones-de-la-defensor%C3%ADa-del)
           informó que el [Tribunal Constitucional
+=======
+        url: https://ipys.org/alertas/tc-ordena-la-presidencia-de-la-rep%C3%BAblica-responder-recomendaciones-de-la-defensor%C3%ADa-del
+        texto: >-
+          El [Instituto de Prensa y Sociedad (IPYS)]($url) informó que el [Tribunal
+          Constitucional
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           (TC)](https://tc.gob.pe/jurisprudencia/2024/00001-2022-CC.pdf) ordenó a la
           Presidencia de la República responder las recomendaciones de la Defensoría
           del Pueblo para garantizar el trabajo de la prensa. En su sentencia del
@@ -387,11 +609,18 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-12-12
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Instituto de Prensa y Sociedad
           (IPYS)](https://ipys.org/alertas/per%C3%BA-jueza-pide-semanario-informaci%C3%B3n-sobre-la-identidad-de-sus-fuentes)
           y la [Asociación Nacional de Periodistas del Perú
+=======
+        url: https://ipys.org/alertas/per%C3%BA-jueza-pide-semanario-informaci%C3%B3n-sobre-la-identidad-de-sus-fuentes
+        texto: >-
+          El [Instituto de Prensa y Sociedad (IPYS)]($url) y la [Asociación Nacional
+          de Periodistas del Perú
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           (ANP)](https://www.facebook.com/ANPgremiodelaprensaperuana/posts/pfbid02ieDhzS5Zqh6n4aRUvbnXy3ftNkf292avxYxUWQwd5eBqSKaf2kM1SeU9FooRCfXHl?rdid=vuF0DX6jXh1RZN4L#)
           reportaron que periodistas del Semanario Expresión en Chiclayo denunciaron
           la solicitud de la Corte Superior de Justicia de Lambayeque para revelar
@@ -408,11 +637,18 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-12-12
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Asociación Nacional de Periodistas del Perú
           (ANP)](https://x.com/ANP_periodistas/status/1867417687980122620) criticó
           el reciente mensaje a la Nación de la presidenta Dina Boluarte, quien
+=======
+        url: https://x.com/ANP_periodistas/status/1867417687980122620
+        texto: >-
+          La [Asociación Nacional de Periodistas del Perú (ANP)]($url) criticó el
+          reciente mensaje a la Nación de la presidenta Dina Boluarte, quien
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           calificó de "leyendas mediáticas" las revelaciones periodísticas en su
           contra y acusó a un sector de la prensa de ser "mezquino". Boluarte
           estigmatizó nuevamente el trabajo de los medios de comunicación,
@@ -423,6 +659,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-12-06
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 6 de diciembre de 2024, la [Asociación Nacional de Periodistas del Perú
@@ -439,10 +676,28 @@ paises:
           participación activa de funcionarios y agentes de seguridad en los
           ataques, constituye una grave vulneración de la libertad de prensa y
           derechos humanos en el país.
+=======
+        url: https://www.facebook.com/ANPgremiodelaprensaperuana/posts/pfbid0gX8wZNGvHKisJago54ZWyMd2NEzYS4rqFV9bNtiLrkGZ7sHU3Q9KqWpWEGEhpsccl?rdid=FxMk42KNRrrGnkTr#
+        texto: >-
+          El 6 de diciembre de 2024, la [Asociación Nacional de Periodistas del Perú
+          (ANP)]($url) denunció que durante los dos años de gestión de la presidenta
+          de Perú Dina Boluarte, del 7 de diciembre de 2022 al 7 de diciembre de
+          2024, se registraron 740 ataques contra la prensa, con un promedio de un
+          incidente diario. Estas agresiones incluyen amenazas, hostigamientos,
+          ciberataques, presiones judiciales y restricciones al acceso a la
+          información, siendo los funcionarios públicos responsables del 29% de los
+          casos, con 44 incidentes atribuidos directamente al Poder Ejecutivo,
+          incluyendo acciones y comentarios de Boluarte y otros altos funcionarios
+          como el ministro Juan José Santiváñez. La ANP advierte que este entorno
+          hostil, agravado por la participación activa de funcionarios y agentes de
+          seguridad en los ataques, constituye una grave vulneración de la libertad
+          de prensa y derechos humanos en el país.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 ---
 
+<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -489,4 +744,8 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
+=======
+{{< observatorio-mes month="2024-12" >}}
+
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

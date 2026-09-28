@@ -1,7 +1,7 @@
 ---
 title: "Juan Martín Marinangeli"
 slug: "juan-martin-marinangeli"
-author_type: "staff" # staff | alumni | friends
+author_type: "alumni" # staff | alumni | friends
 weight: 4            # ordering inside each type
 draft: false
 role: 

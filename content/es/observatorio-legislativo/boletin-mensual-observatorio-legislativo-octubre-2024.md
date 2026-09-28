@@ -15,14 +15,18 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
+<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2024-10-23
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Diputada Mónica Macha presentó el [Proyecto de Ley N°
@@ -32,11 +36,24 @@ paises:
           digital o datos de una persona (humana o jurídica) mediante tecnologías o
           Internet, con la intención de cometer un delito, causar perjuicio u
           obtener un beneficio propio o para terceros.
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/6319-D-2024.pdf
+        texto: >-
+          La Diputada Mónica Macha presentó el [Proyecto de Ley N°
+          6319-D-2024]($url) “Delito de suplantación digital”. El proyecto de ley
+          tipifica como delito la creación, suplantación o utilización sin
+          consentimiento de la identidad digital o datos de una persona (humana o
+          jurídica) mediante tecnologías o Internet, con la intención de cometer un
+          delito, causar perjuicio u obtener un beneficio propio o para terceros.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2024-10-23
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6318-D-2024
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/6318-D-2024.pdf
         texto: >-
@@ -49,6 +66,7 @@ paises:
           - privacidad
 
       - fecha: 2024-10-23
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada Lilia Lemoine presentó el [Proyecto de Ley N°
@@ -59,11 +77,23 @@ paises:
           familia relacionado con violencia de género, en los casos en que la
           calumnia se hubiera propagado a través de medios de comunicación, entre
           otros.
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/6312-D-2024.pdf
+        texto: >-
+          La diputada Lilia Lemoine presentó el [Proyecto de Ley N°
+          6312-D-2024]($url) “Modificaciones al Código Penal y Código Procesal Penal
+          sobre denuncias falsas”. El proyecto de ley establece agravantes para el
+          caso de las denuncias determinadas como falsas, en el marco de un proceso
+          penal o de familia relacionado con violencia de género, en los casos en
+          que la calumnia se hubiera propagado a través de medios de comunicación,
+          entre otros.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - violencia-de-genero
 
       - fecha: 2024-10-21
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada Andrea Freites y otros presentaron el [Proyecto de Ley N°
@@ -74,11 +104,25 @@ paises:
           años de edad. Luego, cada 3 años, entre los 6 y 18 años. Y, nuevamente, al
           cumplir 30 años; incluyendo fotografía e impresiones dactilares en cada
           etapa.
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/6230-D-2024.pdf
+        texto: >-
+          La diputada Andrea Freites y otros presentaron el [Proyecto de Ley N°
+          6230-D-2024]($url) “Identificación, registro y clasificación del potencial
+          humano nacional”. El proyecto de ley establece que la actualización de los
+          datos de identificación en el DNI se realizará, por primera vez, entre los
+          2 y 3 años de edad. Luego, cada 3 años, entre los 6 y 18 años. Y,
+          nuevamente, al cumplir 30 años; incluyendo fotografía e impresiones
+          dactilares en cada etapa.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2024-10-17
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6156-D-2024
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/6156-D-2024.pdf
         texto: >-
@@ -98,6 +142,7 @@ paises:
           - privacidad
 
       - fecha: 2024-10-17
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Manuel Ignacio Aguirre presentó el [Proyecto de Ley
@@ -106,11 +151,24 @@ paises:
           ley establece que las declaraciones de las autoridades del Estado nacional
           deberán enmarcarse dentro del decoro y respeto a los Poderes constituidos
           de la República y a sus representantes, bajo responsabilidad.
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/6139-D-2024.pdf
+        texto: >-
+          El diputado Manuel Ignacio Aguirre presentó el [Proyecto de Ley
+          6139-D-2024]($url) “Declaraciones formuladas por las autoridades del
+          Estado”. El proyecto de ley establece que las declaraciones de las
+          autoridades del Estado nacional deberán enmarcarse dentro del decoro y
+          respeto a los Poderes constituidos de la República y a sus representantes,
+          bajo responsabilidad.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-10-16
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 6120-D-2024
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/6120-D-2024.pdf
         texto: >-
@@ -127,6 +185,7 @@ paises:
           - privacidad
 
       - fecha: 2024-10-16
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada Alicia Kirchner presentó el [Proyecto de Ley N°
@@ -140,12 +199,29 @@ paises:
           dirigido a menores de edad, o que se transmita en espectáculos deportivos,
           o que se transmita en el horario de 6:00 a 22:00 horas, entre otras
           medidas destinadas al propósito antes mencionado.
+=======
+        url: https://www.hcdn.gob.ar/proyectos/resultado.html?pagina=4
+        texto: >-
+          La diputada Alicia Kirchner presentó el [Proyecto de Ley N°
+          2004-S-2024]($url), “Protección y prevención del acceso y uso de juegos de
+          azar y apuestas en línea de niñas, niños y adolescentes y la prevención de
+          conductas problemáticas”. El proyecto de ley tiene por objeto la
+          protección y prevención del acceso y uso de juegos de azar y apuestas en
+          línea de niñas, niños y adolescentes. En tal sentido, se prohíbe toda
+          publicidad, promoción y patrocinio de juegos de azar y apuestas en línea
+          en contenido dirigido a menores de edad, o que se transmita en
+          espectáculos deportivos, o que se transmita en el horario de 6:00 a 22:00
+          horas, entre otras medidas destinadas al propósito antes mencionado.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - defensa-del-consumidor
           - proteccion-de-menores
 
       - fecha: 2024-10-10
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 1982/24
         url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/1982.24/S/PL
         texto: >-
@@ -158,11 +234,17 @@ paises:
           pesar de haberlo recibido con consentimiento), entre otras prácticas que
           afectan la libertad sexual en plataformas digitales.
         etiquetas:
+<<<<<<< HEAD
           - violencia-de-genero
           - privacidad
 
       - fecha: 2024-10-09
         tipo: proyecto
+=======
+          - privacidad
+
+      - fecha: 2024-10-09
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 5924-D-2024
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/5924-D-2024.pdf
         texto: >-
@@ -178,10 +260,16 @@ paises:
           - privacidad
 
       - fecha: 2024-10-08
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada Terenzi presentó el [Proyecto de Ley N°
           1964-S-2024](https://www.senado.gob.ar/parlamentario/comisiones/verExp/1964.24/S/PL)
+=======
+        url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/1964.24/S/PL
+        texto: >-
+          La diputada Terenzi presentó el [Proyecto de Ley N° 1964-S-2024]($url)
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           “Prohibir la publicidad y promoción en forma directa o indirecta de juego
           o apuestas en línea en el contexto y durante el desarrollo de actividades
           o eventos deportivos cualquiera sea su categoría”. El proyecto de ley
@@ -191,7 +279,10 @@ paises:
           - defensa-del-consumidor
 
       - fecha: 2024-10-04
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 5801-D-2024
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/5801-D-2024.pdf
         texto: >-
@@ -202,10 +293,17 @@ paises:
           en la asignación de publicidad oficial, a los servicios de comunicación
           privados que obtengan el certificado de equidad de género.
         etiquetas:
+<<<<<<< HEAD
           - violencia-de-genero
 
       - fecha: 2024-10-02
         tipo: proyecto
+=======
+          - defensa-del-consumidor
+          - violencia-de-genero
+
+      - fecha: 2024-10-02
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 5717-D-2024
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/5717-D-2024.pdf
         texto: >-
@@ -223,6 +321,7 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2024-10-01
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Álvaro Martínez y otros presentaron el [Proyecto de Ley N°
@@ -232,18 +331,36 @@ paises:
           hubiese correspondido al delito denunciado, reducido su mínimo en la mitad
           y su máximo en un tercio, al que denunciare falsamente un delito ante la
           autoridad.
+=======
+        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/5680-D-2024.pdf
+        texto: >-
+          El diputado Álvaro Martínez y otros presentaron el [Proyecto de Ley N°
+          5680-D-2024]($url) "Modificación del artículo 245. Denuncia falsa de un
+          delito". El proyecto de ley establece que, en los casos de calumnia, se
+          aplicará la pena que hubiese correspondido al delito denunciado, reducido
+          su mínimo en la mitad y su máximo en un tercio, al que denunciare
+          falsamente un delito ante la autoridad.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
   - pais: Brasil
     entradas:
       - fecha: 2024-10-08
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El ministro Alexandre de Moraes, del Supremo Tribunal Federal,
           [autorizó](https://internetlab.org.br/wp-content/uploads/2024/10/decisao-alexandre-volta-x.pdf)
           el regreso de las actividades de la plataforma X (anteriormente Twitter),
           que había sido
+=======
+        url: https://internetlab.org.br/wp-content/uploads/2024/10/decisao-alexandre-volta-x.pdf
+        texto: >-
+          El ministro Alexandre de Moraes, del Supremo Tribunal Federal,
+          [autorizó]($url) el regreso de las actividades de la plataforma X
+          (anteriormente Twitter), que había sido
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [suspendida](https://internetlab.org.br/pt/semanario/06-09-2024/#23415) el
           30.08 debido al incumplimiento de órdenes judiciales. En su decisión,
           [Moraes destacó que X cumplió todas las determinaciones
@@ -266,11 +383,17 @@ paises:
           a los proveedores de servicios de telecomunicaciones para que liberaran el
           acceso a la red social.
         etiquetas:
+<<<<<<< HEAD
           - libertad-de-expresion
           - plataformas-digitales
 
       - fecha: 2024-10-07
         tipo: proyecto
+=======
+          - plataformas-digitales
+
+      - fecha: 2024-10-07
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: PL 3821/2024
         url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2461213
         texto: >-
@@ -299,12 +422,19 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2024-10-01
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La diputada federal Fernanda Pessoa (Unión/CE) presentó el [Proyecto de
           Ley N°
           3778/2024](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459670),
           que propone modificar la [Ley N°
+=======
+        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459670
+        texto: >-
+          La diputada federal Fernanda Pessoa (Unión/CE) presentó el [Proyecto de
+          Ley N° 3778/2024]($url), que propone modificar la [Ley N°
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           14.790/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm)
           para restringir la publicidad de apuestas de cuota fija. El proyecto
           prohíbe a los operadores de apuestas difundir publicidad que (i) promueva
@@ -318,11 +448,18 @@ paises:
           - proteccion-de-menores
 
       - fecha: 2024-10-01
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Eunício Oliveira (MDB/CE) presentó el [Proyecto de Ley N°
           3774/2024](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459654)
           que modifica la [Ley N°
+=======
+        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459654
+        texto: >-
+          El diputado Eunício Oliveira (MDB/CE) presentó el [Proyecto de Ley N°
+          3774/2024]($url) que modifica la [Ley N°
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           14.790/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm)
           y la [Ley N°
           13.756/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13756.htm),
@@ -336,6 +473,7 @@ paises:
           - defensa-del-consumidor
 
       - fecha: 2024-10-01
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Secretaría de Premios y Apuestas del Ministerio de Hacienda publicó la
@@ -350,12 +488,28 @@ paises:
           dinero, y a partir del 11 de octubre, estos sitios serán bloqueados con la
           ayuda de la Agencia Nacional de Telecomunicaciones (Anatel). Al día
           siguiente, el Ministerio de Hacienda publicó una [nueva
+=======
+        url: https://www.gov.br/fazenda/pt-br/assuntos/noticias/2024/outubro/fazenda-divulga-lista-de-bets-autorizadas-a-ofertar-apostas-ate-dezembro
+        texto: >-
+          La Secretaría de Premios y Apuestas del Ministerio de Hacienda publicó la
+          [lista de los sitios]($url) de apuestas de cuota fija autorizados a
+          continuar operando en Brasil hasta diciembre de 2024. La lista está
+          compuesta por sitios de empresas que se han mostrado "interesadas en
+          cumplir adecuadamente con la regulación y la legislación". La secretaría
+          informó que los sitios que no estén en la lista ya no podrán ofrecer
+          apuestas y permanecerán disponibles hasta el 10 de octubre para que los
+          apostadores puedan solicitar la devolución de su dinero, y a partir del 11
+          de octubre, estos sitios serán bloqueados con la ayuda de la Agencia
+          Nacional de Telecomunicaciones (Anatel). Al día siguiente, el Ministerio
+          de Hacienda publicó una [nueva
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           lista](https://www.gov.br/fazenda/pt-br/assuntos/noticias/2024/outubro/ministerio-da-fazenda-atualiza-listas-de-empresas-de-apostas-que-podem-continuar-funcionando-ate-o-fim-deste-ano)
           de apuestas de cuota fija autorizadas para operar en Brasil.
         etiquetas:
           - defensa-del-consumidor
 
       - fecha: 2024-09-30
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Julio Lopes (PP/RJ) presentó el [Proyecto de Ley N°
@@ -366,6 +520,17 @@ paises:
           apuestas deben recopilar el número del Registro de Persona Física (CPF)
           para la creación de cuentas, que se cruzará con el registro de
           beneficiarios de programas sociales a través de un sistema integrado
+=======
+        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2459502
+        texto: >-
+          El diputado Julio Lopes (PP/RJ) presentó el [Proyecto de Ley N°
+          3761/2024]($url), que prohíbe la participación de beneficiarios de
+          programas de transferencia de renta del gobierno federal en apuestas
+          deportivas y juegos de azar online. El proyecto establece que las
+          plataformas de apuestas deben recopilar el número del Registro de Persona
+          Física (CPF) para la creación de cuentas, que se cruzará con el registro
+          de beneficiarios de programas sociales a través de un sistema integrado
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           gestionado por la administración pública. Las plataformas que permitan
           apuestas por parte de beneficiarios de programas sociales estarán sujetas
           a multas, suspensión temporal y suspensión definitiva de la licencia para
@@ -376,10 +541,16 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2024-10-16
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El diputado Carlos Bianchi presentó el [Proyecto de Ley N°
           17203-15](https://tramitacion.senado.cl/appsenado/templates/tramitacion/)
+=======
+        url: https://tramitacion.senado.cl/appsenado/templates/tramitacion/
+        texto: >-
+          El diputado Carlos Bianchi presentó el [Proyecto de Ley N° 17203-15]($url)
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           “Proyecto de Ley que modifica el código aeronáutico y obliga a los
           transportadores aéreos de pasajeros a informar la identidad de los
           pasajeros de forma preventiva”. El proyecto de ley tiene por objetivo
@@ -392,7 +563,10 @@ paises:
           - privacidad
 
       - fecha: 2024-10-14
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 17182-07
         url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=17806&prmBOLETIN=17182-07
         texto: >-
@@ -411,11 +585,18 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2024-10-17
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Consejo de Estado decidió en sentencia de primera instancia [declarar
           improcedente](https://www.wradio.com.co/2024/10/17/declaran-improcedente-tutela-contra-petro-por-llamar-munecas-de-la-mafia-a-periodistas/)
           la [acción de
+=======
+        url: https://www.wradio.com.co/2024/10/17/declaran-improcedente-tutela-contra-petro-por-llamar-munecas-de-la-mafia-a-periodistas/
+        texto: >-
+          El Consejo de Estado decidió en sentencia de primera instancia [declarar
+          improcedente]($url) la [acción de
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           tutela](https://flip.org.co/pronunciamientos/mujeres-periodistas-la-flip-y-el-veinte-piden-al-consejo-de-estado-que-proteja-al-periodismo-ante-expresiones-estigmatizantes-del-presidente)
           presentada por 19 periodistas en contra de Gustavo Petro, Presidente de la
           República, por el patrón de declaraciones estigmatizantes del mandatario
@@ -426,6 +607,7 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-10-16
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Senado y la Cámara de Representantes lanzaron una [Comisión Accidental
@@ -439,10 +621,25 @@ paises:
           investigación, gremios, expertos y la ciudadanía. Su objetivo último es la
           presentación de un proyecto de ley en marzo de 2025 que reúna conceptos
           claves y que establezca un marco general de regulación.
+=======
+        url: https://x.com/NoticieroSenado/status/1848183625680105699
+        texto: >-
+          El Senado y la Cámara de Representantes lanzaron una [Comisión Accidental
+          Bicameral de Inteligencia Artificial]($url) que tendrá la finalidad de
+          hacer acompañamiento, estudio, análisis y búsqueda de consensos sobre las
+          distintas iniciativas legislativas sobre inteligencia artificial que hoy
+          en día están en trámite en ambas cámaras. De acuerdo con sus anuncios
+          públicos, la comisión debatirá y emitirá conceptos junto al sector
+          académico, entidades del Gobierno, grupos de investigación, gremios,
+          expertos y la ciudadanía. Su objetivo último es la presentación de un
+          proyecto de ley en marzo de 2025 que reúna conceptos claves y que
+          establezca un marco general de regulación.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2024-10-15
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se presentó en el Senado un proyecto de ley de "[derecho al olvido en
@@ -456,12 +653,27 @@ paises:
           contenido "excesivo"), que generan preocupaciones por el no cumplimiento
           del requisito de legalidad. Además, no establece excepciones que permitan
           que contenidos de interés público se mantengan disponibles.
+=======
+        url: https://apicongresovisible.uniandes.edu.co/uploads/proyecto-ley/14240/1746/24.pdf
+        texto: >-
+          Se presentó en el Senado un proyecto de ley de "[derecho al olvido en
+          entornos digitales]($url)" que busca permitir la desindexación y o
+          supresión de internet contenido digital de naturaleza sexual, íntima o
+          erótica. Si bien el proyecto de ley tiene el fin de proteger los derechos
+          fundamentales como el derecho a la intimidad y a vivir una vida libre de
+          violencias, los artículos propuestos contienen provisiones demasiado
+          amplias o ambiguas (como las que hablan de contenido "excesivo"), que
+          generan preocupaciones por el no cumplimiento del requisito de legalidad.
+          Además, no establece excepciones que permitan que contenidos de interés
+          público se mantengan disponibles.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
   - pais: México
     entradas:
       - fecha: 2024-10-16
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El pleno del [Instituto Nacional de Transparencia, Acceso a la Información
@@ -471,16 +683,31 @@ paises:
           derechos de acceso a la información y de protección de datos personales,
           en el que se planteó la necesidad de modernizar y fortalecer el instituto
           bajo los principios de responsabilidad, ética, eficiencia y austeridad.
+=======
+        url: https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-291-24.pdf
+        texto: >-
+          El pleno del [Instituto Nacional de Transparencia, Acceso a la Información
+          y Protección de Datos Personales]($url) inició un diálogo con la
+          Secretaría de Gobernación para fortalecer los derechos de acceso a la
+          información y de protección de datos personales, en el que se planteó la
+          necesidad de modernizar y fortalecer el instituto bajo los principios de
+          responsabilidad, ética, eficiencia y austeridad.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2024-10-16
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://comunicacionsocial.diputados.gob.mx/index.php/boletines/diputadas-y-diputados-de-morena-pan-pvem-pt-pri-y-mc-presentan-24-iniciativas-para-reformar-la-constitucion-y-diversas-leyes
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           En la Cámara de Diputados/as se presentaron diversas iniciativas entre las
           que se destaca la presentada por la Diputada Alejandra Chedrahui Peralta
           de MORENA quien busca reformar el Código Penal Federal y la Ley Federal de
           Protección de Datos Personales en Posesión de los Particulares, para
+<<<<<<< HEAD
           definir el [delito de
           ciberacoso](https://comunicacionsocial.diputados.gob.mx/index.php/boletines/diputadas-y-diputados-de-morena-pan-pvem-pt-pri-y-mc-presentan-24-iniciativas-para-reformar-la-constitucion-y-diversas-leyes)
           como cualquier conducta realizada mediante el uso de tecnologías de la
@@ -489,11 +716,20 @@ paises:
           intimidar o atemorizar a una persona, afectando su dignidad, tranquilidad,
           integridad o seguridad. Estipula sus agravantes, y sancionarlo desde uno
           hasta 10 años de prisión.
+=======
+          definir el [delito de ciberacoso]($url) como cualquier conducta realizada
+          mediante el uso de tecnologías de la información, redes sociales,
+          dispositivos electrónicos, plataformas digitales o cualquier medio
+          digital, con la finalidad de hostigar, acosar, intimidar o atemorizar a
+          una persona, afectando su dignidad, tranquilidad, integridad o seguridad.
+          Estipula sus agravantes, y sancionarlo desde uno hasta 10 años de prisión.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
           - plataformas-digitales
 
       - fecha: 2024-10-14
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [organización
@@ -505,10 +741,23 @@ paises:
           personas y organizaciones periodísticas y de derechos humanos. Al respecto
           R3D solicita al Congreso de la Unión abrir espacios de dialogo para
           regular adecuadamente las amenazas que suponen los ataques informáticos.
+=======
+        url: https://r3d.mx/2024/10/14/iniciativas-para-ampliar-el-catalogo-de-amenazas-a-la-seguridad-nacional-ponen-en-riesgo-los-derechos-humanos-en-el-entorno-digital/
+        texto: >-
+          La [organización R3D]($url) alertó de dos propuestas legislativas para
+          reformar el artículo 5 de la Ley de Seguridad Nacional impulsadas por la
+          Senadora Rocío Corona Nakamura (PVEM) y por el Diputado Humberto Coss
+          (MORENA), las cuales considera son amplias y vagas, con lo que facilita
+          realizar labores de vigilancia de personas y organizaciones periodísticas
+          y de derechos humanos. Al respecto R3D solicita al Congreso de la Unión
+          abrir espacios de dialogo para regular adecuadamente las amenazas que
+          suponen los ataques informáticos.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-10-08
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Senado Luis Donaldo Colosio, Presidente de la [Comisión de Derechos
@@ -519,10 +768,23 @@ paises:
           la infancia, grupos empresariales, desarrolladores, entre otros actores.
           En esa misma sesión, la Senadora Susana Zatarain García propuso diseñar
           una ley general de derechos digitales. NUEVAS TECNOLOGÍAS
+=======
+        url: https://comunicacionsocial.senado.gob.mx/informacion/comunicados/9831-comision-de-derechos-digitales-trabajara-en-garantizar-ciberseguridad-e-inclusion-digital
+        texto: >-
+          El Senado Luis Donaldo Colosio, Presidente de la [Comisión de Derechos
+          Digitales]($url), indicó en la sesión de instalación de esta comisión la
+          importancia de fomentar la creación y aplicación de nuevas tecnologías
+          bajo el amparo de las leyes y en colaboración con organizaciones
+          protectoras de derechos de la infancia, grupos empresariales,
+          desarrolladores, entre otros actores. En esa misma sesión, la Senadora
+          Susana Zatarain García propuso diseñar una ley general de derechos
+          digitales.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Perú
     entradas:
       - fecha: 2024-10-21
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Asociación Nacional de Periodistas del Perú
@@ -532,14 +794,30 @@ paises:
           el gobernador de la región de Callao, Ciro Castillo, y la influencia que
           su hijo, Antonio Castillo, ejerce en las decisiones políticas de esa
           entidad gubernamental.
+=======
+        url: https://x.com/ANP_periodistas/status/1848497313238458580
+        texto: >-
+          La [Asociación Nacional de Periodistas del Perú (ANP)]($url) denunció que
+          el periodista José Miguel Hidalgo, del programa de investigación "Cuarto
+          Poder", fue amenazado de muerte tras realizar un reportaje sobre el
+          gobernador de la región de Callao, Ciro Castillo, y la influencia que su
+          hijo, Antonio Castillo, ejerce en las decisiones políticas de esa entidad
+          gubernamental.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-10-10
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Asociación Nacional de Periodistas del Perú
           (ANP)](https://x.com/ANP_periodistas/status/1844583698089304216) reportó
+=======
+        url: https://x.com/ANP_periodistas/status/1844583698089304216
+        texto: >-
+          La [Asociación Nacional de Periodistas del Perú (ANP)]($url) reportó
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           cuatro agresiones contra periodistas durante la cobertura de las protestas
           en el Cercado de Lima, en el marco del paro nacional convocado por
           transportistas y comerciantes. Los periodistas afectados fueron Enzo
@@ -554,11 +832,18 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-10-09
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Consejo de la Prensa Peruana
           (CPP)](https://x.com/ConsejodePrensa/status/1844491200889548866) y la
           [Asociación Nacional de Periodistas del Perú
+=======
+        url: https://x.com/ConsejodePrensa/status/1844491200889548866
+        texto: >-
+          El [Consejo de la Prensa Peruana (CPP)]($url) y la [Asociación Nacional de
+          Periodistas del Perú
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           (ANP)](https://x.com/ANP_periodistas/status/1844044980257800394) emitieron
           comunicados rechazando el término "terrorismo de imagen", empleado por la
           Presidente de Perú Dina Boluarte y el parlamentario Wildemar Cerrón para
@@ -572,6 +857,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-10-04
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se publicó en el diario oficial “El Peruano” la [Resolución Ministerial
@@ -599,11 +885,40 @@ paises:
           Ugaz solo trabajó como funcionaria durante un breve periodo. El IPYS
           considera que la medida es desproporcionada y pone en riesgo la protección
           de sus fuentes periodísticas, además de señalar que no se ha justificado
+=======
+        url: https://www.gob.pe/institucion/pcm/normas-legales/6060220-269-2024-pcm
+        texto: >-
+          Se publicó en el diario oficial “El Peruano” la [Resolución Ministerial
+          269-2024-PCM]($url) que contiene el Proyecto de “Lineamiento para el
+          diseño y desarrollo de servicios o plataformas digitales accesibles para
+          personas con discapacidad en las entidades de la Administración Pública”.
+          El proyecto establece, entre otras cosas, la obligación de las entidades
+          públicas de incorporar las pautas de accesibilidad para el contenido web
+          (WCAG) en su versión 2.2., incluyendo principios, pautas generales,
+          criterios de éxito comprobables, técnicas de asesoramiento y errores
+          comunes documentados con ejemplos, que sirvan para el contenido más
+          accesible. El proyecto estará abierto para comentarios durante 30 días
+          calendario.
+
+      - fecha: 2024-09-21
+        url: https://ipys.org/alertas/per%C3%BA-levantan-sin-justificaci%C3%B3n-el-secreto-de-las-comunicaciones-de-periodista
+        texto: >-
+          El [Instituto de Prensa y Sociedad (IPYS)]($url) divulgó una alerta
+          criticando la decisión de un tribunal especializado en corrupción de
+          funcionarios que ordenó levantar el secreto de las comunicaciones de la
+          periodista Paola Ugaz, quien está siendo investigada por presunto
+          enriquecimiento ilícito durante su tiempo como funcionaria pública entre
+          2013 y 2014. A pesar de que la medida cubre casi ocho años, Ugaz solo
+          trabajó como funcionaria durante un breve periodo. El IPYS considera que
+          la medida es desproporcionada y pone en riesgo la protección de sus
+          fuentes periodísticas, además de señalar que no se ha justificado
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           adecuadamente la necesidad de esta acción.
         etiquetas:
           - libertad-de-prensa
 ---
 
+<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -650,4 +965,8 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
+=======
+{{< observatorio-mes month="2024-10" >}}
+
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

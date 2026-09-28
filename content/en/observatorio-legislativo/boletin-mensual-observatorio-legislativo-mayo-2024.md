@@ -15,14 +15,18 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
+<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2024-05-27
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 27 de mayo el Ministerio de Seguridad, liderado por Patricia Bullrich,
@@ -31,6 +35,15 @@ paises:
           la cual establece un protocolo para que las fuerzas de seguridad federales
           realicen labores “preventivas” en el ciberespacio utilizando fuentes
           digitales abiertas y de acceso público. Una de las
+=======
+        url: https://www.boletinoficial.gob.ar/detalleAviso/primera/308291/20240528
+        texto: >-
+          El 27 de mayo el Ministerio de Seguridad, liderado por Patricia Bullrich,
+          emitió la [Resolución 428/2024]($url), la cual establece un protocolo para
+          que las fuerzas de seguridad federales realicen labores “preventivas” en
+          el ciberespacio utilizando fuentes digitales abiertas y de acceso público.
+          Una de las
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [preocupaciones](https://x.com/LuCamachoG/status/1795519501758533913) que
           giran en torno a esta normativa es la consideración de las fuentes
           abiertas “como los medios y plataformas de información y comunicación
@@ -43,6 +56,7 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2024-04-26
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Proyecto de ley presenta reglas para desarrollo y utilización de IA en
@@ -66,6 +80,29 @@ paises:
           Comisión Temporaria Interna sobre Inteligencia Artificial (CTIA) del
           Senado Federal publicó un informe preliminar que contiene una propuesta
           para la regulación de IA en
+=======
+        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2430325
+        texto: >-
+          Proyecto de ley presenta reglas para desarrollo y utilización de IA en
+          Brasil. El [diputado Júnior Mano (PL/CE) presentó el proyecto de ley (PL)
+          nº 1465/2024]($url), **que tiene como objetivo establecer reglas para el
+          desarrollo y la operación de la inteligencia artificial (IA) en el país**.
+          Entre los objetivos y principios mencionados en el proyecto, se encuentran
+          la centralidad del individuo y la participación de personas humanas en el
+          desarrollo de la tecnología, el libre desarrollo de la personalidad, la
+          inclusión digital, la libertad de elección, la transparencia y la
+          rendición de cuentas. **El PL también presenta una gradación de riesgo
+          para la categorización de IA, que varía entre moderado, alto o excesivo.
+          En este caso, las IAs comprendidas bajo la clasificación de riesgo
+          excesivo estarían prohibidas**. Por último, en lo que respecta a la
+          responsabilidad, se establece **la culpa presumida del operador o
+          proveedor del sistema de IA. En el caso de sistemas de alto riesgo o
+          excesivo, se emplea el régimen de responsabilidad objetiva**. El Proyecto
+          surge en un momento en que los debates sobre IA ganan protagonismo en el
+          Congreso Nacional: [el 24.04, la Comisión Temporaria Interna sobre
+          Inteligencia Artificial (CTIA) del Senado Federal publicó un informe
+          preliminar que contiene una propuesta para la regulación de IA en
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Brasil](https://internetlab.org.br/pt/semanario/26-04-2024/#22897). Este
           nuevo texto incorpora [elementos de otros proyectos de ley sobre el tema,
           como el PL 2.338/2023 y el PL
@@ -74,6 +111,7 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2024-04-26
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Lula y la Coalición Brasil de la Esperanza reciben multa por propaganda
@@ -91,10 +129,29 @@ paises:
           Electoral](https://www.planalto.gov.br/ccivil_03/leis/l9504.htm), que solo
           permite la promoción de contenido que beneficie a candidatos o a sus
           agrupaciones.
+=======
+        url: https://internetlab.org.br/wp-content/uploads/2024/05/0601285-04.2022.6.00.0000_inteiroTeor.pdf
+        texto: >-
+          Lula y la Coalición Brasil de la Esperanza reciben multa por propaganda
+          electoral negativa. El [**Tribunal Superior Electoral condenó al
+          presidente Lula y a la Coalición Brasil de la Esperanza a pagar una multa
+          de R$84.000 por patrocinar propaganda electoral negativa en las elecciones
+          de 2022 contra Jair Bolsonaro**]($url). Específicamente, el vídeo
+          promocionado mencionaba acciones y palabras de Jair Bolsonaro,
+          refiriéndose a él como "incompetente" y "inhumano", entre otras
+          acusaciones. En su defensa, la Coalición Brasil de la Esperanza argumentó
+          que, "a pesar del tono severo", la propaganda tenía la intención de
+          "informar a los electores sobre las conductas pasadas del candidato". La
+          decisión declaró que la campaña violó el artículo 57-C, §3º de la [Ley
+          Electoral](https://www.planalto.gov.br/ccivil_03/leis/l9504.htm), que solo
+          **permite la promoción de contenido que beneficie a candidatos o a sus
+          agrupaciones**.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - electoral
 
       - fecha: 2024-05-03
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Partido Liberal cuestiona ley contra la divulgación de desinformación
@@ -103,10 +160,20 @@ paises:
           7.693/BA](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=535997&ori=1),
           contra la [Ley Estatal de Bahía nº
           14.268/2020](https://www.legisweb.com.br/legislacao/?id=396137), que
+=======
+        url: https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=535997&ori=1
+        texto: >-
+          **Partido Liberal cuestiona ley contra la divulgación de desinformación
+          durante la crisis sanitaria. **El [**Partido Liberal (PL) propuso una
+          Acción Directa de Inconstitucionalidad (ADI) nº 7.693/BA**]($url)**,
+          contra la **[**Ley Estatal de Bahía nº
+          14.268/2020**](https://www.legisweb.com.br/legislacao/?id=396137)**, que
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           establece sanciones contra aquellos que divulguen información falsa
           durante una crisis sanitaria. Dicha ley establece sanciones para "quienes
           divulguen, a través de medios impresos, televisivos, de radiodifusión o
           electrónicos, información falsa, sin procedencia oficial, sobre epidemias,
+<<<<<<< HEAD
           endemias y pandemias en el Estado de Bahía, sin citar la fuente primaria",
           con la posibilidad de aplicar multas que pueden variar entre R$ 5.000 y R$
           20.000. El partido, en la ADI, argumenta que la ley "viola principios
@@ -139,11 +206,43 @@ paises:
           publicaciones que contengan desinformación, bajo pena de una multa de R$
           100 mil. El Abogado-General de la Unión, Jorge Messias, [elogió la
           actuación del MPRS en su perfil en
+=======
+          endemias y pandemias en el Estado de Bahía, sin citar la fuente
+          primaria**", con la posibilidad de aplicar multas que pueden variar entre
+          R$ 5.000 y R$ 20.000. El partido, en la ADI, argumenta que la ley "viola
+          principios constitucionales relacionados con la libertad de prensa, de
+          pensamiento, manifestación y expresión".
+
+      - fecha: 2024-05-09
+        url: https://internetlab.org.br/wp-content/uploads/2024/05/Decisao-tjrs-conteudos-falsos-mai-2024.pdf
+        texto: >-
+          Justicia de Rio Grande do Sul determina que Meta elimine publicaciones de
+          influencer que contienen desinformación. La jueza Fernanda Ajnhorn, del
+          Tribunal de Justicia de Rio Grande do Sul (TJRS), [**ordenó a Meta que
+          retire, en un plazo de 24 horas, las publicaciones del influencer Dilson
+          Alves da Silva Neto, conocido como Nego Di**]($url). El caso surgió en el
+          contexto de una Acción Civil Pública (ACP) presentada por el Ministerio
+          Público de Rio Grande do Sul (MPRS), que impugnó publicaciones de Nego Di
+          en las que afirmaba que Eduardo Leite, gobernador de Rio Grande do Sul,
+          junto con la Brigada Militar, estaban prohibiendo a embarcaciones y motos
+          acuáticas privadas realizar operaciones de rescate en Canoas, ciudad
+          afectada por las inundaciones de abril y mayo, debido a la supuesta falta
+          de habilitación de los conductores. La jueza Fernanda Ajnhorn **consideró
+          que, ante el estado de calamidad pública causado por las fuertes lluvias
+          en Rio Grande do Sul, la circulación de noticias falsas obstaculiza el
+          trabajo de rescate, genera incertidumbre e inseguridad en la población, y
+          desalienta la ayuda de la sociedad**. Además de la orden dirigida a Meta,
+          la jueza **ordenó que el influenciador no realice nuevas publicaciones que
+          contengan desinformación, bajo pena de una multa de R$ 100 mil**. El
+          Abogado-General de la Unión, Jorge Messias, [elogió la actuación del MPRS
+          en su perfil en
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           X](https://twitter.com/jorgemessiasagu/status/1789114963669246169).
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-05-10
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Gobierno Federal y la Fiscalía General de la Unión trabajan para
@@ -192,6 +291,51 @@ paises:
           prácticas que buscan manipular la opinión pública en momentos de crisis y,
           por consiguiente, dificultar la coordinación de esfuerzos de asistencia y
           la implementación de medidas para mitigar los daños causados. En su
+=======
+        url: https://www.gov.br/agu/pt-br/comunicacao/noticias/agu-propoe-a-plataformas-digitais-medidas-contra-desinformacao-sobre-calamidade-no-rio-grande-do-sul
+        texto: >-
+          El Gobierno Federal y la Fiscalía General de la Unión trabajan para
+          combatir noticias falsas sobre las inundaciones en Rio Grande do Sul. El
+          [**gobierno federal, en conjunto con la ****_Advocacia-Geral da União_****
+          (AGU), estableció un grupo de trabajo para enfrentar la desinformación
+          relacionada con las lluvias en Rio Grande do Sul**]($url). El grupo está
+          compuesto por representantes de la AGU, la Secretaría de Comunicación
+          Social de la Presidencia de la República (Secom/PR), el Ministerio de
+          Justicia y Seguridad Pública (MJSP) y la Policía Federal (PF). El objetivo
+          principal es **evitar la propagación de noticias falsas que están
+          perjudicando las acciones del poder público en el rescate y apoyo a la
+          situación en el Estado**. En una reunión inicial, se acordó que la
+          Procuraduría Nacional de la Unión para la Defensa de la Democracia (PNDD),
+          organismo de la AGU responsable de la defensa extrajudicial y judicial de
+          la Unión contra noticias falsas, **actuará de manera preventiva, evitando
+          que se produzcan impactos negativos en el enfrentamiento de la calamidad
+          debido a casos de desinformación**. Entre las estrategias discutidas, se
+          encuentra la propuesta de **crear un canal directo de comunicación entre
+          el gobierno y las plataformas, así como la etiquetación de publicaciones
+          que causen desinformación**. En la ocasión, también [estuvieron presentes
+          representantes de las plataformas **Google, YouTube, TikTok, Meta
+          (Facebook, Instagram y WhatsApp), Kwai, Linkedin, Spotify y Kuaishou
+          Technology**](https://www.mobiletime.com.br/noticias/10/05/2024/agu-convoca-big-techs-para-combater-fake-news-sobre-enchentes-do-rs/),
+          quienes se comprometieron a analizar en un plazo de hasta 12 horas los
+          casos de desinformación que sean identificados.
+
+      - fecha: 2024-05-13
+        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2433100
+        texto: >-
+          Proyecto de ley busca criminalizar la difusión de información falsa en
+          situaciones de calamidad pública. El diputado federal Helder Salomão
+          (PT/ES) presentó el [PL nº 1790/2024]($url), que **añade al **[**Código
+          Penal**](https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm)**
+          un artículo que tipifica la difusión de información falsa relacionada con
+          una calamidad pública con el objetivo de desinformar o perjudicar acciones
+          humanitarias**. La pena prevista es de uno a cuatro años de prisión y
+          multa, aumentada en la mitad si el delito es cometido por un agente
+          público o político. El objetivo de la medida, según el proyecto, **es
+          desalentar prácticas que buscan manipular la opinión pública en momentos
+          de crisis y, por consiguiente, dificultar la coordinación de esfuerzos de
+          asistencia y la implementación de medidas para mitigar los daños
+          causados**. En su
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [justificación](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2422710&filename=PL%201790/2024),
           el diputado destaca que "en situaciones de calamidad pública, como
           desastres naturales, pandemias o crisis humanitarias, la difusión de
@@ -201,13 +345,17 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-05-13
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: PL 1779/2024
         url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2433029
         texto: >-
           Un proyecto tiene como objetivo criminalizar la exposición de niños y
           adolescentes en redes sociales y medios de comunicación. La diputada
           Delegada Adriana Accorsi (PT/GO) presentó el [PL nº 1779/2024]($url), que
+<<<<<<< HEAD
           añade al [Estatuto del Niño y del Adolescente
           (ECA)](https://www.planalto.gov.br/ccivil_03/leis/l8069.htm) un artículo
           que criminaliza la exposición y humillación de niños y adolescentes a
@@ -215,6 +363,16 @@ paises:
           cualquier otra forma de transmisión. La pena prevista es de seis meses a
           dos años de prisión y multa, además de la participación en clases y grupos
           reflexivos sobre la exposición y crianza de adolescentes. En su
+=======
+          **añade al **[**Estatuto del Niño y del Adolescente
+          (ECA)**](https://www.planalto.gov.br/ccivil_03/leis/l8069.htm)** un
+          artículo que criminaliza la exposición y humillación de niños y
+          adolescentes a través de contenidos divulgados en sistemas informáticos,
+          redes sociales y cualquier otra forma de transmisión**. La pena prevista
+          es de seis meses a dos años de prisión y multa, además de la participación
+          en clases y grupos reflexivos sobre la exposición y crianza de
+          adolescentes. En su
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [justificación](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2422369&filename=PL%201779/2024),
           la diputada explica que la propuesta "pretende establecer parámetros
           claros y rigurosos para la exposición de niños y adolescentes en redes
@@ -224,7 +382,10 @@ paises:
           - proteccion-de-menores
 
       - fecha: 2024-05-17
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El STF confirma multa aplicada por TSE a Jair Bolsonaro por propaganda
           electoral irregular. El Supremo Tribunal Federal (STF), en una decisión
@@ -232,14 +393,24 @@ paises:
           y de la "Coalición por el Bien de Brasil" que impugnaba la multa de
           R$15.000 impuesta por el Tribunal Superior Electoral (TSE) por la difusión
           irregular de propaganda electoral en Internet. Toffoli confirmó la
+<<<<<<< HEAD
           decisión del TSE y reiteró la jurisprudencia del Tribunal, afirmando que
           “la propaganda electoral está regulada por la ley, que puede estipular
           límites para su realización en los diversos medios de comunicación”. El
+=======
+          decisión del TSE y reiteró la jurisprudencia del Tribunal, afirmando que**
+          “la propaganda electoral está regulada por la ley, que puede estipular
+          límites para su realización en los diversos medios de comunicación”**. El
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           ministro citó una decisión del Tribunal que establece que la regulación no
           viola las libertades de expresión, de prensa o de información (ADI 6.281).
           La decisión del TSE en cuestión multó al ex presidente y a su Coalición
           por impulsar contenidos electorales que no cumplían con las disposiciones
+<<<<<<< HEAD
           de la Resolución 23.619 del TSE sobre propaganda electoral. Según el
+=======
+          de la **Resolución 23.619 del TSE** sobre propaganda electoral. Según el
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Tribunal, en las elecciones de 2022, Bolsonaro y su coalición gastaron
           alrededor de R$15.000 para patrocinar publicidad negativa contra un
           oponente político, lo que está prohibido por la legislación electoral.
@@ -252,6 +423,7 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-05-22
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Comisión de Comunicación de la Cámara de Diputados aprueba proyecto de
@@ -274,13 +446,40 @@ paises:
           nichos de mercado complementarios”. Según su tramitación legislativa, el
           proyecto de ley va ahora a la Comisión de Constitución, Justicia y
           Ciudadanía de la Cámara de Diputados.
+=======
+        texto: >-
+          La Comisión de Comunicación de la Cámara de Diputados aprueba proyecto de
+          ley que prevé la remuneración de los contenidos periodísticos por las
+          plataformas. La **Comisión de Comunicación de la Cámara de Diputados
+          aprobó el proyecto de ley 1354/2021, presentado por el ex diputado Denis
+          Bezerra (PSB/CE)**. **El proyecto modifica el Marco Civil de Internet,
+          añadiendo la obligación de que las ****_big techs_**** garanticen una
+          remuneración por el suministro de contenidos periodísticos**. La base para
+          el pago, según el proyecto de ley, serían los ingresos brutos obtenidos
+          por la difusión de las noticias, sobre los que se calcularía una tasa
+          mínima del 50%. La empresa también deberá garantizar que los medios de
+          comunicación locales y regionales tengan acceso a la plataforma. **El
+          proyecto también prohíbe las prácticas discriminatorias en relación con el
+          seguimiento, indexación, disponibilidad y distribución de noticias.** En
+          su justificación, el ex diputado afirma haberse inspirado en la Ley de
+          Medios australiana, que estableció un modelo de remuneración de las
+          plataformas para los medios de comunicación, afirmando que es necesario
+          “equilibrar las fuerzas entre los medios tradicionales y los llamados
+          medios digitales, ya que operan en nichos de mercado complementarios”.
+          Según su tramitación legislativa, el proyecto de ley va ahora a la
+          Comisión de Constitución, Justicia y Ciudadanía de la Cámara de Diputados.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: Chile
     entradas:
       - fecha: 2024-05-02
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://www.latercera.com/que-pasa/noticia/ministra-aisen-etcheverry-y-proyecto-de-ley-sobre-inteligencia-artificial-tenemos-que-regular-por-competitividad-y-seguridad-y-tenemos-que-hacerlo-rapido/UFTVHZYZYNDVDFNIXQ3ZBJQKVU/#
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La Ministra de Ciencia Aisén Etcheverry remitió al congreso Chileno un
           proyecto de Ley de Inteligencia Artificial, definida en el texto como un
@@ -288,18 +487,27 @@ paises:
           información de entrada, determinada información de salida, que puede
           consistir en predicciones, contenidos, recomendaciones o decisiones
           capaces de influenciar espacios físicos o virtuales”. Este proyecto
+<<<<<<< HEAD
           responde a una [demanda por una política
           regulatoria](https://www.latercera.com/que-pasa/noticia/ministra-aisen-etcheverry-y-proyecto-de-ley-sobre-inteligencia-artificial-tenemos-que-regular-por-competitividad-y-seguridad-y-tenemos-que-hacerlo-rapido/UFTVHZYZYNDVDFNIXQ3ZBJQKVU/#)
           clara en el tema, que dio sus primeros pasos en 2021 cuando durante la
           segunda administración de Sebastián Piñera el Ministerio de Ciencia,
           Tecnología, Conocimiento e Innovación publicó una Política Nacional de
           Inteligencia Artificial.
+=======
+          responde a una [demanda por una política regulatoria]($url) clara en el
+          tema, que dio sus primeros pasos en 2021 cuando durante la segunda
+          administración de Sebastián Piñera el Ministerio de Ciencia, Tecnología,
+          Conocimiento e Innovación publicó una Política Nacional de Inteligencia
+          Artificial.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - inteligencia-artificial
 
   - pais: Colombia
     entradas:
       - fecha: 2024-05-21
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Ministerio de las Tecnologías de la Información y las Comunicaciones
@@ -312,10 +520,23 @@ paises:
           producir datos relevantes, manteniendo siempre la privacidad y anonimato
           de la información personal, cumpliendo con leyes como la protección de
           datos.
+=======
+        url: https://www.mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/382370:Ministro-TIC-radico-proyecto-de-Ley-de-Datos-para-uso-de-informacion-en-la-toma-de-decisiones-de-politica-publica-y-produccion-de-Inteligencia-Artificial
+        texto: >-
+          El Ministerio de las Tecnologías de la Información y las Comunicaciones
+          (Min. TIC) presentó el [proyecto de ley 447/24]($url) ante la Cámara de
+          Representantes. La propuesta busca regular el suministro, intercambio y
+          uso de datos por parte del Estado para la toma de decisiones de política
+          pública y el desarrollo de inteligencia artificial (IA). El proyecto
+          estipula que las entidades oficiales deben producir datos relevantes,
+          manteniendo siempre la privacidad y anonimato de la información personal,
+          cumpliendo con leyes como la protección de datos.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2024-05-22
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 22 de mayo se aprobó en tercer debate el [proyecto de ley 241/22 S
@@ -330,6 +551,21 @@ paises:
           hacer denuncias públicas. Por ejemplo, podría poner en peligro a víctimas
           o periodistas que denuncian casos de violencia sexual. Por esta razón,
           algunas organizaciones de la sociedad civil [se oponen a la aprobación del
+=======
+        url: https://congresovisible.uniandes.edu.co/proyectos-de-ley/ppor-medio-de-la-cual-se-modifica-el-codigo-penal-y-de-procedimiento-penal-se-crea-el-capitulo-de-la-violacion-a-la-intimidad-personal-mediante-el-uso-de-las-tecnologias-de-la-informacion-y-las-comunicaciones-se-tipifica-el-delito-de-violencia-digital-de-genero-y-se-dictan-otras-disposiciones-delito-de-violencia-digital-de-genero/12825/
+        texto: >-
+          El 22 de mayo se aprobó en tercer debate el [proyecto de ley 241/22 S
+          366/24 C]($url), que busca prevenir y sancionar la violencia digital de
+          género. Si bien el proyecto persigue un fin legítimo, propone crear el
+          delito de violencia digital de género el cual castiga a quien difunda
+          contenidos "íntimos" sin autorización. Sin embargo, la redacción del
+          artículo es tan amplia que podría terminar siendo usado para sancionar a
+          personas que usan material que puede considerarse íntimo (como chats o
+          correos electrónicos) para hacer denuncias públicas. Por ejemplo, podría
+          poner en peligro a víctimas o periodistas que denuncian casos de violencia
+          sexual. Por esta razón, algunas organizaciones de la sociedad civil [se
+          oponen a la aprobación del
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           proyecto](https://www.lasillavacia.com/red-de-expertos/red-de-las-mujeres/un-proyecto-para-proteger-mujeres-que-protege-es-a-politicos/).
           Al proyecto le queda un único debate en la Plenaria de la Cámara de
           Representantes.
@@ -338,12 +574,20 @@ paises:
           - violencia-de-genero
 
       - fecha: 2024-05-28
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Tras múltiples intentos fallidos, el 28 de mayo se aprobó el proyecto de
           ley que [prohíbe las corridas de toros en
           Colombia](https://www.eltiempo.com/politica/congreso/abece-de-la-ley-que-prohibe-las-corridas-de-toros-en-colombia-que-aprobo-la-camara-de-representantes-3340479).
           Representantes del gremio [han
+=======
+        url: https://www.eltiempo.com/politica/congreso/abece-de-la-ley-que-prohibe-las-corridas-de-toros-en-colombia-que-aprobo-la-camara-de-representantes-3340479
+        texto: >-
+          Tras múltiples intentos fallidos, el 28 de mayo se aprobó el proyecto de
+          ley que [prohíbe las corridas de toros en Colombia]($url). Representantes
+          del gremio [han
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           anunciado](https://www.eltiempo.com/colombia/cali/esta-lucha-la-vamos-a-dar-en-serio-director-de-la-plaza-de-toros-de-cali-ante-prohibicion-de-las-corridas-3347718)
           que debatirán la ley. Entre otras cosas, los defensores de las corridas de
           toros argumentan que este es un asunto de [libertad de expresión artística
@@ -360,6 +604,7 @@ paises:
   - pais: México
     entradas:
       - fecha: 2024-05-01
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [periodista Hernán Gómez
@@ -369,10 +614,20 @@ paises:
           acompañamiento al periodista. La demanda tiene relación con menciones que
           en su último libro hizo con relación al ex consejero jurídico de la
           Presidencia, Julio Scherer Ibarra.
+=======
+        url: https://articulo19.org/demanda-contra-hernan-gomez-constituye-un-proceso-restrictivo-a-su-libertad-de-expresion/
+        texto: >-
+          El [periodista Hernán Gómez Bruera]($url) fue demandado vía civil por El
+          Heraldo Media Group por una suma millonaria. Al respecto, la organización
+          Artículo 19 reitera su acompañamiento al periodista. La demanda tiene
+          relación con menciones que en su último libro hizo con relación al ex
+          consejero jurídico de la Presidencia, Julio Scherer Ibarra.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-05-03
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización Artículo 19
@@ -387,6 +642,21 @@ paises:
           Investigación de Delitos en Contra la Libertad de Expresión; al Mecanismo
           Federal de Protección a Personas Defensoras y Periodistas, a coordinar con
           el Mecanismo Local de Protección y la Fiscalía, las medidas de protección
+=======
+        url: https://articulo19.org/asesinato-de-roberto-carlos-figueroa-durante-proceso-electoral-debe-investigarse-en-acorde-al-protocolo-homologado/
+        texto: >-
+          La organización Artículo 19 [condenó]($url) el secuestro y asesinato del
+          Director del Medio Digital “Acá en el Show, la Puritita Verdad” y otros
+          medios, ocurrido el 25 de abril de 2024, en Morelos, México. El periodista
+          Roberto Carlos Figueroa era un periodista crítico de los distintos
+          partidos. Por lo anterior, la organización Artículo 19, exhortó a la
+          Fiscalía Especializada en Atención a Delitos contra la Libertad de
+          Expresión de la Fiscalía General de la República para que atraiga la
+          investigación y aplique el Protocolo Homologado de Investigación de
+          Delitos en Contra la Libertad de Expresión; al Mecanismo Federal de
+          Protección a Personas Defensoras y Periodistas, a coordinar con el
+          Mecanismo Local de Protección y la Fiscalía, las medidas de protección
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           urgentes que garanticen la integridad física de todos los integrantes de
           la familia de Roberto Carlos Figueroa, así como de su equipo de trabajo; y
           a la Comisión Ejecutiva de Atención y Reparación a Víctimas del Estado de
@@ -398,6 +668,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-05-07
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización Artículo 19 informa que fue retirado el [memorial a las
@@ -405,10 +676,19 @@ paises:
           del multifeminicidio y homicidio en el caso Narvarte ocurrido el 31 de
           julio de 2015. Al día de hoy, sigue sin existir verdad y justicia para las
           víctimas.
+=======
+        url: https://articulo19.org/retiran-memorial-a-las-victimas-del-caso-narvarte-pero-la-memoria-seguira-floreciendo/
+        texto: >-
+          La organización Artículo 19 informa que fue retirado el [memorial a las
+          víctimas]($url) del multifeminicidio y homicidio en el caso Narvarte
+          ocurrido el 31 de julio de 2015. Al día de hoy, sigue sin existir verdad y
+          justicia para las víctimas.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-05-08
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [periodista de la agencia de noticias Sputnik Mundo, Stephanie
@@ -422,10 +702,26 @@ paises:
           de la Ciudad de México a que se investigue la denuncia presentada por la
           periodista, y al Mecanismos de Protección de Personas Defensoras de
           Derechos Humanos y Periodistas para que implemente medidas de protección.
+=======
+        url: https://articulo19.org/periodista-recibe-amenazas-tras-denuncias-en-la-mananera/
+        texto: >-
+          La [periodista de la agencia de noticias Sputnik Mundo, Stephanie
+          Palacios]($url), denunció en la conferencia diaria que da el Presidente de
+          México, Andrés Manuel López Obrador, que el equipo de presidencia que
+          coordina esta actividad ha impuesto sanciones contra periodistas que
+          asisten a la conferencia. Posterior a dicha participación, la periodista
+          recibió varios mensajes intimidantes en redes sociales. Por ello, la
+          organización Artículo 19 exigió el 21 de mayo de 2024 a la Fiscalía
+          General de Justicia de la Ciudad de México a que se investigue la denuncia
+          presentada por la periodista, y al Mecanismos de Protección de Personas
+          Defensoras de Derechos Humanos y Periodistas para que implemente medidas
+          de protección.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-05-16
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización Artículo 19 condenó los actos de hostigamiento e
@@ -436,10 +732,23 @@ paises:
           organización Artículo 19, hace un llamado a Jorge Alberto Muñoz Escudero y
           al Colegio de Ingenieros Civiles de Tijuana a erradicar cualquier práctica
           intimidatoria o amenazante en contra de los medios de comunicación.
+=======
+        url: https://articulo19.org/presidente-del-colegio-de-ingenieros-civiles-de-tijuana-intimida-a-periodista-ernesto-eslava/
+        texto: >-
+          La organización Artículo 19 condenó los actos de hostigamiento e
+          intimidación en contra del productor del [Semanario Zeta, Eslava
+          Díaz]($url) por parte del presidente del Colegio de Ingenieros Civiles de
+          Tijuana, Baja California, Jorge Alberto Muñoz Escudero. Por lo anterior,
+          la organización Artículo 19, hace un llamado a Jorge Alberto Muñoz
+          Escudero y al Colegio de Ingenieros Civiles de Tijuana a erradicar
+          cualquier práctica intimidatoria o amenazante en contra de los medios de
+          comunicación.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-05-16
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización Artículo 19 celebra la revisión de medidas cautelares
@@ -450,10 +759,21 @@ paises:
           domiciliario. No obstante, el periodista continúa en prisión preventiva
           por un segundo juicio en su contra, del cual la Suprema Corte de Justicia
           de la Nación debe resolver.
+=======
+        url: https://articulo19.org/periodista-es-demandada-en-quintana-roo-por-publicar-informacion-de-interes-publico/
+        texto: >-
+          La organización Artículo 19 celebra la revisión de medidas cautelares
+          (prisión preventiva) en el proceso penal que se lleva en contra del
+          [periodista José Rubén Zamora Marroquín]($url) por el delito de lavado de
+          dinero, la cual se cambió por arresto domiciliario. No obstante, el
+          periodista continúa en prisión preventiva por un segundo juicio en su
+          contra, del cual la Suprema Corte de Justicia de la Nación debe resolver.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-05-20
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [periodista y activista Fabiola Cortés
@@ -468,10 +788,26 @@ paises:
           Judicial del Estado de Quintana Roo se resuelva conforme a los más altos
           estándares internacionales y criterios nacionales en materia de libertad
           de expresión.
+=======
+        url: https://articulo19.org/periodista-es-demandada-en-quintana-roo-por-publicar-informacion-de-interes-publico/
+        texto: >-
+          La [periodista y activista Fabiola Cortés Miranda]($url) fue demandada por
+          parte de la empresa internacional Four Cardinals Development México SA de
+          CV, en el estado de Quintana Roo. La organización Artículo 19 rechaza este
+          proceso de acoso judicial contra la comunicadora y activista, y expresa
+          nuevamente su preocupación por la utilización de estos mecanismos
+          judiciales que pretenden menoscabar el libre ejercicio periodístico y
+          silenciar información de interés público. Por ello, Artículo 19 exhortó al
+          Juzgado Segundo Civil de Playa del Carmen del Poder Judicial del Estado de
+          Quintana Roo se resuelva conforme a los más altos estándares
+          internacionales y criterios nacionales en materia de libertad de
+          expresión.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-05-22
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización Artículo 19 y otras organizaciones mostraron su
@@ -485,10 +821,24 @@ paises:
           de Proceso Escrito del Tribunal Superior de Justicia de la Ciudad de
           México que aplique los más altos estándares internacionales en materia de
           libertad de expresión.
+=======
+        url: https://articulo19.org/demanda-multimillonaria-contra-claudia-amelia-solera-menoscaba-el-libre-ejercicio-informativo/
+        texto: >-
+          La organización Artículo 19 y otras organizaciones mostraron su
+          preocupación por las acciones que se han ejercido contra la [periodista
+          Claudia Amelia]($url) Solera, ex colaboradora de los medios Grupo Imagen y
+          Excelsior, y colaboradora del Enfoque Noticias. Algunas de las acciones
+          incluyen la demanda por daño moral. La demanda es por una publicación
+          realizada en 2010. Estas organizaciones piden al Juzgado Vigésimo Tercero
+          de lo Civil de Proceso Escrito del Tribunal Superior de Justicia de la
+          Ciudad de México que aplique los más altos estándares internacionales en
+          materia de libertad de expresión.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-05-22
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización R3D informa que la Suprema Corte de Justicia de la Nación
@@ -497,6 +847,15 @@ paises:
           Federal](https://r3d.mx/2024/05/22/nicensuranicandados-scjn-debe-hacer-publico-el-proyecto-sobre-acciones-de-inconstitucionalidad-contra-reforma-a-la-lfda/),
           y cuestionó que aún no se haya hecho público el proyecto de resolución que
           será analizado por las y los ministros.
+=======
+        url: https://r3d.mx/2024/05/22/nicensuranicandados-scjn-debe-hacer-publico-el-proyecto-sobre-acciones-de-inconstitucionalidad-contra-reforma-a-la-lfda/
+        texto: >-
+          La organización R3D informa que la Suprema Corte de Justicia de la Nación
+          resolverá las [acciones de inconstitucionalidad de las reformas a la Ley
+          Federal de Derechos de Autor y el Código Penal Federal]($url), y cuestionó
+          que aún no se haya hecho público el proyecto de resolución que será
+          analizado por las y los ministros.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - propiedad-intelectual
           - libertad-de-expresion
@@ -504,7 +863,11 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2024-04-23
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://www.ipys.org/alertas/el-ipys-rechaza-incautaci%C3%B3n-de-equipos-de-comunicaci%C3%B3n-del-director-de-sudaca-juan-carlos
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El Equipo Especial de Fiscales contra la Corrupción del Poder (EFICCOP)
           incautó, con orden judicial, computadores, teléfonos celulares y otros
@@ -514,9 +877,13 @@ paises:
           reportajes desfavorables contra la fiscal Marita Barreto. Tafur negó estas
           acusaciones y afirmó que sus publicaciones críticas hacia la fiscal
           Barreto no han sido desmentidas. El 24 y 25 de abril, el [Instituto Prensa
+<<<<<<< HEAD
           y Sociedad
           (IPYS)](https://www.ipys.org/alertas/el-ipys-rechaza-incautaci%C3%B3n-de-equipos-de-comunicaci%C3%B3n-del-director-de-sudaca-juan-carlos)
           y el [Consejo de la Prensa
+=======
+          y Sociedad (IPYS)]($url) y el [Consejo de la Prensa
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Peruana](https://x.com/ConsejodePrensa/status/1783625970970161489)
           emitieron pronunciamientos condenando la orden judicial contra Tafur,
           señalando que la medida es gravemente intrusiva y vulnera el derecho de
@@ -530,6 +897,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-05-02
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Presidencia del Consejo de Ministros publicó el [proyecto de
@@ -537,6 +905,15 @@ paises:
           de la Ley 31814 “Ley que promueve el uso de la inteligencia artificial en
           favor del desarrollo económico y social del país”. Este proyecto ha
           recibido algunas críticas iniciales. En una nota publicada por la revista
+=======
+        url: https://www.gob.pe/institucion/pcm/normas-legales/5516872-132-2024-pcm
+        texto: >-
+          La Presidencia del Consejo de Ministros publicó el [proyecto de
+          reglamento]($url) de la Ley 31814 “Ley que promueve el uso de la
+          inteligencia artificial en favor del desarrollo económico y social del
+          país”. Este proyecto ha recibido algunas críticas iniciales. En una nota
+          publicada por la revista
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [“SEMANAeconómica”](https://semanaeconomica.com/legal-politica/marco-legal/inteligencia-artificial-ia-generativa-reglamento-ley-pcm-vacios-esconde-reglamento),
           se cuestionaba la claridad del proyecto de reglamento, en particular, la
           ambigüedad en la clasificación de actividades de "riesgo alto" y "riesgo
@@ -554,6 +931,7 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2024-05-03
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 3 de mayo, se dio a conocer la sentencia del Tribunal Constitucional
@@ -572,6 +950,24 @@ paises:
           necesidad de que el Poder Ejecutivo gestione remotamente el despacho
           presidencial. REGULACIÓN DE TECNOLOGÍAS El 3 de mayo, el Instituto Prensa
           y Sociedad (IPYS) [alertó y
+=======
+        url: https://tc.gob.pe/jurisprudencia/2024/00011-2023-AI.pdf
+        texto: >-
+          El 3 de mayo, se dio a conocer la sentencia del Tribunal Constitucional
+          recaída en el [expediente 00011-2023-PI/TC]($url), por la que declaró
+          constitucional la Ley 31810, que permite al presidente gestionar su
+          despacho de manera remota con tecnologías digitales cuando viaje al
+          exterior sin tener vicepresidentes. En su fundamentación, el máximo
+          tribunal peruano señaló que el constituyente no previó la posibilidad de
+          que, durante el mandato presidencial, no hubiera vicepresidentes a quienes
+          se les pudiera encargar el despacho. Asimismo, afirmó que no es contrario
+          a la Constitución que el presidente recurra a tecnologías digitales, pues
+          a través de este puede seguir cumpliendo con los fines constitucionales de
+          su cargo. Así, resultaba posible que, al autorizar la salida del país, el
+          Congreso también pudiera validar la necesidad de que el Poder Ejecutivo
+          gestione remotamente el despacho presidencial. REGULACIÓN DE TECNOLOGÍAS
+          El 3 de mayo, el Instituto Prensa y Sociedad (IPYS) [alertó y
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           condenó](https://www.ipys.org/alertas/per%C3%BA-abogado-amenaza-nuevamente-periodista)
           que el 23 de abril, Liubomir Fernández, corresponsal del medio “La
           República” en Puno, fue amenazado nuevamente por el abogado Enrique
@@ -584,6 +980,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-05-13
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 13 de mayo, el Colegio de Periodistas del Perú emitió un
@@ -594,11 +991,23 @@ paises:
           tildándolo de “extorsionadores” y “chantajistas”. La institución denunció
           que estas acusaciones carecen de pruebas concretas y representan un ataque
           al honor y la reputación de los comunicadores.
+=======
+        url: https://x.com/cpperuoficial/status/1790059269913477179
+        texto: >-
+          El 13 de mayo, el Colegio de Periodistas del Perú emitió un
+          [pronunciamiento]($url) rechazando las declaraciones del gobernador de
+          Arequipa, Rohel Sánchez, realizadas el 10 de mayo durante una ceremonia
+          pública por el Día de la Madre. En su discurso, Sánchez descalificó al
+          periodismo arequipeño, tildándolo de “extorsionadores” y “chantajistas”.
+          La institución denunció que estas acusaciones carecen de pruebas concretas
+          y representan un ataque al honor y la reputación de los comunicadores.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-05-16
         tipo: decreto
+<<<<<<< HEAD
         texto: >-
           Se publicó el [Decreto Supremo N°
           007-2024-JUS](https://busquedas.elperuano.pe/dispositivo/SE/2289140-1),
@@ -606,6 +1015,15 @@ paises:
           Información Pública (LTAIP) - Ley N° 27806. El nuevo reglamento reemplaza
           al anterior, vigente por más de 20 años. Entre las novedades, el titular
           de cada entidad pública puede delegar al Secretario General la tarea de
+=======
+        url: https://busquedas.elperuano.pe/dispositivo/SE/2289140-1
+        texto: >-
+          Se publicó el [Decreto Supremo N° 007-2024-JUS]($url), que aprueba el
+          nuevo Reglamento de la Ley de Transparencia y Acceso a la Información
+          Pública (LTAIP) - Ley N° 27806. El nuevo reglamento reemplaza al anterior,
+          vigente por más de 20 años. Entre las novedades, el titular de cada
+          entidad pública puede delegar al Secretario General la tarea de
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           designación del funcionario responsable de atender las solicitudes de
           acceso a la información. Asimismo, cuando una entidad no sea competente
           para atender una solicitud de información, ésta no se rechaza, sino que
@@ -620,6 +1038,7 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2024-05-19
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El alcalde de Lima, Rafael López Aliaga, publicó un [comunicado
@@ -629,6 +1048,17 @@ paises:
           fiscalizan su gestión. Además, los acusó de ser responsables del tráfico
           en la ciudad y de pertenecer a una red de corrupción que busca apartarlo
           del poder. La declaración fue una respuesta a un
+=======
+        url: https://x.com/MuniLima/status/1792609676485644523
+        texto: >-
+          El alcalde de Lima, Rafael López Aliaga, publicó un [comunicado
+          oficial]($url) a través de las redes sociales de la Municipalidad de Lima,
+          en el cual llamó “pasquines” a los medios de prensa “La República” y “El
+          Comercio”, que fiscalizan su gestión. Además, los acusó de ser
+          responsables del tráfico en la ciudad y de pertenecer a una red de
+          corrupción que busca apartarlo del poder. La declaración fue una respuesta
+          a un
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [informe](https://elcomercio.pe/podcast/tenemos-que-hablar/lopez-aliaga-pide-usar-via-del-metropolitano-narp-podcast-tenemos-que-hablar-noticia/)
           de “El Comercio” que revelaba su solicitud de permiso a la Autoridad de
           Transporte Urbano (ATU) para usar las vías exclusivas del corredor de
@@ -642,6 +1072,7 @@ paises:
           - libertad-de-prensa
 ---
 
+<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -688,4 +1119,8 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
+=======
+{{< observatorio-mes month="2024-05" >}}
+
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

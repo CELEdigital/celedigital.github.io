@@ -7,7 +7,7 @@ draft: false
 role: "Vice Director Ejecutivo"
 organization: "CELE"
 location: "Buenos Aires, AR"
-photo: "/img/Ramiro-Alvarez-Ugarte.jpg"
+photo: "/img/ramiro-alvarez-ugarte.jpg"
 
 bio_short: "Doctor en derecho por la Universidad de Columbia (2022). Profesor de derecho constitucional de la Universidad de Buenos Aires."
 twitter_handle: "ramiroau"  

@@ -15,14 +15,18 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
+<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2022-10-19
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La política Patricia Bullrich [reivindicó la acción militar de Julio
@@ -34,19 +38,38 @@ paises:
           ordenada, próspera y abierta al mundo que soñamos”, desatando indignación
           en las redes sociales por menospreciar la violencia ejercida contra estas
           comunidades.
+=======
+        url: https://www.pagina12.com.ar/491046-patricia-bullrich-no-cesa-con-su-discurso-de-odio-contra-los
+        texto: >-
+          La política Patricia Bullrich [reivindicó la acción militar de Julio
+          Argentino Roca]($url), quien fue encargado de exterminar la comunidad
+          indígena de Argentina. Expresó mediante twitter que “El aniversario de la
+          muerte de Julio Argentino Roca agiganta la figura del constructor de la
+          Argentina ordenada, próspera y abierta al mundo que soñamos”, desatando
+          indignación en las redes sociales por menospreciar la violencia ejercida
+          contra estas comunidades.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - discurso-de-odio
 
   - pais: Brasil
     entradas:
       - fecha: 2022-09-22
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2022/9/22/14/58/21/b781e2d973041e509e3a359cc84524665e345c4243ef09a451bac0472ef35d8f
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El TSE ordena a Instagram y TikTok eliminar la información errónea sobre
           el "kit gay". [El Tribunal Superior Electoral (TSE), por mayoría,
           determinó que las plataformas Instagram y TikTok eliminen contenido de
+<<<<<<< HEAD
           desinformación sobre la distribución de "kit gay" en las
           escuelas](https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2022/9/22/14/58/21/b781e2d973041e509e3a359cc84524665e345c4243ef09a451bac0472ef35d8f).
+=======
+          desinformación sobre la distribución de "kit gay" en las escuelas]($url).
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           La decisión se refiere a los posts, realizados en agosto de 2022, que
           recuperan [videos del proceso electoral de 2018 en los que Jair Bolsonaro
           presenta un libro llamado "Aparato sexual y compañía", bajo la acusación
@@ -62,24 +85,37 @@ paises:
           "rechazaba la (falsa) asociación del material de video con las
           administraciones petistas del Ministerio de
           Educación"](https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=text/html&path=tse/2018/10/15/23/72b5638b2a6bf098b2d52001a1357280de412623).
+<<<<<<< HEAD
           Algunos jueces argumentaron que el contenido [permite que el votante
           "evalúe críticamente la postura posiblemente homofóbica" de Jair
           Bolsonaro](https://www.conjur.com.br/2022-set-22/fake-news-tse-veta-uso-entrevista-mencao-kit-gay).
+=======
+          Algunos jueces argumentaron que el contenido [**permite que el votante
+          "evalúe críticamente la postura posiblemente homofóbica" de Jair
+          Bolsonaro**](https://www.conjur.com.br/2022-set-22/fake-news-tse-veta-uso-entrevista-mencao-kit-gay).
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           No obstante, el voto ganador determinó la exclusión de los posts en ambas
           plataformas, argumentando que, en este caso, "no hay restricción al
           ejercicio de la libertad de información" porque no se puede "faltar a la
           verdad para promover un discurso altamente discriminatorio".
         etiquetas:
           - electoral
+<<<<<<< HEAD
           - libertad-de-expresion
 
       - fecha: 2022-09-23
         tipo: proyecto
+=======
+
+      - fecha: 2022-09-23
+        url: https://internetlab.org.br/wp-content/uploads/2022/09/decisao-andre-mendonca-uol.pdf
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           André Mendonça suspende la decisión que impedía la divulgación de informes
           sobre las propiedades de la familia Bolsonaro. El Tribunal [Supremo (STF),
           ordenó la suspensión de una decisión que impedía la divulgación de
           noticias sobre las 51 propiedades de la familia Bolsonaro compradas en
+<<<<<<< HEAD
           efectivo](https://internetlab.org.br/wp-content/uploads/2022/09/decisao-andre-mendonca-uol.pdf).
           La decisión se debe a una queja del portal UOL, responsable por la
           popularización de la historia. Los informes afirmaron que, de 107
@@ -96,19 +132,41 @@ paises:
           declarando: "Los brasileños de todos los espectros políticos e ideológicos
           deben tener asegurado el amplio ejercicio de la libertad de expresión”.
           [Se determinó, por lo tanto, la suspensión de los efectos de la decisión
+=======
+          efectivo]($url). La decisión se debe a una queja del portal UOL,
+          responsable por la popularización de la historia. Los informes afirmaron
+          que, de 107 propiedades compradas desde 1990 por la familia del presidente
+          Jair Bolsonaro (PL), **51 fueron supuestamente pagadas con efectivo
+          (sumando casi 26 millones de reais, ajustados por la inflación)**. Los
+          demandantes argumentaron que la retirada del asunto **era una censura que
+          restringía el libre ejercicio de la actividad periodística,** violando la
+          jurisprudencia del STF. El ministro André Mendonça, indicación del
+          presidente Bolsonaro, reconoció que la decisión de retirar el contenido no
+          cumplía con el [entendimiento del Superior Tribunal Federal
+          ](https://portal.stf.jus.br/processos/detalhe.asp?incidente=12837)sobre la
+          prohibición de la censura y la protección de la información, declarando:**
+          "Los brasileños de todos los espectros políticos e ideológicos deben tener
+          asegurado el amplio ejercicio de la libertad de expresión”.** [Se
+          determinó, por lo tanto, la suspensión de los efectos de la decisión
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           judicial.](https://www.conjur.com.br/2022-set-23/andre-mendonca-libera-reportagens-imoveis-familia-bolsonaro)
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
 
       - fecha: 2022-09-24
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://internetlab.org.br/wp-content/uploads/2022/09/noticia-crime-ratinho-junior.pdf
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Crímenes contra el gobernador de Paraná por desinformación utilizando los
           canales oficiales. La Federación [Brasil de la Esperanza presentó, ante el
           Tribunal Regional Electoral de Paraná (TRE-PR), una denuncia penal contra
           el gobernador del Estado de Paraná, Ratinho Junior, y otros funcionarios
           estatales, alegando el uso de los canales oficiales del gobierno para
+<<<<<<< HEAD
           disparar en
           masa](https://internetlab.org.br/wp-content/uploads/2022/09/noticia-crime-ratinho-junior.pdf).
           [La denuncia penal afirma que los servicios Paraná Inteligencia Artificial
@@ -116,6 +174,14 @@ paises:
           el voto para Jair Bolsonaro y llamando a la población a invadir el
           Congreso Nacional y la Corte Suprema en caso de derrota
           electoral](https://www.conjur.com.br/2022-set-24/federacao-aciona-tre-pr-uso-dados-favor-bolsonaro)".
+=======
+          disparar en masa]($url). [La denuncia penal afirma **que los servicios
+          Paraná Inteligencia Artificial (PIA) y Detran-PR serían utilizados para
+          disparar mensajes SMS "pidiendo el voto para Jair Bolsonaro** y llamando a
+          la población **a invadir el Congreso Nacional y la Corte Suprema en caso
+          de derrota
+          electoral**](https://www.conjur.com.br/2022-set-24/federacao-aciona-tre-pr-uso-dados-favor-bolsonaro)**".**
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           La Federación alega los crímenes de utilización del servicio gubernamental
           en beneficio de un partido u organización política e intento de abolir el
           Estado democrático de derecho, impidiendo o restringiendo el ejercicio de
@@ -128,6 +194,7 @@ paises:
           Electoral](https://theintercept.com/notas/algar-telecom-coloca-a-culpa-em-funcionario-junior-por-sms-golpistas/).
         etiquetas:
           - electoral
+<<<<<<< HEAD
           - libertad-de-expresion
           - privacidad
 
@@ -154,17 +221,48 @@ paises:
           la creación de un Fondo de Lucha contra la Información Falsa, que
           recaudará recursos de las sanciones y lo destinará a la lucha contra la
           difusión de la desinformación.
+=======
+          - privacidad
+
+      - fecha: 2022-09-26
+        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2335176
+        texto: >-
+          Proyecto de Ley pretende multar a quienes difundan o compartan
+          desinformaciones. El diputado José Nelto (PP/GO) presentó en la Cámara de
+          Representantes el [proyecto de ley nº 2516/2022]($url), que establece una
+          "sanción administrativa para quienes difundan información falsa". El texto
+          presentado establece que, "salvo autorizaciones legales o
+          constitucionales", se prohíbe divulgar o compartir, por cualquier medio,
+          información "conscientemente falsa, perjudicialmente incompleta, que
+          altere, corrompa o distorsione la verdad, en perjuicio de una persona
+          física o jurídica, que afecte al interés público relevante o que tenga por
+          objeto obtener una ventaja de cualquier naturaleza". Si una persona entra
+          en alguna de estas categorías, el proyecto de ley prevé** una multa de
+          tres salarios mínimos**. El proyecto de ley también prevé la **duplicación
+          de la multa si el infractor es un funcionario público** o en caso de
+          **reincidencia, y la cuadruplicación** de la multa si la infracción es
+          cometida por un funcionario público con fondos del organismo público donde
+          trabaja. Por último, el proyecto de ley prevé la creación de un **Fondo de
+          Lucha contra la Información Falsa**, que recaudará recursos de las
+          sanciones y lo destinará a la lucha contra la difusión de la
+          desinformación.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-10-02
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://internetlab.org.br/wp-content/uploads/2022/10/decisao-multa-2.pdf
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La justicia continúa con las decisiones diarias de bloquear las
           publicaciones de desinformación sobre los dos candidatos presidenciales.
           [El Tribunal Superior Electoral (TSE), determinó una multa por no eliminar
           la desinformación sobre la asociación entre el candidato Lula (PT) y
           Marcola, jefe de la organización criminal Primer Comando de la Capital
+<<<<<<< HEAD
           (PCC)](https://internetlab.org.br/wp-content/uploads/2022/10/decisao-multa-2.pdf).
           La desinformación fue difundida por varios canales y personas, entre ellos
           el presidente Jair Bolsonaro (PL) y sus hijos. La determinación, sin
@@ -172,6 +270,14 @@ paises:
           las plataformas Twitter y Gettr para hacer la suspensión inmediata de 12
           enlaces en el plazo de 1 hora, bajo pena de una multa de R$ 100.000,00 por
           hora de
+=======
+          (PCC)]($url). La desinformación fue difundida por varios canales y
+          personas, **entre ellos el presidente Jair Bolsonaro (PL) y sus hijos**.
+          La determinación, sin embargo, **no fue seguida por algunos** de los
+          representados. [El **TSE citó a las plataformas Twitter y Gettr para hacer
+          la suspensión inmediata de 12 enlaces en el plazo de 1 hora**, bajo pena
+          de una multa de R$ 100.000,00 por hora de
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           incumplimiento](https://www.conjur.com.br/2022-out-02/tse-multa-quem-descumpriu-decisao-excluir-fake-news-lula).
           En la misma semana, el TSE ordenó la suspensión de [la propaganda
           electoral que asociaba a Jair Bolsonaro (PL) con el
@@ -179,6 +285,7 @@ paises:
           La denuncia pedía la suspensión de un anuncio electoral que mostraba un
           vídeo de Bolsonaro afirmando que había participado en una ceremonia en la
           que una comunidad indígena cocinaba los restos de uno de sus miembros para
+<<<<<<< HEAD
           su consumo. Bolsonaro afirmó en el video que "quería ver cómo cocinaban al
           hombre" y que "se comería a un indio sin problemas". Los representantes
           argumentaron que el discurso fue sacado de contexto. [El TSE coincidió con
@@ -198,6 +305,27 @@ paises:
           la desinformación en el proceso electoral. El TSE aprobó una
           [resolución](https://www.tse.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tse.jus.br/comunicacao/arquivos/resolucao-desinformacao/@@download/file/TSE%20-%20Resoluc%CC%A7a%CC%83o%20-%20Desinformac%CC%A7a%CC%83o%20-%20aprovada.pdf)
           que estableció [nuevas directrices para el combate de la
+=======
+          su consumo. **Bolsonaro afirmó en el video que "quería ver cómo cocinaban
+          al hombre" y que "se comería a un indio sin problemas"**. Los
+          representantes argumentaron que el discurso fue sacado de contexto. [El
+          TSE coincidió con la representación, en el sentido de que "la propaganda
+          electoral impugnada presenta el recorte de un determinado fragmento de una
+          entrevista concedida por el candidato representante, capaz de configurar
+          una grave descontextualización", y determinó la suspensión inmediata de la
+          campaña
+          publicitaria.](https://www.conjur.com.br/2022-out-10/tse-proibe-campanha-lula-associar-bolsonaro-canibalismo)
+        etiquetas:
+          - electoral
+
+      - fecha: 2022-10-20
+        url: https://www.tse.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tse.jus.br/comunicacao/arquivos/resolucao-desinformacao/@@download/file/TSE%20-%20Resoluc%CC%A7a%CC%83o%20-%20Desinformac%CC%A7a%CC%83o%20-%20aprovada.pdf
+        texto: >-
+          El TSE aprueba una resolución para dar más efectividad a la lucha contra
+          la desinformación en el proceso electoral. El TSE aprobó una
+          [resolución]($url) que estableció [nuevas directrices para el combate de
+          la
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           desinformación](https://www.tse.jus.br/comunicacao/noticias/2022/Outubro/tse-aprova-resolucao-para-dar-mais-efetividade-ao-combate-a-desinformacao-no-processo-eleitoral)
           en el contexto de las elecciones de 2022. Entre otras innovaciones, el
           dispositivo autoriza la extensión de la decisión de retirada de contenido
@@ -207,11 +335,15 @@ paises:
           judicial.
         etiquetas:
           - electoral
+<<<<<<< HEAD
           - libertad-de-expresion
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
   - pais: Chile
     entradas:
       - fecha: 2022-10-02
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Pablo Iglesias, el ex líder del partido Podemos y cercano a Boric,
@@ -222,6 +354,17 @@ paises:
           medios de comunicación son aparatos ideológicos cuyo propósito es
           jerarquizar los temas de discusión y convertirse en actores políticos
           esenciales. La organización Fundación para el Progreso
+=======
+        url: https://panampost.com/gabriela-moreno/2022/10/02/pablo-iglesias-en-chile-estatizar-la-prensa/
+        texto: >-
+          Pablo Iglesias, el ex líder del partido Podemos y cercano a Boric,
+          [planteó estatizar un tercio de la prensa en Chile]($url), otro tercio a
+          los sindicatos, organizaciones de la sociedad civil y otro tercio “a los
+          millonarios de siempre”. Su argumento es afirmar que los medios de
+          comunicación son aparatos ideológicos cuyo propósito es jerarquizar los
+          temas de discusión y convertirse en actores políticos esenciales. La
+          organización Fundación para el Progreso
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [manifestó](https://www.youtube.com/watch?v=ehWBg5HTdQw) que este tipo de
           propuestas pondría en riesgo la libertad de expresión al poner la
           información en función de los intereses políticos.
@@ -233,12 +376,20 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2022-10-04
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 4 de octubre fue radicado en el Senado de Colombia el [proyecto de ley
           210/22](https://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/proyectos%20de%20ley/2022-2023/PL-210S-2022.pdf)
           que busca establecer mecanismos de protección y compensación al
           denunciante de actos de corrupción administrativa y se dictan otras
+=======
+        url: https://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/proyectos%20de%20ley/2022-2023/PL-210S-2022.pdf
+        texto: >-
+          El 4 de octubre fue radicado en el Senado de Colombia el [proyecto de ley
+          210/22]($url) que busca establecer mecanismos de protección y compensación
+          al denunciante de actos de corrupción administrativa y se dictan otras
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           disposiciones. El proyecto propone protección laboral (estabilidad y
           reubicación laboral si es necesario), económica y jurídica ("subvenciones"
           en caso de que el denunciante se encuentre inmerso en hechos materia de
@@ -249,6 +400,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-10-17
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El 17 de octubre fue asesinado en Montelíbano, Córdoba, el periodista y
@@ -263,10 +415,26 @@ paises:
           amenazas. Sin embargo, la UNP decidió no hacer cambios. Según la FLIP, el
           asesinato de Moreno es el primero que ocurre a pesar de que el periodista
           tenía medidas de protección del Estado.
+=======
+        url: https://flip.org.co/index.php/es/informacion/pronunciamientos/item/2966-rafael-moreno-periodista-con-proteccion-de-la-unp-fue-asesinado-en-montelibano-cordoba
+        texto: >-
+          El 17 de octubre fue asesinado en Montelíbano, Córdoba, el periodista y
+          líder social [Rafael Emiro Moreno]($url). Moreno era el director de Voces
+          de Córdoba, un medio digital donde hacía denuncias periodísticas sobre
+          corrupción y las acciones de grupos armados ilegales. Según informa la
+          Fundación para la Libertad de Prensa (FLIP), Moreno había sido víctima de
+          amenazas desde 2019. En julio de 2022, la FLIP solicitó a la Unidad
+          Nacional de Protección (UNP) el refuerzo de su esquema de protección luego
+          de que el periodista recibiera dos nuevas amenazas. Sin embargo, la UNP
+          decidió no hacer cambios. Según la FLIP, el asesinato de Moreno es el
+          primero que ocurre a pesar de que el periodista tenía medidas de
+          protección del Estado.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-10-26
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Avanza en la Corte Constitucional el caso de la actriz porno [Esperanza
@@ -275,6 +443,14 @@ paises:
           En julio, medios de comunicación informaron que la Corte Constitucional
           estudiaría una acción de tutela presentada por la actriz contra la
           plataforma por la [eliminación de su
+=======
+        url: https://www.rcnradio.com/judicial/esperanza-gomez-acude-a-la-tutela-porque-le-cerraron-su-instagram
+        texto: >-
+          Avanza en la Corte Constitucional el caso de la actriz porno [Esperanza
+          Gómez contra Instagram]($url). En julio, medios de comunicación informaron
+          que la Corte Constitucional estudiaría una acción de tutela presentada por
+          la actriz contra la plataforma por la [eliminación de su
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           cuenta](https://www.las2orillas.co/el-lio-judicial-que-acabaria-la-carrera-de-esperanza-gomez-en-instagram/).
           En octubre se supo que la Corte convocó a una sesión temática para
           discutir, entre otras cosas, libertad de expresión, género y
@@ -286,6 +462,7 @@ paises:
   - pais: Ecuador
     entradas:
       - fecha: 2022-10-05
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Corte Constitucional de Ecuador
@@ -304,6 +481,25 @@ paises:
           acciones en contra de medios de comunicación por información que él mismo
           ha calificado de verdadero y de falso”. Frente a esto, las organizaciones
           de sociedad civil han mostrado [gran
+=======
+        url: https://www.infobae.com/america/america-latina/2022/10/05/la-corte-constitucional-del-ecuador-acepto-la-mayoria-de-las-objeciones-presentadas-por-lasso-sobre-la-ley-mordaza/
+        texto: >-
+          La Corte Constitucional de Ecuador [aceptó]($url) 12 de las 18 objeciones
+          por inconstitucionalidad presentadas por el presidente Guillermo Lasso
+          sobre la “Ley mordaza”. Una decisión aplaudida pues pretende la protección
+          de la libertad de expresión y de prensa. Uno de los artículos cuestionados
+          y objetado por el presidente Lasso es el 17 por medio del cual señala que
+          el Estado debe garantizar “el derecho a la verdad” y prohíbe la “difusión
+          de toda información falsa”. La objeción se basa en los conceptos dados por
+          la Comisión Interamericana de Derechos Humanos y en fallos
+          constitucionales argumentando que “el Estado no puede prestarse a ser un
+          “policía de la verdad”... no puede decir que información es verdadera y
+          cual es falsa, por ese mismo motivo, el Estado tampoco puede dar
+          atribuciones a un organismo estatal para que inicie acciones en contra de
+          medios de comunicación por información que él mismo ha calificado de
+          verdadero y de falso”. Frente a esto, las organizaciones de sociedad civil
+          han mostrado [gran
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           apoyo](https://ecuadorchequea.com/asi-freno-la-corte-constitucional-la-nueva-mordaza-correista/)
           al alto tribunal con la expectativa de que el derecho a la libertad de
           expresión sea protegida.
@@ -313,6 +509,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-10-08
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Sociedad Interamericana de Prensa (SIP)
@@ -323,10 +520,21 @@ paises:
           cámaras de seguridad donde se evidenciaron varios disparos contra la
           puerta de acceso al canal y el depósito de panfletos con amenazas de
           muerte.
+=======
+        url: https://www.clarin.com/mundo/sip-condena-ataque-amenazas-medios-comunicacion-ecuador_0_QpH1VI1kHD.html
+        texto: >-
+          La Sociedad Interamericana de Prensa (SIP) [condenó]($url) el atentado que
+          sufrió el canal de televisión RTS y las amenazas contra el director del
+          diario Extra, Galo Martínez Leisker. El atentado se realizó por parte de
+          dos sujetos que circulaban en una motocicleta, captados por cámaras de
+          seguridad donde se evidenciaron varios disparos contra la puerta de acceso
+          al canal y el depósito de panfletos con amenazas de muerte.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-10-24
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Periodistas en Ecuador
@@ -335,18 +543,34 @@ paises:
           Autoridades del gobierno y demás organizaciones civiles que trabajan en la
           defensa de la libertad de expresión han mostrado preocupación por los
           ataques recientes que se han registrado en contra de los periodistas.
+=======
+        url: https://cnnespanol.cnn.com/video/ecuador-crimen-terror-narcotrafico-denuncias-periodistas-lasso-pkg-canizares/
+        texto: >-
+          Periodistas en Ecuador [denuncian]($url) aumento de violencia en su contra
+          por parte de bandas de narcotráfico. Autoridades del gobierno y demás
+          organizaciones civiles que trabajan en la defensa de la libertad de
+          expresión han mostrado preocupación por los ataques recientes que se han
+          registrado en contra de los periodistas.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: Guatemala
     entradas:
       - fecha: 2022-10-24
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Comisión Interamericana de Derechos Humanos [conoció los casos sobre
           ataques a la
           prensa](https://www.resumenlatinoamericano.org/2022/10/26/guatemala-senalan-de-criminalizar-a-periodistas-y-limitar-la-libertad-de-expresion/)
           en Guatemala. Se
+=======
+        url: https://www.resumenlatinoamericano.org/2022/10/26/guatemala-senalan-de-criminalizar-a-periodistas-y-limitar-la-libertad-de-expresion/
+        texto: >-
+          La Comisión Interamericana de Derechos Humanos [conoció los casos sobre
+          ataques a la prensa]($url) en Guatemala. Se
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [expuso](https://elperiodico.com.gt/sociedad/local/2022/10/24/organizaciones-exponen-situacion-de-libertad-de-expresion-en-guatemala-ante-la-cidh/)
           sobre el hostigamiento, persecución, agresiones y criminalización contra
           la labor informativa de los
@@ -367,6 +591,7 @@ paises:
   - pais: México
     entradas:
       - fecha: 2022-09-29
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El portal de [noticias
@@ -374,10 +599,19 @@ paises:
           que las fuerzas armadas mexicanas fueron _hackeadas_ por el grupo
           autodenominado Guacamaya y de la información revelada se constata que el
           Gobierno mexicano ha mentido en diversos temas.
+=======
+        url: https://latinus.us/2022/09/29/loret-capitulo-96/
+        texto: >-
+          El portal de [noticias Latinus]($url), dio a conocer que las fuerzas
+          armadas mexicanas fueron _hackeadas_ por el grupo autodenominado Guacamaya
+          y de la información revelada se constata que el Gobierno mexicano ha
+          mentido en diversos temas.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2022-10-10
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización Artículo 19 participó en la presentación del informe
@@ -385,11 +619,20 @@ paises:
           México_](https://articulo19.org/hacia-una-regulacion-de-la-publicidad-oficial-en-mexico-analisis-legal-comparado/)
           el cual se hizo en coordinación con Thomson Reuters Foundation, en el que
           se incluyó la investigación de siete países, entre ellos México.
+=======
+        url: https://articulo19.org/hacia-una-regulacion-de-la-publicidad-oficial-en-mexico-analisis-legal-comparado/
+        texto: >-
+          La organización Artículo 19 participó en la presentación del informe
+          [_Hacia una regulación de la publicidad oficial en México_]($url) el cual
+          se hizo en coordinación con Thomson Reuters Foundation, en el que se
+          incluyó la investigación de siete países, entre ellos México.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - publicidad-oficial
           - acceso-a-la-informacion
 
       - fecha: 2022-10-12
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización Artículo 19 alertó del [uso del delito de violencia
@@ -406,6 +649,22 @@ paises:
           concluyó con una sanción administrativa que incluyó eliminación de notas
           periodísticas, disculpas públicas, tomar un curso sobre violencia de
           género y multas económicas; no obstante la Fiscalía General de la
+=======
+        url: https://articulo19.org/article-19-lamenta-el-uso-arbitrario-y-desproporcionado-del-delito-de-violencia-politica-de-genero-en-contra-de-la-prensa/
+        texto: >-
+          La organización Artículo 19 alertó del [uso del delito de violencia
+          política de género]($url) para silenciar el debate público con relación a
+          temas en los que se cuestiona a las mujeres que participan en asuntos
+          públicos. Un asunto fue presentado el 25 de abril de 2022, por la diputada
+          federal Fernanda Sodi Miranda contra el periodista Erick Gutiérrez ante el
+          Instituto Nacional Electoral, y fue resuelto el 11 de agosto por el
+          Tribunal Electoral considerando que no existía infracción. Otro asunto es
+          el relacionado con la mención que de dos personas fueron beneficiadas con
+          candidaturas en Baja California Sur, y una de ellas apareció en la Revista
+          H el cual concluyó con una sanción administrativa que incluyó eliminación
+          de notas periodísticas, disculpas públicas, tomar un curso sobre violencia
+          de género y multas económicas; no obstante la Fiscalía General de la
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           República (FGR) solicitó la vinculación a proceso de las cuatro personas
           periodistas que difundieron la información en este caso. Artículo 19
           exigió a la FGR que aplique el principio de mínima intervención del
@@ -438,6 +697,7 @@ paises:
           - vigilancia
 
       - fecha: 2022-10-13
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización Artículo 19 dio a conocer diversas amenazas que ha sufrido
@@ -451,15 +711,33 @@ paises:
           Expresión de la denuncia presentada por la periodista, y a medidas
           urgentes de protección al Mecanismo Federal de Protección a Personas
           Defensoras y Periodistas.
+=======
+        url: https://articulo19.org/periodista-es-victima-de-acoso-e-intimidaciones/
+        texto: >-
+          La organización Artículo 19 dio a conocer diversas amenazas que ha sufrido
+          la [periodista Emmanuelle Steels]($url) como consecuencia de su libro _El
+          Teatro del Engaño: Cassez-Vallarta, historia de un montaje_, el cual
+          volvió a ser parte del debate público a partir de la transmisión del
+          documental _El caso CASSEZ-VALLARTA, Una novela criminal_. Es así que la
+          organización requirió a la Fiscalía Especial para la Atención de Delitos
+          cometidos contra de la Libertad de Expresión de la denuncia presentada por
+          la periodista, y a medidas urgentes de protección al Mecanismo Federal de
+          Protección a Personas Defensoras y Periodistas.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-10-18
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://articulo19.org/llamamos-al-congreso-a-cumplir-sus-obligaciones-y-legislar-respecto-a-la-ley-de-comunicacion-social/
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La organización Artículo 19 exigió al Congreso de la Unión acatar la
           resolución de la Suprema Corte de Justicia de la Nación emitida el 8 de
           septiembre de 2021 en la que se les instruye el subsanar deficiencias en
+<<<<<<< HEAD
           la [Ley de Comunicación Social que regula la publicidad
           oficial](https://articulo19.org/llamamos-al-congreso-a-cumplir-sus-obligaciones-y-legislar-respecto-a-la-ley-de-comunicacion-social/).
         etiquetas:
@@ -471,6 +749,12 @@ paises:
         texto: >-
           La organización R3D señala que el periódico Animal Político dio la noticia
           de que el diputado federal [Agustín Basave Alanís fue
+=======
+          la [Ley de Comunicación Social que regula la publicidad oficial]($url).
+          PUBLICIDAD OFICIAL ACCESO A LA INFORMACION La organización R3D señala que
+          el periódico Animal Político dio la noticia de que el diputado federal
+          [Agustín Basave Alanís fue
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           espiado](https://r3d.mx/2022/10/18/el-diputado-de-oposicion-agustin-basave-alanis-fue-espiado-con-pegasus-confirma-citizen-lab/)
           con Pegasus entre el 5 y 11 de septiembre de 2021.
         etiquetas:
@@ -478,6 +762,7 @@ paises:
           - vigilancia
 
       - fecha: 2022-10-19
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización Artículo 19 presentó la investigación [_Libertad
@@ -486,6 +771,15 @@ paises:
           en la que realiza un análisis de las herramientas humanas o artificiales
           de moderación de contenido con aplicación masiva, y el impacto que tiene
           con relación a los derechos a la libertad de expresión y a la información.
+=======
+        url: https://articulo19.org/libertad-artificial-discurso-redes-y-pluralidad/
+        texto: >-
+          La organización Artículo 19 presentó la investigación [_Libertad
+          Artificial: Discurso, redes y pluralidad_]($url) en la que realiza un
+          análisis de las herramientas humanas o artificiales de moderación de
+          contenido con aplicación masiva, y el impacto que tiene con relación a los
+          derechos a la libertad de expresión y a la información.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - acceso-a-la-informacion
@@ -493,6 +787,7 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2022-10-06
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El noticiero “La Encerrona” [publicó la investigación del periodista
@@ -503,6 +798,16 @@ paises:
           “Guacamaya Leaks”, contempla el hackeo a las fuerzas armadas de varios
           países de América Latina. El jefe de relaciones públicas del Ejército
           peruano realizó [advertencias intimidatorias al
+=======
+        url: https://ipys.org/libertad-de-expresion/alertas/peru-jefe-de-relaciones-publicas-del-ejercito-advierte-a-periodista-tener-cuidado-de-revelar-informacion-filtrada-de-las-fuerzas-armadas
+        texto: >-
+          El noticiero “La Encerrona” [publicó la investigación del periodista
+          Ernesto Cabral]($url) que revelaba un hackeo masivo a más de 200 mil
+          correos electrónicos al Comando Conjunto de las Fuerzas Armadas del Perú.
+          La filtración, llamada “Guacamaya Leaks”, contempla el hackeo a las
+          fuerzas armadas de varios países de América Latina. El jefe de relaciones
+          públicas del Ejército peruano realizó [advertencias intimidatorias al
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           periodista](https://ipys.org/libertad-de-expresion/alertas/peru-jefe-de-relaciones-publicas-del-ejercito-advierte-a-periodista-tener-cuidado-de-revelar-informacion-filtrada-de-las-fuerzas-armadas)
           Ernesto Cabral para que no revele información que contenga planes de
           inteligencia considerados de seguridad nacional, y que hacerlo sería
@@ -512,20 +817,33 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-10-11
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://ipys.org/libertad-de-expresion/alertas/peru-pedro-castillo-niega-ingreso-de-prensa-nacional-a-conferencia-de-prensa-donde-dio-descargos-sobre-la-acusacion-constitucional-en-su-contra
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Tras la denuncia constitucional interpuesta por la Fiscal de la Nación,
           Patricia Benavides, contra el presidente de la República Pedro Castillo
           por liderar una organización criminal, el mandatario anunció una
           conferencia de prensa para dar sus descargos, pero [ordenó que se impida
+<<<<<<< HEAD
           el ingreso a la prensa
           nacional](https://ipys.org/libertad-de-expresion/alertas/peru-pedro-castillo-niega-ingreso-de-prensa-nacional-a-conferencia-de-prensa-donde-dio-descargos-sobre-la-acusacion-constitucional-en-su-contra),
           dando pase solo a la prensa extranjera acreditada en el país.
+=======
+          el ingreso a la prensa nacional]($url), dando pase solo a la prensa
+          extranjera acreditada en el país.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-10-18
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://ipys.org/libertad-de-expresion/alertas/peru-seguidores-de-pedro-castillo-agreden-a-reportero-luego-de-que-presidente-atacara-a-la-prensa
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           En una ceremonia con centenares de ex miembros de las fuerzas armadas
           convocada en el patio del Palacio de Gobierno, el presidente Pedro
@@ -533,13 +851,19 @@ paises:
           periodistas allí presentes, a quienes acusó de representar a fuerzas que
           lo acusan y de sesgar la información. Los reporteros y reporteras cubrían
           el evento en las afueras de la Casa de Gobierno, donde también había
+<<<<<<< HEAD
           seguidores de Castillo. Uno de ellos [insultó y propinó un
           golpe](https://ipys.org/libertad-de-expresion/alertas/peru-seguidores-de-pedro-castillo-agreden-a-reportero-luego-de-que-presidente-atacara-a-la-prensa)
           a Roberto Ramírez, periodista de Latina TV.
+=======
+          seguidores de Castillo. Uno de ellos [insultó y propinó un golpe]($url) a
+          Roberto Ramírez, periodista de Latina TV.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 ---
 
+<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -587,4 +911,8 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
+=======
+{{< observatorio-mes month="2022-10" >}}
+
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

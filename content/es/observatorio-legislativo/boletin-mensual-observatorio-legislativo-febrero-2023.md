@@ -15,14 +15,18 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
+<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2023-02-14
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Juzgado Nacional Civil y Comercial No. 45 emitió medida
@@ -35,23 +39,47 @@ paises:
           ser un asunto de interés público, sino de conversaciones que
           “pertenecerían eventualmente al exclusivo ámbito de reserva e intimidad
           inviolable de su persona”.
+=======
+        url: https://palabrasdelderecho.com.ar/articulo/4109/Filtracion-de-chats-de-Fede-Bal-la-justicia-otorgo-una-cautelar-pedida-por-Estefania-Berardi-para-que-dejen-de-difundir-las-conversaciones
+        texto: >-
+          El Juzgado Nacional Civil y Comercial No. 45 emitió medida
+          autosatisfactiva solicitada por la conductora y bailarina [Estefanía
+          Berardi]($url) para que los medios de comunicación dejaran de difundir los
+          chats íntimos con el actor y presentador Federico Bal asociados a un
+          escándalo de infidelidad. El Juez Carlos Goggi determinó que los chats no
+          encajan con los supuestos de acceso a la información y libertad de
+          expresión por no ser un asunto de interés público, sino de conversaciones
+          que “pertenecerían eventualmente al exclusivo ámbito de reserva e
+          intimidad inviolable de su persona”.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
           - acceso-a-la-informacion
 
+<<<<<<< HEAD
   - pais: Brasil
     entradas:
       - fecha: 2023-02-23
         tipo: proyecto
+=======
+      - fecha: 2023-02-23
+        url: https://www.youtube.com/watch?v=GlXxtmz4MyM
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           Del 21 al 23 de febrero se llevó a cabo la Conferencia “Internet For
           Trust” en la sede de la UNESCO en París para que los expertos discutieran
           temas relevantes a la regulación de plataformas digitales en búsqueda de
           la protección y promoción de los derechos humanos a la libertad de
           expresión y acceso a la información. Nuestra Directora, Agustina del
+<<<<<<< HEAD
           Campo, [participó](https://www.youtube.com/watch?v=GlXxtmz4MyM) en el
           panel de "Transparencia, moderación de contenidos y Libertad de expresión,
           perspectivas Multi-Actor en América Latina" donde
+=======
+          Campo, [participó]($url) en el panel de "Transparencia, moderación de
+          contenidos y Libertad de expresión, perspectivas Multi-Actor en América
+          Latina" donde
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [resaltó](https://noticias.ebiz.pe/expertos-debaten-en-unesco-guia-para-regular-plataformas-digitales/)
           la necesidad de definir la supervisión de las plataformas digitales y de
           estudiar con lupa el concepto de licitud e ilicitud para una adecuada
@@ -69,6 +97,7 @@ paises:
           de protección de datos personales al no enmarcarse en los datos sensibles.
           Sin embargo las organizaciones han alegado que pese a no corresponder a
           este grupo sí hacen parte de la privacidad de los ciudadanos al ser
+<<<<<<< HEAD
           accesibles sin su consentimiento. PRIVACIDAD DATOS PERSONALES 24/01 El
           Tribunal Supremo ordena la reactivación de los perfiles del diputado
           federal que publicó contenidos antidemocráticos. [El Ministro del Supremo
@@ -78,6 +107,24 @@ paises:
           La decisión, publicada el 27.01.01, ordenó el desbloqueo de los perfiles
           del diputado en Facebook, Instagram, Telegram, Tik Tok, Twitter y YouTube.
           La Corte [había
+=======
+          accesibles sin su consentimiento.
+        etiquetas:
+          - privacidad
+
+  - pais: Brasil
+    entradas:
+      - fecha: 2023-01-24
+        url: https://internetlab.org.br/wp-content/uploads/2023/02/Decisao-reativacao-Nikolas.pdf
+        texto: >-
+          El Tribunal Supremo ordena la reactivación de los perfiles del diputado
+          federal que publicó contenidos antidemocráticos. [El Ministro del Supremo
+          Tribunal Federal (STF) Alexandre de Moraes ordenó la reactivación de las
+          cuentas en las redes sociales del diputado federal Nikolas Ferreira
+          (PL-MG)]($url). La decisión, publicada el 27.01.01, ordenó el desbloqueo
+          de los perfiles del diputado en Facebook, Instagram, Telegram, Tik Tok,
+          Twitter y YouTube. La Corte [había
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           justificado](https://internetlab.org.br/wp-content/uploads/2023/01/agu-11-01.pdf)
           la previa retirada como parte de la lucha contra la violación de la
           integridad del proceso electoral y el fomento de actos antidemocráticos.
@@ -86,6 +133,7 @@ paises:
           los contenidos anteriormente juzgados como irregulares. Moraes estableció
           que el parlamentario debe abstenerse de publicar, promover, replicar y
           compartir noticias fraudulentas, bajo pena de multa diaria de R $10 mil.
+<<<<<<< HEAD
           MODERACION DE CONTENIDOS DESINFORMACION LIBERTAD DE EXPRESION 26/01 Juez
           ratifica la desmonetización de los vídeos de Monark en Youtube. El juez
           Cesar Augusto Vieira, del 44º Juzgado Civil del Distrito Judicial de São
@@ -95,6 +143,22 @@ paises:
           Monark llevó el asunto a los tribunales cuando [Google decidió
           desmonetizar su canal tras la defensa de la creación de un partido nazista
           en
+=======
+        etiquetas:
+          - plataformas-digitales
+          - libertad-de-expresion
+
+      - fecha: 2023-01-26
+        url: https://internetlab.org.br/wp-content/uploads/2023/02/doc_105482469-1.pdf
+        texto: >-
+          Juez ratifica la desmonetización de los vídeos de Monark en Youtube. El
+          juez Cesar Augusto Vieira, del 44º Juzgado Civil del Distrito Judicial de
+          São Paulo, [rechazó una petición del youtuber Bruno Aiub, conocido como
+          Monark, que abogaba por restablecer la monetización de su canal de
+          Youtube]($url). Monark llevó el asunto a los tribunales cuando [Google
+          decidió desmonetizar su canal tras la defensa de la creación de un partido
+          nazista en
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Brasil](https://noticias.uol.com.br/colunas/rogerio-gentile/2023/02/01/justica-decide-que-google-agiu-bem-ao-desmonetizar-monark-no-youtube.htm),
           basado en el "derecho al antisemitismo". La sentencia consideró que Monark
           violaba las políticas de YouTube, afirmando que "la libertad de expresión
@@ -108,6 +172,7 @@ paises:
           pornográfico](https://internetlab.org.br/wp-content/uploads/2023/02/Remocao-Facebook.pdf).
           Además de eliminar las cuentas falsas, el juez ordenó a la plataforma
           proporcionar datos sensibles que permitan la identificación de los
+<<<<<<< HEAD
           responsables. MODERACION DE CONTENIDOS 01/02 TJ/GO determina que Facebook
           debe compensar institución afectada por eliminación indebida de perfil en
           Instagram. [La 3ª Sala de Derecho Civil del Tribunal de Justicia de Goiás
@@ -115,6 +180,20 @@ paises:
           indemnizar al Colegio Sudamericano (UniFasam) por la eliminación indebida
           de su cuenta de
           Instagram](https://internetlab.org.br/wp-content/uploads/2023/02/TJ-GO-faculdade-indenizada-remocao-perfil.pdf).
+=======
+          responsables.
+        etiquetas:
+          - plataformas-digitales
+
+      - fecha: 2023-02-01
+        url: https://internetlab.org.br/wp-content/uploads/2023/02/TJ-GO-faculdade-indenizada-remocao-perfil.pdf
+        texto: >-
+          TJ/GO determina que Facebook debe compensar institución afectada por
+          eliminación indebida de perfil en Instagram. [La 3ª Sala de Derecho Civil
+          del Tribunal de Justicia de Goiás (TJ/GO) confirmó la decisión de primera
+          instancia que ordenó a Facebook a indemnizar al Colegio Sudamericano
+          (UniFasam) por la eliminación indebida de su cuenta de Instagram]($url).
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           La suspensión del perfil se había justificado por supuesta violación de
           las condiciones de uso y políticas de la empresa para la difusión de spam,
           [pero el Tribunal consideró que la conducta no estaba
@@ -123,12 +202,19 @@ paises:
           - plataformas-digitales
 
       - fecha: 2023-02-08
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         exp: 06927/2023-CR
         url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2347270
         texto: >-
           Proyectos pretenden frenar la creación de la _Fiscalía Nacional de Defensa
+<<<<<<< HEAD
           de la Democracia._ El diputado Kim Kataguiri (União/SP) y el senador
+=======
+          de la Democracia. _El diputado Kim Kataguiri (União/SP) y el senador
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Sérgio Moro (União/PR) presentaron los proyectos de decreto legislativo
           [27/2023]($url) y
           [28/2023](https://www25.senado.leg.br/web/atividade/materias/-/materia/155800),
@@ -158,19 +244,31 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-02-09
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://internetlab.org.br/wp-content/uploads/2023/02/Glenn-Moro-TJ-PR.pdf
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           TJ/PR autoriza a Glenn Greenwald a mantener el post llamando al senador
           Sérgio Moro de corrupto. La [8ª Sala de Derecho Civil del Tribunal de
           Justicia de Paraná (TJ/PR) decidió que el periodista Glenn Greenwald
           (conocido por su colaboración con Edward Snowden en el escándalo de la
           NSA) podrá mantener post que llama el senador Sérgio Moro de "juez
+<<<<<<< HEAD
           corrupto" en su cuenta de
           Twitter](https://internetlab.org.br/wp-content/uploads/2023/02/Glenn-Moro-TJ-PR.pdf).
           En marzo de 2022, una decisión judicial preliminar había ordenado la
           retirada del contenido por parte de la plataforma. El Tribunal, sin
           embargo, reformó la orden, [declarando que la supresión del post
           implicaría censura y lesión a la libertad de opinión política de
+=======
+          corrupto" en su cuenta de Twitter]($url). En marzo de 2022, una decisión
+          judicial preliminar había ordenado la retirada del contenido por parte de
+          la plataforma. El Tribunal, sin embargo, reformó la orden, [declarando que
+          la supresión del post implicaría censura y lesión a la libertad de opinión
+          política de
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Greenwald](https://www.migalhas.com.br/quentes/381489/tj-pr-glenn-greenwald-pode-manter-post-chamando-moro-de-corrupto),
           miembro de la prensa.
         etiquetas:
@@ -180,6 +278,7 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2023-02-01
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Un juez en Colombia dictó una [sentencia redactada con la ayuda de
@@ -199,6 +298,25 @@ paises:
           Colombia tuvo su [primera audiencia judicial en el
           Metaverso](https://www.youtube.com/watch?time_continue=1&v=LXi2TX9OBmQ&embeds_euri=https%3A%2F%2Fwww.eltiempo.com%2F&feature=emb_logo).
           El Tribunal Administrativo del Magdaleno aprobó la realización de una
+=======
+        url: https://cambiocolombia.com/pais/la-sentencia-de-un-juez-de-cartagena-que-uso-la-inteligencia-artificial-de-chatgpt
+        texto: >-
+          Un juez en Colombia dictó una [sentencia redactada con la ayuda de
+          ChatGPT]($url). El juez a cargo del caso usó respuestas generadas por esta
+          tecnología de inteligencia artificial para motivar su decisión en un caso
+          en el que se debatía el derecho a la salud de un niño con autismo. Entre
+          otras cosas, el juez preguntó a ChatGPT si un menor de edad con autismo
+          debería ser exonerado del pago de cuotas moderadoras o si la Corte
+          Constitucional ha tomado decisiones en casos similares. Con base en estas
+          respuestas, el juez decidió fallar a favor del menor de edad. La sentencia
+          no fue apelada.
+
+      - fecha: 2023-02-15
+        url: https://www.youtube.com/watch?time_continue=1&v=LXi2TX9OBmQ&embeds_euri=https%3A%2F%2Fwww.eltiempo.com%2F&feature=emb_logo
+        texto: >-
+          Colombia tuvo su [primera audiencia judicial en el Metaverso]($url). El
+          Tribunal Administrativo del Magdaleno aprobó la realización de una
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [audiencia
           judicial](https://www.eltiempo.com/justicia/investigacion/audiencia-judicial-en-el-metaverso-en-el-tribunal-de-magdalena-742323)
           en el Metaverso, la cual fue celebrada con la ayuda de avatares de las
@@ -210,6 +328,7 @@ paises:
           tendencias procesales actuales, pues permite la presencia de un mismo
           espacio virtual, aun cuando las personas físicamente se encuentren en otro
           lugar, sin dejar lado las garantías procesales y los principios de la
+<<<<<<< HEAD
           justicia digital". NUEVAS TECNOLOGÍAS
 
       - fecha: 2023-02-24
@@ -219,6 +338,16 @@ paises:
           [denunció](https://flip.org.co/images/FLIP_Investigacin_Fuentes-abiertas_2023.pdf)
           que los organismos de inteligencia en Colombia están sofisticando su
           capacidad de vigilancia a través de la adquisición de [softwares
+=======
+          justicia digital".
+
+      - fecha: 2023-02-24
+        url: https://flip.org.co/images/FLIP_Investigacin_Fuentes-abiertas_2023.pdf
+        texto: >-
+          La Fundación para la Libertad de Prensa (FLIP) [denunció]($url) que los
+          organismos de inteligencia en Colombia están sofisticando su capacidad de
+          vigilancia a través de la adquisición de [softwares
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           espías](https://flip.org.co/index.php/es/publicaciones/informes/item/3007-inteligencia-militar-incrementa-su-capacidad-para-vigilar-a-periodistas-y-ciudadania-con-tecnologia-de-fuentes-abiertas)
           que permitirían la vigilancia masiva de la ciudadanía. Esta información la
           obtuvo a través de información filtrada por el colectivo de hackers
@@ -231,6 +360,7 @@ paises:
   - pais: Ecuador
     entradas:
       - fecha: 2023-01-31
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El alcalde del cantón Pujilí, provincia de Cotopaxi, Luis Ugsha emitió un
@@ -240,16 +370,33 @@ paises:
           mujeres como “Madres con calentura”. El discurso lo realizó durante un
           mitin en el marco de las elecciones seccionales 2023, incentivando su
           campaña para su reelección como alcalde.
+=======
+        url: https://www.ecuavisa.com/noticias/politica/elecciones-ecuador-2023-alcaldes-discursos-homofobicos-y-machistas-BD4342993
+        texto: >-
+          El alcalde del cantón Pujilí, provincia de Cotopaxi, Luis Ugsha emitió un
+          [discurso]($url) homofóbico en contra de la comunidad LGTBIQ+ tildándolos
+          de ser “una plaga” y “un demonio contra la ley de Dios", así mismo se
+          refirió a las mujeres como “Madres con calentura”. El discurso lo realizó
+          durante un mitin en el marco de las elecciones seccionales 2023,
+          incentivando su campaña para su reelección como alcalde.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - electoral
           - discurso-de-odio
 
       - fecha: 2023-02-14
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Gobierno de Ecuador publicó un comunicado en el que
           [rechaza](https://www.elmercurio.com.ec/2023/02/14/gobierno-ecuador-rechaza-abuso-libertad-expresion/)
           “el abuso” del derecho a la libertad de expresión por parte de los
+=======
+        url: https://www.elmercurio.com.ec/2023/02/14/gobierno-ecuador-rechaza-abuso-libertad-expresion/
+        texto: >-
+          El Gobierno de Ecuador publicó un comunicado en el que [rechaza]($url) “el
+          abuso” del derecho a la libertad de expresión por parte de los
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           periodistas. Lo anterior, por cuanto que el medio digital La Posta hizo
           públicos informes sobre presuntas irregularidades en el círculo cercano
           del presidente Guillermo Lasso. El mandatario aseguró que el informe había
@@ -260,6 +407,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-02-24
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Ante el inconformismo del presidente Guillermo Lasso con la labor
@@ -270,6 +418,16 @@ paises:
           quienes además de estar amenazados por varias bandas criminales, sienten
           la falta de apoyo por parte del gobierno al incentivar la violencia en su
           contra.
+=======
+        url: https://www.rsf-es.org/ecuador-rsf-denuncia-los-intentos-del-gobierno-de-silenciar-el-periodismo-de-investigacion/
+        texto: >-
+          Ante el inconformismo del presidente Guillermo Lasso con la labor
+          periodística del medio La Posta, organizaciones de sociedad civil como
+          Reporteros Sin Fronteras (RSF) [condenan]($url) el discurso que está
+          emitiendo el presidente contra los periodistas, quienes además de estar
+          amenazados por varias bandas criminales, sienten la falta de apoyo por
+          parte del gobierno al incentivar la violencia en su contra.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
@@ -277,6 +435,7 @@ paises:
   - pais: México
     entradas:
       - fecha: 2023-01-26
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Las [organizaciones Artículo 19 y
@@ -285,20 +444,38 @@ paises:
           a la Información y Protección de Datos Personales ordenaron a la
           Secretaría de Defensa Nacional que entregue toda la información que tiene
           con relación a la empresa que es proveedora exclusiva del malware Pegasus.
+=======
+        url: https://r3d.mx/2023/01/26/sedena-debe-entregar-toda-la-informacion-sobre-contratos-con-proveedora-de-pegasus/
+        texto: >-
+          Las [organizaciones Artículo 19 y R3D]($url) difundieron la resolución del
+          Instituto Nacional de Transparencia, Acceso a la Información y Protección
+          de Datos Personales ordenaron a la Secretaría de Defensa Nacional que
+          entregue toda la información que tiene con relación a la empresa que es
+          proveedora exclusiva del malware Pegasus.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2023-02-02
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Ex titular de la Secretaría Técnica de Combate a la Tortura del
           Instituto Federal de la Defensoría Pública dio a conocer que su equipo
           celular fue infectado por el [malware
           Pegasus](https://r3d.mx/2023/02/07/exfuncionario-del-instituto-federal-de-la-defensoria-publica-fue-espiado-con-pegasus-confirma-citizen-lab/).
+=======
+        url: https://r3d.mx/2023/02/07/exfuncionario-del-instituto-federal-de-la-defensoria-publica-fue-espiado-con-pegasus-confirma-citizen-lab/
+        texto: >-
+          El Ex titular de la Secretaría Técnica de Combate a la Tortura del
+          Instituto Federal de la Defensoría Pública dio a conocer que su equipo
+          celular fue infectado por el [malware Pegasus]($url).
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - privacidad
 
       - fecha: 2023-02-03
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización Artículo 19 instó al [Gobernador de
@@ -314,11 +491,21 @@ paises:
         texto: >-
           R3D informa a la ciudadanía que en el Juicio instaurado contra [Genaro
           García
+=======
+        url: https://articulo19.org/gobernador-del-estado-de-sinaloa-debe-abstenerse-de-estigmatizar-a-la-prensa/
+        texto: >-
+          La organización Artículo 19 instó al [Gobernador de Sinaloa]($url) a no
+          estigmatizar a la prensa, y ejemplificó diversos comentarios realizados en
+          2022 e inicios de 2023 en las que mencionó que la prensa era vendida o
+          exagerada. LIBERTAD DE PRENSA **08/02** R3D informa a la ciudadanía que en
+          el Juicio instaurado contra [Genaro García
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Luna](https://r3d.mx/2023/02/08/nuevas-acusaciones-contra-garcia-luna-por-malversacion-de-tecnologias-de-vigilancia/),
           ex titular de la Secretaría de Seguridad Pública Federal en el Gobierno
           Federal de 2012 a 2018 se detallan malversaciones de equipo de vigilancia
           permitiendo que grupos de delincuencia organizada tuvieran acceso a las
           mismas. Algunas de estas acusaciones fueron dadas a conocer por la
+<<<<<<< HEAD
           periodista Peniley Ramírez y por la organización R3D.
         etiquetas:
           - privacidad
@@ -326,6 +513,9 @@ paises:
       - fecha: 2023-02-09
         tipo: proyecto
         texto: >-
+=======
+          periodista Peniley Ramírez y por la organización R3D. PRIVACIDAD **09/02**
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [La directora del medio El Portal de la
           Noticia](https://articulo19.org/periodista-de-sonora-recibe-amenazas-en-redes-sociales/)
           sufrió actos de violencia posiblemente por la cobertura de noticias sobre
@@ -336,6 +526,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-02-09
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Suprema Corte de Justicia de la
@@ -346,10 +537,21 @@ paises:
           que empresas fueron condenadas a pagar un porcentaje de las ganancias
           derivadas de la publicidad utilizando imitadores o bien modificando obra
           musical sin permiso del autor.
+=======
+        url: https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=7228
+        texto: >-
+          La [Suprema Corte de Justicia de la Nación]($url) emitió el comunicado No.
+          042/2023 en la que indica que el derecho a la propia imagen -imitación- se
+          encuentra protegido por los derechos de autor. Dicha decisión deriva de
+          los amparos directos 5 y 6 de 2022, en la que empresas fueron condenadas a
+          pagar un porcentaje de las ganancias derivadas de la publicidad utilizando
+          imitadores o bien modificando obra musical sin permiso del autor.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - propiedad-intelectual
 
       - fecha: 2023-02-14
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Comisión de Gobernación y Población de la Cámara de Diputados aprobó
@@ -365,12 +567,31 @@ paises:
           Cámara de Senadores no ha dictaminado dicho proyecto. Para la organización
           Artículo 19 la aprobación de esta reforma contraviene las obligaciones
           internacionales que el Estado mexicano ha suscrito en la materia.
+=======
+        url: https://articulo19.org/article-19-llama-al-congreso-a-abrogar-la-ley-sobre-delitos-de-imprenta/
+        texto: >-
+          La Comisión de Gobernación y Población de la Cámara de Diputados aprobó
+          una reforma a la [Ley sobre Delitos de Imprenta]($url) con la que se
+          aumentan las penas a quienes cometen injurias contra funcionarios de altos
+          cargos en el país, incluyendo al Presidente de la República. Esta ley que
+          data de 1916 aún establece responsabilidades a medios de comunicación,
+          voceadores e imprentas. Asimismo, la ley establece la sanción a servidores
+          públicos que proporcionen datos para hacer una publicación prohibida. Es
+          de resaltar que la Cámara de Diputados aprobó la abrogación de esta ley en
+          2020, la cual no se ha cristalizado porque la Cámara de Senadores no ha
+          dictaminado dicho proyecto. Para la organización Artículo 19 la aprobación
+          de esta reforma contraviene las obligaciones internacionales que el Estado
+          mexicano ha suscrito en la materia.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
 
       - fecha: 2023-02-20
+<<<<<<< HEAD
         tipo: proyecto
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           La Suprema Corte de Justicia de la Nación emitió el comunicado No.
           055/2023 en la que se informa que se invalidó la sección de la legislación
@@ -381,6 +602,7 @@ paises:
           - privacidad
 
       - fecha: 2023-02-23
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [Senado de la
@@ -389,12 +611,21 @@ paises:
           proyecto para combatir acoso sexual en espacios públicos, a través de
           diversas adecuaciones en la Ley General de Acceso de las Mujeres a una
           Vida Libre de Violencia.
+=======
+        url: https://comunicacionsocial.senado.gob.mx/informacion/comunicados/5141-avanza-en-comisiones-del-senado-proyecto-para-combatir-acoso-sexual-en-espacios-publicos
+        texto: >-
+          El [Senado de la República]($url) informó en su comunicado No. 910 que fue
+          aprobado en comisiones el proyecto para combatir acoso sexual en espacios
+          públicos, a través de diversas adecuaciones en la Ley General de Acceso de
+          las Mujeres a una Vida Libre de Violencia.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - violencia-de-genero
 
   - pais: Paraguay
     entradas:
       - fecha: 2023-02-17
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La Federación Internacional de Periodistas y el Sindicato de Periodistas
@@ -403,12 +634,22 @@ paises:
           a las instituciones competentes de iniciar una investigación de fondo para
           esclarecer el homicidio contra del periodista Alexander Álvarez, de Radio
           Urundey FM en Paraguay en la frontera con Brasil.
+=======
+        url: https://diariolalibertad.com/sitio/2023/02/17/paraguay-piden-esclarecer-asesinato-de-periodista-de-radio/
+        texto: >-
+          La Federación Internacional de Periodistas y el Sindicato de Periodistas
+          de Paraguay [solicitaron]($url) a las instituciones competentes de iniciar
+          una investigación de fondo para esclarecer el homicidio contra del
+          periodista Alexander Álvarez, de Radio Urundey FM en Paraguay en la
+          frontera con Brasil.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: Perú
     entradas:
       - fecha: 2023-02-06
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El Ministerio del Interior comunicó públicamente que había [habilitado un
@@ -421,6 +662,18 @@ paises:
           hecha. Esta herramienta ha generado preocupación por la indefinición
           normativa del delito de apología de terrorismo, así como por la posible
           [autocensura que
+=======
+        url: https://twitter.com/MininterPeru/status/1622703016670384128
+        texto: >-
+          El Ministerio del Interior comunicó públicamente que había [habilitado un
+          correo electrónico]($url) para recibir denuncias ciudadanas por el delito
+          de apología del terrorismo en redes sociales. Para tales efectos, los
+          denunciantes deberían adjuntar en el mensaje alguna evidencia que sustente
+          su acusación, como alguna foto, video, captura de pantalla o enlace que
+          conduzca a la publicación hecha. Esta herramienta ha generado preocupación
+          por la indefinición normativa del delito de apología de terrorismo, así
+          como por la posible [autocensura que
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           generaría](https://perulegal.larepublica.pe/peru/2023/02/23/apologia-al-terrorismo-en-redes-sociales-critica-1380966/),
           más aun en un contexto donde las movilizaciones y protestas contra el
           gobierno y el Congreso vienen siendo catalogadas por algunos actores
@@ -430,6 +683,7 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-02-07
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Se hizo de conocimiento público el caso de [Rodrigo
@@ -437,6 +691,14 @@ paises:
           quien fue el primer condenado a prisión (8 años) por el delito de apología
           del terrorismo en el Perú. Benites Silva fue condenado por compartir en
           sus redes sociales un contenido que aparentemente ensalzaba la figura del
+=======
+        url: https://twitter.com/brunoamoretti_/status/1622790397364764674?t=XZeJtN8UqrE9EJzQeNN5Rg&s=08
+        texto: >-
+          Se hizo de conocimiento público el caso de [Rodrigo Benites]($url), quien
+          fue el primer condenado a prisión (8 años) por el delito de apología del
+          terrorismo en el Perú. Benites Silva fue condenado por compartir en sus
+          redes sociales un contenido que aparentemente ensalzaba la figura del
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           terrorista de Abimael Guzmán, durante la campaña electoral del 2021. Sin
           embargo, las publicaciones de Benites apuntaban, más bien, a atacar al
           entonces candidato presidencial Pedro Castillo y vincularlo con figuras
@@ -445,6 +707,7 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-02-21
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Integrantes del grupo radical de derecha La Resistencia [llegaron hasta
@@ -454,10 +717,21 @@ paises:
           contra ellos e insultarlos con megáfonos y exhibiendo pancartas ofensivas.
           Entre los periodistas amedrentados se encuentran Gustavo Gorriti, director
           del portal de investigación IDL Reporteros, y Rosa María Palacios.
+=======
+        url: https://ipys.org/libertad-de-expresion/alertas/peru-grupo-extremista-acosa-a-periodista-yendo-a-las-afueras-de-su-vivienda
+        texto: >-
+          Integrantes del grupo radical de derecha La Resistencia [llegaron hasta
+          las afueras]($url) de la vivienda de diferentes periodistas para protestar
+          públicamente contra ellos e insultarlos con megáfonos y exhibiendo
+          pancartas ofensivas. Entre los periodistas amedrentados se encuentran
+          Gustavo Gorriti, director del portal de investigación IDL Reporteros, y
+          Rosa María Palacios.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 ---
 
+<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -505,4 +779,8 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
+=======
+{{< observatorio-mes month="2023-02" >}}
+
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

@@ -590,7 +590,24 @@
     <loc>http://localhost:55975/en/posts/test2/</loc>
     <lastmod>2026-06-05T00:00:00+00:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>http://localhost:55975/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/</loc>
+=======
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/</loc>
+    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/noticias-cruzando-el-mar/</loc>
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
     <lastmod>2026-06-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -603,16 +620,28 @@
                 href="http://localhost:55975/en/noticias-cruzando-el-mar/noticias-cruzando-el-mar-23/"
                 />
   </url><url>
+<<<<<<< HEAD
     <loc>http://localhost:55975/en/noticias-cruzando-el-mar/</loc>
+=======
+    <loc>http://localhost:1313/en/posts/flyers/</loc>
+    <lastmod>2026-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/</loc>
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
     <lastmod>2026-06-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
+<<<<<<< HEAD
                 href="http://localhost:55975/es/noticias-cruzando-el-mar/"
+=======
+                href="http://localhost:1313/es/tags/violencia-de-g%C3%A9nero/"
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+<<<<<<< HEAD
                 href="http://localhost:55975/en/noticias-cruzando-el-mar/"
                 />
   </url><url>
@@ -636,6 +665,15 @@
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:55975/en/tags/publicaciones/</loc>
+=======
+                href="http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/test1/</loc>
+    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/publicaciones/</loc>
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -1902,7 +1940,11 @@
                 href="http://localhost:55975/en/posts/nueva-mesa-parlamentaria-en-el-igf2020/"
                 />
   </url><url>
+<<<<<<< HEAD
     <loc>http://localhost:55975/en/posts/las-redes-sociales-el-dia-despues-de-las-elecciones-en-ee-uu/</loc>
+=======
+    <loc>http://localhost:1313/en/posts/las-redes-sociales-el-dia-despues-de-las-elecciones-en-ee-uu/</loc>
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"

@@ -68,6 +68,7 @@
       <title>SLAPP</title>
       <link>http://localhost:55975/en/tags/slapp/</link>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+<<<<<<< HEAD
       <guid>http://localhost:55975/en/tags/slapp/</guid>
       <description></description>
     </item>
@@ -149,6 +150,89 @@
       <description></description>
     </item>
     <item>
+=======
+      <guid>http://localhost:1313/en/tags/slapp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Violencia De Género</title>
+      <link>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Publicaciones</title>
+      <link>http://localhost:1313/en/tags/publicaciones/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/publicaciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Institucional</title>
+      <link>http://localhost:1313/en/tags/institucional/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/institucional/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Violencia De Género en Línea</title>
+      <link>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero-en-l%C3%ADnea/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/violencia-de-g%C3%A9nero-en-l%C3%ADnea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Desinformación</title>
+      <link>http://localhost:1313/en/tags/desinformaci%C3%B3n/</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/desinformaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Discursos De Odio</title>
+      <link>http://localhost:1313/en/tags/discursos-de-odio/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/discursos-de-odio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Restricción a La Protesta Social</title>
+      <link>http://localhost:1313/en/tags/restricci%C3%B3n-a-la-protesta-social/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/restricci%C3%B3n-a-la-protesta-social/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Curación Y Moderación De Contenidos</title>
+      <link>http://localhost:1313/en/tags/curaci%C3%B3n-y-moderaci%C3%B3n-de-contenidos/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/curaci%C3%B3n-y-moderaci%C3%B3n-de-contenidos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacidad Y Vigilancia</title>
+      <link>http://localhost:1313/en/tags/privacidad-y-vigilancia/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/privacidad-y-vigilancia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hrias</title>
+      <link>http://localhost:1313/en/tags/hrias/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/hrias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Funcionarios Públicos</title>
+      <link>http://localhost:1313/en/tags/funcionarios-p%C3%BAblicos/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/funcionarios-p%C3%BAblicos/</guid>
+      <description></description>
+    </item>
+    <item>
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
       <title>Riesgos / Risk-Based-Approaches</title>
       <link>http://localhost:55975/en/tags/riesgos-/-risk-based-approaches/</link>
       <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>

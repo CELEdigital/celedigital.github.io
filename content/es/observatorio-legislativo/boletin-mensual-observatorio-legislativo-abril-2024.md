@@ -15,20 +15,30 @@ programs:
 type: posts
 featured: false
 newsletter_series: observatorio
+<<<<<<< HEAD
 image: /img/shutterstock_1698060541-1-scaled.jpg
 tags:
   - institucional
+=======
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2024-04-04
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Manuel Adorni, quien en sus funciones como portavoz del Gobierno de
           Argentina,
           [anunció](https://cnnespanol.cnn.com/2024/04/06/argentina-ley-educacion-adoctrinamiento-orix/)
           sobre la presentación de un [proyecto de
+=======
+        url: https://cnnespanol.cnn.com/2024/04/06/argentina-ley-educacion-adoctrinamiento-orix/
+        texto: >-
+          Manuel Adorni, quien en sus funciones como portavoz del Gobierno de
+          Argentina, [anunció]($url) sobre la presentación de un [proyecto de
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           ley](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2021/PDF2021/TP2021/3618-D-2021.pdf)
           al congreso con el objetivo de reformar artículos de la Ley de Educación
           Nacional para “penar el adoctrinamiento en las escuelas”, con la inclusión
@@ -38,6 +48,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-04-11
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Javier Milei
@@ -47,12 +58,23 @@ paises:
           de ejercer “extorsión”, “difamación y calumnia”. Sus actuaciones las
           realizó durante un anuncio de “una nueva Doctrina de Política Exterior
           para la Argentina”, tras la visita de la generala Richardson.
+=======
+        url: https://www.pagina12.com.ar/728040-la-libertad-de-expresion-segun-javier-milei
+        texto: >-
+          Javier Milei [estigmatizó]($url) a la prensa argentina a través de twitter
+          donde calificó al periodismo como un espacio “corrompido, ensuciado y
+          prostituido”, además de acusarlos de ejercer “extorsión”, “difamación y
+          calumnia”. Sus actuaciones las realizó durante un anuncio de “una nueva
+          Doctrina de Política Exterior para la Argentina”, tras la visita de la
+          generala Richardson.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
   - pais: Brasil
     entradas:
       - fecha: 2024-04-02
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           STF mantiene multa de R$30 mil aplicada a diputado por divulgación de
@@ -70,6 +92,24 @@ paises:
           desinformación](https://internetlab.org.br/pt/semanario/31-03-2023/#21125)
           sobre el presidente Lula y el Partido de los Trabajadores durante las
           elecciones de 2022, momento en el que también se ordenó la retirada
+=======
+        url: https://www.migalhas.com.br/quentes/404691/stf-fachin-mantem-multa-a-nikolas-ferreira-por-fake-news-contra-lula
+        texto: >-
+          STF mantiene multa de R$30 mil aplicada a diputado por divulgación de
+          noticias falsas. [El 02.04]($url), el **Ministro Edson Fachin, del Supremo
+          Tribunal Federal (STF), **[**rechazó el recurso extraordinario presentado
+          por el diputado federal Nikolas
+          Ferreira**](https://internetlab.org.br/wp-content/uploads/2024/04/7BAE06C449AC06_downloadPeca.pdf)**,
+          manteniendo la condena a título de multa por un valor de R$30 mil
+          reales**. La imposición de la multa se basó en la [Ley de
+          Elecciones](https://www.planalto.gov.br/ccivil_03/leis/l9504.htm), que
+          prohíbe el anonimato durante la campaña electoral a través de internet.
+          **El recurso fue interpuesto contra la **[**decisión del Tribunal Superior
+          Electoral que condenó al diputado por propaganda irregular y difusión de
+          desinformación**](https://internetlab.org.br/pt/semanario/31-03-2023/#21125)**
+          sobre el presidente Lula y el Partido de los Trabajadores durante las
+          elecciones de 2022**, momento en el que también se ordenó la retirada
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           definitiva del contenido impugnado. En su decisión, el ministro reafirmó
           que "no hay Estado de Derecho ni sociedad libre en una democracia
           representativa que no preserve, incluso con remedios amargos y límites, la
@@ -79,6 +119,7 @@ paises:
           - electoral
 
       - fecha: 2024-04-03
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Proyecto busca instituir responsabilidad solidaria para proveedores por
@@ -87,14 +128,32 @@ paises:
           responsabilidad solidaria de los proveedores de aplicaciones por anuncios
           fraudulentos](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424553).
           El proyecto modifica el artículo 19 del [Marco Civil de
+=======
+        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424553
+        texto: >-
+          Proyecto busca instituir responsabilidad solidaria para proveedores por
+          publicidad fraudulenta. El 03.04, [**el diputado Jonas Donizette (PSB/SP)
+          presentó el Proyecto de Ley nº 1.081/2024, que instituye la
+          responsabilidad solidaria de los proveedores de aplicaciones por anuncios
+          fraudulentos**]($url). El proyecto modifica el artículo 19 del [Marco
+          Civil de
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Internet](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm)
           para incluir la obligación de reparar el daño a la víctima de anuncios
           patrocinados fraudulentos. La propuesta prohíbe expresamente la publicidad
           patrocinada de "contenido que promueva fraude, engaño o prácticas
+<<<<<<< HEAD
           comerciales desleales", estableciendo el deber, por parte de los
           proveedores, de verificar la autenticidad del contenido anunciado y de
           retirar, en un plazo de hasta 24 horas, los anuncios fraudulentos. La
           responsabilidad sería solidaria entre el proveedor y el anunciante. En su
+=======
+          comerciales desleales", **estableciendo el deber, por parte de los
+          proveedores, de verificar la autenticidad del contenido anunciado y de
+          retirar, en un plazo de hasta 24 horas, los anuncios fraudulentos. La
+          responsabilidad sería solidaria entre el proveedor y el anunciante**. En
+          su
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [justificación](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2402715&filename=PL%201081/2024),
           el diputado señala un aumento de estafas a través de anuncios patrocinados
           en Internet y sugiere que las plataformas deben ser responsables en la
@@ -103,6 +162,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2024-04-07
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Ministro Alexandre de Moraes determina investigación de Elon Musk. El
@@ -112,6 +172,16 @@ paises:
           plataforma en la investigación sobre milicias
           digitales](https://internetlab.org.br/wp-content/uploads/2024/04/Decisao-4874-Assinada.pdf).
           Esta determinación surgió en el contexto del [Inquérito
+=======
+        url: https://internetlab.org.br/wp-content/uploads/2024/04/Decisao-4874-Assinada.pdf
+        texto: >-
+          Ministro Alexandre de Moraes determina investigación de Elon Musk. El
+          07.04, luego de publicaciones de Elon Musk en la red social X,
+          anteriormente conocida como Twitter, [**el ministro Alexandre de Moraes,
+          del Supremo Tribunal Federal (STF), ordenó la inclusión del dueño de la
+          plataforma en la investigación sobre milicias digitales**]($url). Esta
+          determinación surgió en el contexto del [Inquérito
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           4.874/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6214799),
           popularmente conocido como "Inquérito de las Milicias Digitales". El
           ministro mencionó que este y otros inquéritos
@@ -121,6 +191,7 @@ paises:
           [4.922/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6546906),
           [4.923/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6547024)
           y [PET
+<<<<<<< HEAD
           12.100](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6820444)
           fueron instaurados como medio para combatir lo que él describe como la
           "instrumentalización criminal" de las redes sociales. Moraes argumentó que
@@ -138,24 +209,55 @@ paises:
           (...) en la instrumentalización criminal" señalada en los inquéritos. Por
           lo tanto, el ministro Alexandre de Moraes ordenó que el empresario sea
           investigado en el ámbito del Inquérito 4.874/DF por "dolosa
+=======
+          12.100](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6820444))
+          fueron instaurados como medio para combatir lo que él describe como la
+          **"instrumentalización criminal" de las redes sociales**. Moraes argumentó
+          que los proveedores de aplicaciones tienen tanta responsabilidad como
+          cualquier otro medio de comunicación en la circulación de contenidos y
+          **consideró inaceptable que los representantes de estos proveedores
+          desconozcan tal instrumentalización criminal**. Moraes interpretó que
+          **Elon Musk, el 06 de abril, "inició una campaña de desinformación" sobre
+          la actuación del STF y del TSE, la cual fue reiterada al día siguiente,
+          con publicaciones en **[**su propia red
+          social**](https://oglobo.globo.com/blogs/malu-gaspar/post/2024/04/pf-vai-apurar-falas-de-elon-musk-contra-alexandre-de-moraes.ghtml),
+          en las que acusaba a Moraes de censura y amenazaba con no cumplir órdenes
+          judiciales relacionadas con la suspensión de cuentas de usuarios de la
+          plataforma. Según Moraes, tales publicaciones presentan "indicios de dolo
+          (...) en la instrumentalización criminal" señalada en los inquéritos.
+          **Por lo tanto, el ministro Alexandre de Moraes ordenó que el empresario
+          sea investigado en el ámbito del Inquérito 4.874/DF por "dolosa
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           instrumentalización criminal". Además, ordenó la instauración de un nuevo
           inquérito para investigar a Elon Musk por obstrucción de justicia y
           organización criminal. Por último, determinó que la red social X cumpla
           con todas las decisiones judiciales y que no reactive perfiles que hayan
           sido bloqueados judicialmente, bajo pena de multa diaria de R $100 mil por
+<<<<<<< HEAD
           perfil reactivado.
+=======
+          perfil reactivado**.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - plataformas-digitales
 
       - fecha: 2024-04-08
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Las entidades sectoriales presentan una carta al Senado con sus demandas
           en la regulación de la Inteligencia Artificial. El 08.04, [entidades
+=======
+        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424811
+        texto: >-
+          Las entidades sectoriales presentan una carta al Senado con sus demandas
+          en la regulación de la Inteligencia Artificial. El 08.04, [**entidades
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           representantes de diversos sectores culturales, audiovisuales, editoriales
           y periodísticos presentaron una carta al Senado Federal brasileño
           defendiendo los derechos de autor de sus representados frente al avance de
           la inteligencia artificial (IA)
+<<<<<<< HEAD
           generativa](https://telesintese.com.br/artistas-e-empresas-brasileiras-de-midia-buscam-remuneracao-por-plataformas-de-ia/#google_vignette).
           En la
           [carta](https://pro-musicabr.org.br/wp-content/uploads/2024/04/CARTA-IA-SENADORES-2024.pdf),
@@ -166,12 +268,25 @@ paises:
           utilicen sus obras y textos para entrenar sus modelos. Entre los cambios e
           inclusiones sugeridos en el proyecto de ley, [las entidades solicitan que
           sus representados
+=======
+          generativa**](https://telesintese.com.br/artistas-e-empresas-brasileiras-de-midia-buscam-remuneracao-por-plataformas-de-ia/#google_vignette).
+          En la
+          [carta](https://pro-musicabr.org.br/wp-content/uploads/2024/04/CARTA-IA-SENADORES-2024.pdf),
+          **los proponentes sugirieron cambios al **[**PL n.º
+          2.338/2023**](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233)**,
+          que pretende regular la IA en el ámbito nacional, con el fin de garantizar
+          que las empresas de IA generativa remuneren a los creadores cuando
+          utilicen sus obras y textos para entrenar sus modelos**. Entre los cambios
+          e inclusiones sugeridos en el proyecto de ley, [las entidades solicitan
+          que sus representados
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           puedan](https://pro-musicabr.org.br/wp-content/uploads/2024/04/CARTA-IA-SENADORES-2024.pdf):
           i) dar su consentimiento para el uso de su contenido para el entrenamiento
           de IA; ii) controlar lo que resulta de los entrenamientos de IA para
           evitar riesgos para los derechos morales y la falta de transparencia
           "preservando los derechos morales y la comprensión de los resultados";
           iii) recibir una remuneración que reconozca el valor de sus creaciones.
+<<<<<<< HEAD
           Las entidades justifican sus demandas ante un escenario en el que las
           empresas de IA generativa, ["en el proceso de minería de datos para el
           desarrollo de la
@@ -194,12 +309,31 @@ paises:
           manera que los proveedores de aplicaciones de internet estén obligados a
           eliminar contenidos publicitarios difundidos a través de sus plataformas
           que utilicen imágenes o voces manipuladas por IA. La iniciativa agrega
+=======
+          **Las entidades justifican sus demandas ante un escenario en el que las
+          empresas de IA generativa, **[**"en el proceso de minería de datos para el
+          desarrollo de la
+          IA"**](https://pro-musicabr.org.br/wp-content/uploads/2024/04/CARTA-IA-SENADORES-2024.pdf)**,
+          realizan **[**"usos masivos de obras y producciones protegidas por la
+          propiedad intelectual sin autorización
+          previa"**](https://pro-musicabr.org.br/wp-content/uploads/2024/04/CARTA-IA-SENADORES-2024.pdf).
+          INTELIGENCIA ARTIFICIAL Proyecto busca obligar a los proveedores a
+          eliminar contenido publicitario con imágenes y voces manipuladas por
+          inteligencia artificial. El 08.04,** el diputado federal Emanuel Pinheiro
+          Neto (MDB/MT) presentó el **[**Proyecto de Ley nº
+          1.119/2024**](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424878)**
+          que tiene como objetivo modificar el Marco Civil de Internet (MCI) de
+          manera que los proveedores de aplicaciones de internet estén obligados a
+          eliminar contenidos publicitarios difundidos a través de sus plataformas
+          que utilicen imágenes o voces manipuladas por IA**. La iniciativa agrega
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           esta obligación al artículo 21-A del MCI. En las demás disposiciones del
           artículo 21-A, el proyecto regula los requisitos que debe cumplir la
           notificación y las responsabilidades del proveedor, como la disponibilidad
           de "[un canal electrónico de comunicación de fácil acceso que permita al
           usuario presentar la
           notificación](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2403570&filename=PL%201119/2024)".
+<<<<<<< HEAD
           Por último, establece la responsabilidad subsidiaria del proveedor por los
           daños derivados de los contenidos transmitidos en sus plataformas. En su
           [justificación](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2403570&filename=PL%201119/2024),
@@ -226,10 +360,33 @@ paises:
           Chrisóstomo argumenta que la regulación representa una amenaza a la
           libertad de expresión y al libre debate de ideas, y dificulta la
           innovación y el desarrollo tecnológico.
+=======
+          Por último, **establece la responsabilidad subsidiaria del proveedor por
+          los daños derivados de los contenidos transmitidos en sus plataformas**.
+          En su
+          [**justificación**](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2403570&filename=PL%201119/2024),
+          el proyecto analiza los impactos y desafíos de la inteligencia artificial
+          en la efectividad de los derechos fundamentales y destaca el creciente uso
+          de técnicas y contenidos deepfakes en el mercado publicitario.
+          INTELIGENCIA ARTIFICIAL Proyecto busca prohibir la regulación estatal de
+          las redes sociales. El 08.04, el diputado federal Coronel Chrisóstomo
+          (PL/RO) propuso el [Proyecto de Ley nº 1.109/2024]($url), que "**prohíbe
+          la regulación de las redes sociales por parte del Estado**". El proyecto
+          establece que: "la manifestación del pensamiento, la creación, la
+          expresión y la información, en cualquier forma, proceso o medio, no
+          sufrirán ninguna restricción, de conformidad con lo dispuesto en esta
+          Constitución, **quedando prohibida la regulación de las redes sociales por
+          parte del Estado**". En su
+          [**justificación**](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2403333&filename=PL%201109/2024),
+          **Chrisóstomo argumenta que la regulación representa una amenaza a la
+          libertad de expresión y al libre debate de ideas, y dificulta la
+          innovación y el desarrollo tecnológico**.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-04-09
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [ministro Alexandre de Moraes tomó otra decisión sobre X
@@ -246,10 +403,29 @@ paises:
           señaló que el representante brasileño "constituye un eslabón indispensable
           para que la red social, desarrollada en el exterior, alcance adecuadamente
           sus propósitos en Brasil", denegando la solicitud de la empresa.
+=======
+        url: https://internetlab.org.br/wp-content/uploads/2024/04/Decisao-4874.pdf
+        texto: >-
+          El [**ministro Alexandre de Moraes tomó otra decisión sobre X
+          Brasil**]($url)**. Los representantes del antiguo Twitter en Brasil
+          solicitaron que las decisiones de Moraes fueran dirigidas directamente a X
+          Corp., responsable de la gestión y administración de la plataforma a nivel
+          internacional**. Según la solicitud, X Brasil Internet Ltda. no tendría
+          relación con la parte operativa y de gestión de la red social, limitándose
+          únicamente a la "comercialización, monetización y promoción de la red de
+          información Twitter, además de la difusión de materiales publicitarios en
+          internet y otros servicios y negocios relacionados". **El ministro rechazó
+          la solicitud argumentando que la empresa busca eximirse de
+          responsabilidad. Moraes señaló que el representante brasileño "constituye
+          un eslabón indispensable para que la red social, desarrollada en el
+          exterior, alcance adecuadamente sus propósitos en Brasil", denegando la
+          solicitud de la empresa**.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - plataformas-digitales
 
       - fecha: 2024-04-16
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Ministro Alexandre de Moraes autoriza testimonios de representantes de
@@ -264,10 +440,26 @@ paises:
           que investiga las acciones de Elon Musk, CEO de X, por posible obstrucción
           a la justicia y organización criminal. El Inquérito fue iniciado el 08.04,
           después de que el ministro [ordenara la investigación de Elon
+=======
+        url: https://internetlab.org.br/wp-content/uploads/2024/04/decisao-moraes-musk.pdf
+        texto: >-
+          Ministro Alexandre de Moraes autoriza testimonios de representantes de
+          redes sociales en Brasil. [El 16.04]($url), el ministro Alexandre de
+          Moraes, del Supremo Tribunal Federal (STF), [**autorizó los testimonios de
+          representantes de la red social X en
+          Brasil**](https://www.cnnbrasil.com.br/politica/moraes-autoriza-depoimentos-de-representantes-do-x-no-brasil/).
+          La solicitud de los testimonios, presentada por la Procuraduría General de
+          la República (PGR) el 09.04, se realizó en el marco del [**Inquérito
+          4.957/DF**](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6893258)**,
+          que investiga las acciones de Elon Musk, CEO de X, por posible obstrucción
+          a la justicia y organización criminal**. El Inquérito fue iniciado el
+          08.04, después de que el ministro [ordenara la investigación de Elon
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Musk](https://internetlab.org.br/pt/semanario/12-04-2024/#22801).
           Específicamente, el empresario, en su perfil en X, acusó a Moraes de
           censura y amenazó con no cumplir órdenes judiciales de suspensión de
           cuentas de usuarios en la red social. Según la PGR, el objetivo de los
+<<<<<<< HEAD
           testimonios de los representantes de la empresa es comprender: i) si Elon
           Musk tiene, según lo previsto en los estatutos, la autoridad para
           determinar espontáneamente la publicación de publicaciones en la red, "y
@@ -280,6 +472,20 @@ paises:
           X Corp., responsable de la gestión y administración de la plataforma a
           nivel
           internacional](https://internetlab.org.br/wp-content/uploads/2024/04/Decisao-4874.pdf).
+=======
+          testimonios de los representantes de la empresa es comprender: **i)** si
+          Elon Musk tiene, según lo previsto en los estatutos, la autoridad para
+          determinar espontáneamente la publicación de publicaciones en la red, "y
+          si lo hizo efectivamente en relación con los perfiles prohibidos por una
+          orden judicial brasileña vigente"; **ii)** si X levantó el bloqueo del
+          perfil suspendido por orden judicial y, en caso afirmativo, quién tiene la
+          competencia para hacerlo, así como qué perfiles volvieron a estar activos.
+          El 09.04, Moraes [**rechazó la solicitud de representantes del antiguo
+          Twitter en Brasil para que las decisiones fueran dirigidas directamente a
+          X Corp., responsable de la gestión y administración de la plataforma a
+          nivel
+          internacional**](https://internetlab.org.br/wp-content/uploads/2024/04/Decisao-4874.pdf).
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - plataformas-digitales
           - libertad-de-expresion
@@ -287,12 +493,20 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2024-04-11
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           Chile será sede de la [importante
           conferencia](https://www.pressenza.com/es/2024/04/chile-sera-sede-de-importante-conferencia-internacional-sobre-libertad-de-expresion-boric-y-bachelet-entre-participantes/)
           internacional sobre libertad de expresión entre el 02 y 04 como parte del
           Día Mundial de la Libertad de Prensa en 2024. Algunas de las
+=======
+        url: https://www.pressenza.com/es/2024/04/chile-sera-sede-de-importante-conferencia-internacional-sobre-libertad-de-expresion-boric-y-bachelet-entre-participantes/
+        texto: >-
+          Chile será sede de la [importante conferencia]($url) internacional sobre
+          libertad de expresión entre el 02 y 04 como parte del Día Mundial de la
+          Libertad de Prensa en 2024. Algunas de las
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           [discusiones](https://uchile.cl/noticias/214821/los-temas-de-la-proxima-conferencia-por-la-libertad-de-prensa)
           que se llevarán a cabo se relacionan con el reporte de la UNESCO sobre las
           agresiones a periodistas medioambientales, entornos digitales, periodismo
@@ -300,6 +514,7 @@ paises:
         etiquetas:
           - libertad-de-expresion
 
+<<<<<<< HEAD
   - pais: Colombia
     entradas:
       - fecha: 2024-04-03
@@ -313,17 +528,53 @@ paises:
           puedan controvertir la posición del Gobierno en las siguientes 48 horas,
           en los mismos medios de las alocuciones, con igual tiempo, horario y
           espacios.
+=======
+      - fecha: 2024-03-28
+        url: https://www.diarioconstitucional.cl/2024/03/28/ecuador-es-responsable-por-violar-el-derecho-a-la-libertad-de-expresion-de-un-miembro-de-las-fuerzas-armadas-ante-una-denuncia-de-presuntos-hechos-de-corrupcion/
+        texto: >-
+          En el Caso Viteri Ungaretti y otros Vs. Ecuador, la Corte Interamericana
+          de Derechos Humanos [notificó]($url) la sentencia que declaró que el
+          Estado del Ecuador es responsable internacionalmente por las sanciones
+          impuestas a Julio Rogelio Viteri Ungaretti como consecuencia de las
+          denuncias que hizo de los presuntos hechos de corrupción ocurridos en las
+          Fuerzas Armadas, y concluyó que el Estado violó los derechos a la libertad
+          de pensamiento y de expresión, a la libertad personal a no ser sometido a
+          detención arbitraria y a recurrir ante un juez sobre la legalidad de su
+          detención. Además, estableció que se violó a Viteri el derecho a la
+          estabilidad laboral y concluyó que a su familia se le violaron diversos
+          derechos.
+        etiquetas:
+          - libertad-de-prensa
+
+  - pais: Colombia
+    entradas:
+      - fecha: 2024-04-03
+        url: https://www.camara.gov.co/acceso-a-medios-de-comunicacion-0
+        texto: >-
+          El 3 de abril se presentó en la Cámara de Representantes un [proyecto de
+          ley]($url) que busca modificar la Ley 1909 de 2018, con el objetivo de
+          equilibrar el acceso a medios de comunicación frente a alocuciones
+          presidenciales, permitiendo que las organizaciones políticas declaradas en
+          oposición puedan controvertir la posición del Gobierno en las siguientes
+          48 horas, en los mismos medios de las alocuciones, con igual tiempo,
+          horario y espacios.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-04-14
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://flip.org.co/pronunciamientos/asesinato-de-jaime-vasquez-afecta-el-cubrimiento-de-temas-de-interes-publico
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El 14 de abril fue asesinado el comunicador Jaime Vásquez en la ciudad de
           Cúcuta (Norte de Santander). Vásquez era reconocido por informar sobre
           asuntos de interés público en la región a través de sus cuentas en redes
           sociales, en las que tenía decenas de miles de seguidores, haciendo
           transmisiones en vivo semanalmente. Según la [Fundación para la Libertad
+<<<<<<< HEAD
           de Prensa
           (FLIP)](https://flip.org.co/pronunciamientos/asesinato-de-jaime-vasquez-afecta-el-cubrimiento-de-temas-de-interes-publico),
           en los últimos meses, Vásquez venía haciendo denuncias de irregularidades
@@ -383,10 +634,47 @@ paises:
           señalan que las reformas son contrarias al derecho a la libertad de
           expresión por establecer un mecanismo extrajudicial de censura previa
           (notificación y retirada).
+=======
+          de Prensa (FLIP)]($url), en los últimos meses, Vásquez venía haciendo
+          denuncias de irregularidades en temas de contratación. De acuerdo con la
+          FLIP, varios periodistas locales han asegurado que no continuarán sus
+          propias investigaciones en los temas que Vásquez estaba trabajando, ya que
+          temen posibles represalias. VIOLENCIA CONTRA PERIODISTAS/span>
+
+      - fecha: 2024-04-15
+        url: https://www.oas.org/es/CIDH/jsForm/?File=/es/cidh/prensa/comunicados/2024/066.asp
+        texto: >-
+          Entre el 15 y el 19 de abril, la Comisión Interamericana de Derechos
+          Humanos (CIDH) y su Relatoría Especial para la Libertad de Expresión
+          (RELE) hicieron una [visita a Colombia]($url) con el objetivo de observar
+          el impacto de distintas formas de violencia en la situación de los
+          derechos humanos en el país, incluyendo la situación de la prensa. Esta
+          fue la primera visita _in loco_ de la CIDH desde 2012. Entre otros
+          hallazgos, la CIDH llamó la atención sobre la situación de los periodistas
+          en regiones del país donde persiste el conflicto causando violencia contra
+          la prensa y autocensura. Además, la CIDH denunció la hostilidad hacia la
+          prensa por parte de funcionarios a nivel nacional, departamental y local.
+        etiquetas:
+          - libertad-de-expresion
+
+  - pais: México
+    entradas:
+      - fecha: 2024-04-01
+        url: https://r3d.mx/wp-content/uploads/Amicus_Curiae_AI_217_2020_249_2020_R3D.pdf
+        texto: >-
+          R3D informa que la Suprema Corte de Justicia de la Nación está por
+          resolver la [acción de inconstitucionalidad 217/2020 y su acumulada
+          249/2020]($url) que versa sobre la reforma realizada en 2020 a la Ley
+          Federal de Derechos de Autor y el Código Penal Federal. Las acciones de
+          inconstitucionalidad señalan que las reformas son contrarias al derecho a
+          la libertad de expresión por establecer un mecanismo extrajudicial de
+          censura previa (notificación y retirada).
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-04-02
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La organización Artículo 19 condenó la agresión al [periodista Humberto
@@ -397,10 +685,22 @@ paises:
           la alcaldía de Celaya. Por lo anterior, Artículo 19 exige a diversas
           autoridades que investiguen las agresiones y emitan medidas de protección
           al periodista.
+=======
+        url: https://articulo19.org/policias-golpean-y-eliminan-informacion-de-humberto-padgett-por-cobertura-de-violencia-electoral-en-guanajuato/
+        texto: >-
+          La organización Artículo 19 condenó la agresión al [periodista Humberto
+          Padgett]($url) en Celaya, Guanajuato por parte de la policía ministerial
+          de la Fiscalía General de Justicia del Estado de Guanajuato. Los hechos
+          ocurrieron mientras el periodista cubría el asesinato de la candidata de
+          MORENA para la alcaldía de Celaya. Por lo anterior, Artículo 19 exige a
+          diversas autoridades que investiguen las agresiones y emitan medidas de
+          protección al periodista.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-04-11
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           [Diversas organizaciones de la sociedad civil y
@@ -414,10 +714,24 @@ paises:
           organizaciones exigieron que se respete el trabajo periodístico, y que
           diversas autoridades estatales y municipales condenen e investiguen las
           agresiones.
+=======
+        url: https://articulo19.org/colectivos-y-organizaciones-condenamos-agresiones-en-contra-de-la-periodista-camelia-munoz-en-coahuila/
+        texto: >-
+          [Diversas organizaciones de la sociedad civil y colectivos]($url) hicieron
+          público su rechazo a las agresiones contra la periodista Camelia Muñoz por
+          parte del Presidente Municipal de Torreón. Los hechos ocurrieron durante
+          el avistamiento del Eclipse Solar ocurrido el 8 de abril en el Bosque
+          Urbano Oriente, evento en el que coincidieron el Presidente Municipal y la
+          periodista, y esta última le preguntó sobre las observaciones que la
+          auditoría le realizaron al Presidente Municipal. Las organizaciones
+          exigieron que se respete el trabajo periodístico, y que diversas
+          autoridades estatales y municipales condenen e investiguen las agresiones.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-04-13
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           La [Senadora por Movimiento Ciudadano, Ruth Alejandra López
@@ -426,12 +740,22 @@ paises:
           y a la Ley Federal para Prevenir y Eliminar la que inciten pública y
           directamente a cometer genocidio o actos que atenten contra la vida y la
           integridad de una persona o comunidad.
+=======
+        url: https://comunicacionsocial.senado.gob.mx/informacion/comunicados/8706-urgen-en-el-senado-de-la-republica-a-definir-tipificar-y-castigar-discursos-de-odio
+        texto: >-
+          La [Senadora por Movimiento Ciudadano, Ruth Alejandra López
+          Hernández]($url) promovió una iniciativa de reforma a los códigos Civil y
+          Penal federales, y a la Ley Federal para Prevenir y Eliminar la que
+          inciten pública y directamente a cometer genocidio o actos que atenten
+          contra la vida y la integridad de una persona o comunidad.
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         etiquetas:
           - discurso-de-odio
 
   - pais: Perú
     entradas:
       - fecha: 2024-03-31
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El [canal de televisión Willax
@@ -445,6 +769,19 @@ paises:
           planillas del Movadef, organización política que respalda la ideología
           senderista. Ante las graves acusaciones, el 2 de abril, el [Tribunal de
           Honor Nacional del
+=======
+        url: https://willax.pe/actualidad/indignante-colegio-de-periodistas-alberga-directivos-relacionados-con-grupo-terrorista-sendero-luminoso
+        texto: >-
+          El [canal de televisión Willax TV]($url) denunció, a través de su programa
+          “Contracorriente”, que el Colegio de Periodistas del Perú (CPP) albergaba
+          dos directivos relacionados con el grupo terrorista Sendero Luminoso.
+          Según el informe, Carlos Infante Yupanqui, vicedecano del CPP, estuvo
+          preso dos años por participar en un atentado terrorista, mientras Dora
+          Tito Quispe, directora Nacional de Actividades Profesionales y Académicas
+          del CPP, está adherida a las planillas del Movadef, organización política
+          que respalda la ideología senderista. Ante las graves acusaciones, el 2 de
+          abril, el [Tribunal de Honor Nacional del
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           CPP](https://twitter.com/cpperuoficial/status/1775288434761875579) decidió
           suspender de sus cargos a ambos directivos mientras duren las
           investigaciones, así como otorgar un plazo de descargo al ex decano Max
@@ -455,7 +792,11 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-03-24
+<<<<<<< HEAD
         tipo: proyecto
+=======
+        url: https://www.ipys.org/libertad-de-expresi%C3%B3n/per%C3%BA-fiscal-emite-decisi%C3%B3n-que-pone-en-riesgo-la-libertad-de-expresi%C3%B3n
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El fiscal Alcides Chinchay inició una investigación preliminar contra
           Gustavo Gorriti, director del medio IDL Reporteros, y fiscales del Equipo
@@ -465,11 +806,19 @@ paises:
           procesos penales de corrupción. En el requerimiento fiscal, además, se
           contempla la posibilidad de pedir el levantamiento del secreto de las
           comunicaciones del periodista. El [Instituto Prensa y Sociedad
+<<<<<<< HEAD
           (IPYS)](https://www.ipys.org/libertad-de-expresi%C3%B3n/per%C3%BA-fiscal-emite-decisi%C3%B3n-que-pone-en-riesgo-la-libertad-de-expresi%C3%B3n)
           rechazó la medida por considerarla una amenaza al derecho constitucional
           de protección de fuentes periodísticas y a la libertad de expresión,
           argumentando que el acceso de la prensa a información de interés público
           no debería ser criminalizado. Por su parte, el [Consejo de la Prensa
+=======
+          (IPYS)]($url) rechazó la medida por considerarla una amenaza al derecho
+          constitucional de protección de fuentes periodísticas y a la libertad de
+          expresión, argumentando que el acceso de la prensa a información de
+          interés público no debería ser criminalizado. Por su parte, el [Consejo de
+          la Prensa
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
           Peruana](https://consejoprensaperuana.org.pe/comunicado/gorriti-levantamiento-de-secreto-de-comunicaciones-atenta-contra-la-proteccion-de-fuentes/)
           (CPP) expresó su preocupación por el posible levantamiento del secreto de
           las comunicaciones del periodista, porque constituiría una vulneración al
@@ -479,6 +828,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2024-04-02
+<<<<<<< HEAD
         tipo: proyecto
         texto: >-
           El partido político Acción Popular presentó el proyecto de ley [N°
@@ -510,6 +860,37 @@ paises:
         tipo: proyecto
         exp: 07603/2023-CR
         url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/7603'
+=======
+        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/7437
+        texto: >-
+          El partido político Acción Popular presentó el proyecto de ley [N°
+          07437/2023-CR]($url), incorporando dos literales a la “Ley de
+          Contrataciones con el Estado” para establecer la prohibición de que
+          periodistas en actividad, sus familiares de hasta el segundo grado de
+          consanguinidad o afinidad, así como las empresas jurídicas en las cuales
+          estos pueden formar parte, puedan contratar con el Estado. En respuesta,
+          IPYS calificó la propuesta como discriminatoria para los familiares de
+          periodistas respecto a su derecho al trabajo y como limitativa para la
+          libertad de expresión al desincentivar gravemente el trabajo periodístico.
+        etiquetas:
+          - libertad-de-expresion
+          - libertad-de-prensa
+
+      - fecha: 2024-04-11
+        url: https://www.gob.pe/institucion/mpfn/noticias/934318-fiscalia-especializada-en-ciberdelincuencia-logro-sentencia-por-creacion-de-perfil-falso-en-facebook
+        texto: >-
+          La [Fiscalía Especializada en Ciberdelincuencia]($url) informó que se
+          había condenado a la señora Janet Zevallos Salazar con dos años y seis
+          meses de pena privativa de libertad suspendida, por el delito contra la fe
+          pública en la modalidad de suplantación de identidad, tras crear un perfil
+          con datos falsos en la red social Facebook. La agraviada recibiría el pago
+          de una reparación civil por el uso no autorizado de su nombre y
+          fotografías personales.
+
+      - fecha: 2024-04-17
+        exp: 07603/2023-CR
+        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/7603
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
         texto: >-
           El partido político Perú Bicentenario presentó el [proyecto de ley N°
           7603/2023-CR]($url) a fin de derogar el Decreto Legislativo N° 1589 que
@@ -523,6 +904,7 @@ paises:
           - libertad-de-expresion
 ---
 
+<<<<<<< HEAD
 **Proyectos por país**
 
 | País | Proyectos |
@@ -569,4 +951,8 @@ paises:
 | Reputación y honor | 4,8% |
 | Moderación de contenidos | 4,8% |
 
+=======
+{{< observatorio-mes month="2024-04" >}}
+
+>>>>>>> 478be8c54214399d55d348541fe4ba13671c4ff6
 {{< boletin-paises >}}

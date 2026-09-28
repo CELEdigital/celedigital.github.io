@@ -41,6 +41,15 @@
     </figure>
   {{ end }}
 
+  {{/* La edición en curso vive en la raíz del hub, no en una carpeta de año:
+       su programa es un program*.md suelto al lado de _index.md. Las carpetas
+       de año lo muestran vía workshop-subhub-blocks.html, pero el hub no tenía
+       por dónde, así que va como cuerpo de «Agenda» si el parámetro está vacío. */}}
+  {{ $programPages := slice }}
+  {{ range $p := .RegularPages.ByWeight }}
+    {{ with $p.File }}{{ if hasPrefix (lower .BaseFileName) "program" }}{{ $programPages = $programPages | append $p }}{{ end }}{{ end }}
+  {{ end }}
+
   {{ $infoBlocks := cond $isES
       (slice (dict "key" "agenda" "title" "Agenda") (dict "key" "participantes" "title" "Participantes"))
       (slice (dict "key" "agenda" "title" "Agenda") (dict "key" "participants" "title" "Participants")) }}
@@ -52,7 +61,11 @@
           {{ with index $.Params .key }}
             {{ . | markdownify }}
           {{ else }}
-            <p class="workshop-hub__placeholder">{{ cond $isES "Próximamente." "Coming soon." }}</p>
+            {{ if and (eq .key "agenda") (gt (len $programPages) 0) }}
+              {{ range $programPages }}{{ .Content }}{{ end }}
+            {{ else }}
+              <p class="workshop-hub__placeholder">{{ cond $isES "Próximamente." "Coming soon." }}</p>
+            {{ end }}
           {{ end }}
         </div>
       </section>

@@ -335,6 +335,30 @@ Ojo con dos cosas:
 
 El CSS está arriba de `assets/css/components/workshop-hub.css`.
 
+**Programa de la edición en curso.** En ES la edición 2026 no tiene carpeta
+de año: vive en la raíz del hub, y su programa es `content/es/taller/program2026.md`
+(una tabla Markdown por día, con la descripción en `<details>`). Dos piezas:
+- `workshop-hub.html` toma los `program*.md` sueltos al lado de `_index.md` y
+  los muestra como cuerpo de **Agenda** cuando el parámetro `agenda` está vacío.
+- `layouts/_default/_markup/render-table.html` convierte **sólo esas tablas** en
+  una lista de sesiones (`ol.programa`): título y personas a la vista, la
+  descripción se despliega, la bibliografía pasa a lista, y las plenarias
+  («SESIÓN PLENARIA #n:») se marcan con franja crema y filete rojo. Horario y
+  Sala se muestran sólo si la celda no es `-`; la columna Día se omite porque el
+  día es el `###`. Cualquier otra tabla del sitio —incluidos los programas de
+  ediciones anteriores, que siguen con `workshop-tables.js`— sale igual que
+  antes (verificado: 124 páginas con tablas, sólo cambian las dos del programa).
+- El desborde de la franja de las plenarias es con `box-shadow`, no con márgenes
+  negativos: entre 900 y 1330px el hub no tiene margen lateral y un margen
+  negativo generaba scroll horizontal.
+
+El hub además tiene márgenes laterales propios en pantallas chicas y entre
+900 y 1330px: los hubs le sacan el padding a `main.container` y antes todo lo que
+estaba debajo del header quedaba pegado al borde.
+
+Cuando la edición termine, el programa pasa a su carpeta de año
+(`taller/2026/program2026.md`) y desde ahí se ve como tabla común.
+
 ### 13. Boletines viejos: dos migraciones y cuál quedó
 Los 61 boletines viejos se migraron **dos veces**, en paralelo: una en local
 (la de la sección 9) y otra en el remoto con `scripts/migrar_boletines_viejos.py`.

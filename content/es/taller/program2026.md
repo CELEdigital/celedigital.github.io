@@ -5,7 +5,7 @@ weight: 1
 
 Las sesiones figuran en orden cronológico. El programa se actualizará a medida que las personas ponentes envíen la bibliografía.
 
-### Día 1 — Jueves 29 de octubre
+### Jueves 29 de octubre
 
 | Día | Horario | Actividad | Personas clave | Sala / notas |
 |---|---|---|---|---|
@@ -17,7 +17,7 @@ Las sesiones figuran en orden cronológico. El programa se actualizará a medida
 | - | - | <details><summary><strong>Tecnologías facilitadoras de la democracia</strong></summary>La sesión comenzará presentando un mapeo regional de tecnologías críticas y alternativas para la defensa democrática construido colectivamente junto a organizaciones de derechos digitales de América Latina y una propuesta para incorporar una dimensión tecnológica en la metodología de Marcadores de Erosión Democrática (MED) utilizada.<br><br>La sesión busca sentar las bases metodológicas para incorporar una dimensión tecnológica dentro del marco MED, poniendo a prueba su metodología junto a especialistas internacionales en derechos digitales, y tender vínculos entre esta línea de trabajo y organizaciones que no estuvieron involucradas en él hasta ahora, con el objetivo de avanzar una primera forma de sistematizar cómo ciertas tecnologías impulsan la erosión democrática a escala global.<br><br>Dado que el mapeo está en construcción, la sesión funcionará como un espacio de consulta y validación colectiva: se invitará a aportar casos, tecnologías alternativas o críticas al marco propuesto, señalar vacíos u organizaciones que debieran sumarse al proceso.</details> | Agustina Brizio, Juan Martín Marinangeli (Asuntos del Sur) | - |
 | - | - | <details><summary><strong>SLAPPs en Latinoamérica: tendencias y nuevos desafíos</strong></summary>La sesión comenzará presentando evidencia y patrones sobre el uso de demandas estratégicas contra la participación pública (SLAPPs) en la región —partiendo del trabajo de Amnistía Argentina y sumando la perspectiva regional de R3D— para analizar cómo la instrumentalización del sistema judicial opera como una herramienta de hostigamiento y disciplinamiento a periodistas, activistas y organizaciones de la sociedad civil. A partir de este diagnóstico, se examinarán tendencias recientes y las respuestas judiciales ofrecidas por los tribunales frente al uso abusivo del derecho.<br><br>La sesión se plantea como un espacio de intercambio colectivo para mapear los impactos concretos del litigio abusivo en distintos contextos de América Latina, rescatar experiencias exitosas de defensa procesal e identificar desafíos actuales en la protección de la libertad de expresión. Se invitará a las y los asistentes a compartir tendencias y casos de sus propios países para avanzar colectivamente en la definición de criterios mínimos, herramientas procesales e iniciativas de incidencia capaces de detectar y frenar tempranamente las SLAPPs en la región.</details> | Solciré Prevignano, Mariela Galeazzi (Amnistía Internacional Argentina), Paulina Gutiérrez (R3D) | - |
 
-### Día 2 — Viernes 30 de octubre
+### Viernes 30 de octubre
 
 | Día | Horario | Actividad | Personas clave | Sala / notas |
 |---|---|---|---|---|

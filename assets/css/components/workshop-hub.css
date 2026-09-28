@@ -40,6 +40,53 @@
   clip-path: polygon(0 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
 }
 
+/* ── Márgenes laterales en pantallas chicas ─────────────────────
+   Los hubs le sacan el padding a main.container (section-hub.css) y sólo el
+   header se pone el suyo, así que debajo del header todo quedaba pegado al
+   borde de la pantalla. Mismos valores que .section-hub__header-text. La
+   franja de «Ediciones anteriores» no entra: maneja su propio ancho. */
+
+/* Entre 900px y el ancho del contenedor (80rem) más dos márgenes, el truco de
+   calc(50vw - 50%) da cero y el hub entero —header incluido— toca los bordes
+   de la ventana. Es el rango de una laptop de 1280px. */
+@media (min-width: 901px) and (max-width: 1330px) {
+  /* Las franjas a ancho completo se corren con calc(-50vw + 50%), que cuenta
+     la barra de scroll; el padding tiene que partir de la misma cuenta para
+     que el texto caiga donde el resto. */
+  .workshop-hub .section-hub__header,
+  .workshop-hub .workshop-hub__editions-title {
+    padding-inline: calc(50vw - 50% + 1.5rem);
+  }
+
+  .workshop-hub__flyer,
+  .workshop-hub__sections,
+  .workshop-links,
+  .workshop-hub > .section-content,
+  .workshop-panels {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .workshop-hub__flyer,
+  .workshop-hub__sections,
+  .workshop-links,
+  .workshop-hub > .section-content,
+  .workshop-panels {
+    padding-inline: 1.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .workshop-hub__flyer,
+  .workshop-hub__sections,
+  .workshop-links,
+  .workshop-hub > .section-content,
+  .workshop-panels {
+    padding-inline: 1rem;
+  }
+}
+
 /* ── Flyer: fila propia entre el header y las subsecciones ───── */
 
 .workshop-hub__flyer {
@@ -98,6 +145,291 @@
 
 .workshop-hub__editions-title::after {
   content: none;
+}
+
+/* ── Programa de la edición en curso ─────────────────────────────
+   Lo arma layouts/_default/_markup/render-table.html a partir de la tabla
+   de program*.md. Filas quietas separadas por un filete; las plenarias son
+   la única nota fuerte: franja crema con filete rojo, como la franja de
+   «Ediciones anteriores». Horario y sala sólo ocupan lugar si existen. */
+
+.workshop-hub__section-body > p:first-child {
+  max-width: 68ch;
+  margin: 0 0 2rem;
+  color: var(--neutral-600);
+}
+
+.workshop-hub__section-body h3,
+.programa-dia {
+  position: relative;
+  margin: 2.5rem 0 0.25rem;
+  padding-bottom: 0.9rem;
+  font-family: 'Inter';
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--neutral-900);
+}
+
+.workshop-hub__section-body h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 16rem;
+  height: 5px;
+  background: var(--cele);
+  clip-path: polygon(0 0, 100% 0, calc(100% - 7px) 100%, 0 100%);
+}
+
+.programa {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  max-width: 62rem;
+}
+
+/* Sin horario ni sala la sesión es una sola columna; cada dato que aparece
+   suma la suya. Una columna vacía igual se come su gap y corre el texto. */
+.programa__sesion {
+  display: grid;
+  grid-template-columns: [cuerpo] minmax(0, 1fr);
+  column-gap: 1.5rem;
+  align-items: start;
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+.programa__sesion:has(> .programa__hora) {
+  grid-template-columns: [hora] 6.5rem [cuerpo] minmax(0, 1fr);
+}
+
+.programa__sesion:has(> .programa__sala) {
+  grid-template-columns: [cuerpo] minmax(0, 1fr) [sala] 10rem;
+}
+
+.programa__sesion:has(> .programa__hora):has(> .programa__sala) {
+  grid-template-columns: [hora] 6.5rem [cuerpo] minmax(0, 1fr) [sala] 10rem;
+}
+
+.programa__hora {
+  grid-column: hora;
+  margin: 0;
+  padding-top: 1.15rem;
+  font-family: 'Inter';
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: var(--cele);
+}
+
+.programa__detalle,
+.programa__sesion > .programa__cabeza {
+  grid-column: cuerpo;
+}
+
+.programa__sala {
+  grid-column: sala;
+  margin: 0;
+  padding-top: 1.2rem;
+  font-size: 0.9rem;
+  color: var(--neutral-600);
+}
+
+.programa__cabeza {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 1.25rem;
+  padding: 1.1rem 0;
+}
+
+summary.programa__cabeza {
+  list-style: none;
+  cursor: pointer;
+}
+
+summary.programa__cabeza::-webkit-details-marker {
+  display: none;
+}
+
+.programa__rotulo,
+.programa__titulo,
+.programa__personas {
+  grid-column: 1;
+}
+
+.programa__rotulo {
+  margin-bottom: 0.3rem;
+  font-family: 'Inter';
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--cele);
+}
+
+.programa__titulo {
+  font-family: 'Inter';
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--neutral-900);
+  text-wrap: pretty;
+}
+
+.programa__personas {
+  margin-top: 0.35rem;
+  font-size: 0.98rem;
+  line-height: 1.45;
+  color: var(--neutral-600);
+}
+
+/* Más/menos dibujado con dos barras: la vertical se pliega al abrir. */
+.programa__icono {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.2rem;
+}
+
+.programa__icono::before,
+.programa__icono::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(50% - 1px);
+  width: 100%;
+  height: 2px;
+  background: var(--cele);
+  transition: transform 0.2s ease;
+}
+
+.programa__icono::after {
+  transform: rotate(90deg);
+}
+
+.programa__detalle[open] .programa__icono::after {
+  transform: rotate(0deg);
+}
+
+summary.programa__cabeza:hover .programa__titulo {
+  color: var(--cele);
+}
+
+summary.programa__cabeza:focus-visible {
+  outline: 2px solid var(--cele);
+  outline-offset: 3px;
+}
+
+.programa__texto {
+  max-width: 68ch;
+  padding: 0 0 1.4rem;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: var(--neutral-800);
+}
+
+.programa__detalle[open] .programa__texto {
+  animation: programa-abrir 0.2s ease-out;
+}
+
+@keyframes programa-abrir {
+  from { opacity: 0; transform: translateY(-0.25rem); }
+}
+
+.programa__texto p {
+  margin: 0 0 0.85rem;
+}
+
+.programa__texto a {
+  color: var(--cele);
+  text-underline-offset: 0.15em;
+}
+
+.programa__biblio-titulo {
+  margin-top: 1.25rem !important;
+  font-family: 'Inter';
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--neutral-900);
+}
+
+.programa__biblio {
+  margin: 0;
+  padding-left: 1.1rem;
+  list-style: disc;
+  font-size: 0.96rem;
+  line-height: 1.5;
+}
+
+.programa__biblio li + li {
+  margin-top: 0.45rem;
+}
+
+.programa__biblio li::marker {
+  color: var(--cele);
+}
+
+/* Plenarias: la franja se sale del renglón para que el texto quede alineado
+   con el de las demás sesiones. El desborde se dibuja con sombras y no con
+   márgenes negativos: una sombra no genera scroll horizontal, y entre 900 y
+   1280px el hub no tiene margen lateral donde meterse. De arriba hacia abajo:
+   crema izquierda (tapa todo menos 4px), filete rojo, crema derecha. */
+.programa__sesion--plenaria {
+  --sangrado: 1.25rem;
+  margin: 0.75rem 0;
+  background: #f6f2e9;
+  border-bottom: none;
+  box-shadow:
+    calc(4px - var(--sangrado)) 0 0 #f6f2e9,
+    calc(-1 * var(--sangrado)) 0 0 var(--cele),
+    var(--sangrado) 0 0 #f6f2e9;
+}
+
+.programa__sesion--plenaria .programa__titulo {
+  font-size: 1.22rem;
+}
+
+@media (max-width: 700px) {
+  .programa__sesion {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .programa__hora,
+  .programa__detalle,
+  .programa__sesion > .programa__cabeza,
+  .programa__sala {
+    grid-column: 1;
+  }
+
+  .programa__hora {
+    padding-top: 1rem;
+  }
+
+  .programa__hora + .programa__detalle .programa__cabeza,
+  .programa__hora + .programa__cabeza {
+    padding-top: 0.3rem;
+  }
+
+  .programa__sala {
+    padding: 0 0 1rem;
+  }
+
+  .programa__sesion--plenaria {
+    --sangrado: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .programa__icono::before,
+  .programa__icono::after {
+    transition: none;
+  }
+
+  .programa__detalle[open] .programa__texto {
+    animation: none;
+  }
 }
 
 .workshop-hub__placeholder {

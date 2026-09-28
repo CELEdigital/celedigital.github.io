@@ -9,7 +9,7 @@ author:
 content_type:
   - mesa
 programs: []
-featured: false
+featured: true
 outputs: []
 newsletter_series: ''
 newsletter_number: ''
@@ -20,7 +20,11 @@ issues:
 region: latam
 country:
   - Brasil
-placements: []
+placements:
+  - hub: region/america-latina
+    block: ultimas_noticias_analisis
+  - hub: temas/plataformas
+    block: ultimas_noticias_analisis
 tags: []
 source_url: ''
 originally_published_in: ''

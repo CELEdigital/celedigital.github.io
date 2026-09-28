@@ -1,0 +1,138 @@
+{{- /*
+Tablas de Markdown.
+
+El programa de la edición en curso del Taller (un program*.md suelto en la raíz
+de taller/ o workshop/, al lado de _index.md) se escribe como tabla pero se
+dibuja como lista de sesiones: título y personas siempre a la vista, y la
+descripción se despliega debajo. La tabla es cómoda de escribir, pero como
+grilla no sirve mientras el programa no tenga horarios ni salas: tres de cinco
+columnas quedan en «-». Las columnas Horario y Sala aparecen solas en cuanto
+tienen datos. La columna Día se omite: el día ya es el encabezado ### de arriba.
+
+Los programas de ediciones anteriores (carpetas de año) y cualquier otra tabla
+del sitio salen como tabla común, igual que antes de este hook.
+*/ -}}
+{{- $p := .PageInner -}}
+{{- $esPrograma := false -}}
+{{- if in (slice "taller" "workshop") $p.Section -}}
+  {{- with $p.File -}}
+    {{- if hasPrefix (lower .BaseFileName) "program" -}}
+      {{- with $p.Parent }}{{ with .Parent }}{{ if .IsHome }}{{ $esPrograma = true }}{{ end }}{{ end }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $esPrograma -}}
+  {{- $es := ne $p.Lang "en" -}}
+  {{- /* Qué columna es cuál, por el nombre del encabezado. */ -}}
+  {{- $col := dict "hora" -1 "actividad" -1 "personas" -1 "sala" -1 -}}
+  {{- range $i, $c := index .THead 0 -}}
+    {{- $h := lower (plainify $c.Text) -}}
+    {{- if or (strings.Contains $h "horario") (strings.Contains $h "time") -}}{{- $col = merge $col (dict "hora" $i) -}}
+    {{- else if or (strings.Contains $h "actividad") (strings.Contains $h "activity") (strings.Contains $h "session") -}}{{- $col = merge $col (dict "actividad" $i) -}}
+    {{- else if or (strings.Contains $h "persona") (strings.Contains $h "people") (strings.Contains $h "speaker") -}}{{- $col = merge $col (dict "personas" $i) -}}
+    {{- else if or (strings.Contains $h "sala") (strings.Contains $h "room") -}}{{- $col = merge $col (dict "sala" $i) -}}
+    {{- end -}}
+  {{- end -}}
+
+  <ol class="programa">
+  {{- range $fila := .TBody -}}
+    {{- $celda := dict -}}
+    {{- range $k, $i := $col -}}
+      {{- $v := "" -}}
+      {{- if ge $i 0 }}{{ $v = trim (string (index $fila $i).Text) " " }}{{ end -}}
+      {{- if in (slice "-" "–" "—") $v }}{{ $v = "" }}{{ end -}}
+      {{- $celda = merge $celda (dict $k $v) -}}
+    {{- end -}}
+
+    {{- /* La actividad viene como <details><summary>Título</summary>Descripción</details>
+           o como texto suelto. */ -}}
+    {{- $act := $celda.actividad -}}
+    {{- $titulo := $act -}}
+    {{- $desc := "" -}}
+    {{- with findRESubmatch `(?s)^<details><summary>(.*?)</summary>(.*)</details>$` $act 1 -}}
+      {{- $titulo = index (index . 0) 1 -}}
+      {{- $desc = index (index . 0) 2 -}}
+    {{- end -}}
+    {{- $titulo = replaceRE `^<strong>(.*)</strong>$` "$1" $titulo -}}
+
+    {{- /* Las plenarias anclan cada día: el prefijo pasa a ser el rótulo. */ -}}
+    {{- $rotulo := "" -}}
+    {{- with findRESubmatch `(?i)^(sesión plenaria|plenary session)\s*#?\s*(\d*)\s*:?\s*` $titulo 1 -}}
+      {{- $n := index (index . 0) 2 -}}
+      {{- $rotulo = printf "%s %s" (cond $es "Sesión plenaria" "Plenary session") $n | strings.TrimSpace -}}
+      {{- $titulo = strings.TrimPrefix (index (index . 0) 0) $titulo -}}
+    {{- end -}}
+
+    {{- /* Descripción: <br><br> separa párrafos; la bibliografía pasa a lista. */ -}}
+    {{- $biblio := slice -}}
+    {{- $marca := cond $es "<strong>Bibliografía sugerida:</strong><br>" "<strong>Suggested reading:</strong><br>" -}}
+    {{- if strings.Contains $desc $marca -}}
+      {{- $partes := split $desc $marca -}}
+      {{- $desc = strings.TrimSuffix "<br><br>" (index $partes 0) -}}
+      {{- range split (strings.TrimPrefix "• " (index $partes 1)) "<br>• " -}}
+        {{- $biblio = $biblio | append . -}}
+      {{- end -}}
+    {{- end -}}
+
+    <li class="programa__sesion{{ if $rotulo }} programa__sesion--plenaria{{ end }}">
+      {{- with $celda.hora }}<p class="programa__hora">{{ . | safeHTML }}</p>{{ end -}}
+      {{- $cabeza := printf `%s<span class="programa__titulo">%s</span>%s` (cond (ne $rotulo "") (printf `<span class="programa__rotulo">%s</span>` $rotulo) "") $titulo (cond (ne $celda.personas "") (printf `<span class="programa__personas">%s</span>` $celda.personas) "") -}}
+      {{- if $desc -}}
+        <details class="programa__detalle">
+          <summary class="programa__cabeza">{{ $cabeza | safeHTML }}<span class="programa__icono" aria-hidden="true"></span></summary>
+          <div class="programa__texto">
+            {{- range split $desc "<br><br>" }}{{ with trim . " " }}<p>{{ . | safeHTML }}</p>{{ end }}{{ end -}}
+            {{- with $biblio -}}
+              <p class="programa__biblio-titulo">{{ cond $es "Bibliografía sugerida" "Suggested reading" }}</p>
+              <ul class="programa__biblio">{{ range . }}<li>{{ . | safeHTML }}</li>{{ end }}</ul>
+            {{- end -}}
+          </div>
+        </details>
+      {{- else -}}
+        <div class="programa__cabeza">{{ $cabeza | safeHTML }}</div>
+      {{- end -}}
+      {{- with $celda.sala }}<p class="programa__sala">{{ . | safeHTML }}</p>{{ end -}}
+    </li>
+  {{- end -}}
+  </ol>
+
+{{- else -}}
+<table
+  {{- range $k, $v := .Attributes }}
+    {{- if $v }}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+    {{- end }}
+  {{- end }}>
+  <thead>
+    {{- range .THead }}
+      <tr>
+        {{- range . }}
+          <th
+            {{- with .Alignment }}
+              {{- printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}
+            {{- end -}}
+          >
+            {{- .Text -}}
+          </th>
+        {{- end }}
+      </tr>
+    {{- end }}
+  </thead>
+  <tbody>
+    {{- range .TBody }}
+      <tr>
+        {{- range . }}
+          <td
+            {{- with .Alignment }}
+              {{- printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}
+            {{- end -}}
+          >
+            {{- .Text -}}
+          </td>
+        {{- end }}
+      </tr>
+    {{- end }}
+  </tbody>
+</table>
+{{- end -}}

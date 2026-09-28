@@ -104,6 +104,8 @@
   </url><url>
     <loc>http://localhost:1313/es/taller/2025/program2025/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/taller/program2026/</loc>
+  </url><url>
     <loc>http://localhost:1313/es/autores/robert-gorwa/</loc>
     <xhtml:link
                 rel="alternate"
@@ -1840,10 +1842,10 @@
     <loc>http://localhost:1313/es/posts/transparencia-en-eeuu-y-en-la-union-europea/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-11-cele-s-submission-for-the-call-for-papers-on-global-ai-governance-of-the-office-of-the-un/</loc>
+    <loc>http://localhost:1313/es/publicaciones/informe-legislativo-9-nuevas-discusiones-sobre-el-proyecto-de-ley-de-noticias-falsas-en-brasil/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/publicaciones/informe-legislativo-9-nuevas-discusiones-sobre-el-proyecto-de-ley-de-noticias-falsas-en-brasil/</loc>
+    <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-11-cele-s-submission-for-the-call-for-papers-on-global-ai-governance-of-the-office-of-the-un/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/open-source-intelligence-osint-and-human-rights-in-latin-america-a-comparative-report-on-argentina-b-5157855/</loc>
@@ -3275,6 +3277,8 @@
                 hreflang="es"
                 href="http://localhost:1313/es/autores/vladimir-garay/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/es/taller/raw_program2026/</loc>
   </url><url>
     <loc>http://localhost:1313/es/region/america-latina/</loc>
     <xhtml:link

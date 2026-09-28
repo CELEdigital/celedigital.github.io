@@ -3,7 +3,7 @@ translationKey: ''
 title: Resumen de la Mesa | Responsabilidad de intermediarios en Brasil
 slug: resumen-mesa-responsabilidad-intermediarios-brasil
 date: 2026-09-10
-description: Resumen de la Mesa de Legislación Comparada sobre responsabilidad de intermediarios en Brasil.
+description: Resumen de la Mesa de Legislación Comparada sobre responsabilidad de Intermediarios en Brasil.
 author:
   - Josefina Gálvez
 content_type:
@@ -93,7 +93,7 @@ La discusión abordó además la aplicación de las normas y la autoridad instit
 
 Por último, los participantes discutieron el futuro político e institucional del esquema, en particular ante las próximas elecciones en Brasil y la posibilidad de cambios en los decretos del Ejecutivo. El intercambio puso de manifiesto la tensión entre las preocupaciones por la regulación por decreto y las demandas de la industria de mayor certeza regulatoria, y señaló que ya hay impugnaciones a los decretos pendientes ante el STF.
 
-## Aclaraciones
+## 7. Aclaraciones
 
 **Regla de Chatham House:** Este resumen sigue la [Regla de Chatham House](https://www.chathamhouse.org/about-us/chatham-house-rule) en su totalidad.
 

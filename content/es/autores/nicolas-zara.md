@@ -5,7 +5,7 @@ slug: nicolas-zara
 draft: false
 author_type: staff
 weight: 3
-role: Researcher
+role: Coordinador de proyecto - Researcher
 organization: CELE
 location: Buenos Aires, AR
 photo: /img/WhatsApp Image 2026-09-29 at 15.42.44.jpeg

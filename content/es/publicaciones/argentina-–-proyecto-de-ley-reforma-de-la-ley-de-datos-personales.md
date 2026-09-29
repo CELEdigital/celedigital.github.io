@@ -1,7 +1,7 @@
 ---
 translationKey: argentina-reforma-datos-personales
 title: 'Argentina – Proyecto de ley: Reforma de la Ley de Datos Personales'
-date: 2026-07-13
+date: 2026-09-29
 author:
   - Matías González Mama
   - Lina Palacios

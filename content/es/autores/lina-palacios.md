@@ -9,11 +9,11 @@ role: Asistente de Investigación
 organization: CELE
 location: Buenos Aires, Argentina
 photo: /img/Lina p.jpg
-bio_short: Lina es abogada feminista e investigadora enfocada en la intersección entre derechos humanos y tecnologías digitales
+bio_short: Lina Palacios es abogada (Universidad del Rosario, Colombia), con profundización en teoría jurídica y humanidades. Está cursando una Maestría en Derecho Constitucional y Derechos Humanos (Universidad de Palermo).
 twitter_handle: ''
 bluesky_handle: ''
 orcid_number: ''
 email: null
 ---
 
-Lina es abogada feminista e investigadora enfocada en la intersección entre derechos humanos y tecnologías digitales. Actualmente cursa una Maestría en Derecho Constitucional y Derechos Humanos en la Universidad de Palermo. Tiene experiencia en investigación académica y en organizaciones de la sociedad civil en Colombia y Argentina, con un enfoque en el análisis crítico de los desafíos que plantean las tecnologías  para la protección de los derechos humanos.
+Lina Palacios es abogada (Universidad del Rosario, Colombia), con profundización en teoría jurídica y humanidades. Está cursando una Maestría en Derecho Constitucional y Derechos Humanos (Universidad de Palermo). Actualmente es investigadora del  Centro de Estudios en Libertad de Expresión (CELE), Universidad de Palermo.

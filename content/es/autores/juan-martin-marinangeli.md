@@ -9,7 +9,7 @@ role: Ayudante de cátedra en la Universidad Torcuato Di Tella
 organization: CELE
 location: Buenos Aires, AR
 photo: /img/Juan Marinagelli.jpg
-bio_short: Ayudante de cátedra en la Universidad Torcuato Di Tella
+bio_short: Juan es profesional de las Ciencias Sociales, con especialización en políticas públicas, tecnologías digitales y comunicación.
 twitter_handle: ''
 bluesky_handle: ''
 orcid_number: ''

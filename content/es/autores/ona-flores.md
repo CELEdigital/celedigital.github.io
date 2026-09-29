@@ -8,7 +8,7 @@ weight: 1
 role: Especialista en Derechos Humanos
 organization: CELE
 location: Buenos Aires, AR
-photo: /img/OnaFlores.jpg
+photo: /img/ona-flores 11.jpg
 bio_short: Abogada de la Universidad Católica Andres Bello (Venezuela) y Magister en Derecho (LL.M) de la Universidad de Columbia de Nueva York (2007).
 twitter_handle: ''
 bluesky_handle: ''

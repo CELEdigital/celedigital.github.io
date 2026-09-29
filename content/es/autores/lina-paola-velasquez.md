@@ -5,11 +5,11 @@ slug: lina-paola-velasquez
 draft: false
 author_type: alumni
 weight: 3
-role: Coordinadora del Área de Democracia y Protesta en el Comité de Solidaridad con los Presos Políticos
-organization: CELE
+role: Coordinadora
+organization: ''
 location: ''
 photo: /img/Lina Velasquez.jpg
-bio_short: Coordinadora del Área de Democracia y Protesta  Comité de Solidaridad con los Presos Políticos
+bio_short: Comité de Solidaridad con los Presos Políticos - Área de Democracia y Protesta
 twitter_handle: ''
 bluesky_handle: ''
 orcid_number: ''

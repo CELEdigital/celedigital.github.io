@@ -1,17 +1,19 @@
 ---
-title: "Lina Paola Velasquez"
-slug: "lina-paola-velasquez"
-author_type: "alumni" # staff | alumni | friends
-weight: 3            # ordering inside each type
+translationKey: ''
+title: Lina Paola Velasquez
+slug: lina-paola-velasquez
 draft: false
-role: 
-organization: "CELE"
-location: 
-photo: 
-bio_short: 
-twitter_handle: 
-bluesky_handle: 
-orcid_number: 
+author_type: alumni
+weight: 3
+role: Coordinadora del Área de Democracia y Protesta en el Comité de Solidaridad con los Presos Políticos
+organization: CELE
+location: ''
+photo: /img/Lina Velasquez.jpg
+bio_short: Coordinadora del Área de Democracia y Protesta  Comité de Solidaridad con los Presos Políticos
+twitter_handle: ''
+bluesky_handle: ''
+orcid_number: ''
+email: null
 ---
 
-
+Lina es abogada especialista en Derecho Público, con trayectoria en investigación jurídica, litigio estratégico, monitoreo legislativo e incidencia en derechos humanos. Ha trabajado en el sector público constitucional, organizaciones de derechos humanos y centros de investigación en Colombia y América Latina, abordando temas de libertad de expresión, acceso a la información y derechos digitale

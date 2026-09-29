@@ -5,7 +5,7 @@ slug: lina-palacios
 draft: false
 author_type: staff
 weight: 99
-role: Asistente de Investigación
+role: Researcher
 organization: CELE
 location: Buenos Aires, Argentina
 photo: /img/IMG_9746.jpg.jpeg

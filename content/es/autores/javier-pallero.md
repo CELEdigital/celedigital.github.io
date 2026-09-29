@@ -5,11 +5,11 @@ slug: javier-pallero
 draft: false
 author_type: alumni
 weight: 2
-role: Coordinador de Incidencia
+role: Senior Researcher
 organization: CELE
 location: ''
 photo: /img/javier-pallero.jpg
-bio_short: Javier es Coordinador de incidencia
+bio_short: Codirector de una iniciativa de investigación pionera que mapea el panorama regulatorio de la inteligencia artificial en América Latina desde un enfoque de derechos humanos
 twitter_handle: ''
 bluesky_handle: ''
 orcid_number: ''

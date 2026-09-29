@@ -8,7 +8,7 @@ weight: 4
 role: Coordinadora de Politicas Publicas en el Consejo de Planeamiento Estratégico GCBA
 organization: CELE
 location: Buenos Aires, AR
-photo: null
+photo: /img/sol b.png
 bio_short: Solana es Licenciada en Gobierno y Relaciones Internacionales (UADE) y Magíster en Estudios Internacionales (Universidad Torcuato Di Tella).
 twitter_handle: ''
 bluesky_handle: ''

@@ -1,17 +1,17 @@
 ---
-title: "Victoria Abatte"
-slug: "victoria-abatte"
-author_type: "alumni" # staff | alumni | friends
-weight: 8            # ordering inside each type
+translationKey: ''
+title: Victoria Abatte
+slug: victoria-abatte
 draft: false
-role: 
-organization: "CELE"
-location: 
-photo: 
-bio_short: 
-twitter_handle: "vicabatte"
-bluesky_handle: 
-orcid_number: 
+author_type: alumni
+weight: 8
+role: Coordinadora de Proyectos en The Ola House
+organization: ''
+location: ''
+photo: /img/v. abatte.jpg
+bio_short: Victoria es periodista y licenciada en Humanidades y Ciencias Sociales por la Universidad de Palermo.
+twitter_handle: vicabatte
+bluesky_handle: ''
+orcid_number: ''
+email: null
 ---
-
-

@@ -428,6 +428,11 @@
         {{ $blockItems = $fallbackItems }}
       {{ end }}
 
+      {{/* Featured shows a single item: the top-ranked one. No "load more". */}}
+      {{ if eq $blockKey "featured" }}
+        {{ $blockItems = first 1 $blockItems }}
+      {{ end }}
+
       <section class="section-block section-block--{{ $blockKey }}">
         <h2>{{ .title }}</h2>
         {{ if gt (len $blockItems) 0 }}

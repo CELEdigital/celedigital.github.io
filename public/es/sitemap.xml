@@ -395,7 +395,7 @@
     <loc>http://localhost:1313/es/taller/2013/</loc>
   </url><url>
     <loc>http://localhost:1313/es/posts/</loc>
-    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -406,6 +406,22 @@
                 hreflang="es"
                 href="http://localhost:1313/es/posts/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/es/</loc>
+    <lastmod>2026-10-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/posts/actores-privados-con-poder-cuasiestatal/</loc>
+    <lastmod>2026-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/tags/digital-services-act/</loc>
     <lastmod>2026-09-14T00:00:00+00:00</lastmod>
@@ -431,19 +447,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/posts/salvavidas-digital-union-europea/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/</loc>
-    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/tags/</loc>
@@ -2140,6 +2143,9 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/10o-aniversario-del-taller-cele-en-buenos-aires/</loc>
     <lastmod>2022-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/la-exigencia-de-presencia-local-a-las-empresas-tic-una-mirada-desde-el-derecho-internacional-de-los-derechos-humanos-y-el-derecho-econ%C3%B3mico-internacional/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/observatorio-legislativo/boletin-mensual-observatorio-legislativo-agosto-2022/</loc>
     <lastmod>2022-08-29T00:00:00+00:00</lastmod>

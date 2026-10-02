@@ -173,6 +173,27 @@ que conviene tener presente acá:
   `.md`. Reporta lo que no pudo resolver y lo marca con `TODO`; el resultado hay
   que leerlo antes de publicar.
 
+**Los 61 boletines viejos (feb 2021 – feb 2026) también están en este formato**
+(ES y EN; los EN son copia en castellano). Venían de WordPress con un bloque
+base64 de un mapa, tablas rotas, negritas partidas alrededor de los links y
+links a `observatoriolegislativocele.com`, que ya no responde. Al convertirlos:
+- **El país de cada entrada es inferido**: la importación de WordPress había
+  borrado los encabezados de país (salvo en feb–may 2021). Se dedujo de los
+  dominios de los links, los formatos de expediente y nombres propios, forzando
+  que cada país sea un bloque contiguo. Puede haber alguna entrada en el país
+  equivocado, sobre todo notas regionales (CIDH, SIP, ONU).
+- Las etiquetas viejas (texto libre en mayúsculas) se mapearon a los 17 slugs.
+  Las que no tienen equivalente (desinformación, honor, ciberseguridad, etc.)
+  se mapearon a `libertad-de-expresion` o se descartaron.
+- `exp` sólo se completó cuando el número aparece en la matriz; si no, el link
+  queda escrito entero en el texto.
+- ~40 entradas de feb–may 2021 no tienen `fecha` porque el original no la
+  decía: el build las avisa, es esperado.
+- Las tablas de estadísticas de arriba (proyectos por país, temas %) quedaron
+  como tablas Markdown en el cuerpo, antes de `{{< boletin-paises >}}`.
+- Se sacaron las dos imágenes del cuerpo (gráfico de marzo 2021, imagen de
+  WhatsApp de mayo 2021), ambas alojadas en el sitio viejo.
+
 ### 10. Dominio propio: `celeup.org`
 El sitio se publica en **https://celeup.org** (custom domain configurado en
 GitHub Pages; el repo sigue llamándose `celedigital.github.io` y GitHub redirige
@@ -314,33 +335,76 @@ Ojo con dos cosas:
 
 El CSS está arriba de `assets/css/components/workshop-hub.css`.
 
-### 13. Boletines viejos migrados al formato nuevo
-Los 61 boletines de febrero 2021 a febrero 2026 (ES, y sus copias EN, que eran
-idénticas y lo siguen siendo) pasaron al formato de la sección 9 con
-`scripts/migrar_boletines_viejos.py`. Es de una sola vez e idempotente: saltea
-los archivos que ya tienen `paises`.
+**Programa de la edición en curso.** En ES la edición 2026 no tiene carpeta
+de año: vive en la raíz del hub, y su programa es `content/es/taller/program2026.md`.
+Es **una tabla por día** (`### Jueves 29 de octubre`) con columnas
+`Horario | Track 1: … | Track 2: … | Track 3: …`, una fila por franja horaria.
+Salió de unir dos fuentes: el documento de sesiones (descripciones y
+bibliografía) y `tracks.md` (horarios y tracks). Convenciones de las celdas:
+- Sesión: `<details><summary><strong>Título</strong><em>Personas</em></summary>Descripción</details>`.
+  Sin descripción, sólo `<strong>Título</strong><em>Personas</em>`.
+  En la descripción, `<br><br>` separa párrafos y
+  `<strong>Bibliografía sugerida:</strong><br>• …<br>• …` se dibuja como lista.
+- Fila con contenido **sólo en el Track 1** y `-` en los demás = ocupa el ancho
+  completo. Si el título empieza con `SESIÓN PLENARIA #n:` va con franja crema y
+  filete rojo; si empieza con `Evento abierto:`, ese prefijo pasa a rótulo.
+- Texto sin `<strong>` (Almuerzo, Pausa para el café, Registro) = fila de pausa,
+  chica y gris.
+- Ojo con los links que traen `\(` `\)` del export de Google Docs: dentro de la
+  tabla la barra termina codificada como `%5C` y el link se rompe. Escribir
+  `%28` y `%29`.
 
-- Se tiraron el blob base64 del mapa y las tablas de totales/temas desarmadas;
-  las reemplaza `{{< observatorio-mes >}}`. Slug, fecha, título y
-  `translationKey` no se tocaron, así que las URLs siguen iguales.
-- **El país de cada entrada se reconstruyó**: WordPress tenía los países en
-  pestañas y se perdieron. Sale de dominios/rutas de los enlaces, links y
-  expedientes de los CSV y pistas en el texto, más el hecho de que cada país es
-  un tramo contiguo. El orden de países **no es fijo** (desde 2025 Brasil va
-  anteúltimo), se deduce por archivo. Los casos dudosos revisados a mano están
-  en `FIJADAS`.
-- Las etiquetas viejas (~300 variantes en mayúsculas) se tradujeron a los 17
-  slugs con `ALIAS`. Honor/difamación → libertad-de-expresion; publicidad
-  comercial y ludopatía → defensa-del-consumidor. **Desinformación / fake news
-  no tiene slug y se descartó** (~100 usos); igual acceso a internet,
-  ciberseguridad, derechos humanos. Si se agrega `desinformacion` a
-  `data/etiquetas.yaml`, se puede re-etiquetar volviendo a correr el script
-  sobre la versión anterior de git.
-- `exp` sólo se escribió cuando el expediente está en la matriz, para no llenar
-  el build de avisos por normas que nunca entraron a la planilla.
-- 42 entradas de febrero–junio 2021 no tienen `fecha` (el formato viejo la
-  ponía en la prosa y no siempre con día): son los avisos «entrada sin
-  `fecha`» del build.
+Dos piezas de código:
+- `workshop-hub.html` toma los `program*.md` sueltos al lado de `_index.md` y
+  los muestra como cuerpo de **Agenda** cuando el parámetro `agenda` está vacío.
+- `layouts/_default/_markup/render-table.html` convierte **sólo esas tablas** en
+  la grilla (`div.programa`): encabezado con los tracks, una fila por franja, y
+  debajo de 1000px los tracks se apilan y cada sesión muestra el suyo. Cualquier
+  otra tabla del sitio —incluidos los programas de ediciones anteriores, que
+  siguen con `workshop-tables.js`— sale igual que antes (verificado comparando
+  el build completo: sólo cambian las dos páginas del programa).
+- El desborde de la franja de las plenarias es con `box-shadow`, no con márgenes
+  negativos: entre 900 y 1330px el hub no tiene margen lateral y un margen
+  negativo generaba scroll horizontal.
+
+El hub además tiene márgenes laterales propios en pantallas chicas y entre
+900 y 1330px: los hubs le sacan el padding a `main.container` y antes todo lo que
+estaba debajo del header quedaba pegado al borde.
+
+Cuando la edición termine, el programa pasa a su carpeta de año
+(`taller/2026/program2026.md`) y desde ahí se ve como tabla común.
+
+### 13. Boletines viejos: dos migraciones y cuál quedó
+Los 61 boletines viejos se migraron **dos veces**, en paralelo: una en local
+(la de la sección 9) y otra en el remoto con `scripts/migrar_boletines_viejos.py`.
+El merge del 28/09/2026 (`989962e`) commiteó los 122 archivos (ES + EN) con
+marcadores de conflicto y el build se cayó. **Quedó la versión local**
+(`7c4ce66`), más estos arreglos:
+
+- **Cuerpo**: se conservan las tablas históricas de proyectos por país y temas,
+  tal como se publicaron. **No** se usa `{{< observatorio-mes >}}` en los
+  boletines viejos (eso era de la versión del script).
+- **Colas de etiquetas**: ~100 entradas todavía tenían las etiquetas viejas en
+  mayúsculas pegadas al final del texto («… ciudadanía. SEGURIDAD NACIONAL»).
+  Se sacaron con `separar_cola()` del script y se sumaron a `etiquetas` (máx. 3);
+  las que no tienen slug se descartaron, con el mismo criterio de `ALIAS`.
+- **Entradas pegadas**: 38 entradas juntaban dos o tres noticias
+  («… LIBERTAD DE EXPRESION 24/01 El Tribunal Supremo…»). Se partieron en ese
+  corte: cada trozo se lleva las etiquetas que tenía detrás, y la fecha `dd/mm`
+  si la había (si no, hereda la de la entrada).
+- **Países**: 20 entradas cambiaron de país tras revisarlas una por una (entre
+  otras: Salta/La Rioja → Argentina, Lasso → Ecuador, la comisión chilena contra
+  la desinformación → Chile, ley de ONG → Paraguay). La que queda dudosa es la
+  del balance regional de la SIP en abril 2023, que sigue en Guatemala.
+- Se borraron restos de HTML (`/span>`) y espacios de ancho cero.
+
+`migrar_boletines_viejos.py` sigue en el repo, pero **no volver a correrlo**
+sobre estos archivos: saltea los que ya tienen `paises`, y su salida pegaba más
+entradas que la local y dejaba links a `observatoriolegislativocele.com`.
+
+Siguen valiendo: las entradas de feb–jun 2021 sin `fecha` (avisos esperados del
+build), `exp` sólo cuando el expediente está en la matriz, y que desinformación
+no tiene slug.
 
 ---
 

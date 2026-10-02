@@ -1,28 +1,35 @@
 ---
-author: [CELE]
-content_type: [boletin]
-date: '2025-06-05'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales
-  y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
+title: 'Boletín mensual Observatorio Legislativo | Mayo 2025'
 slug: boletin-mensual-observatorio-legislativo-mayo-2025
-tags: [institucional]
-title: Boletín mensual Observatorio Legislativo | Mayo 2025
+date: 2025-06-05
 translationKey: wp-14617
+description: >-
+  Novedades de la actividad legislativa y regulatoria, decisiones judiciales
+  y administrativas.
+author:
+  - CELE
+content_type:
+  - boletin
+programs:
+  - policy
 type: posts
+featured: false
 newsletter_series: observatorio
+image: /img/shutterstock_1698060541-1-scaled.jpg
+tags:
+  - institucional
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2025-06-02
-        url: https://www.lanacion.com.ar/politica/declaran-inconstitucional-el-decreto-de-milei-que-limito-el-derecho-de-huelga-nid02062025/
+        tipo: proyecto
         texto: >-
           La jueza laboral Moira Fullana [suspendió provisionalmente los artículos 2
-          y 3]($url) del Decreto de Necesidad y Urgencia (DNU) 340/2025, emitido por
-          el presidente Javier Milei, que ampliaba las actividades consideradas
+          y
+          3](https://www.lanacion.com.ar/politica/declaran-inconstitucional-el-decreto-de-milei-que-limito-el-derecho-de-huelga-nid02062025/)
+          del Decreto de Necesidad y Urgencia (DNU) 340/2025, emitido por el
+          presidente Javier Milei, que ampliaba las actividades consideradas
           esenciales y limitaba el derecho a huelga. La medida cautelar fue
           solicitada por la Confederación General del Trabajo (CGT), argumentando
           que el decreto violaba la libertad sindical y el principio de división de
@@ -35,11 +42,12 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-05-27
-        url: https://elpais.com/argentina/2025-05-28/milei-ordena-espiar-a-quienes-manipulen-a-la-opinion-publica.html
+        tipo: proyecto
         texto: >-
           El periodista Hugo Alconada Mon reveló que el gobierno de Javier Milei
-          habría autorizado un nuevo [Plan de Inteligencia Nacional (PIN)]($url) que
-          permite espiar a personas consideradas como amenazas para su gobierno,
+          habría autorizado un nuevo [Plan de Inteligencia Nacional
+          (PIN)](https://elpais.com/argentina/2025-05-28/milei-ordena-espiar-a-quienes-manipulen-a-la-opinion-publica.html)
+          que permite espiar a personas consideradas como amenazas para su gobierno,
           especialmente aquellos que busquen influir negativamente en la opinión
           pública sobre sus políticas de seguridad y economía. El plan señala como
           objetivos a periodistas, economistas, activistas y ciudadanos que puedan
@@ -50,27 +58,28 @@ paises:
           - vigilancia
 
       - fecha: 2025-05-23
-        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2610-D-2025.pdf
+        tipo: proyecto
         texto: >-
           Las diputadas Natalia Sarapura, Marcela Campagnoli y los diputados Gerardo
           Cipolini y Esteban Paulón presentaron el [Proyecto de Ley N.º
-          2610-D-2025]($url). El proyecto propone la creación del “Comité Nacional
-          Interinstitucional Permanente de Actuación ante Casos de Desaparición y
-          Extravío de Niños, Niñas, Adolescentes, Mujeres y Personas de la
-          Diversidad”. La iniciativa busca establecer un sistema de respuesta
-          estatal inmediata, coordinada y especializada, garantizando la protección
-          de derechos y articulación entre los tres poderes del Estado y la sociedad
-          civil. El proyecto también prevé la difusión de imágenes y datos
-          personales a través de medios de comunicación y plataformas digitales
-          oficiales
+          2610-D-2025](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2610-D-2025.pdf).
+          El proyecto propone la creación del “Comité Nacional Interinstitucional
+          Permanente de Actuación ante Casos de Desaparición y Extravío de Niños,
+          Niñas, Adolescentes, Mujeres y Personas de la Diversidad”. La iniciativa
+          busca establecer un sistema de respuesta estatal inmediata, coordinada y
+          especializada, garantizando la protección de derechos y articulación entre
+          los tres poderes del Estado y la sociedad civil. El proyecto también prevé
+          la difusión de imágenes y datos personales a través de medios de
+          comunicación y plataformas digitales oficiales
         etiquetas:
           - privacidad
 
       - fecha: 2025-05-23
-        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2602-D-2025.pdf
+        tipo: proyecto
         texto: >-
-          Diputados presentaron el [Proyecto de Ley N.º 2602-D-2025]($url). La
-          iniciativa establece un régimen de responsabilidad institucional ante
+          Diputados presentaron el [Proyecto de Ley N.º
+          2602-D-2025](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2602-D-2025.pdf).
+          La iniciativa establece un régimen de responsabilidad institucional ante
           expresiones de odio, discriminación o violencia simbólica por parte de
           funcionarios públicos nacionales, incluyendo declaraciones emitidas en
           actos oficiales, redes sociales institucionales y cuentas personales
@@ -87,61 +96,66 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-05-22
-        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2578-D-2025.pdf
+        tipo: proyecto
         texto: >-
           El diputado Oscar Agost Carreño presentó el [Proyecto de Ley N.º
-          2578-D-2025]($url) que propone la creación de la Comisión Bicameral de
-          Seguimiento de la Inteligencia Artificial. El objetivo de esta comisión es
-          monitorear, analizar y proponer legislación sobre el desarrollo y uso de
-          sistemas de IA en la Argentina. La comisión estará conformada por 10
-          senadores y 10 diputados y tendrá facultades para coordinar con expertos,
-          organismos públicos y privados, emitir informes periódicos, y fomentar el
-          uso progresivo de IA en los procesos legislativos.
+          2578-D-2025](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2578-D-2025.pdf)
+          que propone la creación de la Comisión Bicameral de Seguimiento de la
+          Inteligencia Artificial. El objetivo de esta comisión es monitorear,
+          analizar y proponer legislación sobre el desarrollo y uso de sistemas de
+          IA en la Argentina. La comisión estará conformada por 10 senadores y 10
+          diputados y tendrá facultades para coordinar con expertos, organismos
+          públicos y privados, emitir informes periódicos, y fomentar el uso
+          progresivo de IA en los procesos legislativos.
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2025-05-21
         tipo: decreto
-        url: https://www.boletinoficial.gob.ar/detalleAviso/primera/325658/20250521
         texto: >-
-          Se publicó en el Diario Oficial el [Decreto 340/2025]($url) que restringe
-          severamente el derecho a huelga, ampliando la lista de actividades
-          consideradas esenciales y obligando a garantizar servicios mínimos del
-          75%.
+          Se publicó en el Diario Oficial el [Decreto
+          340/2025](https://www.boletinoficial.gob.ar/detalleAviso/primera/325658/20250521)
+          que restringe severamente el derecho a huelga, ampliando la lista de
+          actividades consideradas esenciales y obligando a garantizar servicios
+          mínimos del 75%.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2025-05-16
-        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2423-D-2025.pdf
+        tipo: proyecto
         texto: >-
           Las diputadas Blanca Osuna, Nancy Sand, Mónica Macha y otros legisladores
-          presentaron el [Proyecto de Ley N.º 2423-D-2025]($url). La iniciativa
-          propone declarar un compromiso político por la educación y la
-          infraestructura tecnológica, garantizando la conectividad, alfabetización
-          digital y acceso a tecnologías de la información en todas las escuelas
-          públicas de nivel obligatorio.
+          presentaron el [Proyecto de Ley N.º
+          2423-D-2025](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2423-D-2025.pdf).
+          La iniciativa propone declarar un compromiso político por la educación y
+          la infraestructura tecnológica, garantizando la conectividad,
+          alfabetización digital y acceso a tecnologías de la información en todas
+          las escuelas públicas de nivel obligatorio.
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2025-05-15
-        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2393-D-2025.pdf
+        tipo: proyecto
         texto: >-
           El diputado Esteban Paulón y la diputada Mónica Fein presentaron el
-          [Proyecto de Ley N.º 2393-D-2025]($url). La iniciativa propone reformar la
-          Ley de Ética Pública y el Código Electoral Nacional para prohibir
-          expresamente el uso de la publicidad oficial con fines electorales o de
-          promoción personal de funcionarios/as públicos/as. Se establecen
-          restricciones a la mención de nombres, símbolos o logros de gestión en
-          actos institucionales y se regulan los contenidos de campañas durante los
-          períodos electorales. Además, el proyecto incorpora sanciones como la
-          inhabilitación para ejercer cargos públicos, la revocación de candidaturas
-          y la redistribución de los espacios de publicidad oficial. También
-          sanciona a medios de comunicación que incumplan estas disposiciones.
+          [Proyecto de Ley N.º
+          2393-D-2025](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2393-D-2025.pdf).
+          La iniciativa propone reformar la Ley de Ética Pública y el Código
+          Electoral Nacional para prohibir expresamente el uso de la publicidad
+          oficial con fines electorales o de promoción personal de funcionarios/as
+          públicos/as. Se establecen restricciones a la mención de nombres, símbolos
+          o logros de gestión en actos institucionales y se regulan los contenidos
+          de campañas durante los períodos electorales. Además, el proyecto
+          incorpora sanciones como la inhabilitación para ejercer cargos públicos,
+          la revocación de candidaturas y la redistribución de los espacios de
+          publicidad oficial. También sanciona a medios de comunicación que
+          incumplan estas disposiciones.
         etiquetas:
           - libertad-de-expresion
           - publicidad-oficial
 
       - fecha: 2025-05-13
+        tipo: proyecto
         exp: 2301-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2301-D-2025.pdf
         texto: >-
@@ -158,52 +172,56 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-05-13
-        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2300-D-2025.pdf
+        tipo: proyecto
         texto: >-
           El diputado Manuel Ignacio Aguirre presentó el [Proyecto de Ley N.º
-          2300-D-2025]($url), que propone establecer un régimen penal específico
-          para sancionar la manipulación de imágenes con desnudos no consentidos
-          mediante IA. El proyecto tipifica la creación, modificación y difusión de
-          este tipo de contenidos como delitos, con penas de prisión o multas
-          económicas, y agrava las sanciones en casos de menores de edad, fines
-          extorsivos o difusión sistemática.
+          2300-D-2025](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2300-D-2025.pdf),
+          que propone establecer un régimen penal específico para sancionar la
+          manipulación de imágenes con desnudos no consentidos mediante IA. El
+          proyecto tipifica la creación, modificación y difusión de este tipo de
+          contenidos como delitos, con penas de prisión o multas económicas, y
+          agrava las sanciones en casos de menores de edad, fines extorsivos o
+          difusión sistemática.
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2025-05-11
-        url: https://elpais.com/america-futura/2025-05-13/las-abuelas-de-plaza-de-mayo-se-alian-con-la-inteligencia-artificial-para-buscar-a-sus-nietos.html
+        tipo: proyecto
         texto: >-
-          Las [Abuelas de Plaza de Mayo]($url) anunciaron una alianza con la
-          Universidad de Buenos Aires y la empresa Quantit para utilizar
-          inteligencia artificial en la búsqueda de casi 300 nietos aún no
-          identificados. El proyecto busca digitalizar archivos y utilizar
-          algoritmos para agilizar la identificación de casos.
+          Las [Abuelas de Plaza de
+          Mayo](https://elpais.com/america-futura/2025-05-13/las-abuelas-de-plaza-de-mayo-se-alian-con-la-inteligencia-artificial-para-buscar-a-sus-nietos.html)
+          anunciaron una alianza con la Universidad de Buenos Aires y la empresa
+          Quantit para utilizar inteligencia artificial en la búsqueda de casi 300
+          nietos aún no identificados. El proyecto busca digitalizar archivos y
+          utilizar algoritmos para agilizar la identificación de casos.
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2025-05-07
-        url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2130-D-2025.pdf
+        tipo: proyecto
         texto: >-
           El diputado Daniel Gollan presentó el [Proyecto de Ley N.º
-          2130-D-2025]($url), que propone establecer un Marco Normativo y de
-          Desarrollo de los Sistemas de IA.
+          2130-D-2025](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/2130-D-2025.pdf),
+          que propone establecer un Marco Normativo y de Desarrollo de los Sistemas
+          de IA.
         etiquetas:
           - inteligencia-artificial
 
   - pais: Chile
     entradas:
       - fecha: 2025-05-14
+        tipo: proyecto
         exp: 17555-07
         url: https://www.camara.cl/legislacion/proyectosdeley/tramitacion.aspx?prmID=18197&prmBOLETIN=17555-07
         texto: >-
-          Se presentó ante la Cámara de Diputados el [proyecto de ley N° 17555-07
-          ]($url)que modifica el artículo 33 de la Ley 19.733 sobre Libertades de
-          Opinión e Información y Ejercicio del Periodismo, con el objetivo de
-          prohibir expresamente la divulgación de la identidad de personas que
-          denuncien ser víctimas de delitos sexuales, como violación, abuso o acoso.
-          La propuesta busca incorporar una cláusula que impida a los medios de
-          comunicación revelar información identificatoria de denunciantes en estos
-          casos, con el fin de proteger su intimidad, dignidad y evitar la
+          Se presentó ante la Cámara de Diputados el [proyecto de ley N°
+          17555-07]($url) que modifica el artículo 33 de la Ley 19.733 sobre
+          Libertades de Opinión e Información y Ejercicio del Periodismo, con el
+          objetivo de prohibir expresamente la divulgación de la identidad de
+          personas que denuncien ser víctimas de delitos sexuales, como violación,
+          abuso o acoso. La propuesta busca incorporar una cláusula que impida a los
+          medios de comunicación revelar información identificatoria de denunciantes
+          en estos casos, con el fin de proteger su intimidad, dignidad y evitar la
           revictimización.
         etiquetas:
           - libertad-de-expresion
@@ -212,6 +230,7 @@ paises:
   - pais: Paraguay
     entradas:
       - fecha: 2025-05-28
+        tipo: proyecto
         exp: D-2584815
         url: https://silpy.congreso.gov.py/web/expediente/143183
         texto: >-
@@ -230,6 +249,7 @@ paises:
           - privacidad
 
       - fecha: 2025-05-21
+        tipo: proyecto
         exp: S-2502241
         url: https://silpy.congreso.gov.py/web/expediente/142921
         texto: >-
@@ -244,6 +264,7 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2025-05-12
+        tipo: proyecto
         exp: D-2584479
         url: https://silpy.congreso.gov.py/web/expediente/142693
         texto: >-
@@ -259,46 +280,50 @@ paises:
           especializados.
 
       - fecha: 2025-05-08
-        url: https://www.unesco.org/es/articles/paraguay-impulsa-la-formacion-etica-en-inteligencia-artificial-y-periodismo-comunitario
+        tipo: proyecto
         texto: >-
-          Con el apoyo de la [UNESCO]($url), se lanzó un proyecto para formar a 200
-          periodistas en el uso ético de la IA. La iniciativa incluye talleres,
-          recursos educativos y la elaboración de directrices de buenas prácticas,
-          con el objetivo de fortalecer el periodismo comunitario y promover una
-          cobertura informativa responsable.
+          Con el apoyo de la
+          [UNESCO](https://www.unesco.org/es/articles/paraguay-impulsa-la-formacion-etica-en-inteligencia-artificial-y-periodismo-comunitario),
+          se lanzó un proyecto para formar a 200 periodistas en el uso ético de la
+          IA. La iniciativa incluye talleres, recursos educativos y la elaboración
+          de directrices de buenas prácticas, con el objetivo de fortalecer el
+          periodismo comunitario y promover una cobertura informativa responsable.
         etiquetas:
           - inteligencia-artificial
 
       - fecha: 2025-05-04
-        url: https://elnacional.com.py/politica/paraguay-avanza-una-ley-moderna-proteccion-datos-personales-n85205
+        tipo: proyecto
         texto: >-
-          La [Cámara de Diputados ]($url)otorgó media sanción al proyecto de Ley de
-          Protección de Datos Personales. Esta normativa busca elevar la protección
-          de datos al rango de derecho humano, estableciendo obligaciones como el
-          consentimiento expreso para el tratamiento de datos y reconociendo los
-          derechos ARCO.
+          La [Cámara de
+          Diputados](https://elnacional.com.py/politica/paraguay-avanza-una-ley-moderna-proteccion-datos-personales-n85205)
+          otorgó media sanción al proyecto de Ley de Protección de Datos Personales.
+          Esta normativa busca elevar la protección de datos al rango de derecho
+          humano, estableciendo obligaciones como el consentimiento expreso para el
+          tratamiento de datos y reconociendo los derechos ARCO.
         etiquetas:
           - privacidad
 
   - pais: Colombia
     entradas:
       - fecha: 2025-05-13
-        url: https://elpais.com/america-colombia/2025-05-13/la-procuraduria-sanciona-con-cortas-inhabilidades-a-nueve-militares-que-interceptaron-ilegalmente-a-130-periodistas-y-politicos.html
+        tipo: proyecto
         texto: >-
-          La [Procuraduría General de la Nación ]($url)sancionó a nueve militares
-          con suspensiones e inhabilidades de entre tres y seis meses por
-          interceptaciones ilegales a 130 periodistas, políticos y defensores de
-          derechos humanos. Este caso, conocido como "Carpetas Secretas", evidenció
-          seguimientos sin autorización judicial desde unidades de inteligencia del
-          Ejército.
+          La [Procuraduría General de la
+          Nación](https://elpais.com/america-colombia/2025-05-13/la-procuraduria-sanciona-con-cortas-inhabilidades-a-nueve-militares-que-interceptaron-ilegalmente-a-130-periodistas-y-politicos.html)
+          sancionó a nueve militares con suspensiones e inhabilidades de entre tres
+          y seis meses por interceptaciones ilegales a 130 periodistas, políticos y
+          defensores de derechos humanos. Este caso, conocido como "Carpetas
+          Secretas", evidenció seguimientos sin autorización judicial desde unidades
+          de inteligencia del Ejército.
         etiquetas:
           - vigilancia
           - libertad-de-prensa
 
       - fecha: 2025-05-07
-        url: https://periodico.unal.edu.co/articulos/los-vacios-del-proyecto-de-ley-sobre-inteligencia-artificial-en-colombia
+        tipo: proyecto
         texto: >-
-          Se radicó en el Senado el [Proyecto de Ley Unificado sobre IA]($url),
+          Se radicó en el Senado el [Proyecto de Ley Unificado sobre
+          IA](https://periodico.unal.edu.co/articulos/los-vacios-del-proyecto-de-ley-sobre-inteligencia-artificial-en-colombia),
           elaborado por los Ministerios de Ciencia y Tecnología, y de las TIC. La
           iniciativa busca establecer un marco regulatorio para el desarrollo y uso
           ético de la IA en Colombia, considerando directrices de la UNESCO, la OCDE
@@ -309,17 +334,19 @@ paises:
   - pais: México
     entradas:
       - fecha: 2025-05-19
-        url: https://elpais.com/mexico/2025-05-19/las-preocupaciones-que-llevaron-a-sheinbaum-a-aplazar-la-nueva-ley-de-telecomunicaciones.html
+        tipo: proyecto
         texto: >-
-          La presidenta Claudia Sheinbaum decidió [posponer la aprobación]($url) de
-          la nueva Ley de Telecomunicaciones y Radiodifusión debido a preocupaciones
-          sobre artículos ambiguos que podrían interpretarse como intentos de
-          censura estatal. Se convocó a un debate público con expertos, empresarios
-          y legisladores para revisar y ajustar el proyecto.
+          La presidenta Claudia Sheinbaum decidió [posponer la
+          aprobación](https://elpais.com/mexico/2025-05-19/las-preocupaciones-que-llevaron-a-sheinbaum-a-aplazar-la-nueva-ley-de-telecomunicaciones.html)
+          de la nueva Ley de Telecomunicaciones y Radiodifusión debido a
+          preocupaciones sobre artículos ambiguos que podrían interpretarse como
+          intentos de censura estatal. Se convocó a un debate público con expertos,
+          empresarios y legisladores para revisar y ajustar el proyecto.
 
   - pais: Brasil
     entradas:
       - fecha: 2025-05-28
+        tipo: proyecto
         exp: PL 2602/2025
         url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2517812
         texto: >-
@@ -337,6 +364,7 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-05-21
+        tipo: proyecto
         exp: PL 2462/2025
         url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515281
         texto: >-
@@ -352,29 +380,32 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2025-05-13
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2508275
+        tipo: proyecto
         texto: >-
           La diputada Silvye Alves presentó el [Proyecto de Ley N.º
-          2268/2025]($url), que prohíbe la realización de llamadas telefónicas
-          automatizadas, con o sin uso de inteligencia artificial, para fines de
-          marketing, cobranza, encuestas de opinión o campañas institucionales, sin
-          intervención humana directa. La iniciativa permite su uso solo en casos de
-          interés público o con consentimiento previo del consumidor. El proyecto
-          obliga a las empresas a identificarse al inicio de la llamada, ofrecer un
-          mecanismo de exclusión inmediata y registrar las comunicaciones por al
-          menos 12 meses. También impone a las operadoras la obligación de ofrecer
-          gratuitamente mecanismos de bloqueo de este tipo de llamadas. El
-          incumplimiento será sancionado con advertencias, multas de hasta R$50.000
-          por infracción y suspensión temporal de actividades.
+          2268/2025](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2508275),
+          que prohíbe la realización de llamadas telefónicas automatizadas, con o
+          sin uso de inteligencia artificial, para fines de marketing, cobranza,
+          encuestas de opinión o campañas institucionales, sin intervención humana
+          directa. La iniciativa permite su uso solo en casos de interés público o
+          con consentimiento previo del consumidor. El proyecto obliga a las
+          empresas a identificarse al inicio de la llamada, ofrecer un mecanismo de
+          exclusión inmediata y registrar las comunicaciones por al menos 12 meses.
+          También impone a las operadoras la obligación de ofrecer gratuitamente
+          mecanismos de bloqueo de este tipo de llamadas. El incumplimiento será
+          sancionado con advertencias, multas de hasta R$50.000 por infracción y
+          suspensión temporal de actividades.
 
       - fecha: 2025-05-05
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485940&utm
+        tipo: proyecto
         texto: >-
-          El [Proyecto de Ley 769/2025]($url), presentado por la diputada Daniela
-          Reinehr y otros, busca prohibir la censura previa en ambientes virtuales y
-          en la prensa, asegurando el pleno ejercicio de la libertad de expresión
-          conforme a la Constitución Federal. La propuesta entró en trámite en la
-          Comisión de Comunicación de la Cámara de Diputados.
+          El [Proyecto de Ley
+          769/2025](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2485940&utm),
+          presentado por la diputada Daniela Reinehr y otros, busca prohibir la
+          censura previa en ambientes virtuales y en la prensa, asegurando el pleno
+          ejercicio de la libertad de expresión conforme a la Constitución Federal.
+          La propuesta entró en trámite en la Comisión de Comunicación de la Cámara
+          de Diputados.
         etiquetas:
           - libertad-de-expresion
           - censura
@@ -382,6 +413,7 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2025-05-27
+        tipo: proyecto
         exp: LEY 32351
         url: https://ipys.org/alertas/per%C3%BA-obligan-los-medios-conceder-10-de-programaci%C3%B3n-para-uso-de-programas-estatales-de
         texto: >-
@@ -393,17 +425,64 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-05-23
-        url: https://ipys.org/alertas/per%C3%BA-gobierno-niega-derecho-de-acceso-informacion-medios-que-preguntaron-sobre-aumento-de
+        tipo: proyecto
         texto: >-
           La Presidencia del Consejo de Ministros (PCM) [negó solicitudes de acceso
-          a la información pública]($url) presentadas por medios como El Comercio,
-          Panorama y La Encerrona, relacionadas con el aumento de sueldo de la
-          presidenta Dina Boluarte. Esta negativa ha sido criticada por
-          organizaciones de prensa y defensores de la transparencia.
+          a la información
+          pública](https://ipys.org/alertas/per%C3%BA-gobierno-niega-derecho-de-acceso-informacion-medios-que-preguntaron-sobre-aumento-de)
+          presentadas por medios como El Comercio, Panorama y La Encerrona,
+          relacionadas con el aumento de sueldo de la presidenta Dina Boluarte. Esta
+          negativa ha sido criticada por organizaciones de prensa y defensores de la
+          transparencia.
         etiquetas:
           - acceso-a-la-informacion
 ---
 
-{{< observatorio-mes month="2025-05" >}}
+**Proyectos por país**
+
+| País | Proyectos |
+|---|---:|
+| Argentina | 53 |
+| Brasil | 60 |
+| Chile | 12 |
+| Colombia | 44 |
+| Ecuador | 4 |
+| Guatemala | 1 |
+| México | 37 |
+| Paraguay | 2 |
+| Perú | 13 |
+
+**Temas proyectos de ley presentados entre enero de 2024 y febrero de 2025**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 17,2% |
+| Igualdad y no discriminación | 11,0% |
+| Protección de menores | 10,0% |
+| Libertad de expresión | 7,2% |
+| Reputación y honor | 5,3% |
+| Seguridad nacional | 4,5% |
+| Violencia de género | 4,0% |
+| Responsabilidad de intermediarios | 2,9% |
+| Acceso a internet | 2,7% |
+| Pornografía | 2,1% |
+| Apología | 1,9% |
+| Acoso | 1,5% |
+| Publicidad oficial | 1,4% |
+
+**Temas proyectos de ley presentados entre enero de 2024 y febrero de 2025**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 4,8% |
+| Acoso | 9,5% |
+| Apología | 4,8% |
+| Libertad de culto | 1,6% |
+| Igualdad y no discriminación | 15,9% |
+| Publicidad oficial | 4,8% |
+| Fake News | 1,6% |
+| Protección de menores | 14,3% |
+| Reputación y honor | 4,8% |
+| Moderación de contenidos | 4,8% |
 
 {{< boletin-paises >}}

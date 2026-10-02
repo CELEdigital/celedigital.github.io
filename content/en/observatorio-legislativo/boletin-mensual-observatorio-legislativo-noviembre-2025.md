@@ -1,23 +1,29 @@
 ---
-author: [CELE]
-content_type: [boletin]
-date: '2025-12-05'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales
-  y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
+title: 'Boletín mensual Observatorio Legislativo | Noviembre 2025'
 slug: boletin-mensual-observatorio-legislativo-noviembre-2025
-tags: [institucional]
-title: Boletín mensual Observatorio Legislativo | Noviembre 2025
+date: 2025-12-05
 translationKey: wp-15270
+description: >-
+  Novedades de la actividad legislativa y regulatoria, decisiones judiciales
+  y administrativas.
+author:
+  - CELE
+content_type:
+  - boletin
+programs:
+  - policy
 type: posts
+featured: false
 newsletter_series: observatorio
+image: /img/shutterstock_1698060541-1-scaled.jpg
+tags:
+  - institucional
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2025-11-05
+        tipo: proyecto
         exp: 1876/25
         url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/1876.25/S/PL
         texto: >-
@@ -32,13 +38,14 @@ paises:
           - proteccion-de-menores
 
       - fecha: 2025-11-06
-        url: https://www.lagaceta.com.ar/nota/1111472/politica/cautelar-censura-ccc-fue-tildada-aberrante-e-inconstitucional.html
+        tipo: proyecto
         texto: >-
           Un juez subrogante del Colegio de Jueces y Juezas Penales del Centro
           Judicial de la Capital de Tucumán, [Lucas Taboada, emitió un fallo en el
-          que se ordenó a la empresa Compañia de Circuitos Cerrados (CCC)]($url) y a
-          todos sus trabajadores que cesen inmediatamente la difusión por cualquier
-          medio de todo contenido que, “directa o indirectamente, injurie,
+          que se ordenó a la empresa Compañia de Circuitos Cerrados
+          (CCC)](https://www.lagaceta.com.ar/nota/1111472/politica/cautelar-censura-ccc-fue-tildada-aberrante-e-inconstitucional.html)
+          y a todos sus trabajadores que cesen inmediatamente la difusión por
+          cualquier medio de todo contenido que, “directa o indirectamente, injurie,
           desacredite, tergiverse o distorsione la actuación de los fiscales, de sus
           funcionarios o de los magistrados intervinientes”; y que se abstengan en
           el futuro de realizar contenidos de este tipo. El Ministerio Público
@@ -51,13 +58,13 @@ paises:
           (INECIP)](https://www.lanacion.com.ar/politica/la-justicia-tucumana-ordeno-un-bozal-legal-a-una-empresa-periodistica-para-que-no-critique-a-jueces-nid10112025/)
           se expresaron de manera similar, indicando que la aplicación de la orden
           pondría en riesgo la libertad de expresión y de prensa. La [Asociación de
-          Entidades Periodísticas Argentinas (ADEPA)
-          ](https://www.losandes.com.ar/politica/adepa-repudia-orden-judicial-tucuman-que-prohibe-criticar-al-ministerio-publico-fiscal-medios-n5969714)manifestó
-          también su repudio, señalando que ninguna autoridad estatal, ya sea
-          judicial o administrativa, puede imponer censura previa, especialmente en
-          temas de interés público y sobre funcionarios estatales. Con todo, ciertos
-          actores del Estado se han posicionado en defensa de la aplicación de la
-          orden. El gobernador [Osvaldo Jaldo indicó que él
+          Entidades Periodísticas Argentinas
+          (ADEPA)](https://www.losandes.com.ar/politica/adepa-repudia-orden-judicial-tucuman-que-prohibe-criticar-al-ministerio-publico-fiscal-medios-n5969714)
+          manifestó también su repudio, señalando que ninguna autoridad estatal, ya
+          sea judicial o administrativa, puede imponer censura previa, especialmente
+          en temas de interés público y sobre funcionarios estatales. Con todo,
+          ciertos actores del Estado se han posicionado en defensa de la aplicación
+          de la orden. El gobernador [Osvaldo Jaldo indicó que él
           cumpliría](https://www.enteratenoticias.com.ar/politica/retroceso-y-mordaza-legal-siguen-los-cuestionamientos-por-la-censura-previa-en-tucuman-6337/)
           con vigilar que se acate la orden, y que luego quienes se opongan podrían
           hacer lo formalmente necesario para solicitar que se revierta la decisión.
@@ -73,15 +80,17 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-11-19
-        url: https://www.tiempoar.com.ar/ta_article/libertad-sipreba-mengolini/
+        tipo: proyecto
         texto: >-
           Se llevó a cabo la [audiencia ante la Comisión Interamericana de Derechos
-          Humanos (CIDH)]($url) solicitada por Amnistía Internacional, el Foro de
-          Periodismo Argentino (FOPEA), el Centro de Estudios Legales y Sociales
-          (CELS) y el Sindicato de Prensa de Buenos Aires (SiPreBA), para discutir
-          el “deterioro sostenido y alarmante” de la libertad de expresión en
-          Argentina. Los expositores coincidieron en que periodistas y trabajadores
-          de prensa [enfrentan un contexto de “hostigamiento y
+          Humanos
+          (CIDH)](https://www.tiempoar.com.ar/ta_article/libertad-sipreba-mengolini/)
+          solicitada por Amnistía Internacional, el Foro de Periodismo Argentino
+          (FOPEA), el Centro de Estudios Legales y Sociales (CELS) y el Sindicato de
+          Prensa de Buenos Aires (SiPreBA), para discutir el “deterioro sostenido y
+          alarmante” de la libertad de expresión en Argentina. Los expositores
+          coincidieron en que periodistas y trabajadores de prensa [enfrentan un
+          contexto de “hostigamiento y
           deslegitimación”](https://enredaccion.com.ar/argentina-alerto-a-la-cidh-por-la-libertad-de-expresion-y-el-gobierno-minimizo-los-cuestionamientos/)
           alentado desde las más altas esferas del Gobierno. El monitoreo de FOPEA
           registró 179 ataques a la labor periodística en 2024, un aumento del 53%
@@ -98,26 +107,28 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2025-10-21
-        url: https://www.diarioconstitucional.cl/2025/10/21/corte-suprema-ordena-a-chilevision-reformular-titulo-de-reportaje-por-vulnerar-derecho-a-la-honra-de-la-recurrente/
+        tipo: proyecto
         texto: >-
-          La Corte Suprema [ordenó a Chilevisión reformular el título del reportaje
-          ]($url)“La empresaria VIP de Chicureo”, por considerar que esta expresión
-          era descalificadora y carente de objetividad.
+          La Corte Suprema [ordenó a Chilevisión reformular el título del
+          reportaje](https://www.diarioconstitucional.cl/2025/10/21/corte-suprema-ordena-a-chilevision-reformular-titulo-de-reportaje-por-vulnerar-derecho-a-la-honra-de-la-recurrente/)
+          “La empresaria VIP de Chicureo”, por considerar que esta expresión era
+          descalificadora y carente de objetividad.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2025-10-22
-        url: https://www.diarioconstitucional.cl/2025/10/22/corte-suprema-reafirma-que-el-derecho-al-olvido-no-esta-reconocido-en-chile-y-que-la-libertad-de-expresion-prevalece-en-casos-de-interes-publico/
+        tipo: proyecto
         texto: >-
           La [Corte Suprema ratificó la decisión de la Corte de Apelaciones de
           Santiago, en la que sea afirmó que el “derecho al olvido” no se encuentra
-          reconocido]($url) en el ordenamiento jurídico chileno, y que en casos en
-          que el derecho a la privacidad entre en conflicto con la libertad de
-          expresión, la segunda prevalece siempre que la información sea verídica y
-          de interés público. La Corte de Apelaciones de Santiago rechazó un recurso
-          de protección presentado en contra de Google Chile, Google LLC, Compañía
-          Chilena de Comunicaciones (Radio Cooperativa), Consorcio Periodístico de
-          Chile (COPESA), Gestión Regional de Medios y Bío Bío Comunicaciones, por
+          reconocido](https://www.diarioconstitucional.cl/2025/10/22/corte-suprema-reafirma-que-el-derecho-al-olvido-no-esta-reconocido-en-chile-y-que-la-libertad-de-expresion-prevalece-en-casos-de-interes-publico/)
+          en el ordenamiento jurídico chileno, y que en casos en que el derecho a la
+          privacidad entre en conflicto con la libertad de expresión, la segunda
+          prevalece siempre que la información sea verídica y de interés público. La
+          Corte de Apelaciones de Santiago rechazó un recurso de protección
+          presentado en contra de Google Chile, Google LLC, Compañía Chilena de
+          Comunicaciones (Radio Cooperativa), Consorcio Periodístico de Chile
+          (COPESA), Gestión Regional de Medios y Bío Bío Comunicaciones, por
           mantener disponibles en sus plataformas digitales noticias relativas a una
           condena penal cumplida por la recurrente hace más de diecisiete años. La
           parte recurrente solicitó que se ordenara a los medios y al motor de
@@ -144,27 +155,28 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-10-31
-        url: https://www.diarioconstitucional.cl/2025/10/31/corte-suprema-protege-derecho-al-buen-nombre-y-ordena-eliminar-publicaciones-de-instagram-y-whatsapp/
+        tipo: proyecto
         texto: >-
           La [Corte Suprema revocó la sentencia dictada por la Corte de Apelaciones
           de Temuco, que había rechazado el recurso de protección interpuesto por
           una persona contra otras dos por publicaciones realizadas en redes
-          sociales]($url). La recurrente denunció la vulneración de su derecho a la
-          honra al haberse realizado publicaciones en Instagram y WhatsApp
-          calificando a su cónyuge como «estafador» e involucrándola directamente en
-          un conflicto contractual inmobiliario. La Corte de Temuco rechazó la
-          acción cautelar, estimando que las expresiones se enmarcaban en el
-          ejercicio legítimo de la libertad de expresión y no configuraban actos
-          ilegales o arbitrarios. Sin embargo, esta decisión fue revertida por la
-          Corte Suprema tras la apelación de los recurrentes, al determinar que en
-          este caso el daño ocasionado al derecho a la honra sobrepasaba los límites
-          de la libertad de expresión. Con esta decisión, se ordenó a los
-          responsables eliminar las publicaciones citadas.
+          sociales](https://www.diarioconstitucional.cl/2025/10/31/corte-suprema-protege-derecho-al-buen-nombre-y-ordena-eliminar-publicaciones-de-instagram-y-whatsapp/).
+          La recurrente denunció la vulneración de su derecho a la honra al haberse
+          realizado publicaciones en Instagram y WhatsApp calificando a su cónyuge
+          como «estafador» e involucrándola directamente en un conflicto contractual
+          inmobiliario. La Corte de Temuco rechazó la acción cautelar, estimando que
+          las expresiones se enmarcaban en el ejercicio legítimo de la libertad de
+          expresión y no configuraban actos ilegales o arbitrarios. Sin embargo,
+          esta decisión fue revertida por la Corte Suprema tras la apelación de los
+          recurrentes, al determinar que en este caso el daño ocasionado al derecho
+          a la honra sobrepasaba los límites de la libertad de expresión. Con esta
+          decisión, se ordenó a los responsables eliminar las publicaciones citadas.
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
 
       - fecha: 2025-11-04
+        tipo: proyecto
         exp: 17949-06
         url: http://www.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=17949-06
         texto: >-
@@ -178,6 +190,7 @@ paises:
           - electoral
 
       - fecha: 2025-11-05
+        tipo: proyecto
         exp: 17953-35
         url: http://www.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=17953-3
         texto: >-
@@ -191,19 +204,21 @@ paises:
           - accesibilidad
 
       - fecha: 2025-11-06
-        url: https://www.paislobo.cl/2025/11/grave-atentado-la-libertad-de-prensa-colegio-de-periodistas-condena-solicitud-de-fiscalia.html
+        tipo: proyecto
         texto: >-
           En el marco de la investigación del “Caso Hermosilla”, el [Ministerio
           Público emitió una solicitud para interceptar los registros telefónicos de
-          once periodistas]($url) de diversos medios con el fin de identificar sus
-          fuentes. De haber sido concedida, esto le hubiera dado acceso al
-          Ministerio Público a los registros de llamadas, datos de
-          georreferenciación y tráfico de datos móviles de los periodistas. La
-          solicitud fue rechazada por el 4° Juzgado de Garantía, así como por la
-          Corte de Apelaciones de Santiago. En los días siguientes, el Colegio de
-          Periodistas de Chile condenó estos hechos como un "grave atentado a la
-          libertad de prensa" y un "acto inaceptable de vulneración del secreto de
-          las fuentes periodísticas". La [Asociación Nacional de la
+          once
+          periodistas](https://www.paislobo.cl/2025/11/grave-atentado-la-libertad-de-prensa-colegio-de-periodistas-condena-solicitud-de-fiscalia.html)
+          de diversos medios con el fin de identificar sus fuentes. De haber sido
+          concedida, esto le hubiera dado acceso al Ministerio Público a los
+          registros de llamadas, datos de georreferenciación y tráfico de datos
+          móviles de los periodistas. La solicitud fue rechazada por el 4° Juzgado
+          de Garantía, así como por la Corte de Apelaciones de Santiago. En los días
+          siguientes, el Colegio de Periodistas de Chile condenó estos hechos como
+          un "grave atentado a la libertad de prensa" y un "acto inaceptable de
+          vulneración del secreto de las fuentes periodísticas". La [Asociación
+          Nacional de la
           Prensa](https://www.df.cl/economia-y-politica/pais/anp-repudia-intento-de-la-fiscalia-de-vulnerar-el-secreto-de-fuente)
           se expresó en términos similares.
         etiquetas:
@@ -212,14 +227,15 @@ paises:
   - pais: Paraguay
     entradas:
       - fecha: 2025-11-06
-        url: https://www.lanacion.com.py/politica/2025/10/24/ley-de-proteccion-a-periodistas-no-debe-incluir-a-activistas-sostiene-amarilla/
+        tipo: proyecto
         texto: >-
           El proyecto de la Ley de Protección a Periodistas y Personas Defensoras de
           Derechos Humanos continúa estancado en el senado, y múltiples senadores
           han compartido la perspectiva de que ésta debería ser modificada para no
-          incluir a los defensores de DDHH. El [24 de octubre]($url), el senador
-          Dionisio Amarilla defendió públicamente esta posición, junto con otros
-          legisladores; y el [6 de
+          incluir a los defensores de DDHH. El [24 de
+          octubre](https://www.lanacion.com.py/politica/2025/10/24/ley-de-proteccion-a-periodistas-no-debe-incluir-a-activistas-sostiene-amarilla/),
+          el senador Dionisio Amarilla defendió públicamente esta posición, junto
+          con otros legisladores; y el [6 de
           noviembre](https://www.ultimahora.com/prometen-aprobar-proteccion-a-periodistas-pero-no-a-defensores),
           el titular del Congreso, Basilio Bachi Núñez, adelantó que la norma sería
           aprobada, pero que los defensores de derechos humanos serían excluidos.
@@ -227,26 +243,28 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-11-17
-        url: https://www.rdn.com.py/2025/11/17/jueza-prioriza-libertad-de-expresion-en-caso-de-amparo/
+        tipo: proyecto
         texto: >-
           La jueza Rossana Frutos Olguín del juzgado de Primera Instancia en lo
           Civil y Comercial del 15° Turno [rechazó la acción de amparo presentada
-          por Axel Rolón]($url), hijo del fiscal general Emiliano Rolón, contra la
-          dirigente sindical del Ministerio Público, Carolina Palacios. El amparo
-          buscaba censurar un comunicado difundido por WhatsApp de manera temporal
-          referido a la existencia comprobable de una denuncia penal contra Axel
-          Rolón y de presuntas ventajas vinculadas a su condición de hijo del fiscal
-          general. Al rechazar la acción, la magistrada sostuvo que, en este caso,
-          debe prevalecer la libertad de expresión sobre el honor de un funcionario
+          por Axel
+          Rolón](https://www.rdn.com.py/2025/11/17/jueza-prioriza-libertad-de-expresion-en-caso-de-amparo/),
+          hijo del fiscal general Emiliano Rolón, contra la dirigente sindical del
+          Ministerio Público, Carolina Palacios. El amparo buscaba censurar un
+          comunicado difundido por WhatsApp de manera temporal referido a la
+          existencia comprobable de una denuncia penal contra Axel Rolón y de
+          presuntas ventajas vinculadas a su condición de hijo del fiscal general.
+          Al rechazar la acción, la magistrada sostuvo que, en este caso, debe
+          prevalecer la libertad de expresión sobre el honor de un funcionario
           público.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2025-11-27
         tipo: ley
-        url: https://baselegal.com.py/docs/c0a24e07-cc40-11f0-8c5a-525400343722
         texto: >-
-          Se promulgó la [Ley N° 7593/2025 de Protección de Datos Personales]($url).
+          Se promulgó la [Ley N° 7593/2025 de Protección de Datos
+          Personales](https://baselegal.com.py/docs/c0a24e07-cc40-11f0-8c5a-525400343722).
           Luego de cuatro años y medio desde que el proyecto original ingresara a la
           Cámara de Diputados y tras meses de postergaciones y debate, la Cámara de
           Senadores aprobó la versión final del proyecto legislativo y [el
@@ -283,11 +301,11 @@ paises:
     entradas:
       - fecha: 2025-10-29
         tipo: ley
-        url: https://www.eltiempo.com/politica/gobierno/exigen-sanciones-para-presidente-gustavo-petro-tras-no-acatar-orden-de-retractarse-de-senalar-a-periodistas-como-munecas-de-la-mafia-3504249
         texto: >-
           Tras no acatar la orden de la Corte Constitucional de retractar
           acusaciones hechas contra mujeres periodistas, el abogado representante de
-          las agraviadas [exigió que se sancione al presidente Gustavo Petro]($url).
+          las agraviadas [exigió que se sancione al presidente Gustavo
+          Petro](https://www.eltiempo.com/politica/gobierno/exigen-sanciones-para-presidente-gustavo-petro-tras-no-acatar-orden-de-retractarse-de-senalar-a-periodistas-como-munecas-de-la-mafia-3504249).
           El 20 de octubre, a través de la Sentencia SU-432, la [Corte
           Constitucional ordenó al presidente de Colombia retractarse y disculparse
           públicamente por calificar a 16 mujeres periodistas como “muñecas de la
@@ -310,11 +328,12 @@ paises:
           - violencia-de-genero
 
       - fecha: 2025-10-31
-        url: https://www.elinformador.com.co/index.php/general/79-nacional/342684-petro-denuncia-censura-en-orden-de-sacar-dialogo-en-film-de-toma-del-palacio-de-justicia
+        tipo: proyecto
         texto: >-
           El presidente Gustavo Petro calificó la decisión del juez Danilo Huertas
           de ordenar retirar un diálogo de una película [como un acto de censura
-          lamentable]($url). El [23 de
+          lamentable](https://www.elinformador.com.co/index.php/general/79-nacional/342684-petro-denuncia-censura-en-orden-de-sacar-dialogo-en-film-de-toma-del-palacio-de-justicia).
+          El [23 de
           octubre](https://zonacero.com/generales/juez-ordeno-retirar-un-dialogo-de-la-pelicula-basada-en-la-toma-al-palacio-de-justicia),
           el juez Huertas ordenó a los responsables por la película ‘Noviembre’,
           basada en la toma del Palacio de Justicia de 1985, retirar un diálogo en
@@ -333,24 +352,27 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-11-10
-        url: https://www.radiosantafe.com/2025/11/10/petro-pidio-perdon-a-nombre-del-estado-a-la-union-patriotica-como-corresponsable-del-genocidio-politico/
+        tipo: proyecto
         texto: >-
-          Gustavo Petro [pidió perdón en nombre del Estado]($url) a las familias de
-          miles de víctimas del partido político Unión Patriótica por el genocidio
-          de más de 6.200 de sus militantes.
+          Gustavo Petro [pidió perdón en nombre del
+          Estado](https://www.radiosantafe.com/2025/11/10/petro-pidio-perdon-a-nombre-del-estado-a-la-union-patriotica-como-corresponsable-del-genocidio-politico/)
+          a las familias de miles de víctimas del partido político Unión Patriótica
+          por el genocidio de más de 6.200 de sus militantes.
 
   - pais: Ecuador
     entradas:
       - fecha: 2025-10-30
-        url: https://www.expreso.ec/actualidad/human-rights-watch-denuncia-uso-excesivo-de-fuerza-en-protestas-en-ecuador-261694.html
+        tipo: proyecto
         texto: >-
           Diversas instituciones nacionales e internacionales continuaron
           pronunciándose acerca de los abusos de poder durante el paro nacional.
-          [Human Rights Watch]($url) denunció que la Policía y las Fuerzas Armadas
-          de Ecuador han incurrido en uso excesivo de la fuerza, restricciones a la
-          libertad de reunión y criminalización de líderes sociales y ambientales
-          frente a protestas mayormente pacíficas. [La Comisión Interamericana de
-          Derechos Humanos (CIDH) abrió un
+          [Human Rights
+          Watch](https://www.expreso.ec/actualidad/human-rights-watch-denuncia-uso-excesivo-de-fuerza-en-protestas-en-ecuador-261694.html)
+          denunció que la Policía y las Fuerzas Armadas de Ecuador han incurrido en
+          uso excesivo de la fuerza, restricciones a la libertad de reunión y
+          criminalización de líderes sociales y ambientales frente a protestas
+          mayormente pacíficas. [La Comisión Interamericana de Derechos Humanos
+          (CIDH) abrió un
           expediente](https://www.eldiario.ec/ecuador/cidh-abre-expediente-tras-solicitud-de-medidas-cautelares-por-presunta-violacion-de-derechos-durante-protestas-en-ecuador-28102025/)
           el 27 de octubre ante la petición de medidas cautelares presentada por el
           Frente Parlamentario por los Derechos Humanos de la bancada Revolución
@@ -363,44 +385,49 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-11-03
-        url: https://www.eldiario.ec/ecuador/tres-periodistas-asesinados-en-2025-fundamedios-pide-acciones-urgentes-a-entes-de-control-03112025/
+        tipo: proyecto
         texto: >-
           La Fundación Andina para la Observación y Estudio de Medios [(Fundamedios)
           compartió una serie de cifras sobre la situación de los trabajadores
-          periodísticos en el país]($url). De acuerdo a la fundación, en 2025 se han
-          documentado más de 170 agresiones a periodistas y medios. Además, se
-          resaltaron los 3 lamentables asesinatos de comunicadores solo este año
-          2025. Fundamedios exigió a la Fiscalía General investigar estos actos de
-          violencia y al Consejo de Comunicación poner en marcha el Mecanismo de
-          Prevención y Protección del Trabajo Periodístico.
+          periodísticos en el
+          país](https://www.eldiario.ec/ecuador/tres-periodistas-asesinados-en-2025-fundamedios-pide-acciones-urgentes-a-entes-de-control-03112025/).
+          De acuerdo a la fundación, en 2025 se han documentado más de 170
+          agresiones a periodistas y medios. Además, se resaltaron los 3 lamentables
+          asesinatos de comunicadores solo este año 2025. Fundamedios exigió a la
+          Fiscalía General investigar estos actos de violencia y al Consejo de
+          Comunicación poner en marcha el Mecanismo de Prevención y Protección del
+          Trabajo Periodístico.
         etiquetas:
           - libertad-de-prensa
 
   - pais: Guatemala
     entradas:
       - fecha: 2025-11-08
-        url: https://www.prensalibre.com/guatemala/comunitario/organizaciones-defensoras-de-la-libertad-de-prensa-rechazan-recientes-acciones-contra-dos-medios-guatemaltecos/
+        tipo: proyecto
         texto: >-
           De acuerdo con una denuncia pública elevada por El Programa de las
           Américas del Comité para la Protección de los Periodistas (CPJ) y la
           Cámara Guatemalteca de Periodismo (CGP), [dos medios guatemaltecos, Prensa
           Comunitaria y República, habrían sido víctimas de ataques contra sus
-          labores periodísticas]($url). CPJ se pronunció públicamente para condenar
-          el ataque cibernético al sitio web y la nube editorial del medio Prensa
-          Comunitaria, que buscaba borrar información y bloquear su trabajo. Por su
-          parte, CGP denunció que se habría eliminado de YouTube un reportaje del
-          medio República en el que se investigaba a algunos funcionarios del
-          gobierno. CGP expresó que esta eliminación arbitraria podría ser un
-          intento de limitar el ejercicio periodístico que debe ser investigado.
+          labores
+          periodísticas](https://www.prensalibre.com/guatemala/comunitario/organizaciones-defensoras-de-la-libertad-de-prensa-rechazan-recientes-acciones-contra-dos-medios-guatemaltecos/).
+          CPJ se pronunció públicamente para condenar el ataque cibernético al sitio
+          web y la nube editorial del medio Prensa Comunitaria, que buscaba borrar
+          información y bloquear su trabajo. Por su parte, CGP denunció que se
+          habría eliminado de YouTube un reportaje del medio República en el que se
+          investigaba a algunos funcionarios del gobierno. CGP expresó que esta
+          eliminación arbitraria podría ser un intento de limitar el ejercicio
+          periodístico que debe ser investigado.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2025-11-13
-        url: https://agn.gt/guatemala-lanza-politica-publica-de-proteccion-de-personas-defensoras-de-derechos-humanos/
+        tipo: proyecto
         texto: >-
-          [Luego de 9 años desde que se aprobara su creación]($url), el gobierno ha
-          publicado la [Política Pública de Protección de Personas Defensoras de
-          Derechos
+          [Luego de 9 años desde que se aprobara su
+          creación](https://agn.gt/guatemala-lanza-politica-publica-de-proteccion-de-personas-defensoras-de-derechos-humanos/),
+          el gobierno ha publicado la [Política Pública de Protección de Personas
+          Defensoras de Derechos
           Humanos](https://mingob.gob.gt/wp-content/uploads/2025/11/Politica-Publica-Proteccion-de-Personas-Defensoras-de-DDHH-13-11-25.pdf).
           La creación de esta política fue el producto del reclamo popular de
           familias de víctimas y del apoyo que estas recibieron de la Comisión
@@ -421,15 +448,17 @@ paises:
           sufran el mismo destino que su padre.
 
       - fecha: 2025-11-17
-        url: https://jurisprudencia.corteidh.or.cr/es/vid/corte-idh-solicitud-opinion-1074848299
+        tipo: proyecto
         texto: >-
           Se acabó el plazo establecido por la Corte Interamericana de Derechos
           Humanos (Corte IDH) para presentar observaciones escritas por parte de
           organizaciones y personas interesadas en contribuir a la [Solicitud de
-          Opinión Consultiva]($url) presentada por la República de Guatemala sobre
-          ‘Democracia y su protección ante el Sistema Interamericano de Derechos
-          Humanos’. El Centro de Estudios en Libertad de Expresión (CELE) presentó
-          sus observaciones, las cuales puede consultar
+          Opinión
+          Consultiva](https://jurisprudencia.corteidh.or.cr/es/vid/corte-idh-solicitud-opinion-1074848299)
+          presentada por la República de Guatemala sobre ‘Democracia y su protección
+          ante el Sistema Interamericano de Derechos Humanos’. El Centro de Estudios
+          en Libertad de Expresión (CELE) presentó sus observaciones, las cuales
+          puede consultar
           [aquí](https://www.palermo.edu/Archivos_content/2025/cele/noviembre/DP_35.pdf).
         etiquetas:
           - libertad-de-expresion
@@ -437,12 +466,13 @@ paises:
   - pais: México
     entradas:
       - fecha: 2025-11-11
-        url: https://sil.gobernacion.gob.mx/Librerias/pp_ContenidoAsuntos.php?SID=e126e439b970d941f3fbe55252dcc9f7&Clave=4965104
+        tipo: proyecto
         texto: >-
           Se presentaron diversas iniciativas para establecer “controles parentales”
           y restringir el uso de redes sociales por personas menores de 18 años.
-          Puede consultarlas aquí: [Iniciativa del 08/11]($url) del senador Luis
-          Colosio; [Iniciativa del
+          Puede consultarlas aquí: [Iniciativa del
+          08/11](https://sil.gobernacion.gob.mx/Librerias/pp_ContenidoAsuntos.php?SID=e126e439b970d941f3fbe55252dcc9f7&Clave=4965104)
+          del senador Luis Colosio; [Iniciativa del
           11/11](https://sil.gobernacion.gob.mx/Librerias/pp_ContenidoAsuntos.php?SID=e126e439b970d941f3fbe55252dcc9f7&Clave=4970249)
           del senador Agustín Dorantes; [Iniciativa del
           12/11](https://sil.gobernacion.gob.mx/Librerias/pp_ContenidoAsuntos.php?SID=e126e439b970d941f3fbe55252dcc9f7&Clave=4974137)
@@ -456,37 +486,39 @@ paises:
           - proteccion-de-menores
 
       - fecha: 2025-11-12
+        tipo: proyecto
         texto: >-
           Se presentaron diversas iniciativas con la intención de sancionar la
           difusión de contenido de naturaleza sexual generado con herramientas de
           inteligencia artificial.
         etiquetas:
           - inteligencia-artificial
+          - proteccion-de-menores
 
   - pais: Brasil
     entradas:
       - fecha: 2025-10-30
         tipo: decreto
-        url: https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/30102025-Sexta-Turma-valida-ronda-virtual-contra-pornografia-infantil-feita-por-software-da-policia.aspx
         texto: >-
           La [Sexta Sala del Superior Tribunal de Justicia (STJ) de Brasil divulgó
-          un entendimiento]($url) que reconoce la licitud del uso de software
-          policial para realizar patrullajes virtuales en redes punto a punto (P2P)
-          con el objetivo de identificar archivos de pornografía infantil. El caso
-          analizado involucró a un odontólogo acusado de almacenar material de
-          explotación sexual infantil. La investigación comenzó a partir de
-          información obtenida por medio del software Child Rescue Coalition (CRC),
-          utilizado por fuerzas policiales para rastrear actividades sospechosas en
-          redes P2P. Con base en esos datos, se expidió una orden judicial de
-          registro y secuestro (busca e apreensão), lo que permitió localizar los
-          archivos ilícitos. El Tribunal consideró las pruebas válidas y mantuvo la
-          condena. El voto del relator, ministro Rogerio Schietti Cruz, destacó que
-          la actividad de monitoreo realizada por el software no configura invasión
-          de espacio privado ni interceptación de comunicaciones, situaciones que,
-          bajo la legislación brasileña, requerirían autorización judicial previa.
-          Según el ministro, se trata del acceso a “datos meramente registrales” una
-          categoría permitida a la autoridad policial conforme al [Marco Civil de
-          Internet (Ley n.o
+          un
+          entendimiento](https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/30102025-Sexta-Turma-valida-ronda-virtual-contra-pornografia-infantil-feita-por-software-da-policia.aspx)
+          que reconoce la licitud del uso de software policial para realizar
+          patrullajes virtuales en redes punto a punto (P2P) con el objetivo de
+          identificar archivos de pornografía infantil. El caso analizado involucró
+          a un odontólogo acusado de almacenar material de explotación sexual
+          infantil. La investigación comenzó a partir de información obtenida por
+          medio del software Child Rescue Coalition (CRC), utilizado por fuerzas
+          policiales para rastrear actividades sospechosas en redes P2P. Con base en
+          esos datos, se expidió una orden judicial de registro y secuestro (busca e
+          apreensão), lo que permitió localizar los archivos ilícitos. El Tribunal
+          consideró las pruebas válidas y mantuvo la condena. El voto del relator,
+          ministro Rogerio Schietti Cruz, destacó que la actividad de monitoreo
+          realizada por el software no configura invasión de espacio privado ni
+          interceptación de comunicaciones, situaciones que, bajo la legislación
+          brasileña, requerirían autorización judicial previa. Según el ministro, se
+          trata del acceso a “datos meramente registrales” una categoría permitida a
+          la autoridad policial conforme al [Marco Civil de Internet (Ley n.o
           12.965/2014)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm),
           mientras que el acceso a datos de contenido continúa dependiendo de
           autorización judicial. El caso permanece bajo secreto de justicia.
@@ -495,6 +527,7 @@ paises:
           - proteccion-de-menores
 
       - fecha: 2025-11-05
+        tipo: proyecto
         texto: >-
           La Cámara de Diputados de Brasil aprobó el texto base del Proyecto de Ley
           n.º 8889/2017, de autoría del diputado federal Paulo Teixeira (PT/SP), que
@@ -515,11 +548,12 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-11-05
-        url: https://www1.folha.uol.com.br/poder/2025/11/stf-publica-apos-132-dias-acordao-de-decisao-sobre-marco-civil-da-internet.shtml
+        tipo: proyecto
         texto: >-
-          El Supremo Tribunal Federal (STF) de Brasil [publicó el acórdão]($url) con
-          la decisión que declaró parcialmente inconstitucional el artículo 19 del
-          [Marco Civil de Internet
+          El Supremo Tribunal Federal (STF) de Brasil [publicó el
+          acórdão](https://www1.folha.uol.com.br/poder/2025/11/stf-publica-apos-132-dias-acordao-de-decisao-sobre-marco-civil-da-internet.shtml)
+          con la decisión que declaró parcialmente inconstitucional el artículo 19
+          del [Marco Civil de Internet
           (MCI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm).
           La decisión, adoptada por mayoría de los ministros y [concluida en junio
           de este año](https://internetlab.org.br/pt/semanario/24318/#24317),
@@ -540,13 +574,14 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-11-12
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=946034
+        tipo: proyecto
         texto: >-
           La Cámara de Diputados de Brasil aprobó el régimen de tramitación urgente
-          de un [proyecto de ley n°215/2015]($url) de autoría del diputado federal
-          Hildo Rocha (PMDB/MA), que había permanecido paralizado durante diez años
-          y ahora avanza para votación en el pleno. La propuesta modifica el [Marco
-          Civil de Internet
+          de un [proyecto de ley
+          n°215/2015](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=946034)
+          de autoría del diputado federal Hildo Rocha (PMDB/MA), que había
+          permanecido paralizado durante diez años y ahora avanza para votación en
+          el pleno. La propuesta modifica el [Marco Civil de Internet
           (MCI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm)
           y introduce nuevas reglas en investigaciones sobre delitos contra el honor
           cometidos en línea. Entre las medidas, el texto establece supuestos de
@@ -566,8 +601,9 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2025-10-22
+        tipo: proyecto
         exp: 12926/2025-CR
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/12926
+        url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/12926'
         texto: >-
           El Congresista José Cueto presentó el [Proyecto de Ley N°
           12926/2025-CR]($url), que propone crear la Superintendencia Nacional de
@@ -585,8 +621,9 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2025-10-24
+        tipo: proyecto
         exp: 12986/2025-CR
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/12986
+        url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/12986'
         texto: >-
           El Congresista Héctor Valer presentó el [Proyecto de Ley N°
           12986/2025-CR]($url) que propone sancionar con hasta 15 años de prisión el
@@ -602,8 +639,9 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-10-31
+        tipo: proyecto
         exp: 13049/2025-CR
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13049
+        url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13049'
         texto: >-
           El Congresista Carlos Anderson presentó el [Proyecto de Ley N°
           13049/2025-CR]($url), que propone modificar la Ley 31814 para imponer la
@@ -616,10 +654,12 @@ paises:
           expresión, especialmente en contextos políticos o electorales.
         etiquetas:
           - inteligencia-artificial
+          - libertad-de-expresion
 
       - fecha: 2025-11-03
+        tipo: proyecto
         exp: 13064/2025-CR
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13064
+        url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13064'
         texto: >-
           La Congresista María Jáuregui presentó el [Proyecto de Ley N°
           13064/2025-CR]($url), que incorpora el concepto de “cristofobia” al Código
@@ -632,8 +672,9 @@ paises:
           manifestaciones artísticas que “ofendan las creencias religiosas”.
 
       - fecha: 2025-11-04
+        tipo: proyecto
         exp: 13075/2025-CR
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13075
+        url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13075'
         texto: >-
           El Congresista Carlos Anderson presentó el [Proyecto de Ley N°
           13075/2025-CR]($url), que pretende sancionar la generación y difusión de
@@ -645,11 +686,13 @@ paises:
           protegidas y críticas políticas.
         etiquetas:
           - inteligencia-artificial
+          - libertad-de-expresion
           - electoral
 
       - fecha: 2025-11-04
+        tipo: proyecto
         exp: 13059/2025-CR
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13059
+        url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13059'
         texto: >-
           La Congresista Nieves Limachi presentó el [Proyecto de Ley N°
           13059/2025-CR]($url), que propone modificar el artículo 356 del Código
@@ -661,12 +704,13 @@ paises:
           investigación o errores de hecho, dado que no diferencia claramente entre
           desinformación maliciosa y contenido controversial o simplemente inexacto.
         etiquetas:
+          - libertad-de-expresion
           - electoral
 
       - fecha: 2025-11-04
         tipo: ley
         exp: 13058/2025-CR
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13058
+        url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/13058'
         texto: >-
           La Congresista Nieves Limachi también presentó el [Proyecto de Ley N°
           13058/2025-CR]($url), que plantea prohibir el uso de cuentas falsas o
@@ -680,9 +724,11 @@ paises:
           entre los usos legítimos de herramientas automatizadas, y aquellos que se
           podrían considerar ilegítimos.
         etiquetas:
+          - libertad-de-expresion
           - electoral
 
       - fecha: 2025-11-10
+        tipo: proyecto
         texto: >-
           El Indecopi dispuso una sanción al Colegio Roosevelt de Lima por exponer a
           estudiantes material bibliográfico considerado “inadecuado”, en una
@@ -697,20 +743,67 @@ paises:
           - discurso-de-odio
 
       - fecha: 2025-11-11
-        url: https://pachamamaradio.org/nueva-ley-mordaza-congresista-cruz-defiende-polemico-proyecto-contra-difusion-de-chats/
+        tipo: proyecto
         texto: >-
-          [Diversos medios revelaron]($url) que la Comisión de Justicia prepara un
-          predictamen que retomaría el Proyecto de Ley N° 5849/2023-CR, conocido
-          como “Ley Mordaza”, que plantea penalizar la difusión de conversaciones
-          privadas (chats, correos o mensajes instantáneos), incluso cuando revelen
-          hechos de interés público, corrupción o abusos de poder. Organizaciones de
-          prensa han advertido que esto afectaría gravemente el periodismo de
-          investigación, la protección de fuentes y el derecho a recibir información
-          relevante para el escrutinio ciudadano.
+          [Diversos medios
+          revelaron](https://pachamamaradio.org/nueva-ley-mordaza-congresista-cruz-defiende-polemico-proyecto-contra-difusion-de-chats/)
+          que la Comisión de Justicia prepara un predictamen que retomaría el
+          Proyecto de Ley N° 5849/2023-CR, conocido como “Ley Mordaza”, que plantea
+          penalizar la difusión de conversaciones privadas (chats, correos o
+          mensajes instantáneos), incluso cuando revelen hechos de interés público,
+          corrupción o abusos de poder. Organizaciones de prensa han advertido que
+          esto afectaría gravemente el periodismo de investigación, la protección de
+          fuentes y el derecho a recibir información relevante para el escrutinio
+          ciudadano.
         etiquetas:
           - libertad-de-prensa
 ---
 
-{{< observatorio-mes month="2025-11" >}}
+**Proyectos por país**
+
+| País | Proyectos |
+|---|---:|
+| Argentina | 19 |
+| Brasil | 8 |
+| Chile | 9 |
+| Colombia | 3 |
+| Ecuador | 4 |
+| Guatemala | 1 |
+| México | 8 |
+| Paraguay | 11 |
+| Perú | 4 |
+
+**Temas proyectos de ley presentados entre enero de 2025 y octubre de 2025**
+
+| Tema | % |
+|---|---:|
+| Libertad de expresión y derechos políticos | 16,7% |
+| Privacidad y derechos ARCO | 16,7% |
+| Protección de menores | 11,1% |
+| Discriminación, violencia y discursos de odio | 9,3% |
+| Ciberseguridad | 7,4% |
+| Inteligencia Artificial | 7,4% |
+| Acceso a la información | 3,7% |
+| Acceso a Internet e Infraestructura | 3,7% |
+| Apología | 3,7% |
+| Desinformación | 3,7% |
+| DESC | 1,9% |
+| Acoso | 1,5% |
+| Publicidad oficial | 1,4% |
+
+**Temas proyectos de ley presentados entre enero de 2024 y octubre de 2025**
+
+| Tema | % |
+|---|---:|
+| Libertad de Expresión y Derechos políticos | 16,7% |
+| Discriminación, violencia y discursos de odio | 11,8% |
+| Derechos de los niños | 12,5% |
+| Acceso a la información | 7,8% |
+| Derechos del consumidor | 4,2% |
+| Privacidad y Derechos ARCO | 9,2% |
+| Honor y reputación | 5,9% |
+| Desinformación | 4,6% |
+| Inteligencia artificial | 5,2% |
+| Moral pública | 4,9% |
 
 {{< boletin-paises >}}

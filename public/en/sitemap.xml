@@ -186,7 +186,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/autores/nicol%C3%A1s-zara/"
+                href="http://localhost:1313/es/autores/nicolas-zara/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -352,6 +352,58 @@
                 href="http://localhost:1313/en/autores/lucila-ailen-tula/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/india-it-rules-roundtable/</loc>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/india-it-rules-roundtable/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/india-it-rules-roundtable/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/resumen-mesa-monetizacion-plataformas-libertad-expresion/</loc>
+    <lastmod>2026-09-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/resumen-mesa-monetizacion-plataformas-libertad-expresion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/resumen-mesa-monetizacion-plataformas-libertad-expresion/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/tags/child-safety/</loc>
     <lastmod>2026-09-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -397,34 +449,8 @@
                 href="http://localhost:1313/en/tags/dsa/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/tags/online-safety/</loc>
     <lastmod>2026-09-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2026-09-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/"
-                />
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2026-09-14T00:00:00+00:00</lastmod>
@@ -437,6 +463,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/roundtable-summary-intermediary-liability-brazil/</loc>
+    <lastmod>2026-09-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/resumen-mesa-responsabilidad-intermediarios-brasil/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/roundtable-summary-intermediary-liability-brazil/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/platform-monetization-roundtable/</loc>
@@ -535,30 +574,17 @@
                 href="http://localhost:1313/en/tags/censura/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/libertad-de-expresi%C3%B3n/</loc>
+    <loc>http://localhost:1313/en/tags/slapps/</loc>
     <lastmod>2026-06-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/libertad-de-expresi%C3%B3n/"
+                href="http://localhost:1313/es/tags/slapps/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/libertad-de-expresi%C3%B3n/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/slapp/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/slapp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/slapp/"
+                href="http://localhost:1313/en/tags/slapps/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/la-paradoja-libertaria/</loc>
@@ -2351,7 +2377,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/autores/josefina-del-campo/"
+                href="http://localhost:1313/es/autores/josefina-del.campo/"
                 />
     <xhtml:link
                 rel="alternate"

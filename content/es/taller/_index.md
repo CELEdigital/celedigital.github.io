@@ -1,7 +1,7 @@
 ---
 title: "Hacia una internet libre"
 # Flyer de la edición en curso. Ruta dentro de static/ (dejar vacío para ocultarlo).
-flyer: "/flyers/placa2026.jpg"
+flyer: 
 flyer_alt: "Taller CELE 2026 — Hacia una internet libre. 29 y 30 de octubre, 8.30 h, José Cabrera 3641, Facultad de Derecho, Universidad de Palermo"
 location: "Buenos Aires"
 event_date: "29 y 30 de octubre de 2026"
@@ -13,3 +13,4 @@ image: "/ilustrations/taller.jpg"
 agenda: ""
 participantes: ""
 ---
+

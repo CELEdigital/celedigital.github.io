@@ -1,31 +1,39 @@
 ---
-author: [CELE]
-content_type: [boletin]
-date: '2022-05-27'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
+title: 'Boletín mensual Observatorio Legislativo | Mayo 2022'
 slug: boletin-mensual-mayo-2022-5-2
-tags: [institucional]
-title: Boletín mensual Observatorio Legislativo | Mayo 2022
+date: 2022-05-27
 translationKey: wp-11494
+description: >-
+  Novedades de la actividad legislativa y regulatoria, decisiones judiciales
+  y administrativas.
+author:
+  - CELE
+content_type:
+  - boletin
+programs:
+  - policy
 type: posts
+featured: false
 newsletter_series: observatorio
+image: /img/shutterstock_1698060541-1-scaled.jpg
+tags:
+  - institucional
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2022-05-11
-        url: https://www.pagina12.com.ar/423972-protesta-de-los-movimientos-sociales-en-plaza-de-mayo
+        tipo: proyecto
         texto: >-
           Se ha observado que diferentes figuras políticas se han pronunciado en el
           marco de las [manifestaciones que se han realizado en los últimos meses en
-          el país]($url). Posturas que han sido objeto de críticas y debates por las
-          propuestas legislativas que se han presentado para limitar las protestas
-          que se presentan en contra del gobierno. Dentro de estas propuestas se
-          encuentra el proyecto de ley que pretende presentar [Martín Tetaz para
-          regular la protesta
+          el
+          país](https://www.pagina12.com.ar/423972-protesta-de-los-movimientos-sociales-en-plaza-de-mayo).
+          Posturas que han sido objeto de críticas y debates por las propuestas
+          legislativas que se han presentado para limitar las protestas que se
+          presentan en contra del gobierno. Dentro de estas propuestas se encuentra
+          el proyecto de ley que pretende presentar [Martín Tetaz para regular la
+          protesta
           social](https://twitter.com/martintetaz/status/1524771740030693376?t=MXh5-atw5mq_gW_XZWlzHw&s=08)
           y limitar la circulación de los manifestantes. Esto debido a que existe
           una inconformidad con la ocupación que genera los manifestantes en las
@@ -34,12 +42,14 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-05-12
-        url: https://www.pagina12.com.ar/421103-macri-propone-limitar-el-derecho-a-huelga-de-los-docentes
+        tipo: proyecto
         texto: >-
           El ex presidente Mauricio Macri [propuso limitar el derecho a la huelga de
-          los docentes]($url) por considerar que el servicio a la educación es un
-          servicio estratégico esencial el cual no debe interrumpirse mediante un
-          paro. Así mismo, expresó su apoyo al [proyecto de
+          los
+          docentes](https://www.pagina12.com.ar/421103-macri-propone-limitar-el-derecho-a-huelga-de-los-docentes)
+          por considerar que el servicio a la educación es un servicio estratégico
+          esencial el cual no debe interrumpirse mediante un paro. Así mismo,
+          expresó su apoyo al [proyecto de
           ley](https://www.scribd.com/document/573682070/Gacetilla-Proyecto-Ley-Aprendizaje-y-Derechos-Que-Protege-La-Escuela#fullscreen&from_embed)
           que promociona el exministro de Educación Alejandro Finocchiaro para que
           las instituciones educativas y los hospitales deban tener guardias mínimas
@@ -50,73 +60,80 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2022-04-19
-        url: https://www.jota.info/coberturas-especiais/liberdade-de-expressao/trf1-aceita-recurso-de-augusto-aras-contra-professor-da-usp-que-o-criticou-em-coluna-20042022
+        tipo: proyecto
         texto: >-
           Augusto Aras v. Conrado Hübner. El [Tribunal Regional Federal de la 1ª
           Región aceptó el recurso del Procurador General de la República Augusto
           Aras, solicitando la recepción de una denuncia penal contra el profesor
           universitario y columnista, Conrado Hübner, por supuesta práctica de
-          injurias, calumnias y difamación]($url). La petición fue desestimada en 1ª
-          instancia, pero el Tribunal consideró que las manifestaciones del profesor
-          pueden, en tesis, configurar calumnias, por atribuir a Aras la práctica
-          del delito de prevaricación. El proceso vuelve ahora a la primera
-          instancia, donde se puede ejercer la acción penal, pero la decisión del
-          Tribunal Regional Federal aún puede ser recurrida. [Para saber más acerca
-          del tema, vea el boletín mensual de mayo de
-          2021.](https://observatoriolegislativocele.com/pt/Boletim-Mensal-de-maio-de-2021/)
+          injurias, calumnias y
+          difamación](https://www.jota.info/coberturas-especiais/liberdade-de-expressao/trf1-aceita-recurso-de-augusto-aras-contra-professor-da-usp-que-o-criticou-em-coluna-20042022).
+          La petición fue desestimada en 1ª instancia, pero el Tribunal consideró
+          que las manifestaciones del profesor pueden, en tesis, configurar
+          calumnias, por atribuir a Aras la práctica del delito de prevaricación. El
+          proceso vuelve ahora a la primera instancia, donde se puede ejercer la
+          acción penal, pero la decisión del Tribunal Regional Federal aún puede ser
+          recurrida. [Para saber más acerca del tema, vea el boletín mensual de mayo
+          de 2021.](/en/legislative-observatory/boletin-mensual-mayo-2021/)
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-05-03
-        url: https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=486334&ori=1
         texto: >-
           Kajuru v. Vanderlan Cardoso y Baldy. El [Supremo Tribunal Federal (STF)
-          decidió recibir las denuncias penales presentadas]($url) por el senador
-          Vanderlan Cardoso y el ex diputado federal Alexandre Baldy contra el
-          senador Jorge Kajuru para [evaluar si sus manifestaciones constituyen
-          calumnia y
+          decidió recibir las denuncias penales
+          presentadas](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=486334&ori=1)
+          por el senador Vanderlan Cardoso y el ex diputado federal Alexandre Baldy
+          contra el senador Jorge Kajuru para [evaluar si sus manifestaciones
+          constituyen calumnia y
           difamación](https://www.conjur.com.br/2022-mai-03/stf-afirma-imunidade-nao-absoluta-pune-senador-ofensas).
           En los vídeos publicados en sus redes sociales, Kajuru llama a Cardoso
           "multimillonario tonto", "inútil" e "idiota incompetente" y afirma que
           "entró en la política para hacer negocios". También había dicho que Baldy
           forma parte de una trama de apuestas, que sería jefe de una banda local y
           lo llama "estafador" y "oficinista de pico". El ministro Gilmar Mendes,
-          ponente de las acciones, consideró que **las declaraciones de Kajuru no
-          están amparadas por la inmunidad parlamentaria** por no estar relacionadas
+          ponente de las acciones, consideró que las declaraciones de Kajuru no
+          están amparadas por la inmunidad parlamentaria por no estar relacionadas
           con el mandato, y destacó el hecho de que las ofensas hayan sido
-          divulgadas en las redes sociales, lo que amplía su alcance. CALUMNIAS E
-          INJURIAS LIBERTAD DE EXPRESION **El ministro del Tribunal Superior de
-          Justicia y ponente del caso, Marco Aurélio Bellizze, **[**votó por el
-          mantenimiento**](https://www.conjur.com.br/2022-mai-03/relator-stj-vota-obrigar-google-yahoo-filtrar-buscas)**
-          de **[**la sentencia de la 3ª Sala del
-          STJ**](https://internetlab.org.br/pt/semanario/14-05-2018/#5818)**,
-          dictada en 2018, que se pronunció a favor de la desindexación de los
-          resultados de los motores de búsqueda**. En su voto, el ministro Bellizze
-          afirmó que "**la cuestión se decidió bajo el prisma de los derechos
-          fundamentales a la privacidad y a la intimidad, así como a la protección
-          de los datos personales, y no en base al derecho al olvido**" y que el
-          propio STF afirmó en su decisión que la desindexación de resultados no
-          puede confundirse con el derecho al olvido. Los demás ministros de la 3ª
-          Sala del TSJ aún no han emitido su voto.
+          divulgadas en las redes sociales, lo que amplía su alcance.
+        etiquetas:
+          - libertad-de-expresion
+
+      - fecha: 2022-05-03
+        texto: >-
+          El ministro del Tribunal Superior de Justicia y ponente del caso, Marco
+          Aurélio Bellizze, [votó por el
+          mantenimiento](https://www.conjur.com.br/2022-mai-03/relator-stj-vota-obrigar-google-yahoo-filtrar-buscas)
+          de [la sentencia de la 3ª Sala del
+          STJ](https://internetlab.org.br/pt/semanario/14-05-2018/#5818), dictada en
+          2018, que se pronunció a favor de la desindexación de los resultados de
+          los motores de búsqueda. En su voto, el ministro Bellizze afirmó que "la
+          cuestión se decidió bajo el prisma de los derechos fundamentales a la
+          privacidad y a la intimidad, así como a la protección de los datos
+          personales, y no en base al derecho al olvido" y que el propio STF afirmó
+          en su decisión que la desindexación de resultados no puede confundirse con
+          el derecho al olvido. Los demás ministros de la 3ª Sala del TSJ aún no han
+          emitido su voto.
         etiquetas:
           - privacidad
 
       - fecha: 2022-05-09
-        url: https://internetlab.org.br/wp-content/uploads/2022/05/decisao-alexandre-unifica.pdf
+        tipo: proyecto
         texto: >-
           STF v. Bolsonaro (II). El ministro del Supremo Tribunal Federal (STF),
-          Alexandre de Moraes, [determinó la acumulación de los asuntos]($url) en
-          las **investigaciones sobre las declaraciones del presidente Jair
-          Bolsonaro sobre las urnas electrónicas** (PETs
+          Alexandre de Moraes, [determinó la acumulación de los
+          asuntos](https://internetlab.org.br/wp-content/uploads/2022/05/decisao-alexandre-unifica.pdf)
+          en las investigaciones sobre las declaraciones del presidente Jair
+          Bolsonaro sobre las urnas electrónicas (PETs
           [9.842/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6230386)
           y
-          [9.833/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6227913)),
+          [9.833/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6227913),
           unida a la investigación de las Milicias Digitales ([Inq
-          4.874/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6214799)).
+          4.874/DF](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6214799).
           Los procesos tratan de posibles delitos cometidos por Bolsonaro durante
-          las transmisiones en vivo en las que **el presidente afirmó que las urnas
+          las transmisiones en vivo en las que el presidente afirmó que las urnas
           electrónicas eran inseguras y que las elecciones de 2014 y 2016 estaban
-          amañadas**. Por otro lado, la investigación nº 4.784/DF, abierta en 2021 y
+          amañadas. Por otro lado, la investigación nº 4.784/DF, abierta en 2021 y
           conocida como "_Digital Militia Inquiry_", investiga la supuesta
           existencia de una organización criminal digital con la intención de
           atentar contra la democracia. La acumulación fue solicitada por la
@@ -125,27 +142,27 @@ paises:
           PGR decida si presenta cargos contra Bolsonaro.
 
       - fecha: 2022-05-11
-        url: https://www.jota.info/coberturas-especiais/liberdade-de-expressao/trf1-aceita-recurso-de-augusto-aras-contra-professor-da-usp-que-o-criticou-em-coluna-20042022
+        tipo: proyecto
         texto: >-
           Zibenberg vs. Moraes. El [Tribunal de Justicia de São Paulo confirmó la
           condena por daños morales al abogado y bloguero Alexandre Cezar
-          Zibenberg,]($url) por una publicación en la que acusaba al ministro del
-          Supremo Tribunal Federal (STF), Alexandre de Moraes, de recibir un
-          soborno. Zibenberg había publicado en su Instagram, en junio de 2020,
-          imagen con el siguiente texto: "EL ESCÁNDALO NO STF Ministro Alexandre
-          Moraes recibió sobornos del cártel de los trenes, dice ex-director de
-          Siemens". En la decisión, el juez dijo que la publicación "excede con
-          creces la libertad de opinión y expresión, ya que atenta contra el honor
-          objetivo y subjetivo del autor [Moraes], al imputar la práctica de un
-          delito". El abogado y bloguero había sido condenado en primera instancia
-          al pago de multa de R$50 mil.
+          Zibenberg,](https://www.jota.info/coberturas-especiais/liberdade-de-expressao/trf1-aceita-recurso-de-augusto-aras-contra-professor-da-usp-que-o-criticou-em-coluna-20042022)
+          por una publicación en la que acusaba al ministro del Supremo Tribunal
+          Federal (STF), Alexandre de Moraes, de recibir un soborno. Zibenberg había
+          publicado en su Instagram, en junio de 2020, imagen con el siguiente
+          texto: "EL ESCÁNDALO NO STF Ministro Alexandre Moraes recibió sobornos del
+          cártel de los trenes, dice ex-director de Siemens". En la decisión, el
+          juez dijo que la publicación "excede con creces la libertad de opinión y
+          expresión, ya que atenta contra el honor objetivo y subjetivo del autor
+          [Moraes], al imputar la práctica de un delito". El abogado y bloguero
+          había sido condenado en primera instancia al pago de multa de R$50 mil.
         etiquetas:
           - libertad-de-expresion
 
   - pais: Colombia
     entradas:
       - fecha: 2022-05-03
-        url: https://flip.org.co/images/Carta-Comisin-Sptima_PL-318_21_Participacin-audiencia.pdf
+        tipo: proyecto
         texto: >-
           El 3 de mayo se debatió en el Senado un proyecto de ley 318/2021C que
           busca establecer "medidas de protección a personas en el flagelo de la
@@ -154,20 +171,21 @@ paises:
           indirectamente la prostitución. Esta norma haría responsables a empresas
           de internet de contenidos publicados por terceros, lo cual desconoce
           estándares internacionales sobre responsabilidad de intermediarios. Un
-          grupo de organizaciones de la sociedad civil presentaron una [carta]($url)
+          grupo de organizaciones de la sociedad civil presentaron una
+          [carta](https://flip.org.co/images/Carta-Comisin-Sptima_PL-318_21_Participacin-audiencia.pdf)
           al Congreso pidiendo la eliminación de la norma.
         etiquetas:
           - plataformas-digitales
 
       - fecha: 2022-05-17
         tipo: ley
-        url: https://www.asuntoslegales.com.co/actualidad/sancionada-la-ley-que-restablece-los-tiempos-de-respuesta-a-los-derechos-de-peticion-3366078#:~:text=El%20presidente%20de%20la%20Rep%C3%BAblica,decret%C3%B3%20durante%20la%20emergencia%20sanitaria.
         texto: >-
           El 17 de mayo se sancionó la ley que restablece a la [normalidad los
           tiempos de respuesta para las solicitudes de acceso a la
-          información]($url). En marzo de 2020, el Gobierno nacional había proferido
-          el Decreto Legislativo 491 en el que se extendían los tiempos de respuesta
-          de los derechos de petición por la pandemia del Covid-19. A pesar de la
+          información](https://www.asuntoslegales.com.co/actualidad/sancionada-la-ley-que-restablece-los-tiempos-de-respuesta-a-los-derechos-de-peticion-3366078#:~:text=El%20presidente%20de%20la%20Rep%C3%BAblica,decret%C3%B3%20durante%20la%20emergencia%20sanitaria.).
+          En marzo de 2020, el Gobierno nacional había proferido el Decreto
+          Legislativo 491 en el que se extendían los tiempos de respuesta de los
+          derechos de petición por la pandemia del Covid-19. A pesar de la
           normalización de las actividades de las instituciones públicas, el
           Gobierno se había negado a revertir la medida. En consecuencia, el
           Congreso aprobó esta ley que revoca dos artículos del Decreto 491. No
@@ -178,27 +196,29 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2022-05-19
-        url: https://twitter.com/CConstitucional/status/1527382163330588672/photo/1
+        tipo: proyecto
         texto: >-
-          El 19 de mayo, la Corte Constitucional [informó]($url) que tomó su
-          decisión (sentencia T-143-22) en el caso de la acción de tutela promovida
-          por cuatro mujeres por el uso obligatorio de la aplicación CoronApp. Dado
-          que el uso de la aplicación dejó de ser obligatorio, la Corte declaró un
-          hecho superado. Sin embargo, hizo advertencias al Gobierno en el sentido
-          de que está obligado a aplicar la legislación y jurisprudencia de habeas
-          data.
+          El 19 de mayo, la Corte Constitucional
+          [informó](https://twitter.com/CConstitucional/status/1527382163330588672/photo/1)
+          que tomó su decisión (sentencia T-143-22) en el caso de la acción de
+          tutela promovida por cuatro mujeres por el uso obligatorio de la
+          aplicación CoronApp. Dado que el uso de la aplicación dejó de ser
+          obligatorio, la Corte declaró un hecho superado. Sin embargo, hizo
+          advertencias al Gobierno en el sentido de que está obligado a aplicar la
+          legislación y jurisprudencia de habeas data.
         etiquetas:
           - privacidad
 
       - fecha: 2022-05-23
-        url: https://flip.org.co/index.php/es/informacion/pronunciamientos/item/2910-2022-el-periodo-electoral-mas-violento-contra-la-prensa-en-la-ultima-decada
+        tipo: proyecto
         texto: >-
-          La Fundación para la Libertad de Prensa (FLIP) [denunció]($url) que el
-          primer semestre de 2022 ha sido el periodo electoral más violento contra
-          la prensa en la última década. En marzo se llevaron a cabo las elecciones
-          al Congreso y las consultas interpartidistas para la definición de los
-          candidatos a la presidencia. Además, en mayo y junio se realizarán la
-          primera y segunda vuelta presidencial. De acuerdo con la FLIP, en los
+          La Fundación para la Libertad de Prensa (FLIP)
+          [denunció](https://flip.org.co/index.php/es/informacion/pronunciamientos/item/2910-2022-el-periodo-electoral-mas-violento-contra-la-prensa-en-la-ultima-decada)
+          que el primer semestre de 2022 ha sido el periodo electoral más violento
+          contra la prensa en la última década. En marzo se llevaron a cabo las
+          elecciones al Congreso y las consultas interpartidistas para la definición
+          de los candidatos a la presidencia. Además, en mayo y junio se realizarán
+          la primera y segunda vuelta presidencial. De acuerdo con la FLIP, en los
           primeros cinco meses del año se dio un aumento del 59% en amenazas contra
           medios y periodistas en comparación con el 2018. Araca y el Bajo Cauca son
           las regiones con más amenazas.
@@ -208,29 +228,31 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2022-04-18
-        url: https://www.observacom.org/convencion-constitucional-de-chile-rechazo-articulo-sobre-proteccion-y-seguridad-de-periodistas-y-trabajadores-de-la-comunicacion/
+        tipo: proyecto
         texto: >-
           Convención Constitucional Chile: propuestas de normas rechazadas y
           aprobadas sobre derecho a la comunicación. El pleno de la Convención
-          Constitucional de Chile [rechazó]($url) el pasado martes 12 de abril, la
-          aprobación de varios artículos, entre ellos, el referido a la “protección
-          a la labor de comunicar”, donde se pretendía que el Estado garantice “la
-          protección y seguridad de periodistas y trabajadores de la comunicación
-          social, y de quienes ejercen la labor de comunicar e informar en cualquier
-          formato y plataforma de comunicación”. Tampoco alcanzó votos suficientes
-          un artículo que establecía que “el Estado desarrollará mecanismos para
-          acceder a una educación mediática diversa, plural, con enfoque de género y
-          derechos humanos”. Estas dos propuestas, quedan fuera del texto borrador
-          final.
+          Constitucional de Chile
+          [rechazó](https://www.observacom.org/convencion-constitucional-de-chile-rechazo-articulo-sobre-proteccion-y-seguridad-de-periodistas-y-trabajadores-de-la-comunicacion/)
+          el pasado martes 12 de abril, la aprobación de varios artículos, entre
+          ellos, el referido a la “protección a la labor de comunicar”, donde se
+          pretendía que el Estado garantice “la protección y seguridad de
+          periodistas y trabajadores de la comunicación social, y de quienes ejercen
+          la labor de comunicar e informar en cualquier formato y plataforma de
+          comunicación”. Tampoco alcanzó votos suficientes un artículo que
+          establecía que “el Estado desarrollará mecanismos para acceder a una
+          educación mediática diversa, plural, con enfoque de género y derechos
+          humanos”. Estas dos propuestas, quedan fuera del texto borrador final.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-04-20
-        url: https://www.chileconvencion.cl/normas-aprobadas-pleno/
+        tipo: proyecto
         texto: >-
-          En tanto, en el pleno realizado el 20 de abril, se [aprobó]($url) el
-          primer inciso de la norma que garantiza la existencia de “un sistema de
-          medios públicos en distintos soportes tecnológicos, que respondan a las
+          En tanto, en el pleno realizado el 20 de abril, se
+          [aprobó](https://www.chileconvencion.cl/normas-aprobadas-pleno/) el primer
+          inciso de la norma que garantiza la existencia de “un sistema de medios
+          públicos en distintos soportes tecnológicos, que respondan a las
           necesidades informativas, educativas, culturales y de entretenimiento de
           los diversos grupos de la población” y el primer inciso de la que señala
           que “la infraestructura de telecomunicaciones es de interés público,
@@ -240,24 +262,26 @@ paises:
           Convención, para ser nuevamente sometidas a votación en el pleno.
 
       - fecha: 2022-04-22
-        url: https://www.subtel.gob.cl/subtel-y-empresas-de-telecomunicaciones-anuncian-la-creacion-de-herramienta-para-medir-la-velocidad-de-internet-para-los-usuarios/
+        tipo: proyecto
         texto: >-
           Se vuelve a licitar el Organismo Técnico Independiente para la medición de
           velocidad de Internet en Chile. Cinco años después de publicada la ley Ley
-          de Velocidad Mínima Garantizada de Internet , la Subsecretaría de
-          Telecomunicaciones (Subtel) [anunció]($url) un nuevo llamado a licitación
-          para definir un Organismo Técnico Independiente (OTI) encargado de medir
-          la velocidad de Internet en Chile. Si bien se había realizado una
-          licitación previa esta se declaró desierta hace unos años.
+          de Velocidad Mínima Garantizada de Internet, la Subsecretaría de
+          Telecomunicaciones (Subtel)
+          [anunció](https://www.subtel.gob.cl/subtel-y-empresas-de-telecomunicaciones-anuncian-la-creacion-de-herramienta-para-medir-la-velocidad-de-internet-para-los-usuarios/)
+          un nuevo llamado a licitación para definir un Organismo Técnico
+          Independiente (OTI) encargado de medir la velocidad de Internet en Chile.
+          Si bien se había realizado una licitación previa esta se declaró desierta
+          hace unos años.
 
   - pais: Guatemala
     entradas:
       - fecha: 2022-05-26
-        url: https://www.congreso.gob.gt/buscador_iniciativas/5667
         texto: >-
           Fue presentada al pleno del Congreso de la República, la iniciativa que
-          propone aprobar la [Ley Nacional de Cinematografía]($url). Aún se
-          encuentra
+          propone aprobar la [Ley Nacional de
+          Cinematografía](https://www.congreso.gob.gt/buscador_iniciativas/5667).
+          Aún se encuentra
           [pendiente](https://www.prensalibre.com/opinion/editorial/talento-que-se-proyecta/)
           de recibir dictamen de las Comisiones de Cultura y de Finanzas Públicas y
           Moneda (en virtud de ciertos incentivos financieros contemplados en el
@@ -270,9 +294,16 @@ paises:
           sería una obra “delictiva” por cuestiones relacionadas con derechos de
           autor o por su contenido propiamente dicho. Lo único positivo de esta
           extraña disposición es que definitivamente no adopta una postura que
-          pudiera equivaler a una censura previa. LIBERTAD DE EXPRESION CENSURA Fue
-          presentada también al pleno del Congreso de la República, una iniciativa
-          que dispone aprobar reformas a la [Ley General de Telecomunicaciones de
+          pudiera equivaler a una censura previa.
+        etiquetas:
+          - libertad-de-expresion
+          - censura
+
+      - fecha: 2022-05-26
+        texto: >-
+          Fue presentada también al pleno del Congreso de la República, una
+          iniciativa que dispone aprobar reformas a la [Ley General de
+          Telecomunicaciones de
           Guatemala](https://www.congreso.gob.gt/detalle_pdf/iniciativas/5835#gsc.tab=0).
           Tampoco ha recibido dictamen de la Comisión de Comunicaciones, Transporte
           y Obras Públicas, por lo que aún no ha iniciado el debate parlamentario
@@ -283,61 +314,70 @@ paises:
           servicios de telecomunicaciones, especialmente para lograr conectividad y
           acceso a internet, y con ello, reducir la brecha digital y generar
           igualdad de oportunidades en cuanto a acceso a los servicios de
-          telecomunicaciones. REGULACION DE CONTENIDOS ACCESO A INTERNET Del 26 al
-          29 de mayo se realiza en Guatemala el [Festival Centroamérica Cuenta
-          2022](https://www.centroamericacuenta.com). Es una actividad que tiene por
-          fin reunir escritores de la región y de países de habla hispana en general
-          (principalmente) coordinada por el gran autor, novelista y ensayista
-          Sergio Ramírez. Lo interesante de esta edición (lleva varios años
-          presentándose, originalmente en Nicaragua, y ahora en Guatemala) es que se
-          le ha dado un énfasis especial sobre la libertad de expresión. Así el 26
-          se realiza un conversatorio titulado “Verdad y Escritura, Del Periodismo a
-          la Novela” y el 27 se realiza otro conversatorio titulado “Alzando la Voz
-          en Tiempos de Censura: La Libertad de Expresión en el Periodismo”. Esta
-          temática dentro de un evento normalmente dedicado más a la literatura y
-          sus diversas manifestaciones, denota la preocupación de sus organizadores
-          sobre el estado de situación de la libertad de expresión en la mayoría de
-          países de la región centroamericana.
+          telecomunicaciones.
+        etiquetas:
+          - plataformas-digitales
+
+      - fecha: 2022-05-29
+        tipo: proyecto
+        texto: >-
+          Del 26 al 29 de mayo se realiza en Guatemala el [Festival Centroamérica
+          Cuenta 2022](https://www.centroamericacuenta.com). Es una actividad que
+          tiene por fin reunir escritores de la región y de países de habla hispana
+          en general (principalmente) coordinada por el gran autor, novelista y
+          ensayista Sergio Ramírez. Lo interesante de esta edición (lleva varios
+          años presentándose, originalmente en Nicaragua, y ahora en Guatemala) es
+          que se le ha dado un énfasis especial sobre la libertad de expresión. Así
+          el 26 se realiza un conversatorio titulado “Verdad y Escritura, Del
+          Periodismo a la Novela” y el 27 se realiza otro conversatorio titulado
+          “Alzando la Voz en Tiempos de Censura: La Libertad de Expresión en el
+          Periodismo”. Esta temática dentro de un evento normalmente dedicado más a
+          la literatura y sus diversas manifestaciones, denota la preocupación de
+          sus organizadores sobre el estado de situación de la libertad de expresión
+          en la mayoría de países de la región centroamericana.
         etiquetas:
           - libertad-de-expresion
 
   - pais: México
     entradas:
       - fecha: 2022-05-04
-        url: https://articulo19.org/autoridades-de-irapuato-reprimen-a-manifestantes-y-agreden-a-la-prensa-en-protestas-contra-feminicidios/
+        tipo: proyecto
         texto: >-
           El [Frente por la Libertad de Expresión y Protesta Social (FLEPS),
           Plataforma por la Paz y la Justicia en Guanajuato y Comunicación e
-          Información de la Mujer A.C. (CIMAC)]($url) condenaron el abuso policial
-          en el marco de una protesta feminista en el Estado de Guanajuato. Durante
-          la manifestación se reportaron 33 detenciones arbitrarias. Estas
-          organizaciones exigen a Secretaría de Seguridad, a la Fiscalía General de
-          Justicia y a la Comisión de Derechos Humanos que investiguen los hechos;
-          y, por otro lado al Mecanismo de protección de periodistas y personas
-          defensoras se instalen medidas adecuadas de protección, mientras que a la
-          Comisión Estatal de Víctimas, el brindar medidas de atención.
+          Información de la Mujer A.C.
+          (CIMAC)](https://articulo19.org/autoridades-de-irapuato-reprimen-a-manifestantes-y-agreden-a-la-prensa-en-protestas-contra-feminicidios/)
+          condenaron el abuso policial en el marco de una protesta feminista en el
+          Estado de Guanajuato. Durante la manifestación se reportaron 33
+          detenciones arbitrarias. Estas organizaciones exigen a Secretaría de
+          Seguridad, a la Fiscalía General de Justicia y a la Comisión de Derechos
+          Humanos que investiguen los hechos; y, por otro lado al Mecanismo de
+          protección de periodistas y personas defensoras se instalen medidas
+          adecuadas de protección, mientras que a la Comisión Estatal de Víctimas,
+          el brindar medidas de atención.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-05-09
-        url: https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=6887
+        tipo: proyecto
         texto: >-
-          La [Suprema Corte de Justicia de la Nación]($url) (SCJN) declaró
-          inconstitucional el delito de ciberacoso regulado en el Código Penal del
-          Estado de Yucatán, en virtud de que no cumplía con el principio de
-          legalidad en su vertiente de taxatividad en materia penal. Al respecto,
-          organizaciones de la sociedad civil como [Artículo
+          La [Suprema Corte de Justicia de la
+          Nación](https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=6887)
+          (SCJN) declaró inconstitucional el delito de ciberacoso regulado en el
+          Código Penal del Estado de Yucatán, en virtud de que no cumplía con el
+          principio de legalidad en su vertiente de taxatividad en materia penal. Al
+          respecto, organizaciones de la sociedad civil como [Artículo
           19](https://articulo19.org/scjn-invalida-delito-de-ciberacoso-en-yucatan-por-ambiguedad/)
           y
           [R3D](https://r3d.mx/2022/05/10/scjn-invalida-delito-de-ciberacoso-en-yucatan-por-ambiguedad/)
           aplaudieron este importante precedente.
 
       - fecha: 2022-05-12
-        url: https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=6898
         texto: >-
-          La [Suprema Corte de Justicia de la Nación]($url) (SCJN) resolvió la
-          controversia constitucional presentada por la Fiscalía General de la
-          República en contra de la decisión del Instituto Nacional de
+          La [Suprema Corte de Justicia de la
+          Nación](https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=6898)
+          (SCJN) resolvió la controversia constitucional presentada por la Fiscalía
+          General de la República en contra de la decisión del Instituto Nacional de
           Transparencia, Acceso a la Información y Protección de Datos Personales
           (INAI) en la que se instruía dar la información de nombres y cargos de
           todo el personal sustantivo de la Fiscalía General de la República. La
@@ -347,8 +387,14 @@ paises:
           19](https://articulo19.org/decision-de-la-scjn-grave-retroceso-para-el-derecho-a-la-informacion/),
           Fundar, Gesoc, Transparencia mexicana, entre otras, mostraron su
           preocupación de la resolución en virtud de que va en contra de la
-          inatacabilidad de las determinaciones del INAI. DATOS PERSONALES
-          VIGILANCIA [Artículo
+          inatacabilidad de las determinaciones del INAI.
+        etiquetas:
+          - privacidad
+          - vigilancia
+
+      - fecha: 2022-05-12
+        texto: >-
+          [Artículo
           19](https://articulo19.org/partidos-politicos-amenazan-e-intimidan-a-periodistas-en-tamaulipas-durante-proceso-electoral/)
           reportó que en los últimos tres meses, diversos periodistas han sido
           amenazados en el marco del proceso electoral en el Estado de Tamaulipas.
@@ -362,26 +408,29 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-05-13
-        url: https://twitter.com/article19mex/status/1525255787911733249
+        tipo: proyecto
         texto: >-
-          El [Poder Judicial de la Ciudad de México]($url) determinó que el señor
-          Emilio Lozoya dañó moralmente a la periodista Lourdes Mendoza por lo cual
-          ordenó el pago de una indemnización a favor de la segunda.
+          El [Poder Judicial de la Ciudad de
+          México](https://twitter.com/article19mex/status/1525255787911733249)
+          determinó que el señor Emilio Lozoya dañó moralmente a la periodista
+          Lourdes Mendoza por lo cual ordenó el pago de una indemnización a favor de
+          la segunda.
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
 
       - fecha: 2022-05-16
-        url: https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=6899
+        tipo: proyecto
         texto: >-
-          La [Suprema Corte de Justicia de la Nación]($url) (SCJN) resolvió dos
-          recursos de revisión promovidos por el Consejero Jurídico del Ejecutivo
-          Federal con base en la disposición que permite cuestionar resoluciones de
-          transparencia bajo el argumento de seguridad nacional. En ambos casos se
-          determinó la reserva de la información de las compras de vacunas por
-          COVID19, en virtud de que se consideró que su divulgación podría
-          obstaculizar acciones para combatir otras pandemias. Al respecto la
-          organización de la sociedad civil [Artículo
+          La [Suprema Corte de Justicia de la
+          Nación](https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=6899)
+          (SCJN) resolvió dos recursos de revisión promovidos por el Consejero
+          Jurídico del Ejecutivo Federal con base en la disposición que permite
+          cuestionar resoluciones de transparencia bajo el argumento de seguridad
+          nacional. En ambos casos se determinó la reserva de la información de las
+          compras de vacunas por COVID19, en virtud de que se consideró que su
+          divulgación podría obstaculizar acciones para combatir otras pandemias. Al
+          respecto la organización de la sociedad civil [Artículo
           19](https://twitter.com/article19mex/status/1526641599140114432) cuestionó
           la determinación por atentar con el derecho de acceso a la información y
           debilita al Instituto Nacional de Transparencia, Acceso a la Información y
@@ -390,34 +439,42 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2022-05-19
-        url: https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=6905
+        tipo: proyecto
         texto: >-
-          La [Suprema Corte de Justicia de la Nación]($url) (SCJN) declaró
-          inconstitucional las disposiciones de los códigos penales de Quintana Roo
-          y Coahuila, con las que se buscó prohibir penalmente la comunicación a
-          terceros de funciones policiales.
+          La [Suprema Corte de Justicia de la
+          Nación](https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=6905)
+          (SCJN) declaró inconstitucional las disposiciones de los códigos penales
+          de Quintana Roo y Coahuila, con las que se buscó prohibir penalmente la
+          comunicación a terceros de funciones policiales.
 
   - pais: Paraguay
     entradas:
       - fecha: 2022-05-04
-        url: https://www.lanacion.com.py/politica/2022/05/05/desarrollan-foro-internacional-de-lucha-contra-crimen-organizado-lavado-de-dinero-y-criptomonedas/
+        tipo: proyecto
         texto: >-
           Se llevó a cabo el [Foro Internacional sobre cooperación entre Argentina,
           Brasil, Paraguay y Estados Unidos de América en la lucha contra el crimen
-          organizado, lavado de dinero y criptomonedas]($url), organizado por State
-          Alumni Paraguay y el Centro de Estudios Hemisféricos de Defensa “William
-          Perry” El evento se encuentra dirigido principalmente para los operadores
-          de justicia del fuero penal, agentes vinculados en materia de seguridad e
-          instituciones del Estado que se encuentran relacionadas de forma
-          trasversal a la [cooperación internacional y la lucha contra el crimen
-          organizado, lavado de dinero y las
+          organizado, lavado de dinero y
+          criptomonedas](https://www.lanacion.com.py/politica/2022/05/05/desarrollan-foro-internacional-de-lucha-contra-crimen-organizado-lavado-de-dinero-y-criptomonedas/),
+          organizado por State Alumni Paraguay y el Centro de Estudios Hemisféricos
+          de Defensa “William Perry” El evento se encuentra dirigido principalmente
+          para los operadores de justicia del fuero penal, agentes vinculados en
+          materia de seguridad e instituciones del Estado que se encuentran
+          relacionadas de forma trasversal a la [cooperación internacional y la
+          lucha contra el crimen organizado, lavado de dinero y las
           criptomonedas](https://www.abc.com.py/nacionales/2022/05/04/foro-internacional-sobre-lucha-contra-el-crimen-organizado-se-realiza-en-cde-y-la-corte-se-retira-de-la-organizacion/)
           de todo el país, además de operadores de justicia y seguridad de Brasil y
-          Argentina. REGULACION DE MEDIOS CIBERSEGURIDAD La Comisión Nacional de
-          Telecomunicaciones (Conatel) presentó el Plan Nacional de
-          Telecomunicaciones, que tiene entre sus principales objetivos la expansión
-          de la cobertura, el aumento de la penetración y la [mejora de la calidad
-          en servicios como el internet de banda
+          Argentina.
+        etiquetas:
+          - libertad-de-prensa
+
+      - fecha: 2022-05-04
+        tipo: proyecto
+        texto: >-
+          La Comisión Nacional de Telecomunicaciones (Conatel) presentó el Plan
+          Nacional de Telecomunicaciones, que tiene entre sus principales objetivos
+          la expansión de la cobertura, el aumento de la penetración y la [mejora de
+          la calidad en servicios como el internet de banda
           ancha](https://www.lanacion.com.py/pais/2022/05/04/conatel-realiza-la-presentacion-del-plan-nacional-de-telecomunicaciones/).
           Los tres ejes principales del citado plan son la expansión de la
           cobertura, el aumento de la penetración y la mejora de la calidad, los
@@ -426,41 +483,44 @@ paises:
           Sostenible (ODS).
 
       - fecha: 2022-05-10
-        url: https://independiente.com.py/peligroso-challenge-en-red-urge-control-parental/
+        tipo: proyecto
         texto: >-
           Durante los últimos días, se registró un aumento significativo en el
           número de denuncias de abuso infantil que se registraron en las
           instituciones educativas. El incremento podría ser un reflejo de los
-          peligrosos [retos virales]($url) en diferentes redes sociales, que empujan
-          a los niños y adolescentes a cometer actos violentos, sin medir
-          consecuencias, alertó Miguel Ángel Gaspar, director de Paraguay
-          Ciberseguro y Ciberpadres Latinoamérica. “Los servicios digitales hoy
-          tienen mucho contenido de un calibre muy grande como para que los chicos
-          lo dimensionen, entiendan y asimilen. Si exponemos a los niños a fake news
-          o a estos challenges (retos), que son virales, muchas veces ellos solos no
-          tienen la capacidad de entender que puede traer complicaciones e, incluso,
-          la muerte. Ese momento de soledad digital es aprovechado por las
-          circunstancias de inescrupulosos, ciberdelincuentes para poder hacerse con
-          la víctima. Este es el complejo panorama”
+          peligrosos [retos
+          virales](https://independiente.com.py/peligroso-challenge-en-red-urge-control-parental/)
+          en diferentes redes sociales, que empujan a los niños y adolescentes a
+          cometer actos violentos, sin medir consecuencias, alertó Miguel Ángel
+          Gaspar, director de Paraguay Ciberseguro y Ciberpadres Latinoamérica. “Los
+          servicios digitales hoy tienen mucho contenido de un calibre muy grande
+          como para que los chicos lo dimensionen, entiendan y asimilen. Si
+          exponemos a los niños a fake news o a estos challenges (retos), que son
+          virales, muchas veces ellos solos no tienen la capacidad de entender que
+          puede traer complicaciones e, incluso, la muerte. Ese momento de soledad
+          digital es aprovechado por las circunstancias de inescrupulosos,
+          ciberdelincuentes para poder hacerse con la víctima. Este es el complejo
+          panorama”
         etiquetas:
           - proteccion-de-menores
 
       - fecha: 2022-05-17
-        url: https://www.launion.com.py/experto-recomienda-ensenanza-sobre-ciberseguridad-para-padres-y-ninos-186032.html
+        tipo: proyecto
         texto: >-
           Miguel Ángel Gaspar, director de la Fundación Paraguay Ciberseguro, señaló
           que deben tomarse medidas para evitar que se repitan episodios de
           violencia en las instituciones educativas y daños a los chicos por parte
           de ciberdelincuentes, sobre los cuales, según afirmó, en muchos casos son
-          [derivados]($url) de la falta de seguridad en el uso de dispositivos
-          digitales.
+          [derivados](https://www.launion.com.py/experto-recomienda-ensenanza-sobre-ciberseguridad-para-padres-y-ninos-186032.html)
+          de la falta de seguridad en el uso de dispositivos digitales.
         etiquetas:
           - proteccion-de-menores
 
       - fecha: 2022-05-19
-        url: http://silpy.congreso.gov.py/expediente/125778
+        tipo: proyecto
         texto: >-
-          Se presenta en el Senado un [Proyecto de Ley]($url) que “Modifica los
+          Se presenta en el Senado un [Proyecto de
+          Ley](http://silpy.congreso.gov.py/expediente/125778) que “Modifica los
           artículos 10, 11, 13, 34, 50 y 62 de la ley n° 1.562/2000, ‘Orgánica del
           Ministerio Público, para la protección de los agentes fiscales asignados a
           la investigación en los casos de narcotráfico, lavado de activos y crimen
@@ -479,9 +539,10 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2022-04-06
-        url: https://ipys.org/libertad-de-expresion/alertas/peru-periodistas-se-resguardan-en-hotel-ante-amenaza-de-manifestantes-que-intenta-lincharlos
+        tipo: proyecto
         texto: >-
-          El equipo periodístico de América Televisión [tuvo que resguardarse]($url)
+          El equipo periodístico de América Televisión [tuvo que
+          resguardarse](https://ipys.org/libertad-de-expresion/alertas/peru-periodistas-se-resguardan-en-hotel-ante-amenaza-de-manifestantes-que-intenta-lincharlos)
           en un hotel frente a una turba de vándalos que amenazó con lincharlos. El
           hecho ocurrió en Ica, región al sur del país. Los periodistas habían
           viajado a cubrir un paro de transportistas. El equipo de prensa reportaba
@@ -492,14 +553,15 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-04-09
-        url: https://gestion.pe/economia/gobierno-presentara-proyecto-para-prohibir-monopolios-y-oligopolios-noticia/
+        tipo: proyecto
         texto: >-
-          El Poder Ejecutivo [presentó]($url) al Congreso el proyecto de ley que
-          plantea prohibir los monopolios y los oligopolios. Además, respecto de los
-          medios de comunicación social, la iniciativa propone, además de la
-          prohibición de monopolios que ya existía en la Constitución, la
-          prohibición de la propiedad cruzada sin ninguna distinción. Esta
-          iniciativa [ha sido
+          El Poder Ejecutivo
+          [presentó](https://gestion.pe/economia/gobierno-presentara-proyecto-para-prohibir-monopolios-y-oligopolios-noticia/)
+          al Congreso el proyecto de ley que plantea prohibir los monopolios y los
+          oligopolios. Además, respecto de los medios de comunicación social, la
+          iniciativa propone, además de la prohibición de monopolios que ya existía
+          en la Constitución, la prohibición de la propiedad cruzada sin ninguna
+          distinción. Esta iniciativa [ha sido
           criticada](https://ipys.org/noticias/libertad-de-expresion/peru-gobierno-pide-reformar-constitucion-para-sancionar-a-medios-incomodos)
           desde diversos sectores, porque representaría una represalia del primer
           ministro Aníbal Torres específicamente contra algunos grupos empresariales
@@ -510,35 +572,82 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-04-17
-        url: https://ipys.org/libertad-de-expresion/alertas/peru-el-presidente-anuncia-querella-por-difamacion-agravada-a-programa-de-television#
+        tipo: proyecto
         texto: >-
-          El presidente Pedro Castillo [envió una carta notarial]($url) al programa
-          televisivo Panorama por haber señalado en un reportaje televisivo que un
-          proveedor del Estado habría participado de un partido recreativo de fútbol
-          con el jefe de Estado. Además de solicitar la rectificación, el mandatario
-          advirtió que interpondría una querella a la directora del programa
-          periodístico por el delito de difamación, pese a que no se advertía real
-          malicia en el reportaje en cuestión y contrariando estándares
-          interamericanos que impiden el castigo penal para el caso de expresiones
-          [sobre funcionarios
+          El presidente Pedro Castillo [envió una carta
+          notarial](https://ipys.org/libertad-de-expresion/alertas/peru-el-presidente-anuncia-querella-por-difamacion-agravada-a-programa-de-television#)
+          al programa televisivo Panorama por haber señalado en un reportaje
+          televisivo que un proveedor del Estado habría participado de un partido
+          recreativo de fútbol con el jefe de Estado. Además de solicitar la
+          rectificación, el mandatario advirtió que interpondría una querella a la
+          directora del programa periodístico por el delito de difamación, pese a
+          que no se advertía real malicia en el reportaje en cuestión y contrariando
+          estándares interamericanos que impiden el castigo penal para el caso de
+          expresiones [sobre funcionarios
           públicos](https://elcomercio.pe/opinion/columnistas/rectifique-presidente-por-andres-calderon-noticia/).
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-04-21
-        url: https://ipys.org/libertad-de-expresion/alertas/peru-idl-reporteros-denuncia-operativo-de-ingreso-ilegal-a-sus-oficinas
+        tipo: proyecto
         texto: >-
           Integrantes de los grupos de fanáticos de ultraderecha La Resistencia, Los
-          Insurgentes y Los Combatientes [llegaron]($url) nuevamente hasta los
-          exteriores del local de IDL-Reporteros para gritar insultos y amenazas
-          contra el director del medio de comunicación, Gustavo Gorriti, y sus
-          periodistas. Rudy Jordan, parte del equipo de IDL-Reporteros sufrió una
-          agresión de parte de una de las fanáticas mientras el periodista
-          registraba los hechos.
+          Insurgentes y Los Combatientes
+          [llegaron](https://ipys.org/libertad-de-expresion/alertas/peru-idl-reporteros-denuncia-operativo-de-ingreso-ilegal-a-sus-oficinas)
+          nuevamente hasta los exteriores del local de IDL-Reporteros para gritar
+          insultos y amenazas contra el director del medio de comunicación, Gustavo
+          Gorriti, y sus periodistas. Rudy Jordan, parte del equipo de
+          IDL-Reporteros sufrió una agresión de parte de una de las fanáticas
+          mientras el periodista registraba los hechos.
         etiquetas:
           - libertad-de-prensa
 ---
 
-{{< observatorio-mes month="2022-05" >}}
+**Proyectos por país**
+
+| País | Proyectos |
+|---|---:|
+| Argentina | 7 |
+| Brasil | 28 |
+| Chile | 3 |
+| Colombia | 14 |
+| Ecuador | 2 |
+| Guatemala | — |
+| México | 13 |
+| Paraguay | 2 |
+| Perú | 2 |
+
+**Temas proyectos de ley presentados entre agosto 2021 y mayo 2022**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 6,9% |
+| Acoso | 10,3% |
+| Apología | 5,2% |
+| Libertad de expresión | 8,6% |
+| Igualdad y no discriminación | 17,2% |
+| Acceso a Internet | 1,7% |
+| Privacidad | 1,7% |
+| Protección de menores | 15,5% |
+| Reputación y honor | 5,2% |
+| Moderación de contenidos | 5,2% |
+| Violencia de género | 5,2% |
+| Derechos de los indígenas | 3,4% |
+| Fake News | 1,7% |
+
+**Temas proyectos de ley presentados entre agosto 2021 y mayo 2022**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 4,8% |
+| Acoso | 9,5% |
+| Apología | 4,8% |
+| Libertad de culto | 1,6% |
+| Igualdad y no discriminación | 15,9% |
+| Publicidad oficial | 4,8% |
+| Fake News | 1,6% |
+| Protección de menores | 14,3% |
+| Reputación y honor | 4,8% |
+| Moderación de contenidos | 4,8% |
 
 {{< boletin-paises >}}

@@ -1,18 +1,19 @@
 ---
-title: "Francesca Chocano Villanueva"
-slug: "francesca-chocano-villanueva"
-author_type: "alumni" # staff | alumni | friends
-weight: 4            # ordering inside each type
+translationKey: ''
+title: Francesca Chocano Villanueva
+slug: francesca-chocano-villanueva
 draft: false
-role: 
-organization: "CELE"
-location: "Buenos Aires, AR"
-photo: 
-bio_short: 
-twitter_handle: 
-bluesky_handle: 
-orcid_number: 
+author_type: alumni
+weight: 4
+role: Researcher
+organization: CELE
+location: Buenos Aires, AR
+photo: /img/Francesca Chocoano.jpg
+bio_short: Estudiante de Derecho y asistente de enseñanza en la Universidad del Pacífico.
+twitter_handle: ''
+bluesky_handle: ''
+orcid_number: ''
+email: null
 ---
 
-Francesca Chocano es estudiante de Derecho y asistente de enseñanza en la Universidad del Pacífico. Actualmente se desempeña como asistente de investigación en el Centro de Estudios sobre Libertad de Expresión de la Universidad de Palermo en Argentina. Además, coordina la Clínica Jurídica sobre Libertad de Información y Transparencia. Francesca también es miembro de la Red de Servidores Públicos de América Latina de la Fundación Botín en España.
-
+Francesca Chocano es estudiante de Derecho y asistente de enseñanza en la Universidad del Pacífico.  Además, coordina la Clínica Jurídica sobre Libertad de Información y Transparencia. Francesca también es miembro de la Red de Servidores Públicos de América Latina de la Fundación Botín en España.

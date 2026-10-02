@@ -1,36 +1,46 @@
 ---
-author: [Editor]
-content_type: [boletin]
-date: '2022-01-28'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
+title: 'Boletín mensual Observatorio Legislativo | Enero 2022'
 slug: boletin-mensual-enero-2022
-tags: [institucional]
-title: Boletín mensual Observatorio Legislativo | Enero 2022
+date: 2022-01-28
 translationKey: wp-9573
+description: >-
+  Novedades de la actividad legislativa y regulatoria, decisiones judiciales
+  y administrativas.
+author:
+  - Editor
+content_type:
+  - boletin
+programs:
+  - policy
 type: posts
+featured: false
 newsletter_series: observatorio
+image: /img/shutterstock_1698060541-1-scaled.jpg
+tags:
+  - institucional
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2022-01-04
-        url: https://www.pagina12.com.ar/393268-juan-carr-otra-victima-de-las-fake-news
+        tipo: proyecto
         texto: >-
-          Juan Carr fue objeto de [noticias falsas]($url) por parte de un usuario en
-          Twitter que difundió una imagen de una resolución con radicado “298/2022”,
-          que no existe, y denunciando que el Gobierno Nacional le estaba abonando
-          un sueldo de 350.000 pesos por el cargo de un asesor del Consejo Económico
-          y Social. La publicación logró obtener 3.600 “me gusta”. La información se
-          difundió a tal punto que el diputado nacional del PRO, Fernando Iglesias,
-          criticó al dirigente social. Sin embargo, se logró
+          Juan Carr fue objeto de [noticias
+          falsas](https://www.pagina12.com.ar/393268-juan-carr-otra-victima-de-las-fake-news)
+          por parte de un usuario en Twitter que difundió una imagen de una
+          resolución con radicado “298/2022”, que no existe, y denunciando que el
+          Gobierno Nacional le estaba abonando un sueldo de 350.000 pesos por el
+          cargo de un asesor del Consejo Económico y Social. La publicación logró
+          obtener 3.600 “me gusta”. La información se difundió a tal punto que el
+          diputado nacional del PRO, Fernando Iglesias, criticó al dirigente social.
+          Sin embargo, se logró
           [corroborar](https://www.boletinoficial.gob.ar/detalleAviso/primera/244099/20210508)
           que el cargo que posee Juan Carr es de carácter _Ad Honorem_.
+        etiquetas:
+          - libertad-de-expresion
 
       - fecha: 2022-01-06
-        url: https://www.perfil.com/noticias/economia/el-gobierno-multo-a-facebook-con-5-millones-por-clausulas-abusivas-en-terminos-de-uso-de-whatsapp.phtml
+        tipo: proyecto
         texto: >-
           El Ministerio de Desarrollo Productivo multó a Facebook Argentina SRL a
           pagar el valor de $5 millones (valor máximo determinado por la Ley Defensa
@@ -44,34 +54,39 @@ paises:
           prórroga de jurisdicción para que los usuarios acudan, de manera
           exclusiva, al [Tribunal de Distrito de los Estados Unidos para el Distrito
           Norte de California o un Tribunal Estatal ubicado en el condado de San
-          Mateo en California]($url), cuando la normativa argentina establece lo
-          contrario.
+          Mateo en
+          California](https://www.perfil.com/noticias/economia/el-gobierno-multo-a-facebook-con-5-millones-por-clausulas-abusivas-en-terminos-de-uso-de-whatsapp.phtml),
+          cuando la normativa argentina establece lo contrario.
         etiquetas:
           - privacidad
 
       - fecha: 2022-01-06
-        url: https://www.pagina12.com.ar/393700-fake-news-patricia-bullrich-y-el-poder-del-recortar-la-infor
+        tipo: proyecto
         texto: >-
           La ex ministra de Seguridad y hoy, presidente del PRO, Patricia Bullrich
-          compartió en [Twitter ]($url)una captura de pantalla de una nota de _La
-          Nación_, y escribió en la red social "El Gobierno destina 1000 millones
-          para garantizársela a los presos que delinquen desde la cárcel", generando
-          indignación en sus seguidores. Sin embargo, la noticia trataba de una
-          inversión para no frenar los procesos judiciales. A pesar de que la red
-          social permitió compartir el link para poder acceder a la información
-          completa, Patricia Bullrich no aceptó difundirla y, por el contrario,
-          indicó
+          compartió en
+          [Twitter](https://www.pagina12.com.ar/393700-fake-news-patricia-bullrich-y-el-poder-del-recortar-la-infor)
+          una captura de pantalla de una nota de _La Nación_, y escribió en la red
+          social "El Gobierno destina 1000 millones para garantizársela a los presos
+          que delinquen desde la cárcel", generando indignación en sus seguidores.
+          Sin embargo, la noticia trataba de una inversión para no frenar los
+          procesos judiciales. A pesar de que la red social permitió compartir el
+          link para poder acceder a la información completa, Patricia Bullrich no
+          aceptó difundirla y, por el contrario, indicó
           [datos](https://twitter.com/PatoBullrich/status/1478169277991514114?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1478169277991514114%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fiframely.pagina12.com.ar%2Fapi%2Fiframe%3Furl%3Dhttps3A2F2Ftwitter.com2FPatoBullrich2Fstatus2F1478169277991514114v%3D1app%3D1key%3D68ad19d170f26a7756ad0a90caf18fc1playerjs%3D1)
           sin tener un sustento real sobre la acusación que realizó en su cuenta de
           Twitter.
         etiquetas:
+          - libertad-de-expresion
           - acceso-a-la-informacion
 
       - fecha: 2022-01-10
-        url: https://www.perfil.com/noticias/protagonistas/la-orden-para-que-santiago-odonnell-entregue-las-grabaciones-de-mariano-macri-es-una-amenaza-muy-seria-a-la-libertad-de-expresion.phtml
+        tipo: proyecto
         texto: >-
-          Santiago O’Donnell vuelve a ser [noticia]($url) tras vencerse el término
-          establecido por la jueza Susana Margarita Gastaldi para
+          Santiago O’Donnell vuelve a ser
+          [noticia](https://www.perfil.com/noticias/protagonistas/la-orden-para-que-santiago-odonnell-entregue-las-grabaciones-de-mariano-macri-es-una-amenaza-muy-seria-a-la-libertad-de-expresion.phtml)
+          tras vencerse el término establecido por la jueza Susana Margarita
+          Gastaldi para
           [entregar](https://www.infobae.com/sociedad/2021/02/07/fopea-rechazo-la-decision-judicial-para-que-santiago-odonnell-entregue-los-audios-que-utilizo-para-su-libro-sobre-mauricio-macri/)
           grabaciones de las entrevistas con Mariano Macri que hicieron parte del
           libro “Hermano”, material que no ha sido entregado hasta la fecha. De
@@ -83,28 +98,34 @@ paises:
           Mariano Macri, diferentes organizaciones jurídicas e instituciones
           periodísticas mostraron sus adhesiones al derecho a favor de la libertad
           de prensa, dentro de los cuales figuran Clarín, La Nación, Página 12,
-          Perfil, entre otros. LIBERTAD DE PRENSA LIBERTAD DE EXPRESION/span>
+          Perfil, entre otros.
+        etiquetas:
+          - libertad-de-prensa
+          - libertad-de-expresion
 
       - fecha: 2022-01-19
-        url: https://www.lanacion.com.ar/espectaculos/personajes/luciana-salazar-demanda-a-twitter-y-google-por-los-agravios-contra-su-hija-matilda-nid19012022/
+        tipo: proyecto
         texto: >-
           Una usuaria de twitter acusó a Luciana Salazar de teñirle el cabello a su
           hija y a raíz de ello, surgieron las críticas en las redes sociales. La
-          actriz y modelo [decidió]($url) tomar acciones legales contra la red
-          social “Twitter” y contra el navegador “Google” por permitir este tipo de
-          agravios contra la menor de edad, denunciando ciberbullying.
+          actriz y modelo
+          [decidió](https://www.lanacion.com.ar/espectaculos/personajes/luciana-salazar-demanda-a-twitter-y-google-por-los-agravios-contra-su-hija-matilda-nid19012022/)
+          tomar acciones legales contra la red social “Twitter” y contra el
+          navegador “Google” por permitir este tipo de agravios contra la menor de
+          edad, denunciando ciberbullying.
         etiquetas:
           - libertad-de-expresion
           - proteccion-de-menores
           - plataformas-digitales
 
       - fecha: 2022-01-22
-        url: https://twitter.com/CancilleriaARG/status/1484914877005193216?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1484914877005193216%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fiframely.pagina12.com.ar%2Fapi%2Fiframe%3Furl%3Dhttps3A2F2Ftwitter.com2FCancilleriaARG2Fstatus2F1484914877005193216v%3D1app%3D1key%3D68ad19d170f26a7756ad0a90caf18fc1playerjs%3D1
+        tipo: proyecto
         texto: >-
           La Cancillería de Argentina denunció mediante la red social
-          [Twitter]($url) que la noticia publicada por el Clarín que se titulaba “El
-          Gobierno pidió a Rusia detener al iraní de la AMIA, pero era otra persona”
-          estaba compuesta por
+          [Twitter](https://twitter.com/CancilleriaARG/status/1484914877005193216?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1484914877005193216%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fiframely.pagina12.com.ar%2Fapi%2Fiframe%3Furl%3Dhttps3A2F2Ftwitter.com2FCancilleriaARG2Fstatus2F1484914877005193216v%3D1app%3D1key%3D68ad19d170f26a7756ad0a90caf18fc1playerjs%3D1)
+          que la noticia publicada por el Clarín que se titulaba “El Gobierno pidió
+          a Rusia detener al iraní de la AMIA, pero era otra persona” estaba
+          compuesta por
           [“falacias”](https://www.pagina12.com.ar/396986-cancilleria-denuncia-una-operacion-mediatica-de-clarin),
           al no tener el cuenta que dentro de las funciones del Canciller no se
           contempla ordenar una detención sino que simplemente funge como auxiliar
@@ -116,43 +137,44 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2021-12-14
-        url: https://images.jota.info/wp-content/uploads/2021/12/castanhari-melhem-tjsp.pdf
+        tipo: proyecto
         texto: >-
           El [Tribunal de Justicia del Estado de São Paulo (TJSP) confirmó la
           condena del youtuber Felipe Castanhari para indemnizar al actor Marcius
-          Melhem.]($url) Castanhari llamó a Marcius Melhem de "escroto" y
-          "perseguidor que merece prisión por todo el sufrimiento que ha causado" en
-          una publicación en sus redes sociales. El caso comenzó en diciembre de
-          2020, luego de que la revista Piauí publicara un reportaje titulado [“¿Qué
-          más quieres, hija, para que te
+          Melhem.](https://images.jota.info/wp-content/uploads/2021/12/castanhari-melhem-tjsp.pdf)
+          Castanhari llamó a Marcius Melhem de "escroto" y "perseguidor que merece
+          prisión por todo el sufrimiento que ha causado" en una publicación en sus
+          redes sociales. El caso comenzó en diciembre de 2020, luego de que la
+          revista Piauí publicara un reportaje titulado [“¿Qué más quieres, hija,
+          para que te
           calles?”](https://piaui.folha.uol.com.br/materia/o-que-mais-voce-quer-filha-para-calar-boca/),
           denunciando una investigación por acoso moral y sexual contra Melhem. [En
           primera instancia, el Tribunal Civil del Tribunal Regional de Pinheiros,
           en São Paulo, había
-          arbitrado](https://observatoriolegislativocele.com/boletin-mensual-julio-2021/)
-          el monto de la indemnización en R$ 100 mil porque entendió que la
-          publicación de Castanhari calificaba a Melhem como criminal, "afirmando -
-          culpable de los delitos por los que el el actor estaba siendo
-          investigado”. En segunda instancia, el relator y sus pares también
-          consideraron que a pesar de que Melhem es una figura pública, la
-          información divulgada en las redes sociales por Castanhari “va mucho más
-          allá de los límites de la libertad de expresión, constituyendo un abuso”.
-          Sin embargo, el monto de la compensación se redujo a R$25 mil para no
-          generar enriquecimiento ilícito para Melhem, ni consecuencias
-          insignificantes para Castanhari.
+          arbitrado](/es/observatorio-legislativo/boletin-mensual-julio-2021/) el
+          monto de la indemnización en R$ 100 mil porque entendió que la publicación
+          de Castanhari calificaba a Melhem como criminal, "afirmando - culpable de
+          los delitos por los que el el actor estaba siendo investigado”. En segunda
+          instancia, el relator y sus pares también consideraron que a pesar de que
+          Melhem es una figura pública, la información divulgada en las redes
+          sociales por Castanhari “va mucho más allá de los límites de la libertad
+          de expresión, constituyendo un abuso”. Sin embargo, el monto de la
+          compensación se redujo a R$25 mil para no generar enriquecimiento ilícito
+          para Melhem, ni consecuencias insignificantes para Castanhari.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2022-01-19
-        url: https://www.jota.info/blog/barroso-telegram-tse-20012022
+        tipo: proyecto
         texto: >-
           El presidente del Tribunal Superior Electoral (TSE), [ministro Luís
           Roberto Barroso, afirmó que, al regresar el receso del Tribunal, pretende
           conversar con los ministros del tribunal sobre medidas relacionadas con
-          Telegram]($url), preocupados por la repercusión que tendrá la aplicación
-          de intercambio de mensajes puede tener en el proceso electoral. [Desde
-          2021, el TSE intenta establecer un diálogo con Telegram para recabar
-          compromisos en la lucha contra la proliferación de la
+          Telegram](https://www.jota.info/blog/barroso-telegram-tse-20012022),
+          preocupados por la repercusión que tendrá la aplicación de intercambio de
+          mensajes puede tener en el proceso electoral. [Desde 2021, el TSE intenta
+          establecer un diálogo con Telegram para recabar compromisos en la lucha
+          contra la proliferación de la
           desinformación](https://www.tse.jus.br/imprensa/noticias-tse/2021/Dezembro/barroso-envia-oficio-ao-telegram-e-pede-cooperacao-no-combate-a-desinformacao).
           Según el TSE, el juzgado envió [una
           carta](https://www.tse.jus.br/imprensa/noticias-tse/arquivos/oficio-tse-ao-telegram-para-cooperacao-no-combate-a-desinformacao-em-17-12-2021/rybena_pdf?file=https://www.tse.jus.br/imprensa/noticias-tse/arquivos/oficio-tse-ao-telegram-para-cooperacao-no-combate-a-desinformacao-em-17-12-2021/at_download/file)
@@ -165,11 +187,19 @@ paises:
           el actual presidente del TSE argumentó que, si la plataforma mantenía la
           posición de no colaborar con la Justicia Electoral y continuaba sin
           representación efectiva en Brasil, el Congreso Nacional debería prohibir
-          sus operaciones en el país. RESPONSABILIDAD DE INTERMEDIARIOS MODERACION
-          DE CONTENIDOS **06/01** La Corte Constitucional dictó una sentencia en la
-          que obliga a la Fiscalía General de la Nación a entregar información
-          pública que había sido solicitada por la Fundación para la Libertad de
-          Prensa (FLIP). [En 2019, la FLIP solicitó a la
+          sus operaciones en el país.
+        etiquetas:
+          - plataformas-digitales
+
+  - pais: Colombia
+    entradas:
+      - fecha: 2022-01-06
+        tipo: proyecto
+        texto: >-
+          La Corte Constitucional dictó una sentencia en la que obliga a la Fiscalía
+          General de la Nación a entregar información pública que había sido
+          solicitada por la Fundación para la Libertad de Prensa (FLIP). [En 2019,
+          la FLIP solicitó a la
           Fiscalía](https://www.elespectador.com/judicial/fiscalia-debera-entrega-informacion-a-la-flip-sobre-denuncias-de-de-la-espriella/)
           información sobre el número de procesos penales por injurias o calumnias
           iniciados por Abelardo de la Espriella, un abogado conocido por acosar
@@ -185,21 +215,20 @@ paises:
           - acceso-a-la-informacion
           - libertad-de-prensa
 
-  - pais: Colombia
-    entradas:
       - fecha: 2022-01-19
-        url: https://flip.org.co/index.php/es/informacion/pronunciamientos/item/2844-atentado-en-saravena-tiene-graves-consecuencias-sobre-el-periodismo-local
+        tipo: proyecto
         texto: >-
           En el municipio de Saravena, departamento de Arauca, se presentó un
-          [atentado con un carro bomba]($url) que afectó las sedes de los medios de
-          comunicación Trochando Sin Fronteras y Sarare Stereo, afectando
-          parcialmente el funcionamiento de estos medios. El atentado se da en medio
-          de una situación de riesgo alta para los periodistas de Saravena. También
-          en enero, siete periodistas de la zona fueron amenazadas y presionados por
-          grupos ilegales armados para publicar información en sus medios de
-          comunicación. La Fundación para la Libertad de Prensa (FLIP) hizo un
-          llamado para que el gobierno tome acciones para prevenir la violencia y
-          proteger a los periodistas de Arauca.
+          [atentado con un carro
+          bomba](https://flip.org.co/index.php/es/informacion/pronunciamientos/item/2844-atentado-en-saravena-tiene-graves-consecuencias-sobre-el-periodismo-local)
+          que afectó las sedes de los medios de comunicación Trochando Sin Fronteras
+          y Sarare Stereo, afectando parcialmente el funcionamiento de estos medios.
+          El atentado se da en medio de una situación de riesgo alta para los
+          periodistas de Saravena. También en enero, siete periodistas de la zona
+          fueron amenazadas y presionados por grupos ilegales armados para publicar
+          información en sus medios de comunicación. La Fundación para la Libertad
+          de Prensa (FLIP) hizo un llamado para que el gobierno tome acciones para
+          prevenir la violencia y proteger a los periodistas de Arauca.
         etiquetas:
           - acceso-a-la-informacion
           - libertad-de-prensa
@@ -207,12 +236,13 @@ paises:
   - pais: Ecuador
     entradas:
       - fecha: 2021-12-20
-        url: https://www.eluniverso.com/noticias/politica/corte-interamericana-de-derechos-humanos-falla-a-favor-de-directivos-de-el-universo-nota/
+        tipo: proyecto
         texto: >-
           Ecuador recibe sentencia en contra por violación al derecho a la libertad
           de expresión. Después de doce años del 30 de septiembre de 2010, el Estado
           ecuatoriano ha sido condenado por haber violado el derecho a la libertad
-          de expresión de Emilio Palacio Urrutia y del [Diario El Universo]($url).
+          de expresión de Emilio Palacio Urrutia y del [Diario El
+          Universo](https://www.eluniverso.com/noticias/politica/corte-interamericana-de-derechos-humanos-falla-a-favor-de-directivos-de-el-universo-nota/).
           El caso se remonta a los días posteriores al 30 de septiembre, fecha en la
           que Ecuador vivió intensas tensiones en las calles y en la seguridad
           nacional por revueltas de policías insatisfechos con el gobierno. El
@@ -225,55 +255,59 @@ paises:
           un potencial riesgo de cierre del matinal. Este es un importante avance en
           materia de libertad de expresión para la región.
         etiquetas:
-          - libertad-de-expresion
           - libertad-de-prensa
+          - libertad-de-expresion
 
-  - pais: México
+  - pais: Guatemala
     entradas:
       - fecha: 2021-12-17
-        url: https://www.corteidh.or.cr/docs/comunicados/cp_103_2021.pdf
+        tipo: proyecto
         texto: >-
           La Corte Interamericana de Derechos Humanos notificó el 17 de diciembre
           del año recién pasado, la sentencia en el [Caso Pueblos Indígenas Maya
-          Kaqchikel de Sumpango y otros Vs. Guatemala]($url), y en la cual encontró
-          al Estado de Guatemala responsable internacionalmente por la violación de
-          los derechos a la liberad de expresión, la igualdad ante la ley y a
-          participar en la vida cultural, en perjuicio de diversos pueblos indígenas
-          de Guatemala (Maya Kaqchikel; Maya Achí; y Maya Mam). El razonamiento de
-          la Corte se fundamenta principalmente en su apreciación que la Ley General
-          de Telecomunicaciones del país, normativa principal para el sector, impide
-          en la práctica, que estas comunidades indígenas puedan operar legalmente
-          radio comunitarias al no facilitar el acceso a frecuencias del espectro.
-          En la referida sentencia, la Corte recordó que la libertad de expresión
-          constituye una piedra angular en la existencia misma de una sociedad
-          democrática y resaltó la importancia del pluralismo de los medios de
-          comunicación en el marco del ejercicio del referido derecho. La Corte
-          también indicó que los Estados están internacionalmente obligados a
-          establecer leyes y políticas públicas que democraticen el acceso a los
-          medios y garanticen el pluralismo de medios informativos en las distintas
-          áreas comunicacionales, tales como, la radio. Algo sumamente importante de
-          tomar en cuenta fueron las medidas de reparación ordenadas, entre las
-          cuales se ordena al Estado adoptar las medidas necesarias para permitir
-          que las comunidades indígenas, identificadas como víctimas de ese caso
-          puedan operar libremente sus radios comunitarias y adecuar la normativa
-          para evitar que se sigan dando esta situación en Guatemala.
+          Kaqchikel de Sumpango y otros Vs.
+          Guatemala](https://www.corteidh.or.cr/docs/comunicados/cp_103_2021.pdf), y
+          en la cual encontró al Estado de Guatemala responsable internacionalmente
+          por la violación de los derechos a la liberad de expresión, la igualdad
+          ante la ley y a participar en la vida cultural, en perjuicio de diversos
+          pueblos indígenas de Guatemala (Maya Kaqchikel; Maya Achí; y Maya Mam). El
+          razonamiento de la Corte se fundamenta principalmente en su apreciación
+          que la Ley General de Telecomunicaciones del país, normativa principal
+          para el sector, impide en la práctica, que estas comunidades indígenas
+          puedan operar legalmente radio comunitarias al no facilitar el acceso a
+          frecuencias del espectro. En la referida sentencia, la Corte recordó que
+          la libertad de expresión constituye una piedra angular en la existencia
+          misma de una sociedad democrática y resaltó la importancia del pluralismo
+          de los medios de comunicación en el marco del ejercicio del referido
+          derecho. La Corte también indicó que los Estados están internacionalmente
+          obligados a establecer leyes y políticas públicas que democraticen el
+          acceso a los medios y garanticen el pluralismo de medios informativos en
+          las distintas áreas comunicacionales, tales como, la radio. Algo sumamente
+          importante de tomar en cuenta fueron las medidas de reparación ordenadas,
+          entre las cuales se ordena al Estado adoptar las medidas necesarias para
+          permitir que las comunidades indígenas, identificadas como víctimas de ese
+          caso puedan operar libremente sus radios comunitarias y adecuar la
+          normativa para evitar que se sigan dando esta situación en Guatemala.
         etiquetas:
           - acceso-a-la-informacion
           - discurso-de-odio
 
+  - pais: México
+    entradas:
       - fecha: 2021-12-15
-        url: https://articulo19.org/congreso-incumple-con-el-mandato-de-la-suprema-corte-al-no-expedir-una-ley-que-regule-la-publicidad-oficial/
+        tipo: proyecto
         texto: >-
-          [Artículo 19]($url) denunció públicamente al Congreso de la Unión, por
-          incumplir con la sentencia de la Primera Sala de la Suprema Corte de
-          Justicia de la Nación, en la que requirió subsanar las deficiencias de la
-          Ley General de Comunicación Social antes que concluyera el periodo
-          ordinario de sesiones.
+          [Artículo
+          19](https://articulo19.org/congreso-incumple-con-el-mandato-de-la-suprema-corte-al-no-expedir-una-ley-que-regule-la-publicidad-oficial/)
+          denunció públicamente al Congreso de la Unión, por incumplir con la
+          sentencia de la Primera Sala de la Suprema Corte de Justicia de la Nación,
+          en la que requirió subsanar las deficiencias de la Ley General de
+          Comunicación Social antes que concluyera el periodo ordinario de sesiones.
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2021-12-27
-        url: https://articulo19.org/cimac-a19-y-rnp-condenan-la-violencia-del-estado-de-guerrero-contra-mujer-periodista-de-el-sur/
+        tipo: proyecto
         texto: >-
           La reportera María Avilez Rodríguez fue víctima de violencia física e
           institucional por parte del Director de Comunicación Social del Estado de
@@ -281,16 +315,18 @@ paises:
           Jesús Nava. Estas personas rodearon a la periodista cuando buscaba una
           entrevista con la Gobernadora, y junto con otra persona la tomaron de la
           espalda y la jalaron del brazo para sacarla del evento en el que estaban
-          presentes. [Artículo 19]($url) solicita a las autoridades de Guerrero que
-          desistan en el futuro de violencia contra la periodista y se garantice el
-          acceso a la información en la entidad.
+          presentes. [Artículo
+          19](https://articulo19.org/cimac-a19-y-rnp-condenan-la-violencia-del-estado-de-guerrero-contra-mujer-periodista-de-el-sur/)
+          solicita a las autoridades de Guerrero que desistan en el futuro de
+          violencia contra la periodista y se garantice el acceso a la información
+          en la entidad.
         etiquetas:
           - acceso-a-la-informacion
           - violencia-de-genero
           - libertad-de-prensa
 
       - fecha: 2022-01-09
-        url: https://articulo19.org/policia-civil-de-coahuila-lesiona-a-periodista-y-dana-equipo-de-trabajo-para-impedir-documentar-abusos-policiales/
+        tipo: proyecto
         texto: >-
           El reportero, Daniel Leal de Koster, fue agredido por policías en
           Saltillo, Coahuila, al momento de querer registrar en su aparato
@@ -299,37 +335,40 @@ paises:
           todo momento, Daniel Leal buscó identificarse como periodista sin que le
           hicieran caso. A fin de recuperar su teléfono celular siguió a los
           policías a la estación, y después de recibir amenazas por parte de ellos
-          le fue devuelto su equipo roto. [Artículo 19]($url) solicita que la
-          Fiscalía de Justicia y Comisión de Derechos Humanos de Coahuila
-          investiguen estos hechos, y que el Mecanismo de Protección a Periodistas
-          realice acciones para prevenir actos de agresiones en contra del
-          periodista.
+          le fue devuelto su equipo roto. [Artículo
+          19](https://articulo19.org/policia-civil-de-coahuila-lesiona-a-periodista-y-dana-equipo-de-trabajo-para-impedir-documentar-abusos-policiales/)
+          solicita que la Fiscalía de Justicia y Comisión de Derechos Humanos de
+          Coahuila investiguen estos hechos, y que el Mecanismo de Protección a
+          Periodistas realice acciones para prevenir actos de agresiones en contra
+          del periodista.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-01-10
-        url: https://articulo19.org/dos-asesinatos-en-una-semana-el-estado-mexicano-debe-actuar/
+        tipo: proyecto
         texto: >-
           El periodista independiente José Luis Gamboa fue asesinado en el Puerto de
           Veracruz. Su identificación se dio cuatro días después porque no tenía
           identificación al momento de encontrar su cuerpo sin vida. Los temas que
           cubría el periodista se relacionan con política y vínculos de autoridades
-          con delincuencia organizada. [Artículo 19]($url) solicitó a las
-          autoridades estatales que investiguen el delito de homicidio para las
-          directrices del Protocolo Homologado de Investigación de Delitos Cometidos
-          Contra de la Libertad de Expresión.
+          con delincuencia organizada. [Artículo
+          19](https://articulo19.org/dos-asesinatos-en-una-semana-el-estado-mexicano-debe-actuar/)
+          solicitó a las autoridades estatales que investiguen el delito de
+          homicidio para las directrices del Protocolo Homologado de Investigación
+          de Delitos Cometidos Contra de la Libertad de Expresión.
         etiquetas:
           - libertad-de-prensa
           - libertad-de-expresion
 
       - fecha: 2022-01-17
-        url: https://articulo19.org/dos-asesinatos-en-una-semana-el-estado-mexicano-debe-actuar/
+        tipo: proyecto
         texto: >-
           El fotoperiodista Margarito Martínez fue asesinado en Tijuana, Baja
           California. El periodista fue asesinado cuando se dirigía a cubrir una
           nota de violencia en el municipio. Las notas que cubría eran de nota roja
           y policiales. Como antecedente, el fotoperiodista solicitó el apoyo del
-          mecanismo estatal de protección a periodistas. [Artículo 19]($url)
+          mecanismo estatal de protección a periodistas. [Artículo
+          19](https://articulo19.org/dos-asesinatos-en-una-semana-el-estado-mexicano-debe-actuar/)
           solicitó a las autoridades estatales que investiguen el delito de
           homicidio para las directrices del Protocolo Homologado de Investigación
           de Delitos Cometidos Contra de la Libertad de Expresión.
@@ -338,6 +377,7 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-01-20
+        tipo: proyecto
         texto: >-
           R3D refiere que diversos medios de comunicación nacional en México dieron
           a conocer que entre 2016 y 2018, autoridades federales y estatales
@@ -347,14 +387,15 @@ paises:
           - privacidad
 
       - fecha: 2022-01-23
-        url: https://twitter.com/ONUMX/status/1485717851574923266
+        tipo: proyecto
         texto: >-
           La periodista Lourdes Maldonado fue asesinada en Tijuana, Baja California.
           La periodista había señalado en 2019 ante el Presidente de México, André
           Manuel López Obrador, el temer por su vida. La [Oficina en México de la
-          Alta Comisionada de las Naciones Unidas para los Derechos Humanos]($url)
-          pidió al Gobierno de México redoblar el esfuerzo en la protección de
-          periodistas. La organización de la Sociedad Civil, [Artículo
+          Alta Comisionada de las Naciones Unidas para los Derechos
+          Humanos](https://twitter.com/ONUMX/status/1485717851574923266) pidió al
+          Gobierno de México redoblar el esfuerzo en la protección de periodistas.
+          La organización de la Sociedad Civil, [Artículo
           19](https://twitter.com/article19mex/status/1485481551068545026) condenó
           el asesinato de la periodista. De la misma forma, la [Embajada de Estados
           Unidos de América en
@@ -364,28 +405,29 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2022-01-25
-        url: https://www.dof.gob.mx/nota_detalle.php?codigo=5641266&fecha=25/01/2022
+        tipo: proyecto
         texto: >-
           Se publicó en el Diario Oficial de la Federación, el Acuerdo mediante el
           cual la Procuraduría Federal del Consumidor y el Instituto Federal de
           Telecomunicaciones, determinan los derechos mínimos que deben incluirse en
           la carta a que hace referencia el artículo 191 de la Ley Federal de
           Telecomunicaciones y Radiodifusión, ([DOF - Diario Oficial de la
-          Federación]($url)) el cual consta de 138 derechos.
+          Federación](https://www.dof.gob.mx/nota_detalle.php?codigo=5641266&fecha=25/01/2022)
+          el cual consta de 138 derechos.
         etiquetas:
           - acceso-a-la-informacion
 
   - pais: Paraguay
     entradas:
       - fecha: 2021-12-22
-        url: http://silpy.congreso.gov.py/expediente/122092
+        tipo: proyecto
         texto: >-
           El Senado paraguayo
           [sancionó](https://www.mic.gov.py/mic/w/contenido.php?pagina=1&id=2418#:~:text=documentos%20transmisibles%20electr%C3%B3nicos.-,La%20Ley%20N%C2%B0%206822%2F2021%20%E2%80%9CDe%20los%20servicios%20de,de%20Ley%2C%20espec%C3%ADficamente%20el%20Art)
-          la [Ley N° 6822/2021]($url) de los servicios de confianza para las
-          transacciones electrónicas, del documento electrónico y los documentos
-          transmisibles electrónicos. Fue sancionada, con la aceptación del veto del
-          Poder Ejecutivo, que [objetó
+          la [Ley N° 6822/2021](http://silpy.congreso.gov.py/expediente/122092) de
+          los servicios de confianza para las transacciones electrónicas, del
+          documento electrónico y los documentos transmisibles electrónicos. Fue
+          sancionada, con la aceptación del veto del Poder Ejecutivo, que [objetó
           parcialmente](http://www.diputados.gov.py/index.php/noticias/diputados-acepta-veto-parcial-del-ejecutivo-con-respecto-las-transferencias-de-dinero-celulares)
           el proyecto de Ley, específicamente el Art. 103. Tiene por objeto
           establecer el marco jurídico para la identificación electrónica, el sello
@@ -398,29 +440,31 @@ paises:
           - privacidad
 
       - fecha: 2021-12-27
-        url: https://www.lanacion.com.py/investigacion/2021/12/27/suplantacion-de-identidad-uno-de-los-mayores-riesgos-de-la-era-digital/
+        tipo: proyecto
         texto: >-
-          Suplantación de identidad, uno de los mayores [riesgos]($url) de la era
-          digital en Paraguay - Nuestro país es uno de los pocos países de la región
-          que no tiene una ley de protección de datos personales, la ley que está
-          vigente ahora es una ley de protección de datos personales crediticios
-          cuya aplicación está a cargo del Banco Central del Paraguay (BCP) y de la
-          Secretaría de Defensa del Consumidor y el Usuario (Sedeco) entonces hay
-          muchas críticas en cuanto a los entes reguladores porque lamentablemente
-          todos seguimos recibiendo publicidades, ofertas y se siguen manejando
-          discrecionalmente las bases de datos de usuarios.
+          Suplantación de identidad, uno de los mayores
+          [riesgos](https://www.lanacion.com.py/investigacion/2021/12/27/suplantacion-de-identidad-uno-de-los-mayores-riesgos-de-la-era-digital/)
+          de la era digital en Paraguay - Nuestro país es uno de los pocos países de
+          la región que no tiene una ley de protección de datos personales, la ley
+          que está vigente ahora es una ley de protección de datos personales
+          crediticios cuya aplicación está a cargo del Banco Central del Paraguay
+          (BCP) y de la Secretaría de Defensa del Consumidor y el Usuario (Sedeco)
+          entonces hay muchas críticas en cuanto a los entes reguladores porque
+          lamentablemente todos seguimos recibiendo publicidades, ofertas y se
+          siguen manejando discrecionalmente las bases de datos de usuarios.
         etiquetas:
           - privacidad
 
       - fecha: 2022-01-24
-        url: https://www.montevideo.com.uy/Noticias/Uruguayo-detenido-en-Paraguay-habia-sido-denunciado-por-el-BPS-por-una-cuantiosa-deuda-uc810923
+        tipo: proyecto
         texto: >-
           Uruguayo detenido en Paraguay había sido denunciado por el BPS por una
-          cuantiosa deuda. El [detenido]($url) cuenta con una causa abierta en
-          Buenos Aires en el año 2019, en referencia a la difusión de propaganda
-          nazi. Según el citado medio, el hombre es acusado de dirigir un blog que
-          hace difusión de la ideología nazi, además de incitar al adoctrinamiento y
-          la captación de adeptos.
+          cuantiosa deuda. El
+          [detenido](https://www.montevideo.com.uy/Noticias/Uruguayo-detenido-en-Paraguay-habia-sido-denunciado-por-el-BPS-por-una-cuantiosa-deuda-uc810923)
+          cuenta con una causa abierta en Buenos Aires en el año 2019, en referencia
+          a la difusión de propaganda nazi. Según el citado medio, el hombre es
+          acusado de dirigir un blog que hace difusión de la ideología nazi, además
+          de incitar al adoctrinamiento y la captación de adeptos.
         etiquetas:
           - discurso-de-odio
           - libertad-de-expresion
@@ -428,29 +472,31 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2022-01-08
-        url: https://ipys.org/libertad-de-expresion/alertas/peru-fiscales-y-policias-allanan-vivienda-de-periodista-1
+        tipo: proyecto
         texto: >-
           Durante horas de la madrugada, una veintena de policías y fiscales
-          [allanaron]($url) la vivienda del periodista Pedro Salinas, en busca de
-          fuentes de prueba de un supuesto delito de colusión en agravio del Estado.
-          En la diligencia autorizada judicialmente, incautaron el teléfono celular
-          del periodista y un disco duro externo. El periodista denunció
-          públicamente estos hechos calificándolos como intimidatorios, y advirtió
-          que los equipos confiscados contenían información sensible que servía para
-          su próximo libro sobre los abusos del Sodalicio de Vida Cristiana.
+          [allanaron](https://ipys.org/libertad-de-expresion/alertas/peru-fiscales-y-policias-allanan-vivienda-de-periodista-1)
+          la vivienda del periodista Pedro Salinas, en busca de fuentes de prueba de
+          un supuesto delito de colusión en agravio del Estado. En la diligencia
+          autorizada judicialmente, incautaron el teléfono celular del periodista y
+          un disco duro externo. El periodista denunció públicamente estos hechos
+          calificándolos como intimidatorios, y advirtió que los equipos confiscados
+          contenían información sensible que servía para su próximo libro sobre los
+          abusos del Sodalicio de Vida Cristiana.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2022-01-10
-        url: https://elcomercio.pe/politica/en-vivo-christopher-acosta-pj-condena-a-autor-de-plata-como-cancha-tras-querella-de-cesar-acuna-libertad-de-prensa-noticia/
+        tipo: proyecto
         texto: >-
           El juez del Trigésimo Juzgado Penal Liquidador de Lima, Raúl Jesús Vega,
-          [condenó]($url) a dos años de prisión suspendida al periodista Christopher
-          Acosta, autor del libro _Plata como Cancha_, y a Jerónimo Pimentel,
-          director de la editorial Penguim Random House en el Perú, tras la querella
-          por difamación que interpuso el líder del partido político Alianza para el
-          Progreso y ex candidato presidencial, César Acuña. Organizaciones
-          defensoras de la [libertad de
+          [condenó](https://elcomercio.pe/politica/en-vivo-christopher-acosta-pj-condena-a-autor-de-plata-como-cancha-tras-querella-de-cesar-acuna-libertad-de-prensa-noticia/)
+          a dos años de prisión suspendida al periodista Christopher Acosta, autor
+          del libro _Plata como Cancha_, y a Jerónimo Pimentel, director de la
+          editorial Penguim Random House en el Perú, tras la querella por difamación
+          que interpuso el líder del partido político Alianza para el Progreso y ex
+          candidato presidencial, César Acuña. Organizaciones defensoras de la
+          [libertad de
           prensa](https://ipys.org/libertad-de-expresion/alertas/peru-juez-condena-a-periodista-autor-de-libro-plata-como-cancha)
           y de los [derechos
           humanos](https://twitter.com/amnistiaperu/status/1481357695651401739),
@@ -475,16 +521,61 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2022-01-13
-        url: https://www.ipys.org/public/index.php/libertad-de-expresion/alertas/peru-ex-gerente-regional-agrede-y-amenaza-a-periodista
+        tipo: proyecto
         texto: >-
           El periodista Edgar Alarcón del diario “El Poder” [fue agredido física y
-          verbalmente]($url) por el abogado Jhon Sander Alegría Angulo, exgerente de
-          una unidad ejecutora del gobierno regional de San Martín, al noreste del
-          país.
+          verbalmente](https://www.ipys.org/public/index.php/libertad-de-expresion/alertas/peru-ex-gerente-regional-agrede-y-amenaza-a-periodista)
+          por el abogado Jhon Sander Alegría Angulo, exgerente de una unidad
+          ejecutora del gobierno regional de San Martín, al noreste del país.
         etiquetas:
           - libertad-de-prensa
 ---
 
-{{< observatorio-mes month="2022-01" >}}
+**Proyectos por país**
+
+| País | Proyectos |
+|---|---:|
+| Argentina | 7 |
+| Brasil | 28 |
+| Chile | 3 |
+| Colombia | 14 |
+| Ecuador | 2 |
+| Guatemala | — |
+| México | 13 |
+| Paraguay | 2 |
+| Perú | 2 |
+
+**Temas proyectos de ley presentados entre agosto 2021 y enero 2022**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 6,9% |
+| Acoso | 10,3% |
+| Apología | 5,2% |
+| Libertad de expresión | 8,6% |
+| Igualdad y no discriminación | 17,2% |
+| Acceso a Internet | 1,7% |
+| Privacidad | 1,7% |
+| Protección de menores | 15,5% |
+| Reputación y honor | 5,2% |
+| Moderación de contenidos | 5,2% |
+| Violencia de género | 5,2% |
+| Derechos de los indígenas | 3,4% |
+| Fake News | 1,7% |
+
+**Temas proyectos de ley presentados entre agosto 2021 y enero 2022**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 4,8% |
+| Acoso | 9,5% |
+| Apología | 4,8% |
+| Libertad de culto | 1,6% |
+| Igualdad y no discriminación | 15,9% |
+| Publicidad oficial | 4,8% |
+| Fake News | 1,6% |
+| Protección de menores | 14,3% |
+| Reputación y honor | 4,8% |
+| Moderación de contenidos | 4,8% |
 
 {{< boletin-paises >}}

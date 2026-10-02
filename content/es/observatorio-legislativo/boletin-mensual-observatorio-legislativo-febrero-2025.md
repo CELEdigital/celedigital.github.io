@@ -1,39 +1,47 @@
 ---
-author: [CELE]
-content_type: [boletin]
-date: '2025-03-04'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales
-  y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
+title: 'Boletín mensual Observatorio Legislativo | Febrero 2025'
 slug: boletin-mensual-observatorio-legislativo-febrero-2025
-tags: [institucional]
-title: Boletín mensual Observatorio Legislativo | Febrero 2025
+date: 2025-03-04
 translationKey: wp-14200
+description: >-
+  Novedades de la actividad legislativa y regulatoria, decisiones judiciales
+  y administrativas.
+author:
+  - CELE
+content_type:
+  - boletin
+programs:
+  - policy
 type: posts
+featured: false
 newsletter_series: observatorio
+image: /img/shutterstock_1698060541-1-scaled.jpg
+tags:
+  - institucional
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2025-02-28
-        url: https://fopea.org/apertura-de-sesiones-ordinarias-fopea-pide-garantias-para-coberturas-libres/
+        tipo: proyecto
         texto: >-
-          El [Foro de Periodismo Argentino (FOPEA)]($url) solicitó formalmente a las
-          autoridades del Congreso que se garantice una cobertura sin restricciones
-          durante el acto de apertura de las sesiones ordinarias. Esta petición
-          busca asegurar condiciones adecuadas para el trabajo de la prensa y el
-          respeto a la libertad de expresión en eventos oficiales.
+          El [Foro de Periodismo Argentino
+          (FOPEA)](https://fopea.org/apertura-de-sesiones-ordinarias-fopea-pide-garantias-para-coberturas-libres/)
+          solicitó formalmente a las autoridades del Congreso que se garantice una
+          cobertura sin restricciones durante el acto de apertura de las sesiones
+          ordinarias. Esta petición busca asegurar condiciones adecuadas para el
+          trabajo de la prensa y el respeto a la libertad de expresión en eventos
+          oficiales.
         etiquetas:
           - libertad-de-prensa
           - acceso-a-la-informacion
 
       - fecha: 2025-02-26
-        url: https://www.diputados.gov.ar/diputados/gpedrali/proyecto.html?exp=7957-D-2024
+        tipo: proyecto
         texto: >-
-          Diputados presentaron el [Proyecto de Ley N° 7957-D-2024]($url), que
-          propone la derogación del Decreto 780/2024, el cual modifica la Ley de
+          Diputados presentaron el [Proyecto de Ley N°
+          7957-D-2024](https://www.diputados.gov.ar/diputados/gpedrali/proyecto.html?exp=7957-D-2024),
+          que propone la derogación del Decreto 780/2024, el cual modifica la Ley de
           Acceso a la Información Pública (N° 27.275). Según los fundamentos del
           proyecto, el decreto impone restricciones injustificadas al derecho
           ciudadano de acceder a información gubernamental, debilitando la
@@ -44,21 +52,23 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2025-02-25
-        url: https://www.youtube.com/watch?v=Dbj9cNzpBbU
+        tipo: proyecto
         texto: >-
           La [Comisión de Comunicaciones e Informática de la Cámara de
-          Diputados]($url) llevó a cabo una sesión completa para debatir temas
-          relacionados con el tratamiento automatizado de la información. Este
-          encuentro es parte de los esfuerzos legislativos para abordar los desafíos
-          y regulaciones en el ámbito digital y de las comunicaciones.
+          Diputados](https://www.youtube.com/watch?v=Dbj9cNzpBbU) llevó a cabo una
+          sesión completa para debatir temas relacionados con el tratamiento
+          automatizado de la información. Este encuentro es parte de los esfuerzos
+          legislativos para abordar los desafíos y regulaciones en el ámbito digital
+          y de las comunicaciones.
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2025-02-21
-        url: https://www.diputados.gov.ar/diputados/aianni/proyecto.html?exp=7906-D-2024
+        tipo: proyecto
         texto: >-
-          Legisladores presentaron el [Proyecto de Ley N° 7906-D-2024]($url), que
-          propone modificaciones al Código Penal para regular el uso de redes
+          Legisladores presentaron el [Proyecto de Ley N°
+          7906-D-2024](https://www.diputados.gov.ar/diputados/aianni/proyecto.html?exp=7906-D-2024),
+          que propone modificaciones al Código Penal para regular el uso de redes
           sociales por parte de funcionarios públicos. La iniciativa sanciona con
           penas de prisión y la inhabilitación para ejercer cargos públicos a
           aquellos que, mediante publicaciones, replicaciones o interacciones
@@ -70,46 +80,54 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-02-17
-        url: https://www.diputados.gov.ar/diputados/jcobos/proyecto.html?exp=7854-D-2024
+        tipo: proyecto
         texto: >-
           El diputado Martín Tetaz y otros legisladores presentaron el [Proyecto de
-          Ley N° 7854-D-2024]($url). La iniciativa busca prohibir la publicidad y
-          promoción de negocios con esquemas piramidales en cualquier medio de
-          comunicación, incluyendo redes sociales e internet. Asimismo, establece
-          sanciones para plataformas y medios que faciliten su difusión, y faculta a
-          la justicia a bloquear sitios web infractores. El proyecto también prevé
-          campañas de concientización sobre este tipo de fraudes financieros.
+          Ley N°
+          7854-D-2024](https://www.diputados.gov.ar/diputados/jcobos/proyecto.html?exp=7854-D-2024).
+          La iniciativa busca prohibir la publicidad y promoción de negocios con
+          esquemas piramidales en cualquier medio de comunicación, incluyendo redes
+          sociales e internet. Asimismo, establece sanciones para plataformas y
+          medios que faciliten su difusión, y faculta a la justicia a bloquear
+          sitios web infractores. El proyecto también prevé campañas de
+          concientización sobre este tipo de fraudes financieros.
         etiquetas:
-          - defensa-del-consumidor
           - plataformas-digitales
 
       - fecha: 2025-02-13
-        url: https://www.diputados.gov.ar/comisiones/permanentes/caconstitucionales/proyecto.html?exp=7838-D-2024
+        tipo: proyecto
         texto: >-
           Diputados de Unión por la Patria presentaron el [Proyecto de Ley N°
-          7838-D-2024]($url). El proyecto busca declarar la nulidad absoluta e
-          insanable del Decreto de Necesidad y Urgencia 62/2025, el cual modifica la
-          Ley de Identidad de Género (N° 26.743), restringiendo el acceso de niños,
-          niñas y adolescentes a la rectificación registral de su identidad de
-          género. Los fundamentos del proyecto destacan que el decreto viola
-          tratados internacionales de derechos humanos y el principio de interés
-          superior del niño, afectando el pleno ejercicio del derecho a la identidad
-          y a la salud integral.
+          7838-D-2024](https://www.diputados.gov.ar/comisiones/permanentes/caconstitucionales/proyecto.html?exp=7838-D-2024).
+          El proyecto busca declarar la nulidad absoluta e insanable del Decreto de
+          Necesidad y Urgencia 62/2025, el cual modifica la Ley de Identidad de
+          Género (N° 26.743), restringiendo el acceso de niños, niñas y adolescentes
+          a la rectificación registral de su identidad de género. Los fundamentos
+          del proyecto destacan que el decreto viola tratados internacionales de
+          derechos humanos y el principio de interés superior del niño, afectando el
+          pleno ejercicio del derecho a la identidad y a la salud integral.
+        etiquetas:
+          - violencia-de-genero
 
       - fecha: 2025-02-10
-        url: https://www.diputados.gov.ar/diputados/vbiasi/proyecto.html?exp=7760-D-2024
+        tipo: proyecto
         texto: >-
           Diputados y diputadas del Frente de Izquierda presentaron el [Proyecto de
-          Ley N° 7760-D-2024]($url). El proyecto propone la anulación de los
-          Decretos 61/2025 y 62/2025, los cuales restringen el acceso a la identidad
-          de género de menores de edad y de personas privadas de libertad. Según sus
-          fundamentos, estos decretos vulneran el principio de interés superior del
-          niño, la autonomía progresiva y el pleno respeto a la personalidad, además
-          de reforzar el poder discrecional de las autoridades penitenciarias.
+          Ley N°
+          7760-D-2024](https://www.diputados.gov.ar/diputados/vbiasi/proyecto.html?exp=7760-D-2024).
+          El proyecto propone la anulación de los Decretos 61/2025 y 62/2025, los
+          cuales restringen el acceso a la identidad de género de menores de edad y
+          de personas privadas de libertad. Según sus fundamentos, estos decretos
+          vulneran el principio de interés superior del niño, la autonomía
+          progresiva y el pleno respeto a la personalidad, además de reforzar el
+          poder discrecional de las autoridades penitenciarias.
+        etiquetas:
+          - violencia-de-genero
 
   - pais: Chile
     entradas:
       - fecha: 2025-02-13
+        tipo: proyecto
         exp: Ley N° 21.729
         url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=12563&prmBOLETIN=12042-15
         texto: >-
@@ -129,36 +147,39 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2025-02-12
-        url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=16812&prmBOLETIN=16239-25
+        tipo: proyecto
         texto: >-
-          La Cámara de Diputados de Chile aprobó la [Ley N° 16.224-25]($url), que
-          establece una nueva regulación sobre conductas terroristas y su penalidad,
-          derogando la Ley N° 18.314. La norma amplía la definición de terrorismo e
-          introduce sanciones para quienes difundan por medios informàticos,
-          públicamente mensajes o consignas que inciten a la comisión de delitos
-          tipificados como terroristas, cuando esto genere un peligro cierto e
-          inminente de su realización. Además, establece facultades especiales para
-          la interceptación de comunicaciones en investigaciones de terrorismo y
-          endurece las penas en ciertos casos.
+          La Cámara de Diputados de Chile aprobó la [Ley N°
+          16.224-25](https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=16812&prmBOLETIN=16239-25),
+          que establece una nueva regulación sobre conductas terroristas y su
+          penalidad, derogando la Ley N° 18.314. La norma amplía la definición de
+          terrorismo e introduce sanciones para quienes difundan por medios
+          informàticos, públicamente mensajes o consignas que inciten a la comisión
+          de delitos tipificados como terroristas, cuando esto genere un peligro
+          cierto e inminente de su realización. Además, establece facultades
+          especiales para la interceptación de comunicaciones en investigaciones de
+          terrorismo y endurece las penas en ciertos casos.
 
   - pais: Ecuador
     entradas:
       - fecha: 2025-02-22
-        url: https://www.asambleanacional.gob.ec/es/noticia/103585-asamblea-nacional-en-territorio-del-17-al-21-de-febrero
+        tipo: proyecto
         texto: >-
-          La [Asamblea Nacional de Ecuador]($url) realizó sesiones en territorio del
-          17 al 21 de febrero. Durante estas sesiones, se discutieron proyectos de
-          ley sobre reformas al Código Orgánico Integral Penal (COIP) para proteger
-          a niñas, niños y adolescentes del ciberacoso y la extorsión; reformas a la
-          Ley Orgánica de Educación Superior para garantizar transparencia en el
-          acceso al sistema educativo; y reformas a la Ley de Minería para una
-          asignación directa de regalías.
+          La [Asamblea Nacional de
+          Ecuador](https://www.asambleanacional.gob.ec/es/noticia/103585-asamblea-nacional-en-territorio-del-17-al-21-de-febrero)
+          realizó sesiones en territorio del 17 al 21 de febrero. Durante estas
+          sesiones, se discutieron proyectos de ley sobre reformas al Código
+          Orgánico Integral Penal (COIP) para proteger a niñas, niños y adolescentes
+          del ciberacoso y la extorsión; reformas a la Ley Orgánica de Educación
+          Superior para garantizar transparencia en el acceso al sistema educativo;
+          y reformas a la Ley de Minería para una asignación directa de regalías.
 
       - fecha: 2025-02-07
-        url: https://ifex.org/es/ecuador-garantizar-el-ejercicio-periodistico-durante-las-elecciones-de-2025-sera-la-base-de-una-democracia-sana/
+        tipo: proyecto
         texto: >-
           Las organizaciones nacionales e internacionales han expresado
-          [preocupación por el incremento de ataques a la libertad de prensa]($url)
+          [preocupación por el incremento de ataques a la libertad de
+          prensa](https://ifex.org/es/ecuador-garantizar-el-ejercicio-periodistico-durante-las-elecciones-de-2025-sera-la-base-de-una-democracia-sana/)
           en Ecuador en los últimos años. Entre 2023 y 2025, 16 periodistas han
           tenido que exiliarse debido a amenazas contra su vida por ejercer su labor
           informativa. Hacen un llamado a garantizar el ejercicio periodístico
@@ -169,73 +190,78 @@ paises:
   - pais: Paraguay
     entradas:
       - fecha: 2025-02-18
-        url: https://www.rdn.com.py/2025/02/18/encuentro-por-la-seguridad-y-libertad-de-expresion-de-periodistas/
+        tipo: proyecto
         texto: >-
           Se llevó a cabo un encuentro en el Instituto Cultural Paraguayo Alemán
           (ICPA) para abordar la [seguridad y libertad de expresión de los
-          periodistas]($url) en Paraguay. Organizado por TEDIC y el Sindicato de
-          Periodistas del Paraguay (SPP), con apoyo de la UNESCO, el evento destacó
-          la alarmante cifra de 21 periodistas asesinados y más de 700 casos de
-          violencia en tres décadas de democracia. Durante la conferencia, se
-          presentaron cuatro directrices para la protección de periodistas,
-          incluyendo guías sobre seguridad digital y protocolos para registrar
-          agresiones.
+          periodistas](https://www.rdn.com.py/2025/02/18/encuentro-por-la-seguridad-y-libertad-de-expresion-de-periodistas/)
+          en Paraguay. Organizado por TEDIC y el Sindicato de Periodistas del
+          Paraguay (SPP), con apoyo de la UNESCO, el evento destacó la alarmante
+          cifra de 21 periodistas asesinados y más de 700 casos de violencia en tres
+          décadas de democracia. Durante la conferencia, se presentaron cuatro
+          directrices para la protección de periodistas, incluyendo guías sobre
+          seguridad digital y protocolos para registrar agresiones.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2025-02-17
-        url: https://www.paraguaydigital.com/nacionales/condenan-hechos-de-corrupcion-y-garantizan-libertad-de-prensa-tras-cumbre-de-poderes/45917?
+        tipo: proyecto
         texto: >-
-          En la [Cumbre de Poderes]($url) celebrada en el Palacio de Gobierno, las
-          autoridades de los tres poderes del Estado, junto con representantes del
-          Ministerio Público y la Contraloría, reafirmaron su compromiso en la lucha
-          contra la corrupción y garantizaron la libertad de prensa. El presidente
-          Santiago Peña destacó la importancia del diálogo interinstitucional para
-          enfrentar la corrupción y subrayó el rol fundamental de la prensa como
-          herramienta esencial para la democracia y la transparencia.
+          En la [Cumbre de
+          Poderes](https://www.paraguaydigital.com/nacionales/condenan-hechos-de-corrupcion-y-garantizan-libertad-de-prensa-tras-cumbre-de-poderes/45917?)
+          celebrada en el Palacio de Gobierno, las autoridades de los tres poderes
+          del Estado, junto con representantes del Ministerio Público y la
+          Contraloría, reafirmaron su compromiso en la lucha contra la corrupción y
+          garantizaron la libertad de prensa. El presidente Santiago Peña destacó la
+          importancia del diálogo interinstitucional para enfrentar la corrupción y
+          subrayó el rol fundamental de la prensa como herramienta esencial para la
+          democracia y la transparencia.
         etiquetas:
           - libertad-de-prensa
 
   - pais: Colombia
     entradas:
       - fecha: 2025-02-27
-        url: https://elpais.com/america-colombia/2025-02-27/francia-marquez-dice-que-su-vida-corre-peligro-tras-denunciar-la-corrupcion-en-el-gobierno-al-que-pertenece-no-me-callaran.html
+        tipo: proyecto
         texto: >-
           La vicepresidenta y ministra de la Igualdad de Colombia, [Francia
-          Márquez]($url), denunció amenazas contra su vida tras revelar casos de
-          corrupción dentro del Gobierno. A pesar de las intimidaciones, Márquez
-          afirmó que no será silenciada y continuará su labor.
+          Márquez](https://elpais.com/america-colombia/2025-02-27/francia-marquez-dice-que-su-vida-corre-peligro-tras-denunciar-la-corrupcion-en-el-gobierno-al-que-pertenece-no-me-callaran.html),
+          denunció amenazas contra su vida tras revelar casos de corrupción dentro
+          del Gobierno. A pesar de las intimidaciones, Márquez afirmó que no será
+          silenciada y continuará su labor.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2025-02-24
-        url: https://www.ohchr.org/es/press-releases/2025/02/colombia-un-report-urges-state-protect-civilians-and-their-rights-amid
+        tipo: proyecto
         texto: >-
-          Un [informe de la ONU]($url) instó al Estado colombiano a proteger a los
-          civiles y sus derechos en medio de la violencia continua por parte de
-          grupos armados. El documento enfatiza la necesidad de garantizar la
-          seguridad de la población y salvaguardar los derechos humanos en zonas
-          afectadas por el conflicto.
+          Un [informe de la
+          ONU](https://www.ohchr.org/es/press-releases/2025/02/colombia-un-report-urges-state-protect-civilians-and-their-rights-amid)
+          instó al Estado colombiano a proteger a los civiles y sus derechos en
+          medio de la violencia continua por parte de grupos armados. El documento
+          enfatiza la necesidad de garantizar la seguridad de la población y
+          salvaguardar los derechos humanos en zonas afectadas por el conflicto.
 
       - fecha: 2025-02-11
         tipo: ley
-        url: https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=173537
         texto: >-
-          Se promulgó la [Ley 2446]($url), mediante la cual se crea la política
-          pública de cárceles productivas (PCP) en favor de la población carcelaria.
-          Esta iniciativa busca promover la reintegración social y laboral de las
-          personas privadas de la libertad a través de programas productivos dentro
-          de los centros penitenciarios.
+          Se promulgó la [Ley
+          2446](https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=173537),
+          mediante la cual se crea la política pública de cárceles productivas (PCP)
+          en favor de la población carcelaria. Esta iniciativa busca promover la
+          reintegración social y laboral de las personas privadas de la libertad a
+          través de programas productivos dentro de los centros penitenciarios.
 
   - pais: Perú
     entradas:
       - fecha: 2025-02-13
-        url: https://willax.pe/politica/lopez-aliaga-critica-a-nicolas-lucar-un-periodista-tiene-que-dar-la-cara-igual-que-un-politico
+        tipo: proyecto
         texto: >-
-          Se produjo un [altercado verbal]($url) entre el alcalde de Lima, Rafael
-          López Aliaga, y el periodista Nicolás Lúcar. Ello a raíz de que el
-          político realizará cuestionamientos públicos sobre la vida privada del
-          periodista. Incluso, en una [columna de
+          Se produjo un [altercado
+          verbal](https://willax.pe/politica/lopez-aliaga-critica-a-nicolas-lucar-un-periodista-tiene-que-dar-la-cara-igual-que-un-politico)
+          entre el alcalde de Lima, Rafael López Aliaga, y el periodista Nicolás
+          Lúcar. Ello a raíz de que el político realizará cuestionamientos públicos
+          sobre la vida privada del periodista. Incluso, en una [columna de
           opinión](https://elcomercio.pe/opinion/colaboradores/defensa-de-la-verdad-y-el-honor-por-rafael-lopez-aliaga-noticia/),
           López Aliaga acusó al periodista de destrozar a una familia y “dejar a una
           niña sin hogar”. Diversas voces, como la del periodista [Federico
@@ -246,14 +272,15 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-02-12
-        url: https://www.facebook.com/ANPgremiodelaprensaperuana/posts/pfbid02GRirsyMgzej7TK2LtHa2SoQ9VA5GBJHqgosXgA9WbyFuucT3d5tE6wuGSTzAHMQzl?rdid=cDvppTdxDZFODg3w#
+        tipo: proyecto
         texto: >-
-          La [Asociación Nacional de Periodistas del Perú (ANP)]($url) expresó su
-          solidaridad con Clara Elvira Ospina, periodista que denunció en redes
-          sociales una serie de ataques e insultos sistemáticos en su contra. La ANP
-          denunció que estos discursos de odio buscan desprestigiar y amedrentar a
-          periodistas a través de insultos basados en su género y condición de
-          migrante. El [Instituto de Prensa y Sociedad
+          La [Asociación Nacional de Periodistas del Perú
+          (ANP)](https://www.facebook.com/ANPgremiodelaprensaperuana/posts/pfbid02GRirsyMgzej7TK2LtHa2SoQ9VA5GBJHqgosXgA9WbyFuucT3d5tE6wuGSTzAHMQzl?rdid=cDvppTdxDZFODg3w#)
+          expresó su solidaridad con Clara Elvira Ospina, periodista que denunció en
+          redes sociales una serie de ataques e insultos sistemáticos en su contra.
+          La ANP denunció que estos discursos de odio buscan desprestigiar y
+          amedrentar a periodistas a través de insultos basados en su género y
+          condición de migrante. El [Instituto de Prensa y Sociedad
           (IPYS)](https://ipys.org/alertas/per%C3%BA-directora-de-epicentrotv-responsabiliza-funcionarios-del-estado-por-insultos-que-recibe)
           calificó los insultos como graves, especialmente si, como señala Ospina,
           son alentados por funcionarios del Estado.
@@ -262,31 +289,34 @@ paises:
           - violencia-de-genero
 
       - fecha: 2025-02-10
-        url: https://www.facebook.com/ANPgremiodelaprensaperuana/posts/pfbid04F2Kv2SwRkAeiJ76CxsnWLVKDubehL4TaqcnAfMuR3aYevkox82gDw4fADqHXxfil?rdid=kMV6qGauhOj7cMl1#
+        tipo: proyecto
         texto: >-
-          La [Asociación Nacional de Periodistas del Perú (ANP) ]($url)emitió un
-          comunicado rechazando la denuncia penal presentada contra los periodistas
-          [Christopher Acosta ](https://x.com/TrujiYo/status/1888946456138023209)y
-          Pedro Tenorio de Latina TV por presunta revelación indebida de identidad.
-          La denuncia, interpuesta por el abogado Juan Mario Peña Flores, defensor
-          del exministro Julio Demartini, surge tras los reportajes sobre presuntos
-          actos de corrupción en el programa Qali Warma y la empresa FrigoInca.El
-          denunciante señala que los periodistas revelaron la identidad de una
-          testigo clave, Nohemí Alvarado. Sin embargo, Latina TV aclaró que dicha
-          información era de conocimiento público y había sido difundida por la
-          misma testigo en diversas declaraciones.
+          La [Asociación Nacional de Periodistas del Perú
+          (ANP)](https://www.facebook.com/ANPgremiodelaprensaperuana/posts/pfbid04F2Kv2SwRkAeiJ76CxsnWLVKDubehL4TaqcnAfMuR3aYevkox82gDw4fADqHXxfil?rdid=kMV6qGauhOj7cMl1#)
+          emitió un comunicado rechazando la denuncia penal presentada contra los
+          periodistas [Christopher
+          Acosta](https://x.com/TrujiYo/status/1888946456138023209) y Pedro Tenorio
+          de Latina TV por presunta revelación indebida de identidad. La denuncia,
+          interpuesta por el abogado Juan Mario Peña Flores, defensor del exministro
+          Julio Demartini, surge tras los reportajes sobre presuntos actos de
+          corrupción en el programa Qali Warma y la empresa FrigoInca.El denunciante
+          señala que los periodistas revelaron la identidad de una testigo clave,
+          Nohemí Alvarado. Sin embargo, Latina TV aclaró que dicha información era
+          de conocimiento público y había sido difundida por la misma testigo en
+          diversas declaraciones.
         etiquetas:
           - libertad-de-prensa
 
   - pais: Brasil
     entradas:
       - fecha: 2025-02-19
-        url: https://www.camara.leg.br/noticias/1135019-camara-aprova-projeto-que-torna-crime-a-divulgacao-de-imagem-de-nudez-gerada-por-inteligencia-artificial/
+        tipo: proyecto
         texto: >-
           Proyecto de ley que criminaliza el uso de IA para generar contenido de
           índole sexual es aprobado por la Cámara de Diputados. [La Cámara de
-          Diputados aprobó el Proyecto de Ley N° 3821/24]($url), que modifica el
-          [Código
+          Diputados aprobó el Proyecto de Ley N°
+          3821/24](https://www.camara.leg.br/noticias/1135019-camara-aprova-projeto-que-torna-crime-a-divulgacao-de-imagem-de-nudez-gerada-por-inteligencia-artificial/),
+          que modifica el [Código
           Penal](https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm) y la
           [Ley Electoral](https://www.planalto.gov.br/ccivil_03/leis/l9504.htm) para
           tipificar como delito la manipulación, producción o difusión digital de
@@ -312,39 +342,41 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2025-02-19
-        url: https://www.gov.br/cade/pt-br/cade-discute-concorrencia-nos-ecossistemas-digitais-moveis-em-audiencia-publica
+        tipo: proyecto
         texto: >-
           El Cade realiza audiencia pública para debatir cuestiones de competencia
           en los mercados digitales. [El Consejo Administrativo de Defensa Económica
           (Cade) llevó a cabo una audiencia pública con el objetivo de debatir
           cuestiones de competencia relacionadas con los sistemas operativos de
-          Apple (App Store) y Google (Google Play)]($url). Ambas empresas están
-          siendo investigadas por posibles prácticas anticompetitivas vinculadas a
-          sus sistemas operativos y al modelo de distribución de aplicaciones en sus
-          tiendas virtuales. La audiencia contó con la participación de
-          representantes de las empresas, la sociedad civil y la academia.
-          Representantes del sector financiero y de la sociedad civil alertaron
-          sobre la falta de competencia efectiva entre dispositivos Android e iOS y
-          el impacto de la concentración de poder en el acceso a la información y la
-          diversidad del debate público. Apple y Google defendieron sus modelos de
-          negocio, argumentando que ofrecen condiciones equitativas a los
-          desarrolladores y que la regulación no debe restringir su capacidad de
+          Apple (App Store) y Google (Google
+          Play)](https://www.gov.br/cade/pt-br/cade-discute-concorrencia-nos-ecossistemas-digitais-moveis-em-audiencia-publica).
+          Ambas empresas están siendo investigadas por posibles prácticas
+          anticompetitivas vinculadas a sus sistemas operativos y al modelo de
+          distribución de aplicaciones en sus tiendas virtuales. La audiencia contó
+          con la participación de representantes de las empresas, la sociedad civil
+          y la academia. Representantes del sector financiero y de la sociedad civil
+          alertaron sobre la falta de competencia efectiva entre dispositivos
+          Android e iOS y el impacto de la concentración de poder en el acceso a la
+          información y la diversidad del debate público. Apple y Google defendieron
+          sus modelos de negocio, argumentando que ofrecen condiciones equitativas a
+          los desarrolladores y que la regulación no debe restringir su capacidad de
           operar en Brasil.
 
       - fecha: 2025-02-18
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2484379
+        tipo: proyecto
         texto: >-
           Proyecto de ley propone la regulación del uso y desarrollo de la
           inteligencia artificial. [El diputado federal Marx Beltrão (PP/AL)
           presentó el Proyecto de Ley N° 526/2025, que propone regular los sistemas
-          de Inteligencia Artificial (IA) en Brasil.]($url) El proyecto busca
-          normativizar estas tecnologías con base en principios y directrices para
-          su desarrollo e implementación. Entre sus disposiciones, se prohíbe el uso
-          de IA para: (i) vigilancia masiva de la población sin orden judicial; (ii)
-          manipulación de información para la difusión de desinformación o fake
-          news; (iii) promoción de la discriminación por raza, género, orientación
-          sexual, religión o cualquier otro factor protegido por ley; y (iv)
-          decisiones totalmente automatizadas en procesos judiciales y
+          de Inteligencia Artificial (IA) en
+          Brasil.](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2484379)
+          El proyecto busca normativizar estas tecnologías con base en principios y
+          directrices para su desarrollo e implementación. Entre sus disposiciones,
+          se prohíbe el uso de IA para: (i) vigilancia masiva de la población sin
+          orden judicial; (ii) manipulación de información para la difusión de
+          desinformación o fake news; (iii) promoción de la discriminación por raza,
+          género, orientación sexual, religión o cualquier otro factor protegido por
+          ley; y (iv) decisiones totalmente automatizadas en procesos judiciales y
           administrativos sin posibilidad de revisión humana. Los sistemas de IA
           considerados de alto riesgo deberán someterse a evaluaciones de impacto,
           adoptar medidas de seguridad y privacidad, proporcionar información clara
@@ -357,14 +389,15 @@ paises:
           - inteligencia-artificial
 
       - fecha: 2025-02-12
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483884
+        tipo: proyecto
         texto: >-
           Proyecto de ley propone la difusión de mensajes de concientización sobre
           la adicción al juego y la publicidad de apuestas. [El diputado federal
-          Hélio Lopes (PL/RJ) presentó el Proyecto de Ley N° 427/2025]($url), que
-          propone la obligatoriedad de difundir mensajes de concientización antes de
-          la transmisión de juegos de apuestas y de publicidad sobre apuestas y
-          juegos de azar en los medios de comunicación. [Según el
+          Hélio Lopes (PL/RJ) presentó el Proyecto de Ley N°
+          427/2025](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2483884),
+          que propone la obligatoriedad de difundir mensajes de concientización
+          antes de la transmisión de juegos de apuestas y de publicidad sobre
+          apuestas y juegos de azar en los medios de comunicación. [Según el
           proyecto](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2855016&filename=PL%20427/2025),
           las plataformas digitales deberán incluir estos mensajes como contenido de
           exhibición obligatoria, y los “medios de comunicación masiva” —término
@@ -385,19 +418,19 @@ paises:
           - defensa-del-consumidor
 
       - fecha: 2025-02-11
-        url: https://www.migalhas.com.br/quentes/424587/zambelli-deve-apagar-post-insinuando-apoio-de-vera-magalhaes-a-estupro
+        tipo: proyecto
         texto: >-
           Juez ordena a Carla Zambelli eliminar publicaciones sobre periodista. [El
           juez Paulo Rogério Santos Pinheiro, del 43° Juzgado Civil de São Paulo/SP,
           ordenó la eliminación de publicaciones ofensivas realizadas por la
           diputada federal Carla Zambelli contra la periodista Vera
-          Magalhães]($url). Las publicaciones en cuestión fueron realizadas en 2022
-          a través del perfil de la diputada en la plataforma X (antes Twitter) y
-          acusaban a la periodista de actuar como una "persona sexista, machista,
-          cristofóbica y, de forma indirecta, de apoyar la violación y la
-          pedofilia". Además, el contenido señalaba que Vera Magalhães era "una
-          vergüenza para el periodismo brasileño" y que sentía “pasión por Jair
-          Bolsonaro”. En su
+          Magalhães](https://www.migalhas.com.br/quentes/424587/zambelli-deve-apagar-post-insinuando-apoio-de-vera-magalhaes-a-estupro).
+          Las publicaciones en cuestión fueron realizadas en 2022 a través del
+          perfil de la diputada en la plataforma X (antes Twitter) y acusaban a la
+          periodista de actuar como una "persona sexista, machista, cristofóbica y,
+          de forma indirecta, de apoyar la violación y la pedofilia". Además, el
+          contenido señalaba que Vera Magalhães era "una vergüenza para el
+          periodismo brasileño" y que sentía “pasión por Jair Bolsonaro”. En su
           [decisión](https://internetlab.org.br/wp-content/uploads/2025/02/FEE461B7AF67CD_doc_133386679.pdf),
           el magistrado reconoció que las publicaciones eran falsas y ofensivas,
           excediendo los límites de la libertad de expresión y vulnerando el honor
@@ -408,22 +441,23 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-02-04
-        url: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
+        tipo: proyecto
         texto: >-
           Proyecto de Ley propone garantizar la eliminación de datos personales de
           adolescentes en plataformas digitales al alcanzar la mayoría de edad. [La
           diputada federal Luiza Canziani (PSD/PR) presentó el Proyecto de Ley N°
           201/2025](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2482660),
-          que propone modificar la [Ley n° 13.709/18]($url) para permitir que, al
-          cumplir dieciocho años, los jóvenes puedan solicitar el cese del
-          tratamiento de sus datos y la eliminación parcial o total de su
-          información personal de aplicaciones y servicios digitales utilizados
-          durante su infancia y adolescencia. La [iniciativa
-          ](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2850526&filename=PL%20201/2025)prevé
-          la inclusión de un mecanismo que permita a los jóvenes revisar los datos
-          personales que han proporcionado o publicado en plataformas digitales,
-          brindándoles la opción de decidir si desean mantener o eliminar dicha
-          información. Asimismo, el proyecto establece que los proveedores de
+          que propone modificar la [Ley n°
+          13.709/18](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
+          para permitir que, al cumplir dieciocho años, los jóvenes puedan solicitar
+          el cese del tratamiento de sus datos y la eliminación parcial o total de
+          su información personal de aplicaciones y servicios digitales utilizados
+          durante su infancia y adolescencia. La
+          [iniciativa](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2850526&filename=PL%20201/2025)
+          prevé la inclusión de un mecanismo que permita a los jóvenes revisar los
+          datos personales que han proporcionado o publicado en plataformas
+          digitales, brindándoles la opción de decidir si desean mantener o eliminar
+          dicha información. Asimismo, el proyecto establece que los proveedores de
           aplicaciones y plataformas deberán garantizar la "obligatoriedad de
           ofrecer una herramienta gratuita que permita a los usuarios seleccionar
           los datos a gestionar", evitando así que la única alternativa para ejercer
@@ -434,65 +468,72 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-02-04
-        url: https://www.jota.info/justica/whatsapp-responde-solidariamente-por-inercia-em-caso-de-pornografia-de-vinganca-diz-stj
+        tipo: proyecto
         texto: >-
           El Superior Tribunal de Justicia (STJ) de Brasil rechaza el recurso de
           Meta en un caso de difusión no consentida de imágenes íntimas [La Tercera
           Sala del Superior Tribunal de Justicia (STJ) de Brasil rechazó un recurso
           presentado por Meta contra una decisión del Tribunal de Justicia del
-          Estado de Río de Janeiro (TJRJ)]($url). La sentencia de primera instancia
-          había condenado a la empresa al pago de una indemnización por daños
-          morales debido a su inacción en un caso de difusión no consentida de
-          imágenes íntimas de una usuaria menor de dieciocho años. La condena se
-          estableció de manera solidaria, es decir, en conjunto con el usuario
-          responsable de divulgar las imágenes sin el consentimiento de la víctima a
-          través de WhatsApp. En su defensa, la empresa argumentó que la eliminación
-          del contenido en circulación era inviable debido a la tecnología de
-          cifrado utilizada por el proveedor, lo que convertiría la orden judicial
-          en una “obligación imposible”. Sin embargo, los jueces consideraron que
-          hubo inacción por parte de la plataforma incluso después de recibir una
-          notificación judicial. La jueza ponente del caso, Nancy Andrighi, subrayó
-          que el proveedor es responsable de manera solidaria cuando no adopta
-          medidas para mitigar los daños a las víctimas. Asimismo, refutó el
-          argumento de la imposibilidad de eliminación del contenido, destacando que
-          la empresa cuenta con mecanismos para implementar medidas alternativas,
-          como la suspensión de cuentas, pero optó por no actuar.
+          Estado de Río de Janeiro
+          (TJRJ)](https://www.jota.info/justica/whatsapp-responde-solidariamente-por-inercia-em-caso-de-pornografia-de-vinganca-diz-stj).
+          La sentencia de primera instancia había condenado a la empresa al pago de
+          una indemnización por daños morales debido a su inacción en un caso de
+          difusión no consentida de imágenes íntimas de una usuaria menor de
+          dieciocho años. La condena se estableció de manera solidaria, es decir, en
+          conjunto con el usuario responsable de divulgar las imágenes sin el
+          consentimiento de la víctima a través de WhatsApp. En su defensa, la
+          empresa argumentó que la eliminación del contenido en circulación era
+          inviable debido a la tecnología de cifrado utilizada por el proveedor, lo
+          que convertiría la orden judicial en una “obligación imposible”. Sin
+          embargo, los jueces consideraron que hubo inacción por parte de la
+          plataforma incluso después de recibir una notificación judicial. La jueza
+          ponente del caso, Nancy Andrighi, subrayó que el proveedor es responsable
+          de manera solidaria cuando no adopta medidas para mitigar los daños a las
+          víctimas. Asimismo, refutó el argumento de la imposibilidad de eliminación
+          del contenido, destacando que la empresa cuenta con mecanismos para
+          implementar medidas alternativas, como la suspensión de cuentas, pero optó
+          por no actuar.
+        etiquetas:
+          - violencia-de-genero
 
   - pais: México
     entradas:
       - fecha: 2025-02-27
-        url: https://www.elimparcial.com/mexico/2025/02/27/banco-azteca-y-ricardo-salinas-pliego-pierden-millones-quienes-son-los-7-comunicadores-demandados-por-grupo-salinas-por-terrorismo-financiero/
+        tipo: proyecto
         texto: >-
           Grupo Salinas presentó una [demanda civil contra siete
-          comunicadores]($url), acusándolos de "terrorismo financiero" por
-          presuntamente difundir información falsa en 2023 sobre la quiebra de Banco
-          Azteca. Según la empresa, estas declaraciones provocaron la salida de
-          miles de clientes y pérdidas significativas. La organización Artículo 19
-          calificó esta acción judicial como un atentado contra la libertad de
-          expresión. La presidenta Claudia Sheinbaum solicitó al juez encargado que
-          desestime la demanda, enfatizando la importancia de proteger la libertad
-          de expresión.
+          comunicadores](https://www.elimparcial.com/mexico/2025/02/27/banco-azteca-y-ricardo-salinas-pliego-pierden-millones-quienes-son-los-7-comunicadores-demandados-por-grupo-salinas-por-terrorismo-financiero/),
+          acusándolos de "terrorismo financiero" por presuntamente difundir
+          información falsa en 2023 sobre la quiebra de Banco Azteca. Según la
+          empresa, estas declaraciones provocaron la salida de miles de clientes y
+          pérdidas significativas. La organización Artículo 19 calificó esta acción
+          judicial como un atentado contra la libertad de expresión. La presidenta
+          Claudia Sheinbaum solicitó al juez encargado que desestime la demanda,
+          enfatizando la importancia de proteger la libertad de expresión.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2025-02-11
-        url: https://gaceta.diputados.gob.mx/Gaceta/66/2025/feb/20250211-II-1.html#Iniciativa2
+        tipo: proyecto
         texto: >-
           El diputado Manuel de Jesús Baldenebro Arredondo presentó una [iniciativa
           para reformar la Ley Federal de Protección de Datos Personales en Posesión
           de los Particulares con el fin de regular el uso de archivos de rastreo y
-          tecnologías de seguimiento en línea. ]($url)La propuesta busca reforzar la
-          transparencia en la recolección de datos de usuarios, exigir el
-          consentimiento explícito para su utilización y establecer sanciones para
-          quienes incumplan estas disposiciones. La iniciativa surge en un contexto
-          de creciente preocupación por la privacidad digital y el uso indebido de
-          datos con fines comerciales o políticos.
+          tecnologías de seguimiento en
+          línea.](https://gaceta.diputados.gob.mx/Gaceta/66/2025/feb/20250211-II-1.html#Iniciativa2)
+          La propuesta busca reforzar la transparencia en la recolección de datos de
+          usuarios, exigir el consentimiento explícito para su utilización y
+          establecer sanciones para quienes incumplan estas disposiciones. La
+          iniciativa surge en un contexto de creciente preocupación por la
+          privacidad digital y el uso indebido de datos con fines comerciales o
+          políticos.
         etiquetas:
           - privacidad
 
       - fecha: 2025-02-11
+        tipo: proyecto
         exp: Arts 6 y 7 CPEUM
-        url: https://gaceta.diputados.gob.mx/Gaceta/66/2025/feb/20250211-II-4.html#Iniciativa5
+        url: 'https://gaceta.diputados.gob.mx/Gaceta/66/2025/feb/20250211-II-4.html#Iniciativa5'
         texto: >-
           La diputada Olga Lidia Herrera Natividad presentó la [Iniciativa de Ley
           que reforma el artículo 6 de la Ley General de Acceso de las Mujeres a una
@@ -507,19 +548,63 @@ paises:
           - violencia-de-genero
 
       - fecha: 2025-02-05
-        url: https://www.dof.gob.mx/nota_detalle.php?codigo=5748459&fecha=05%2F02%2F2025&utm_#gsc.tab=0
+        tipo: proyecto
         texto: >-
           Se publicó en el Diario Oficial de la Federación que el Instituto Federal
           de Telecomunicaciones (IFT) emitió los "[Lineamientos Generales para
-          garantizar los Derechos de las Audiencias]($url)", con el objetivo de
-          regular y proteger los derechos de los oyentes y espectadores en los
-          medios de comunicación. Estos lineamientos buscan asegurar que las
-          audiencias reciban contenidos veraces, imparciales y objetivos,
-          fortaleciendo así el derecho a la información.
-        etiquetas:
-          - libertad-de-prensa
+          garantizar los Derechos de las
+          Audiencias](https://www.dof.gob.mx/nota_detalle.php?codigo=5748459&fecha=05%2F02%2F2025&utm_#gsc.tab=0)",
+          con el objetivo de regular y proteger los derechos de los oyentes y
+          espectadores en los medios de comunicación. Estos lineamientos buscan
+          asegurar que las audiencias reciban contenidos veraces, imparciales y
+          objetivos, fortaleciendo así el derecho a la información.
 ---
 
-{{< observatorio-mes month="2025-02" >}}
+**Proyectos por país**
+
+| País | Proyectos |
+|---|---:|
+| Argentina | 53 |
+| Brasil | 60 |
+| Chile | 12 |
+| Colombia | 44 |
+| Ecuador | 4 |
+| Guatemala | 1 |
+| México | 37 |
+| Paraguay | 2 |
+| Perú | 13 |
+
+**Temas proyectos de ley presentados entre enero de 2024 y febrero de 2025**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 17,2% |
+| Igualdad y no discriminación | 11,0% |
+| Protección de menores | 10,0% |
+| Libertad de expresión | 7,2% |
+| Reputación y honor | 5,3% |
+| Seguridad nacional | 4,5% |
+| Violencia de género | 4,0% |
+| Responsabilidad de intermediarios | 2,9% |
+| Acceso a internet | 2,7% |
+| Pornografía | 2,1% |
+| Apología | 1,9% |
+| Acoso | 1,5% |
+| Publicidad oficial | 1,4% |
+
+**Temas proyectos de ley presentados entre enero de 2024 y febrero de 2025**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 4,8% |
+| Acoso | 9,5% |
+| Apología | 4,8% |
+| Libertad de culto | 1,6% |
+| Igualdad y no discriminación | 15,9% |
+| Publicidad oficial | 4,8% |
+| Fake News | 1,6% |
+| Protección de menores | 14,3% |
+| Reputación y honor | 4,8% |
+| Moderación de contenidos | 4,8% |
 
 {{< boletin-paises >}}

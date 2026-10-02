@@ -1,23 +1,29 @@
 ---
-author: [CELE]
-content_type: [boletin]
-date: '2025-11-05'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales
-  y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
+title: 'Boletín mensual Observatorio Legislativo | Octubre 2025'
 slug: boletin-mensual-observatorio-legislativo-octubre-2025
-tags: [institucional]
-title: Boletín mensual Observatorio Legislativo | Octubre 2025
+date: 2025-11-05
 translationKey: wp-15224
+description: >-
+  Novedades de la actividad legislativa y regulatoria, decisiones judiciales
+  y administrativas.
+author:
+  - CELE
+content_type:
+  - boletin
+programs:
+  - policy
 type: posts
+featured: false
 newsletter_series: observatorio
+image: /img/shutterstock_1698060541-1-scaled.jpg
+tags:
+  - institucional
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2025-10-01
+        tipo: proyecto
         exp: 5589-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/5589-D-2025.pdf
         texto: >-
@@ -36,6 +42,7 @@ paises:
           internacional.
 
       - fecha: 2025-10-08
+        tipo: proyecto
         exp: 5701-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/5701-D-2025.pdf
         texto: >-
@@ -47,37 +54,40 @@ paises:
           de contenidos digitales".
         etiquetas:
           - inteligencia-artificial
-          - defensa-del-consumidor
 
       - fecha: 2025-10-11
-        url: https://www.diarioconstitucional.cl/2025/10/11/tribunal-argentino-ratifica-proteccion-de-la-privacidad-en-acceso-a-datos-de-telefonos-moviles-en-causas-penales/
+        tipo: proyecto
         texto: >-
           La [Cámara Nacional de Apelaciones en lo Criminal y Correccional ratificó
-          la decisión]($url) de no permitir la incorporación de los datos extraídos
-          del teléfono móvil de un imputado al sistema judicial Lex-100.
-          Específicamente, se ha negado la inclusión en el sistema de mensajes de
-          texto, correos electrónicos y mensajes de WhatsApp. Esta decisión se
-          fundamentó en que dicha información sería considerada correspondencia
-          privada protegida por la Constitución Nacional. De acuerdo al fallo, solo
-          un juez podría revisar y determinar la pertinencia del contenido obtenido.
+          la
+          decisión](https://www.diarioconstitucional.cl/2025/10/11/tribunal-argentino-ratifica-proteccion-de-la-privacidad-en-acceso-a-datos-de-telefonos-moviles-en-causas-penales/)
+          de no permitir la incorporación de los datos extraídos del teléfono móvil
+          de un imputado al sistema judicial Lex-100. Específicamente, se ha negado
+          la inclusión en el sistema de mensajes de texto, correos electrónicos y
+          mensajes de WhatsApp. Esta decisión se fundamentó en que dicha información
+          sería considerada correspondencia privada protegida por la Constitución
+          Nacional. De acuerdo al fallo, solo un juez podría revisar y determinar la
+          pertinencia del contenido obtenido.
         etiquetas:
           - privacidad
 
       - fecha: 2025-10-15
-        url: https://lapostacomodorense.com.ar/2025/10/15/juan-pablo-luque-denuncio-penalmente-a-un-medio-por-difundir-fake-news/
+        tipo: proyecto
         texto: >-
           El exintendente de Comodoro Rivadavia y candidato a diputado nacional,
           Juan Pablo Luque, [presentó una denuncia penal contra el portal “Chubut
-          Noticias”]($url), alegando que este ha publicado información falsa y
-          difamatoria con el fin expreso de dañar su campaña. La nota que provocó
-          esta respuesta de Luque fue “Según los condenados por la Emergencia
-          Climática, ‘Luque era el jefe de la banda’”, en la que el portal alude a
-          vínculos con presuntos delitos relacionados al manejo de fondos en 2017.
+          Noticias”](https://lapostacomodorense.com.ar/2025/10/15/juan-pablo-luque-denuncio-penalmente-a-un-medio-por-difundir-fake-news/),
+          alegando que este ha publicado información falsa y difamatoria con el fin
+          expreso de dañar su campaña. La nota que provocó esta respuesta de Luque
+          fue “Según los condenados por la Emergencia Climática, ‘Luque era el jefe
+          de la banda’”, en la que el portal alude a vínculos con presuntos delitos
+          relacionados al manejo de fondos en 2017.
         etiquetas:
           - libertad-de-expresion
           - electoral
 
       - fecha: 2025-10-16
+        tipo: proyecto
         exp: 5945-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/5945-D-2025.pdf
         texto: >-
@@ -100,25 +110,29 @@ paises:
           suspensión temporal de las operaciones de la plataforma responsable.
         etiquetas:
           - inteligencia-artificial
+          - violencia-de-genero
 
       - fecha: 2025-10-17
-        url: https://www.perfil.com/noticias/politica/argentina-debera-dar-explicaciones-ante-la-cidh-por-el-deterioro-de-la-libertad-de-expresion.phtml
+        tipo: proyecto
         texto: >-
           Tras un reporte de Amnistía Internacional en el que se denunció un
           retroceso significativo en el ejercicio del derecho a la libertad de
           prensa y expresión en Argentina, la Comisión Interamericana de Derechos
           Humanos [(CIDH) ha citado a las autoridades nacionales a responder frente
-          a estas denuncias]($url). La audiencia ha sido solicitada por diversas
-          organizaciones de defensa de los derechos humanos, entre ellas el Centro
-          de Estudios en Libertad de Expresión (CELE), que alertaron sobre los
-          abusos mencionados. El objetivo de la misma sería que el Estado pueda
-          detallar qué medidas o políticas están tomando y tomarán a futuro para
-          asegurar la garantía de los derechos y libertades civiles.
+          a estas
+          denuncias](https://www.perfil.com/noticias/politica/argentina-debera-dar-explicaciones-ante-la-cidh-por-el-deterioro-de-la-libertad-de-expresion.phtml).
+          La audiencia ha sido solicitada por diversas organizaciones de defensa de
+          los derechos humanos, entre ellas el Centro de Estudios en Libertad de
+          Expresión (CELE), que alertaron sobre los abusos mencionados. El objetivo
+          de la misma sería que el Estado pueda detallar qué medidas o políticas
+          están tomando y tomarán a futuro para asegurar la garantía de los derechos
+          y libertades civiles.
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
 
       - fecha: 2025-10-22
+        tipo: proyecto
         exp: 6119-D-2025
         url: https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/6119-D-2025.pdf
         texto: >-
@@ -140,70 +154,75 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2025-10-03
-        url: https://ellibero.cl/actualidad/las-definiciones-del-xxxiii-encuentro-de-diarios-regionales-de-la-anp-en-torres-del-paine/
+        tipo: proyecto
         texto: >-
           Se llevó a cabo en Torres del Paine la [Cena Anual de la Prensa, parte del
           XXXIII Encuentro de Diarios Regionales de la Asociación Nacional de la
-          Prensa (ANP)]($url). Durante esta, se llegó por unanimidad a algunos
-          acuerdos sumamente relevantes para la situación de la libertad de prensa
-          en el país: Se condenó el incremento de violencia contra periodistas y
-          trabajadores de las comunicaciones, así como las restricciones judiciales
-          en la cobertura de casos de alto interés público; se señaló que es
-          necesario actuar frente al reciente diagnóstico de Reporteros Sin
-          Fronteras, que señala que la libertad de prensa en Chile ha experimentado
-          un descenso acelerado y grave en su calidad; se exigió al gobierno que
-          cumplan con sus deberes de transparencia y acceso a la información; entre
-          otras cosas.
+          Prensa
+          (ANP)](https://ellibero.cl/actualidad/las-definiciones-del-xxxiii-encuentro-de-diarios-regionales-de-la-anp-en-torres-del-paine/).
+          Durante esta, se llegó por unanimidad a algunos acuerdos sumamente
+          relevantes para la situación de la libertad de prensa en el país: Se
+          condenó el incremento de violencia contra periodistas y trabajadores de
+          las comunicaciones, así como las restricciones judiciales en la cobertura
+          de casos de alto interés público; se señaló que es necesario actuar frente
+          al reciente diagnóstico de Reporteros Sin Fronteras, que señala que la
+          libertad de prensa en Chile ha experimentado un descenso acelerado y grave
+          en su calidad; se exigió al gobierno que cumplan con sus deberes de
+          transparencia y acceso a la información; entre otras cosas.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2025-10-13
-        url: https://www.radioagricultura.cl/noticias/nacional/canal-13-pierde-batalla-judicial-corte-mantiene-millonaria-multa-por-contenido-inapropiado-para-menores_20251013/
+        tipo: proyecto
         texto: >-
           La [Corte de Apelaciones de Santiago rechazó el recurso presentado por
-          Canal 13]($url) y ratificó una multa de 80 UTM (más de $5 millones)
-          impuesta por el Consejo Nacional de Televisión (CNTV) por abordar temas de
-          violencia sexual durante el horario de protección de menores.
+          Canal
+          13](https://www.radioagricultura.cl/noticias/nacional/canal-13-pierde-batalla-judicial-corte-mantiene-millonaria-multa-por-contenido-inapropiado-para-menores_20251013/)
+          y ratificó una multa de 80 UTM (más de $5 millones) impuesta por el
+          Consejo Nacional de Televisión (CNTV) por abordar temas de violencia
+          sexual durante el horario de protección de menores.
         etiquetas:
           - proteccion-de-menores
           - libertad-de-prensa
 
       - fecha: 2025-10-16
-        url: https://cronicadigital.cl/libertad-de-expresion-en-chile-alertan-aumento-de-violencia-y-acoso-judicial-contra-periodistas/
+        tipo: proyecto
         texto: >-
           En su reciente Informe Especial sobre la Situación de la Libertad de
           Expresión en Chile, la Relatoría Especial para la Libertad de Expresión
           (RELE) de la Comisión Interamericana de Derechos Humanos (CIDH) ha
           [advertido que existe un patrón identificable de violencia, hostigamiento
           judicial y desafíos estructurales que afectan la labor
-          periodística]($url), y que debe ser atendido con urgencia por el gobierno.
-          Se cita la prevalencia de ataques violentos, hostigamiento judicial a
-          través de abusos de denuncias de difamación, intimidaciones impunes, del
-          uso de herramientas de inteligencia para vigilar ilegalmente a reporteros,
-          la concentración mediática, barreras al acceso a la información, y de
-          brechas digitales.
+          periodística](https://cronicadigital.cl/libertad-de-expresion-en-chile-alertan-aumento-de-violencia-y-acoso-judicial-contra-periodistas/),
+          y que debe ser atendido con urgencia por el gobierno. Se cita la
+          prevalencia de ataques violentos, hostigamiento judicial a través de
+          abusos de denuncias de difamación, intimidaciones impunes, del uso de
+          herramientas de inteligencia para vigilar ilegalmente a reporteros, la
+          concentración mediática, barreras al acceso a la información, y de brechas
+          digitales.
         etiquetas:
           - libertad-de-prensa
 
   - pais: Paraguay
     entradas:
       - fecha: 2025-10-01
-        url: https://www.ultimahora.com/espionaje-en-redes-de-la-gen-z-tedic-advierte-sobre-vigilancia-ilegal-de-la-policia
+        tipo: proyecto
         texto: >-
           La directora ejecutiva de Tecnología y Comunidad (Tedic), Maricarmen
           Sequera, [denunció públicamente que la Policía Nacional habrían llevado a
           cabo actividades de espionaje en las redes donde se organizaba la
-          manifestación de la Generación Z]($url). Estas actividades, de acuerdo a
-          Sequera, incluirían monitoreo previo de redes sociales y la solicitud de
-          información a proveedoras de internet; todo sin que existiera una conducta
-          delictiva que justificara la intervención estatal. Sequera también criticó
-          la falta de un marco legal sólido que proteja los datos personales en
-          Paraguay; lo cuál contrastó con la vigencia actual de la Ley Pyraweb, que
-          obliga a las proveedoras de internet a conservar datos de tráfico y
-          facilita a las fuerzas del orden hacer seguimiento a través de redes
-          sociales. El comandante de la Policía Nacional, Car­los Benítez, [negó que
-          se haya violado la privacidad o que se haya llegado a esta informa­ción de
-          manera
+          manifestación de la Generación
+          Z](https://www.ultimahora.com/espionaje-en-redes-de-la-gen-z-tedic-advierte-sobre-vigilancia-ilegal-de-la-policia).
+          Estas actividades, de acuerdo a Sequera, incluirían monitoreo previo de
+          redes sociales y la solicitud de información a proveedoras de internet;
+          todo sin que existiera una conducta delictiva que justificara la
+          intervención estatal. Sequera también criticó la falta de un marco legal
+          sólido que proteja los datos personales en Paraguay; lo cuál contrastó con
+          la vigencia actual de la Ley Pyraweb, que obliga a las proveedoras de
+          internet a conservar datos de tráfico y facilita a las fuerzas del orden
+          hacer seguimiento a través de redes sociales. El comandante de la Policía
+          Nacional, Car­los Benítez, [negó que se haya violado la privacidad o que
+          se haya llegado a esta informa­ción de manera
           ilícita](https://www.lanacion.com.py/politica_edicion_impresa/2025/10/01/policia-niega-espionaje-y-afirma-que-se-usaron-solo-datos-abiertos/).
           De acuerdo con Benítez, los fragmentos de la conversación de un grupo de
           WhatsApp y otros datos se obtuvieron de bases de datos abiertas. También
@@ -214,11 +233,12 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-10-14
-        url: https://www.lanacion.com.py/politica_edicion_impresa/2025/10/15/ratifican-version-diputados-del-proyecto-de-proteccion-de-datos/?outputType=amp
+        tipo: proyecto
         texto: >-
           Se [ratificó en la Cámara Baja el Proyecto de Ley de Protección de
-          Datos]($url). El proyecto ya lleva meses en debate en el Congreso, con
-          múltiples postergaciones. El Senado previamente aprobó el proyecto con
+          Datos](https://www.lanacion.com.py/politica_edicion_impresa/2025/10/15/ratifican-version-diputados-del-proyecto-de-proteccion-de-datos/?outputType=amp).
+          El proyecto ya lleva meses en debate en el Congreso, con múltiples
+          postergaciones. El Senado previamente aprobó el proyecto con
           modificatorias, y ahora deberá volver a analizar el texto. Es importante
           recordar que esta ley ha sido controversial entre analistas y medios de
           comunicación, que advierten que la aprobación de este proyecto podría
@@ -236,17 +256,18 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2025-10-15
-        url: https://www.abc.com.py/politica/2025/10/07/comision-del-senado-posterga-dictamen-sobre-ley-de-proteccion-a-periodistas-y-defensores-de-derechos-humanos-en-paraguay/
+        tipo: proyecto
         texto: >-
           La Ley de Protección a Periodistas y Personas Defensoras de Derechos
           Humanos ha permanecido estancada entre aplazamientos y debates en
           comisiones. Primero, fue [aplazada el 7 de octubre por la comisión de
-          Asuntos Constitucionales del Senado]($url) “con la intención de consensuar
-          modificaciones” y unificar criterios sobre la propuesta adicional del
-          Ministerio de la Defensa Pública. Luego de esto, en el tramo hasta la
-          fecha fijada para su debate en la Cámara Alta, se registraron diversas
-          reacciones: El Presidente del Congreso, senador [Basilio Núñez, reafirmó
-          su apoyo al
+          Asuntos Constitucionales del
+          Senado](https://www.abc.com.py/politica/2025/10/07/comision-del-senado-posterga-dictamen-sobre-ley-de-proteccion-a-periodistas-y-defensores-de-derechos-humanos-en-paraguay/)
+          “con la intención de consensuar modificaciones” y unificar criterios sobre
+          la propuesta adicional del Ministerio de la Defensa Pública. Luego de
+          esto, en el tramo hasta la fecha fijada para su debate en la Cámara Alta,
+          se registraron diversas reacciones: El Presidente del Congreso, senador
+          [Basilio Núñez, reafirmó su apoyo al
           proyecto](https://www.senado.gov.py/index.php/noticias/noticias-presidencia/15928-presidente-del-congreso-reafirma-compromiso-con-la-libertad-de-prensa-y-el-respaldo-a-la-ley-de-proteccion-para-comunicadores-2025-10-10-17-06-54).
           Asimismo, se llevaron a cabo tanto una [mesa técnica de
           representantes](https://www.abc.com.py/politica/2025/10/10/avanza-analisis-del-proyecto-de-ley-de-proteccion-a-periodistas/)
@@ -281,27 +302,30 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2025-10-14
-        url: https://www.elespectador.com/judicial/defensoria-pide-a-la-crc-retirar-requerimiento-a-medios-por-riesgo-a-la-libertad-de-prensa/
+        tipo: proyecto
         texto: >-
           Luego que la Comisión de Regulación de Comunicaciones (CRC) enviara una
           circular exigiendo a los medios de comunicación que informen cuáles son
           las políticas internas, directrices o prácticas que dictan la cobertura
-          que se le otorga a diferentes hechos; [la Defensoría del Pueblo]($url) dio
-          el paso al frente para denunciar estas acciones como intentos de vulnerar
-          el derecho a la libertad de expresión, la libertad de prensa y acceso a la
-          información y secreto profesional.
+          que se le otorga a diferentes hechos; [la Defensoría del
+          Pueblo](https://www.elespectador.com/judicial/defensoria-pide-a-la-crc-retirar-requerimiento-a-medios-por-riesgo-a-la-libertad-de-prensa/)
+          dio el paso al frente para denunciar estas acciones como intentos de
+          vulnerar el derecho a la libertad de expresión, la libertad de prensa y
+          acceso a la información y secreto profesional.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2025-10-15
-        url: https://caracol.com.co/2025/10/16/crc-nego-alocucion-presidencial-por-falta-de-criterios-de-urgencia/
+        tipo: proyecto
         texto: >-
-          La [Comisión de Regulación de Comunicaciones]($url) le rechazó al
-          presidente Gustavo Petro una solicitud de interrumpir la programación en
-          los canales abiertos de televisión para emitir un mensaje presidencial. La
-          CRC argumentó que la solicitud no cumplía con los criterios de urgencia,
-          uso excepcional ni de delimitación temática, que justificarían una acción
-          de este tipo. Al día siguiente, 16 de octubre, [Petro denunció en redes
+          La [Comisión de Regulación de
+          Comunicaciones](https://caracol.com.co/2025/10/16/crc-nego-alocucion-presidencial-por-falta-de-criterios-de-urgencia/)
+          le rechazó al presidente Gustavo Petro una solicitud de interrumpir la
+          programación en los canales abiertos de televisión para emitir un mensaje
+          presidencial. La CRC argumentó que la solicitud no cumplía con los
+          criterios de urgencia, uso excepcional ni de delimitación temática, que
+          justificarían una acción de este tipo. Al día siguiente, 16 de octubre,
+          [Petro denunció en redes
           sociales](https://caracol.com.co/2025/10/16/crc-nego-alocucion-presidencial-por-falta-de-criterios-de-urgencia/)
           que la CRC lo estaba censurando y que esto constituía un acto de
           discriminación política contra su persona. Por su lado, la directora del
@@ -317,26 +341,28 @@ paises:
   - pais: Ecuador
     entradas:
       - fecha: 2025-10-01
-        url: https://www.lahora.com.ec/politica/Debate-sobre-regulacion-de-redes-sociales-volvio-a-la-Asamblea-20251001-0051.html
+        tipo: proyecto
         texto: >-
-          Se [debatió en la Comisión de Educación]($url) un informe para el primer
-          debate del proyecto de Ley Orgánica del Uso Responsable de Redes Sociales,
-          presentado por los ex legisladores Manuel Bohórquez, de ADN; y Jorge
-          Álvarez, del Partido Social Cristiano (PSC), en el anterior periodo
-          legislativo. El proyecto ha traído consigo cuestionamientos sobre la
-          restricción de la libertad de expresión y la necesidad de regular la
-          desinformación en internet.
+          Se [debatió en la Comisión de
+          Educación](https://www.lahora.com.ec/politica/Debate-sobre-regulacion-de-redes-sociales-volvio-a-la-Asamblea-20251001-0051.html)
+          un informe para el primer debate del proyecto de Ley Orgánica del Uso
+          Responsable de Redes Sociales, presentado por los ex legisladores Manuel
+          Bohórquez, de ADN; y Jorge Álvarez, del Partido Social Cristiano (PSC), en
+          el anterior periodo legislativo. El proyecto ha traído consigo
+          cuestionamientos sobre la restricción de la libertad de expresión y la
+          necesidad de regular la desinformación en internet.
         etiquetas:
           - libertad-de-prensa
           - libertad-de-expresion
 
       - fecha: 2025-10-04
-        url: https://www.elcomercio.com/actualidad/politica/estas-son-resoluciones-conaie-ratificar-continuidad-paro-nacional/
+        tipo: proyecto
         texto: >-
           Tras la [ratificación de la continuidad del paro nacional por parte de la
-          Confederación de Nacionalidades Indígenas del Ecuador (Conaie)]($url), el
-          presidente Daniel Noboa declaró un [nuevo estado de excepción por 60 días
-          en 10
+          Confederación de Nacionalidades Indígenas del Ecuador
+          (Conaie)](https://www.elcomercio.com/actualidad/politica/estas-son-resoluciones-conaie-ratificar-continuidad-paro-nacional/),
+          el presidente Daniel Noboa declaró un [nuevo estado de excepción por 60
+          días en 10
           provincias](https://www.ecuavisa.com/noticias/politica/noboa-restringe-reuniones-y-declara-estado-de-excepcion-en-10-provincias-por-grave-conmocion-interna-OA10238699):
           Pichincha, Cotopaxi, Tungurahua, Chimborazo, Bolívar, Cañar, Azuay,
           Orellana, Sucumbíos y Pastaza; a las cuáles se suman Imbabura y Carchi,
@@ -353,11 +379,12 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-10-13
-        url: https://www.laprensa.com.ec/gobierno-confirma-deportacion-de-periodista/
+        tipo: proyecto
         texto: >-
           En el contexto de las movilizaciones sociales, se han reportado múltiples
           abusos específicamente dirigidos a periodistas y medios de comunicación.
-          El 6 de octubre [se deportó al periodista español Lautaro Bernat]($url)
+          El 6 de octubre [se deportó al periodista español Lautaro
+          Bernat](https://www.laprensa.com.ec/gobierno-confirma-deportacion-de-periodista/)
           tras haberlo detenido el día anterior. De acuerdo con organizaciones
           defensoras de derechos humanos y gremios de prensa, el proceso presentó
           irregularidades como la falta de notificación formal de cargos, negación
@@ -384,14 +411,15 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-10-14
-        url: https://www.abc.com.py/internacionales/2025/10/03/amnistia-internacional-advierte-un-auge-de-practicas-autoritarias-en-ecuador/
+        tipo: proyecto
         texto: >-
           Diversas organizaciones internacionales han alertado acerca del aumento de
           la represión en el país, y han exigido respuestas acerca de potenciales
           violaciones a los derechos humanos y aumentos en las prácticas
           autoritarias. Las tres organizaciones más importantes que se han
-          pronunciado son [Amnistía Internacional]($url), la [Comisión
-          Interamericana de Derechos Humanos
+          pronunciado son [Amnistía
+          Internacional](https://www.abc.com.py/internacionales/2025/10/03/amnistia-internacional-advierte-un-auge-de-practicas-autoritarias-en-ecuador/),
+          la [Comisión Interamericana de Derechos Humanos
           (CIDH)](https://www.expreso.ec/actualidad/politica/cidh-llama-al-gobierno-de-ecuador-dialogar-para-evitar-violaciones-de-derechos-260777.html)
           y el [Parlamento
           Europeo](https://www.extra.ec/noticia/mundo/parlamento-europeo-advierte-sobre-represion-en-ecuador-durante-el-paro-nacional-138808.html).
@@ -448,27 +476,29 @@ paises:
   - pais: Guatemala
     entradas:
       - fecha: 2025-10-03
-        url: https://lahora.gt/nacionales/engelberth-blanco/2025/10/03/cc-declara-inconstitucional-reglamento-de-codisra-que-buscaba-monitorear-medios-de-comunicacion/
+        tipo: proyecto
         texto: >-
           La [Corte de Constitucionalidad (CC) declaró inconstitucional el Acuerdo
-          Gubernativo 198-2024]($url) emitido por el presidente Bernardo Arévalo,
-          por el que se encarga a la Comisión Presidencial Contra la Discriminación
-          y el Racismo Contra los Pueblos Indígenas en Guatemala (Codisra)
-          “monitorear” a los medios de comunicación. La acción de
-          inconstitucionalidad fue presentada por la Asociación de Periodistas de
-          Guatemala (APG).
+          Gubernativo
+          198-2024](https://lahora.gt/nacionales/engelberth-blanco/2025/10/03/cc-declara-inconstitucional-reglamento-de-codisra-que-buscaba-monitorear-medios-de-comunicacion/)
+          emitido por el presidente Bernardo Arévalo, por el que se encarga a la
+          Comisión Presidencial Contra la Discriminación y el Racismo Contra los
+          Pueblos Indígenas en Guatemala (Codisra) “monitorear” a los medios de
+          comunicación. La acción de inconstitucionalidad fue presentada por la
+          Asociación de Periodistas de Guatemala (APG).
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2025-10-08
-        url: https://www.prensalibre.com/guatemala/justicia/periodista-guatemalteco-jose-ruben-zamora-teme-ser-asesinado-en-prision/
+        tipo: proyecto
         texto: >-
           Reporteros Sin Fronteras hizo público que el [periodista José Rubén Zamora
-          teme ser asesinado en prisión]($url). El fundador y exdirector del
-          periódico de investigación _El Periódico _fue encarcelado a mediados de
-          2022 por cargos de lavado de dinero ampliamente cuestionados y
-          considerados falsos, que [habrían sido fabricados luego que su publicación
-          comenzara a informar sobre sobornos
+          teme ser asesinado en
+          prisión](https://www.prensalibre.com/guatemala/justicia/periodista-guatemalteco-jose-ruben-zamora-teme-ser-asesinado-en-prision/).
+          El fundador y exdirector del periódico de investigación _El Periódico_ fue
+          encarcelado a mediados de 2022 por cargos de lavado de dinero ampliamente
+          cuestionados y considerados falsos, que [habrían sido fabricados luego que
+          su publicación comenzara a informar sobre sobornos
           gubernamentales](https://doi.org/10.46476/ra.v4i2.175) del entorno del
           expresidente Alejandro Giammattei. Zamora estuvo en arresto domiciliario
           entre octubre de 2024 y marzo de 2025 pero la medida fue revocada por
@@ -481,9 +511,10 @@ paises:
         etiquetas:
           - libertad-de-prensa
 
-  - pais: Brasil
+  - pais: México
     entradas:
       - fecha: 2025-10-28
+        tipo: proyecto
         texto: >-
           Fueron aprobadas reformas a la Ley del Impuesto Especial sobre Producción
           y Servicios y al Código Fiscal de la Federación para establecer un
@@ -497,6 +528,7 @@ paises:
           - proteccion-de-menores
 
       - fecha: 2025-10-29
+        tipo: proyecto
         texto: >-
           Se presentaron diversas iniciativas con la intención de sancionar y
           restringir el acceso a contenidos que hagan “apología del delito” o
@@ -505,12 +537,15 @@ paises:
           - discurso-de-odio
           - libertad-de-prensa
 
+  - pais: Brasil
+    entradas:
       - fecha: 2025-09-17
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2562481
+        tipo: proyecto
         texto: >-
           El Gobierno Federal envió a la Cámara de Diputados el [Proyecto de Ley
-          4675/25]($url) que trata de la regulación económica y de competencia de
-          grandes plataformas digitales. El proyecto modifica la [Ley n.°
+          4675/25](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2562481)
+          que trata de la regulación económica y de competencia de grandes
+          plataformas digitales. El proyecto modifica la [Ley n.°
           12.529/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm),
           creando procedimientos administrativos en el Consejo Administrativo de
           Defensa Económica (Cade) para designar a determinados agentes económicos
@@ -532,11 +567,12 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-09-17
-        url: https://www25.senado.leg.br/web/atividade/materias/-/materia/154901
+        tipo: proyecto
         texto: >-
-          Fue sancionado el [Proyecto de Ley n.° 2628/2022]($url), que instituyó el
-          Estatuto Digital del Niño y del Adolescente ([Ley
-          15.211/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm)).
+          Fue sancionado el [Proyecto de Ley n.°
+          2628/2022](https://www25.senado.leg.br/web/atividade/materias/-/materia/154901),
+          que instituyó el Estatuto Digital del Niño y del Adolescente ([Ley
+          15.211/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm).
           La norma establece obligaciones para productos y servicios dirigidos o de
           acceso probable por niños y adolescentes, con el objetivo de prevenir
           riesgos, como la exposición a contenidos nocivos, y garantizar la
@@ -579,18 +615,19 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-09-24
-        url: https://internetlab.org.br/wp-content/uploads/2025/10/75D97824D7218C_Zambelli.pdf
+        tipo: proyecto
         texto: >-
           La Corte Suprema de Brasil ordena la reactivación de los perfiles de Carla
           Zambelli en redes sociales y la eliminación de publicaciones ilícitas. [El
           ministro Alexandre de Moraes, de la Suprema Corte Federal (Supremo
           Tribunal Federal - STF, en portugués), determinó la revocación del bloqueo
           de los perfiles de la exdiputada y aliada del expresidente Jair Bolsonaro,
-          Carla Zambelli en redes sociales]($url). El magistrado notificó a las
-          plataformas Gettr, Facebook, Instagram, LinkedIn, TikTok, X, Telegram y
-          YouTube para que remitieran al tribunal el contenido íntegro considerado
-          ilícito y reactivaran los perfiles de la exparlamentaria, en el marco de
-          la [Acción Penal
+          Carla Zambelli en redes
+          sociales](https://internetlab.org.br/wp-content/uploads/2025/10/75D97824D7218C_Zambelli.pdf).
+          El magistrado notificó a las plataformas Gettr, Facebook, Instagram,
+          LinkedIn, TikTok, X, Telegram y YouTube para que remitieran al tribunal el
+          contenido íntegro considerado ilícito y reactivaran los perfiles de la
+          exparlamentaria, en el marco de la [Acción Penal
           2.428](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6950766)
           en el STF, un proceso que investiga la difusión de desinformación y
           ataques a las instituciones democráticas por parte de figuras vinculadas
@@ -605,43 +642,45 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-09-29
-        url: https://www.gov.br/agu/pt-br/comunicacao/noticias/telegram-remove-grupos-de-venda-ilegal-de-remedios-receitas-e-atestados-falsos
+        tipo: proyecto
         texto: >-
           Telegram elimina grupos de venta ilegal de medicamentos y certificados
           falsos tras notificación de la Abogacía General de la Unión. [Tras una
           notificación extrajudicial de la Procuraduría General de la Unión
-          (Advocacia Geral da União - AGU, en portugués)]($url), Telegram eliminó 24
-          grupos y canales dedicados a la comercialización ilícita de medicamentos
-          sin receta y de recetas, certificados y laudos médicos falsos. La acción
-          fue conducida por la Procuraduría Nacional de Defensa de la Democracia
-          (PNDD), órgano de la AGU responsable de combatir la desinformación sobre
-          políticas públicas. Las comunidades eliminadas sumaban más de 27.000
-          usuarios y anunciaban abiertamente los delitos en sus descripciones.
-          Además de la eliminación de los grupos y la suspensión de los usuarios, la
-          PNDD solicitó el bloqueo de palabras clave y la adopción de mecanismos de
-          moderación activa por parte de Telegram para impedir la repetición de
-          contenidos similares. Según la AGU, la actuación de la PNDD es importante
-          para la defensa del derecho a la salud y a la información, para la
-          preservación de las políticas públicas sanitarias y para combatir
-          prácticas fraudulentas con alto potencial de daño. La AGU basó su
-          actuación en [el reciente fallo de la Suprema Corte Federal (Supremo
-          Tribunal Federal - STF, en portugués) sobre el Marco Civil de
+          (Advocacia Geral da União - AGU, en
+          portugués)](https://www.gov.br/agu/pt-br/comunicacao/noticias/telegram-remove-grupos-de-venda-ilegal-de-remedios-receitas-e-atestados-falsos),
+          Telegram eliminó 24 grupos y canales dedicados a la comercialización
+          ilícita de medicamentos sin receta y de recetas, certificados y laudos
+          médicos falsos. La acción fue conducida por la Procuraduría Nacional de
+          Defensa de la Democracia (PNDD), órgano de la AGU responsable de combatir
+          la desinformación sobre políticas públicas. Las comunidades eliminadas
+          sumaban más de 27.000 usuarios y anunciaban abiertamente los delitos en
+          sus descripciones. Además de la eliminación de los grupos y la suspensión
+          de los usuarios, la PNDD solicitó el bloqueo de palabras clave y la
+          adopción de mecanismos de moderación activa por parte de Telegram para
+          impedir la repetición de contenidos similares. Según la AGU, la actuación
+          de la PNDD es importante para la defensa del derecho a la salud y a la
+          información, para la preservación de las políticas públicas sanitarias y
+          para combatir prácticas fraudulentas con alto potencial de daño. La AGU
+          basó su actuación en [el reciente fallo de la Suprema Corte Federal
+          (Supremo Tribunal Federal - STF, en portugués) sobre el Marco Civil de
           Internet](https://www.gov.br/agu/pt-br/comunicacao/noticias/telegram-exclui-comunidades-que-vendiam-compostos-toxicos-como-201ccura201d-de-cancer-e-autismo/Informac807a771oa768SociedadeArt19MCI_vRev.pdf),
           que definió las responsabilidades de las plataformas digitales.
         etiquetas:
           - plataformas-digitales
 
       - fecha: 2025-10-05
-        url: https://www.gov.br/agu/pt-br/comunicacao/noticias/agu-notifica-meta-para-excluir-conteudos-que-vendem-insumos-usados-na-falsificacao-de-bebidas
+        tipo: proyecto
         texto: >-
           La Procuraduría General de la Unión (AGU), por medio de la Procuraduría
           Nacional de Defensa de la Democracia (PNDD), informó que [envió una
           notificación a la empresa Meta, ordenando la adopción inmediata de medidas
           de bloqueo y eliminación de contenidos y grupos que promueven la venta
           ilegal de insumos utilizados en la falsificación de bebidas
-          alcohólicas]($url). La medida se deriva de la identificación de comercio
-          clandestino de estos productos y de la reciente repercusión de casos que
-          involucraron bebidas adulteradas con
+          alcohólicas](https://www.gov.br/agu/pt-br/comunicacao/noticias/agu-notifica-meta-para-excluir-conteudos-que-vendem-insumos-usados-na-falsificacao-de-bebidas).
+          La medida se deriva de la identificación de comercio clandestino de estos
+          productos y de la reciente repercusión de casos que involucraron bebidas
+          adulteradas con
           [metanol](https://bvsms.saude.gov.br/intoxicacao-por-metanol/#:~:text=O%20metanol%20(tamb%C3%A9m%20chamado%20de,como%20anticongelantes%2C%20solventes%20e%20combust%C3%ADveis.),
           los cuales resultaron en muertes y graves daños a la salud pública. La AGU
           concedió un plazo de 48 horas para que la empresa informe sobre las
@@ -651,6 +690,7 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-10-09
+        tipo: proyecto
         exp: PL 1910/2024
         url: https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3005949&filename=Tramitacao-PL%201910/2024
         texto: >-
@@ -679,22 +719,25 @@ paises:
           recurso para su análisis por el pleno de la Cámara.
         etiquetas:
           - plataformas-digitales
+          - violencia-de-genero
 
       - fecha: 2025-10-15
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454687
+        tipo: proyecto
         texto: >-
           [El pleno de la Cámara de Diputados aprobó tres proyectos de ley
           orientados a la protección de niños y adolescentes en el entorno
           digital](https://www.camara.leg.br/evento-legislativo/79805). El [Proyecto
-          de Ley n.° 3287/2024]($url), presentado por la diputada federal Rogéria
-          Santos (REPUBLICANOS/BA), instituye el Protocolo de Atención y
-          Intervención Inmediata para la Prevención y Protección de Niños y
-          Adolescentes en Casos de Sospecha de Violencia en Entornos Virtuales. El
-          protocolo prevé un enfoque proactivo e integrado entre policías, órganos
-          de justicia y demás integrantes de redes de protección social, basado en
-          inteligencia preventiva y anticipación de riesgos, con el fin de prevenir
-          y combatir situaciones de violencia contra niños y adolescentes en los
-          entornos digitales. Por su parte, el [Proyecto de Ley n.°
+          de Ley n.°
+          3287/2024](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2454687),
+          presentado por la diputada federal Rogéria Santos (REPUBLICANOS/BA),
+          instituye el Protocolo de Atención y Intervención Inmediata para la
+          Prevención y Protección de Niños y Adolescentes en Casos de Sospecha de
+          Violencia en Entornos Virtuales. El protocolo prevé un enfoque proactivo e
+          integrado entre policías, órganos de justicia y demás integrantes de redes
+          de protección social, basado en inteligencia preventiva y anticipación de
+          riesgos, con el fin de prevenir y combatir situaciones de violencia contra
+          niños y adolescentes en los entornos digitales. Por su parte, el [Proyecto
+          de Ley n.°
           1971/2025](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2502882),
           presentado por el diputado federal Marcos Tavares (PDT/RJ), instituye la
           Política Nacional de Protección a la Primera Infancia en el Entorno
@@ -729,19 +772,21 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-10-15
-        url: https://www.in.gov.br/en/web/dou/-/portaria-mjsp-n-1.048-de-15-de-outubro-de-2025-663032521
+        tipo: proyecto
         texto: >-
           El ministro de Justicia y Seguridad Pública, Ricardo Lewandowski, firmó la
-          [Ordenanza n.° 1.048/2025]($url), que actualiza las reglas de la
-          clasificación indicativa en Brasil. La iniciativa amplió los criterios de
-          la clasificación indicativa para incluir la interactividad entre los demás
-          ejes temáticos (drogas, violencia, sexo y desnudez). Además, la ordenanza
-          creó la categoría “no recomendado para menores de 6 años”, destinada a
-          reforzar la protección de la primera infancia. Con los nuevos criterios,
-          se evaluarán los riesgos presentes en videojuegos, aplicaciones y redes
-          sociales. Según el Ministerio de Justicia y Seguridad Pública, la
-          inclusión de la interactividad puede hacer que [aplicaciones clasificadas
-          como “libres” pasen a recibir franjas etarias más
+          [Ordenanza n.°
+          1.048/2025](https://www.in.gov.br/en/web/dou/-/portaria-mjsp-n-1.048-de-15-de-outubro-de-2025-663032521),
+          que actualiza las reglas de la clasificación indicativa en Brasil. La
+          iniciativa amplió los criterios de la clasificación indicativa para
+          incluir la interactividad entre los demás ejes temáticos (drogas,
+          violencia, sexo y desnudez). Además, la ordenanza creó la categoría “no
+          recomendado para menores de 6 años”, destinada a reforzar la protección de
+          la primera infancia. Con los nuevos criterios, se evaluarán los riesgos
+          presentes en videojuegos, aplicaciones y redes sociales. Según el
+          Ministerio de Justicia y Seguridad Pública, la inclusión de la
+          interactividad puede hacer que [aplicaciones clasificadas como “libres”
+          pasen a recibir franjas etarias más
           altas](https://www.gov.br/mj/pt-br/assuntos/noticias/mjsp-lanca-nova-faixa-etaria-e-amplia-regras-da-classificacao-indicativa-para-o-ambiente-digital)
           debido a los riesgos de interacción.
         etiquetas:
@@ -749,7 +794,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-10-15
-        url: https://www.gov.br/participamaisbrasil/blob/baixar/61597
+        tipo: proyecto
         texto: >-
           El Gobierno Federal abrió dos consultas públicas orientadas a la
           elaboración de políticas y regulaciones para la protección de niños y
@@ -761,7 +806,8 @@ paises:
           busca construir un documento de referencia que pueda subsidiar diversas
           iniciativas del Gobierno Federal, entre ellas la elaboración de la
           Política Nacional de Protección de los Derechos del Niño y del Adolescente
-          en el Entorno Digital ([Resolución CONANDA n.° 257/2024]($url)), la
+          en el Entorno Digital ([Resolución CONANDA n.°
+          257/2024](https://www.gov.br/participamaisbrasil/blob/baixar/61597), la
           reglamentación de la [Ley
           15.211/2025](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm),
           el mapeo de vacíos regulatorios, así como el perfeccionamiento de los
@@ -787,8 +833,9 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2025-09-02
+        tipo: proyecto
         exp: 12272/2025-CR
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/12272
+        url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/12272'
         texto: >-
           El Congresista Héctor Valer Pinto, del partido político Somos Perú,
           presentó el [Proyecto de Ley N° 12272/2025-CR]($url), que busca derogar
@@ -805,8 +852,9 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-09-10
+        tipo: proyecto
         exp: 12368/2025-CR
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/12368
+        url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/12368'
         texto: >-
           El Congresista Darwin Espinoza, del partido político Podemos Perú,
           presentó el [Proyecto de Ley N° 12368/2025-CR]($url), que busca sancionar
@@ -822,8 +870,9 @@ paises:
           - privacidad
 
       - fecha: 2025-10-06
+        tipo: proyecto
         exp: 12687/2025-CR
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/12687
+        url: 'https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/12687'
         texto: >-
           El Congresista Paul Gutierrez, del partido político Somos Perú, presentó
           el [Proyecto de Ley N° 12687/2025-CR]($url), para garantizar el derecho de
@@ -834,39 +883,42 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2025-10-13
-        url: https://ipys.org/per%C3%BA-atentan-nuevamente-contra-periodista-carlos-mes%C3%ADas
+        tipo: proyecto
         texto: >-
           La madrugada del 13 de octubre de 2025, la vivienda del [periodista Carlos
-          Mesías]($url), director del portal Central de Noticias, fue atacada con
-          una granada. Se trata del tercer ataque que sufre el periodista, bajo la
-          misma modalidad y en los últimos dos meses. Estas amenazas serían
-          consecuencia de sus investigaciones a una red criminal dedicada al tráfico
-          de terrenos en Huaral.
+          Mesías](https://ipys.org/per%C3%BA-atentan-nuevamente-contra-periodista-carlos-mes%C3%ADas),
+          director del portal Central de Noticias, fue atacada con una granada. Se
+          trata del tercer ataque que sufre el periodista, bajo la misma modalidad y
+          en los últimos dos meses. Estas amenazas serían consecuencia de sus
+          investigaciones a una red criminal dedicada al tráfico de terrenos en
+          Huaral.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2025-10-15
-        url: https://caretas.pe/nacional/comision-de-justicia-aprueba-endurecimiento-de-penas-acceso-a-informacion-y-reformas-procesales/
+        tipo: proyecto
         texto: >-
           La Comisión de Justicia y Derechos Humanos del Congreso de la República,
           [aprobó por mayoría el Dictamen del Proyecto de Ley N°
-          9315/2024-CR]($url), que dispone la implementación de agendas judiciales
-          públicas para fortalecer la transparencia y eficiencia en el sistema
-          judicial, obligando publicar las agendas judiciales de entrevistas y
-          audiencias de procesos judiciales en trámite en todos los órganos
-          jurisdiccionales del país, a través de una plataforma tecnológica.
+          9315/2024-CR](https://caretas.pe/nacional/comision-de-justicia-aprueba-endurecimiento-de-penas-acceso-a-informacion-y-reformas-procesales/),
+          que dispone la implementación de agendas judiciales públicas para
+          fortalecer la transparencia y eficiencia en el sistema judicial, obligando
+          publicar las agendas judiciales de entrevistas y audiencias de procesos
+          judiciales en trámite en todos los órganos jurisdiccionales del país, a
+          través de una plataforma tecnológica.
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2025-10-15
-        url: https://anp.org.pe/wp-content/uploads/2025/10/INFORME-Ataques-a-periodistas-durante-la-cobertura-de-protestas-del-15-de-octubre-del-2025.pdf
+        tipo: proyecto
         texto: >-
           La Asociación Nacional de Periodistas del Perú (ANP), a través de su
           Observatorio de Libertad de Prensa, registró [25 ataques a
-          periodistas]($url) durante cobertura de protestas convocadas por
-          diferentes sectores ciudadanos en contra del gobierno, en Lima y regiones,
-          los que incluyen empujones, impactos por perdigones y por bombas
-          lacrimógenas; agresiones que se suman a las [8
+          periodistas](https://anp.org.pe/wp-content/uploads/2025/10/INFORME-Ataques-a-periodistas-durante-la-cobertura-de-protestas-del-15-de-octubre-del-2025.pdf)
+          durante cobertura de protestas convocadas por diferentes sectores
+          ciudadanos en contra del gobierno, en Lima y regiones, los que incluyen
+          empujones, impactos por perdigones y por bombas lacrimógenas; agresiones
+          que se suman a las [8
           agresiones](https://anp.org.pe/wp-content/uploads/2025/09/INFORME-Ataques-a-periodistas-durante-la-cobertura-de-protestas-del-27-28-de-setiembre-del-2025.pdf)
           registradas en las jornadas de protestas de los días 27 y 28 de
           septiembre.
@@ -874,11 +926,12 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2025-10-16
-        url: https://ipys.org/alertas/per%C3%BA-periodista-denuncia-amenazas-tras-publicar-investigaciones-sobre-alcalde
+        tipo: proyecto
         texto: >-
-          La periodista Analí Andrade denunció haber recibido [amenazas]($url) tras
-          haber realizado una serie de denuncias públicas en su programa de radio
-          “Fuerza Informativa” que comprometen al Alcalde de Andahuaylas, Abel
+          La periodista Analí Andrade denunció haber recibido
+          [amenazas](https://ipys.org/alertas/per%C3%BA-periodista-denuncia-amenazas-tras-publicar-investigaciones-sobre-alcalde)
+          tras haber realizado una serie de denuncias públicas en su programa de
+          radio “Fuerza Informativa” que comprometen al Alcalde de Andahuaylas, Abel
           Manuel Serna Herrera, quien tiene investigaciones por acoso sexual, lavado
           de activos, violencia familiar y más de quince denuncias por actos de
           corrupción.
@@ -886,6 +939,51 @@ paises:
           - libertad-de-prensa
 ---
 
-{{< observatorio-mes month="2025-10" >}}
+**Proyectos por país**
+
+| País | Proyectos |
+|---|---:|
+| Argentina | 19 |
+| Brasil | 8 |
+| Chile | 9 |
+| Colombia | 3 |
+| Ecuador | 4 |
+| Guatemala | 1 |
+| México | 8 |
+| Paraguay | 11 |
+| Perú | 4 |
+
+**Temas proyectos de ley presentados entre enero de 2025 y octubre de 2025**
+
+| Tema | % |
+|---|---:|
+| Libertad de expresión y derechos políticos | 16,7% |
+| Privacidad y derechos ARCO | 16,7% |
+| Protección de menores | 11,1% |
+| Discriminación, violencia y discursos de odio | 9,3% |
+| Ciberseguridad | 7,4% |
+| Inteligencia Artificial | 7,4% |
+| Acceso a la información | 3,7% |
+| Acceso a Internet e Infraestructura | 3,7% |
+| Apología | 3,7% |
+| Desinformación | 3,7% |
+| DESC | 1,9% |
+| Acoso | 1,5% |
+| Publicidad oficial | 1,4% |
+
+**Temas proyectos de ley presentados entre enero de 2024 y octubre de 2025**
+
+| Tema | % |
+|---|---:|
+| Libertad de Expresión y Derechos políticos | 16,7% |
+| Discriminación, violencia y discursos de odio | 11,8% |
+| Derechos de los niños | 12,5% |
+| Acceso a la información | 7,8% |
+| Derechos del consumidor | 4,2% |
+| Privacidad y Derechos ARCO | 9,2% |
+| Honor y reputación | 5,9% |
+| Desinformación | 4,6% |
+| Inteligencia artificial | 5,2% |
+| Moral pública | 4,9% |
 
 {{< boletin-paises >}}

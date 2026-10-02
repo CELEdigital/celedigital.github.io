@@ -1,51 +1,59 @@
 ---
-author: [CELE]
-content_type: [boletin]
-date: '2023-05-31'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales
-  y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
+title: 'Boletín mensual Observatorio Legislativo | Mayo 2023'
 slug: boletin-mensual-observatorio-legislativo-mayo2023
-tags: [institucional]
-title: Boletín mensual Observatorio Legislativo | Mayo 2023
+date: 2023-05-31
 translationKey: wp-12098
+description: >-
+  Novedades de la actividad legislativa y regulatoria, decisiones judiciales
+  y administrativas.
+author:
+  - CELE
+content_type:
+  - boletin
+programs:
+  - policy
 type: posts
+featured: false
 newsletter_series: observatorio
+image: /img/shutterstock_1698060541-1-scaled.jpg
+tags:
+  - institucional
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2023-05-04
-        url: https://www.argentina.gob.ar/noticias/usos-de-la-inteligencia-artificial-impacto-en-la-region-y-desafios-para-su-regulacion
+        tipo: proyecto
         texto: >-
           La subsecretaria de Políticas en Ciencia, Tecnología e Innovación, Cecilia
           Sleiman, participó del panel [“Usos de la inteligencia artificial, impacto
-          en la región y desafíos para su regulación”]($url) realizado en el marco
-          del Seminario Internacional. La actividad fue organizada por la Agencia de
-          Acceso a la Información Pública (AAIP). El evento permitió llevar a cabo
-          reflexiones sobre la necesidad de establecer criterios y herramientas para
-          clasificar las tecnologías e identificar cuáles corresponden a la
-          inteligencia artificial y darle un desarrollo a través de políticas
-          públicas.
+          en la región y desafíos para su
+          regulación”](https://www.argentina.gob.ar/noticias/usos-de-la-inteligencia-artificial-impacto-en-la-region-y-desafios-para-su-regulacion)
+          realizado en el marco del Seminario Internacional. La actividad fue
+          organizada por la Agencia de Acceso a la Información Pública (AAIP). El
+          evento permitió llevar a cabo reflexiones sobre la necesidad de establecer
+          criterios y herramientas para clasificar las tecnologías e identificar
+          cuáles corresponden a la inteligencia artificial y darle un desarrollo a
+          través de políticas públicas.
 
       - fecha: 2023-05-13
-        url: https://www.infobae.com/opinion/2023/05/13/libertad-de-expresion-en-riesgo-estoy-amenazada-de-muerte-por-denunciar-abusos-sexuales/
+        tipo: proyecto
         texto: >-
           Los tintes de la violencia de género en los entornos periodísticos: Mujer
-          periodista [denunció]($url) haber sido amenazada de muerte por denunciar
-          abusos sexuales.
+          periodista
+          [denunció](https://www.infobae.com/opinion/2023/05/13/libertad-de-expresion-en-riesgo-estoy-amenazada-de-muerte-por-denunciar-abusos-sexuales/)
+          haber sido amenazada de muerte por denunciar abusos sexuales.
         etiquetas:
           - violencia-de-genero
           - libertad-de-prensa
 
       - fecha: 2023-05-15
-        url: https://www.lanacion.com.ar/politica/un-camarista-federal-demando-al-presidente-y-le-reclama-un-resarcimiento-de-40-millones-nid15052023/
+        tipo: proyecto
         texto: >-
-          El juez federal Leopoldo Bruglia [demandó]($url) al presidente Alberto
-          Fernández por daños y perjuicios por difamación al publicar en su cuenta
-          oficial de
+          El juez federal Leopoldo Bruglia
+          [demandó](https://www.lanacion.com.ar/politica/un-camarista-federal-demando-al-presidente-y-le-reclama-un-resarcimiento-de-40-millones-nid15052023/)
+          al presidente Alberto Fernández por daños y perjuicios por difamación al
+          publicar en su cuenta oficial de
           [Twitter](https://twitter.com/alferdez/status/1587893045479055362?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1587893045479055362%7Ctwgr%5E079766d58af863c6fb176f4f962ea8759b305907%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.lanacion.com.ar%2Fpolitica%2Fun-camarista-federal-demando-al-presidente-y-le-reclama-un-resarcimiento-de-40-millones-nid15052023%2F)
           su postura respecto a los fallos emitidos por dicho juez. Bruglia alegó
           “daño al honor, reputación y dignidad -con afectación moral– daño en la
@@ -54,14 +62,15 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-05-16
-        url: https://www.lanacion.com.ar/politica/la-corte-fallo-en-favor-del-extitular-del-centro-wiessenthal-en-una-d
+        tipo: proyecto
         texto: >-
           La Corte Suprema de Justicia de la Nación Argentina [falló a favor del
-          periodista]($url) Sergio Widder demandado por Pedro Brieger por el delito
-          de calumnia al señalarlo de ser “cómplice” del terrorismo palestino. Los
-          jueces concluyeron que Widder actuó bajo el amparo de la “libertad de
-          expresión en materia de opiniones” y que por sus expresiones no merece
-          pagar una indemnización.
+          periodista](https://www.lanacion.com.ar/politica/la-corte-fallo-en-favor-del-extitular-del-centro-wiessenthal-en-una-d)
+          Sergio Widder demandado por Pedro Brieger por el delito de calumnia al
+          señalarlo de ser “cómplice” del terrorismo palestino. Los jueces
+          concluyeron que Widder actuó bajo el amparo de la “libertad de expresión
+          en materia de opiniones” y que por sus expresiones no merece pagar una
+          indemnización.
         etiquetas:
           - libertad-de-expresion
           - libertad-de-prensa
@@ -69,6 +78,7 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2023-05-01
+        tipo: proyecto
         exp: PL 2630/2020
         url: https://internetlab.org.br/wp-content/uploads/2023/05/mpf-manda-google-meta-explicarem.pdf
         texto: >-
@@ -76,9 +86,9 @@ paises:
           Proyecto de Ley nº 2630/2020. El Procurador Yuri Luz, del Ministerio
           Público Federal (MPF), de São Paulo, [ordenó que Google y Meta
           proporcionasen información sobre supuestas ofensas contra la votación del
-          Proyecto de Ley
-          ](https://internetlab.org.br/wp-content/uploads/2023/05/mpf-manda-google-meta-explicarem.pdf)nº
-          [2630/2020]($url). La Investigación Civil Pública tiene como objetivo
+          Proyecto de
+          Ley](https://internetlab.org.br/wp-content/uploads/2023/05/mpf-manda-google-meta-explicarem.pdf)
+          nº [2630/2020]($url). La Investigación Civil Pública tiene como objetivo
           investigar el direccionamiento de los resultados de búsqueda en Google
           para los links con críticas al proyecto de ley y, especialmente, para el
           link del artículo con el posicionamiento de la plataforma sobre el tema.
@@ -94,31 +104,36 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-05-02
-        url: https://internetlab.org.br/wp-content/uploads/2023/05/Decisao.pdf
         texto: >-
           Alexandre de Moraes determina la retirada de contenidos con ataques al
           Proyecto de Ley nº 2630/2020. El [Ministro de la Suprema Corte brasileña
           Alexandre de Moraes ordenó a Google, Meta, Spotify y Brasil Paralelo
           retirar contenidos que ataquen o promuevan desinformación sobre el
-          Proyecto de Ley 2630/20]($url). La decisión estableció la eliminación
-          completa, en un plazo de una hora, de todos los anuncios, textos e
-          información publicados y propagados desde el blog oficial de Google con
-          ataques al PL 2630, bajo multa de R$ 150.000 por hora de incumplimiento
-          por pieza de anuncio. Además, Moraes ordenó a las empresas que señalasen,
-          en un plazo de 48 horas, los métodos y algoritmos de aumento de alcance e
-          inducción de la búsqueda en "PL da Censura", y dio un plazo de 5 días para
-          que la Policía Federal escuchara a los directores generales de las
-          empresas. En los fundamentos de la decisión, el Ministro mencionó un
-          estudio universitario que afirma que "los datos sugieren que Google ha
-          estado utilizando los resultados de búsqueda para influir negativamente en
-          la percepción que los usuarios tienen del proyecto de ley". Alexandre de
-          Moraes también afirmó que las empresas utilizaron mecanismos inmorales e
-          ilegales que pueden constituir abuso de poder económico, generar
-          desinformación y fomentar "prácticas de milicia digital en las redes
-          sociales". DESINFORMACION MODERACION DE CONTENIDOS El presidente de la
-          Cámara de Diputados, Arthur Lira, pospone la votación del Proyecto de Ley
-          nº 2630/2020. El [Presidente de la Cámara de Diputados, Arthur Lira
-          (PP/AL), pospuso la votación del Proyecto de Ley
+          Proyecto de Ley
+          2630/20](https://internetlab.org.br/wp-content/uploads/2023/05/Decisao.pdf).
+          La decisión estableció la eliminación completa, en un plazo de una hora,
+          de todos los anuncios, textos e información publicados y propagados desde
+          el blog oficial de Google con ataques al PL 2630, bajo multa de R$ 150.000
+          por hora de incumplimiento por pieza de anuncio. Además, Moraes ordenó a
+          las empresas que señalasen, en un plazo de 48 horas, los métodos y
+          algoritmos de aumento de alcance e inducción de la búsqueda en "PL da
+          Censura", y dio un plazo de 5 días para que la Policía Federal escuchara a
+          los directores generales de las empresas. En los fundamentos de la
+          decisión, el Ministro mencionó un estudio universitario que afirma que
+          "los datos sugieren que Google ha estado utilizando los resultados de
+          búsqueda para influir negativamente en la percepción que los usuarios
+          tienen del proyecto de ley". Alexandre de Moraes también afirmó que las
+          empresas utilizaron mecanismos inmorales e ilegales que pueden constituir
+          abuso de poder económico, generar desinformación y fomentar "prácticas de
+          milicia digital en las redes sociales".
+        etiquetas:
+          - plataformas-digitales
+
+      - fecha: 2023-05-02
+        texto: >-
+          El presidente de la Cámara de Diputados, Arthur Lira, pospone la votación
+          del Proyecto de Ley nº 2630/2020. El [Presidente de la Cámara de
+          Diputados, Arthur Lira (PP/AL), pospuso la votación del Proyecto de Ley
           2630/2020](https://www.camara.leg.br/noticias/957823-lira-adia-votacao-do-projeto-das-fake-news-acompanhe/).
           El proyecto, que contiene diversas reglas para las plataformas digitales
           en Brasil, incluso para moderación de contenido, remuneración de
@@ -130,11 +145,18 @@ paises:
           tiempo para ajustar el texto después de reunirse con líderes de los
           partidos. Según Orlando, no había tiempo para "examinar todas las
           cuestiones". Arthur Lira no fijó una nueva fecha para la votación.
-          DESINFORMACION MODERACION DE CONTENIDOS La Secretaría Nacional del
-          Consumidor ordena que Google designe como "publicidad" su texto contra el
-          Proyecto de Ley nº 2630/2020. La Secretaría Nacional del Consumidor
-          (Senacon), del Ministerio de Justicia y Seguridad Pública, [ordenó a
-          Google marcar como "publicidad" un link fijado en su página de inicio de
+        etiquetas:
+          - libertad-de-expresion
+          - plataformas-digitales
+
+      - fecha: 2023-05-02
+        tipo: proyecto
+        texto: >-
+          La Secretaría Nacional del Consumidor ordena que Google designe como
+          "publicidad" su texto contra el Proyecto de Ley nº 2630/2020. La
+          Secretaría Nacional del Consumidor (Senacon), del Ministerio de Justicia y
+          Seguridad Pública, [ordenó a Google marcar como "publicidad" un link
+          fijado en su página de inicio de
           búsqueda](https://internetlab.org.br/wp-content/uploads/2023/05/senacon-cautelar-google-pl-fake-news.pdf)
           el 01.05, con el texto "[El PL de fake news puede aumentar la confusión
           sobre lo que es verdadero o falso en
@@ -163,28 +185,28 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-05-10
-        url: https://g1.globo.com/politica/blog/valdo-cruz/post/2023/05/10/moraes-suspende-telegram-no-brasil-e-determina-multa.ghtml?UTM_SOURCE=copiar-url&UTM_MEDIUM=share-bar-app&UTM_CAMPAIGN=materias
+        tipo: proyecto
         texto: >-
           Alexandre de Moraes ordena a Telegram eliminar mensaje enviado sobre el
           Proyecto de Ley nº 2630/2020. El ministro Alexandre de Moraes, del Supremo
           Tribunal Federal (STF), [ordenó a Telegram eliminar un mensaje enviado a
           los usuarios de la plataforma con críticas al Proyecto de Ley (PL) no.
-          2630/20]($url). El mensaje, objeto de la decisión, fue enviado por la
-          aplicación el 09.05, y afirmó que la democracia brasileña estaría en
-          riesgo debido a la PL no. 2630/20, trayendo puntos, por ejemplo, "cómo
-          este proyecto de ley va a matar a la Internet moderna si se aprueba con la
-          redacción actual". Además, la decisión, emitida en el marco de la
-          investigación de fake news, determinó que Telegram enviara un nuevo
-          mensaje a los usuarios (comunicando que la conducta de la empresa
-          "caracterizaba la FLAGRANDE E ILEGAL DIFUSIÓN amenazando el Congreso
-          Nacional, el Poder Judicial, el Estado de Derecho y la Democracia
-          Brasileña"), y que la Policía Federal (PF) tomara testimonio de los
-          representantes de la plataforma en Brasil. En caso de incumplimiento de
-          las medidas por parte de Telegram, Moraes dispuso una multa de R$ 500 mil
-          por hora y la suspensión de la aplicación durante 72 horas. En la
-          decisión, el ministro afirma que Telegram es "reincidente en prácticas
-          que, por acción u omisión, permiten la proliferación criminal de mensajes
-          fraudulentos". La empresa [acceptó la
+          2630/20](https://g1.globo.com/politica/blog/valdo-cruz/post/2023/05/10/moraes-suspende-telegram-no-brasil-e-determina-multa.ghtml?UTM_SOURCE=copiar-url&UTM_MEDIUM=share-bar-app&UTM_CAMPAIGN=materias).
+          El mensaje, objeto de la decisión, fue enviado por la aplicación el 09.05,
+          y afirmó que la democracia brasileña estaría en riesgo debido a la PL no.
+          2630/20, trayendo puntos, por ejemplo, "cómo este proyecto de ley va a
+          matar a la Internet moderna si se aprueba con la redacción actual".
+          Además, la decisión, emitida en el marco de la investigación de fake news,
+          determinó que Telegram enviara un nuevo mensaje a los usuarios
+          (comunicando que la conducta de la empresa "caracterizaba la FLAGRANDE E
+          ILEGAL DIFUSIÓN amenazando el Congreso Nacional, el Poder Judicial, el
+          Estado de Derecho y la Democracia Brasileña"), y que la Policía Federal
+          (PF) tomara testimonio de los representantes de la plataforma en Brasil.
+          En caso de incumplimiento de las medidas por parte de Telegram, Moraes
+          dispuso una multa de R$ 500 mil por hora y la suspensión de la aplicación
+          durante 72 horas. En la decisión, el ministro afirma que Telegram es
+          "reincidente en prácticas que, por acción u omisión, permiten la
+          proliferación criminal de mensajes fraudulentos". La empresa [acceptó la
           decisión](https://teletime.com.br/10/05/2023/telegram-acata-decisao-do-stf-e-retira-ataques-ao-pl-das-fake-news/),
           eliminando el contenido sobre el PL nº 2630/20 y enviando el mensaje
           determinado por el STF. La Secretaría Nacional del Consumidor también
@@ -194,13 +216,14 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-05-16
-        url: https://www.camara.leg.br/propostas-legislativas/2362347
+        tipo: proyecto
         texto: >-
           Diputado propone nuevo proyecto de ley para regular Internet. El [Diputado
           Federal Lafayette de Andrada (REPUBLICANOS/MG) propuso el Proyecto de Ley
           2.582/2023, que busca establecer el Sistema Brasileño de Defensa de la
           Libertad de Expresión y Combate Integrado a la Práctica de Actos Ilícitos
-          en Internet (SBDL)]($url). En su
+          en Internet
+          (SBDL)](https://www.camara.leg.br/propostas-legislativas/2362347). En su
           [justificación](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2273053&filename=PL%202582/2023),
           el diputado afirma que es necesaria una ley que "promueva la seguridad y
           la fiabilidad del entorno público de la Internet". Según él, el poder
@@ -212,15 +235,16 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-05-17
-        url: https://g1.globo.com/politica/noticia/2023/05/09/stf-marca-julgamento-de-acoes-que-discutem-papel-das-redes-sociais-no-combate-a-desinformacao.ghtml?utm_source=share-universal&utm_medium=share-bar-app&utm_campaign=materias
+        tipo: proyecto
         texto: >-
           Sentencias sobre la constitucionalidad de los artículos 12 y 19 del Marco
           Civil de Internet por el STF están programadas para el 17.05. El 9 de mayo
           de 2010, la Presidente de la Suprema Corte brasileña (STF), Rosa Weber,
-          [programó para el 17 de mayo el juicio de los Temas 987 y 533]($url), que
-          implican el tratamiento del Marco Civil da Internet (MCI) [con respecto a
-          la responsabilidad civil de las plataformas de Internet por daños
-          derivados de contenidos generados por
+          [programó para el 17 de mayo el juicio de los Temas 987 y
+          533](https://g1.globo.com/politica/noticia/2023/05/09/stf-marca-julgamento-de-acoes-que-discutem-papel-das-redes-sociais-no-combate-a-desinformacao.ghtml?utm_source=share-universal&utm_medium=share-bar-app&utm_campaign=materias),
+          que implican el tratamiento del Marco Civil da Internet (MCI) [con
+          respecto a la responsabilidad civil de las plataformas de Internet por
+          daños derivados de contenidos generados por
           terceros](https://g1.globo.com/politica/noticia/2023/05/09/stf-marca-julgamento-de-acoes-que-discutem-papel-das-redes-sociais-no-combate-a-desinformacao.ghtml?utm_source=share-universal&utm_medium=share-bar-app&utm_campaign=materias).
           Además, el Tribunal también programó para el mismo día, [la Acción Directa
           de Inconstitucionalidad (ADI)
@@ -235,17 +259,19 @@ paises:
           - plataformas-digitales
 
       - fecha: 2023-05-23
-        url: https://internetlab.org.br/wp-content/uploads/2023/05/Evento-24-ACOR1.pdf
+        tipo: proyecto
         texto: >-
           TJSC disminuye la indemnización a pagar por Felipe Neto a la mujer que
           había divulgado el mensaje. Un juez bajó [la indemnización que el
           influenciador Felipe Neto debe pagar a una mujer por haber divulgado su
-          perfil negativamente]($url). En primera instancia, Felipe Neto había sido
-          condenado a pagar R$ 30,000.00 en daños y perjuicios por supuestamente
-          promover el "linchamiento virtual" en las redes sociales. El influencer
-          habría publicado el screenshot de un mensaje sobre la liberación del
-          comercio en la pandemia de 2020 en su Twitter, afirmando que nunca había
-          visto "tanta gente inhumana" en su vida. El [juez Marcos Fey
+          perfil
+          negativamente](https://internetlab.org.br/wp-content/uploads/2023/05/Evento-24-ACOR1.pdf).
+          En primera instancia, Felipe Neto había sido condenado a pagar R$
+          30,000.00 en daños y perjuicios por supuestamente promover el
+          "linchamiento virtual" en las redes sociales. El influencer habría
+          publicado el screenshot de un mensaje sobre la liberación del comercio en
+          la pandemia de 2020 en su Twitter, afirmando que nunca había visto "tanta
+          gente inhumana" en su vida. El [juez Marcos Fey
           Probst](https://internetlab.org.br/wp-content/uploads/2023/05/Evento-24-RELVOTO2.pdf),
           relator del caso, desestimó todos los argumentos del influencer contra la
           condenación, pero aceptó la reducción de la indemnización a R$ 5.000,00,
@@ -255,19 +281,19 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-05-26
-        url: https://internetlab.org.br/wp-content/uploads/2023/05/183B5A0F511D93_bolsonarojornalistas.pdf
+        tipo: proyecto
         texto: >-
           Bolsonaro condenado a pagar daños morales colectivos. El ex presidente
           Jair Bolsonaro [fue condenado por el Tribunal de Justicia de São Paulo a
           pagar R$ 50.000,00 en daños y perjuicios por sus repetidos ataques contra
-          periodistas]($url), en una demanda presentada por el Sindicato de
-          Periodistas Profesionales de SP. La defensa del ex presidente alegó que
-          los insultos proferidos por Bolsonaro estaban dirigidos a profesionales
-          específicos, y no a la clase de periodistas. [Sin embargo, el juez
-          encargado del caso entendió que, con las debidas reservas sobre el límite
-          de la libertad de expresión, las manifestaciones de Bolsonaro fueron
-          abusivas y ofensivas a la intimidad y a la dignidad, lo que habría
-          ocurrido "en relación a la categoría como un
+          periodistas](https://internetlab.org.br/wp-content/uploads/2023/05/183B5A0F511D93_bolsonarojornalistas.pdf),
+          en una demanda presentada por el Sindicato de Periodistas Profesionales de
+          SP. La defensa del ex presidente alegó que los insultos proferidos por
+          Bolsonaro estaban dirigidos a profesionales específicos, y no a la clase
+          de periodistas. [Sin embargo, el juez encargado del caso entendió que, con
+          las debidas reservas sobre el límite de la libertad de expresión, las
+          manifestaciones de Bolsonaro fueron abusivas y ofensivas a la intimidad y
+          a la dignidad, lo que habría ocurrido "en relación a la categoría como un
           todo"](https://www.migalhas.com.br/quentes/387218/bolsonaro-indenizara-jornalistas-em-r-50-mil-por-dano-moral-coletivo).
         etiquetas:
           - libertad-de-prensa
@@ -275,20 +301,26 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2023-05-29
-        url: https://www.resumenlatinoamericano.org/2023/05/29/chile-justicia-revisara-caso-de-libertad-de-expresion-interpuesta-por-alcalde-henry-campos-contra-diario-resumen/
         texto: >-
-          El juzgado de Garanrái de Concepción [revisará]($url) el caso de Henry
-          Campos contra Diario Resumen luego del fallo emitido por la Corte
-          Interamericana de Derechos Humanos donde condenó al Estado de Chile por no
-          respetar el derecho a la libertad de expresión en el caso del abogado
-          Carlos Baraona Bray. El juzgado se basará en dicho fallo para emitir
-          decisión en el caso de Henry Campos. LIBERTAD DE PRENSA CALUMNIA El
-          proyecto de ley que pretende regular la protección de datos personales, su
-          tratamiento y la creación de la Agencia de Protección de Datos Personales
-          (APDP) [pasó
-          ](https://www.ciperchile.cl/2023/05/29/ley-de-datos-personales-para-una-mejor-democracia/)a
-          Tercer Trámite Constitucional en el Congreso Nacional. El Proyecto de ley
-          busca incorporar una serie de obligaciones de seguridad, información y
+          El juzgado de Garanrái de Concepción
+          [revisará](https://www.resumenlatinoamericano.org/2023/05/29/chile-justicia-revisara-caso-de-libertad-de-expresion-interpuesta-por-alcalde-henry-campos-contra-diario-resumen/)
+          el caso de Henry Campos contra Diario Resumen luego del fallo emitido por
+          la Corte Interamericana de Derechos Humanos donde condenó al Estado de
+          Chile por no respetar el derecho a la libertad de expresión en el caso del
+          abogado Carlos Baraona Bray. El juzgado se basará en dicho fallo para
+          emitir decisión en el caso de Henry Campos.
+        etiquetas:
+          - libertad-de-prensa
+          - libertad-de-expresion
+
+      - fecha: 2023-05-29
+        texto: >-
+          El proyecto de ley que pretende regular la protección de datos personales,
+          su tratamiento y la creación de la Agencia de Protección de Datos
+          Personales (APDP)
+          [pasó](https://www.ciperchile.cl/2023/05/29/ley-de-datos-personales-para-una-mejor-democracia/)
+          a Tercer Trámite Constitucional en el Congreso Nacional. El Proyecto de
+          ley busca incorporar una serie de obligaciones de seguridad, información y
           gestión para los responsables del tratamiento de los datos. Así mismo, la
           nueva entidad se encargará de vigilar la efectiva protección del uso de
           esta información y fiscalizará el cumplimiento de la ley con la facultad
@@ -299,22 +331,25 @@ paises:
   - pais: Colombia
     entradas:
       - fecha: 2023-05-09
-        url: https://elpais.com/america-colombia/2023-05-10/asesinado-a-tiros-el-director-de-una-pagina-de-noticias-de-cienaga-de-oro-un-municipio-acechado-por-el-narcotrafico.html
+        tipo: proyecto
         texto: >-
-          Fue [asesinado]($url) en Ciénaga de Oro, Córdoba, el periodista Luis
-          Gabriel Pereira. Pereira era director del medio digital Notiorense. El
-          medio de comunicación publicaba noticias sobre el orden público del
-          municipio, en el cual hay altos índices de violencia. Además, de acuerdo a
-          lo reportado por medios de comunicación, recientemente Pereira había
-          revelado en uno de sus artículos el nombre de un presunto feminicida. La
-          Fundación para la Libertad de Prensa (FLIP) rechazó el asesinato y
-          solicitó a la Fiscalía General de la Nación que considere dentro de sus
-          hipótesis de investigación que el asesinato fue motivado por el oficio
-          periodístico de Pereira.
+          Fue
+          [asesinado](https://elpais.com/america-colombia/2023-05-10/asesinado-a-tiros-el-director-de-una-pagina-de-noticias-de-cienaga-de-oro-un-municipio-acechado-por-el-narcotrafico.html)
+          en Ciénaga de Oro, Córdoba, el periodista Luis Gabriel Pereira. Pereira
+          era director del medio digital Notiorense. El medio de comunicación
+          publicaba noticias sobre el orden público del municipio, en el cual hay
+          altos índices de violencia. Además, de acuerdo a lo reportado por medios
+          de comunicación, recientemente Pereira había revelado en uno de sus
+          artículos el nombre de un presunto feminicida. La Fundación para la
+          Libertad de Prensa (FLIP) rechazó el asesinato y solicitó a la Fiscalía
+          General de la Nación que considere dentro de sus hipótesis de
+          investigación que el asesinato fue motivado por el oficio periodístico de
+          Pereira.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2023-05-23
+        tipo: proyecto
         texto: >-
           El 23 de mayo se radicó en el Senado un proyecto de ley que busca crear la
           Agencia Nacional de Seguridad Digital, una entidad descentralizada que
@@ -325,11 +360,13 @@ paises:
           - privacidad
 
       - fecha: 2023-05-25
-        url: https://www.semana.com/politica/articulo/aprobado-en-el-congreso-proyecto-en-contra-de-la-violencia-politica-contra-la-mujer/202335/
+        tipo: proyecto
         texto: >-
           El 25 de mayo se aprobó en cuarto debate un proyecto que busca eliminar
-          [la violencia contra las mujeres en la vida política]($url). A pesar de
-          las buenas intenciones del proyecto, [varias organizaciones de la sociedad
+          [la violencia contra las mujeres en la vida
+          política](https://www.semana.com/politica/articulo/aprobado-en-el-congreso-proyecto-en-contra-de-la-violencia-politica-contra-la-mujer/202335/).
+          A pesar de las buenas intenciones del proyecto, [varias organizaciones de
+          la sociedad
           civil](https://web.karisma.org.co/comentarios-sobre-el-proyecto-por-medio-de-la-cual-se-establecen-medidas-para-prevenir-atender-rechazar-y-sancionar-la-violencia-contra-las-mujeres-en-la-vida-politica-y-hacer-efectivo-su-d/)
           han expresado su preocupación por los límites excesivos que crearía a la
           libertad de expresión. Según las organizaciones, la ambigüedad de las
@@ -346,10 +383,10 @@ paises:
     entradas:
       - fecha: 2023-05-26
         tipo: ley
-        url: https://sputniknews.lat/20230526/ecuador-se-suma-a-lista-de-paises-con-ley-de-proteccion-de-datos-personales-1139917125.html
         texto: >-
-          Ecuador se suma a la tendencia latinoamericana de [regular]($url) la
-          protección de datos personales. El 26 de mayo se promulgó la Ley de
+          Ecuador se suma a la tendencia latinoamericana de
+          [regular](https://sputniknews.lat/20230526/ecuador-se-suma-a-lista-de-paises-con-ley-de-proteccion-de-datos-personales-1139917125.html)
+          la protección de datos personales. El 26 de mayo se promulgó la Ley de
           Protección de Datos Personales que sancionará con multas a las empresas
           infractoras que entreguen información de sus clientes sin previa
           autorización.
@@ -359,12 +396,14 @@ paises:
   - pais: Guatemala
     entradas:
       - fecha: 2023-05-18
-        url: https://www.telesurtv.net/news/abogan-mantener-libertad-prensa-elecciones-guatemala-20230518-0004.html
+        tipo: proyecto
         texto: >-
           Organizaciones de la sociedad civil y gremios periodísticos
-          internacionales [solicitaron]($url), a través de un comunicado, respetar y
-          proteger la libertad de expresión y de prensa durante las elecciones que
-          se celebrarán el 25 de junio en Guatemala.
+          internacionales
+          [solicitaron](https://www.telesurtv.net/news/abogan-mantener-libertad-prensa-elecciones-guatemala-20230518-0004.html),
+          a través de un comunicado, respetar y proteger la libertad de expresión y
+          de prensa durante las elecciones que se celebrarán el 25 de junio en
+          Guatemala.
         etiquetas:
           - electoral
           - libertad-de-prensa
@@ -373,29 +412,32 @@ paises:
   - pais: México
     entradas:
       - fecha: 2023-05-03
-        url: https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-113-23.pdf
+        tipo: proyecto
         texto: >-
           El [Instituto Nacional de Transparencia, Acceso a la Información y
-          Protección de Datos Personales]($url) presentó un recurso de reclamación
-          ante la Suprema Corte de Justicia de la Nación solicitando se les permita
-          sesionar con cuatro integrantes con la finalidad de resolver los más de
-          tres mil medios de impugnación pendientes por resolver, y con ello poder
-          seguir garantizando la transparencia en México.
+          Protección de Datos
+          Personales](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-113-23.pdf)
+          presentó un recurso de reclamación ante la Suprema Corte de Justicia de la
+          Nación solicitando se les permita sesionar con cuatro integrantes con la
+          finalidad de resolver los más de tres mil medios de impugnación pendientes
+          por resolver, y con ello poder seguir garantizando la transparencia en
+          México.
         etiquetas:
           - privacidad
           - acceso-a-la-informacion
 
       - fecha: 2023-05-04
-        url: https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-114-23.pdf
+        tipo: proyecto
         texto: >-
           El [Comité Ejecutivo de la Conferencia Internacional de Comisionados de
-          Información]($url) exhortó al Senado de México a realizar el nombramiento
-          de los tres consejeros/as del Instituto Nacional de Transparencia, Acceso
-          a la Información y Protección de Datos Personales restantes para que
-          continúe garantizando el derecho a la información en México, y además
-          pueda cumplir con sus obligaciones internacionales como parte del Comité
-          Ejecutivo de la Conferencia Internacional de Comisionados de Información.
-          Este mismo llamado fue hecho por la [Red Iberoamericana de Protección de
+          Información](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-114-23.pdf)
+          exhortó al Senado de México a realizar el nombramiento de los tres
+          consejeros/as del Instituto Nacional de Transparencia, Acceso a la
+          Información y Protección de Datos Personales restantes para que continúe
+          garantizando el derecho a la información en México, y además pueda cumplir
+          con sus obligaciones internacionales como parte del Comité Ejecutivo de la
+          Conferencia Internacional de Comisionados de Información. Este mismo
+          llamado fue hecho por la [Red Iberoamericana de Protección de
           Datos](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-135-23.pdf)
           el 21 de mayo de 2023. Por su parte, el 5 de mayo de 2023, [diversas
           organizaciones y
@@ -408,11 +450,12 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2023-05-11
-        url: https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=7350
+        tipo: proyecto
         texto: >-
-          La [Suprema Corte de Justicia de la Nación]($url) resolvió que el
-          [Instituto Nacional de Transparencia, Acceso a la Información y Protección
-          de Datos
+          La [Suprema Corte de Justicia de la
+          Nación](https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=7350)
+          resolvió que el [Instituto Nacional de Transparencia, Acceso a la
+          Información y Protección de Datos
           Personales](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-123-23.pdf)
           tiene la facultad para determinar de manera preliminar y únicamente con
           relación al ejercicio del derecho a la información cuándo un hecho es una
@@ -421,27 +464,31 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2023-05-15
-        url: https://articulo19.org/ataques-digitales-en-contra-de-denise-dresser-y-su-familia-les-pone-en-riesgo/
+        tipo: proyecto
         texto: >-
           Diversas organizaciones de la sociedad civil denunciaron el aumento de
-          ataques a la periodista [Denisse Dresser]($url) y sus hijos en la cuenta
-          personal de twitter de la periodista. El incremento de los ataques
-          coincide con la publicación que hizo sobre el Presidente de México y sus
-          hijos a raíz de una investigación periodística realizada por Latinus en la
-          que dan a conocer tráfico de influencia y conflicto de interés de los
-          hijos del presidente. Las organizaciones exigieron que el Gobierno Federal
-          deje de mandar mensajes estigmatizantes contra la periodista y elimine la
-          sección Quien es Quien en la Mentiras en el programa que conduce el
-          Presidente cada miércoles; y solicita al Sistema Nacional de Prevención,
-          Atención, Sanción y Erradicación de la Violencia contra las Mujeres y la
-          Comisión Nacional de los Derechos Humanos que tomen acciones al respecto.
+          ataques a la periodista [Denisse
+          Dresser](https://articulo19.org/ataques-digitales-en-contra-de-denise-dresser-y-su-familia-les-pone-en-riesgo/)
+          y sus hijos en la cuenta personal de twitter de la periodista. El
+          incremento de los ataques coincide con la publicación que hizo sobre el
+          Presidente de México y sus hijos a raíz de una investigación periodística
+          realizada por Latinus en la que dan a conocer tráfico de influencia y
+          conflicto de interés de los hijos del presidente. Las organizaciones
+          exigieron que el Gobierno Federal deje de mandar mensajes estigmatizantes
+          contra la periodista y elimine la sección Quien es Quien en la Mentiras en
+          el programa que conduce el Presidente cada miércoles; y solicita al
+          Sistema Nacional de Prevención, Atención, Sanción y Erradicación de la
+          Violencia contra las Mujeres y la Comisión Nacional de los Derechos
+          Humanos que tomen acciones al respecto.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2023-05-18
-        url: https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-131-23.pdf
+        tipo: proyecto
         texto: >-
-          La [Suprema Corte de Justicia de la Nación]($url) [declaró
+          La [Suprema Corte de Justicia de la
+          Nación](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-131-23.pdf)
+          [declaró
           inconstitucional](https://www.internet2.scjn.gob.mx/red2/comunicados/noticia.asp?id=7359)
           el Acuerdo Presidencial por el que determinó como seguridad nacional e
           interés público los proyectos y obras de infraestructura del Gobierno
@@ -454,16 +501,18 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2023-05-19
-        url: https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-133-23.pdf
+        tipo: proyecto
         texto: >-
           El [Instituto Nacional de Transparencia, Acceso a la Información y
-          Protección de Datos Personales]($url) presentó un recurso de queja ante la
-          Suprema Corte de Justicia de la Nación contra el decreto publicado el 18
-          de mayo de 2023, por el Ejecutivo Federal en el que declara la
-          construcción del Tren Maya, el Corredor Interoceánico del Istmo de
-          Tehuantepec, los aeropuertos de Palenque, Chetumal y Tulum, entre otras
-          obras, como de seguridad nacional y de interés público. Por su parte, las
-          [organizaciones Artículo 19, Fundar y Designaciones
+          Protección de Datos
+          Personales](https://home.inai.org.mx/wp-content/documentos/SalaDePrensa/Comunicados/Comunicado%20INAI-133-23.pdf)
+          presentó un recurso de queja ante la Suprema Corte de Justicia de la
+          Nación contra el decreto publicado el 18 de mayo de 2023, por el Ejecutivo
+          Federal en el que declara la construcción del Tren Maya, el Corredor
+          Interoceánico del Istmo de Tehuantepec, los aeropuertos de Palenque,
+          Chetumal y Tulum, entre otras obras, como de seguridad nacional y de
+          interés público. Por su parte, las [organizaciones Artículo 19, Fundar y
+          Designaciones
           Públicas](https://articulo19.org/el-acuerdo-publicado-por-el-ejecutivo-federal-para-clasificar-obras-de-infraestructura-como-de-seguridad-nacional-es-un-desacato-a-la-resolucion-de-la-scjn/)
           denominaron como desacato a la determinación de la Suprema Corte de
           Justicia de la Nación, la publicación del decreto antes mencionado.
@@ -471,36 +520,38 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2023-05-22
-        url: https://r3d.mx/2023/05/23/el-subsecretario-alejandro-encinas-fue-espiado-con-pegasus-revela-nyt/
+        tipo: proyecto
         texto: >-
           Se dio a conocer por el periódico New York Times que el Subsecretario de
           Derechos Humanos de la Secretaría de Gobernación, Alejandro Encinas, fue
-          espiado con el [software pegasus]($url). Es de resaltar que este
-          funcionario de alto cargo ha encabezado investigaciones vinculadas con la
-          actuación de personal militar en las épocas de la Guerra Sucia y de
-          Ayotzinapa, y ha sido critico a la expansión de facultades a los
-          militares.
+          espiado con el [software
+          pegasus](https://r3d.mx/2023/05/23/el-subsecretario-alejandro-encinas-fue-espiado-con-pegasus-revela-nyt/).
+          Es de resaltar que este funcionario de alto cargo ha encabezado
+          investigaciones vinculadas con la actuación de personal militar en las
+          épocas de la Guerra Sucia y de Ayotzinapa, y ha sido critico a la
+          expansión de facultades a los militares.
         etiquetas:
           - privacidad
 
   - pais: Perú
     entradas:
       - fecha: 2023-05-02
-        url: https://ipys.org/libertad-de-expresion/alertas/peru-reabren-proceso-judicial-contra-periodista-que-habia-sido-declarado-prescrito
+        tipo: proyecto
         texto: >-
-          La Corte Suprema de Justicia [emitió una resolución]($url) que establece
-          la continuación del juicio contra el periodista Daniel Yovera por
-          difamación, a pesar de que dos instancias del Poder Judicial había
-          declarado prescrito el proceso el año pasado. La denuncia contra Yovera
-          fue presentada en julio de 2019 por Alberto Gómez De la Torre debido al
-          documental "The Sodalitium Scandal", emitido en 2015 por la cadena Al
-          Jazeera. Aunque dos instancias judiciales habían considerado prescrito el
-          caso, Gómez De la Torre impugnó esta decisión ante la Sala Penal
-          Transitoria de la Corte Suprema. En su resolución del 2 de mayo, la sala
-          determinó que el caso no ha prescrito debido a que se trata de un "delito
-          continuado". La decisión de la sala se fundamenta en el hecho de que en
-          diciembre de 2018, Yovera publicó unos tuits que incluían el enlace del
-          reportaje "The Sodalitium Scandal". Según los jueces, el hecho de
+          La Corte Suprema de Justicia [emitió una
+          resolución](https://ipys.org/libertad-de-expresion/alertas/peru-reabren-proceso-judicial-contra-periodista-que-habia-sido-declarado-prescrito)
+          que establece la continuación del juicio contra el periodista Daniel
+          Yovera por difamación, a pesar de que dos instancias del Poder Judicial
+          había declarado prescrito el proceso el año pasado. La denuncia contra
+          Yovera fue presentada en julio de 2019 por Alberto Gómez De la Torre
+          debido al documental "The Sodalitium Scandal", emitido en 2015 por la
+          cadena Al Jazeera. Aunque dos instancias judiciales habían considerado
+          prescrito el caso, Gómez De la Torre impugnó esta decisión ante la Sala
+          Penal Transitoria de la Corte Suprema. En su resolución del 2 de mayo, la
+          sala determinó que el caso no ha prescrito debido a que se trata de un
+          "delito continuado". La decisión de la sala se fundamenta en el hecho de
+          que en diciembre de 2018, Yovera publicó unos tuits que incluían el enlace
+          del reportaje "The Sodalitium Scandal". Según los jueces, el hecho de
           compartir el enlace del reportaje "demuestra una nueva manifestación de
           voluntad por parte del acusado al publicar dichos tuits, lo cual
           ratificaría el contenido del mencionado reportaje".
@@ -509,6 +560,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2023-05-04
+        tipo: proyecto
         exp: 2862/2022-CR
         url: https://img.lpderecho.pe/wp-content/uploads/2022/09/Proyecto-de-Ley-2862-2022-CR-LDPerecho.pdf
         texto: >-
@@ -529,17 +581,17 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2023-05-14
-        url: https://img.lpderecho.pe/wp-content/uploads/2023/05/Casacion-1464-2021-Apurimac-LPDerecho.pdf
+        tipo: proyecto
         texto: >-
           La Sala Penal Permanente de la Corte Suprema emitió la sentencia casatoria
-          [1464-2021/Apurímac]($url), en la que se establece que las protestas
-          violentas que resulten en ataques a personas y a la propiedad pública y
-          privada son consideradas como delitos. La sentencia fue dictada en
-          respuesta al recurso presentado por cuatro personas que fueron condenadas
-          en 2019 por el delito contra la seguridad pública, debido a su
-          participación en el bloqueo de la carretera hacia la mina Las Bambas, en
-          Apurímac, lo cual impidió el paso de camiones de transporte de cobre.
-          Diversos
+          [1464-2021/Apurímac](https://img.lpderecho.pe/wp-content/uploads/2023/05/Casacion-1464-2021-Apurimac-LPDerecho.pdf),
+          en la que se establece que las protestas violentas que resulten en ataques
+          a personas y a la propiedad pública y privada son consideradas como
+          delitos. La sentencia fue dictada en respuesta al recurso presentado por
+          cuatro personas que fueron condenadas en 2019 por el delito contra la
+          seguridad pública, debido a su participación en el bloqueo de la carretera
+          hacia la mina Las Bambas, en Apurímac, lo cual impidió el paso de camiones
+          de transporte de cobre. Diversos
           [políticos](https://twitter.com/MirtyVas/status/1658682051199922176), e
           [instituciones](https://twitter.com/idehpucp/status/1659004691303264256)
           [privadas](https://twitter.com/perspectivapucp/status/1659355299185143808)
@@ -556,6 +608,51 @@ paises:
           - libertad-de-expresion
 ---
 
-{{< observatorio-mes month="2023-05" >}}
+**Proyectos por país**
+
+| País | Proyectos |
+|---|---:|
+| Argentina | 7 |
+| Brasil | 28 |
+| Chile | 3 |
+| Colombia | 14 |
+| Ecuador | 2 |
+| Guatemala | — |
+| México | 13 |
+| Paraguay | 2 |
+| Perú | 2 |
+
+**Temas proyectos de ley presentados entre agosto 2021 y mayo 2023**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 6,9% |
+| Acoso | 10,3% |
+| Apología | 5,2% |
+| Libertad de expresión | 8,6% |
+| Igualdad y no discriminación | 17,2% |
+| Acceso a Internet | 1,7% |
+| Privacidad | 1,7% |
+| Protección de menores | 15,5% |
+| Reputación y honor | 5,2% |
+| Moderación de contenidos | 5,2% |
+| Violencia de género | 5,2% |
+| Derechos de los indígenas | 3,4% |
+| Fake News | 1,7% |
+
+**Temas proyectos de ley presentados entre agosto 2021 y mayo de 2023**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 4,8% |
+| Acoso | 9,5% |
+| Apología | 4,8% |
+| Libertad de culto | 1,6% |
+| Igualdad y no discriminación | 15,9% |
+| Publicidad oficial | 4,8% |
+| Fake News | 1,6% |
+| Protección de menores | 14,3% |
+| Reputación y honor | 4,8% |
+| Moderación de contenidos | 4,8% |
 
 {{< boletin-paises >}}

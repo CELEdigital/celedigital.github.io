@@ -1,25 +1,29 @@
 ---
-author: [mmdg]
-content_type: [boletin]
-date: '2021-04-29'
-description: Boletín Mensual Abril 2021 Observatorio Legislativo CELE. Novedades de
-  la actividad legislativa y regulatoria, decisiones judiciales y administrativas.
-  Argentina El 28/04 la Comisión de Sistemas, Medios de Comunicación y
-featured: false
-image: /img/shutterstock_1743216296-scaled.jpg
-programs: [policy]
+title: 'Boletín Mensual Observatorio Legislativo | Abril 2021'
 slug: boletin-mensual-abril-2021-observatorio-legislativo-cele
-tags: [institucional]
-title: Boletín Mensual Observatorio Legislativo | Abril 2021
+date: 2021-04-29
 translationKey: wp-8552
+description: >-
+  Novedades de la actividad legislativa y regulatoria, decisiones judiciales
+  y administrativas.
+author:
+  - mmdg
+content_type:
+  - boletin
+programs:
+  - policy
 type: boletin
+featured: false
 newsletter_series: observatorio
+image: /img/shutterstock_1743216296-scaled.jpg
+tags:
+  - institucional
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2021-04-28
-        url: https://www.youtube.com/watch?v=xGIUNcdBZ50
+        tipo: proyecto
         texto: >-
           El 28/04 la Comisión de Sistemas, Medios de Comunicación y Libertad de
           Expresión del Senado convocó a una reunión con expertos/as en la temática
@@ -32,15 +36,16 @@ paises:
           torno al tema son más bien prudentes y rechazan las acciones regulatorias
           más estrictas (no porque la autorregulación sea la respuesta sino porque
           la regulación no contribuye a solucionar el problema). Finalmente, resaltó
-          la importancia de las medidas de alfabetización digital. [Aquí]($url) el
-          encuentro completo.
+          la importancia de las medidas de alfabetización digital.
+          [Aquí](https://www.youtube.com/watch?v=xGIUNcdBZ50) el encuentro completo.
 
       - fecha: 2021-04-08
-        url: https://www.boletinoficial.gob.ar/detalleAviso/primera/242883/20210412
+        tipo: proyecto
         texto: >-
           El 08/04 la Dirección Nacional de Ciberseguridad creó el [Comité Asesor
-          para el Desarrollo e Implementación de Aplicaciones Seguras]($url). Este
-          comité tiene como objetivo asesorar en la elaboración de guías y
+          para el Desarrollo e Implementación de Aplicaciones
+          Seguras](https://www.boletinoficial.gob.ar/detalleAviso/primera/242883/20210412).
+          Este comité tiene como objetivo asesorar en la elaboración de guías y
           protocolos de principios y buenas prácticas relacionadas con la seguridad
           en el desarrollo, contratación e implementación de aplicaciones
           informáticas utilizadas por los organismos del Sector Público Nacional.
@@ -48,38 +53,42 @@ paises:
           de dicho Comité entre ellos, la [Fundación Vía
           Libre](https://www.vialibre.org.ar/hacia-la-construccion-de-protocolos-de-seguridad-para-el-estado-argentino/).
 
-      - url: https://www.fiscales.gob.ar/genero/dictaminan-que-la-supresion-por-orden-judicial-de-una-publicacion-en-facebook-denunciando-un-abuso-sexual-podria-comprometer-la-responsabilidad-internacional-del-estado-argentino/
+      - tipo: proyecto
         texto: >-
           El fiscal ante la Cámara Federal de Apelaciones de Bahía Blanca y la
           fiscal a cargo de la Unidad Fiscal Especializada en Violencia contra las
-          Mujeres (UFEM) [dictaminaron]($url) que correspondía revocar una medida
-          cautelar que le ordenaba a Facebook y Google Argentina eliminar una
-          publicación en esa red social que señalaba a un hombre como el abusador de
-          una adolescente, así como los enlaces que el buscador arrojaba como
-          resultados al respecto. La relevancia del caso estuvo dada porque los
-          fiscales sostuvieron que la libertad de expresión prevalecía frente al
-          derecho al honor y resaltaron que las redes sociales son “espacio para
-          expresar las violencias que le fueron y son infringidas” a los colectivos
-          de mujeres y disidencias.
+          Mujeres (UFEM)
+          [dictaminaron](https://www.fiscales.gob.ar/genero/dictaminan-que-la-supresion-por-orden-judicial-de-una-publicacion-en-facebook-denunciando-un-abuso-sexual-podria-comprometer-la-responsabilidad-internacional-del-estado-argentino/)
+          que correspondía revocar una medida cautelar que le ordenaba a Facebook y
+          Google Argentina eliminar una publicación en esa red social que señalaba a
+          un hombre como el abusador de una adolescente, así como los enlaces que el
+          buscador arrojaba como resultados al respecto. La relevancia del caso
+          estuvo dada porque los fiscales sostuvieron que la libertad de expresión
+          prevalecía frente al derecho al honor y resaltaron que las redes sociales
+          son “espacio para expresar las violencias que le fueron y son infringidas”
+          a los colectivos de mujeres y disidencias.
 
       - fecha: 2021-04-21
-        url: https://www.lanacion.com.ar/tecnologia/por-que-no-funciona-googlecomar-nid21042021/
+        tipo: proyecto
         texto: >-
           El 21/04 dejó de funcionar el sitio web www.google.com.ar por un
-          [error]($url). Esto se debió a que en NIC.ar (el servicio que administra
-          los dominios .ar), se liberó el dominio google.com.ar por haber vencido y,
+          [error](https://www.lanacion.com.ar/tecnologia/por-que-no-funciona-googlecomar-nid21042021/).
+          Esto se debió a que en NIC.ar (el servicio que administra los
+          dominios.ar), se liberó el dominio google.com.ar por haber vencido y,
           viendo la ventana de oportunidad, otra persona lo registró a su nombre. No
           obstante, dos horas más tarde el dominio volvió a funcionar y figurar como
           propiedad de Google.
 
   - pais: Brasil
     entradas:
-      - url: https://www.jusbrasil.com.br/processos/262691986/processo-n-1020260-7720208260100-do-tjsp
+      - tipo: proyecto
         texto: >-
           [El presidente Jair Bolsonaro fue condenado a indemnizar a la periodista
-          Patrícia Campos Mello]($url) por haberla agredido verbalmente de manera
-          machista. Campos Mello es autora de [reportajes que denunciaron un esquema
-          irregular de disparo de mensajes en las elecciones de
+          Patrícia Campos
+          Mello](https://www.jusbrasil.com.br/processos/262691986/processo-n-1020260-7720208260100-do-tjsp)
+          por haberla agredido verbalmente de manera machista. Campos Mello es
+          autora de [reportajes que denunciaron un esquema irregular de disparo de
+          mensajes en las elecciones de
           2018](https://www1.folha.uol.com.br/poder/2018/10/empresarios-bancam-campanha-contra-o-pt-pelo-whatsapp.shtml).
           Luego de estas denuncias, el [Tribunal Superior Electoral (TSE) investigó
           la
@@ -89,16 +98,16 @@ paises:
           en proceso, para escudriñar la existencia de una red para la producción y
           propagación de noticias falsas y acoso en redes sociales.
 
-      - url: http://portal.stf.jus.br/processos/detalhe.asp?incidente=6142159
+      - tipo: proyecto
         texto: >-
           [La ministra del Tribunal Supremo Federal (STF) Cármen Lúcia suspendió los
           efectos de una decisión que obligó al diario Folha da Manhã a sacar un
           artículo de verificación de hechos de su sitio web y publicar una
-          retractación.]($url) El contenido periodístico cuestionado apuntaba a
-          videos publicados por el senador Marcos Ribeiro do Val (Pode / ES) que
-          involucraron la opinión del doctor Drauzio Varella sobre la pandemia
-          actual. Cármen Lúcia aceptó el argumento del diario, presentado en la
-          [Demanda
+          retractación.](http://portal.stf.jus.br/processos/detalhe.asp?incidente=6142159)
+          El contenido periodístico cuestionado apuntaba a videos publicados por el
+          senador Marcos Ribeiro do Val (Pode / ES) que involucraron la opinión del
+          doctor Drauzio Varella sobre la pandemia actual. Cármen Lúcia aceptó el
+          argumento del diario, presentado en la [Demanda
           46534](http://portal.stf.jus.br/processos/detalhe.asp?incidente=6142159),
           de que la remoción de material de evidente interés público violó la
           autoridad de la Corte Suprema en una decisión emitida bajo la [Alegación
@@ -108,16 +117,17 @@ paises:
           época de la dictadura militar brasileña, era incompatible con la
           Constitución Federal de 1988.
 
-      - exp: PL 5415/2020
+      - tipo: proyecto
+        exp: PL 5415/2020
         url: http://www.stf.jus.br/portal/processo/verProcessoAndamento.asp?numero=5418&classe=ADI&origem=AP&recurso=0&tipoJulgamento=M
         texto: >-
           Por mayoría de votos, el [Pleno del Tribunal Supremo Federal (STF)
-          ratificó parcialmente tres Acciones Directas de Inconstitucionalidad
-          ](http://www.stf.jus.br/portal/cms/verNoticiaDetalhe.asp?idConteudo=462155&caixaBusca=N)(ADIs
-          [5415]($url),
+          ratificó parcialmente tres Acciones Directas de
+          Inconstitucionalidad](http://www.stf.jus.br/portal/cms/verNoticiaDetalhe.asp?idConteudo=462155&caixaBusca=N)
+          (ADIs [5415]($url),
           [5418](http://www.stf.jus.br/portal/processo/verProcessoAndamento.asp?numero=5415&classe=ADI&origem=AP&recurso=0&tipoJulgamento=M)
           y
-          [5436](http://www.stf.jus.br/portal/processo/verProcessoAndamento.asp?numero=5436&classe=ADI&origem=AP&recurso=0&tipoJulgamento=M)),
+          [5436](http://www.stf.jus.br/portal/processo/verProcessoAndamento.asp?numero=5436&classe=ADI&origem=AP&recurso=0&tipoJulgamento=M),
           propuestas por la Asociación Brasileña de Prensa, por el Consejo Federal
           de la Orden de Abogados del Brasil y por la Asociación Nacional de
           Periódicos, que cuestionaban disposiciones de la [Ley 13.188 /
@@ -130,10 +140,10 @@ paises:
           ley.
 
       - fecha: 2021-04-08
-        url: http://www.abi.org.br/
+        tipo: proyecto
         texto: >-
-          El 08/04, la [Asociación Brasileña de Prensa]($url) (ABI) interpuso la
-          [Acción Directa de Inconstitucionalidad (ADI)
+          El 08/04, la [Asociación Brasileña de Prensa](http://www.abi.org.br/)
+          (ABI) interpuso la [Acción Directa de Inconstitucionalidad (ADI)
           6792](http://portal.stf.jus.br/processos/detalhe.asp?incidente=6150300)
           ante el Tribunal Supremo Federal (STF) para impugnar el uso abusivo de
           acciones legales para reparar daños materiales y morales con el fin de
@@ -156,12 +166,12 @@ paises:
           de sentencia.
 
       - fecha: 2021-04-20
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=51185
+        tipo: proyecto
         texto: >-
           El 20/04, la Cámara de Diputados aprobó el [Proyecto de Ley
-          6764/2002]($url), que trata de los delitos contra el Estado de Derecho
-          Democrático. El proyecto tiene como objetivo reemplazar la [Ley de
-          Seguridad Nacional
+          6764/2002](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=51185),
+          que trata de los delitos contra el Estado de Derecho Democrático. El
+          proyecto tiene como objetivo reemplazar la [Ley de Seguridad Nacional
           (LSN)](http://www.planalto.gov.br/ccivil_03/leis/l7170.htm), norma
           utilizada durante el período del régimen militar brasileño para perseguir
           a los opositores políticos. [Esta legislación volvió a ser muy utilizada
@@ -173,69 +183,76 @@ paises:
 
   - pais: Chile
     entradas:
-      - url: https://www.observacom.org/senado-chileno-aprueba-en-segundo-debate-proyecto-para-declarar-internet-como-servicio-publico-la-discusion-pasa-a-diputados/
+      - tipo: proyecto
         texto: >-
-          El senado chileno [aprobó]($url) el segundo debate del proyecto de ley que
-          declara a Internet como un servicio público de telecomunicaciones. Con
-          este voto, la iniciativa pasará para su votación a la Cámara de Diputados.
-          Como explica detalla Observacom el proyecto de ley “sostiene que los
-          principios que rigen la instalación, operación y explotación de servicios
-          públicos de telecomunicaciones son: neutralidad tecnológica;
-          universalidad; continuidad, uso compartido de infraestructura; y
-          transparencia, igualdad y eficiencia en la asignación de recursos”.
+          El senado chileno
+          [aprobó](https://www.observacom.org/senado-chileno-aprueba-en-segundo-debate-proyecto-para-declarar-internet-como-servicio-publico-la-discusion-pasa-a-diputados/)
+          el segundo debate del proyecto de ley que declara a Internet como un
+          servicio público de telecomunicaciones. Con este voto, la iniciativa
+          pasará para su votación a la Cámara de Diputados. Como explica detalla
+          Observacom el proyecto de ley “sostiene que los principios que rigen la
+          instalación, operación y explotación de servicios públicos de
+          telecomunicaciones son: neutralidad tecnológica; universalidad;
+          continuidad, uso compartido de infraestructura; y transparencia, igualdad
+          y eficiencia en la asignación de recursos”.
 
   - pais: Colombia
     entradas:
-      - url: https://twitter.com/donadolforivas/status/1382524412533080065?s=1002
+      - tipo: proyecto
         texto: >-
           En abril se inició una polémica en redes sociales por un proyecto de ley
-          del Partido MIRA que, [según algunos]($url), podría llevar prisión a
-          quienes realicen caricaturas y memes. El proyecto, originalmente propuesto
-          en 2020, proponía castigar a quienes usen medios tecnológicos para crear
-          imágenes o videos en los que se simule el rostro de otra persona. Sin
-          embargo, si bien el proyecto busca evitar delitos informáticos, varios
-          caricaturistas denunciaron que una ley como esta podría usarse para
-          silenciar a quienes critican a los poderosos. Dada la polémica, el 16 de
-          abril el partido [solicitó retirar el
+          del Partido MIRA que, [según
+          algunos](https://twitter.com/donadolforivas/status/1382524412533080065?s=1002),
+          podría llevar prisión a quienes realicen caricaturas y memes. El proyecto,
+          originalmente propuesto en 2020, proponía castigar a quienes usen medios
+          tecnológicos para crear imágenes o videos en los que se simule el rostro
+          de otra persona. Sin embargo, si bien el proyecto busca evitar delitos
+          informáticos, varios caricaturistas denunciaron que una ley como esta
+          podría usarse para silenciar a quienes critican a los poderosos. Dada la
+          polémica, el 16 de abril el partido [solicitó retirar el
           proyecto](https://twitter.com/carlos_guevara/status/1383035507337203714).
 
       - fecha: 2021-04-23
-        url: https://www.camara.gov.co/sites/default/files/2021-04/P.L.600-2021C%20%28PROTECCION%20NI%C3%91OS%29.pdf
+        tipo: proyecto
         texto: >-
           El 23 de abril, la Ministra de la Tecnologías de la Información y las
-          Comunicaciones, Karen Abudinen, presentó un [proyecto de ley]($url) con el
-          cual se busca regular la responsabilidad de los medios de comunicación y
-          proveedores de servicios de internet respecto de los niños, niñas y
-          adolescentes. El proyecto establece un régimen de obligaciones, deberes,
-          prohibiciones y sanciones para los proveedores de servicios de internet,
-          entre los cuales está la de bloquear, denunciar y combatir la difusión de
-          contenidos que atenten "directa o indirectamente contra la integridad
-          moral, psíquica o física de la niñez, la infancia y la adolescencia".
+          Comunicaciones, Karen Abudinen, presentó un [proyecto de
+          ley](https://www.camara.gov.co/sites/default/files/2021-04/P.L.600-2021C%20%28PROTECCION%20NI%C3%91OS%29.pdf)
+          con el cual se busca regular la responsabilidad de los medios de
+          comunicación y proveedores de servicios de internet respecto de los niños,
+          niñas y adolescentes. El proyecto establece un régimen de obligaciones,
+          deberes, prohibiciones y sanciones para los proveedores de servicios de
+          internet, entre los cuales está la de bloquear, denunciar y combatir la
+          difusión de contenidos que atenten "directa o indirectamente contra la
+          integridad moral, psíquica o física de la niñez, la infancia y la
+          adolescencia".
 
   - pais: Ecuador
     entradas:
-      - url: https://www.fundamedios.org.ec/alertas/policias-obligaron-a-periodista-venezolano-a-borrar-un-video/
+      - tipo: proyecto
         texto: >-
-          En un [caso reciente de xenofobia]($url), un periodista de nacionalidad
-          venezolana fue obligado a borrar un video por la fuerza pública. En la
-          escena, se observa a los gendarmes amedrentando a un ciudadano venezolano
-          en barrio del norte de Quito. El caso se volvió viral en redes sociales.
-          Ecuador es uno de los principales receptores de migración de ciudadanos
-          venezolanos y durante la campaña presidencial la sociedad presenció una
-          politización importante de la situación de vulnerabilidad y pobreza
-          extrema en la que los migrantes viven en las principales ciudades del
-          país.
+          En un [caso reciente de
+          xenofobia](https://www.fundamedios.org.ec/alertas/policias-obligaron-a-periodista-venezolano-a-borrar-un-video/),
+          un periodista de nacionalidad venezolana fue obligado a borrar un video
+          por la fuerza pública. En la escena, se observa a los gendarmes
+          amedrentando a un ciudadano venezolano en barrio del norte de Quito. El
+          caso se volvió viral en redes sociales. Ecuador es uno de los principales
+          receptores de migración de ciudadanos venezolanos y durante la campaña
+          presidencial la sociedad presenció una politización importante de la
+          situación de vulnerabilidad y pobreza extrema en la que los migrantes
+          viven en las principales ciudades del país.
 
       - fecha: 2021-04-11
-        url: https://www.eluniverso.com/noticias/politica/proyectos-anunciados-por-guillermo-lasso-tienen-apertura-nueva-asamblea-nacional-nota/
+        tipo: proyecto
         texto: >-
           El 11/04 Ecuador eligió a su nuevo presidente, quien comandará el gobierno
           hasta 2025. Se trata del banquero y empresario guayaquileño Guillermo
           Lasso-Mendoza, quien se impuso al candidato de izquierda Andrés Arauz,
           partidario del expresidente Rafael Correa. Lasso-Mendoza, quien se
           autodefine como un demócrata liberal de derecha, se ha
-          [comprometido]($url) con la defensa de la libertad de expresión en su
-          nuevo periodo y ha anunciado realizar esfuerzos para
+          [comprometido](https://www.eluniverso.com/noticias/politica/proyectos-anunciados-por-guillermo-lasso-tienen-apertura-nueva-asamblea-nacional-nota/)
+          con la defensa de la libertad de expresión en su nuevo periodo y ha
+          anunciado realizar esfuerzos para
           [derogar](https://www.eluniverso.com/noticias/politica/candidato-guillermo-lasso-propone-derogar-ley-de-comunicacion-y-focalizar-el-subsidio-de-los-combustibles-nota/%20https://www.eluniverso.com/noticias/politica/proyectos-anunciados-por-guillermo-lasso-t)
           la Ley Orgánica de Comunicación que, en su momento, llegó a ser objetada
           uniformemente por organismos supervisores en materia de derechos humanos,
@@ -246,15 +263,16 @@ paises:
   - pais: México
     entradas:
       - fecha: 2021-04-13
-        url: https://www.senado.gob.mx/64/gaceta_del_senado/documento/116783
+        tipo: proyecto
         texto: >-
           El 13/04 se aprobó en el Senado con 54 votos a favor, 49 en contra y 10
-          abstenciones, el [proyecto de decreto]($url)) por el que se reforman y
-          adicionan diversas disposiciones de la Ley Federal de Telecomunicaciones y
-          Radiodifusión para crear el Padrón Nacional de Usuarios de Telefonía
-          Móvil, por lo que en próximos días se espera que las reformas a la ley
-          sean publicadas en el Diario Oficial de la Federación. Al respecto,
-          organizaciones de la sociedad civil como
+          abstenciones, el [proyecto de
+          decreto](https://www.senado.gob.mx/64/gaceta_del_senado/documento/116783)
+          por el que se reforman y adicionan diversas disposiciones de la Ley
+          Federal de Telecomunicaciones y Radiodifusión para crear el Padrón
+          Nacional de Usuarios de Telefonía Móvil, por lo que en próximos días se
+          espera que las reformas a la ley sean publicadas en el Diario Oficial de
+          la Federación. Al respecto, organizaciones de la sociedad civil como
           [R3D](https://twitter.com/R3Dmx/status/1375098134234292229) y [Artículo
           19](https://twitter.com/article19mex/status/1382043082573553665) se
           pronunciaron en contra, entre otras cosas, por los riesgos de concentrar
@@ -265,46 +283,50 @@ paises:
           con facultad para ello, así como juicios de amparo.
 
       - fecha: 2021-04-05
-        url: https://noticieros.televisa.com/ultimas-noticias/caso-simulacion-vacuna-covid-19-ciudad-mexico-podria-ser-montado-amlo/
+        tipo: proyecto
         texto: >-
           El 05/04 el Presidente de México, Andrés Manuel López Obrador,
-          [reveló]($url) que un vídeo que circulaba en redes sociales en el que se
-          veía cómo a una persona mayor no se le inyectaba la vacuna contra el
-          COVID19, era un montaje y señaló que este tipo de prácticas han sido
-          utilizadas en el pasado, recordando el caso de la
+          [reveló](https://noticieros.televisa.com/ultimas-noticias/caso-simulacion-vacuna-covid-19-ciudad-mexico-podria-ser-montado-amlo/)
+          que un vídeo que circulaba en redes sociales en el que se veía cómo a una
+          persona mayor no se le inyectaba la vacuna contra el COVID19, era un
+          montaje y señaló que este tipo de prácticas han sido utilizadas en el
+          pasado, recordando el caso de la
           [detención](https://www.animalpolitico.com/2021/04/amlo-florence-cassez-montaje-television/)
-          de Florence Cassez . Es de resaltar que el periodista Carlos Loret de Mola
+          de Florence Cassez. Es de resaltar que el periodista Carlos Loret de Mola
           identificó a esta acción como un ataque personal a su persona.
 
       - fecha: 2021-03-31
-        url: https://www.animalpolitico.com/2021/03/amlo-acusa-articulo-19-financiada-empresas-extrajeras-movimiento-conservador/
+        tipo: proyecto
         texto: >-
           El 31/03 el Presidente de México, Andrés Manuel López Obrador expresó su
-          [descontento]($url) con el Informe de Derechos Humanos del Departamento de
-          Estado de los Estados Unidos de América, y cuestionó el trabajo de la
-          organización de la sociedad civil Artículo 19, en virtud de que parte del
-          informe antes mencionado se basa en el trabajo de esta organización. El
-          Presidente cuestionó los orígenes del financiamiento que recibe, así como
-          el trabajo actual que sus ex directores tienen actualmente, con el
-          propósito de resaltar que la organización es parte de un movimiento
-          conservador que está en su contra
+          [descontento](https://www.animalpolitico.com/2021/03/amlo-acusa-articulo-19-financiada-empresas-extrajeras-movimiento-conservador/)
+          con el Informe de Derechos Humanos del Departamento de Estado de los
+          Estados Unidos de América, y cuestionó el trabajo de la organización de la
+          sociedad civil Artículo 19, en virtud de que parte del informe antes
+          mencionado se basa en el trabajo de esta organización. El Presidente
+          cuestionó los orígenes del financiamiento que recibe, así como el trabajo
+          actual que sus ex directores tienen actualmente, con el propósito de
+          resaltar que la organización es parte de un movimiento conservador que
+          está en su contra
 
       - fecha: 2021-04-06
-        url: https://infosen.senado.gob.mx/sgsp/gaceta/64/3/2021-04-06-1/assets/documentos/Inic_Morena_Sen_Trasvina_Ciberseguridad_Penal.pdf
+        tipo: proyecto
         texto: >-
           El 06/04 la Senadora Jesús Lucía Trasviña Waldenrath presentó la
           iniciativa con proyecto de decreto para expedir la [Ley General de
-          Ciberseguridad]($url) que contiene diversos delitos en los que la conducta
-          antijurídica se realiza a través del uso de nuevas tecnologías.
+          Ciberseguridad](https://infosen.senado.gob.mx/sgsp/gaceta/64/3/2021-04-06-1/assets/documentos/Inic_Morena_Sen_Trasvina_Ciberseguridad_Penal.pdf)
+          que contiene diversos delitos en los que la conducta antijurídica se
+          realiza a través del uso de nuevas tecnologías.
 
       - fecha: 2021-04-14
-        url: https://r3d.mx/2021/04/14/fiscaliaespia-la-fgr-adquirio-equipo-capaz-de-espiar-ilegalmente-a-todos-los-usuarios-de-internet-en-mexico/
+        tipo: proyecto
         texto: >-
           El 14/04 el periódico El País publicó una investigación en la que se da
           cuenta que la Fiscalía General de la República-México (FGR) contrató
           tecnologías de vigilancia (Servicio de Localización Geográfica) con
           Neolinx de México (empresa que el ex-Presidente Peña Nieto había
-          contratada para servicios de espionaje). En los últimos años [R3D]($url)
+          contratada para servicios de espionaje). En los últimos años
+          [R3D](https://r3d.mx/2021/04/14/fiscaliaespia-la-fgr-adquirio-equipo-capaz-de-espiar-ilegalmente-a-todos-los-usuarios-de-internet-en-mexico/)
           ha buscado allegarse de información oficial sobre los contratos que la FGR
           tiene con compañías que desarrollan tecnologías de vigilancia, así como
           del uso que se da a estas tecnologías, sin embargo ha recibido negativas
@@ -312,10 +334,11 @@ paises:
 
   - pais: Paraguay
     entradas:
-      - url: http://www.senado.gov.py/index.php/noticias/noticias-presidencia/7636-media-sancion-al-proyecto-que-crea-fondo-para-cubrir-gastos-de-pacientes-con-covid-19-2021-04-13-21-32-38
+      - tipo: proyecto
         texto: >-
           La Cámara de Senadores, presidida por su titular Oscar Salomón,
-          [aprobó]($url) con modificaciones el [proyecto de
+          [aprobó](http://www.senado.gov.py/index.php/noticias/noticias-presidencia/7636-media-sancion-al-proyecto-que-crea-fondo-para-cubrir-gastos-de-pacientes-con-covid-19-2021-04-13-21-32-38)
+          con modificaciones el [proyecto de
           Ley](http://silpy.congreso.gov.py/expediente/123293) “Que crea un fondo
           nacional para la cobertura de gastos durante la hospitalización en
           unidades de cuidados intensivos de personas con covid-19 en los sectores
@@ -323,11 +346,12 @@ paises:
           esenciales para el tratamiento de todos los pacientes de COVID-19”. Fue
           durante una sesión extraordinaria desarrollada este martes.
 
-      - url: https://www.abc.com.py/nacionales/2021/04/15/senado-aprueba-uso-de-fondos-de-binacionales-en-la-lucha-contra-el-covid/
+      - tipo: proyecto
         texto: >-
-          El Senado [aprobó]($url) un [proyecto de
-          ley](http://silpy.congreso.gov.py/expediente/123333) "que destina los
-          recursos en concepto de responsabilidad social empresarial
+          El Senado
+          [aprobó](https://www.abc.com.py/nacionales/2021/04/15/senado-aprueba-uso-de-fondos-de-binacionales-en-la-lucha-contra-el-covid/)
+          un [proyecto de ley](http://silpy.congreso.gov.py/expediente/123333) "que
+          destina los recursos en concepto de responsabilidad social empresarial
           correspondientes al lado paraguayo, de las entidades binacionales Itaipú y
           Yacyretá a la compra de insumos médicos, materiales de bioseguridad para
           el personal de blanco e infraestructura hospitalaria mientras dure la
@@ -337,22 +361,24 @@ paises:
   - pais: Perú
     entradas:
       - fecha: 2021-04-08
-        url: https://leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL07484-20210408.pdf
+        tipo: proyecto
         texto: >-
           El 08/04 del partido político Alianza para el Progreso presentó un
-          [proyecto de ley]($url) que propone la “modalidad servicios por
-          impuestos”, en virtud de la cual las empresas privadas podrían firmar
-          convenios con Gobiernos Regionales o Locales para financiar y/o ejecutar
-          proyectos de inversión pública que permitan brindar el servicio de acceso
-          a internet “con fines educativos en los sectores de pobreza y extrema
-          pobreza”, en sustitución del pago de un porcentaje determinado de sus
-          impuestos.
+          [proyecto de
+          ley](https://leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL07484-20210408.pdf)
+          que propone la “modalidad servicios por impuestos”, en virtud de la cual
+          las empresas privadas podrían firmar convenios con Gobiernos Regionales o
+          Locales para financiar y/o ejecutar proyectos de inversión pública que
+          permitan brindar el servicio de acceso a internet “con fines educativos en
+          los sectores de pobreza y extrema pobreza”, en sustitución del pago de un
+          porcentaje determinado de sus impuestos.
 
-      - url: https://leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL07222-20210226.pdf
+      - tipo: proyecto
         texto: >-
           Dos proyectos de ley que buscan la regulación de contenido en internet
-          ([7222-2020-CR]($url)) y el establecimiento de filtros de control parental
-          ([6383-2020-CR](https://leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL06383-20201007.pdf))
+          ([7222-2020-CR](https://leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL07222-20210226.pdf)
+          y el establecimiento de filtros de control parental
+          ([6383-2020-CR](https://leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL06383-20201007.pdf)
           fueron fusionados en un
           [predictamen](https://es.scribd.com/document/503570504/Predictamen-7222-y-6383-Redes-Sociales-y-Filtros)
           de la Comisión de Transportes y Comunicaciones del Congreso. Por un lado,
@@ -368,8 +394,6 @@ paises:
           una previa mesa de trabajo.
 ---
 
-{{< observatorio-mes month="2021-04" >}}
-
 {{< boletin-paises >}}
 
-Agradecemos a nuestros/as consultores/as por su trabajo y aportes para este boletín regional: Matías González (Argentina), Ártur Pericles (Brasil), Luisa Isaza (Colombia), Victor Cabezas (Ecuador), Juan Carlos Arjona Estévez (México), Camilo Filartiga (Paraguay) y Andrés Calderón (Perú),
+Agradecemos a nuestros/as consultores/as por su trabajo y aportes para este boletín regional: Matías González (Argentina), Ártur Pericles (Brasil), Luisa Isaza (Colombia), Victor Cabezas (Ecuador), Juan Carlos Arjona Estévez (México), Camilo Filartiga (Paraguay) y Andrés Calderón (Perú).

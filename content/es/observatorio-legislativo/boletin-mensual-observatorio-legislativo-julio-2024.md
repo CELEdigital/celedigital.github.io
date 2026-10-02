@@ -1,69 +1,78 @@
 ---
-author: [CELE]
-content_type: [boletin]
-date: '2024-08-02'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales
-  y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
+title: 'Boletín mensual Observatorio Legislativo | Julio 2024'
 slug: boletin-mensual-observatorio-legislativo-julio-2024
-tags: [institucional]
-title: Boletín mensual Observatorio Legislativo | Julio 2024
+date: 2024-08-02
 translationKey: wp-13639
+description: >-
+  Novedades de la actividad legislativa y regulatoria, decisiones judiciales
+  y administrativas.
+author:
+  - CELE
+content_type:
+  - boletin
+programs:
+  - policy
 type: posts
+featured: false
 newsletter_series: observatorio
+image: /img/shutterstock_1698060541-1-scaled.jpg
+tags:
+  - institucional
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2024-07-08
-        url: https://www.senado.gob.ar/parlamentario/comisiones/verExp/1193.24/S/PL
+        tipo: proyecto
         texto: >-
           El senador Antonio J. Rodas, propuso el [Proyecto de Ley N°
-          S-1193/2024]($url), el cual tiene por objeto establecer los alcances de la
-          libertad de expresión, la circulación de la información y el intercambio
-          de datos en redes sociales. En ese sentido, el proyecto de ley regula,
-          entre otras cosas, la supresión de contenidos por parte de los
-          propietarios o administradores de las redes sociales, en ciertos casos,
-          como cuando medie una orden judicial, frente a la comisión de un delito
-          evidente e indubitable, o ante la solicitud justificada de un tercero que
-          alegue la afectación de sus derechos personalísimos.
+          S-1193/2024](https://www.senado.gob.ar/parlamentario/comisiones/verExp/1193.24/S/PL),
+          el cual tiene por objeto establecer los alcances de la libertad de
+          expresión, la circulación de la información y el intercambio de datos en
+          redes sociales. En ese sentido, el proyecto de ley regula, entre otras
+          cosas, la supresión de contenidos por parte de los propietarios o
+          administradores de las redes sociales, en ciertos casos, como cuando medie
+          una orden judicial, frente a la comisión de un delito evidente e
+          indubitable, o ante la solicitud justificada de un tercero que alegue la
+          afectación de sus derechos personalísimos.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-07-08
-        url: https://www.sipiapa.org/notas/1216603-la-sip-alerta-ataques-del-presidente-milei-contra-periodistas-y-medios
+        tipo: proyecto
         texto: >-
           La Sociedad Interamericana de Prensa (SIP), entidad sin fines de lucro
           dedicada a la defensa y promoción de la libertad de prensa y de expresión
-          en las Américas, se [pronunció]($url) críticamente sobre los ataques del
-          presidente Javier Milei contra periodistas y medios de comunicación. Entre
-          estos ataques se menciona que el presidente tildó a los periodistas
-          críticos con su gobierno como "mentirosos", "calumniadores", "corruptos",
-          "imbéciles" y "ensobrados". Asimismo, se denuncia que, en algunos casos, a
-          estos periodistas se les habría negado el acceso a la sede de la
-          Presidencia y otras oficinas del Estado.
+          en las Américas, se
+          [pronunció](https://www.sipiapa.org/notas/1216603-la-sip-alerta-ataques-del-presidente-milei-contra-periodistas-y-medios)
+          críticamente sobre los ataques del presidente Javier Milei contra
+          periodistas y medios de comunicación. Entre estos ataques se menciona que
+          el presidente tildó a los periodistas críticos con su gobierno como
+          "mentirosos", "calumniadores", "corruptos", "imbéciles" y "ensobrados".
+          Asimismo, se denuncia que, en algunos casos, a estos periodistas se les
+          habría negado el acceso a la sede de la Presidencia y otras oficinas del
+          Estado.
         etiquetas:
           - libertad-de-expresion
 
   - pais: Brasil
     entradas:
       - fecha: 2024-07-09
-        url: https://teletime.com.br/09/07/2024/projeto-de-lei-que-regula-ia-pode-ser-votado-somente-apos-as-eleicoes-municipais/
+        tipo: proyecto
         texto: >-
-          [**El presidente de la Comisión Temporal Interna de Inteligencia
-          Artificial (CTIA), el senador Carlos Viana (Podemos/MG), pospuso la
-          votación**]($url)** del **[**proyecto de ley
-          2338/2023**](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233)**,
-          que propone regular la inteligencia artificial en Brasil.** [La votación
+          [El presidente de la Comisión Temporal Interna de Inteligencia Artificial
+          (CTIA), el senador Carlos Viana (Podemos/MG), pospuso la
+          votación](https://teletime.com.br/09/07/2024/projeto-de-lei-que-regula-ia-pode-ser-votado-somente-apos-as-eleicoes-municipais/)
+          del [proyecto de ley
+          2338/2023](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233),
+          que propone regular la inteligencia artificial en Brasil. [La votación
           estaba prevista para el
           04.07](https://teletime.com.br/04/07/2024/pl-de-inteligencia-artificial-tem-votacao-adiada-mais-uma-vez/),
-          pero Viana la aplazó hasta el 09.07. **El 08 de julio de 2024, la
-          Coalición de Derechos en Red (CDR) publicó una carta abierta
-          **[**“Defendiendo la legislación brasileña de IA que proyecta
-          derechos”**](https://direitosnarede.org.br/2024/07/08/carta-aberta-defendendo-uma-legislacao-brasileira-de-ia-que-proteja-direitos/)**,
-          en la que defiende la aprobación del Proyecto de Ley 2338/2023**. La carta
+          pero Viana la aplazó hasta el 09.07. El 08 de julio de 2024, la Coalición
+          de Derechos en Red (CDR) publicó una carta abierta [“Defendiendo la
+          legislación brasileña de IA que proyecta
+          derechos”](https://direitosnarede.org.br/2024/07/08/carta-aberta-defendendo-uma-legislacao-brasileira-de-ia-que-proteja-direitos/),
+          en la que defiende la aprobación del Proyecto de Ley 2338/2023. La carta
           señala la necesidad de una regulación basada en los derechos humanos y
           destaca cómo el Proyecto de Ley 2338/2023 adopta un enfoque centrado en
           los riesgos y los derechos. La carta también critica la resistencia de los
@@ -73,26 +82,28 @@ paises:
           - vigilancia
 
       - fecha: 2024-07-09
-        url: https://www.planalto.gov.br/ccivil_03/leis/l9998.htm
+        tipo: proyecto
         texto: >-
-          [**El senador Angelo Coronel (PSD/BA) presentó el proyecto de ley
-          2804/2024, que propone normas para la regulación y supervisión de los
-          proveedores de aplicaciones de
-          Internet**](https://www25.senado.leg.br/web/atividade/materias/-/materia/164634).
+          [El senador Angelo Coronel (PSD/BA) presentó el proyecto de ley 2804/2024,
+          que propone normas para la regulación y supervisión de los proveedores de
+          aplicaciones de
+          Internet](https://www25.senado.leg.br/web/atividade/materias/-/materia/164634).
           El proyecto modifica el [Marco Civil de la
           Internet](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm),
           la [Ley General de
           Telecomunicaciones](https://www.planalto.gov.br/ccivil_03/leis/l9472.htm)
           y la [Ley General de Protección de
           Datos](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm),
-          así como la [Ley 9.998/2000]($url), por la que se crea el Fondo de
-          Universalización de los Servicios de Telecomunicaciones (FUST). El
-          proyecto de ley estipula que la Agencia Nacional de Telecomunicaciones
-          (ANATEL) y la Autoridad Nacional de Protección de Datos (ANPD) serán
-          responsables de regular y supervisar el funcionamiento de los servicios de
-          aplicaciones de Internet, y establece los objetivos de esta regulación. La
-          propuesta también estipula que el 5% de los ingresos brutos de explotación
-          de los operadores de plataformas digitales se destinen al FUST. En su
+          así como la [Ley
+          9.998/2000](https://www.planalto.gov.br/ccivil_03/leis/l9998.htm), por la
+          que se crea el Fondo de Universalización de los Servicios de
+          Telecomunicaciones (FUST). El proyecto de ley estipula que la Agencia
+          Nacional de Telecomunicaciones (ANATEL) y la Autoridad Nacional de
+          Protección de Datos (ANPD) serán responsables de regular y supervisar el
+          funcionamiento de los servicios de aplicaciones de Internet, y establece
+          los objetivos de esta regulación. La propuesta también estipula que el 5%
+          de los ingresos brutos de explotación de los operadores de plataformas
+          digitales se destinen al FUST. En su
           [justificación](https://legis.senado.leg.br/sdleg-getter/documento?dm=9697350&ts=1720631605452&disposition=inline),
           el senador afirma que tanto Anatel como la ANPD tienen la competencia
           técnica para regular y supervisar las plataformas y señala la necesidad de
@@ -101,21 +112,22 @@ paises:
           - vigilancia
 
       - fecha: 2024-07-08
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447103
+        tipo: proyecto
         texto: >-
-          [**El diputado Jorge Goetten (Republicanos/SC) propuso el proyecto de ley
+          [El diputado Jorge Goetten (Republicanos/SC) propuso el proyecto de ley
           2766/2024, que obligaría a las plataformas a emitir un mensaje de
           advertencia sobre los riesgos de las redes sociales para la salud mental
-          de niños y adolescentes**]($url). El proyecto de ley incluye el artículo
-          21-A del [Marco Civil de la
+          de niños y
+          adolescentes](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2447103).
+          El proyecto de ley incluye el artículo 21-A del [Marco Civil de la
           Internet](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm),
           que obliga a los proveedores de aplicaciones que ponen a disposición
           contenidos generados por terceros a «mostrar, en cada acceso del usuario,
           de forma clara, visible y ostentosa, un mensaje de advertencia a sus
           usuarios sobre los riesgos del uso de estas aplicaciones, especialmente
           para niños y adolescentes». El proyecto de ley define el mensaje así:
-          **“Atención padres y tutores, el uso de las redes sociales puede ser
-          perjudicial para la salud mental de niños y adolescentes”**. En su
+          “Atención padres y tutores, el uso de las redes sociales puede ser
+          perjudicial para la salud mental de niños y adolescentes”. En su
           [justificación](https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2450222&filename=PL%202766/2024),
           el diputado alega que existen investigaciones que demuestran el daño
           potencial del uso de las redes sociales, especialmente para niños y
@@ -124,35 +136,37 @@ paises:
           - vigilancia
 
       - fecha: 2024-06-28
-        url: https://www.migalhas.com.br/arquivos/2024/7/DA37823EB97CCB_1015703-46.2024.4.01.0000_4202.pdf
+        tipo: proyecto
         texto: >-
-          [**El juez federal Pablo Zuniga Dourado, del Tribunal Regional Federal de
-          la 1ª Región, ordenó a la Agencia Nacional de Telecomunicaciones (Anatel)
+          [El juez federal Pablo Zuniga Dourado, del Tribunal Regional Federal de la
+          1ª Región, ordenó a la Agencia Nacional de Telecomunicaciones (Anatel)
           bloquear los sitios de apuestas de probabilidades fijas que operan sin
-          licencia en el estado de Río de Janeiro**]($url). La decisión se produjo
-          tras un recurso contra una decisión del 13º Tribunal Federal del Distrito
-          Federal, en la que la Lotería del Estado de Río de Janeiro (LOTERJ)
-          solicitaba que Anatel ordenase a los proveedores de internet la suspensión
-          de los sitios de apuestas que operasen sin autorización estatal. En
-          primera instancia, el tribunal argumentó que no era función del Estado
-          regular a los agentes sin licencia estatal y afirmó que la LOTERJ no tenía
-          autoridad para exigir que se bloquearan los sitios web sin una orden
-          judicial específica, rechazando la solicitud. En una apelación ante el
-          tribunal inferior, LOTERJ pidió a Anatel que bloqueara los sitios que
-          operaban ilegalmente.** El juez ponente del caso en segunda instancia
-          argumentó que los estados tienen competencia para regular los sitios de
-          apuestas de probabilidades fijas y que la **[**Ley
-          14.790/2023**](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm)**
+          licencia en el estado de Río de
+          Janeiro](https://www.migalhas.com.br/arquivos/2024/7/DA37823EB97CCB_1015703-46.2024.4.01.0000_4202.pdf).
+          La decisión se produjo tras un recurso contra una decisión del 13º
+          Tribunal Federal del Distrito Federal, en la que la Lotería del Estado de
+          Río de Janeiro (LOTERJ) solicitaba que Anatel ordenase a los proveedores
+          de internet la suspensión de los sitios de apuestas que operasen sin
+          autorización estatal. En primera instancia, el tribunal argumentó que no
+          era función del Estado regular a los agentes sin licencia estatal y afirmó
+          que la LOTERJ no tenía autoridad para exigir que se bloquearan los sitios
+          web sin una orden judicial específica, rechazando la solicitud. En una
+          apelación ante el tribunal inferior, LOTERJ pidió a Anatel que bloqueara
+          los sitios que operaban ilegalmente. El juez ponente del caso en segunda
+          instancia argumentó que los estados tienen competencia para regular los
+          sitios de apuestas de probabilidades fijas y que la [Ley
+          14.790/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm)
           -que regula las apuestas deportivas- exige autorización para la prestación
           de servicios de lotería. El pedido fue parcialmente concedido por el
           relator, autorizando a Anatel a verificar la legitimidad operacional de
-          los sitios de apuestas mencionados por LOTERJ en su pedido inicial.**
+          los sitios de apuestas mencionados por LOTERJ en su pedido inicial.
         etiquetas:
           - libertad-de-prensa
 
   - pais: Colombia
     entradas:
       - fecha: 2024-07-23
+        tipo: proyecto
         exp: 35/24 SENADO
         url: https://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/proyectos%20de%20ley/2024%20-%202025/PL%20035-24%20SERVICIOS%20BIBLIOTECARIOS.pdf
         texto: >-
@@ -164,6 +178,7 @@ paises:
           infraestructura y servicios bibliotecarios alrededor del país.
 
       - fecha: 2024-07-19
+        tipo: proyecto
         exp: 17/24 CÁMARA
         url: https://www.camara.gov.co/democracia-ambiental-en-proyectos-extractivos-0
         texto: >-
@@ -179,18 +194,19 @@ paises:
   - pais: México
     entradas:
       - fecha: 2024-07-07
-        url: https://articulo19.org/secretaria-de-seguridad-del-estado-de-mexico-detiene-y-criminaliza-a-periodistas-tras-cobertura-de-protesta/#:~:text=%2D%20ARTICLE%2019%20condena%20las%20detenciones,en%20Toluca%2C%20Estado%20de%20M%C3%A9xico.
+        tipo: proyecto
         texto: >-
           Los [periodistas del medio Todo en Contra (Carlos Pérez) y de
           Contraportada (Víctor Castillo) y de la activista (Dante Álvarez) fueron
-          detenidos]($url) por parte de elementos de la Secretaría de Seguridad del
-          Estado de México durante la cobertura de protestas sociales en esa
-          entidad. Ambos reporteros señalaron que no fueron puestos a disposición de
-          la autoridad competente de forma inmediata. Ese mismo día, los periodistas
-          en presencia de su abogado, de la Comisión de Derechos Humanos del Estado
-          de México y del Mecanismo para la Protección Integral de Periodistas y
-          Personas Defensoras de los Derechos Humanos, la médica legista confirmó
-          que no existía evidencia de consumo de estupefacientes y además presentaba
+          detenidos](https://articulo19.org/secretaria-de-seguridad-del-estado-de-mexico-detiene-y-criminaliza-a-periodistas-tras-cobertura-de-protesta/#:~:text=%2D%20ARTICLE%2019%20condena%20las%20detenciones,en%20Toluca%2C%20Estado%20de%20M%C3%A9xico.)
+          por parte de elementos de la Secretaría de Seguridad del Estado de México
+          durante la cobertura de protestas sociales en esa entidad. Ambos
+          reporteros señalaron que no fueron puestos a disposición de la autoridad
+          competente de forma inmediata. Ese mismo día, los periodistas en presencia
+          de su abogado, de la Comisión de Derechos Humanos del Estado de México y
+          del Mecanismo para la Protección Integral de Periodistas y Personas
+          Defensoras de los Derechos Humanos, la médica legista confirmó que no
+          existía evidencia de consumo de estupefacientes y además presentaba
           lesiones en el antebrazo. Si bien ambos periodistas fueron liberados,
           están en calidad de indiciados por los delitos contra la salud y daño a
           los bienes de propiedad del Estado de México. Las autoridades del Estado
@@ -212,98 +228,108 @@ paises:
           - acceso-a-la-informacion
 
       - fecha: 2024-07-07
-        url: https://www.supremacorte.gob.mx/sites/default/files/sintesis-informativa/2024-07/S%C3%ADntesisPDF-07julio2024_3.pdf
+        tipo: proyecto
         texto: >-
-          El [columnista Ulrich Richter]($url) escribió en su columna sobre la
-          resolución de la Suprema Corte de Justicia de la Nación en la que declaró
-          la constitucionalidad del mecanismo extrajudicial que obliga a los
-          proveedores de servicios de comunicación digital a retirar o inhabilitar
-          de manera inmediata y sin obstáculo el acceso a materiales en su sistema o
-          redes.
+          El [columnista Ulrich
+          Richter](https://www.supremacorte.gob.mx/sites/default/files/sintesis-informativa/2024-07/S%C3%ADntesisPDF-07julio2024_3.pdf)
+          escribió en su columna sobre la resolución de la Suprema Corte de Justicia
+          de la Nación en la que declaró la constitucionalidad del mecanismo
+          extrajudicial que obliga a los proveedores de servicios de comunicación
+          digital a retirar o inhabilitar de manera inmediata y sin obstáculo el
+          acceso a materiales en su sistema o redes.
         etiquetas:
           - acceso-a-la-informacion
           - libertad-de-prensa
 
       - fecha: 2024-07-03
-        url: https://comunicacionsocial.senado.gob.mx/informacion/comunicados/9196-presentan-en-el-senado-herramienta-para-diagnostico-sobre-el-uso-etico-de-la-inteligencia-artificial
+        tipo: proyecto
         texto: >-
-          A convocatoria de la [senadora Alejandra Lagunes Soto Ruíz]($url), la
-          Alianza Nacional de la Inteligencia Artificial presentó en el Senado la
+          A convocatoria de la [senadora Alejandra Lagunes Soto
+          Ruíz](https://comunicacionsocial.senado.gob.mx/informacion/comunicados/9196-presentan-en-el-senado-herramienta-para-diagnostico-sobre-el-uso-etico-de-la-inteligencia-artificial),
+          la Alianza Nacional de la Inteligencia Artificial presentó en el Senado la
           “RAM”, una herramienta para el diagnóstico de la implementación de la
           Recomendación sobre la Ética de la Inteligencia Artificial, adoptada por
           193 naciones miembros de la Organización de las Naciones Unidas para la
           Educación, la Ciencia y la Cultura (UNESCO) en 2021.
 
       - fecha: 2024-07-01
-        url: https://articulo19.org/ante-los-asesinatos-de-victor-alfonso-culebro-y-victor-manuel-jimenez-el-estado-mexicano-debe-actuar/
+        tipo: proyecto
         texto: >-
           La organización Artículo 19 [condenó el asesinato del Director de
           Realidades y colaborador de Radio Fórmula (Víctor Alfonso Culebro
           Morales), así como del periodista de Digital Noticias y Rotativo Digital
-          Guanajuato (Víctor Manuel Jiménez Campos)]($url). Estos periodistas
-          cubrían actos de corrupción, y exhortó la Fiscalía Especial para la
-          Atención de Delitos cometidos contra de la Libertad de Expresión de la
-          Fiscalía General de la República atraer ambos casos en acorde a sus
-          funciones, y además coordinar con la Fiscalía General del Estado de
-          Chiapas y la de Guanajuato la debida continuidad de las indagatorias
-          iniciadas por ésta bajo el Protocolo Homologado de Investigación de
-          Delitos en Contra la Libertad de Expresión. Asimismo, se solicitó a las
-          Comisión Estatales de Víctimas de Guanajuato y de Chiapas, brindar el
-          acompañamiento debido a las familias de los periodistas, y al Mecanismo de
-          Protección a Personas Defensoras y Periodistas, en conjunto con los
-          Gobiernos de Guanajuato y de Chiapas a coordinar acciones de protección
-          para garantizar la seguridad de los familiares.
+          Guanajuato (Víctor Manuel Jiménez
+          Campos)](https://articulo19.org/ante-los-asesinatos-de-victor-alfonso-culebro-y-victor-manuel-jimenez-el-estado-mexicano-debe-actuar/).
+          Estos periodistas cubrían actos de corrupción, y exhortó la Fiscalía
+          Especial para la Atención de Delitos cometidos contra de la Libertad de
+          Expresión de la Fiscalía General de la República atraer ambos casos en
+          acorde a sus funciones, y además coordinar con la Fiscalía General del
+          Estado de Chiapas y la de Guanajuato la debida continuidad de las
+          indagatorias iniciadas por ésta bajo el Protocolo Homologado de
+          Investigación de Delitos en Contra la Libertad de Expresión. Asimismo, se
+          solicitó a las Comisión Estatales de Víctimas de Guanajuato y de Chiapas,
+          brindar el acompañamiento debido a las familias de los periodistas, y al
+          Mecanismo de Protección a Personas Defensoras y Periodistas, en conjunto
+          con los Gobiernos de Guanajuato y de Chiapas a coordinar acciones de
+          protección para garantizar la seguridad de los familiares.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2024-06-30
-        url: https://comunicacionsocial.senado.gob.mx/informacion/comunicados/9184-proponen-establecer-mecanismos-para-denunciar-violaciones-a-la-neutralidad-en-internet
+        tipo: proyecto
         texto: >-
-          La [senadora Alejandra Lagunes Soto Ruíz]($url) presentó una iniciativa
-          para reformar la Ley Federal de Telecomunicaciones y Radiodifusión, para
-          establecer mecanismos con los que los usuarios de Internet puedan
-          denunciar violaciones a la neutralidad de la red, y para que la autoridad
-          correspondiente informe periódicamente sobre el estado de ese principio.
+          La [senadora Alejandra Lagunes Soto
+          Ruíz](https://comunicacionsocial.senado.gob.mx/informacion/comunicados/9184-proponen-establecer-mecanismos-para-denunciar-violaciones-a-la-neutralidad-en-internet)
+          presentó una iniciativa para reformar la Ley Federal de Telecomunicaciones
+          y Radiodifusión, para establecer mecanismos con los que los usuarios de
+          Internet puedan denunciar violaciones a la neutralidad de la red, y para
+          que la autoridad correspondiente informe periódicamente sobre el estado de
+          ese principio.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2024-06-16
-        url: https://articulo19.org/preocupa-allanamiento-robo-y-filtracion-de-informacion-de-john-ackerman/
+        tipo: proyecto
         texto: >-
           El analista político [John Ackerman publicó en redes sociales que su casa
-          fue allanada]($url). Si bien el analista señaló que el Mecanismo de
-          Protección a Periodistas de la Ciudad de México brindó una atención
-          oportuna, presume que la Fiscalía General de Justicia de la Ciudad de
-          México filtró imágenes del interior de su casa porque las mismas fueron
-          distribuidas en la plataforma X el 20 de junio de ese mismo año. Por ello,
-          el 25 de junio, la organización Artículo 19 condenó los hechos y exigió a
-          la Fiscalía Especial para la Atención de Delitos cometidos contra de la
-          Libertad de Expresión a atraer el caso en acorde a sus funciones y se
-          investiguen los hechos conforme al Protocolo Homologado de Delitos Contra
-          la Libertad de Expresión. Asimismo, exigió a la Fiscalía General de
-          Justicia de Ciudad de México abra una investigación interna sobre la
-          posible filtración de información del caso del investigador.
+          fue
+          allanada](https://articulo19.org/preocupa-allanamiento-robo-y-filtracion-de-informacion-de-john-ackerman/).
+          Si bien el analista señaló que el Mecanismo de Protección a Periodistas de
+          la Ciudad de México brindó una atención oportuna, presume que la Fiscalía
+          General de Justicia de la Ciudad de México filtró imágenes del interior de
+          su casa porque las mismas fueron distribuidas en la plataforma X el 20 de
+          junio de ese mismo año. Por ello, el 25 de junio, la organización Artículo
+          19 condenó los hechos y exigió a la Fiscalía Especial para la Atención de
+          Delitos cometidos contra de la Libertad de Expresión a atraer el caso en
+          acorde a sus funciones y se investiguen los hechos conforme al Protocolo
+          Homologado de Delitos Contra la Libertad de Expresión. Asimismo, exigió a
+          la Fiscalía General de Justicia de Ciudad de México abra una investigación
+          interna sobre la posible filtración de información del caso del
+          investigador.
         etiquetas:
           - libertad-de-expresion
 
   - pais: Perú
     entradas:
       - fecha: 2024-07-22
-        url: https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/8450
+        tipo: proyecto
         texto: >-
           El grupo parlamentario “Bloque Magisterial de Concertación Nacional”
-          presentó el proyecto de ley [N° 08450/2023-CR]($url), que busca ordenar la
-          pre-publicación de proyectos normativos de carácter general al menos 30
-          días antes de su publicación oficial en el diario El Peruano u otro medio
-          de comunicación legal e institucional, con el objetivo de permitir la
-          participación ciudadana mediante la revisión y emisión de opiniones.
+          presentó el proyecto de ley [N°
+          08450/2023-CR](https://wb2server.congreso.gob.pe/spley-portal/#/expediente/2021/8450),
+          que busca ordenar la pre-publicación de proyectos normativos de carácter
+          general al menos 30 días antes de su publicación oficial en el diario El
+          Peruano u otro medio de comunicación legal e institucional, con el
+          objetivo de permitir la participación ciudadana mediante la revisión y
+          emisión de opiniones.
         etiquetas:
           - acceso-a-la-informacion
 
       - fecha: 2024-07-17
-        url: https://x.com/ANP_periodistas/status/1813772672586993961
+        tipo: proyecto
         texto: >-
-          La Asociación Nacional de Periodistas del Perú (ANP) [rechazó]($url) la
+          La Asociación Nacional de Periodistas del Perú (ANP)
+          [rechazó](https://x.com/ANP_periodistas/status/1813772672586993961) la
           conducta del Ministro del Interior, Juan José Santiváñez Antúnez, quien
           junto con su padre, un coronel retirado, envió cartas notariales a los
           periodistas Ricardo Velazco Herrera y César Hildebrandt del semanario
@@ -322,11 +348,12 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-07-12
-        url: https://www.facebook.com/share/p/hnG1LTV8txASuVDZ/?mibextid=qi2Omg
+        tipo: proyecto
         texto: >-
-          La Asociación Nacional de Periodistas del Perú (ANP) [rechazó]($url) la
-          instrumentalización del sistema de justicia por parte del presidente del
-          Congreso, Alejandro Soto Reyes, quien ha presentado querellas por
+          La Asociación Nacional de Periodistas del Perú (ANP)
+          [rechazó](https://www.facebook.com/share/p/hnG1LTV8txASuVDZ/?mibextid=qi2Omg)
+          la instrumentalización del sistema de justicia por parte del presidente
+          del Congreso, Alejandro Soto Reyes, quien ha presentado querellas por
           difamación agravada contra los periodistas Yessica Bazalar Sequeiros y
           Carlos Carrillo Berveño por emitir opiniones críticas sobre su desempeño
           parlamentario. El congresista demanda una reparación civil de cien mil
@@ -336,17 +363,19 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-06-28
-        url: https://www.ipys.org/alertas/per%C3%BA-presidente-del-congreso-denuncia-periodista-por-delitos-de-reglaje
+        tipo: proyecto
         texto: >-
-          El Instituto de Prensa y Sociedad (IPYS) [reportó]($url) que el presidente
-          del Congreso, Alejandro Soto, a través del procurador Manuel Eduardo Peña,
-          denunció al periodista José Miguel Hidalgo, del canal América Televisión,
-          por el delito contra la tranquilidad pública en la modalidad de reglaje.
-          La denuncia se basa en el reportaje “Alejandro Soto: Relaciones negadas”,
-          en el que se revela la relación sentimental de Soto con una mujer cuya
-          hermana fue contratada en su despacho sin las credenciales adecuadas. Soto
-          alega que el periodista expuso a su hijo y a la madre de éste, revelando
-          datos personales como su dirección. IPYS y el [Consejo de la Prensa
+          El Instituto de Prensa y Sociedad (IPYS)
+          [reportó](https://www.ipys.org/alertas/per%C3%BA-presidente-del-congreso-denuncia-periodista-por-delitos-de-reglaje)
+          que el presidente del Congreso, Alejandro Soto, a través del procurador
+          Manuel Eduardo Peña, denunció al periodista José Miguel Hidalgo, del canal
+          América Televisión, por el delito contra la tranquilidad pública en la
+          modalidad de reglaje. La denuncia se basa en el reportaje “Alejandro Soto:
+          Relaciones negadas”, en el que se revela la relación sentimental de Soto
+          con una mujer cuya hermana fue contratada en su despacho sin las
+          credenciales adecuadas. Soto alega que el periodista expuso a su hijo y a
+          la madre de éste, revelando datos personales como su dirección. IPYS y el
+          [Consejo de la Prensa
           Peruana](https://x.com/ConsejodePrensa/status/1806812664389120221)
           denunciaron que éste es un acto de amedrentamiento contra la prensa y
           pidieron que el Ministerio Público rechace la denuncia del congresista por
@@ -355,38 +384,42 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-06-21
-        url: https://www.ipys.org/alertas/per%C3%BA-seguridad-municipal-empuja-periodistas-y-obstruye-trabajo-de-la-prensa
+        tipo: proyecto
         texto: >-
-          El Instituto de Prensa y Sociedad (IPYS) [alertó]($url) que el periodista
-          Marco Calderón y el camarógrafo Felipe Díaz del equipo de noticias de
-          Canal N fueron retirados a empujones por la seguridad municipal del
-          alcalde de Lima, Rafael López Aliaga, mientras intentaban hacerle
-          preguntas sobre su gestión durante un evento de inauguración.
+          El Instituto de Prensa y Sociedad (IPYS)
+          [alertó](https://www.ipys.org/alertas/per%C3%BA-seguridad-municipal-empuja-periodistas-y-obstruye-trabajo-de-la-prensa)
+          que el periodista Marco Calderón y el camarógrafo Felipe Díaz del equipo
+          de noticias de Canal N fueron retirados a empujones por la seguridad
+          municipal del alcalde de Lima, Rafael López Aliaga, mientras intentaban
+          hacerle preguntas sobre su gestión durante un evento de inauguración.
         etiquetas:
           - libertad-de-expresion
 
-  - pais: Paraguay
+  - pais: Guatemala
     entradas:
       - fecha: 2024-07-10
-        url: https://www.youtube.com/watch?v=eEzZy184a68
+        tipo: proyecto
         texto: >-
-          En [Audiencia]($url) ante la CIDH, organizaciones de la sociedad civil
-          expresaron su preocupación por la situación de la libertad de expresión en
-          Guatemala. Entre otros hechos, informaron que más de seis periodistas han
-          tenido que abandonar el país debido a que son víctimas de acoso y
-          amenazas. Se destacó particularmente el caso de la periodista Laura Rojas,
-          quien fue acosada por su labor de investigación periodística. A través de
-          un [comunicado de
+          En [Audiencia](https://www.youtube.com/watch?v=eEzZy184a68) ante la CIDH,
+          organizaciones de la sociedad civil expresaron su preocupación por la
+          situación de la libertad de expresión en Guatemala. Entre otros hechos,
+          informaron que más de seis periodistas han tenido que abandonar el país
+          debido a que son víctimas de acoso y amenazas. Se destacó particularmente
+          el caso de la periodista Laura Rojas, quien fue acosada por su labor de
+          investigación periodística. A través de un [comunicado de
           prensa](https://www.oas.org/es/CIDH/jsForm/?File=/es/cidh/prensa/comunicados/2024/161.asp),
           la CIDH anunció que realizará una visita _in situ_ al Estado de Guatemala
           del 22 al 26 de julio.
         etiquetas:
           - libertad-de-expresion
 
+  - pais: Paraguay
+    entradas:
       - fecha: 2024-07-09
-        url: https://silpy.congreso.gov.py/web/expediente/130058
+        tipo: proyecto
         texto: >-
-          El Senado de Paraguay aprobó un [proyecto de ley]($url) por el que se
+          El Senado de Paraguay aprobó un [proyecto de
+          ley](https://silpy.congreso.gov.py/web/expediente/130058) por el que se
           obliga a las organizaciones sin fines de lucro a publicar semestralmente
           los gastos detallados de sus actividades, así como a consignar en sus
           estatutos sus fuentes de financiamiento. Esta ley ha sido
@@ -401,11 +434,12 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2024-07-09
-        url: https://www.instagram.com/p/C9OBTrIMA5j/
+        tipo: proyecto
         texto: >-
           El Sindicato de Periodistas de Paraguay, a través de un comunicado en sus
-          [redes sociales]($url), se pronunció sobre los [ataques verbales y
-          amenazas que los miembros del Senado profirieron contra
+          [redes sociales](https://www.instagram.com/p/C9OBTrIMA5j/), se pronunció
+          sobre los [ataques verbales y amenazas que los miembros del Senado
+          profirieron contra
           periodistas](https://www.ultimahora.com/spp-expresa-preocupacion-por-ataques-a-periodistas-y-activistas-por-parte-de-senadores)
           y activistas, en el marco del debate sobre la Ley sobre el control de las
           ONG (antes mencionada).
@@ -415,6 +449,50 @@ paises:
           - libertad-de-prensa
 ---
 
-{{< observatorio-mes month="2024-07" >}}
+**Proyectos por país**
+
+| País | Proyectos |
+|---|---:|
+| Argentina | 10 |
+| Brasil | 14 |
+| Chile | 4 |
+| Colombia | 2 |
+| Ecuador | 1 |
+| Guatemala | 1 |
+| México | 13 |
+| Perú | 12 |
+
+**Temas proyectos de ley presentados entre enero de 2024 y abril de 2024**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 17,2% |
+| Igualdad y no discriminación | 11,0% |
+| Protección de menores | 10,0% |
+| Libertad de expresión | 7,2% |
+| Reputación y honor | 5,3% |
+| Seguridad nacional | 4,5% |
+| Violencia de género | 4,0% |
+| Responsabilidad de intermediarios | 2,9% |
+| Acceso a internet | 2,7% |
+| Pornografía | 2,1% |
+| Apología | 1,9% |
+| Acoso | 1,5% |
+| Publicidad oficial | 1,4% |
+
+**Temas proyectos de ley presentados entre enero de 2024 y abril de 2024**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 4,8% |
+| Acoso | 9,5% |
+| Apología | 4,8% |
+| Libertad de culto | 1,6% |
+| Igualdad y no discriminación | 15,9% |
+| Publicidad oficial | 4,8% |
+| Fake News | 1,6% |
+| Protección de menores | 14,3% |
+| Reputación y honor | 4,8% |
+| Moderación de contenidos | 4,8% |
 
 {{< boletin-paises >}}

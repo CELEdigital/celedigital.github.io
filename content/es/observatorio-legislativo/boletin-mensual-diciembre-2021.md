@@ -1,76 +1,82 @@
 ---
-author: [Editor]
-content_type: [boletin]
-date: '2021-12-28'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
+title: 'Boletín mensual Observatorio Legislativo | Diciembre 2021'
 slug: boletin-mensual-diciembre-2021
-tags: [institucional]
-title: Boletín mensual Observatorio Legislativo | Diciembre 2021
+date: 2021-12-28
 translationKey: wp-9467
+description: >-
+  Novedades de la actividad legislativa y regulatoria, decisiones judiciales
+  y administrativas.
+author:
+  - Editor
+content_type:
+  - boletin
+programs:
+  - policy
 type: posts
+featured: false
 newsletter_series: observatorio
+image: /img/shutterstock_1698060541-1-scaled.jpg
+tags:
+  - institucional
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2021-12-08
-        url: http://c
+        tipo: proyecto
         texto: >-
           La abogada Valeria Carreras presentó ante el Congreso argentino un
-          [proyecto de ley]($url) que tiene como objetivo penalizar los discursos
-          negacionistas. Las penas se aplicarían a quienes “nieguen, justifiquen,
-          minimicen hagan apología o glorificación de los delitos de lesa humanidad
-          ocurridos en Argentina en el período entre los días 24 de marzo de 1976 y
-          el 30-10-1983 cometidos por agentes del Estado”. Esta iniciativa sigue la
-          línea de otros proyectos similares presentados en el pasado durante este
-          año y que ya hemos mencionados en otros boletines:
-          [aquí](https://observatoriolegislativocele.com/boletin-mensual-julio-2021/)
-          y
-          [aquí](https://observatoriolegislativocele.com/boletin-mensual-agosto-2021/).
-          Desde el Centro de Estudios y Libertad de Expresión recomendamos la
-          lectura de los análisis realizados por [Ramiro Álvarez
-          Ugarte](https://observatoriolegislativocele.com/sobre-el-negacionismo-como-delito-penal/)
-          y [Emiliano
-          Vitaliani](https://observatoriolegislativocele.com/restringir-el-debate-para-proteger-la-democracia/)
+          [proyecto de ley](http://c) que tiene como objetivo penalizar los
+          discursos negacionistas. Las penas se aplicarían a quienes “nieguen,
+          justifiquen, minimicen hagan apología o glorificación de los delitos de
+          lesa humanidad ocurridos en Argentina en el período entre los días 24 de
+          marzo de 1976 y el 30-10-1983 cometidos por agentes del Estado”. Esta
+          iniciativa sigue la línea de otros proyectos similares presentados en el
+          pasado durante este año y que ya hemos mencionados en otros boletines:
+          [aquí](/es/observatorio-legislativo/boletin-mensual-julio-2021/) y
+          [aquí](/es/observatorio-legislativo/boletin-mensual-agosto-2021/). Desde
+          el Centro de Estudios y Libertad de Expresión recomendamos la lectura de
+          los análisis realizados por [Ramiro Álvarez
+          Ugarte](/es/posts/sobre-el-negacionismo-como-delito-penal/) y [Emiliano
+          Vitaliani](/es/posts/restringir-el-debate-para-proteger-la-democracia/)
           sobre este tema.
         etiquetas:
           - discurso-de-odio
 
       - fecha: 2021-12-13
-        url: https://www.laizquierdadiario.com/Jujuy-denuncian-que-Gerardo-Morales-infiltro-un-policia-en-una-radio-comunitaria
+        tipo: proyecto
         texto: >-
-          El gobernador de Jujuy, Gerardo Morales, habría [infiltrado]($url) a un
-          agente policial (Ezequiel Rosales) en Radio Pueblo, un medio comunitario,
-          por 3 años. Esta actividad de espionaje fue descubierta por un vecino que
-          alertó a la radio. Rosales fue designado como agente en febrero de 2019
-          (con retroactividad a junio del 2015) y es parte de la planta de personal
-          permanente de la Policía de la Provincia. La Red Nacional de Medios
-          Alternativos ha expresado que esta situación se enmarca dentro de un
-          contexto general de hostigamiento y persecución contra sectores opositores
-          en las provincias.
+          El gobernador de Jujuy, Gerardo Morales, habría
+          [infiltrado](https://www.laizquierdadiario.com/Jujuy-denuncian-que-Gerardo-Morales-infiltro-un-policia-en-una-radio-comunitaria)
+          a un agente policial (Ezequiel Rosales) en Radio Pueblo, un medio
+          comunitario, por 3 años. Esta actividad de espionaje fue descubierta por
+          un vecino que alertó a la radio. Rosales fue designado como agente en
+          febrero de 2019 (con retroactividad a junio del 2015) y es parte de la
+          planta de personal permanente de la Policía de la Provincia. La Red
+          Nacional de Medios Alternativos ha expresado que esta situación se enmarca
+          dentro de un contexto general de hostigamiento y persecución contra
+          sectores opositores en las provincias.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2021-12-16
-        url: https://www.argentina.gob.ar/noticias/repudio-las-agresiones-antisemitas-contra-periodistas-de-radio-con-vos
+        tipo: proyecto
         texto: >-
           El Instituto Nacional contra la Discrminación, la Xenofobia y el Racismo
-          (INADI) [manifestó]($url) su preocupación y rechazo ante las
-          manifestaciones de odio contra periodistas del medio Radio Con Vos, en
-          plena emisión del programa Pasaron Cosas. En ocasión de dicho programa un
-          grupo de personas habrían Un grupo de amenazad al periodista Alejandro
-          Bercovich y parte de su equipo con consignas antisemitas y portando
-          simbología nazi. Además, alegaron estar en contra de sus opiniones sobre
-          el Pase Sanitario. El INADI expresó: “Por un lado, resulta preocupante que
-          ante el ejercicio de la libertad de expresión y el llamado a la
-          responsabilidad social que implica una pandemia mundial surjan actitudes
-          que acrecientan el riesgo de la situación sanitaria. Pero más preocupante
-          aún es que estos mensajes estén acompañados de discursos de odio y
-          manifestaciones antisemitas, lo cual demuestra la misma base de violencia
-          e intolerancia.”
+          (INADI)
+          [manifestó](https://www.argentina.gob.ar/noticias/repudio-las-agresiones-antisemitas-contra-periodistas-de-radio-con-vos)
+          su preocupación y rechazo ante las manifestaciones de odio contra
+          periodistas del medio Radio Con Vos, en plena emisión del programa Pasaron
+          Cosas. En ocasión de dicho programa un grupo de personas habrían Un grupo
+          de amenazad al periodista Alejandro Bercovich y parte de su equipo con
+          consignas antisemitas y portando simbología nazi. Además, alegaron estar
+          en contra de sus opiniones sobre el Pase Sanitario. El INADI expresó: “Por
+          un lado, resulta preocupante que ante el ejercicio de la libertad de
+          expresión y el llamado a la responsabilidad social que implica una
+          pandemia mundial surjan actitudes que acrecientan el riesgo de la
+          situación sanitaria. Pero más preocupante aún es que estos mensajes estén
+          acompañados de discursos de odio y manifestaciones antisemitas, lo cual
+          demuestra la misma base de violencia e intolerancia.”
         etiquetas:
           - discurso-de-odio
           - libertad-de-expresion
@@ -79,16 +85,17 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2021-11-29
-        url: https://www.internetlab.org.br/wp-content/uploads/2021/12/decisao-liminar-spiller.pdf
+        tipo: proyecto
         texto: >-
           [El Juzgado Civil del Foro Regional Barra da Tijuca desestimó la medida
           cautelar interpuesta por la actriz Letícia Spiller contra Google para
-          eliminar 72 enlaces vinculados a ella de su buscador]($url). La demandante
-          alega daño a la imagen como consecuencia de la colocación de información
-          supuestamente distorsionada y sesgada en internet. La demandante alegó
-          daño a la imagen como consecuencia de la difusión en internet de
-          información supuestamente distorsionada y sesgada, lo que demuestra que
-          apoya al actor y humorista [Marcius Melhem, acusado de
+          eliminar 72 enlaces vinculados a ella de su
+          buscador](https://www.internetlab.org.br/wp-content/uploads/2021/12/decisao-liminar-spiller.pdf).
+          La demandante alega daño a la imagen como consecuencia de la colocación de
+          información supuestamente distorsionada y sesgada en internet. La
+          demandante alegó daño a la imagen como consecuencia de la difusión en
+          internet de información supuestamente distorsionada y sesgada, lo que
+          demuestra que apoya al actor y humorista [Marcius Melhem, acusado de
           acoso](https://www.internetlab.org.br/pt/itens-semanario/liberdade-de-expressao-revista-piaui-e-proibida-de-publicar-reportagens-sobre-o-caso-de-marcius-melhem/).
           Al rechazar la solicitud, el juez deja constancia de que el imputado no
           tiene la obligación de retirar el contenido y ni siquiera cuenta con los
@@ -103,15 +110,16 @@ paises:
           - privacidad
 
       - fecha: 2021-12-01
-        url: https://www25.senado.leg.br/web/atividade/materias/-/materia/141944
+        tipo: proyecto
         texto: >-
           [El Grupo de Trabajo para el Mejoramiento de la Legislación Brasileña -
           Internet (GTNET) aprobó el informe con una propuesta de texto
           sustituto](https://www.camara.leg.br/evento-legislativo/64284) del [PL Nº
-          2.630 / 2020 (Proyecto Ley para combatir las Fake News)]($url), que será
-          tramitado en la Cámara de Diputados. La propuesta ya había sido votada y
-          aprobada en noviembre, pero su resultado fue anulado por motivos de
-          procedimiento. Entre las enmiendas presentadas por el complemento de
+          2.630 / 2020 (Proyecto Ley para combatir las Fake
+          News)](https://www25.senado.leg.br/web/atividade/materias/-/materia/141944),
+          que será tramitado en la Cámara de Diputados. La propuesta ya había sido
+          votada y aprobada en noviembre, pero su resultado fue anulado por motivos
+          de procedimiento. Entre las enmiendas presentadas por el complemento de
           relator, diputado Orlando Silva, se encuentra el art 15 sobre el debido
           proceso procesal que (i) define que la aplicación de las reglas de la
           plataforma en la moderación de contenidos se refiere a sus términos de
@@ -125,41 +133,47 @@ paises:
           restrinjan la visualización de sus publicaciones por parte de terceros. El
           texto aprobado debe pasar a discusión plenaria.
         etiquetas:
+          - libertad-de-expresion
           - plataformas-digitales
 
       - fecha: 2021-12-03
-        url: https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=477768&ori=1
+        tipo: proyecto
         texto: >-
           [El ministro del Supremo Tribunal Federal, Alexandre de Moraes, respondió
           a la solicitud de la Comisión Parlamentaria de Investigación (CPI, en
           portugués) de la Pandemia y abrió una investigación al Tribunal para
           investigar las manifestaciones del Presidente de la República en relación
-          con el Covid-19]($url). El informe final del CPI destacó las afirmaciones
-          de Jair Bolsonaro de restar importancia a la pandemia y difundir
-          información falsa sobre las vacunas. En consecuencia, sugirieron
-          imputación por la práctica de delitos comunes (epidemia con resultado de
-          muerte, incumplimiento de medida preventiva sanitaria, charlatanería,
-          incitación al delito, falsificación de documento privado, uso irregular de
-          fondos públicos y malversación), así como delitos de responsabilidad
-          (vulneración del derecho social e incompatibilidad con la dignidad, el
-          honor y el decoro del cargo). Para el ministro del STF, las acciones del
-          presidente en materia de vacunas adoptan el modus operandi de la difusión
-          masiva en las redes sociales, por lo que serían fundamentales las medidas
-          de investigación para esclarecer los hechos.
+          con el
+          Covid-19](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=477768&ori=1).
+          El informe final del CPI destacó las afirmaciones de Jair Bolsonaro de
+          restar importancia a la pandemia y difundir información falsa sobre las
+          vacunas. En consecuencia, sugirieron imputación por la práctica de delitos
+          comunes (epidemia con resultado de muerte, incumplimiento de medida
+          preventiva sanitaria, charlatanería, incitación al delito, falsificación
+          de documento privado, uso irregular de fondos públicos y malversación),
+          así como delitos de responsabilidad (vulneración del derecho social e
+          incompatibilidad con la dignidad, el honor y el decoro del cargo). Para el
+          ministro del STF, las acciones del presidente en materia de vacunas
+          adoptan el modus operandi de la difusión masiva en las redes sociales, por
+          lo que serían fundamentales las medidas de investigación para esclarecer
+          los hechos.
+        etiquetas:
+          - libertad-de-expresion
 
   - pais: Colombia
     entradas:
       - fecha: 2021-12-03
-        url: https://ami.org.co/wp-content/uploads/2021/12/Comunicado-PL-Anticorrupci%C3%B3n.pdf
+        tipo: proyecto
         texto: >-
-          [Dos asociaciones colombianas de medios denunciaron]($url) que en la
-          ponencia para el último debate del proyecto de ley anticorrupción
-          (Proyecto de Ley No. 369 de 2021 de Cámara y 341 de 2020 de Senado) se
-          incluyó un artículo que creaba el delito de injuria y calumnia contra
-          funcionarios o exfuncionarios públicos. El artículo establecía sanciones
-          de hasta diez años de prisión y multas de hasta 1500 salarios mínimos. La
-          propuesta generó el rechazo de ciudadanos en redes sociales, donde se le
-          bautizó "Ley Mordaza". Varias [organizaciones de la sociedad
+          [Dos asociaciones colombianas de medios
+          denunciaron](https://ami.org.co/wp-content/uploads/2021/12/Comunicado-PL-Anticorrupci%C3%B3n.pdf)
+          que en la ponencia para el último debate del proyecto de ley
+          anticorrupción (Proyecto de Ley No. 369 de 2021 de Cámara y 341 de 2020 de
+          Senado) se incluyó un artículo que creaba el delito de injuria y calumnia
+          contra funcionarios o exfuncionarios públicos. El artículo establecía
+          sanciones de hasta diez años de prisión y multas de hasta 1500 salarios
+          mínimos. La propuesta generó el rechazo de ciudadanos en redes sociales,
+          donde se le bautizó "Ley Mordaza". Varias [organizaciones de la sociedad
           civil](https://flip.org.co/index.php/es/informacion/pronunciamientos/item/2835-articulo-del-proyecto-de-ley-anticorrupcion-ataca-la-libertad-de-expresion)
           también hicieron llamados al Congreso para que no aprobara el artículo,
           por los [peligros que
@@ -175,38 +189,41 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2021-12-08
-        url: https://www.youtube.com/watch?v=diU6F0KOhg8&ab_channel=NoticiasUnoColombia
+        tipo: proyecto
         texto: >-
-          [Noticias Uno anunció]($url) que la Fiscalía General de la Nación ordenó
-          una inspección a sus archivos. Esta orden pone en riesgo la protección de
-          la reserva de la fuente periodística, garantizada por la constitución de
-          Colombia. Noticias Uno es un reconocido noticieron de la Red
-          Independiente, un medio de crítico del actual gobierno de Colombia. La
-          Fiscalía ordenó la inspección en el marco de una investigación por un
-          delito que ya habría prescrito, cometido por alguien externo al medio. La
-          inspección buscaba obtener el video de una transmisión del noticiero de
-          octubre de 2013 que está disponible públicamente en internet. Medios de
-          comunicación y organizaciones de la sociedad civil [rechazaron la
+          [Noticias Uno
+          anunció](https://www.youtube.com/watch?v=diU6F0KOhg8&ab_channel=NoticiasUnoColombia)
+          que la Fiscalía General de la Nación ordenó una inspección a sus archivos.
+          Esta orden pone en riesgo la protección de la reserva de la fuente
+          periodística, garantizada por la constitución de Colombia. Noticias Uno es
+          un reconocido noticieron de la Red Independiente, un medio de crítico del
+          actual gobierno de Colombia. La Fiscalía ordenó la inspección en el marco
+          de una investigación por un delito que ya habría prescrito, cometido por
+          alguien externo al medio. La inspección buscaba obtener el video de una
+          transmisión del noticiero de octubre de 2013 que está disponible
+          públicamente en internet. Medios de comunicación y organizaciones de la
+          sociedad civil [rechazaron la
           orden](https://www.elespectador.com/judicial/fiscalia-inspeccionara-archivo-de-noticias-uno-por-informe-de-2013/).
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2021-12-16
-        url: https://www.procuraduria.gov.co/relatoria/media/file/DirectivaDDH/CADI.pdf
+        tipo: proyecto
         texto: >-
           El Ministerio de Relaciones Exteriores y el Ministerio del Interior
           presentaron un proyecto de ley para aprobar la [Convención Interamericana
           contra el racismo, la discriminación racial y formas conexas de
-          intolerancia]($url). Esta convención establece la obligación del Estado de
-          prohibir la publicación, circulación o diseminación, por cualquier forma
-          y/o medio de comunicación, incluyendo internet, de material racista o
-          discriminatorio.
+          intolerancia](https://www.procuraduria.gov.co/relatoria/media/file/DirectivaDDH/CADI.pdf).
+          Esta convención establece la obligación del Estado de prohibir la
+          publicación, circulación o diseminación, por cualquier forma y/o medio de
+          comunicación, incluyendo internet, de material racista o discriminatorio.
         etiquetas:
           - discurso-de-odio
 
   - pais: Ecuador
     entradas:
       - fecha: 2021-11-30
+        tipo: proyecto
         texto: >-
           El portal digital de periodismo La Posta condujo una serie de
           investigaciones sobre las masacres en las cárceles ecuatorianas que,
@@ -222,7 +239,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2021-12-16
-        url: https://www.eluniverso.com/noticias/ecuador/gobernador-orense-que-mando-a-callar-a-morador-de-zaruma-renuncio-gobierno-nombra-a-fulton-serrano-en-su-remplazo-nota/
+        tipo: proyecto
         texto: >-
           El cantón Zaruma, en el sur de Ecuador, es una población pintoresca
           caracterizada por la intensa actividad minera legal e ilegal.
@@ -231,29 +248,31 @@ paises:
           contexto, el gobernador de la provincia llegó tarde a un evento y, ante el
           cuestionamiento de la ciudadanía, ordenó que se callaran en tono
           intimidante. Posteriormente y ante el escándalo público por el acto de
-          limitación a la libertad de expresión, presentó su [renuncia]($url)
+          limitación a la libertad de expresión, presentó su
+          [renuncia](https://www.eluniverso.com/noticias/ecuador/gobernador-orense-que-mando-a-callar-a-morador-de-zaruma-renuncio-gobierno-nombra-a-fulton-serrano-en-su-remplazo-nota/)
         etiquetas:
-          - libertad-de-expresion
           - libertad-de-prensa
+          - libertad-de-expresion
 
   - pais: Guatemala
     entradas:
       - fecha: 2021-12-21
-        url: https://twitter.com/lahoragt/status/1473356921965002752?ref_src=twsrc%5Etfw
+        tipo: proyecto
         texto: >-
           La Asociación de Periodistas de Guatemala (APG) emitió un
-          [comunicado]($url)) en este mes de diciembre (No. 48-12-2021), mediante el
-          cual, la Comisión de Libertad de Prensa condena el acoso judicial e
-          intento de censura en contra del Sr. Oscar Clemente Marroquin y Pedro
-          Pablo Marroquín, presidente y editor general del Diario escrito La Hora,
-          respectivamente, promovido por Alejandra Carrillo, ex diputada y actual
-          directora del Instituto de la Víctima, en complicidad con magistrados de
-          una sala de femicidio; acciones represivas que se originan en las
-          investigaciones y publicaciones que el medio realiza sobre los posibles
-          actos de corrupción de la funcionaria. Entre otras medidas, la Sala antes
-          referida emite órdenes mediante las cuales “prohíben a los periodistas
-          perturbar o intimidar a la funcionaria y su círculo familiar”. Esta
-          resolución se da en el mismo contexto, según AGP, de la
+          [comunicado](https://twitter.com/lahoragt/status/1473356921965002752?ref_src=twsrc%5Etfw)
+          en este mes de diciembre (No. 48-12-2021), mediante el cual, la Comisión
+          de Libertad de Prensa condena el acoso judicial e intento de censura en
+          contra del Sr. Oscar Clemente Marroquin y Pedro Pablo Marroquín,
+          presidente y editor general del Diario escrito La Hora, respectivamente,
+          promovido por Alejandra Carrillo, ex diputada y actual directora del
+          Instituto de la Víctima, en complicidad con magistrados de una sala de
+          femicidio; acciones represivas que se originan en las investigaciones y
+          publicaciones que el medio realiza sobre los posibles actos de corrupción
+          de la funcionaria. Entre otras medidas, la Sala antes referida emite
+          órdenes mediante las cuales “prohíben a los periodistas perturbar o
+          intimidar a la funcionaria y su círculo familiar”. Esta resolución se da
+          en el mismo contexto, según AGP, de la
           [persecución](https://www.no-ficcion.com/project/persecucion-periodista-juan-luis-font)
           penal que la Fiscal General de la República emprendió contra el periodista
           Juan Luis Font, del medio “Con Criterio”, y del presidente de
@@ -274,25 +293,27 @@ paises:
   - pais: Paraguay
     entradas:
       - fecha: 2021-11-28
-        url: https://www.hoy.com.py/especiales/como-un-archivo-de-mp3-puede-ayudar-a-detectar-acosadores-de-menores-en-linea
+        tipo: proyecto
         texto: >-
           Los“groomers”, término utilizado para definir a los adultos que se hacen
           pasar por menores de edad para cometer acoso sexual, están al acecho en
           las redes sociales y salas de chat. Con el fin de desenmascarar a este
-          tipo de personas, se ha creado un [interesante proyecto]($url) que utiliza
-          como herramienta un archivo de audio audible solo por niños y
+          tipo de personas, se ha creado un [interesante
+          proyecto](https://www.hoy.com.py/especiales/como-un-archivo-de-mp3-puede-ayudar-a-detectar-acosadores-de-menores-en-linea)
+          que utiliza como herramienta un archivo de audio audible solo por niños y
           adolescentes.
         etiquetas:
           - proteccion-de-menores
 
       - fecha: 2021-11-29
-        url: https://www.ultimahora.com/motochorros-digitales-n2974060.html
+        tipo: proyecto
         texto: >-
           Según las últimas publicaciones del Banco Central del Paraguay, las
           transferencias electrónicas por Sipap (sistema de transferencias entre
-          cuentas bancarias o de cooperativas) se han [incrementado]($url) llegando
-          en octubre a cerca de 2 millones y medio de transacciones en un mes. El
-          otro dato es que el monto promedio de estas transacciones se viene
+          cuentas bancarias o de cooperativas) se han
+          [incrementado](https://www.ultimahora.com/motochorros-digitales-n2974060.html)
+          llegando en octubre a cerca de 2 millones y medio de transacciones en un
+          mes. El otro dato es que el monto promedio de estas transacciones se viene
           reduciendo significativamente. Por tanto, puede decirse que la población
           paraguaya comienza a utilizar sistemas digitales para cobrar y pagar de la
           mano de un incremento en la apertura de cuentas bancarias o en
@@ -302,27 +323,33 @@ paises:
           sustituyendo el uso de efectivo.
 
       - fecha: 2021-12-10
-        url: https://www.ultimahora.com/abdo-advierte-que-impunidad-pone-riesgo-la-democracia-n2975954.html
+        tipo: proyecto
         texto: >-
           El presidente de la República del Paraguay, Mario Abdo Benítez, participó
           de la Cumbre por la Democracia, en la cual remarcó la libertad como
-          fundamento básico de la democracia, además de [señalar]($url) como puntos
-          de descontento la corrupción, la Justicia débil y las fake news. “Una
-          noticia falsa puede convertirse en una verdad asumida en minutos, las
-          llamadas fake news no son al azar, son diseñadas y coordinadas con una
-          intención muy clara, desestabilizar, generar desesperanza o desencanto y
-          lo más alarmante es que muchos prefieren mantenerse en lo falso antes que
-          buscar la verdad”, expresó.
+          fundamento básico de la democracia, además de
+          [señalar](https://www.ultimahora.com/abdo-advierte-que-impunidad-pone-riesgo-la-democracia-n2975954.html)
+          como puntos de descontento la corrupción, la Justicia débil y las fake
+          news. “Una noticia falsa puede convertirse en una verdad asumida en
+          minutos, las llamadas fake news no son al azar, son diseñadas y
+          coordinadas con una intención muy clara, desestabilizar, generar
+          desesperanza o desencanto y lo más alarmante es que muchos prefieren
+          mantenerse en lo falso antes que buscar la verdad”, expresó.
+        etiquetas:
+          - libertad-de-expresion
 
+  - pais: Perú
+    entradas:
       - fecha: 2021-12-06
-        url: https://www.facebook.com/watch/?v=583812409372678
+        tipo: proyecto
         texto: >-
           El 6 de diciembre de 2021, la Defensoría del Pueblo presentó un
-          [informe]($url) sobre los primeros 120 días del gobierno de Pedro
-          Castillo, en el cual se concluye que el Ejecutivo vulneró estándares sobre
-          las libertades de expresión e información. En el documento se concluye que
-          el presidente “_no garantiza la libre labor de la prensa, especialmente
-          cuando ésta aborda asuntos referidos a su gestión_”. Además, se
+          [informe](https://www.facebook.com/watch/?v=583812409372678) sobre los
+          primeros 120 días del gobierno de Pedro Castillo, en el cual se concluye
+          que el Ejecutivo vulneró estándares sobre las libertades de expresión e
+          información. En el documento se concluye que el presidente “_no garantiza
+          la libre labor de la prensa, especialmente cuando ésta aborda asuntos
+          referidos a su gestión_”. Además, se
           [señala](https://cnnespanol.cnn.com/2021/12/07/prensa-peru-ambiente-hostil-orix/)
           que las autoridades “_mantienen un discurso orientado a atacar a
           determinados medios de comunicación que desarrollan una línea informativa
@@ -333,14 +360,16 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2021-12-20
-        url: https://www.facebook.com/transparenciaperu/posts/5003280389683750/
+        tipo: proyecto
         texto: >-
           Diversas organizaciones de la sociedad civil que integran la “Plataforma
-          Vigilantes” presentaron un [informe]($url) que evalúa el cumplimiento de
-          los compromisos del presidente Pedro Castillo sobre “_los valores
-          democráticos y al Estado constitucional de Derecho_” durante sus primeros
-          120 días de gobierno. El documento señala que “_el resultado general
-          muestra un balance negativo_” con 8 “[_alertas muy
+          Vigilantes” presentaron un
+          [informe](https://www.facebook.com/transparenciaperu/posts/5003280389683750/)
+          que evalúa el cumplimiento de los compromisos del presidente Pedro
+          Castillo sobre “_los valores democráticos y al Estado constitucional de
+          Derecho_” durante sus primeros 120 días de gobierno. El documento señala
+          que “_el resultado general muestra un balance negativo_” con 8 “[_alertas
+          muy
           graves_](https://twitter.com/ilanegra/status/1473088236452990983/photo/1)”
           entre las cuales se incluye la libertad de prensa. Sobre dicho ámbito de
           compromisos, el presidente de la República habría incumplido dos
@@ -358,6 +387,51 @@ paises:
           - libertad-de-prensa
 ---
 
-{{< observatorio-mes month="2021-12" >}}
+**Proyectos por país**
+
+| País | Proyectos |
+|---|---:|
+| Argentina | 7 |
+| Brasil | 28 |
+| Chile | 3 |
+| Colombia | 14 |
+| Ecuador | 2 |
+| Guatemala | — |
+| México | 13 |
+| Paraguay | 2 |
+| Perú | 2 |
+
+**Temas proyectos de ley presentados entre julio y diciembre 2021**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 6,9% |
+| Acoso | 10,3% |
+| Apología | 5,2% |
+| Libertad de expresión | 8,6% |
+| Igualdad y no discriminación | 17,2% |
+| Acceso a Internet | 1,7% |
+| Privacidad | 1,7% |
+| Protección de menores | 15,5% |
+| Reputación y honor | 5,2% |
+| Moderación de contenidos | 5,2% |
+| Violencia de género | 5,2% |
+| Derechos de los indígenas | 3,4% |
+| Fake News | 1,7% |
+
+**Temas proyectos de ley presentados entre julio y diciembre 2021**
+
+| Tema | % |
+|---|---:|
+| Acceso a la información | 4,8% |
+| Acoso | 9,5% |
+| Apología | 4,8% |
+| Libertad de culto | 1,6% |
+| Igualdad y no discriminación | 15,9% |
+| Publicidad oficial | 4,8% |
+| Fake News | 1,6% |
+| Protección de menores | 14,3% |
+| Reputación y honor | 4,8% |
+| Moderación de contenidos | 4,8% |
 
 {{< boletin-paises >}}

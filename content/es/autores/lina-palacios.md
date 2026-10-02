@@ -1,4 +1,19 @@
-lina-palacios.md
+---
+translationKey: ''
+title: Lina Palacios
+slug: lina-palacios
+draft: false
+author_type: staff
+weight: 7
+role: Researcher
+organization: CELE
+location: Buenos Aires, Argentina
+photo: /img/IMG_9746.jpg.jpeg
+bio_short: Lina Palacios es abogada (Universidad del Rosario, Colombia), con profundización en teoría jurídica y humanidades. Está cursando una Maestría en Derecho Constitucional y Derechos Humanos (Universidad de Palermo).
+twitter_handle: ''
+bluesky_handle: ''
+orcid_number: ''
+email: null
+---
 
-Lina es abogada de la Universidad del Rosario con profundización en teoría jurídica y humanidades con conocimiento y experiencia en proyectos de investigación e incidencia sobre la intersección entre tecnología y derechos humanos; enfocada principalmente en tecnologías de vigilancia, actividad policial, derecho a la protesta, libertad de expresión y género.
-
+Lina Palacios es abogada (Universidad del Rosario, Colombia), con profundización en teoría jurídica y humanidades. Está cursando una Maestría en Derecho Constitucional y Derechos Humanos (Universidad de Palermo). Actualmente es investigadora del  Centro de Estudios en Libertad de Expresión (CELE), Universidad de Palermo.

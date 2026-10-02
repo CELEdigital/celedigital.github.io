@@ -104,6 +104,8 @@
   </url><url>
     <loc>http://localhost:1313/es/taller/2025/program2025/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/taller/program2026/</loc>
+  </url><url>
     <loc>http://localhost:1313/es/autores/robert-gorwa/</loc>
     <xhtml:link
                 rel="alternate"
@@ -178,7 +180,7 @@
                 href="http://localhost:1313/es/autores/matias-gonzalez-mama/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/autores/nicol%C3%A1s-zara/</loc>
+    <loc>http://localhost:1313/es/autores/nicolas-zara/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -187,7 +189,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/autores/nicol%C3%A1s-zara/"
+                href="http://localhost:1313/es/autores/nicolas-zara/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/taller/2024/</loc>
@@ -342,7 +344,31 @@
                 href="http://localhost:1313/es/autores/franco-serra/"
                 />
   </url><url>
+    <loc>http://localhost:1313/es/autores/lina-palacios/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/lina-palacios/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/lina-palacios/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/taller/2020/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/autores/vladimir-garay/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/vladimir-garay/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/vladimir-garay/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/autores/susana-gonzales/</loc>
     <xhtml:link
@@ -388,11 +414,35 @@
   </url><url>
     <loc>http://localhost:1313/es/taller/2016/</loc>
   </url><url>
+    <loc>http://localhost:1313/es/autores/josefina-del.campo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/josefina-del-campo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/josefina-del.campo/"
+                />
+  </url><url>
     <loc>http://localhost:1313/es/taller/2015/</loc>
   </url><url>
     <loc>http://localhost:1313/es/taller/2014/</loc>
   </url><url>
     <loc>http://localhost:1313/es/taller/2013/</loc>
+  </url><url>
+    <loc>http://localhost:1313/es/autores/andres-calderon/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/autores/andres-calderon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/autores/andres-calderon/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/posts/</loc>
     <lastmod>2026-10-02T00:00:00+00:00</lastmod>
@@ -422,6 +472,48 @@
   </url><url>
     <loc>http://localhost:1313/es/posts/actores-privados-con-poder-cuasiestatal/</loc>
     <lastmod>2026-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/argentina--proyecto-de-ley-reforma-de-la-ley-de-datos-personales/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/publicaciones/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/posts/india-it-rules-roundtable/</loc>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/india-it-rules-roundtable/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/india-it-rules-roundtable/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/posts/resumen-mesa-monetizacion-plataformas-libertad-expresion/</loc>
+    <lastmod>2026-09-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/resumen-mesa-monetizacion-plataformas-libertad-expresion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/resumen-mesa-monetizacion-plataformas-libertad-expresion/"
+                />
   </url><url>
     <loc>http://localhost:1313/es/tags/digital-services-act/</loc>
     <lastmod>2026-09-14T00:00:00+00:00</lastmod>
@@ -460,6 +552,19 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/es/posts/resumen-mesa-responsabilidad-intermediarios-brasil/</loc>
+    <lastmod>2026-09-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/roundtable-summary-intermediary-liability-brazil/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/resumen-mesa-responsabilidad-intermediarios-brasil/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/posts/platform-monetization-roundtable/</loc>
@@ -559,30 +664,17 @@
                 href="http://localhost:1313/es/posts/la-paradoja-libertaria/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/libertad-de-expresi%C3%B3n/</loc>
+    <loc>http://localhost:1313/es/tags/slapps/</loc>
     <lastmod>2026-06-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/libertad-de-expresi%C3%B3n/"
+                href="http://localhost:1313/en/tags/slapps/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/libertad-de-expresi%C3%B3n/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/tags/slapp/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/slapp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/slapp/"
+                href="http://localhost:1313/es/tags/slapps/"
                 />
   </url><url>
     <loc>http://localhost:1313/es/tags/informe-legislativo/</loc>
@@ -590,19 +682,6 @@
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/per%C3%BA--la-regulaci%C3%B3n-de-la-inteligencia-artificial-an%C3%A1lisis-de-la-ley-n.-31814-y-su-reglamento-en-perspectiva-comparada/</loc>
     <lastmod>2026-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/publicaciones/</loc>
-    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/research/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/publicaciones/"
-                />
   </url><url>
     <loc>http://localhost:1313/es/posts/actores-privados-con-poder-cuasiestatal/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
@@ -1056,9 +1135,6 @@
     <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/quienes-defienden-la-libertad-de-expresion-en-america-latina/</loc>
-    <lastmod>2025-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/tags/libertad-de-expresi%C3%B3n-en-am%C3%A9rica-latina/</loc>
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/el-futuro-sombrio-de-los-estudios-de-impacto-en-derechos-humanos-en-el-sector-de-la-tecnologia/</loc>
@@ -1841,10 +1917,10 @@
     <loc>http://localhost:1313/es/posts/transparencia-en-eeuu-y-en-la-union-europea/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-11-cele-s-submission-for-the-call-for-papers-on-global-ai-governance-of-the-office-of-the-un/</loc>
+    <loc>http://localhost:1313/es/publicaciones/informe-legislativo-9-nuevas-discusiones-sobre-el-proyecto-de-ley-de-noticias-falsas-en-brasil/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/publicaciones/informe-legislativo-9-nuevas-discusiones-sobre-el-proyecto-de-ley-de-noticias-falsas-en-brasil/</loc>
+    <loc>http://localhost:1313/es/publicaciones/documento-de-posicion-11-cele-s-submission-for-the-call-for-papers-on-global-ai-governance-of-the-office-of-the-un/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/open-source-intelligence-osint-and-human-rights-in-latin-america-a-comparative-report-on-argentina-b-5157855/</loc>
@@ -1924,6 +2000,9 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/posts/proyecto-de-ley-publicidad-politica-union-europea/</loc>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/es/publicaciones/inteligencia-basada-en-fuentes-abiertas-osint-en-argentina-un-diagn%C3%B3stico-sobre-su-utilizaci%C3%B3n-por-parte-del-estado/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/open-source-intelligence-osint-in-argentina-a-diagnosis-of-its-use-by-the-state-5157843/</loc>
@@ -2366,9 +2445,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/es/posts/proyecto-de-ley-contra-el-silencio-obstaculizado-por-congresistas-colombianos/</loc>
-    <lastmod>2021-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/tags/slapps/</loc>
     <lastmod>2021-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/posts/a-quienes-necesita-el-debate-publico/</loc>
@@ -3246,54 +3322,6 @@
   </url><url>
     <loc>http://localhost:1313/es/publicaciones/informe-legislativo-s-n-apuntes-para-la-presentacion-del-profesor-eduardo-bertoni-sobre-el-proyecto-de-ley-de-acce/</loc>
     <lastmod>2010-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/es/autores/andres-calderon/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/autores/andres-calderon/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/autores/andres-calderon/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/autores/josefina-del-campo/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/autores/josefina-del-campo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/autores/josefina-del-campo/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/autores/lina-palacios/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/autores/lina-palacios/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/autores/lina-palacios/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/es/autores/vladimir-garay/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/autores/vladimir-garay/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/autores/vladimir-garay/"
-                />
   </url><url>
     <loc>http://localhost:1313/es/region/america-latina/</loc>
     <xhtml:link

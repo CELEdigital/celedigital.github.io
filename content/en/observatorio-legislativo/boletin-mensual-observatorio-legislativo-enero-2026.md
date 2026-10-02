@@ -1,83 +1,94 @@
 ---
-author: [CELE]
-content_type: [boletin]
-date: '2026-02-04'
-description: Novedades de la actividad legislativa y regulatoria, decisiones judiciales
-  y administrativas.
-featured: false
-image: /img/shutterstock_1698060541-1-scaled.jpg
-programs: [policy]
+title: 'Boletín mensual Observatorio Legislativo | Enero 2026'
 slug: boletin-mensual-observatorio-legislativo-enero-2026
-tags: [institucional]
-title: Boletín mensual Observatorio Legislativo | Enero 2026
+date: 2026-02-04
 translationKey: wp-15306
+description: >-
+  Novedades de la actividad legislativa y regulatoria, decisiones judiciales
+  y administrativas.
+author:
+  - CELE
+content_type:
+  - boletin
+programs:
+  - policy
 type: posts
+featured: false
 newsletter_series: observatorio
+image: /img/shutterstock_1698060541-1-scaled.jpg
+tags:
+  - institucional
 
 paises:
   - pais: Argentina
     entradas:
       - fecha: 2025-12-24
-        url: https://infodelestero.com/2025/12/24/dictan-inhibitoria-de-expresion-a-ruralistas-y-abogados-por-falsas-denuncias-contra-toviggino/
+        tipo: proyecto
         texto: >-
           El juez de Control y Garantías, Héctor José María Salomón, [decidió
-          ampliar una medida cautelar contra cinco personas]($url) que hicieron
-          declaraciones públicas en redes sociales y medios periodísticos vinculando
-          al tesorero de la AFA, Pablo Toviggino con delitos sobre los que la
-          justicia ya dictó un sobreseimiento total y definitivo. Los cinco
-          involucrados insistieron en atribuir conductas delictivas a Toviggino
-          basadas en la causa ya cerrada, a pesar de la existencia previa de la
-          tutela mencionada. Por ello, la medida cautelar impuesta por el juez
-          prohíbe específicamente la validación, reproducción o amplificación de las
-          imputaciones en programas como “TN de Noche” y “Mañana Qué”, como la
-          difusión de cualquier contenido referido a los hechos judiciales ya
-          desestimados en soportes digitales, redes sociales y plataformas de video.
+          ampliar una medida cautelar contra cinco
+          personas](https://infodelestero.com/2025/12/24/dictan-inhibitoria-de-expresion-a-ruralistas-y-abogados-por-falsas-denuncias-contra-toviggino/)
+          que hicieron declaraciones públicas en redes sociales y medios
+          periodísticos vinculando al tesorero de la AFA, Pablo Toviggino con
+          delitos sobre los que la justicia ya dictó un sobreseimiento total y
+          definitivo. Los cinco involucrados insistieron en atribuir conductas
+          delictivas a Toviggino basadas en la causa ya cerrada, a pesar de la
+          existencia previa de la tutela mencionada. Por ello, la medida cautelar
+          impuesta por el juez prohíbe específicamente la validación, reproducción o
+          amplificación de las imputaciones en programas como “TN de Noche” y
+          “Mañana Qué”, como la difusión de cualquier contenido referido a los
+          hechos judiciales ya desestimados en soportes digitales, redes sociales y
+          plataformas de video.
         etiquetas:
           - libertad-de-expresion
           - censura
 
       - fecha: 2025-12-27
-        url: https://www.eldiariodelaregion.com.ar/articulo/un-medio-de-comunicacion-debera-eliminar-publicaciones-injuriosas-contra-un-concejal/
+        tipo: proyecto
         texto: >-
           La jueza Civil y Comercial Nº 2 de Resistencia, Ana Mariela Kassor, [hizo
           lugar a una acción de amparo presentada por el concejal de Resistencia
-          Javier Dumrauf]($url) y ordenó al director del portal InfoQom, Carlos
-          Prette, la eliminación de publicaciones consideradas injuriosas. El
-          concejal había denunciado que, a partir del 10 de mayo de 2025, el portal
-          InfoQom difundió contenidos que lo mencionaban sin relación con sus
-          funciones públicas, afectando gravemente su honor y vida privada. La jueza
-          consideró que esto constituía una utilización no consentida de la imagen
-          del actor y que, en conjunto con los comentarios injuriosos, esto llegaría
-          a considerarse una vulneración integral de sus derechos personalísimos. En
-          consecuencia, se ordenó a Prette eliminar en un plazo de dos días todas
-          las publicaciones referidas al concejal, en especial las identificadas con
-          enlaces específicos de Facebook y el portal InfoQom.
+          Javier
+          Dumrauf](https://www.eldiariodelaregion.com.ar/articulo/un-medio-de-comunicacion-debera-eliminar-publicaciones-injuriosas-contra-un-concejal/)
+          y ordenó al director del portal InfoQom, Carlos Prette, la eliminación de
+          publicaciones consideradas injuriosas. El concejal había denunciado que, a
+          partir del 10 de mayo de 2025, el portal InfoQom difundió contenidos que
+          lo mencionaban sin relación con sus funciones públicas, afectando
+          gravemente su honor y vida privada. La jueza consideró que esto constituía
+          una utilización no consentida de la imagen del actor y que, en conjunto
+          con los comentarios injuriosos, esto llegaría a considerarse una
+          vulneración integral de sus derechos personalísimos. En consecuencia, se
+          ordenó a Prette eliminar en un plazo de dos días todas las publicaciones
+          referidas al concejal, en especial las identificadas con enlaces
+          específicos de Facebook y el portal InfoQom.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2025-12-29
-        url: https://enredaccion.com.ar/la-justicia-declaro-la-nulidad-del-protocolo-antipiquetes-de-patricia-bullrich/
+        tipo: proyecto
         texto: >-
           El juez en lo Contencioso Administrativo Martín Cormick [declaró la
           nulidad del marco de actuación de las fuerzas de seguridad en
-          manifestaciones sociales]($url), establecido mediante la resolución
-          943/2023, también conocido como el “protocolo antipiquetes”. Este fue
-          puesto en práctica por la exministra de Seguridad Patricia Bullrich hace
-          dos años y ha sido controversial por considerarse que limita excesivamente
-          el derecho a la protesta social. El juez fundamentó su decisión en esta
-          misma interpretación del derecho a la protesta y el impacto de este marco.
-          En respuesta, el gobierno nacional se está movilizando para apelar esta
-          decisión.
+          manifestaciones
+          sociales](https://enredaccion.com.ar/la-justicia-declaro-la-nulidad-del-protocolo-antipiquetes-de-patricia-bullrich/),
+          establecido mediante la resolución 943/2023, también conocido como el
+          “protocolo antipiquetes”. Este fue puesto en práctica por la exministra de
+          Seguridad Patricia Bullrich hace dos años y ha sido controversial por
+          considerarse que limita excesivamente el derecho a la protesta social. El
+          juez fundamentó su decisión en esta misma interpretación del derecho a la
+          protesta y el impacto de este marco. En respuesta, el gobierno nacional se
+          está movilizando para apelar esta decisión.
         etiquetas:
           - libertad-de-expresion
           - protesta
 
       - fecha: 2025-12-31
-        url: https://periodicotribuna.com.ar/inteligencia-vs-libertad-la-reforma-de-la-side-busca-asfixiar-al-periodismo-de-investigacion/
+        tipo: proyecto
         texto: >-
           El Poder Ejecutivo dictó el Decreto de Necesidad y Urgencia 941/2025,
           mediante el cual reformó el funcionamiento de la Secretaría de
-          Inteligencia del Estado (SIDE). El medio [Tribuna de Periodistas]($url)
+          Inteligencia del Estado (SIDE). El medio [Tribuna de
+          Periodistas](https://periodicotribuna.com.ar/inteligencia-vs-libertad-la-reforma-de-la-side-busca-asfixiar-al-periodismo-de-investigacion/)
           explicó que este DNU modifica los roles centrales de la SIDE, otorgándole
           facultades que colisionan con las garantías constitucionales de la prensa.
           El DNU obliga a más de 15 organismos públicos a compartir datos personales
@@ -111,6 +122,7 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2026-01-16
+        tipo: proyecto
         exp: 7089-D-2025
         url: https://drive.google.com/file/d/14EAJ_B7phBm54_TZM6Lnn3M0JWSbjtG1/view
         texto: >-
@@ -138,10 +150,11 @@ paises:
           - plataformas-digitales
 
       - fecha: 2026-01-28
-        url: https://www.boletinoficial.gob.ar/detalleAviso/primera/337786/20260127
+        tipo: proyecto
         texto: >-
-          El Poder Ejecutivo, por medio del [decreto 50/26]($url), anunció la
-          disolución del comité del Instituto Nacional del Cine y Artes
+          El Poder Ejecutivo, por medio del [decreto
+          50/26](https://www.boletinoficial.gob.ar/detalleAviso/primera/337786/20260127),
+          anunció la disolución del comité del Instituto Nacional del Cine y Artes
           Audiovisuales (INCAA), que se encargaba de clasificar películas por
           edades. La medida fue [anunciada por el ministro de Desregulación y
           Transformación del
@@ -161,6 +174,7 @@ paises:
   - pais: Chile
     entradas:
       - fecha: 2026-01-14
+        tipo: proyecto
         exp: 18062-18
         url: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=18725&prmBOLETIN=18062-18
         texto: >-
@@ -187,40 +201,44 @@ paises:
   - pais: Paraguay
     entradas:
       - fecha: 2025-12-22
-        url: https://www.ultimahora.com/periodistas-repudian-actitud-del-presidente-santiago-pena-tras-desmeritar-a-cronistas
+        tipo: proyecto
         texto: >-
-          El [Sindicato de Periodistas de Paraguay]($url) se pronunció en rechazo de
-          una serie de declaraciones del presidente de la República, Santiago Peña,
-          y denunció intentos de bloquear y desmerecer el trabajo de los
-          periodistas. El presidente dio unos días antes unas declaraciones en su
-          podcast desmereciendo el profesionalismo de periodistas encargados de la
-          cobertura de actividades presidenciales. En respuesta, el SPP apuntó que
-          en los últimos días se registraron intentos de obstaculizar la labor
-          periodística en actividades oficiales; y le señaló que el gobierno debe
-          generar las condiciones adecuadas para el ejercicio pleno del periodismo y
-          garantizar el trato respetuoso hacia los trabajadores de prensa.
+          El [Sindicato de Periodistas de
+          Paraguay](https://www.ultimahora.com/periodistas-repudian-actitud-del-presidente-santiago-pena-tras-desmeritar-a-cronistas)
+          se pronunció en rechazo de una serie de declaraciones del presidente de la
+          República, Santiago Peña, y denunció intentos de bloquear y desmerecer el
+          trabajo de los periodistas. El presidente dio unos días antes unas
+          declaraciones en su podcast desmereciendo el profesionalismo de
+          periodistas encargados de la cobertura de actividades presidenciales. En
+          respuesta, el SPP apuntó que en los últimos días se registraron intentos
+          de obstaculizar la labor periodística en actividades oficiales; y le
+          señaló que el gobierno debe generar las condiciones adecuadas para el
+          ejercicio pleno del periodismo y garantizar el trato respetuoso hacia los
+          trabajadores de prensa.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2025-12-23
-        url: https://www.ultimahora.com/esther-roa-es-aprehendida-por-leer-un-comunicado-en-el-palacio-de-justicia-nunca-hubo-esta-represion
+        tipo: proyecto
         texto: >-
           La abogada Esther Roa, coordinadora de Abogados del Paraguay, [fue
-          aprehendida en el Palacio de Justicia de Asunción]($url) mientras
-          intentaba leer un comunicado denunciando irregularidades en algunos fallos
-          recientes. De acuerdo a la abogada, la policía habría actuado bajo
-          pretexto de perturbación de la paz pública y resistencia, y tras fallar en
-          conseguir una orden de la Fiscalía para su detención, la dejaron retirarse
-          una hora después.
+          aprehendida en el Palacio de Justicia de
+          Asunción](https://www.ultimahora.com/esther-roa-es-aprehendida-por-leer-un-comunicado-en-el-palacio-de-justicia-nunca-hubo-esta-represion)
+          mientras intentaba leer un comunicado denunciando irregularidades en
+          algunos fallos recientes. De acuerdo a la abogada, la policía habría
+          actuado bajo pretexto de perturbación de la paz pública y resistencia, y
+          tras fallar en conseguir una orden de la Fiscalía para su detención, la
+          dejaron retirarse una hora después.
         etiquetas:
           - libertad-de-expresion
 
   - pais: Colombia
     entradas:
       - fecha: 2026-01-14
-        url: https://www.eldiario.com.co/actualidad/no-me-voy-a-retractar-matador-responde-a-criticas-por-caricaturas-contra-paloma-valencia/
+        tipo: proyecto
         texto: >-
-          El [partido Centro Democrático anunció que interpondrá una denuncia]($url)
+          El [partido Centro Democrático anunció que interpondrá una
+          denuncia](https://www.eldiario.com.co/actualidad/no-me-voy-a-retractar-matador-responde-a-criticas-por-caricaturas-contra-paloma-valencia/)
           ante el Consejo Nacional Electoral (CNE) por presunta violencia política
           contra el caricaturista y candidato al Senado por el Pacto Histórico,
           Julio César González, conocido como ‘Matador’. La denuncia vendría luego
@@ -246,9 +264,10 @@ paises:
   - pais: Ecuador
     entradas:
       - fecha: 2026-01-15
-        url: https://drive.google.com/file/d/1lmqmOK4BXDSFraVra5IlZ2wnoytl1knk/view?usp=sharing
+        tipo: proyecto
         texto: >-
-          La asambleísta Camila León presentó el [Proyecto de Ley N° 476315]($url),
+          La asambleísta Camila León presentó el [Proyecto de Ley N°
+          476315](https://drive.google.com/file/d/1lmqmOK4BXDSFraVra5IlZ2wnoytl1knk/view?usp=sharing),
           que propone una reforma al Código Orgánico Integral Penal. De acuerdo a
           León, este buscaría [reforzar las garantías en libertad de
           expresión](https://www.eldiario.ec/ecuador/asambleista-propone-reforma-al-coip-para-reforzar-garantias-en-libertad-de-expresion-15012026/).
@@ -261,7 +280,7 @@ paises:
           indicó que sería redundante y fallaría en establecer protecciones contra
           la persecución judicial de las críticas a funcionarios públicos. La
           Federación Nacional de Periodistas del Ecuador
-          ([FENAPE](https://www.lahora.com.ec/politica/fenape-pide-al-cal-rechazar-proyecto-de-reforma-al-coip-planteado-por-camila-leon-adn-20260123-0036.html))
+          ([FENAPE](https://www.lahora.com.ec/politica/fenape-pide-al-cal-rechazar-proyecto-de-reforma-al-coip-planteado-por-camila-leon-adn-20260123-0036.html)
           indicó que el proyecto violaría la Constitución, al desconocer los
           derechos de las personas a una comunicación libre, igualdad para opinar y
           expresar su pensamiento sin censura previa. Y medios como [La
@@ -282,26 +301,29 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2026-01-17
-        url: https://www.extra.ec/noticia/politica/gobierno-excluye-diario-expreso-eventos-clave-intensifica-secretismo-oficial-145175.html
+        tipo: proyecto
         texto: >-
           Se alertó de un nuevo conflicto entre el presidente Daniel Novoa y la
           prensa, luego de que su gobierno [excluyera al Diario EXPRESO de dos
-          eventos oficiales]($url) vinculados a decisiones estratégicas del Estado.
-          A esto se sumaron denuncias de restricciones al trabajo periodístico para
-          los medios que sí ingresaron, como la retención de teléfonos celulares y
-          grabadoras.
+          eventos
+          oficiales](https://www.extra.ec/noticia/politica/gobierno-excluye-diario-expreso-eventos-clave-intensifica-secretismo-oficial-145175.html)
+          vinculados a decisiones estratégicas del Estado. A esto se sumaron
+          denuncias de restricciones al trabajo periodístico para los medios que sí
+          ingresaron, como la retención de teléfonos celulares y grabadoras.
         etiquetas:
           - libertad-de-prensa
 
   - pais: Guatemala
     entradas:
       - fecha: 2026-01-19
-        url: https://www.congreso.gob.gt/detalle_pdf/decretos/13691#gsc.tab=0
+        tipo: proyecto
         texto: >-
           El Poder Ejecutivo emitió el Decreto 1-2026 que declara Estado de Sitio en
           todo el territorio nacional por 30 días. Este fue, a su vez, [ratificado
-          el 21 de enero]($url) por el Congreso de la República. La [medida fue
-          anunciada por el presidente Bernardo
+          el 21 de
+          enero](https://www.congreso.gob.gt/detalle_pdf/decretos/13691#gsc.tab=0)
+          por el Congreso de la República. La [medida fue anunciada por el
+          presidente Bernardo
           Arévalo](https://www.prensalibre.com/guatemala/politica/estado-de-sitio-en-guatemala-cuales-son-las-siete-medidas-decretadas-tras-motines-y-ataques-a-la-pnc-breaking/)
           tras motines registrados en tres cárceles, que derivaron en ataques contra
           la Policía Nacional Civil (PNC), con saldo de ocho agentes muertos en 13
@@ -317,26 +339,27 @@ paises:
   - pais: México
     entradas:
       - fecha: 2026-01-04
-        url: https://www.tvazteca.com/aztecanoticias/denuncian-peligro-al-periodismo-y-a-la-libertad-expresion-en-mexico/
+        tipo: proyecto
         texto: >-
           El Día del Periodista estuvo marcado por las manifestaciones de gremios de
           la prensa y organizaciones civiles en contra de recientes abusos,
           simbolizados por la reciente persecución y detención de Rafael León
           Segovia en Veracruz, así como de otros reporteros en todo el país. [Ya a
-          finales de diciembre]($url), Artículo 19 junto con otras organizaciones
-          civiles emitieron alertas acerca de múltiples abusos de la ley para
-          perseguir a periodistas críticos del gobierno: En Puebla, se reactivó un
-          proceso del año 2020 en contra de Rodolfo Ruiz , director de e-consulta,
-          en el que se le acusa de lavado de dinero. Ruiz afirma que esto se trata
-          de una persecución política y acoso judicial debido a sus investigaciones
-          sobre nepotismo, abusos en hospitales psiquiátricos y el polémico caso
-          "Nórdica". Mientras que en Veracruz se detuvo a León Segovia bajo
-          acusaciones de terrorismo y encubrimiento. En Campeche, el periodista
-          Jorge González y el diario Tribuna han denunciado que existe vigilancia
-          directa para evitar críticas contra la gobernadora Layda Sansores. Frente
-          a estos y otros casos recientes, se está advirtiendo de un abuso del
-          sistema judicial como mecanismos de censura. Es por ello que diversas
-          organizaciones de
+          finales de
+          diciembre](https://www.tvazteca.com/aztecanoticias/denuncian-peligro-al-periodismo-y-a-la-libertad-expresion-en-mexico/),
+          Artículo 19 junto con otras organizaciones civiles emitieron alertas
+          acerca de múltiples abusos de la ley para perseguir a periodistas críticos
+          del gobierno: En Puebla, se reactivó un proceso del año 2020 en contra de
+          Rodolfo Ruiz, director de e-consulta, en el que se le acusa de lavado de
+          dinero. Ruiz afirma que esto se trata de una persecución política y acoso
+          judicial debido a sus investigaciones sobre nepotismo, abusos en
+          hospitales psiquiátricos y el polémico caso "Nórdica". Mientras que en
+          Veracruz se detuvo a León Segovia bajo acusaciones de terrorismo y
+          encubrimiento. En Campeche, el periodista Jorge González y el diario
+          Tribuna han denunciado que existe vigilancia directa para evitar críticas
+          contra la gobernadora Layda Sansores. Frente a estos y otros casos
+          recientes, se está advirtiendo de un abuso del sistema judicial como
+          mecanismos de censura. Es por ello que diversas organizaciones de
           [periodistas](https://www.milenio.com/videos/policia/periodistas-protestan-libertad-expresion-exigen-justicia-rafael-segovia-oaxaca),
           [comunicadores](https://el-mexicano.com.mx/Noticia/Nacional/88313/Se-manifiestan-periodistas-en-Tijuana-por-la-libertad-de-expresi%C3%B3n)
           y [defensores de derechos
@@ -349,65 +372,70 @@ paises:
           - libertad-de-prensa
 
       - fecha: 2026-01-13
-        url: https://animalpolitico.com/politica/corte-pospone-debate-ley-comunicacion-social-riesgos-libertad-expresion
+        tipo: proyecto
         texto: >-
           La Suprema Corte de Justicia de la Nación (SCJN) [pospuso la discusión de
-          la Ley General de Comunicación Social]($url). Esta decisión viene la etapa
-          final para resolver la validez de la norma, y tras múltiples advertencias
-          de organizaciones civiles, entre las que destaca Artículo 19, de que el
-          proyecto de sentencia aún presenta riesgos para la libertad de expresión.
-          El debate por esta norma lleva activo desde su publicación en 2018, que
-          fue producto a su vez de una reforma constitucional de 2014 que impuso al
-          Congreso de la Unión la obligación de crear una ley que regulara el gasto
-          en publicidad oficial para evitar el uso de recursos públicos en la
-          promoción personalizada de funcionarios. Apenas un mes después de su
-          publicación, se empezaron a presentar acciones de inconstitucionalidad,
-          denunciando que la ley era deficiente, permitía un manejo discrecional del
-          gasto público y funcionaba como un mecanismo de “censura indirecta” contra
-          medios críticos. En 2021, la Primera Sala de la Corte determinó que,
-          aunque ya existía una ley, ésta persistía en una “omisión legislativa
-          relativa”, al no establecer criterios claros ni procedimientos específicos
-          para garantizar la transparencia y la honradez en el gasto. Entre 2022, la
-          ley se reformó en un proceso que presentó violaciones del debido proceso,
-          por lo que en 2023 se regresó al texto original. Este retorno trajo de
-          vuelta consigo los debates sobre su validez que continúan hasta el
-          momento. El proyecto de la ministra Loretta Ortiz Ahlf propone declarar
-          una “omisión legislativa relativa” y ordenar al Congreso de la Unión
-          subsanar las deficiencias, manteniendo la ley vigente. Sin embargo,
-          organizaciones como Artículo 19 señalan que la propuesta es insuficiente
-          porque no exige la creación de un órgano autónomo de control, lo que
-          mantiene el riesgo de uso discrecional de la publicidad oficial y la
-          “censura indirecta”. Además el 12 de enero 11 organizaciones de la
-          sociedad civil y 25 periodistas emitieron un comunicado en el que se
-          advierte de la persistencia de riesgos a la libertad de expresión.
+          la Ley General de Comunicación
+          Social](https://animalpolitico.com/politica/corte-pospone-debate-ley-comunicacion-social-riesgos-libertad-expresion).
+          Esta decisión viene la etapa final para resolver la validez de la norma, y
+          tras múltiples advertencias de organizaciones civiles, entre las que
+          destaca Artículo 19, de que el proyecto de sentencia aún presenta riesgos
+          para la libertad de expresión. El debate por esta norma lleva activo desde
+          su publicación en 2018, que fue producto a su vez de una reforma
+          constitucional de 2014 que impuso al Congreso de la Unión la obligación de
+          crear una ley que regulara el gasto en publicidad oficial para evitar el
+          uso de recursos públicos en la promoción personalizada de funcionarios.
+          Apenas un mes después de su publicación, se empezaron a presentar acciones
+          de inconstitucionalidad, denunciando que la ley era deficiente, permitía
+          un manejo discrecional del gasto público y funcionaba como un mecanismo de
+          “censura indirecta” contra medios críticos. En 2021, la Primera Sala de la
+          Corte determinó que, aunque ya existía una ley, ésta persistía en una
+          “omisión legislativa relativa”, al no establecer criterios claros ni
+          procedimientos específicos para garantizar la transparencia y la honradez
+          en el gasto. Entre 2022, la ley se reformó en un proceso que presentó
+          violaciones del debido proceso, por lo que en 2023 se regresó al texto
+          original. Este retorno trajo de vuelta consigo los debates sobre su
+          validez que continúan hasta el momento. El proyecto de la ministra Loretta
+          Ortiz Ahlf propone declarar una “omisión legislativa relativa” y ordenar
+          al Congreso de la Unión subsanar las deficiencias, manteniendo la ley
+          vigente. Sin embargo, organizaciones como Artículo 19 señalan que la
+          propuesta es insuficiente porque no exige la creación de un órgano
+          autónomo de control, lo que mantiene el riesgo de uso discrecional de la
+          publicidad oficial y la “censura indirecta”. Además el 12 de enero 11
+          organizaciones de la sociedad civil y 25 periodistas emitieron un
+          comunicado en el que se advierte de la persistencia de riesgos a la
+          libertad de expresión.
         etiquetas:
           - libertad-de-expresion
 
       - fecha: 2026-01-20
-        url: https://lasillarota.com/estados/2026/1/20/periodistas-frenan-reforma-en-iguala-que-amenazaba-la-libertad-de-expresion-581015.html
+        tipo: proyecto
         texto: >-
           Periodistas de Iguala [lograron frenar una reforma al Bando de Policía y
-          Buen Gobierno]($url), impulsada por el alcalde Erick Catalán Rendón, la
-          cual pretendía sancionar las críticas hacia el presidente municipal y
-          otros servidores públicos. El Cabildo determinó no aprobar las
-          modificaciones, tras una movilización en las puertas de la sala de
-          cabildos del palacio municipal, donde comunicadores denunciaron que la
-          iniciativa buscaba imponer una ley mordaza que limitaría el ejercicio
-          periodístico y la crítica pública en el municipio.
+          Buen
+          Gobierno](https://lasillarota.com/estados/2026/1/20/periodistas-frenan-reforma-en-iguala-que-amenazaba-la-libertad-de-expresion-581015.html),
+          impulsada por el alcalde Erick Catalán Rendón, la cual pretendía sancionar
+          las críticas hacia el presidente municipal y otros servidores públicos. El
+          Cabildo determinó no aprobar las modificaciones, tras una movilización en
+          las puertas de la sala de cabildos del palacio municipal, donde
+          comunicadores denunciaron que la iniciativa buscaba imponer una ley
+          mordaza que limitaría el ejercicio periodístico y la crítica pública en el
+          municipio.
         etiquetas:
           - libertad-de-prensa
 
       - fecha: 2026-01-28
-        url: https://puebla.quadratin.com.mx/ciberasedio-afecta-la-libertad-de-expresion-lo-declaran-inconstitucional/
+        tipo: proyecto
         texto: >-
           El Juzgado Tercero de Distrito en Materia Penal en el Estado de Puebla
-          [declaró inconstitucional el delito de ciberasedio]($url). Como resultado
-          del amparo concedido dentro del juicio 825/2025, el artículo 480 del
-          Código Penal de Puebla no podrá aplicarse contra Article 19, ni en el
-          presente ni en el futuro. El juzgado determinó que la norma es
-          desproporcionada, al imponer la restricción más severa, la prisión, para
-          limitar un derecho humano fundamental como la libertad de expresión, sin
-          cumplir con los estándares mínimos de claridad y certeza jurídica que
+          [declaró inconstitucional el delito de
+          ciberasedio](https://puebla.quadratin.com.mx/ciberasedio-afecta-la-libertad-de-expresion-lo-declaran-inconstitucional/).
+          Como resultado del amparo concedido dentro del juicio 825/2025, el
+          artículo 480 del Código Penal de Puebla no podrá aplicarse contra Article
+          19, ni en el presente ni en el futuro. El juzgado determinó que la norma
+          es desproporcionada, al imponer la restricción más severa, la prisión,
+          para limitar un derecho humano fundamental como la libertad de expresión,
+          sin cumplir con los estándares mínimos de claridad y certeza jurídica que
           exige la Constitución. En su análisis, el juez subrayó que la redacción
           ambigua del tipo penal genera un efecto disuasivo para la democracia, pues
           incentiva la autocensura y desalienta la participación ciudadana en el
@@ -418,14 +446,15 @@ paises:
   - pais: Brasil
     entradas:
       - fecha: 2025-12-12
-        url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2596424
+        tipo: proyecto
         texto: >-
           La diputada federal Erika Hilton (PSOL/SP) presentó el [proyecto de ley
-          n.° 6396/2025]($url), que prohíbe la monetización y la difusión de
-          publicidad de contenidos digitales con contenido misógino, discriminatorio
-          o desinformativo sobre cuestiones de género, incluidos los asociados a la
-          ideología de supremacía masculina conocida como «redpill». EI proyecto
-          modifica el [Marco Civil de
+          n.°
+          6396/2025](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2596424),
+          que prohíbe la monetización y la difusión de publicidad de contenidos
+          digitales con contenido misógino, discriminatorio o desinformativo sobre
+          cuestiones de género, incluidos los asociados a la ideología de supremacía
+          masculina conocida como «redpill». EI proyecto modifica el [Marco Civil de
           Internet](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm)
           (Ley n.° 12.965/2014) para impedir Ia monetización de contenidos
           misóginos, incluidos los de «redpill», y prevé la responsabilidad
@@ -445,11 +474,12 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-12-12
-        url: https://internetlab.org.br/wp-content/uploads/2025/12/processotjsp15.12.Meta10k.pdf
+        tipo: proyecto
         texto: >-
           La 25.a Sala de Derecho Privado del Tribunal de Justicia de São Paulo
-          (TJSP) [reconoció la responsabilidad objetiva de Instagram]($url) y la
-          obligación de indemnizar a una usuaria en línea por el pirateo de su
+          (TJSP) [reconoció la responsabilidad objetiva de
+          Instagram](https://internetlab.org.br/wp-content/uploads/2025/12/processotjsp15.12.Meta10k.pdf)
+          y la obligación de indemnizar a una usuaria en línea por el pirateo de su
           perfil en la plataforma. La víctima sufrió el hackeo de su perfil, con la
           alteración de datos, la eliminación de contenido y el uso fraudulento de
           su imagen para solicitar dinero a sus seguidores, lo que comprometió su
@@ -475,6 +505,7 @@ paises:
           - libertad-de-expresion
 
       - fecha: 2025-12-16
+        tipo: proyecto
         exp: PL 6458/2025
         url: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2596993
         texto: >-
@@ -494,12 +525,13 @@ paises:
           - plataformas-digitales
 
       - fecha: 2025-12-16
-        url: https://www.migalhas.com.br/quentes/445992/stj-afasta-dolo-e-absolve-homem-acusado-por-postagem-racista
+        tipo: proyecto
         texto: >-
           La 6.a sala del Tribunal Superior de Justicia (STJ) [mantuvo Ia absolución
           del acusado de incitar a la discriminación y el prejuicio en una
-          publicación]($url) en Facebook, al considerar que no se había demostrado
-          la intención específica exigida por el [art. 20, § 2°, de la Ley n.°
+          publicación](https://www.migalhas.com.br/quentes/445992/stj-afasta-dolo-e-absolve-homem-acusado-por-postagem-racista)
+          en Facebook, al considerar que no se había demostrado la intención
+          específica exigida por el [art. 20, § 2°, de la Ley n.°
           7.716/1989](https://www.planalto.gov.br/ccivil_03/leis/l7716.htm). La
           acción, propuesta por el Ministerio Público Federal (MPF) en 2022, se
           originó en una publicación de 2018 que habría afectado a personas negras,
@@ -517,26 +549,78 @@ paises:
           fue acompañado por los demás ministros, con la proclamación final del
           resultado esta semana, tras la devolución de la solicitud de vista.
         etiquetas:
+          - violencia-de-genero
           - electoral
 
   - pais: Perú
     entradas:
       - fecha: 2026-01-02
-        url: https://fiplatina.press/pdfs/peru-informe-anual-ataques-a-la-libertad-de-prensa-2025.pdf
+        tipo: proyecto
         texto: >-
           La Asociación Nacional de Periodistas del Perú (ANP) presentó su [Informe
-          Anual 2025]($url), en el que registró 458 ataques contra periodistas y
-          medios de comunicación, lo que convierte a ese año en el más letal para la
-          libertad de prensa en el país en lo que va del siglo. Las agresiones
-          incluyeron amenazas, hostigamientos, agresiones físicas y verbales, uso de
-          mecanismos judiciales y administrativos para presionar a la prensa, y se
-          reportaron cuatro asesinatos de periodistas en distintas regiones del
-          país, en un contexto de violencia persistente y graves limitaciones al
-          derecho a informar y a ser informados.
+          Anual
+          2025](https://fiplatina.press/pdfs/peru-informe-anual-ataques-a-la-libertad-de-prensa-2025.pdf),
+          en el que registró 458 ataques contra periodistas y medios de
+          comunicación, lo que convierte a ese año en el más letal para la libertad
+          de prensa en el país en lo que va del siglo. Las agresiones incluyeron
+          amenazas, hostigamientos, agresiones físicas y verbales, uso de mecanismos
+          judiciales y administrativos para presionar a la prensa, y se reportaron
+          cuatro asesinatos de periodistas en distintas regiones del país, en un
+          contexto de violencia persistente y graves limitaciones al derecho a
+          informar y a ser informados.
         etiquetas:
           - libertad-de-prensa
 ---
 
-{{< observatorio-mes month="2026-01" >}}
+**Proyectos por país**
+
+| País | Proyectos |
+|---|---:|
+| Argentina | 63 |
+| Brasil | 36 |
+| Chile | 16 |
+| Colombia | 14 |
+| Ecuador | 5 |
+| Guatemala | 1 |
+| México | 35 |
+| Paraguay | 14 |
+| Perú | 17 |
+
+**Temas proyectos de ley presentados entre enero de 2025 y diciembre de 2025**
+
+| Tema | % |
+|---|---:|
+| Libertad de expresión y derechos políticos | 19,9% |
+| Discriminación, violencia y discursos de odio | 15,4% |
+| Protección de menores | 11,4% |
+| Privacidad y derechos ARCO | 7,5% |
+| Inteligencia Artificial | 7,0% |
+| Derechos del consumidor | 5,0% |
+| Honor y reputación | 5,0% |
+| Ciberseguridad | 4,0% |
+| Moderación de Contenidos y responsabilidad de intermediarios | 3,5% |
+| Acceso a la información | 2,5% |
+| Orden Público | 2,5% |
+| Moral Pública | 2,0% |
+| Propiedad intelectual | 2,0% |
+
+**Temas proyectos de ley presentados entre enero de 2025 y diciembre de 2025**
+
+| Tema | % |
+|---|---:|
+| Libertad de Expresión y Derechos políticos | 19,9% |
+| Discriminación, violencia y discursos de odio | 15,4% |
+| Protección de menores | 11,4% |
+| Privacidad y derechos ARCO | 7,5% |
+| Inteligencia artificial | 7,0% |
+| Derechos del consumidor | 5,0% |
+| Honor y reputación | 5,0% |
+| Ciberseguridad | 4,0% |
+| Moderación de contenidos | 3,5% |
+| Acceso a la información | 2,5% |
+| Orden público | 2,5% |
+| Propiedad Intelectual | 2,0% |
+| Moral Pública | 2,0% |
+| Otros | 11,0% |
 
 {{< boletin-paises >}}

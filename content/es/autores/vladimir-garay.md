@@ -16,4 +16,4 @@ orcid_number: ''
 email: null
 ---
 
-Vladimir es periodista y licenciado en comunicación social graduado de la Universidad de Chile, con más de diez años de experiencia trabajando en la intersección entre derechos humanos y nuevas tecnologías. Tiene una maestría en Arte, pensamiento y cultura Latinoamericana por la Universidad de Santiago de Chile
+Vladimir Garay es periodista y licenciado en comunicación social graduado de la Universidad de Chile, con más de diez años de experiencia trabajando en la intersección entre derechos humanos y tecnologías digitales. Tiene una maestría en Arte, pensamiento y cultura Latinoamericana por la Universidad de Santiago de Chile, y se integró al equipo del CELE en 2025, donde actualmente es coordinador senior.

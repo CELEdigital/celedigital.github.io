@@ -1,0 +1,15 @@
+{{- /* Nombre visible de una etiqueta: traducción tag_<nombre> si existe, si no
+       la grafía con que se escribió en el front matter (Hugo, por su cuenta,
+       pone Mayúscula En Cada Palabra: «Hrias», «Libertad De Expresión»).
+       Call: partial "func/term-label.html" $termPage */ -}}
+{{- $key := urlize .Title -}}
+{{- $label := "" -}}
+{{- range .Pages -}}
+  {{- if not $label -}}
+    {{- range .Params.tags -}}
+      {{- if and (not $label) (eq (urlize .) $key) -}}{{- $label = . -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $label = $label | default .Title -}}
+{{- return (i18n (printf "tag_%s" $label) | default $label | strings.FirstUpper) -}}

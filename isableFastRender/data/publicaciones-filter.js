@@ -1,0 +1,164 @@
+(function () {
+  function init() {
+    var grid = document.getElementById('pub-grid');
+    if (!grid) return;
+
+    var items = Array.from(grid.querySelectorAll('.pub-item'));
+    var featuredSection = document.querySelector('[data-pub-featured]');
+    var featuredCard = featuredSection ? featuredSection.querySelector('[data-pub-issues]') : null;
+    var filterBtns = document.querySelectorAll('[data-pub-filter]');
+    var typeBtns = document.querySelectorAll('[data-pub-filter-type]');
+    var regionBtns = document.querySelectorAll('[data-pub-filter-region]');
+
+    // Timeline elements
+    var timeline = document.querySelector('[data-pub-timeline]');
+    var sliderMin = document.querySelector('[data-pub-timeline-min]');
+    var sliderMax = document.querySelector('[data-pub-timeline-max]');
+    var timelineLabel = document.querySelector('[data-pub-timeline-label]');
+    var timelineRange = document.querySelector('[data-pub-timeline-range]');
+    var globalMinYear = timeline ? parseInt(timeline.getAttribute('data-min-year'), 10) : 0;
+    var globalMaxYear = timeline ? parseInt(timeline.getAttribute('data-max-year'), 10) : 9999;
+
+    // Parse data attributes once
+    items.forEach(function (item) {
+      try {
+        item._issues = JSON.parse(item.getAttribute('data-pub-issues') || '[]');
+        if (!Array.isArray(item._issues)) item._issues = [];
+      } catch (e) { item._issues = []; }
+      try {
+        item._types = JSON.parse(item.getAttribute('data-pub-type') || '[]');
+        if (!Array.isArray(item._types)) item._types = [];
+      } catch (e) { item._types = []; }
+      item._region = (item.getAttribute('data-pub-region') || '').toLowerCase();
+      item._year = parseInt(item.getAttribute('data-pub-year'), 10) || 0;
+    });
+
+    var featuredIssues = [];
+    var featuredTypes = [];
+    var featuredRegion = '';
+    var featuredYear = 0;
+    if (featuredCard) {
+      try {
+        featuredIssues = JSON.parse(featuredCard.getAttribute('data-pub-issues') || '[]');
+        if (!Array.isArray(featuredIssues)) featuredIssues = [];
+      } catch (e) { featuredIssues = []; }
+      try {
+        featuredTypes = JSON.parse(featuredCard.getAttribute('data-pub-type') || '[]');
+        if (!Array.isArray(featuredTypes)) featuredTypes = [];
+      } catch (e) { featuredTypes = []; }
+      featuredRegion = (featuredCard.getAttribute('data-pub-region') || '').toLowerCase();
+      featuredYear = parseInt(featuredCard.getAttribute('data-pub-year'), 10) || 0;
+    }
+
+    var activeFilter = '';
+    var activeTypes = [];
+    var activeRegions = [];
+    var yearMin = globalMinYear;
+    var yearMax = globalMaxYear;
+
+    function updateTimelineUI() {
+      if (!timeline) return;
+      var span = globalMaxYear - globalMinYear || 1;
+      var leftPct = ((yearMin - globalMinYear) / span) * 100;
+      var rightPct = ((globalMaxYear - yearMax) / span) * 100;
+      timelineRange.style.left = leftPct + '%';
+      timelineRange.style.right = rightPct + '%';
+      timelineLabel.textContent = yearMin + ' – ' + yearMax;
+    }
+
+    function getMatching() {
+      return items.filter(function (item) {
+        if (activeFilter && item._issues.indexOf(activeFilter) === -1) return false;
+        if (activeTypes.length > 0) {
+          var hasType = activeTypes.some(function (t) { return item._types.indexOf(t) !== -1; });
+          if (!hasType) return false;
+        }
+        if (activeRegions.length > 0 && activeRegions.indexOf(item._region) === -1) return false;
+        if (item._year && (item._year < yearMin || item._year > yearMax)) return false;
+        return true;
+      });
+    }
+
+    function applyFilter() {
+      // Every match stays visible — the grid has no load-more gate, so that the
+      // full catalogue is present in the served HTML for crawlers.
+      var visible = new Set(getMatching());
+
+      items.forEach(function (item) {
+        var show = visible.has(item);
+        item.hidden = !show;
+        item.classList.toggle('is-hub-hidden', !show);
+      });
+
+      // Show/hide featured section
+      if (featuredSection) {
+        var hideFeatured = false;
+        if (activeFilter && featuredIssues.indexOf(activeFilter) === -1) hideFeatured = true;
+        if (activeTypes.length > 0) {
+          var hasType = activeTypes.some(function (t) { return featuredTypes.indexOf(t) !== -1; });
+          if (!hasType) hideFeatured = true;
+        }
+        if (activeRegions.length > 0 && activeRegions.indexOf(featuredRegion) === -1) hideFeatured = true;
+        if (featuredYear && (featuredYear < yearMin || featuredYear > yearMax)) hideFeatured = true;
+        featuredSection.hidden = hideFeatured;
+      }
+    }
+
+    // Button click handlers
+    filterBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        activeFilter = btn.getAttribute('data-pub-filter');
+        filterBtns.forEach(function (b) {
+          b.classList.toggle('is-active', b === btn);
+        });
+        applyFilter();
+      });
+    });
+
+    typeBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var val = btn.getAttribute('data-pub-filter-type');
+        activeTypes = val ? [val] : [];
+        typeBtns.forEach(function (b) { b.classList.toggle('is-active', b === btn); });
+        applyFilter();
+      });
+    });
+
+    regionBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var val = btn.getAttribute('data-pub-filter-region');
+        activeRegions = val ? [val.toLowerCase()] : [];
+        regionBtns.forEach(function (b) { b.classList.toggle('is-active', b === btn); });
+        applyFilter();
+      });
+    });
+
+    // Timeline slider handlers
+    if (sliderMin && sliderMax) {
+      function onSliderInput() {
+        var lo = parseInt(sliderMin.value, 10);
+        var hi = parseInt(sliderMax.value, 10);
+        if (lo > hi) { var tmp = lo; lo = hi; hi = tmp; }
+        yearMin = lo;
+        yearMax = hi;
+        // Keep sliders in sync so they don't cross
+        sliderMin.value = lo;
+        sliderMax.value = hi;
+        updateTimelineUI();
+        applyFilter();
+      }
+      sliderMin.addEventListener('input', onSliderInput);
+      sliderMax.addEventListener('input', onSliderInput);
+      updateTimelineUI();
+    }
+
+    // Initial render
+    applyFilter();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();

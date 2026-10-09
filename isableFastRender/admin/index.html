@@ -1,0 +1,394 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Content Manager — CELE</title>
+</head>
+<body>
+  <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+  <script>
+    // Bloque "Resumen Observatorio" para el editor de texto.
+    //
+    // Inserta el shortcode {{< observatorio-mes >}} en el cuerpo del boletín sin
+    // que quien edita tenga que escribir la sintaxis a mano. Los totales no se
+    // calculan acá: el shortcode los resuelve contra los CSV al construir el
+    // sitio, así que la vista previa sólo muestra qué período quedó elegido.
+    (function () {
+      var DATASETS = {
+        ambos: 'proyectos y leyes',
+        proyectos: 'sólo proyectos',
+        leyes: 'sólo leyes'
+      };
+
+      function register() {
+        window.CMS.registerEditorComponent({
+          id: 'observatorio-mes',
+          label: 'Resumen Observatorio',
+          icon: 'bar_chart',
+          fields: [
+            {
+              name: 'month',
+              label: 'Mes',
+              widget: 'string',
+              hint: 'Formato AAAA-MM. Por ejemplo, 2025-06 para junio de 2025.',
+              pattern: ['^\\d{4}-(0[1-9]|1[0-2])$', 'Usá el formato AAAA-MM (ej. 2025-06)']
+            },
+            {
+              name: 'dataset',
+              label: 'Datos a incluir',
+              widget: 'select',
+              default: 'ambos',
+              options: [
+                { label: 'Proyectos y leyes', value: 'ambos' },
+                { label: 'Sólo proyectos', value: 'proyectos' },
+                { label: 'Sólo leyes', value: 'leyes' }
+              ]
+            }
+          ],
+          pattern: /^\s*\{\{<\s*observatorio-mes\s+month="(?<month>[^"]+)"(?:\s+dataset="(?<dataset>[^"]+)")?\s*>\}\}\s*$/m,
+          fromBlock: function (match) {
+            var g = (match && match.groups) || {};
+            return { month: g.month || '', dataset: g.dataset || 'ambos' };
+          },
+          toBlock: function (data) {
+            var month = data.month || '';
+            var dataset = data.dataset || 'ambos';
+            var extra = dataset && dataset !== 'ambos' ? ' dataset="' + dataset + '"' : '';
+            return '{{< observatorio-mes month="' + month + '"' + extra + ' >}}';
+          },
+          toPreview: function (data) {
+            var month = data.month || '(sin mes)';
+            var scope = DATASETS[data.dataset || 'ambos'] || DATASETS.ambos;
+            return (
+              '<figure style="margin:1.5rem 0;padding:1rem 1.2rem;border:1px solid #D6D6D6;' +
+              'background:#fff;font-family:Inter,system-ui,sans-serif;">' +
+              '<figcaption style="font-size:.72rem;font-weight:700;letter-spacing:.08em;' +
+              'text-transform:uppercase;color:#666;">Resumen Observatorio · ' +
+              month + ' · ' + scope + '</figcaption>' +
+              '<p style="margin:.7rem 0 0;font-size:.85rem;color:#666;font-style:italic;">' +
+              'Los totales por país e impacto se calculan al publicar.</p>' +
+              '</figure>'
+            );
+          }
+        });
+
+        // Bloque "Cronología del mes".
+        //
+        // Marca dónde se dibuja la lista país por país. Los datos NO se cargan
+        // acá: se cargan en el campo "El mes, país por país" del formulario, y
+        // este bloque sólo elige el lugar del cuerpo donde aparecen. Por eso no
+        // tiene campos: es un marcador, no un editor.
+        window.CMS.registerEditorComponent({
+          id: 'boletin-paises',
+          label: 'Cronología del mes',
+          icon: 'list',
+          fields: [],
+          pattern: /^\s*\{\{<\s*boletin-paises\s*>\}\}\s*$/m,
+          fromBlock: function () {
+            return {};
+          },
+          toBlock: function () {
+            return '{{< boletin-paises >}}';
+          },
+          toPreview: function () {
+            return (
+              '<figure style="margin:1.5rem 0;padding:1rem 1.2rem;border:1px solid #D6D6D6;' +
+              'background:#fff;font-family:Inter,system-ui,sans-serif;">' +
+              '<figcaption style="font-size:.72rem;font-weight:700;letter-spacing:.08em;' +
+              'text-transform:uppercase;color:#666;">Cronología del mes</figcaption>' +
+              '<p style="margin:.7rem 0 0;font-size:.85rem;color:#666;font-style:italic;">' +
+              'Acá va la lista país por país, con lo que cargues en el campo ' +
+              '“El mes, país por país”.</p>' +
+              '</figure>'
+            );
+          }
+        });
+
+        // Bloque "Aviso".
+        //
+        // El recuadro destacado del cuerpo, típicamente el anuncio de la
+        // próxima mesa. Cuerpo libre en Markdown.
+        var ICONOS = { calendario: '🗓', dato: '◆', alerta: '!', ninguno: '' };
+
+        window.CMS.registerEditorComponent({
+          id: 'aviso',
+          label: 'Aviso',
+          icon: 'campaign',
+          fields: [
+            {
+              name: 'icono',
+              label: 'Ícono',
+              widget: 'select',
+              default: 'calendario',
+              options: [
+                { label: 'Calendario (anuncio de mesa)', value: 'calendario' },
+                { label: 'Rombo (dato destacado)', value: 'dato' },
+                { label: 'Alerta', value: 'alerta' },
+                { label: 'Sin ícono', value: 'ninguno' }
+              ]
+            },
+            {
+              name: 'cuerpo',
+              label: 'Texto',
+              widget: 'text',
+              hint: 'Admite Markdown: **negrita**, *cursiva*, [enlaces](https://…).'
+            }
+          ],
+          pattern: /^\s*\{\{<\s*aviso(?:\s+icono="(?<icono>[^"]*)")?\s*>\}\}\n(?<cuerpo>[\s\S]*?)\n\{\{<\s*\/aviso\s*>\}\}\s*$/m,
+          fromBlock: function (match) {
+            var g = (match && match.groups) || {};
+            return { icono: g.icono || 'calendario', cuerpo: g.cuerpo || '' };
+          },
+          toBlock: function (data) {
+            var icono = data.icono || 'calendario';
+            var extra = icono !== 'calendario' ? ' icono="' + icono + '"' : '';
+            return '{{< aviso' + extra + ' >}}\n' + (data.cuerpo || '') + '\n{{< /aviso >}}';
+          },
+          toPreview: function (data) {
+            var glifo = ICONOS[data.icono || 'calendario'] || '';
+            var texto = (data.cuerpo || '').replace(/[<>&]/g, function (c) {
+              return { '<': '&lt;', '>': '&gt;', '&': '&amp;' }[c];
+            });
+            return (
+              '<aside style="margin:1.5rem 0;padding:1rem 1.15rem;border-left:3px solid #ad2b25;' +
+              'background:#f5f1ea;font-family:Inter,system-ui,sans-serif;font-size:.95rem;">' +
+              (glifo ? '<span style="margin-right:.6rem;">' + glifo + '</span>' : '') +
+              texto +
+              '</aside>'
+            );
+          }
+        });
+
+        // Bloque "Gráfico del Observatorio".
+        //
+        // Es el shortcode {{< vega >}}, que dibuja los gráficos interactivos de
+        // /charts/interactive/. No se elige un archivo suelto sino uno de los
+        // cinco gráficos publicados: el `id` no es decorativo, `vega-scripts.html`
+        // lo usa para saber a qué gráfico engancharle el panel de detalle y el
+        // slider de años (mira "chart-observatorio-sunburst", "chart-ia-drilldown",
+        // etc.). Con el spec y el id sueltos, un id mal escrito publica un gráfico
+        // mudo. Por eso el bloque es una lista cerrada y el id lo pone el CMS.
+        //
+        // El patrón sólo reconoce esos cinco specs: un {{< vega >}} que apunte a
+        // otra cosa queda como texto en el Markdown, sin que el editor lo toque.
+        var GRAFICOS = [
+          {
+            value: 'observatorio_sunburst',
+            label: 'Observatorio LDE · Sunburst',
+            id: 'chart-observatorio-sunburst',
+            nota: 'Anillos de objetivo, impacto, estado y tipo. Trae panel de detalle al costado.'
+          },
+          {
+            value: 'objetivos_drilldown',
+            label: 'Observatorio LDE · Objetivos legítimos',
+            id: 'chart-objetivos',
+            nota: 'Barras por objetivo legítimo, con desglose al hacer clic.'
+          },
+          {
+            value: 'observatorio_drilldown',
+            label: 'Observatorio LDE · Explorador por país y año',
+            id: 'chart-observatorio-db',
+            nota: 'Explorador de la matriz de proyectos y leyes.'
+          },
+          {
+            value: 'ia_sunburst',
+            label: 'Normas de IA · Sunburst',
+            id: 'chart-ia-sunburst',
+            nota: 'Mismos anillos, sobre la matriz de normas de IA. Trae panel de detalle.'
+          },
+          {
+            value: 'ia_drilldown',
+            label: 'Normas de IA · Explorador',
+            id: 'chart-ia-drilldown',
+            nota: 'Explorador de la matriz de normas de IA.'
+          }
+        ];
+
+        function grafico(value) {
+          for (var i = 0; i < GRAFICOS.length; i++) {
+            if (GRAFICOS[i].value === value) return GRAFICOS[i];
+          }
+          return GRAFICOS[0];
+        }
+
+        function marco(titulo, cuerpo) {
+          return (
+            '<figure style="margin:1.5rem 0;padding:1rem 1.2rem;border:1px solid #D6D6D6;' +
+            'background:#fff;font-family:Inter,system-ui,sans-serif;">' +
+            '<figcaption style="font-size:.72rem;font-weight:700;letter-spacing:.08em;' +
+            'text-transform:uppercase;color:#666;">' + titulo + '</figcaption>' +
+            '<p style="margin:.7rem 0 0;font-size:.85rem;color:#666;font-style:italic;">' +
+            cuerpo + '</p>' +
+            '</figure>'
+          );
+        }
+
+        window.CMS.registerEditorComponent({
+          id: 'vega',
+          label: 'Gráfico del Observatorio',
+          icon: 'insights',
+          fields: [
+            {
+              name: 'chart',
+              label: 'Gráfico',
+              widget: 'select',
+              default: 'observatorio_sunburst',
+              options: GRAFICOS.map(function (g) {
+                return { label: g.label, value: g.value };
+              })
+            },
+            {
+              name: 'title',
+              label: 'Título',
+              widget: 'string',
+              required: false,
+              hint: 'Opcional. Se dibuja arriba del gráfico; si se deja vacío no aparece ninguno.'
+            }
+          ],
+          pattern: /^\s*\{\{<\s*vega\s+spec="\/charts\/interactive\/(?<chart>observatorio_sunburst|objetivos_drilldown|observatorio_drilldown|ia_sunburst|ia_drilldown)\.json"\s+id="[^"]*"(?:\s+title="(?<title>[^"]*)")?\s*>\}\}\s*$/m,
+          fromBlock: function (match) {
+            var g = (match && match.groups) || {};
+            return { chart: g.chart || 'observatorio_sunburst', title: g.title || '' };
+          },
+          toBlock: function (data) {
+            var g = grafico(data.chart);
+            var extra = data.title ? ' title="' + data.title + '"' : '';
+            return (
+              '{{< vega spec="/charts/interactive/' + g.value + '.json" id="' +
+              g.id + '"' + extra + ' >}}'
+            );
+          },
+          toPreview: function (data) {
+            var g = grafico(data.chart);
+            return marco(
+              'Gráfico · ' + g.label,
+              (data.title ? '“' + data.title + '”. ' : '') + g.nota +
+              ' Se dibuja al publicar, con los datos del Observatorio.'
+            );
+          }
+        });
+
+        // Bloque "Tabla del Observatorio" — el shortcode {{< documentation >}}.
+        //
+        // La tabla filtrable de proyectos y leyes. "Sincronizada" es el modo que
+        // usa la página del Observatorio: la tabla escucha los clics en los
+        // gráficos y el slider de años, y se filtra sola. En una página sin
+        // gráficos hay que dejarla en no, o queda esperando eventos que nadie
+        // emite.
+        window.CMS.registerEditorComponent({
+          id: 'documentation',
+          label: 'Tabla del Observatorio',
+          icon: 'table_chart',
+          fields: [
+            {
+              name: 'sync',
+              label: 'Sincronizada con los gráficos',
+              widget: 'boolean',
+              default: false,
+              hint: 'Sí sólo si en la misma página hay gráficos del Observatorio LDE.'
+            },
+            {
+              name: 'show_header',
+              label: 'Mostrar encabezado',
+              widget: 'boolean',
+              default: true
+            }
+          ],
+          pattern: /^\s*\{\{<\s*documentation(?<attrs>(?:\s+[a-z_]+="[^"]*")*)\s*>\}\}\s*$/m,
+          fromBlock: function (match) {
+            var attrs = ((match && match.groups && match.groups.attrs) || '');
+            function attr(nombre) {
+              var m = attrs.match(new RegExp('\\b' + nombre + '="([^"]*)"'));
+              return m ? m[1] : null;
+            }
+            return {
+              sync: attr('sync') === 'observatorio',
+              show_header: attr('show_header') !== 'false'
+            };
+          },
+          toBlock: function (data) {
+            // Sólo se escribe lo que se aparta del default del shortcode, para
+            // que abrir y guardar una página sin cambiarla no genere diff.
+            var extra = data.sync ? ' interactive="true" sync="observatorio"' : '';
+            if (data.show_header === false) extra += ' show_header="false"';
+            return '{{< documentation' + extra + ' >}}';
+          },
+          toPreview: function (data) {
+            return marco(
+              'Tabla del Observatorio',
+              'Proyectos y leyes, con buscador y filtros' +
+              (data.sync ? ', sincronizada con los gráficos de la página' : '') +
+              '. Se carga desde los CSV al abrir la página.'
+            );
+          }
+        });
+
+        // Bloque "Tabla de normas de IA" — {{< documentation-ai >}}. Sin campos:
+        // la tabla no toma parámetros, siempre lee ai_clean.csv.
+        window.CMS.registerEditorComponent({
+          id: 'documentation-ai',
+          label: 'Tabla de normas de IA',
+          icon: 'table_chart',
+          fields: [],
+          pattern: /^\s*\{\{<\s*documentation-ai\s*>\}\}\s*$/m,
+          fromBlock: function () {
+            return {};
+          },
+          toBlock: function () {
+            return '{{< documentation-ai >}}';
+          },
+          toPreview: function () {
+            return marco(
+              'Tabla de normas de IA',
+              'La matriz de normas de inteligencia artificial, con buscador y filtros.'
+            );
+          }
+        });
+
+        // Bloque "Prohibiciones e incentivos" — {{< bans-nudges >}}. Tampoco toma
+        // parámetros: filtros, franja, treemap y fichas salen enteros de
+        // static/data/bans_nudges.json.
+        window.CMS.registerEditorComponent({
+          id: 'bans-nudges',
+          label: 'Prohibiciones e incentivos',
+          icon: 'grid_view',
+          fields: [],
+          pattern: /^\s*\{\{<\s*bans-nudges\s*>\}\}\s*$/m,
+          fromBlock: function () {
+            return {};
+          },
+          toBlock: function () {
+            return '{{< bans-nudges >}}';
+          },
+          toPreview: function () {
+            return marco(
+              'Prohibiciones e incentivos',
+              'El bloque completo: filtros, franja de distribución, mapa de bloques y ' +
+              'fichas de cada instrumento.'
+            );
+          }
+        });
+      }
+
+      // El bundle del CMS define window.CMS al ejecutarse; esperarlo por si el
+      // navegador todavía no terminó de evaluarlo.
+      if (window.CMS && window.CMS.registerEditorComponent) {
+        register();
+      } else {
+        var tries = 0;
+        var timer = setInterval(function () {
+          if (window.CMS && window.CMS.registerEditorComponent) {
+            clearInterval(timer);
+            register();
+          } else if (++tries > 100) {
+            clearInterval(timer);
+            console.error('[CELE] No se pudieron registrar los bloques del editor: CMS no disponible.');
+          }
+        }, 100);
+      }
+    })();
+  </script>
+</body>
+</html>

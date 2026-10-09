@@ -1,0 +1,1533 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Data access for researchers within digital platforms: Unpacking the human rights implications, practical opportunities and challenges for the Global Majority &#8211; Global Partners Digital</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//www.gp-digital.org' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.gp-digital.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.gp-digital.org%2Fpublication%2Fdata-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.gp-digital.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.gp-digital.org%2Fpublication%2Fdata-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.gp-digital.org/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4' type='text/css' media='all' />
+
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<link rel='stylesheet' id='bb-tcs-editor-style-shared-css' href='https://www.gp-digital.org/wp-content/themes/orionstudio2/editor-style-shared.css' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<script type="text/javascript" src="https://www.gp-digital.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/swiper-bundle.min.js?ver=1" id="swiper-js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js?ver=1" id="select2-js-js"></script>
+<script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/jquery.vmap.min.js?ver=1" id="vmap-min-js"></script>
+<script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/jquery.vmap.world.js?ver=1" id="vmap-js"></script>
+<script type="text/javascript" id="my_loadmore-js-extra">
+/* <![CDATA[ */
+var misha_loadmore_params = {"ajaxurl":"https://www.gp-digital.org/wp-admin/admin-ajax.php","posts":"{\"page\":0,\"publication\":\"data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority\",\"post_type\":\"publication\",\"name\":\"data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"posts_per_page\":10,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}","current_page":"1","max_page":"0"};
+//# sourceURL=my_loadmore-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/filter.js?ver=6.9.4" id="my_loadmore-js"></script>
+<script type="text/javascript" id="my_loadmore2-js-extra">
+/* <![CDATA[ */
+var misha_loadmore_params2 = {"ajaxurl":"https://www.gp-digital.org/wp-admin/admin-ajax.php","posts":"{\"page\":0,\"publication\":\"data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority\",\"post_type\":\"publication\",\"name\":\"data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"posts_per_page\":10,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}","current_page":"1","max_page":"0"};
+//# sourceURL=my_loadmore2-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/filter2.js?ver=6.9.4" id="my_loadmore2-js"></script>
+<script type="text/javascript" id="my_loadmore3-js-extra">
+/* <![CDATA[ */
+var misha_loadmore_params3 = {"ajaxurl":"https://www.gp-digital.org/wp-admin/admin-ajax.php","posts":"{\"page\":0,\"publication\":\"data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority\",\"post_type\":\"publication\",\"name\":\"data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"posts_per_page\":10,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}","current_page":"1","max_page":"0"};
+//# sourceURL=my_loadmore3-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/filter3.js?ver=6.9.4" id="my_loadmore3-js"></script>
+<script type="text/javascript" id="my_loadmore4-js-extra">
+/* <![CDATA[ */
+var misha_loadmore_params4 = {"ajaxurl":"https://www.gp-digital.org/wp-admin/admin-ajax.php","posts":"{\"page\":0,\"publication\":\"data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority\",\"post_type\":\"publication\",\"name\":\"data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"posts_per_page\":10,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}","current_page":"1","max_page":"0"};
+//# sourceURL=my_loadmore4-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/filterReport.js?ver=6.9.4" id="my_loadmore4-js"></script>
+<script type="text/javascript" id="my_loadmore8-js-extra">
+/* <![CDATA[ */
+var misha_loadmore_params8 = {"ajaxurl":"https://www.gp-digital.org/wp-admin/admin-ajax.php","posts":"{\"page\":0,\"publication\":\"data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority\",\"post_type\":\"publication\",\"name\":\"data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"posts_per_page\":10,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}","current_page":"1","max_page":"0","teamId":"9137"};
+//# sourceURL=my_loadmore8-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/filterTeam.js?ver=6.9.4" id="my_loadmore8-js"></script>
+<link rel="https://api.w.org/" href="https://www.gp-digital.org/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.gp-digital.org/xmlrpc.php?rsd" />
+<link rel="canonical" href="https://www.gp-digital.org/publication/data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority/" />
+<link rel='shortlink' href='https://www.gp-digital.org/?p=9137' />
+<link rel="icon" href="https://www.gp-digital.org/wp-content/uploads/2022/12/cropped-logo-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.gp-digital.org/wp-content/uploads/2022/12/cropped-logo-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.gp-digital.org/wp-content/uploads/2022/12/cropped-logo-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.gp-digital.org/wp-content/uploads/2022/12/cropped-logo-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.about-new__featureds-list {
+		display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 26px;
+	margin-top: 51px;
+}
+
+.about-new__featureds-list li {
+	background: #EE7768;
+	padding: 57px 80px;
+	text-align: center;
+	color: #fff;
+	display: grid;
+	place-content: center;
+}
+
+.about-new__team2 {
+	margin-bottom: 4rem;
+}
+
+.about-new__featureds-list li:first-child {
+	background: #EE776840;
+	color: #132422;
+}
+
+.about-new__team2 {
+	margin-top: 44px;
+}
+
+.about-new__team2 h2 {
+	margin-bottom: 40px;
+}
+
+
+.about-new__featureds-list li:first-child h3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+.about-new__featureds-list li a {
+	width: max-content;
+	display: inline-flex;
+	margin: 0 auto;
+	background: #213149;
+	color: #FFF;
+	gap: 40px;
+	padding: 16px;
+	border-radius: 40px;
+	border: none;
+}
+
+.about-new__featureds-list li a path {
+	fill: #FFF;
+}
+
+.about-new__banner1-wrapper {
+	background: #213149;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 112px 2rem 90px;
+	width: 100%;
+	position: relative;
+}
+
+.about-new__banner1-wrapper div {
+	max-width: 590px;
+	margin: 2rem auto 0 auto;
+	font-size: 20px;
+	line-height: 28px;	
+	z-index: 2;
+	position: relative;
+}
+
+.about-new__banner1-wrapper h1 {
+	z-index: 2;
+	position: relative;
+	font-size: 36px;
+}
+
+.about-new__banner1-wrapper img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 1;
+}
+
+.about-new__services {
+	margin-top: 2rem;
+}
+
+.about-new__services h2 {
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+}
+
+.about-new__services-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 19px;
+}
+
+.about-new__services-list li {
+	background: #F5F8FB;
+	padding: 27px 22px;
+}
+
+.about-new__services-list li div:first-child {
+	background: #FAC20E;
+	border-radius: 40px;
+	display: inline-flex;
+	padding: 10px 1rem;
+	gap: 11px;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.about-new__services-list li p {
+	padding: 0 10px;
+}
+
+.about-new__services-list li div:first-child h3{
+	font-size: 18px;
+	margin: 0;
+	line-height: 1;
+}
+
+.about-new__services-list li div:first-child img {
+	width: 24px;
+	height: 24px;
+	object-fit: contain;
+}
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+	.about-new__services-list,
+	.about-new__featureds-list {
+		grid-template-columns: 1fr;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bannersmall--big {
+	height: 356px;
+	align-items: flex-end;
+}
+
+.hub__form {
+	text-align: center;
+	max-width: 400px;
+	margin: 52px auto 64px;
+}
+
+.nf-form-title,
+.nf-before-form-content,
+.nf-field-label{
+	display: none;
+}
+
+
+.ninja-forms-field {
+	background-color: #F5F8FB;
+	border: none;
+	border-radius: 2px;
+	padding: 13px 15px;
+	font-size: 18px;
+	font-family: 'DM Sans';
+	color: #878787;
+}
+
+.ninja-forms-field::placeholder {
+	font-size: 18px;
+	font-family: 'DM Sans';
+	color: #878787;
+}
+
+.nf-field-container {
+    margin-bottom: 5px !important;
+}
+
+
+.submit-container {
+	margin-top: 20px;
+}
+
+
+.submit-container .nf-field-element {
+	background-image: url(http://www.gp-digital.org/wp-content/uploads/2025/11/arrow-1.svg);
+		width: 180px !important;
+	display: block;
+	margin: 0 auto !important;
+	background-repeat: no-repeat;
+	background-position: calc(100% - 22px) center;
+		border: 1px solid #213149;
+	border-radius: 25px;
+
+}
+
+
+.submit-container .nf-field-element:hover {
+	background-color: #213149;
+	background-image: url(http://www.gp-digital.org/wp-content/uploads/2025/11/arrow-1-1.svg);
+}
+
+.submit-container .nf-field-element:hover .ninja-forms-field{
+	color: #fff;
+}
+
+
+
+.submit-container .ninja-forms-field {
+	width: 180px !important;
+	display: block;
+	max-width: 100%;
+	background-color: transparent;
+	color: #213149;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.hub__logos {
+	margin-top: 53px;
+	margin-bottom: 72px;
+}
+
+.hub__logos-wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+	margin-top: 37px;
+}
+
+@media (min-width: 600px) {
+	.hub__logos-wrapper {
+	grid-template-columns: repeat(4, 1fr);
+	gap: 60px;
+
+	}
+}
+
+
+
+@media (min-width: 1400px) {
+	.hub__logos-wrapper {
+		grid-template-columns: repeat(6, 1fr);
+		gap: 90px;
+
+	}
+}
+
+
+
+.hub__logo-item img {
+	width: 100%;
+	height: auto;
+	display:block
+}
+
+
+p:empty {
+	display: none;
+}
+.page-content {
+	overflow: hidden;
+}
+
+
+.whr-items {
+	display: grid;
+	gap: 2.5rem;
+	margin-top: 3rem;
+}
+
+@media (min-width: 1200px) {
+	.template-hub-governance__bg {
+    min-height: 2900px;
+	}
+}
+
+
+.calendar__cell {
+	gap: 10px;
+}
+
+
+
+.how-how__item ul,
+.how-how__items2 ul{
+	list-style: disc !important;
+	padding-left: 20px !important;
+}
+
+.calendar__event-moda-description a {
+	text-decoration: underline;
+}
+
+.calendar__event-title {
+	    max-height: 40px;
+    overflow: hidden;
+    align-items: start !important;
+}
+
+.calendar-top__group span.openness,
+.calendar-top__group div{
+	    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.27;
+    color: #213149;
+}
+
+.key-facts__wrapper a,
+.how-how__items2 a{
+	text-decoration: underline;
+}
+
+
+.how-how__item2 svg {
+	margin-top: 6px;
+}
+
+.navbar__banner-top{
+	background-color: #213149;
+}
+
+.single__post-content ul {
+	list-style: disc !important;
+	padding-left: 20px !important;
+}
+
+
+.navbar__banner{
+	display: flex;
+justify-content: flex-end;
+	height: 40px;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.navbar__newsletter {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	border-left:1px solid #FFF;
+		border-right :1px solid #FFF;
+	padding: 0 22px;
+	cursor: pointer;
+}
+
+.navbar__socials {
+		display: flex;
+	align-items: center;
+	gap: 2rem;
+	padding-left: 2rem;
+	padding-right: 10px;
+}
+
+
+
+
+.page-template-tmpl-eu-events .c-event-categories {
+    min-width: 1146px;
+}
+
+
+
+.c-event-categories {
+    margin-top: 0 !important;
+}
+
+
+.eventWrapperFixed {
+	position: relative;
+	overflow: auto;
+	max-height: calc(100vh - 180px);
+	margin-top: 3rem;
+}
+
+
+
+@media (max-width: 800px) {
+	.eventWrapperFixed {
+	max-height: calc(100vh - 100px);
+}
+
+}
+
+
+
+
+.c-event-categories {
+	position: sticky;
+	top: 0;
+}
+
+
+.contactPage a {
+	text-decoration: underline !important;
+}
+
+
+.about-new__issues {
+	background: var(--Yellow, #FED141);
+	padding: 2rem 0 3rem;
+}
+
+
+.about-new__issues  h2 {
+	text-align: center;
+	margin-bottom: 1.2rem;
+	display: block;
+}
+
+.about-new__issues-list {
+	list-style: none;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	max-width: 55rem;
+	margin: 0 auto;
+	column-gap: 6rem;
+	row-gap: 2rem;
+}
+.about-new__issues-list li img,
+.about-new__work li img {
+	margin: 0 auto 2rem;
+	display:block;
+	height: 68px;
+	object-fit: contain;
+}
+
+.about-new__issues-list li h3 {
+	text-align: centeR;
+}
+
+.about-new__work {
+	background: var(--Dark-Blue, #213149);
+	color: #FFF;
+		padding: 4rem 0 6rem;
+
+}
+
+.about-new__work  h2 {
+	text-align: center;
+	margin-bottom: 1.2rem;
+	display: block;
+}
+
+.about-new__work  .about-new__issues-list {
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 2.4rem;
+	max-width: 65rem;
+	margin-top: 4rem
+}
+
+.about-new__team {
+			padding: 4rem 0 6rem;
+}
+
+.about-new__team h2 {
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.about-new__network {
+	background: var(--Light-Gray, #F5F8FB);
+	padding: 3rem 0 7rem 0;
+}
+
+.about-new__network h2 {
+	text-align: center;
+	margin-bottom: 1.75rem;
+}
+
+.about-new__work-desc h3 {
+	text-align: center;
+}
+
+.about-new__network-list {
+	list-style: none;
+	margin: 0 ;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 112px;
+}
+
+
+.about-new__network-list img {
+	margin: 0 auto;
+	display: block;
+	mix-blend-mode: multiply;
+
+}
+
+.about-new__partners {
+	background: var(--Orange, #EE7768);
+	padding: 4rem 0 2rem 0;
+	font-size: 14px;
+}
+
+
+.about-new__partners h2 {
+	text-align: center;
+	margin-bottom: 1.2rem;
+}
+
+
+
+.about-new__partners h3 {
+text-align: center;
+	max-width: 596px;
+	margin: 0 auto;
+}
+
+.about-new__partners .hub__partners-list {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+		margin-top: 4rem;
+	column-gap: 4rem;
+}
+
+.about-new__partners .hub__partners-list img {
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 2.5rem;
+	height: 180px;
+	object-fit: contain;
+}
+
+.about-new__partners .hub__partners-list h3 {
+color: white;
+
+}
+
+
+.about-new__reports {
+		background: #C6D3E8;
+	padding: 3.5rem 0 2rem 0;
+}
+
+
+.about-new__reports h2 {
+	text-align: center;
+	margin-bottom: 4.5rem;
+}
+
+.about-new__reports-desc,
+.about-new__reports-funders {
+	max-width: 877px;
+	margin: 0 auto;
+}
+
+
+.about-new__reports-funders  {
+	margin-top: 3.5rem;
+}
+
+.about-new__reports-funders ul {
+	padding-left: 20px;
+	margin: 0;
+	column-count: 2;
+	margin-bottom: 90px;
+}
+
+
+.about-new__reports .hub__reports {
+	grid-template-columns: 1fr 1fr;
+	max-width: 800px !important;
+	margin: 4rem auto 0;
+	row-gap: 4rem;
+}
+
+
+.arrow-circle--blue  {
+	background-color: #213149 !important;
+}
+
+.arrow-circle--blue path {
+	fill: white;
+}
+.arrow-circle--blue:hover path {
+		fill: #213149;
+}
+
+.arrow-circle--white {
+		background-color: white !important;
+		border-color: white !important;
+}
+
+
+.about-new__reports .arrow-circle--white:hover {
+		background-color: #213149 !important;
+		border-color: #213149 !important;
+}
+
+.arrow-circle--white path {
+	fill: #213149;
+}
+
+.about-new__reports .arrow-circle--white:hover path {
+	fill: white;
+}
+
+.about-new__reports .hub__reports-item {
+	background: transparent !important;
+	position: relative;
+	padding: 0;
+}
+
+.about-new__reports .hub__reports-item span {
+	position: absolute;
+	top: -1rem;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+
+.about-new__reports .hub__reports-item a {
+		justify-content: left;
+	gap: 2rem;
+}
+
+.about-new__reports .hub__reports-item div {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.about-new__listMe {
+	padding-left: 0;
+}
+
+
+
+@media (max-width: 992px) {
+	.about-new__issues-list {
+		grid-template-columns: 1fr;
+	}
+	
+	.about-new__work .about-new__issues-list {
+				grid-template-columns: 1fr 1fr;
+
+	}
+	
+	.about-new__network-list {
+			grid-template-columns: 1fr;
+		row-gap: 3rem;
+
+	}
+	
+	.about-new__partners .hub__partners-list {
+						grid-template-columns: 1fr 1fr;
+
+	}
+}
+
+
+
+@media (max-width: 600px) {
+	.about-new__work .about-new__issues-list {
+				grid-template-columns: 1fr;
+
+	}
+	
+		.about-new__partners .hub__partners-list {
+						grid-template-columns: 1fr;
+
+	}
+	
+	.about-new__reports-funders ul {
+		    column-count: 1;
+	}
+}
+
+
+
+
+
+
+
+
+
+.mapTopAfrica {
+	display: flex;
+	 flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 32px;
+}
+
+
+.map__boxAfrica {
+	background-color: #F5F8FB;
+	padding: 32px;
+	max-width: 431px;
+	width: 100%;
+}
+
+.map__boxAfrica div:first-of-type {
+	display: flex;
+	gap: 48px;
+}
+
+.map__boxAfrica h6 {
+	margin-top: 0;
+}
+
+
+.map__boxAfrica h3 {
+	margin-bottom: 0;
+	font-size: 24px;
+	line-height: 1.25
+}
+
+.map__boxAfrica .arrow-circle {
+	transform: rotate(270deg);
+}
+
+
+.single__formWrapper {
+	width: 100%;
+		overflow: auto;
+
+}
+
+td {
+	  vertical-align: top;
+	font-size: 14px;
+}
+
+
+
+
+.single__left table{
+  width: 100%;
+  border-collapse: collapse;
+	margin-left: -12px;
+	margin-top: 48px;
+	margin-bottom: 60px;
+
+}
+
+th, td {
+  padding: 1rem;
+  border: 12px solid #FFF;
+  width: auto; 
+}
+
+th, td {
+  width: calc(20% - 25px);
+	min-width: 100px;
+}
+
+.single__left table th {
+	background: var(--Dark-Blue, #213149);
+	color: var(--White, #FFF);
+text-align: center;
+font-family: Gotham;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+	padding: 0.65rem 1.5rem
+}
+
+.single__left table th:last-child,
+.single__left table td:last-child {
+	width: 100px;
+}
+.single__left table td:nth-child(3) {
+	text-align: center;
+}
+
+.single__left table tr{
+	 width: 100%;
+}
+
+.single__left table td:last-child .arrow-circle{
+	margin: 0 auto;
+}
+
+.single__left table td {
+	background: var(--Light-Gray, #F5F8FB);
+	font-weight: bold;
+	padding: 1rem
+}
+
+.single__left table td:nth-of-type(4) {
+		font-weight: normal;
+}
+
+.single__description a {
+	color:  #E03C31 !important;
+	font-weight: bold
+
+}
+
+
+
+@media (max-width: 992px) {
+	.map__boxAfrica {
+		order: -1;
+	}
+	.map__boxAfrica div:first-of-type {
+	flex-direction: column;
+	gap: 32px;
+}
+	
+	
+	.map-section.zoomed {
+    margin-left: -50% !important;
+    margin-right: 5% !important;
+    width: 150% !important;}
+
+	
+}
+
+
+
+
+
+
+@media (min-width: 993px) {
+	
+	
+.single__page-team .single__left {
+ 	display: block !important;
+	position: relative;
+}
+
+.single__page-team .single__back {
+	position: absolute;
+	top: 0;
+	left: -5rem;
+}
+
+	
+	
+	
+	.footer__item:nth-child(3) {
+   padding-left: 0 !important
+}
+}
+
+
+
+.single__post-content a{
+	color: #E03C31 !important;
+	font-weight: bold !Important;
+}
+
+
+
+.hub__careers {
+	border-top: none !important;
+ }
+
+
+.hub__featured-item {
+	list-style: none;
+}
+
+
+section.about .hub__description {
+	    border-bottom: 1px solid #213149;
+	max-width: none;
+}
+
+section.about .hub__description p{
+    max-width: 690px;
+}
+
+
+
+@media (min-width: 993px) {
+	.banner {
+	    margin: 85px 0 100px 0;
+  }
+}
+
+
+.featured-articles__bottom .swiper-pagination .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+	height: 10px !important;
+	background-color: transparent !important;
+	position: relative;
+}
+
+.featured-articles__bottom .swiper-pagination .swiper-pagination-bullet:not(.swiper-pagination-bullet-active)::after {
+	height: 1px ;
+	background-color: transparent ;
+	    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    height: 1px;
+    background-color: #213149;
+    opacity: 0.3;
+	content: '';
+	display:block;
+	position: absolute;
+	left:0;
+	top: calc(50% - 1px);
+}
+
+.country-legislation-content h5{
+	font-size: 20px
+}
+
+.digest__content-featured .campaign a {
+	max-width: 690px;
+}
+
+.digest__content-featured .campaign a:after{
+	width:126px !important
+}
+
+.digest .bannersmall.bannersmall--featured{
+	    padding: 58px 0 43px 0;
+}
+
+.digest__content-featured .campaign {
+    min-height: 280px;
+    flex-direction: column;
+}
+
+.about-banner {
+    min-height: 430px;
+    box-sizing: border-box;
+}
+
+.featured-article {
+    min-height: 430px;
+	    box-sizing: border-box;
+
+}		</style>
+		
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-RGX17JQ8HB"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+            function gtag() {
+            dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-RGX17JQ8HB');
+		</script>
+	</head>
+	<link rel="stylesheet" id="style-css" href="https://www.gp-digital.org/wp-content/themes/orionstudio2/style.css" type="text/css">
+	<body>
+					<div class="navbar__banner-top">
+	<div class="container navbar__banner">
+				<div class="navbar__newsletter" onclick="openNewsletter()">
+				GET UPDATES
+
+				<svg width="23" height="16" viewbox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0 0V16H22.2609V0H0ZM18.9403 1.77778L11.1304 8.57778L3.32058 1.77778H18.9403ZM1.85507 2.89778L5.50029 6.07111L1.85507 11.9022V2.89778ZM2.56928 14.2222L6.90087 7.29778L11.1304 10.9778L15.36 7.29778L19.6916 14.2222H2.56928ZM20.4058 11.9022L16.7606 6.07111L20.4058 2.89778V11.9022Z" fill="white"/>
+				</svg>
+
+			</div>
+			<div class="navbar__socials">
+				<a target="_blank" href="https://twitter.com/globalpartnersd">
+					<svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12.2188 1.26929H14.4678L9.55445 6.88495L15.3346 14.5266H10.8088L7.26399 9.89198L3.20793 14.5266H0.95759L6.21292 8.52002L0.667969 1.26929H5.30871L8.5129 5.50551L12.2188 1.26929ZM11.4295 13.1805H12.6757L4.63156 2.54471H3.29428L11.4295 13.1805Z" fill="white"/>
+					</svg>
+				</a>
+				<a target="_blank" href="https://www.linkedin.com/company/global-partners-digital/">
+					<svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M14.0952 0H1.90476C0.853333 0 0 0.853333 0 1.90476V14.0952C0 15.1467 0.853333 16 1.90476 16H14.0952C15.1467 16 16 15.1467 16 14.0952V1.90476C16 0.853333 15.1467 0 14.0952 0ZM4.95238 6.09524V13.3333H2.66667V6.09524H4.95238ZM2.66667 3.98857C2.66667 3.45524 3.12381 3.04762 3.80952 3.04762C4.49524 3.04762 4.92571 3.45524 4.95238 3.98857C4.95238 4.5219 4.52571 4.95238 3.80952 4.95238C3.12381 4.95238 2.66667 4.5219 2.66667 3.98857ZM13.3333 13.3333H11.0476C11.0476 13.3333 11.0476 9.80571 11.0476 9.52381C11.0476 8.7619 10.6667 8 9.71428 7.98476H9.68381C8.7619 7.98476 8.38095 8.76952 8.38095 9.52381C8.38095 9.87048 8.38095 13.3333 8.38095 13.3333H6.09524V6.09524H8.38095V7.07048C8.38095 7.07048 9.11619 6.09524 10.5943 6.09524C12.1067 6.09524 13.3333 7.13524 13.3333 9.2419V13.3333Z" fill="white"/>
+					</svg>
+				</a>
+			</div>
+		</div></div>
+
+<script>
+	function openNewsletter() {
+      document.getElementById('gdpr-box').style.display = "flex";
+    }
+</script>
+
+
+<header class="navbar" x-data="{ menuOpen : false, searchOpen : false }" :class="menuOpen && 'menuIsOpen'">
+	<div class="container navbar__container">
+				<a class="navbar__logo" :class="searchOpen && 'navbar__logo--searchOpen'" href="https://www.gp-digital.org"><img src="https://www.gp-digital.org/wp-content/uploads/2022/11/logo.svg" alt="logo"></a>
+			<div class="navbar__menus" :class="searchOpen && 'navbar__menus--searchOpen'">
+				<div class="navbar__menus-top">
+											<ul class="navbar__menu navbar__menu--secondary">
+															<li class="navbar__item navbar__item" @click="menuOpen = ! menuOpen">
+									<a href="https://www.gp-digital.org/about/" class="small navbar__link--secondary ">
+										About
+									</a>
+								</li>
+															<li class="navbar__item navbar__item" @click="menuOpen = ! menuOpen">
+									<a href="https://www.gp-digital.org/advisory-services/" class="small navbar__link--secondary ">
+										Advisory Services
+									</a>
+								</li>
+															<li class="navbar__item navbar__item" @click="menuOpen = ! menuOpen">
+									<a href="https://www.gp-digital.org/careers/" class="small navbar__link--secondary ">
+										Careers
+									</a>
+								</li>
+															<li class="navbar__item navbar__item" @click="menuOpen = ! menuOpen">
+									<a href="https://www.gp-digital.org/contact/" class="small navbar__link--secondary ">
+										Contact
+									</a>
+								</li>
+													</ul>
+					
+					<button class="navbar__burger" :class="menuOpen && 'navbar__burger--active'" @click="menuOpen = ! menuOpen" aria-label="Menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+
+
+					<div class="navbar__search">
+						<form id="search__form" role="search" class="navbar__search-form" method="get" action="https://www.gp-digital.org" :class="searchOpen && 'navbar__search-form--open'">
+							<input class="navbar__search-field" name="s" type="text" placeholder="Search">
+							<input class="hidden" type="submit" value="">
+							<div class="navbar__icons-wrapper">
+								<svg @click="searchOpen = ! searchOpen" x-show="!searchOpen" class="navbar__search-icon" width="17" height="17" viewbox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7.18982 0C3.33212 0 0.189819 3.1423 0.189819 7C0.189819 10.8577 3.33212 14 7.18982 14C8.86738 14 10.408 13.4043 11.6154 12.4154L15.7949 16.5949C15.8594 16.6621 15.9367 16.7157 16.0221 16.7527C16.1076 16.7896 16.1996 16.8092 16.2928 16.8101C16.3859 16.8111 16.4783 16.7934 16.5645 16.7582C16.6507 16.723 16.7291 16.671 16.7949 16.6051C16.8608 16.5392 16.9128 16.4609 16.948 16.3747C16.9832 16.2885 17.0009 16.1961 16.9999 16.103C16.999 16.0098 16.9795 15.9178 16.9425 15.8323C16.9056 15.7468 16.8519 15.6696 16.7847 15.6051L12.6052 11.4256C13.5941 10.2182 14.1898 8.67756 14.1898 7C14.1898 3.1423 11.0475 0 7.18982 0ZM7.18982 1.4C10.2909 1.4 12.7898 3.89892 12.7898 7C12.7898 10.1011 10.2909 12.6 7.18982 12.6C4.08873 12.6 1.58982 10.1011 1.58982 7C1.58982 3.89892 4.08873 1.4 7.18982 1.4Z" fill="#213149"/>
+								</svg>
+								<svg @click="submitForm()" class="navbar__search-icon" x-show="searchOpen" width="17" height="17" viewbox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7.18982 0C3.33212 0 0.189819 3.1423 0.189819 7C0.189819 10.8577 3.33212 14 7.18982 14C8.86738 14 10.408 13.4043 11.6154 12.4154L15.7949 16.5949C15.8594 16.6621 15.9367 16.7157 16.0221 16.7527C16.1076 16.7896 16.1996 16.8092 16.2928 16.8101C16.3859 16.8111 16.4783 16.7934 16.5645 16.7582C16.6507 16.723 16.7291 16.671 16.7949 16.6051C16.8608 16.5392 16.9128 16.4609 16.948 16.3747C16.9832 16.2885 17.0009 16.1961 16.9999 16.103C16.999 16.0098 16.9795 15.9178 16.9425 15.8323C16.9056 15.7468 16.8519 15.6696 16.7847 15.6051L12.6052 11.4256C13.5941 10.2182 14.1898 8.67756 14.1898 7C14.1898 3.1423 11.0475 0 7.18982 0ZM7.18982 1.4C10.2909 1.4 12.7898 3.89892 12.7898 7C12.7898 10.1011 10.2909 12.6 7.18982 12.6C4.08873 12.6 1.58982 10.1011 1.58982 7C1.58982 3.89892 4.08873 1.4 7.18982 1.4Z" fill="#213149"/>
+								</svg>
+								<svg x-show="searchOpen" @click="searchOpen = ! searchOpen" class="navbar__search-close" width="15" height="16" viewbox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M14.4352 1.03977C14.2283 0.873742 13.9286 0.893536 13.7449 1.08535L7.40492 7.42536L1.0692 1.08964C1.05834 1.07777 1.0471 1.06653 1.03523 1.05567C0.93472 0.964001 0.801857 0.916301 0.666196 0.922662C0.530282 0.929023 0.402431 0.989192 0.310947 1.08977C0.219209 1.19034 0.17142 1.32324 0.177689 1.45915C0.184084 1.59493 0.244039 1.72261 0.344681 1.81415L6.6804 8.14987L0.340392 14.4899C0.241963 14.5855 0.186089 14.7164 0.185034 14.8536C0.184104 14.9906 0.237996 15.1224 0.334972 15.2193C0.431947 15.3163 0.563673 15.3702 0.700724 15.3693C0.8379 15.3682 0.968776 15.3123 1.06443 15.2139L7.40444 8.87391L13.7402 15.2096C13.8357 15.308 13.9666 15.3638 14.1038 15.3647C14.2408 15.3656 14.3726 15.3116 14.4696 15.2146C14.5667 15.1175 14.6206 14.9858 14.6198 14.8487C14.6188 14.7115 14.563 14.5807 14.4647 14.4851L8.12897 8.14938L14.469 1.80937C14.5756 1.70728 14.633 1.56427 14.6266 1.41687C14.6201 1.26934 14.5504 1.13193 14.4353 1.03976L14.4352 1.03977Z" fill="#213149"/>
+								</svg>
+							</div>
+						</form>
+					</div>
+				</div>
+									<ul class="navbar__menu navbar__menu--primary">
+																											<li class="navbar__item navbar__item--primary">
+								<a href="https://www.gp-digital.org/blogs/" class="navbar__link ">
+									Blogs
+								</a>
+
+															</li>
+																											<li class="navbar__item navbar__item--primary">
+								<a href="https://www.gp-digital.org/publications/" class="navbar__link ">
+									Publications
+								</a>
+
+															</li>
+																																																																																							<li class="navbar__item navbar__item--primary">
+								<a href="#" class="navbar__link ">
+									Trackers
+								</a>
+
+																	<div class="navbar__submenu-wrapper">
+
+										<ul class="navbar__submenu">
+																							<li class="nav-drop-item">
+													<a href="https://www.gp-digital.org/world-map-of-encryption/" target="" class="navbar__sub-link ">
+														World Map of Encryption
+													</a>
+												</li>
+																							<li class="nav-drop-item">
+													<a href="https://www.gp-digital.org/digital-governance-calendar/" target="" class="navbar__sub-link ">
+														Digital Governance Calendar
+													</a>
+												</li>
+																							<li class="nav-drop-item">
+													<a href="https://lexota.org/" target="_blank" class="navbar__sub-link ">
+														LEXOTA
+													</a>
+												</li>
+																							<li class="nav-drop-item">
+													<a href="https://www.gp-digital.org/oewg-positions-tracker/" target="" class="navbar__sub-link ">
+														OEWG  Positions Tracker
+													</a>
+												</li>
+																					</ul>
+									</div>
+															</li>
+																																																																																							<li class="navbar__item navbar__item--primary">
+								<a href="#" class="navbar__link ">
+									Hubs
+								</a>
+
+																	<div class="navbar__submenu-wrapper">
+
+										<ul class="navbar__submenu">
+																							<li class="nav-drop-item">
+													<a href="https://www.gp-digital.org/digital-governance-hub/" target="" class="navbar__sub-link ">
+														Digital Governance Hub
+													</a>
+												</li>
+																							<li class="nav-drop-item">
+													<a href="https://www.gp-digital.org/ai-policy-hub/" target="" class="navbar__sub-link ">
+														AI Hub
+													</a>
+												</li>
+																							<li class="nav-drop-item">
+													<a href="https://www.gp-digital.org/platform-governance-hub/" target="" class="navbar__sub-link ">
+														Platform Governance Hub
+													</a>
+												</li>
+																							<li class="nav-drop-item">
+													<a href="https://www.gp-digital.org/encryption-policy-hub/" target="" class="navbar__sub-link ">
+														Encryption Hub
+													</a>
+												</li>
+																					</ul>
+									</div>
+															</li>
+																											<li class="navbar__item navbar__item--primary">
+								<a href="https://www.gp-digital.org/newsletter/" class="navbar__link ">
+									Newsletter
+								</a>
+
+															</li>
+											</ul>
+							</div>
+		</div>
+
+	<div class="navbar__mobile" x-show="menuOpen" x-collapse>
+
+
+					<ul class="navbar__menu-mobile navbar__menu--primary">
+																			<li x-data="{ submenu1 : false }" class="navbar__item navbar__item--primary" @click="submenu1 = ! submenu1">
+
+													<a href="https://www.gp-digital.org/blogs/" class="navbar__link ">
+								Blogs
+							</a>
+						
+					</li>
+																			<li x-data="{ submenu2 : false }" class="navbar__item navbar__item--primary" @click="submenu2 = ! submenu2">
+
+													<a href="https://www.gp-digital.org/publications/" class="navbar__link ">
+								Publications
+							</a>
+						
+					</li>
+																																																															<li x-data="{ submenu3 : false }" class="navbar__item navbar__item--primary" @click="submenu3 = ! submenu3">
+
+													<div class="navbar__link ">
+								Trackers
+							</div>
+							<div class="navbar__submenu-wrapper" x-show="submenu3">
+								<ul class="navbar__submenu">
+																			<li class="nav-drop-item">
+											<a href="https://www.gp-digital.org/world-map-of-encryption/" target="" class="navbar__sub-link ">World Map of Encryption</a>
+										</li>
+																			<li class="nav-drop-item">
+											<a href="https://www.gp-digital.org/digital-governance-calendar/" target="" class="navbar__sub-link ">Digital Governance Calendar</a>
+										</li>
+																			<li class="nav-drop-item">
+											<a href="https://lexota.org/" target="_blank" class="navbar__sub-link ">LEXOTA</a>
+										</li>
+																			<li class="nav-drop-item">
+											<a href="https://www.gp-digital.org/oewg-positions-tracker/" target="" class="navbar__sub-link ">OEWG  Positions Tracker</a>
+										</li>
+																	</ul>
+							</div>
+						
+					</li>
+																																																															<li x-data="{ submenu4 : false }" class="navbar__item navbar__item--primary" @click="submenu4 = ! submenu4">
+
+													<div class="navbar__link ">
+								Hubs
+							</div>
+							<div class="navbar__submenu-wrapper" x-show="submenu4">
+								<ul class="navbar__submenu">
+																			<li class="nav-drop-item">
+											<a href="https://www.gp-digital.org/digital-governance-hub/" target="" class="navbar__sub-link ">Digital Governance Hub</a>
+										</li>
+																			<li class="nav-drop-item">
+											<a href="https://www.gp-digital.org/ai-policy-hub/" target="" class="navbar__sub-link ">AI Hub</a>
+										</li>
+																			<li class="nav-drop-item">
+											<a href="https://www.gp-digital.org/platform-governance-hub/" target="" class="navbar__sub-link ">Platform Governance Hub</a>
+										</li>
+																			<li class="nav-drop-item">
+											<a href="https://www.gp-digital.org/encryption-policy-hub/" target="" class="navbar__sub-link ">Encryption Hub</a>
+										</li>
+																	</ul>
+							</div>
+						
+					</li>
+																			<li x-data="{ submenu5 : false }" class="navbar__item navbar__item--primary" @click="submenu5 = ! submenu5">
+
+													<a href="https://www.gp-digital.org/newsletter/" class="navbar__link ">
+								Newsletter
+							</a>
+						
+					</li>
+							</ul>
+		
+		<div class="navbar__mobile-bottom">
+			<div>
+									<ul class="navbar__menu-mobile navbar__menu-mobile--secondary navbar__menu--secondary">
+													<li class="navbar__item navbar__item" @click="menuOpen = ! menuOpen">
+								<a href="https://www.gp-digital.org/about/" target="" class="small navbar__link--secondary ">
+									About
+								</a>
+							</li>
+													<li class="navbar__item navbar__item" @click="menuOpen = ! menuOpen">
+								<a href="https://www.gp-digital.org/advisory-services/" target="" class="small navbar__link--secondary ">
+									Advisory Services
+								</a>
+							</li>
+													<li class="navbar__item navbar__item" @click="menuOpen = ! menuOpen">
+								<a href="https://www.gp-digital.org/careers/" target="" class="small navbar__link--secondary ">
+									Careers
+								</a>
+							</li>
+													<li class="navbar__item navbar__item" @click="menuOpen = ! menuOpen">
+								<a href="https://www.gp-digital.org/contact/" target="" class="small navbar__link--secondary ">
+									Contact
+								</a>
+							</li>
+											</ul>
+							</div>
+
+			
+        
+<a href="https://www.gp-digital.org/contact/" class="button small ">
+	Contact
+	
+            <svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.5303 7.03033C12.8232 6.73744 12.8232 6.26256 12.5303 5.96967L7.75736 1.1967C7.46447 0.903805 6.98959 0.903805 6.6967 1.1967C6.40381 1.48959 6.40381 1.96447 6.6967 2.25736L10.9393 6.5L6.6967 10.7426C6.40381 11.0355 6.40381 11.5104 6.6967 11.8033C6.98959 12.0962 7.46447 12.0962 7.75736 11.8033L12.5303 7.03033ZM6.55671e-08 7.25L12 7.25L12 5.75L-6.55671e-08 5.75L6.55671e-08 7.25Z" fill="#213149"/>
+        </svg>
+    </a>
+		</div>
+
+	</div>
+</header>				<div class="page-content">
+				<div class="single">
+
+		<div class="container single__container">
+					<div class="single__left">
+					<div>
+						<a href="https://www.gp-digital.org/publications/" class="single__back">
+							<svg width="16" height="12" viewbox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0.609766 5.25019C0.316873 5.54308 0.316873 6.01796 0.609766 6.31085L5.38274 11.0838C5.67563 11.3767 6.1505 11.3767 6.4434 11.0838C6.73629 10.7909 6.73629 10.3161 6.4434 10.0232L2.20076 5.78052L6.4434 1.53788C6.73629 1.24498 6.73629 0.770111 6.4434 0.477218C6.1505 0.184324 5.67563 0.184324 5.38274 0.477218L0.609766 5.25019ZM15.2271 5.03052L1.1401 5.03052L1.1401 6.53052L15.2271 6.53052L15.2271 5.03052Z" fill="#213149"/>
+							</svg>
+						</a>
+					</div>
+					<div>
+						<div class="single__date">05 Feb 2026</div>
+						<h1 class="single__title">Data access for researchers within digital platforms: Unpacking the human rights implications, practical opportunities and challenges for the Global Majority</h1>
+													<div class="single__author">By
+																		                                        										                                        	<b>Augustina Del Campo</b>
+                                        																									</div>
+												<div class="single__share">
+							SHARE:
+							<a target="_blank" href="https://twitter.com/share?url=https://www.gp-digital.org/publication/data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority/&text=Data access for researchers within digital platforms: Unpacking the human rights implications, practical opportunities and challenges for the Global Majority">
+								<svg width="30" height="24" viewbox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M29.534 2.84083C28.447 3.32358 27.2793 3.64845 26.0537 3.79497C27.3054 3.04529 28.2652 1.8583 28.7173 0.442993C27.5473 1.13702 26.2502 1.64135 24.8689 1.91396C23.7637 0.73605 22.1894 0 20.447 0C17.1007 0 14.3882 2.71362 14.3882 6.05878C14.3882 6.53358 14.4427 6.99702 14.5449 7.43887C9.50958 7.18671 5.04558 4.7741 2.05594 1.10748C1.53571 2.00256 1.23697 3.04302 1.23697 4.15505C1.23697 6.25642 2.30584 8.11132 3.93128 9.19722C2.93852 9.16541 2.00369 8.8928 1.18699 8.43958C1.18699 8.46571 1.18699 8.48956 1.18699 8.51569C1.18699 11.4519 3.27474 13.9009 6.04742 14.4563C5.53968 14.5949 5.00355 14.6687 4.45038 14.6687C4.06077 14.6687 3.68025 14.6301 3.31109 14.5608C4.08235 16.9678 6.32003 18.7204 8.97118 18.7693C6.8982 20.3947 4.28567 21.3636 1.44597 21.3636C0.957547 21.3636 0.474798 21.3352 0 21.2784C2.68181 22.997 5.86568 24 9.28809 24C20.4333 24 26.5262 14.7676 26.5262 6.76075C26.5262 6.49837 26.5205 6.23711 26.5092 5.977C27.6939 5.12168 28.7218 4.05509 29.534 2.84083Z" fill="#213149"/>
+								</svg>
+							</a>
+							<a target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.gp-digital.org/publication/data-access-for-researchers-within-digital-platforms-unpacking-the-human-rights-implications-practical-opportunities-and-challenges-for-the-global-majority/">
+								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M21.1429 0H2.85714C1.28 0 0 1.28 0 2.85714V21.1429C0 22.72 1.28 24 2.85714 24H21.1429C22.72 24 24 22.72 24 21.1429V2.85714C24 1.28 22.72 0 21.1429 0ZM7.42857 9.14286V20H4V9.14286H7.42857ZM4 5.98286C4 5.18286 4.68571 4.57143 5.71429 4.57143C6.74286 4.57143 7.38857 5.18286 7.42857 5.98286C7.42857 6.78286 6.78857 7.42857 5.71429 7.42857C4.68571 7.42857 4 6.78286 4 5.98286ZM20 20H16.5714C16.5714 20 16.5714 14.7086 16.5714 14.2857C16.5714 13.1429 16 12 14.5714 11.9771H14.5257C13.1429 11.9771 12.5714 13.1543 12.5714 14.2857C12.5714 14.8057 12.5714 20 12.5714 20H9.14286V9.14286H12.5714V10.6057C12.5714 10.6057 13.6743 9.14286 15.8914 9.14286C18.16 9.14286 20 10.7029 20 13.8629V20Z" fill="#213149"/>
+								</svg>
+							</a>
+						</div>
+						<div class="single__post-content single__post-content--publication"><p>This policy brief examines the European Union’s Digital Services Act (DSA), focusing on Article 40, which establishes a framework for researchers’ access to platform data, and the 2025 Delegated Act that sets out how this access operates in practice. It analyses how this new regime is being developed and implemented, the practical and legal challenges it raises, and its implications for researchers and civil society organisations, particularly in the Global Majority.</p>
+<p>The brief assesses whether Article 40 can meaningfully address long-standing information asymmetries between large online platforms, regulators, and the public, while identifying risks that may limit its effectiveness, including restrictive research access, procedural barriers, and unintended impacts on freedom of expression. Bringing a Global Majority perspective often missing from debates around the DSA, the paper explores how Article 40 may shape future data-access and platform governance models beyond Europe, highlighting both its potential and its pitfalls.</p>
+<p>The policy brief concludes with reflections on how data-access regimes can be designed and implemented in more inclusive, context-sensitive, and rights-respecting ways.</p>
+</div>
+					</div>
+				</div>
+				<div class="single__sidebar single__sidebar-download">
+                                            <a class="single__sidebar-download-box" href="https://www.gp-digital.org/wp-content/uploads/2026/03/Data-access-for-researchers-within-Digital-Platforms_V-5-Feb-21_10_-1-1.pdf" target="_blank">
+                            DOWNLOAD PDF
+                            <div class="arrow-circle arrow-circle--light">
+                                <svg width="13" height="15" viewbox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.22497 14.7314C6.53183 15.0096 7.02933 15.0096 7.33618 14.7314L12.3366 10.1973C12.6435 9.91903 12.6435 9.46792 12.3366 9.18968C12.0298 8.91145 11.5323 8.91145 11.2254 9.18968L6.78058 13.22L2.33575 9.18968C2.0289 8.91145 1.53139 8.91145 1.22454 9.18968C0.917687 9.46792 0.917687 9.91903 1.22454 10.1973L6.22497 14.7314ZM5.99484 0.140625V14.2276H7.56632V0.140625H5.99484Z" fill="#213149"/>
+                                </svg>
+                            </div>
+                        </a>
+                        <img width="1059" height="1497" src="https://www.gp-digital.org/wp-content/uploads/2026/02/CLEAN-COPY-Data-access-for-researchers-within-Digital-Platforms_V-5-Feb-21_10_-1-1-part-1-pdf.jpg" class="attachment-full size-full" alt="" decoding="async" fetchpriority="high" />
+                    
+
+                    
+				</div>
+			</div>	</div>
+
+		</div>
+					<div id="gdpr-box" class="cookies-accept">
+	<section class="newsletter popup">
+		<button class="gdpr-button-accept">
+			<svg width="16" height="17" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<line x1="0.707107" y1="1.29289" x2="14.8492" y2="15.435" stroke="white" stroke-width="2"/>
+				<line x1="14.7071" y1="1.70711" x2="0.707107" y2="15.7071" stroke="white" stroke-width="2"/>
+			</svg>
+		</button>
+		<div class="newsletter__wrapper">
+			<div class="newsletter__index">
+				<h2 class="newsletter__title">The Digest</h2>
+				<div class="newsletter__subtitle">Sign up for the GPD Newsletter</div>
+									<script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.12.5 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-6433" method="post" data-id="6433" data-name="Newsletter" ><div class="mc4wp-form-fields"><p>
+    <input type="text" name="FNAME" placeholder="Name" required>
+	<input type="email" name="EMAIL" placeholder="Email" required />
+</p>
+<p class="newsletter__agree">
+     By signing up, you agree to our <a href="/legal/terms-of-use/" target="_blank">Privacy Policy</a>
+</p>
+
+<p>
+	<input type="submit" class="button" value="Sign up" />
+</p></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1778754193" /><input type="hidden" name="_mc4wp_form_id" value="6433" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin -->
+							</div>
+		</div>
+	</section>
+</div>
+
+<footer class="footer">
+	<div class="container footer__container">
+				<div class="footer__top">
+				<div class="footer__left">
+					<img width="96" height="96" src="https://www.gp-digital.org/wp-content/uploads/2022/11/logo-minify.svg" class="attachment-full size-full" alt="" decoding="async" />
+					<div class="footer__address">
+						167-169 Great Portland Street<br />
+Fifth Floor<br />
+London<br />
+W1W 5PF
+					</div>
+				</div>
+				<div class="footer__middle">
+											<ul class="footer__menu">
+															<li class="footer__item">
+									<a href="https://www.gp-digital.org/about/" class="footer__link h2">
+										About
+									</a>
+								</li>
+															<li class="footer__item">
+									<a href="https://www.gp-digital.org/careers/" class="footer__link h2">
+										Careers
+									</a>
+								</li>
+															<li class="footer__item">
+									<a href="https://www.gp-digital.org/blogs/" class="footer__link h2">
+										Blogs
+									</a>
+								</li>
+															<li class="footer__item">
+									<a href="https://www.gp-digital.org/publications/" class="footer__link h2">
+										Publications
+									</a>
+								</li>
+															<li class="footer__item">
+									<a href="https://www.gp-digital.org/newsletter/" class="footer__link h2">
+										Newsletter
+									</a>
+								</li>
+													</ul>
+									</div>
+				<div class="footer__right">
+					
+        
+<a href="mailto:info@gp-digital.org" class="button small footer__container">
+	Contact
+	
+            <svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.5303 7.03033C12.8232 6.73744 12.8232 6.26256 12.5303 5.96967L7.75736 1.1967C7.46447 0.903805 6.98959 0.903805 6.6967 1.1967C6.40381 1.48959 6.40381 1.96447 6.6967 2.25736L10.9393 6.5L6.6967 10.7426C6.40381 11.0355 6.40381 11.5104 6.6967 11.8033C6.98959 12.0962 7.46447 12.0962 7.75736 11.8033L12.5303 7.03033ZM6.55671e-08 7.25L12 7.25L12 5.75L-6.55671e-08 5.75L6.55671e-08 7.25Z" fill="#213149"/>
+        </svg>
+    </a>
+					<div class="footer__socials">
+						<a href="https://www.linkedin.com/company/global-partners-digital/" target="_blank" class="footer__socials-icon">
+							<svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M18.119 0.5H2.88095C1.56667 0.5 0.5 1.56667 0.5 2.88095V18.119C0.5 19.4333 1.56667 20.5 2.88095 20.5H18.119C19.4333 20.5 20.5 19.4333 20.5 18.119V2.88095C20.5 1.56667 19.4333 0.5 18.119 0.5ZM6.69048 8.11905V17.1667H3.83333V8.11905H6.69048ZM3.83333 5.48571C3.83333 4.81905 4.40476 4.30952 5.2619 4.30952C6.11905 4.30952 6.65714 4.81905 6.69048 5.48571C6.69048 6.15238 6.15714 6.69048 5.2619 6.69048C4.40476 6.69048 3.83333 6.15238 3.83333 5.48571ZM17.1667 17.1667H14.3095C14.3095 17.1667 14.3095 12.7571 14.3095 12.4048C14.3095 11.4524 13.8333 10.5 12.6429 10.481H12.6048C11.4524 10.481 10.9762 11.4619 10.9762 12.4048C10.9762 12.8381 10.9762 17.1667 10.9762 17.1667H8.11905V8.11905H10.9762V9.33809C10.9762 9.33809 11.8952 8.11905 13.7429 8.11905C15.6333 8.11905 17.1667 9.41905 17.1667 12.0524V17.1667Z" fill="#2C3231"/>
+							</svg>
+						</a>
+						<a href="https://twitter.com/globalpartnersd" target="_blank" class="footer__socials-icon">
+							<svg width="26" height="21" viewbox="0 0 26 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M25.445 2.86736C24.5391 3.26965 23.566 3.54037 22.5447 3.66248C23.5878 3.03774 24.3877 2.04858 24.7644 0.869161C23.7894 1.44751 22.7085 1.86779 21.5574 2.09496C20.6364 1.11337 19.3245 0.5 17.8725 0.5C15.0839 0.5 12.8235 2.76135 12.8235 5.54899C12.8235 5.94465 12.8689 6.33085 12.9541 6.69906C8.75797 6.48892 5.03796 4.47842 2.5466 1.4229C2.11307 2.1688 1.86412 3.03585 1.86412 3.96254C1.86412 5.71369 2.75484 7.25943 4.10938 8.16435C3.28208 8.13784 2.50306 7.91067 1.82247 7.53299C1.82247 7.55476 1.82247 7.57464 1.82247 7.59641C1.82247 10.0433 3.56226 12.0841 5.87283 12.5469C5.44972 12.6624 5.00294 12.724 4.54196 12.724C4.21729 12.724 3.90019 12.6918 3.59255 12.634C4.23527 14.6398 6.10001 16.1004 8.30929 16.1411C6.58181 17.4956 4.40471 18.303 2.03829 18.303C1.63127 18.303 1.22898 18.2794 0.833313 18.232C3.06816 19.6642 5.72138 20.5 8.57339 20.5C17.8611 20.5 22.9385 12.8063 22.9385 6.13396C22.9385 5.91531 22.9337 5.6976 22.9243 5.48083C23.9115 4.76807 24.7682 3.87924 25.445 2.86736Z" fill="#2C3231"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer__bottom">
+				<div class="copyright small">© Copyright Global Partners Digital Limited, Company number: 10573080, VAT number: 309 3633 07</div>
+				<ul>
+											<li class="footer__item-links">
+							<a href="https://www.gp-digital.org/legal/cookies/" class="footer__link">
+								Cookies
+							</a>
+						</li>
+											<li class="footer__item-links">
+							<a href="https://www.gp-digital.org/legal/accessibility/" class="footer__link">
+								Accessibility
+							</a>
+						</li>
+											<li class="footer__item-links">
+							<a href="https://www.gp-digital.org/legal/terms-of-use/" class="footer__link">
+								Terms of use
+							</a>
+						</li>
+									</ul>
+			</div>
+
+		</div></footer>
+				<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/orionstudio2/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>(function() {function maybePrefixUrlField () {
+  const value = this.value.trim()
+  if (value !== '' && value.indexOf('http') !== 0) {
+    this.value = 'http://' + value
+  }
+}
+
+const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
+for (let j = 0; j < urlFields.length; j++) {
+  urlFields[j].addEventListener('blur', maybePrefixUrlField)
+}
+})();</script><script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/collapse-alpine.js?ver=1.0.0" id="alpine-collapse-js"></script>
+<script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/alpine.js?ver=1.0.0" id="alpine-js"></script>
+<script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/jquery.cookie.js?ver=1.0.0" id="jquery-cookie-js"></script>
+<script type="text/javascript" src="https://www.gp-digital.org/wp-content/themes/orionstudio2/js/main.js?ver=1.0.0" id="main-js"></script>
+<script type="text/javascript" defer src="https://www.gp-digital.org/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.12.5" id="mc4wp-forms-api-js"></script>
+
+	</body>
+</html>

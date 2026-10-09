@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{/* Índice de etiquetas (/tags/): todas, con su cantidad, de la más usada a la menos usada. */}}
+{{ $terms := .Data.Terms.ByCount }}
+<section class="section-hub tag-page tag-index">
+  <header class="section-hub__header">
+    <div class="section-hub__header-text">
+      <h1 class="section-hub__title">{{ i18n "tags_title" }}</h1>
+      <p class="tag-page__meta">{{ i18n "tags_count" (len $terms) }}</p>
+    </div>
+  </header>
+  <div class="section-hub__blocks">
+    <section class="section-block">
+      <ul class="tag-chips tag-chips--index">
+        {{ range $terms }}
+          <li>
+            <a class="tag-chip" href="{{ .Page.RelPermalink }}">
+              {{ partial "func/term-label.html" .Page }}
+              <span class="tag-chip__count">{{ .Count }}</span>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+  </div>
+</section>
+{{ end }}

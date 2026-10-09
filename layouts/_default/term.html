@@ -1,0 +1,127 @@
+{{ define "main" }}
+{{/* Página de una etiqueta (/tags/SLUG/). Reusa el header y las tarjetas de los hubs. */}}
+{{ $initialVisible := 10 }}
+{{ $term := . }}
+{{ $pages := .Pages.ByDate.Reverse }}
+{{ $count := len $pages }}
+{{ $termKey := .Data.Term | default .Title }}
+{{ $termLabel := partial "func/term-label.html" . }}
+{{ $listID := printf "tag-list-%s" .Lang }}
+
+{{/* Etiquetas que aparecen junto a ésta, ordenadas por frecuencia */}}
+{{ $related := dict }}
+{{ range $pages }}
+  {{ range .Params.tags }}
+    {{ if ne (urlize .) (urlize $termKey) }}
+      {{ $related = merge $related (dict . (add (index $related . | default 0) 1)) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $relatedList := slice }}
+{{ range $name, $n := $related }}
+  {{ $relatedList = $relatedList | append (dict "name" $name "n" $n) }}
+{{ end }}
+{{ $relatedList = first 12 (sort $relatedList "n" "desc") }}
+
+{{ $years := slice }}
+{{ range $pages }}{{ if not .Date.IsZero }}{{ $years = $years | append .Date.Year }}{{ end }}{{ end }}
+{{ $years = $years | uniq | sort }}
+
+<section class="section-hub tag-page">
+  <header class="section-hub__header">
+    <div class="section-hub__header-text">
+      <p class="tag-page__eyebrow">
+        <a href="{{ "/tags/" | relLangURL }}">{{ i18n "tag_eyebrow" }}</a>
+      </p>
+      <h1 class="section-hub__title">{{ $termLabel }}</h1>
+      <p class="tag-page__meta">
+        {{ i18n "tag_count" $count }}
+        {{ with $years }}
+          {{ $first := index . 0 }}{{ $last := index . (sub (len .) 1) }}
+          <span aria-hidden="true">·</span>
+          {{ if eq $first $last }}{{ $first }}{{ else }}{{ $first }}–{{ $last }}{{ end }}
+        {{ end }}
+      </p>
+      {{ with .Content }}
+        <div class="section-hub__description">{{ . }}</div>
+      {{ end }}
+    </div>
+  </header>
+
+  <div class="section-hub__blocks">
+    {{ with $relatedList }}
+      <nav class="tag-page__related" aria-label="{{ i18n "tag_related" }}">
+        <p class="tag-page__related-title">{{ i18n "tag_related" }}</p>
+        <ul class="tag-chips">
+          {{ range . }}
+            <li>
+              <a class="tag-chip" href="{{ (printf "/tags/%s/" (.name | urlize)) | relLangURL }}">
+                {{ i18n (printf "tag_%s" .name) | default .name | strings.FirstUpper }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </nav>
+    {{ end }}
+
+    <section class="section-block">
+      {{ if gt $count 0 }}
+        <ul id="{{ $listID }}" class="section-block__list" data-hub-list data-load-step="{{ $initialVisible }}">
+          {{ range $idx, $page := $pages }}
+            {{ $img := partial "func/page-image.html" $page }}
+            <li
+              class="section-block__item{{ if $img }} section-block__item--media-right{{ else }} tag-page__item--text{{ end }}{{ if ge $idx $initialVisible }} is-hub-hidden{{ end }}"
+              {{ if ge $idx $initialVisible }}hidden{{ end }}
+            >
+              <div class="section-block__body">
+                {{ $others := slice }}
+                {{ range $page.Params.tags }}
+                  {{ if ne (urlize .) (urlize $termKey) }}{{ $others = $others | append . }}{{ end }}
+                {{ end }}
+                {{ with $others }}
+                  <div class="section-block__tags">
+                    {{ range first 3 . }}
+                      <a class="section-block__tag" href="{{ (printf "/tags/%s/" (. | urlize)) | relLangURL }}">{{ i18n (printf "tag_%s" .) | default . }}</a>
+                    {{ end }}
+                  </div>
+                {{ end }}
+                <h2 class="section-block__title">
+                  <a class="section-block__link" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+                </h2>
+                {{ $excerpt := $page.Params.description | default $page.Params.abstract | default $page.Summary }}
+                {{ with $excerpt }}
+                  <p class="section-block__excerpt">{{ . | plainify | truncate 300 }}</p>
+                {{ end }}
+                {{ $hasAuthor := $page.Params.author }}
+                {{ $hasDate := not $page.Date.IsZero }}
+                {{ if or $hasAuthor $hasDate }}
+                  <div class="section-block__byline">
+                    {{ with $page.Params.author }}
+                      <span class="section-block__by">{{ i18n "byline" }} {{ partial "author-links.html" (dict "authors" . "context" $page) }}</span>
+                    {{ end }}
+                    {{ if $hasDate }}
+                      <time class="section-block__date" datetime="{{ $page.Date.Format "2006-01-02" }}">{{ partial "date-es.html" $page.Date }}</time>
+                    {{ end }}
+                  </div>
+                {{ end }}
+              </div>
+              {{ with $img }}
+                <div class="section-block__media">
+                  <img src="{{ . | relURL }}" alt="" loading="lazy">
+                </div>
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
+        {{ if gt $count $initialVisible }}
+          <button type="button" class="section-block__load-more" data-hub-load-more data-hub-target="{{ $listID }}" hidden>
+            {{ i18n "hub_load_more" }}
+          </button>
+        {{ end }}
+      {{ else }}
+        <div class="section-block__content">{{ i18n "hub_empty" }}</div>
+      {{ end }}
+    </section>
+  </div>
+</section>
+{{ end }}

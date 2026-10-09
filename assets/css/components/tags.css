@@ -1,0 +1,142 @@
+/* Páginas de etiquetas: /tags/ y /tags/SLUG/ (layouts/_default/term.html, taxonomy.html) */
+
+.tag-page__eyebrow {
+  margin: 0 0 0.5rem;
+  font-family: 'Inter';
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tag-page__eyebrow a {
+  color: var(--cele);
+  text-decoration: none;
+}
+
+.tag-page__eyebrow a:hover,
+.tag-page__eyebrow a:focus-visible {
+  text-decoration: underline;
+}
+
+.tag-page .section-hub__title {
+  margin: 0;
+}
+
+.tag-page__meta {
+  margin: 0.75rem 0 0;
+  font-family: 'Inter';
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #7a7a7a;
+}
+
+.tag-page__related {
+  padding-top: 0.5rem;
+}
+
+.tag-page__related-title {
+  margin: 0 0 0.6rem;
+  font-family: 'Inter';
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--neutral-600);
+}
+
+.tag-chips {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: 999px;
+  font-family: 'Inter';
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--neutral-900);
+  text-decoration: none;
+  background: #fff;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.tag-chip:hover,
+.tag-chip:focus-visible {
+  border-color: var(--cele);
+  color: var(--cele);
+}
+
+.tag-chip__count {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--neutral-600);
+}
+
+.tag-chips--index {
+  gap: 0.6rem;
+}
+
+/* La lista: sin columna de imagen cuando la entrada no tiene una */
+.tag-page .section-block {
+  border-top: none;
+  padding-top: 0;
+}
+
+.tag-page .section-block__item.tag-page__item--text {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 48rem;
+}
+
+.tag-page .section-block__link {
+  font-size: clamp(1.25rem, 2.6vw, 1.6rem);
+}
+
+.tag-page .section-block__excerpt {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  padding-top: 0.2rem;
+}
+
+.tag-page .section-block__byline {
+  font-size: 0.85rem;
+}
+
+.tag-page .section-block__tags {
+  margin-top: 0;
+}
+
+a.section-block__tag {
+  text-decoration: none;
+  padding-bottom: 0.4rem;
+  font-size: 0.8rem;
+}
+
+a.section-block__tag:hover,
+a.section-block__tag:focus-visible {
+  text-decoration: underline;
+}
+
+.tag-page .section-block__media {
+  max-height: 9rem;
+}
+
+/* Los títulos de las tarjetas son h2: sin la franja roja de .section-block h2 */
+.tag-page .section-block h2.section-block__title {
+  padding-bottom: 0;
+}
+
+.tag-page .section-block h2.section-block__title::after {
+  content: none;
+}

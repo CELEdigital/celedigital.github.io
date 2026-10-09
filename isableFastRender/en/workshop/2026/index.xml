@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshop 2026 on CELE</title>
+    <link>http://localhost:52201/en/workshop/2026/</link>
+    <description>Recent content in Workshop 2026 on CELE</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:52201/en/workshop/2026/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Program 2026</title>
+      <link>http://localhost:52201/en/workshop/2026/program2026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52201/en/workshop/2026/program2026/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;&#34;&gt;General program (PDF)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;&#34;&gt;Reading materials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;&#34;&gt;Registration form&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Links 2026</title>
+      <link>http://localhost:52201/en/workshop/2026/links2026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52201/en/workshop/2026/links2026/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;&#34;&gt;Application form&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;&#34;&gt;Shared workshop folder&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;&#34;&gt;Team contact&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

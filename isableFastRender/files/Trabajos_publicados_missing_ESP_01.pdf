@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es-ES" xml:lang="es-ES">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vista de Redes de influencia: Análisis de la jurisprudencia civil argentina en materia de responsabilidad de intermediarios</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.3.0.8">
+<link rel="alternate" type="application/atom+xml" href="https://rchdt.uchile.cl/index.php/RCHDT/gateway/plugin/AnnouncementFeedGatewayPlugin/atom">
+<link rel="alternate" type="application/rdf+xml" href="https://rchdt.uchile.cl/index.php/RCHDT/gateway/plugin/AnnouncementFeedGatewayPlugin/rss">
+<link rel="alternate" type="application/rss+xml" href="https://rchdt.uchile.cl/index.php/RCHDT/gateway/plugin/AnnouncementFeedGatewayPlugin/rss2">
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=646fd9bf413e9c001905a282&product=sop' async='async'></script><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y48R5ZKVB5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y48R5ZKVB5');
+</script><meta name="google-site-verification" content="OtH_ZYyg9abSimOwYB59oacbQyBd1S0t8jl9_V3fwLY" />
+	<link rel="stylesheet" href="https://rchdt.uchile.cl/index.php/RCHDT/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://rchdt.uchile.cl/index.php/RCHDT/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://rchdt.uchile.cl/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.8" type="text/css" /><link rel="stylesheet" href="https://rchdt.uchile.cl/plugins/themes/uchileSisib/styles/base.css?v=3.3.0.8" type="text/css" /><link rel="stylesheet" href="https://rchdt.uchile.cl/public/journals/124/styleSheet.css?d=2022-06-09+20%3A47%3A55" type="text/css" />
+	<script src="https://rchdt.uchile.cl/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.8" type="text/javascript"></script><script src="https://rchdt.uchile.cl/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.8" type="text/javascript"></script><script src="https://rchdt.uchile.cl/plugins/themes/uchileSisib/js/lib/bootstrap/bootstrap.js?v=3.3.0.8" type="text/javascript"></script><script src="https://rchdt.uchile.cl/plugins/themes/uchileSisib/js/main.js?v=3.3.0.8" type="text/javascript"></script><script src="https://www.googletagmanager.com/gtag/js?id=UA-18036197-40" type="text/javascript"></script><script type="text/javascript">
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-18036197-40');</script>
+</head>
+<body class="pkp_page_article pkp_op_view">
+
+		<header class="header_view">
+
+		<a href="https://rchdt.uchile.cl/index.php/RCHDT/article/view/65368" class="return">
+			<span class="pkp_screen_reader">
+									Volver a los detalles del artículo
+							</span>
+		</a>
+
+		<a href="https://rchdt.uchile.cl/index.php/RCHDT/article/view/65368" class="title">
+			Redes de influencia: Análisis de la jurisprudencia civil argentina en materia de responsabilidad de intermediarios
+		</a>
+
+		<a href="https://rchdt.uchile.cl/index.php/RCHDT/article/download/65368/72153/256511" class="download" download>
+			<span class="label">
+				Descargar
+			</span>
+			<span class="pkp_screen_reader">
+				Descargar PDF
+			</span>
+		</a>
+
+	</header>
+
+	<script type="text/javascript">
+		// Creating iframe's src in JS instead of Smarty so that EZProxy-using sites can find our domain in $pdfUrl and do their rewrites on it.
+		$(document).ready(function() {
+			var urlBase = "https://rchdt.uchile.cl/plugins/generic/pdfJsViewer/pdf.js/web/viewer.html?file=";
+			var pdfUrl = "https:\/\/rchdt.uchile.cl\/index.php\/RCHDT\/article\/download\/65368\/72153\/256511";
+			$("#pdfCanvasContainer > iframe").attr("src", urlBase + encodeURIComponent(pdfUrl));
+		});
+	</script>
+
+	<div id="pdfCanvasContainer" class="galley_view">
+				<iframe src="" width="100%" height="100%" style="min-height: 500px;" title="PDF de Redes de influencia: Análisis de la jurisprudencia civil argentina en materia de responsabilidad de intermediarios: Análise da jurisprudência civil argentina sobre a responsabilidade dos intermediários" allowfullscreen webkitallowfullscreen></iframe>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,831 @@
+backend:
+  name: github
+  repo: CELEdigital/celedigital.github.io
+  branch: main
+  site_domain: celedigital.netlify.app
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+local_backend: true
+
+media_folder: "static/img"
+public_folder: "/img"
+
+# NOTE: Sveltia/Decap native i18n cannot represent this site's Hugo layout
+# (content/<locale>/<section>/), so each language uses its own explicit
+# collection. ES and EN versions of a piece are linked via `translationKey`.
+
+collections:
+
+  # ─────────────────────────────────────────
+  # POSTS (ES)
+  # ─────────────────────────────────────────
+  - name: "posts_es"
+    label: "Posts (ES)"
+    label_singular: "Post"
+    folder: "content/es/posts"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+
+    fields: &posts_fields
+      - label: "Título"
+        name: "title"
+        widget: "string"
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "URL del post: solo minúsculas, números y guiones"
+        pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
+
+      - label: "Fecha"
+        name: "date"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+
+      - label: "Descripción"
+        name: "description"
+        widget: "string"
+        required: false
+        hint: "Resumen breve visible en listados y SEO"
+
+      - label: "Autor/es"
+        name: "author"
+        widget: "list"
+        hint: "Identificador del autor (ej: CELE, mmdg, adc). Uno por línea."
+        field:
+          label: "Autor"
+          name: "author"
+          widget: "string"
+
+      - label: "Tipo de contenido"
+        name: "content_type"
+        widget: "select"
+        multiple: true
+        max: 1
+        default: ["blog"]
+        options:
+          - { label: "Blog / Análisis", value: "blog" }
+          - { label: "Mesa legislativa", value: "mesa" }
+          - { label: "Boletín", value: "boletin" }
+          - { label: "Newsletter DSA", value: "newsletter_dsa" }
+
+      - label: "Programa"
+        name: "programs"
+        widget: "select"
+        multiple: true
+        max: 1
+        required: false
+        default: ["policy"]
+        options:
+          - { label: "Policy", value: "policy" }
+          - { label: "Publicaciones", value: "publicaciones" }
+
+      - label: "Destacado en home"
+        name: "featured"
+        widget: "boolean"
+        default: false
+
+      # Los cuatro campos de newsletter se definen una sola vez, acá, y se
+      # referencian desde las demás colecciones (YAML no permite concatenar
+      # secuencias, pero sí reusar definiciones sueltas por anchor).
+      - &f_outputs
+        label: "Formatos de salida"
+        name: "outputs"
+        widget: "select"
+        multiple: true
+        required: false
+        default: ["html"]
+        hint: "Agregá 'Email / Newsletter' para generar la versión de email (.../email.html)"
+        options:
+          - { label: "Web (HTML)", value: "html" }
+          - { label: "Email / Newsletter", value: "email" }
+
+      - &f_newsletter_series
+        label: "Serie"
+        name: "newsletter_series"
+        widget: "select"
+        required: false
+        hint: "A qué newsletter pertenece este envío. Si se deja vacío, se deduce de la sección."
+        options:
+          - { label: "Noticias cruzando el mar", value: "noticias-cruzando-el-mar" }
+          - { label: "Boletín del Observatorio Legislativo", value: "observatorio" }
+
+      - &f_newsletter_number
+        label: "Número de newsletter"
+        name: "newsletter_number"
+        widget: "string"
+        required: false
+        hint: "Solo para email/newsletter. Ej: #9 · Enero 2025 (encabezado del email)"
+
+      - &f_tagline
+        label: "Bajada / tagline"
+        name: "tagline"
+        widget: "string"
+        required: false
+        hint: "Solo para email/newsletter. Subtítulo del encabezado (si está vacío, usa la descripción)"
+
+      - label: "Imagen"
+        name: "image"
+        widget: "image"
+        required: false
+        choose_url: true
+        hint: "Imagen de portada (se guarda en /img)"
+
+      - label: "Issues / Temas"
+        name: "issues"
+        widget: "select"
+        multiple: true
+        required: false
+        options:
+          - "Erosión democrática"
+          - "Plataformas"
+          - "Regulación y tecnología"
+          - "Violencias"
+
+      - label: "Región"
+        name: "region"
+        widget: "select"
+        required: false
+        options:
+          - { label: "América Latina", value: "latam" }
+          - { label: "Estados Unidos", value: "us" }
+          - { label: "Europa", value: "europa" }
+          - { label: "Global", value: "global" }
+
+      - label: "Países"
+        name: "country"
+        widget: "list"
+        required: false
+        hint: "Códigos ISO de dos letras (ej: AR, BR, US, CO)"
+        field:
+          label: "País"
+          name: "country"
+          widget: "string"
+
+      - label: "Placements (ubicaciones en hubs)"
+        name: "placements"
+        widget: "list"
+        required: false
+        hint: "Define en qué hub y en qué bloque aparece este post"
+        fields:
+          - label: "Hub"
+            name: "hub"
+            widget: "select"
+            options:
+              - { label: "Erosión democrática", value: "temas/erosion-democratica" }
+              - { label: "Plataformas", value: "temas/plataformas" }
+              - { label: "Regulación y tecnología", value: "temas/regulacion-y-tecnologia" }
+              - { label: "Violencias", value: "temas/violencias" }
+              - { label: "Región: América Latina", value: "region/america-latina" }
+              - { label: "Región: Europa", value: "region/europa" }
+              - { label: "Región: Global", value: "region/global" }
+          - label: "Bloque"
+            name: "block"
+            widget: "select"
+            default: "ultimas_noticias_analisis"
+            options:
+              - { label: "Destacado", value: "destacado" }
+              - { label: "Últimas noticias y análisis", value: "ultimas_noticias_analisis" }
+              - { label: "Publicaciones", value: "publicaciones" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "string"
+
+      - label: "Translation Key"
+        name: "translationKey"
+        widget: "string"
+        required: false
+        hint: "Mismo valor en la versión ES y EN para vincularlas (toggle de idioma)"
+
+      - label: "URL fuente"
+        name: "source_url"
+        widget: "string"
+        required: false
+        hint: "Solo para mesas: URL de la página original del evento"
+
+      - label: "Publicado originalmente en"
+        name: "originally_published_in"
+        widget: "string"
+        required: false
+        hint: "Medio donde se publicó originalmente. Admite enlaces Markdown, ej: [Infobae](https://www.infobae.com/...). Muestra una nota bajo la firma."
+
+      - label: "Tipo Hugo"
+        name: "type"
+        widget: "hidden"
+        default: "posts"
+
+      - label: "Cuerpo"
+        name: "body"
+        widget: "markdown"
+
+  # ─────────────────────────────────────────
+  # POSTS (EN)
+  # ─────────────────────────────────────────
+  - name: "posts_en"
+    label: "Posts (EN)"
+    label_singular: "Post"
+    folder: "content/en/posts"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    fields: *posts_fields
+
+
+  # ─────────────────────────────────────────
+  # NOTICIAS CRUZANDO EL MAR (ES)
+  # ─────────────────────────────────────────
+  - name: "noticias_cruzando_es"
+    label: "Noticias cruzando el mar (ES)"
+    label_singular: "Entrega"
+    folder: "content/es/noticias-cruzando-el-mar"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    fields: *posts_fields
+
+  # ─────────────────────────────────────────
+  # NOTICIAS CRUZANDO EL MAR (EN)
+  # ─────────────────────────────────────────
+  - name: "noticias_cruzando_en"
+    label: "Noticias cruzando el mar (EN)"
+    label_singular: "Issue"
+    folder: "content/en/noticias-cruzando-el-mar"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    fields: *posts_fields
+
+
+  # ─────────────────────────────────────────
+  # PUBLICACIONES / PAPERS (ES)
+  # ─────────────────────────────────────────
+  - name: "publicaciones_es"
+    label: "Publicaciones / Papers (ES)"
+    label_singular: "Publicación"
+    folder: "content/es/publicaciones"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+
+    fields: &publicaciones_fields
+      - label: "Título"
+        name: "title"
+        widget: "string"
+
+      - label: "Fecha"
+        name: "date"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+
+      - label: "Autor/es"
+        name: "author"
+        widget: "list"
+        field:
+          label: "Autor"
+          name: "author"
+          widget: "string"
+
+      - label: "Tipo de contenido"
+        name: "content_type"
+        widget: "select"
+        multiple: true
+        max: 1
+        default: ["research"]
+        options:
+          - { label: "Documento de posición", value: "position-paper" }
+          - { label: "Artículo de investigación", value: "research" }
+          - { label: "Informe de jurisprudencia", value: "jurisprudencia" }
+          - { label: "Informe legislativo", value: "informe-legislativo" }
+          - { label: "Compilación", value: "compilation" }
+
+      - label: "Programa"
+        name: "programs"
+        widget: "hidden"
+        default: ["publicaciones"]
+
+      - label: "SSRN ID"
+        name: "ssrn_id"
+        widget: "string"
+        required: false
+        hint: "Número de abstract en SSRN (ej: 5125874)"
+
+      - label: "SSRN URL"
+        name: "ssrn_url"
+        widget: "string"
+        required: false
+
+      - label: "Referencia"
+        name: "reference"
+        widget: "string"
+        required: false
+        hint: "Ej: CELE Research Paper No. 11"
+
+      - label: "Abstract"
+        name: "abstract"
+        widget: "text"
+        required: false
+
+      - label: "PDF (descarga)"
+        name: "file"
+        widget: "file"
+        required: false
+        media_folder: "/static/files"
+        public_folder: "/files"
+        hint: "Archivo PDF de la publicación. Se guarda en /static/files/ y se ofrece como botón de descarga."
+
+      - label: "Bibliografía (CSL-JSON)"
+        name: "references"
+        widget: "file"
+        required: false
+        media_folder: "/static/references"
+        public_folder: "/references"
+        hint: "Archivo JSON (CSL-JSON) con la bibliografía. Se guarda en /static/references/"
+
+      - label: "Estilo de cita (CSL)"
+        name: "csl"
+        widget: "select"
+        required: false
+        hint: "Estilo de citación para la bibliografía"
+        options:
+          - { label: "APA 7", value: "/csl/apa7.csl" }
+          - { label: "Bluebook (Law Review)", value: "/csl/bluebook-law-review_2.csl" }
+          - { label: "Chicago (autor-fecha)", value: "/csl/chicago-author-date_mobilization.csl" }
+          - { label: "Guía argentina de citas legales", value: "/csl/guia-argentina-de-citas-legales.csl" }
+          - { label: "OSCOLA", value: "/csl/oscola.csl" }
+
+      - label: "Issues / Temas"
+        name: "issues"
+        widget: "select"
+        multiple: true
+        required: false
+        options:
+          - "Erosión democrática"
+          - "Plataformas"
+          - "Regulación y tecnología"
+          - "Violencias"
+
+      - label: "Región"
+        name: "region"
+        widget: "select"
+        required: false
+        options:
+          - { label: "América Latina", value: "latam" }
+          - { label: "Estados Unidos", value: "us" }
+          - { label: "Europa", value: "europa" }
+          - { label: "Global", value: "global" }
+
+      - label: "Países"
+        name: "country"
+        widget: "list"
+        required: false
+        hint: "Códigos ISO de dos letras"
+        field:
+          label: "País"
+          name: "country"
+          widget: "string"
+
+      - label: "Placements (ubicaciones en hubs)"
+        name: "placements"
+        widget: "list"
+        required: false
+        hint: "Define en qué hub y en qué bloque aparece esta publicación"
+        fields:
+          - label: "Hub"
+            name: "hub"
+            widget: "select"
+            options:
+              - { label: "Erosión democrática", value: "temas/erosion-democratica" }
+              - { label: "Plataformas", value: "temas/plataformas" }
+              - { label: "Regulación y tecnología", value: "temas/regulacion-y-tecnologia" }
+              - { label: "Violencias", value: "temas/violencias" }
+              - { label: "Región: América Latina", value: "region/america-latina" }
+              - { label: "Región: Europa", value: "region/europa" }
+              - { label: "Región: Global", value: "region/global" }
+          - label: "Bloque"
+            name: "block"
+            widget: "select"
+            options:
+              - { label: "Destacado", value: "destacado" }
+              - { label: "Últimas noticias y análisis", value: "ultimas_noticias_analisis" }
+              - { label: "Publicaciones", value: "publicaciones" }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "string"
+
+      - label: "Translation Key"
+        name: "translationKey"
+        widget: "string"
+        required: false
+        hint: "Mismo valor en la versión ES y EN para vincularlas"
+
+      - label: "Cuerpo (opcional)"
+        name: "body"
+        widget: "markdown"
+        required: false
+
+  # ─────────────────────────────────────────
+  # PUBLICACIONES / PAPERS (EN) — content/en/publicaciones (URL /en/research/)
+  # ─────────────────────────────────────────
+  - name: "publicaciones_en"
+    label: "Publicaciones / Papers (EN)"
+    label_singular: "Publicación"
+    folder: "content/en/publicaciones"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    fields: *publicaciones_fields
+
+
+  # ─────────────────────────────────────────
+  # BOLETINES — OBSERVATORIO LEGISLATIVO (ES)
+  # ─────────────────────────────────────────
+  - name: "boletines_es"
+    label: "Boletines — Observatorio Legislativo (ES)"
+    label_singular: "Boletín"
+    folder: "content/es/observatorio-legislativo"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+
+    fields: &boletines_fields
+      - label: "Título"
+        name: "title"
+        widget: "string"
+        hint: "Ej: Boletín mensual Observatorio Legislativo | Junio 2024"
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "URL del boletín: solo minúsculas, números y guiones"
+        pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
+
+      - label: "Fecha"
+        name: "date"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+
+      - label: "Descripción"
+        name: "description"
+        widget: "string"
+        required: false
+
+      # El título y la bajada del editorial van como campos y no dentro del
+      # cuerpo para que el listado de boletines y el encabezado del email
+      # puedan reusarlos sin tener que salir a parsear el Markdown.
+      - label: "Título del editorial"
+        name: "editorial_titulo"
+        widget: "string"
+        required: false
+        hint: "Ej: La identificación obligatoria como técnica regulatoria"
+
+      - label: "Bajada del editorial"
+        name: "editorial_bajada"
+        widget: "text"
+        required: false
+        hint: "Una o dos líneas que expliquen el título. Va debajo, en cursiva."
+
+      - label: "Autor/es"
+        name: "author"
+        widget: "list"
+        field:
+          label: "Autor"
+          name: "author"
+          widget: "string"
+
+      - label: "Tipo de contenido"
+        name: "content_type"
+        widget: "hidden"
+        default: ["boletin"]
+
+      - label: "Programa"
+        name: "programs"
+        widget: "hidden"
+        default: ["policy"]
+
+      - label: "Tipo Hugo"
+        name: "type"
+        widget: "hidden"
+        default: "posts"
+
+      - label: "Destacado en home"
+        name: "featured"
+        widget: "boolean"
+        default: false
+
+      # Mismos campos de newsletter que "Noticias cruzando el mar":
+      # un boletín se envía por email exactamente igual que aquella serie.
+      - *f_outputs
+      - *f_newsletter_series
+      - *f_newsletter_number
+      - *f_tagline
+
+      - label: "Imagen"
+        name: "image"
+        widget: "image"
+        required: false
+        choose_url: true
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "string"
+
+      - label: "Translation Key"
+        name: "translationKey"
+        widget: "string"
+        required: false
+
+      - label: "Cuerpo"
+        name: "body"
+        widget: "markdown"
+        hint: >-
+          Sólo los párrafos del editorial. La cronología país por país se carga
+          más abajo, en "El mes, país por país", y se dibuja donde pongas el
+          bloque "Cronología del mes". Para el resumen de datos (totales, países
+          e impacto) usá el bloque "Resumen Observatorio": los números se
+          calculan solos al publicar, a partir de los CSV del Observatorio.
+
+      # ── La cronología país por país ──────────────────────────────────
+      # Va como dato y no como texto libre porque cada bullet es siempre el
+      # mismo registro. Cargándolo así, las etiquetas salen de una lista
+      # cerrada (nadie escribe "ACCESO A LA INFORMACION" sin tilde), las
+      # fechas no se tipean a mano, y web y email dibujan lo mismo.
+      #
+      # Estos campos existen sólo en las colecciones de boletines: cuelgan del
+      # ancla &boletines_fields, que usan boletines_es y boletines_en. Los
+      # posts, publicaciones y demás colecciones no los ven.
+      - label: "El mes, país por país"
+        name: "paises"
+        widget: "list"
+        required: false
+        label_singular: "País"
+        summary: "{{fields.pais}}"
+        hint: >-
+          Un bloque por país, en el orden en que se van a publicar. Un país sin
+          entradas se publica igual, diciendo "sin novedades legislativas": que
+          se haya mirado y no hubiera nada también es información.
+        fields:
+          - label: "País"
+            name: "pais"
+            widget: "select"
+            options:
+              - "Argentina"
+              - "Brasil"
+              - "Chile"
+              - "Colombia"
+              - "Ecuador"
+              - "Guatemala"
+              - "México"
+              - "Paraguay"
+              - "Perú"
+
+          - label: "Entradas"
+            name: "entradas"
+            widget: "list"
+            required: false
+            label_singular: "Entrada"
+            summary: "{{fields.fecha}} · {{fields.exp}}"
+            hint: "Dejalo vacío si el país no tuvo novedades este mes."
+            fields:
+              - label: "Fecha"
+                name: "fecha"
+                widget: "datetime"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+                hint: "La fecha de presentación, radicación o promulgación."
+
+              - label: "Tipo"
+                name: "tipo"
+                widget: "select"
+                default: "proyecto"
+                options:
+                  - { label: "Proyecto de ley", value: "proyecto" }
+                  - { label: "Ley sancionada", value: "ley" }
+                  - { label: "Decreto", value: "decreto" }
+                hint: >-
+                  Los proyectos salen sin marca; las leyes y decretos llevan un
+                  sello, porque son la excepción y conviene que se note.
+
+              - label: "N° de expediente"
+                name: "exp"
+                widget: "string"
+                required: false
+                hint: >-
+                  Ej: 3226-D-2026, 077/2026C, PL 4113/2026. Al publicar se
+                  verifica contra la matriz del Observatorio y avisa si no
+                  aparece (puede ser un error de tipeo, o que la planilla
+                  todavía no esté actualizada).
+
+              - label: "Link"
+                name: "url"
+                widget: "string"
+                required: false
+                hint: "La URL de la columna «Link» de la matriz."
+
+              - label: "Texto"
+                name: "texto"
+                widget: "text"
+                hint: >-
+                  Escribí $url donde vaya el enlace y el link se arma solo. Ej:
+                  Se presentó el [Proyecto de Ley 3226-D-2026]($url), que crea…
+
+              - label: "Etiquetas"
+                name: "etiquetas"
+                widget: "select"
+                multiple: true
+                max: 3
+                required: false
+                hint: "Hasta 3."
+                options:
+                  - { label: "Libertad de expresión", value: "libertad-de-expresion" }
+                  - { label: "Libertad de prensa", value: "libertad-de-prensa" }
+                  - { label: "Acceso a la información", value: "acceso-a-la-informacion" }
+                  - { label: "Protección de menores", value: "proteccion-de-menores" }
+                  - { label: "Inteligencia artificial", value: "inteligencia-artificial" }
+                  - { label: "Violencia de género", value: "violencia-de-genero" }
+                  - { label: "Discurso de odio", value: "discurso-de-odio" }
+                  - { label: "Plataformas digitales", value: "plataformas-digitales" }
+                  - { label: "Censura", value: "censura" }
+                  - { label: "Derecho a la privacidad", value: "privacidad" }
+                  - { label: "Derecho a la protesta", value: "protesta" }
+                  - { label: "Vigilancia", value: "vigilancia" }
+                  - { label: "Propiedad intelectual", value: "propiedad-intelectual" }
+                  - { label: "Publicidad oficial", value: "publicidad-oficial" }
+                  - { label: "Defensa del consumidor", value: "defensa-del-consumidor" }
+                  - { label: "Electoral", value: "electoral" }
+                  - { label: "Accesibilidad", value: "accesibilidad" }
+
+  # ─────────────────────────────────────────
+  # BOLETINES — OBSERVATORIO LEGISLATIVO (EN) — content/en/observatorio-legislativo
+  # ─────────────────────────────────────────
+  - name: "boletines_en"
+    label: "Newsletters — Legislative Observatory (EN)"
+    label_singular: "Newsletter"
+    folder: "content/en/observatorio-legislativo"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    fields: *boletines_fields
+
+
+  # ─────────────────────────────────────────
+  # AUTORES (ES)
+  # ─────────────────────────────────────────
+  - name: "autores_es"
+    label: "Autores (ES)"
+    label_singular: "Autor/a"
+    folder: "content/es/autores"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    identifier_field: "title"
+
+    fields: &autores_fields
+      - label: "Nombre completo"
+        name: "title"
+        widget: "string"
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "nombre-apellido (sin acentos ni caracteres especiales)"
+        pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
+
+      - label: "Draft (borrador)"
+        name: "draft"
+        widget: "boolean"
+        default: false
+
+      - label: "Tipo de autor"
+        name: "author_type"
+        widget: "select"
+        options:
+          - { label: "Staff", value: "staff" }
+          - { label: "Alumni", value: "alumni" }
+          - { label: "Friends / Colaboradores", value: "friends" }
+
+      - label: "Peso / Orden"
+        name: "weight"
+        widget: "number"
+        value_type: "int"
+        default: 99
+        hint: "Número menor aparece primero dentro de su tipo"
+
+      - label: "Rol / Cargo"
+        name: "role"
+        widget: "string"
+
+      - label: "Organización"
+        name: "organization"
+        widget: "string"
+        required: false
+
+      - label: "Ubicación"
+        name: "location"
+        widget: "string"
+        required: false
+        hint: "Ej: Buenos Aires, AR"
+
+      - label: "Foto"
+        name: "photo"
+        widget: "image"
+        required: false
+        choose_url: true
+
+      - label: "Bio corta"
+        name: "bio_short"
+        widget: "string"
+        hint: "Aparece junto al nombre en los posts"
+
+      - label: "Twitter"
+        name: "twitter_handle"
+        widget: "string"
+        required: false
+        hint: "Usuario sin @"
+
+      - label: "Bluesky"
+        name: "bluesky_handle"
+        widget: "string"
+        required: false
+
+      - label: "ORCID"
+        name: "orcid_number"
+        widget: "string"
+        required: false
+
+      - label: "Email"
+        name: "email"
+        widget: "object"
+        required: false
+        hint: "Se divide en usuario y dominio para evitar scrapers"
+        fields:
+          - label: "Usuario (antes del @)"
+            name: "local"
+            widget: "string"
+            required: false
+          - label: "Dominio (después del @)"
+            name: "domain"
+            widget: "string"
+            required: false
+          - label: "Mostrar ícono de email"
+            name: "show_icon"
+            widget: "boolean"
+            default: true
+          - label: "Email público"
+            name: "public"
+            widget: "boolean"
+            default: false
+
+      - label: "Translation Key"
+        name: "translationKey"
+        widget: "string"
+        required: false
+
+      - label: "Bio extensa"
+        name: "body"
+        widget: "markdown"
+        required: false
+
+  # ─────────────────────────────────────────
+  # AUTORES (EN)
+  # ─────────────────────────────────────────
+  - name: "autores_en"
+    label: "Autores (EN)"
+    label_singular: "Author"
+    folder: "content/en/autores"
+    create: true
+    format: "yaml-frontmatter"
+    extension: "md"
+    slug: "{{slug}}"
+    identifier_field: "title"
+    fields: *autores_fields

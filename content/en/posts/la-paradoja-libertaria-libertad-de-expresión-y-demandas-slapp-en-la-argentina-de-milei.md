@@ -23,8 +23,7 @@ country: []
 placements: []
 tags:
 - censura
-- libertad de expresión
-- SLAPP
+- slapps
 source_url: ''
 type: posts
 ---

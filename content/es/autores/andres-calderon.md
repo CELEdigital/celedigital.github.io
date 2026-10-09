@@ -3,7 +3,7 @@ translationKey: ''
 title: Andrés Calderón
 slug: andres-calderon
 draft: false
-author_type: staff
+author_type: friends
 weight: 99
 role: Researcher
 organization: ''

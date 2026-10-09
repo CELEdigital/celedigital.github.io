@@ -10,8 +10,7 @@ image: /img/shutterstock_416765146.jpg
 programs:
 - policy
 slug: quienes-defienden-la-libertad-de-expresion-en-america-latina
-tags:
-- libertad de expresión en américa latina
+tags: []
 title: '¿Quiénes defienden la libertad de expresión en América Latina?'
 translationKey: wp-14568
 type: posts

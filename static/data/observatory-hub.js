@@ -3,6 +3,7 @@
     if (!panel || panel.dataset.columnsReady === "true") return;
     if (panel.classList.contains("observatory-inline-panel--boletines")) return;
     if (panel.classList.contains("observatory-inline-panel--mesas")) return;
+    if (panel.classList.contains("observatory-inline-panel--colaboradores")) return;
 
     var children = Array.from(panel.children);
     if (!children.length) return;

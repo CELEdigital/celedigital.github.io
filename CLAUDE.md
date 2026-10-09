@@ -47,6 +47,9 @@ Panel inline nuevo, con el mismo patrón que Metodología/Objetivos (link con `d
 Falta la versión EN (`content/en/observatorio-legislativo/legitimate-aims.md`): el link y el panel están guardados con `{{ if $objetivosLegitimosPage }}`, así que en EN simplemente no aparecen hasta que exista el archivo.
 
 
+### 4b. Sección "Colaboradores" en Observatorio Legislativo
+Mismo patrón que Objetivos legítimos: link entre «Objetivos» y «Objetivos legítimos» + panel que inyecta el `.Content` de `content/es/observatorio-legislativo/colaboradores.md`. Guardado con `{{ if $colaboradoresPage }}`: en EN no aparece hasta que exista `collaborators.md`. El texto es un solo párrafo sin encabezados, así que en `observatory-hub.js` está exceptuado de `buildInlineColumns` (como Boletines y Mesas) para que use el ancho completo en vez de media columna. `colaboradores`/`collaborators` están en `$isObservatorySubpage` de `single.html`.
+
 ### 5. Columna «Objetivo legítimo» normalizada en los CSV
 Las tres columnas de objetivo legítimo de `proyectos_clean.csv` y `leyes_clean.csv` quedaron con una categoría de `objetivos-legitimos.md` por celda. De 92 valores crudos se pasó a **19 categorías**.
 

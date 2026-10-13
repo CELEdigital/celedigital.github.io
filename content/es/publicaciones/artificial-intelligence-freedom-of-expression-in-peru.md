@@ -31,4 +31,5 @@ placements:
     block: publicaciones
 tags:
   - publicaciones
+  - perú
 ---

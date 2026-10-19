@@ -10,7 +10,7 @@ programs:
   - publicaciones
 ssrn_id: ''
 ssrn_url: ''
-reference: Documento de Posición No. 20
+reference: Documento de Trabajo No. 20
 abstract: |-
   CELE, Amicus curiae en la Acción de tutela interpuesta por Ricardo Marín
   Rodríguez en contra de Carmen Felisa Ramírez Boscán (Representante a la

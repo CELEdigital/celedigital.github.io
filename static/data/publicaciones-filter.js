@@ -115,14 +115,53 @@
       });
     });
 
+    // Each type button gets a readable slug from its visible label
+    // ("Artículo de investigación" → "articulo-de-investigacion"), so a
+    // selection can be linked as /es/publicaciones/#articulo-de-investigacion.
+    function slugify(text) {
+      return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    }
+
+    function selectType(btn) {
+      var val = btn.getAttribute('data-pub-filter-type');
+      activeTypes = val ? [val] : [];
+      typeBtns.forEach(function (b) { b.classList.toggle('is-active', b === btn); });
+      applyFilter();
+    }
+
+    // Finds the button for a hash; accepts the label slug or the raw
+    // content_type value (#research), so links work in either form.
+    function typeBtnForHash(hash) {
+      var key = decodeURIComponent((hash || '').replace(/^#/, '')).toLowerCase();
+      if (!key) return null;
+      for (var i = 0; i < typeBtns.length; i++) {
+        var b = typeBtns[i];
+        var val = b.getAttribute('data-pub-filter-type');
+        if (!val) continue;
+        if (b._slug === key || val.toLowerCase() === key) return b;
+      }
+      return null;
+    }
+
     typeBtns.forEach(function (btn) {
+      btn._slug = btn.getAttribute('data-pub-filter-type') ? slugify(btn.textContent) : '';
       btn.addEventListener('click', function () {
-        var val = btn.getAttribute('data-pub-filter-type');
-        activeTypes = val ? [val] : [];
-        typeBtns.forEach(function (b) { b.classList.toggle('is-active', b === btn); });
-        applyFilter();
+        selectType(btn);
+        var url = location.pathname + location.search + (btn._slug ? '#' + btn._slug : '');
+        history.replaceState(null, '', url);
       });
     });
+
+    function selectTypeFromHash() {
+      var btn = typeBtnForHash(location.hash);
+      if (btn) {
+        selectType(btn);
+      } else if (!location.hash) {
+        selectType(typeBtns[0]);
+      }
+    }
+    window.addEventListener('hashchange', selectTypeFromHash);
 
     regionBtns.forEach(function (btn) {
       btn.addEventListener('click', function () {
@@ -152,8 +191,12 @@
       updateTimelineUI();
     }
 
-    // Initial render
-    applyFilter();
+    // Initial render (honours a type hash in the URL)
+    if (typeBtnForHash(location.hash)) {
+      selectTypeFromHash();
+    } else {
+      applyFilter();
+    }
   }
 
   if (document.readyState === 'loading') {

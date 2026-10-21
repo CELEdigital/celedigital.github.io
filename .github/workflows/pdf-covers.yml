@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  actions: write        # to dispatch hugo.yml after pushing covers
 
 concurrency:
   group: pdf-covers
@@ -39,12 +40,13 @@ jobs:
         run: python3 scripts/generate_pdf_covers.py
 
       - name: Commit & push any new covers
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [ -n "$(git status --porcelain static/covers)" ]; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add static/covers
-            # No [skip ci]: let hugo.yml redeploy so the new cover shows.
             git commit -m "Auto: PDF cover(s) for publication(s)"
             # Survive concurrent pushes (CMS / other Actions move main): rebase + retry.
             branch="${GITHUB_REF_NAME:-main}"
@@ -57,6 +59,9 @@ jobs:
               sleep $(( (RANDOM % 4) + 2 ))
             done
             if [ -z "$pushed" ]; then echo "Failed to push PDF covers after retries"; exit 1; fi
+            # A push made with GITHUB_TOKEN never triggers other workflows, so
+            # hugo.yml would not see this commit. Dispatch it explicitly.
+            gh workflow run hugo.yml --ref "$branch"
           else
             echo "No new PDF covers."
           fi

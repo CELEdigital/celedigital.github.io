@@ -5,12 +5,11 @@ translationKey: "seminario"
 
 Desde diciembre de 2020, el CELE organiza un seminario virtual bimensual sobre temas de libertad de expresión en el que se discuten trabajos en curso o recientemente publicados. Si bien en su primer año el foco estuvo puesto en producción académica en América Latina, desde 2022 el seminario incluye temáticas globales. El seminario constituye un espacio académico de discusión, con trabajos que se leen previamente y se discuten en un ámbito cordial durante una hora.
 
-![](/img/barata.jpeg)
-
 # Seminarios 2026
 
 -  Facundo Capurro Robles y María Luz Silveira (Procuración General de la Nación - Área de Competencia Múltiple ante la Corte Suprema), *La libertad de expresión en el entorno digital: algunos debates pendientes y desafíos en la jurisprudencia de la Corte Suprema*.
 -  Joan Barata y Elena Lazar (Universidad de Bucarest), *Regulación de plataformas, protección de menores y libertad de expresión: El debate europeo*.
+-  Juan Ortíz Freuler (New York University), *Infrastructural power: State strategies for internet control*.
 
 # Seminarios 2025
 

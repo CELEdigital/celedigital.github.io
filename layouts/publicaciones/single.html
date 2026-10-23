@@ -57,19 +57,19 @@
     {{ end }}
   </div>
 
+  {{/* Sin PDF no hay tapa: ni placeholder ni imagen heredada. */}}
+  {{ with .Params.file }}
   <aside class="single-sidebar" aria-label="Publication image">
     <div class="pub-image">
-      {{ $src := partial "func/page-image.html" . }}
-      {{ if $src }}
-        <img src="{{ $src | relURL }}" alt="{{ .Title }}" loading="lazy">
+      {{ with partial "func/page-image.html" $ }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
       {{ else }}
         <img src="/img/covers/cover_placeholder.jpeg" alt="Publication cover placeholder" loading="lazy">
       {{ end }}
     </div>
-    {{ with .Params.file }}
-      <a class="pub-image-pdf" href="{{ . | relURL }}" download>[PDF]</a>
-    {{ end }}
+    <a class="pub-image-pdf" href="{{ . | relURL }}" download>[PDF]</a>
   </aside>
+  {{ end }}
 </article>
 {{ end }}
 

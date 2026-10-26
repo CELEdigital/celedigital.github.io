@@ -2,13 +2,16 @@
 {{ $baseName := "" }}
 {{ with .File }}{{ $baseName = .BaseFileName }}{{ end }}
 {{ $isTeamPage := or (eq $baseName "equipo") (eq $baseName "team") }}
-{{ $isMissionPage := or (eq $baseName "mision") (eq $baseName "mission") (eq $baseName "contacto") (eq $baseName "contact") (eq $baseName "seminario") (eq $baseName "seminar") (eq $baseName "informes-anuales") (eq $baseName "annual-reports") (eq $baseName "talleres-legisladores") (eq $baseName "legislators-workshops") (eq $baseName "transparencia") (eq $baseName "transparency") }}
+{{ $isMissionPage := or (eq $baseName "mision") (eq $baseName "mission") (eq $baseName "contacto") (eq $baseName "contact") (eq $baseName "informes-anuales") (eq $baseName "annual-reports") (eq $baseName "talleres-legisladores") (eq $baseName "legislators-workshops") (eq $baseName "transparencia") (eq $baseName "transparency") }}
+{{ $isPageHub := or (eq $baseName "seminario") (eq $baseName "seminar") }}
 {{ $isAuthorPage := or (eq .Section "autores") (eq .Section "authors") }}
 {{ $isObservatorySubpage := and (or (eq .Section "observatorio-legislativo") (eq .Section "legislative-observatory")) (or (eq $baseName "metodologia") (eq $baseName "objetivos") (eq $baseName "objetivos-legitimos") (eq $baseName "colaboradores") (eq $baseName "collaborators") (eq $baseName "methodology") (eq $baseName "objectives") (eq $baseName "legitimate-aims") (eq $baseName "prohibiciones-e-incentivos") (eq $baseName "bans-and-nudges")) }}
 {{ if $isTeamPage }}
   {{ partial "team-hub.html" . }}
 {{ else if $isObservatorySubpage }}
   {{ partial "hub-single.html" . }}
+{{ else if $isPageHub }}
+  {{ partial "page-hub.html" . }}
 {{ else if $isAuthorPage }}
   {{ $twitter := strings.TrimPrefix "@" (.Params.twitter_handle | default "") }}
   {{ $bluesky := strings.TrimPrefix "@" (.Params.bluesky_handle | default "") }}

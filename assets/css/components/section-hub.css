@@ -414,3 +414,60 @@ main.container:has(.section-hub__header) {
   margin-right: calc(-50vw + 50%);
   padding: 3rem calc(50vw - 50%);
 }
+/* ── Página suelta con header de hub (page-hub.html: Seminario) ──
+   main.container pierde el padding por el header, así que el cuerpo
+   se pone el suyo, con los mismos valores que el hub del Taller. */
+.page-hub > .section-content {
+  max-width: 62rem;
+}
+
+.page-hub > .section-content h1 {
+  position: relative;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.page-hub > .section-content h1:first-child {
+  margin-top: 0;
+}
+
+.page-hub > .section-content h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6px;
+  background: var(--cele);
+  clip-path: polygon(0 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+}
+
+.page-hub > .section-content li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--neutral-600);
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 901px) and (max-width: 1330px) {
+  .page-hub .section-hub__header {
+    padding-inline: calc(50vw - 50% + 1.5rem);
+  }
+
+  .page-hub > .section-content {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .page-hub > .section-content {
+    padding-inline: 1.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-hub > .section-content {
+    padding-inline: 1rem;
+  }
+}

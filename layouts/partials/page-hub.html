@@ -1,0 +1,28 @@
+{{/* Página suelta con el header de los hubs: franja crema, título,
+     description e ilustración (`image`) a la derecha. El cuerpo va debajo.
+     Se elige por nombre de archivo en _default/single.html ($isPageHub). */}}
+<section class="section-hub page-hub">
+  <header class="section-hub__header section-hub__header--split">
+    <div class="section-hub__header-text">
+      <h1 class="section-hub__title">{{ .Title }}</h1>
+      {{ with .Params.description }}
+        <div class="section-hub__description">
+          {{ . | markdownify }}
+        </div>
+      {{ end }}
+    </div>
+    <div class="section-hub__header-media">
+      {{ with .Params.image }}
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+      {{ else }}
+        <div class="section-hub__image-placeholder"></div>
+      {{ end }}
+    </div>
+  </header>
+
+  {{ with .Content }}
+    <div class="section-content">
+      {{ . }}
+    </div>
+  {{ end }}
+</section>

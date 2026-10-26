@@ -46,7 +46,7 @@ del sitio salen como tabla común, igual que antes de este hook.
       {{- range $i, $c := $fila -}}
         {{- $v := trim (string $c.Text) " " -}}
         {{- if and $i (not (in (slice "" "-" "–" "—") $v)) -}}
-          {{- $celdas = $celdas | append (dict "track" (index $tracks (sub $i 1)) "html" $v) -}}
+          {{- $celdas = $celdas | append (dict "track" (index $tracks (sub $i 1)) "col" $i "html" $v) -}}
         {{- end -}}
       {{- end -}}
 
@@ -84,7 +84,7 @@ del sitio salen como tabla común, igual que antes de este hook.
           {{- range split (strings.TrimPrefix "• " (index $partes 1)) "<br>• " }}{{ $biblio = $biblio | append . }}{{ end -}}
         {{- end -}}
 
-        {{- $sesiones = $sesiones | append (dict "track" .track "titulo" $titulo "personas" $personas "rotulo" $rotulo "tipo" $tipo "desc" $desc "biblio" $biblio "texto" (cond (eq $titulo "") $cab "")) -}}
+        {{- $sesiones = $sesiones | append (dict "track" .track "col" .col "titulo" $titulo "personas" $personas "rotulo" $rotulo "tipo" $tipo "desc" $desc "biblio" $biblio "texto" (cond (eq $titulo "") $cab "")) -}}
       {{- end -}}
 
       {{- $general := and (eq (len $sesiones) 1) (eq (index $sesiones 0).track (index $tracks 0)) -}}
@@ -102,7 +102,7 @@ del sitio salen como tabla común, igual que antes de este hook.
             {{- if eq .titulo "" -}}
               <p class="programa__pausa">{{ .texto | safeHTML }}</p>
             {{- else -}}
-              <div class="programa__sesion">
+              <div class="programa__sesion" style="--col: {{ .col }}">
                 {{- $cabeza := printf `%s%s<span class="programa__titulo">%s</span>%s`
                     (cond $general "" (printf `<span class="programa__track">%s</span>` .track))
                     (cond (ne .rotulo "") (printf `<span class="programa__rotulo">%s</span>` .rotulo) "")

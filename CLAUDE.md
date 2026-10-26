@@ -366,6 +366,9 @@ Dos piezas de código:
   otra tabla del sitio —incluidos los programas de ediciones anteriores, que
   siguen con `workshop-tables.js`— sale igual que antes (verificado comparando
   el build completo: sólo cambian las dos páginas del programa).
+- Cada sesión lleva `style="--col: N"` con la columna de su track, así que un
+  track vacío (`-`) en una franja paralela deja el hueco en su lugar en vez de
+  correr las sesiones siguientes a la izquierda. Debajo de 1000px se ignora.
 - El desborde de la franja de las plenarias es con `box-shadow`, no con márgenes
   negativos: entre 900 y 1330px el hub no tiene margen lateral y un margen
   negativo generaba scroll horizontal.

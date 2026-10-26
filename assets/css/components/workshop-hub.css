@@ -233,6 +233,11 @@
   grid-template-columns: repeat(var(--tracks), minmax(0, 1fr));
 }
 
+/* Cada sesión va en la columna de su track, aunque haya un track vacío. */
+.programa__franja--paralela .programa__sesion {
+  grid-column: var(--col);
+}
+
 .programa__hora {
   margin: 0;
   padding: 1.15rem 0;
@@ -438,6 +443,10 @@ summary.programa__cabeza:focus-visible {
   .programa__franja,
   .programa__franja--paralela .programa__sesiones {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .programa__franja--paralela .programa__sesion {
+    grid-column: auto;
   }
 
   .programa__hora {

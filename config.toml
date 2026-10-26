@@ -74,12 +74,6 @@ enableRobotsTXT = true
         weight = 15
 
       [[languages.es.menu.main]]
-        name = "Transparencia"
-        url = "/transparencia/"
-        parent = "nosotros"
-        weight = 16
-
-      [[languages.es.menu.main]]
         name = "Contacto"
         url = "/contacto/"
         parent = "nosotros"
@@ -212,12 +206,6 @@ enableRobotsTXT = true
         url = "/legislators-workshops/"
         parent = "about"
         weight = 15
-
-      [[languages.en.menu.main]]
-        name = "Transparency"
-        url = "/transparency/"
-        parent = "about"
-        weight = 16
 
       [[languages.en.menu.main]]
         name = "Contact"

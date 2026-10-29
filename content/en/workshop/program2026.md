@@ -1,6 +1,10 @@
 ---
 title: "Program 2026"
 weight: 1
+# Fecha de cada tabla del programa, en orden, y huso horario del lugar:
+# marcan la franja en curso según la hora de quien mira.
+dias: ["2026-10-29", "2026-10-30"]
+huso: "-03:00"
 ---
 
 Preliminary program. Most activities will take place at Universidad de Palermo ([J. A. Cabrera 3641](https://www.google.com/maps/place/Jos%C3%A9+A.+Cabrera+3641,+C1186AAQ+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.5963878,-58.4179931,20.06z/data=!4m6!3m5!1s0x95bcca7d66cb0ca9:0x718bfe8aebaababc!8m2!3d-34.596419!4d-58.4177022!16s%2Fg%2F11rgfz9s6z?entry=ttu&g_ep=EgoyMDI2MDgxNy4wIKXMDSoASAFQAw%3D%3D), Buenos Aires). The program will be updated as speakers send in their reading materials.

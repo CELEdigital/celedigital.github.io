@@ -77,8 +77,35 @@
     });
   }
 
+  // Programa de la edición en curso: marca la franja que está ocurriendo. Las
+  // horas vienen con el huso del lugar, así que se compara el instante y no la
+  // hora de pared de quien mira.
+  function marcarEnCurso() {
+    var ahora = Date.now();
+    document.querySelectorAll(".programa[data-en-curso]").forEach(function (programa) {
+      programa.querySelectorAll(".programa__franja[data-inicio]").forEach(function (franja) {
+        var enCurso =
+          ahora >= Date.parse(franja.dataset.inicio) && ahora < Date.parse(franja.dataset.fin);
+        var marca = franja.querySelector(".programa__ahora");
+        franja.classList.toggle("is-en-curso", enCurso);
+        if (enCurso && !marca) {
+          marca = document.createElement("span");
+          marca.className = "programa__ahora";
+          marca.textContent = programa.dataset.enCurso;
+          franja.querySelector(".programa__hora").appendChild(marca);
+        } else if (!enCurso && marca) {
+          marca.remove();
+        }
+      });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     var hubs = document.querySelectorAll(".workshop-hub");
     hubs.forEach(initWorkshopHub);
+    if (document.querySelector(".programa[data-en-curso]")) {
+      marcarEnCurso();
+      setInterval(marcarEnCurso, 30000);
+    }
   });
 })();

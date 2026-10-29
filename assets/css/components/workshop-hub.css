@@ -434,6 +434,35 @@ summary.programa__cabeza:focus-visible {
   font-size: 1.2rem;
 }
 
+/* Franja en curso (la marca workshop-hub.js con la hora de quien mira): un
+   velo rojo apenas visible encima de la fila, también sobre la crema de las
+   plenarias, y el rótulo debajo del horario. */
+.programa__franja {
+  position: relative;
+}
+
+.programa__franja.is-en-curso::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(173, 43, 37, 0.07);
+  pointer-events: none;
+}
+
+.programa__ahora {
+  display: block;
+  width: fit-content;
+  margin-top: 0.35rem;
+  padding: 0.1rem 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--cele);
+  border-radius: 2px;
+}
+
 /* ── Tracks apilados ─────────────────────────────────────────── */
 @media (max-width: 1000px) {
   .programa__encabezado {

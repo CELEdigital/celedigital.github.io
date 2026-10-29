@@ -13,6 +13,10 @@ o, sin descripción, sólo <strong>Título</strong><em>Personas</em>. Un texto s
 en el primer track ocupa el ancho completo; si el título empieza con
 «SESIÓN PLENARIA #n:» o «Evento abierto:», ese prefijo pasa a ser el rótulo.
 
+Si el front matter trae `dias` (la fecha de cada tabla, en orden) y `huso`,
+cada franja lleva data-inicio/data-fin y workshop-hub.js marca la que está en
+curso según el reloj de quien mira.
+
 Los programas de ediciones anteriores (carpetas de año) y cualquier otra tabla
 del sitio salen como tabla común, igual que antes de este hook.
 */ -}}
@@ -31,7 +35,11 @@ del sitio salen como tabla común, igual que antes de este hook.
   {{- $tracks := slice -}}
   {{- range $i, $c := index .THead 0 }}{{ if $i }}{{ $tracks = $tracks | append (plainify $c.Text) }}{{ end }}{{ end -}}
 
-  <div class="programa" style="--tracks: {{ len $tracks }}">
+  {{- $dia := "" -}}
+  {{- with $p.Params.dias }}{{ if lt $.Ordinal (len .) }}{{ $dia = index . $.Ordinal }}{{ end }}{{ end -}}
+  {{- $huso := $p.Params.huso | default "-03:00" -}}
+
+  <div class="programa" style="--tracks: {{ len $tracks }}"{{ with $dia }} data-en-curso="{{ cond $es "En curso" "Now" }}"{{ end }}>
     <div class="programa__encabezado" aria-hidden="true">
       <span></span>
       {{- range $tracks }}<span>{{ . }}</span>{{ end -}}
@@ -94,8 +102,19 @@ del sitio salen como tabla común, igual que antes de este hook.
         {{- $clase = cond (eq $s.titulo "") "programa__franja--pausa" (cond (eq $s.tipo "plenaria") "programa__franja--plenaria" "programa__franja--general") -}}
       {{- end -}}
 
+      {{- /* «11.15–12.45 h» → 2026-10-29T11:15:00-03:00 y …T12:45:00-03:00. */ -}}
+      {{- $rango := "" -}}
+      {{- if $dia -}}
+        {{- with findRESubmatch `^(\d{1,2})(?:[.:](\d{2}))?\s*[–—-]\s*(\d{1,2})(?:[.:](\d{2}))?` $hora 1 -}}
+          {{- $m := index . 0 -}}
+          {{- $ini := printf "%sT%s:%s:00%s" $dia (cond (eq (len (index $m 1)) 1) (printf "0%s" (index $m 1)) (index $m 1)) (index $m 2 | default "00") $huso -}}
+          {{- $fin := printf "%sT%s:%s:00%s" $dia (cond (eq (len (index $m 3)) 1) (printf "0%s" (index $m 3)) (index $m 3)) (index $m 4 | default "00") $huso -}}
+          {{- $rango = printf ` data-inicio="%s" data-fin="%s"` $ini $fin -}}
+        {{- end -}}
+      {{- end -}}
+
       {{- if $sesiones -}}
-      <li class="programa__franja {{ $clase }}">
+      <li class="programa__franja {{ $clase }}"{{ $rango | safeHTMLAttr }}>
         <p class="programa__hora">{{ $hora | safeHTML }}</p>
         <div class="programa__sesiones">
           {{- range $sesiones -}}

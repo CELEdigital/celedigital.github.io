@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # to dispatch hugo.yml after pushing (see below)
 
 concurrency:
   group: en-stub
@@ -47,12 +48,13 @@ jobs:
         run: python3 scripts/make_en_stubs.py ${{ github.event.inputs.posts }}
 
       - name: Commit & push any new translations
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [ -n "$(git status --porcelain content/en)" ]; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add content/en
-            # No [skip ci]: let hugo.yml redeploy so the EN post goes live now.
             git commit -m "Auto: EN translation for new ES post(s)"
             # Survive concurrent pushes (CMS / flyers Action move main): rebase + retry.
             branch="${GITHUB_REF_NAME:-main}"
@@ -65,6 +67,10 @@ jobs:
               sleep $(( (RANDOM % 4) + 2 ))
             done
             if [ -z "$pushed" ]; then echo "Failed to push EN translation after retries"; exit 1; fi
+            # A push made with GITHUB_TOKEN never triggers other workflows, so
+            # hugo.yml would not redeploy and the EN post would stay offline
+            # until the next human push. workflow_dispatch is the exception.
+            gh workflow run hugo.yml --ref "$branch"
           else
             echo "No new EN translations."
           fi

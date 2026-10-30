@@ -15,6 +15,7 @@ on:
 # Need write access to commit the generated flyers back to the repo.
 permissions:
   contents: write
+  actions: write   # to dispatch hugo.yml after pushing (see below)
 
 concurrency:
   group: flyers-${{ github.ref }}
@@ -98,6 +99,8 @@ jobs:
 
       - name: Commit generated flyers
         if: steps.posts.outputs.list != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           if [ -z "$(git status --porcelain static/flyers/posts)" ]; then
@@ -113,6 +116,10 @@ jobs:
           for attempt in 1 2 3 4 5; do
             if git pull --rebase --autostash origin "$branch" && git push origin "HEAD:$branch"; then
               echo "Pushed on attempt $attempt"
+              # A push made with GITHUB_TOKEN never triggers other workflows, so
+              # hugo.yml would not redeploy the new flyers. workflow_dispatch is
+              # the exception.
+              gh workflow run hugo.yml --ref "$branch"
               exit 0
             fi
             echo "Push attempt $attempt failed (main moved); retrying…"

@@ -370,6 +370,40 @@
             );
           }
         });
+
+        // Bloque "Galería de imágenes" — {{< galeria carpeta="…" >}}. Muestra todas
+        // las imágenes de una carpeta de static/, en orden alfabético.
+        window.CMS.registerEditorComponent({
+          id: 'galeria',
+          label: 'Galería de imágenes',
+          icon: 'photo_library',
+          fields: [
+            { name: 'carpeta', label: 'Carpeta dentro de static/ (ej. img/galerias/taller-2026)', widget: 'string' },
+            { name: 'pie', label: 'Pie de la galería (opcional)', widget: 'string', required: false },
+            { name: 'columnas', label: 'Columnas', widget: 'select', options: ['2', '3', '4'], default: '3', required: false }
+          ],
+          pattern: /^\s*\{\{<\s*galeria\b(.*?)>\}\}\s*$/m,
+          fromBlock: function (match) {
+            var attr = function (n) {
+              var m = match[1].match(new RegExp(n + '="([^"]*)"'));
+              return m ? m[1] : '';
+            };
+            return { carpeta: attr('carpeta'), pie: attr('pie'), columnas: attr('columnas') || '3' };
+          },
+          toBlock: function (data) {
+            var limpiar = function (s) { return (s || '').replace(/"/g, '”'); };
+            var partes = ['carpeta="' + limpiar(data.carpeta).replace(/^\/+|\/+$/g, '') + '"'];
+            if (data.pie) partes.push('pie="' + limpiar(data.pie) + '"');
+            if (data.columnas && data.columnas !== '3') partes.push('columnas="' + data.columnas + '"');
+            return '{{< galeria ' + partes.join(' ') + ' >}}';
+          },
+          toPreview: function (data) {
+            return marco(
+              'Galería de imágenes',
+              'Todas las imágenes de static/' + (data.carpeta || '…') + ', en orden alfabético.'
+            );
+          }
+        });
       }
 
       // El bundle del CMS define window.CMS al ejecutarse; esperarlo por si el

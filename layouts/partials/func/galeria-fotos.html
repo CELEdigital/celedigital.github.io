@@ -1,0 +1,22 @@
+{{- /* Lista de imágenes de una carpeta de static/ para el shortcode galeria
+       (web y email). Devuelve las rutas públicas («/img/…/01.jpg») en orden
+       alfabético, o una lista vacía con un aviso en el build si la carpeta
+       falta o no tiene imágenes: una galería mal escrita no tira el sitio.
+       Call: partial "func/galeria-fotos.html" (dict "carpeta" "img/…" "posicion" .Position) */ -}}
+{{- $carpeta := strings.Trim .carpeta "/" -}}
+{{- $fotos := slice -}}
+{{- $dir := printf "static/%s" $carpeta -}}
+{{- if eq $carpeta "" -}}
+  {{- warnf "%s: galeria sin carpeta (usar carpeta=\"img/…\")" .posicion -}}
+{{- else if not (os.FileExists $dir) -}}
+  {{- warnf "%s: galeria: no existe la carpeta %s" .posicion $dir -}}
+{{- else -}}
+  {{- $tipos := slice ".jpg" ".jpeg" ".png" ".webp" ".gif" ".avif" -}}
+  {{- range os.ReadDir $dir -}}
+    {{- if and (not .IsDir) (not (hasPrefix .Name ".")) (in $tipos (lower (path.Ext .Name))) -}}
+      {{- $fotos = $fotos | append (printf "/%s/%s" $carpeta .Name) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $fotos }}{{ warnf "%s: galeria: la carpeta %s no tiene imágenes" .posicion $dir }}{{ end -}}
+{{- end -}}
+{{- return $fotos -}}

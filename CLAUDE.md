@@ -412,6 +412,20 @@ Siguen valiendo: las entradas de feb–jun 2021 sin `fecha` (avisos esperados de
 build), `exp` sólo cuando el expediente está en la matriz, y que desinformación
 no tiene slug.
 
+### 14. Galería de imágenes en posts: `{{< galeria >}}`
+`{{< galeria carpeta="img/galerias/NOMBRE" pie="…" columnas="3" >}}` muestra
+todas las imágenes de esa carpeta de `static/` (jpg, jpeg, png, webp, gif,
+avif), en orden alfabético: numerar los archivos con ceros (`01-`, `02-`…).
+- La lista sale de `partials/func/galeria-fotos.html`, compartido por
+  `galeria.html` y `galeria.email.html` (tabla de 2 columnas, URLs absolutas).
+- Carpeta inexistente o vacía = aviso en el build, no error.
+- Visor: `static/data/galeria.js` (un `<dialog>` compartido, flechas, Esc).
+  Sin JS cada miniatura es un link a la imagen. CSS en `galeria.css`.
+- Las miniaturas son las imágenes originales con `loading="lazy"`: Hugo no
+  procesa imágenes de `static/`, así que conviene subirlas ya achicadas
+  (~1600px de ancho).
+- En el CMS es el bloque «Galería de imágenes».
+
 ---
 
 ## Convenciones importantes

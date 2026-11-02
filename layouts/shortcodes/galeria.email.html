@@ -1,0 +1,35 @@
+{{- /*
+Variante para la salida `email` del shortcode galeria. Ver galeria.html.
+
+Tabla de dos columnas con las fotos enlazadas a la imagen completa. Las URLs
+van absolutas (un correo no tiene a dónde resolver una ruta relativa) y el
+ancho va en atributo además de en estilo, porque Outlook ignora el estilo.
+*/ -}}
+
+{{- $fotos := partial "func/galeria-fotos.html" (dict "carpeta" (.Get "carpeta" | default "") "posicion" .Position) -}}
+{{- $pie := .Get "pie" | default "" -}}
+{{- $alt := cond (ne $pie "") (plainify ($pie | markdownify)) .Page.Title -}}
+{{- $serif := "Source Serif 4, Georgia, Times New Roman, serif" -}}
+
+{{- with $fotos }}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; border-collapse:collapse; margin:24px 0;">
+  {{- range $fila := seq 0 2 (sub (len .) 1) }}
+  <tr>
+    {{- range $j := seq 0 1 }}
+    {{- $i := add $fila $j }}
+    <td width="50%" valign="top" style="width:50%; padding:4px;">
+      {{- if lt $i (len $fotos) }}
+      {{- $src := index $fotos $i | absURL }}
+      <a href="{{ $src }}"><img src="{{ $src }}" alt="{{ $alt }}" width="290" style="display:block; width:100%; max-width:290px; height:auto; border:0;"></a>
+      {{- end }}
+    </td>
+    {{- end }}
+  </tr>
+  {{- end }}
+  {{- with $pie }}
+  <tr>
+    <td colspan="2" style="padding:6px 4px 0; font-family:{{ $serif }}; font-size:13px; line-height:1.4; color:#666666;">{{ . | markdownify }}</td>
+  </tr>
+  {{- end }}
+</table>
+{{- end -}}

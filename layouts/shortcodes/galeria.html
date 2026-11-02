@@ -1,0 +1,42 @@
+{{- /*
+Galería de imágenes: muestra todas las imágenes de una carpeta de static/.
+
+Uso:
+  {{< galeria carpeta="img/galerias/taller-2026" >}}
+  {{< galeria carpeta="img/galerias/taller-2026" pie="Taller CELE 2026, Buenos Aires." columnas="4" >}}
+
+Parámetros:
+  carpeta   ruta dentro de static/ (con o sin barra inicial). Obligatorio.
+  pie       texto debajo de la galería; acepta Markdown. También es el alt
+            de las fotos, numerado («…, foto 3 de 12»).
+  columnas  columnas en pantalla ancha (default 3; en el celular siempre 2).
+
+Toma .jpg .jpeg .png .webp .gif y .avif, en orden alfabético del nombre de
+archivo: para fijar el orden, numerarlos con ceros (01-, 02-, … 10-). Sin JS
+cada miniatura es un link a la imagen; con JS, galeria.js abre un visor con
+anterior/siguiente. La variante para email está en galeria.email.html, y las
+dos comparten el cálculo de la lista en partials/func/galeria-fotos.html.
+*/ -}}
+
+{{- $carpeta := .Get "carpeta" | default "" -}}
+{{- $fotos := partial "func/galeria-fotos.html" (dict "carpeta" $carpeta "posicion" .Position) -}}
+{{- $es := ne .Page.Lang "en" -}}
+{{- $pie := .Get "pie" | default "" -}}
+{{- $base := cond (ne $pie "") (plainify ($pie | markdownify)) .Page.Title -}}
+{{- $total := len $fotos -}}
+
+{{- with $fotos }}
+<figure class="galeria" style="--columnas: {{ $.Get "columnas" | default 3 }}" data-galeria
+  data-anterior="{{ cond $es "Anterior" "Previous" }}"
+  data-siguiente="{{ cond $es "Siguiente" "Next" }}"
+  data-cerrar="{{ cond $es "Cerrar" "Close" }}">
+  <ul class="galeria__grilla">
+    {{- range $i, $src := . }}
+    <li><a class="galeria__foto" href="{{ $src | relURL }}"><img src="{{ $src | relURL }}" alt="{{ $base }}, {{ cond $es "foto" "photo" }} {{ add $i 1 }} {{ cond $es "de" "of" }} {{ $total }}" loading="lazy" decoding="async"></a></li>
+    {{- end }}
+  </ul>
+  {{- with $pie }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>
+{{- end -}}

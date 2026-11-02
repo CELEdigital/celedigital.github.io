@@ -5,12 +5,13 @@ content_type:
 - blog
 date: '2026-11-02'
 draft: true
-description: 'Texto provisorio: una línea que resuma la nota para las tarjetas y los buscadores.'
+description: 'El 28 de octubre, el Consorcio AlSur reunió en Buenos Aires a organizaciones de derechos humanos de la región para pensar juntas la relación entre vulnerabilidad y tecnología. El CELE fue la organización anfitriona.'
+image: /img/galerias/polinizacion/_DSC4677.jpg
 programs:
 - policy
 slug: polinizacion
 tags: [institucional]
-title: 'Polinización'
+title: 'Vulnerabilidad y tecnología: un encuentro de polinización entre organizaciones'
 translationKey: polinizacion
 type: posts
 issues:
@@ -20,12 +21,14 @@ country: []
 placements:
 - hub: temas/regulacion-y-tecnologia
   block: ultimas_noticias_analisis
+- hub: region/america-latina
+  block: destacado
 ---
 
-Texto provisorio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+El 28 de octubre, en la víspera de la [XIV Edición del Taller del CELE](https://celeup.org/es/taller/), el [Consorcio AlSur](https://www.alsur.lat/) ---del que el CELE forma parte--- organizó en Buenos Aires el encuentro «Vulnerabilidad y tecnología: diálogo entre organizaciones de la sociedad civil». La jornada fue pensada como un ejercicio de polinización: un espacio de aprendizajes cruzados entre organizaciones de derechos humanos que trabajan sobre agendas distintas, pero que cada vez con más frecuencia se encuentran con la tecnología en el centro de sus preocupaciones.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+El encuentro reunió a representantes de organizaciones de Argentina y de otros países de la región, muchas de las cuales se quedaron en la ciudad para participar del Taller del CELE los días 29 y 30 de octubre. Esa continuidad fue buscada: la jornada de AlSur funcionó como puerta de entrada a una semana de intercambio, en la que las conversaciones iniciadas el 28 siguieron en las sesiones, los pasillos y las reuniones bilaterales de los días siguientes.
 
-{{< galeria carpeta="img/galerias/polinizacion" pie="Texto provisorio para el pie de la galería." >}}
+{{< galeria carpeta="img/galerias/polinizacion" pie="Encuentro «Vulnerabilidad y tecnología: diálogo entre organizaciones de la sociedad civil», organizado por el Consorcio AlSur. Buenos Aires, 28 de octubre de 2026." >}}
 
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.
+El encuentro fue posible gracias al apoyo de Open Society Foundations. Agradecemos a todas las organizaciones que viajaron a Buenos Aires y participaron de la jornada.

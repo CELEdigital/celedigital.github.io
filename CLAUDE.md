@@ -309,12 +309,11 @@ que ocupe el ancho, hay que sacarlo —y sacar el `<h1>`— del
 obliga a repetirles a mano el padding lateral de los breakpoints de 900px y
 600px. No hace falta: fuera del header no necesita nada de eso.
 
-Debajo del header hay dos subsecciones fijas, **Agenda** y **Participantes**,
-antes de la barra de años. El cuerpo de cada una sale de un parámetro del mismo
-`_index.md` (`agenda` y `participantes`; en EN, `agenda` y `participants`) y
-acepta markdown. Si el parámetro está vacío, la sección igual se dibuja con el
-texto «Próximamente.» / «Coming soon.» — son placeholders a propósito, no un
-bug.
+Debajo del header hay una subsección fija, **Agenda**, antes de la barra de
+años. Su cuerpo sale del parámetro `agenda` del mismo `_index.md` y acepta
+markdown; si está vacío muestra el programa (`program*.md`) o, si no hay,
+«Próximamente.» / «Coming soon.». Hubo una segunda, **Participantes**, que se
+sacó a pedido (nov. 2026) porque sólo mostraba «Próximamente».
 
 La barra de años lleva encima un **`<h1>` «Ediciones anteriores»** / «Past
 editions» (clases `section-hub__title workshop-hub__editions-title`). Lleva la
@@ -322,7 +321,7 @@ tipografía del título del hub y la **misma franja crema a ancho completo que e
 header** (`#f6f2e9`, con un filete de 6px en `--cele` arriba; mismo truco de márgenes negativos y mismos breakpoints de
 900px y 600px), para que marque el corte entre la edición en curso y el
 archivo. Es un `h1` a pedido, así que la página tiene dos: el título de la
-sección y éste. Agenda y Participantes siguen siendo `h2`. Quedó envuelta junto con él en un `section.workshop-hub__editions`
+sección y éste. Agenda sigue siendo `h2`. Quedó envuelta junto con él en un `section.workshop-hub__editions`
 para que el título y la barra compartan el espaciado en vez de separarse con el
 `gap: 2rem` del grid del hub. Envolverla es inofensivo: `workshop-hub.js` busca
 los links y los paneles con `querySelectorAll` sobre `.workshop-hub` entera, no
@@ -330,7 +329,7 @@ sobre el padre de la barra (verificado: el toggle de años sigue andando).
 
 Ojo con dos cosas:
 - La lista de subsecciones está codificada en `$infoBlocks` dentro del partial,
-  con el nombre del parámetro y el título por idioma. Agregar una tercera es
+  con el nombre del parámetro y el título por idioma. Agregar otra es
   sumar una entrada ahí.
 - Esto es el **hub**, no las ediciones. Cada año sigue leyendo su propio
   `subtitle`/`description` desde `workshop-subhub-content.html`; ese camino no
@@ -419,6 +418,9 @@ avif), en orden alfabético: numerar los archivos con ceros (`01-`, `02-`…).
 - La lista sale de `partials/func/galeria-fotos.html`, compartido por
   `galeria.html` y `galeria.email.html` (tabla de 2 columnas, URLs absolutas).
 - Carpeta inexistente o vacía = aviso en el build, no error.
+- `paginar="true"` (y `por_pagina`, default 12) muestra la grilla de a páginas.
+  Lo hace el JS: sin JS se ven todas, el visor recorre todas las fotos y al
+  cerrarlo la grilla salta a la página de la última vista. El email no pagina.
 - Visor: `static/data/galeria.js` (un `<dialog>` compartido, flechas, Esc).
   Sin JS cada miniatura es un link a la imagen. CSS en `galeria.css`.
 - Las miniaturas son las imágenes originales con `loading="lazy"`: Hugo no
@@ -439,6 +441,7 @@ avif), en orden alfabético: numerar los archivos con ceros (`01-`, `02-`…).
 | `content_type` | Campo de formato del post. Valores usados: `blog`, `mesa`, `boletin` |
 | Etiquetas de boletín | Slugs de `data/etiquetas.yaml` (17). Distintas de «Objetivo legítimo» |
 | CSS de boletines | `assets/css/components/boletin.css` (registrado en `head.html`) |
+| Traducción automática ES→EN | `scripts/make_en_stubs.py` (workflow `en-stub.yml`). **Los shortcodes nunca se traducen**: se reemplazan por tokens antes de DeepL y, si alguno no vuelve idéntico, el post queda como borrador sin traducir. Un borrador en ES genera un borrador en EN. No crea EN si ya existe: editar el ES no actualiza el EN |
 | JS del observatorio | Está en `static/data/observatory-hub.js` (no en `assets/`) |
 | CSS del observatorio | `assets/css/components/observatory-hub.css` |
 

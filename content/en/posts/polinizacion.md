@@ -27,6 +27,6 @@ Placeholder text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed d
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident; those who abandon their duties are at fault, for they have weakened the spirit—that is, the labor.
 
-{{< gallery folder="img/galleries/pollination" footer="Placeholder text for the gallery footer." >}}
+{{< galeria carpeta="img/galerias/polinizacion" footer="Placeholder text for the gallery footer." >}}
 
 Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.

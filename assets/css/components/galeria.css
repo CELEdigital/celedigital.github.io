@@ -59,6 +59,54 @@
   margin: 0;
 }
 
+/* Paginación (paginar="true"). La arma galeria.js. */
+.galeria__paginas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem;
+  margin-top: 0.9rem;
+}
+
+.galeria__paginas button {
+  min-width: 2.2rem;
+  height: 2.2rem;
+  padding: 0 0.5rem;
+  border: 1px solid var(--neutral-300);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--neutral-900);
+  font-family: 'Inter';
+  font-size: 0.88rem;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+}
+
+.galeria__paginas button:hover:not(:disabled) {
+  border-color: var(--cele);
+  color: var(--cele);
+}
+
+.galeria__paginas button.is-activa {
+  border-color: var(--cele);
+  background: var(--cele);
+  color: #fff;
+}
+
+.galeria__paginas button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.galeria__paginas button:focus-visible {
+  outline: 3px solid var(--cele);
+  outline-offset: 2px;
+}
+
+.galeria__grilla li[hidden] {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .galeria__grilla {
     grid-template-columns: repeat(2, minmax(0, 1fr));

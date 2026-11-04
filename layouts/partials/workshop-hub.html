@@ -51,8 +51,8 @@
   {{ end }}
 
   {{ $infoBlocks := cond $isES
-      (slice (dict "key" "agenda" "title" "Agenda") (dict "key" "participantes" "title" "Participantes"))
-      (slice (dict "key" "agenda" "title" "Agenda") (dict "key" "participants" "title" "Participants")) }}
+      (slice (dict "key" "agenda" "title" "Agenda"))
+      (slice (dict "key" "agenda" "title" "Agenda")) }}
   <div class="workshop-hub__sections">
     {{ range $infoBlocks }}
       <section class="workshop-hub__section" id="taller-{{ .key }}">

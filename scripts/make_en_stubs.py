@@ -14,7 +14,8 @@ content/en/<section>/<name>.md, it writes a twin with:
     ES -> EN via the DeepL API when DEEPL_API_KEY is set.
 
 Publish behaviour:
-  - If DeepL translation succeeds, the twin is published immediately (no draft).
+  - If DeepL translation succeeds, the twin is published immediately (no draft),
+    unless the Spanish post is `draft: true`: then the twin is a draft too.
   - If DEEPL_API_KEY is missing or a DeepL call fails, it falls back to a
     *verbatim copy* marked `draft: true`, so untranslated Spanish never goes
     live by accident (and local runs work without a key).
@@ -37,6 +38,38 @@ DIR_PAIRS = [
 
 # Front-matter fields that hold human-readable text and should be translated.
 TRANSLATE_KEYS = ("title", "description", "tagline")
+
+# Hugo shortcodes ({{< … >}}, {{< /… >}}, {{% … %}}) are never translated: DeepL
+# once turned `{{< galeria carpeta=… >}}` into `{{< gallery folder=… >}}`, a
+# shortcode that does not exist, and the whole site stopped building. They are
+# swapped for opaque tokens before the call and restored after; if any token
+# comes back missing, duplicated or altered, the translation is discarded and
+# the post falls back to the draft copy. Text *between* a paired shortcode's
+# tags (e.g. the body of {{< aviso >}}…{{< /aviso >}}) is still translated.
+SHORTCODE_RE = re.compile(r"\{\{[<%].*?[>%]\}\}", re.S)
+TOKEN = "XSC{:04d}X"
+TOKEN_RE = re.compile(r"XSC\d{4}X")
+
+
+def protect_shortcodes(text: str, saved: list):
+    """Replace each shortcode in text with a token, appending it to saved."""
+    def swap(match):
+        saved.append(match.group(0))
+        return TOKEN.format(len(saved) - 1)
+    return SHORTCODE_RE.sub(swap, text)
+
+
+def restore_shortcodes(text: str, saved: list, expected: set):
+    """Put back the shortcodes whose tokens should be in text. Raises ValueError
+    if a token is missing or repeated, or if anything token-like is left over."""
+    for i in sorted(expected):
+        token = TOKEN.format(i)
+        if text.count(token) != 1:
+            raise ValueError(f"shortcode token {token} came back {text.count(token)} times")
+        text = text.replace(token, saved[i])
+    if TOKEN_RE.search(text):
+        raise ValueError("unexpected shortcode token in translation")
+    return text
 
 
 def changed_es_posts():
@@ -97,13 +130,28 @@ def translate_post(metadata: dict, content: str):
         if not texts:
             return dict(metadata), content  # nothing to translate
 
+        saved = []
+        protected = []
+        for t in texts:
+            start = len(saved)
+            protected.append(protect_shortcodes(t, saved))
+            protected[-1] = (protected[-1], set(range(start, len(saved))))
+
         results = translator.translate_text(
-            texts,
+            [p for p, _ in protected],
             source_lang="ES",
             target_lang="EN-US",
             preserve_formatting=True,
         )
-        translated = [r.text for r in results]
+        translated = [
+            restore_shortcodes(r.text, saved, expected)
+            for r, (_, expected) in zip(results, protected)
+        ]
+        # Belt and braces: the shortcodes in the output must be exactly the
+        # ones in the input, in the same order.
+        for src, out in zip(texts, translated):
+            if SHORTCODE_RE.findall(src) != SHORTCODE_RE.findall(out):
+                raise ValueError("shortcodes changed in translation")
 
         new_metadata = dict(metadata)
         for k, value in zip(meta_keys, translated):
@@ -128,11 +176,14 @@ def make_stub(es_path: str):
     if "translationKey" not in post.metadata:
         post.metadata["translationKey"] = stem
 
+    es_draft = post.metadata.get("draft") is True
     translated = translate_post(post.metadata, post.content)
     if translated is not None:
-        # Published immediately: drop any draft flag.
+        # Published immediately, unless the Spanish post is itself a draft.
         post.metadata, post.content = translated
         post.metadata.pop("draft", None)
+        if es_draft:
+            post.metadata["draft"] = True
     else:
         # Fallback: verbatim copy, kept out of the published site.
         post.metadata["draft"] = True

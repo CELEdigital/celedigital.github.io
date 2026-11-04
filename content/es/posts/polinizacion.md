@@ -29,6 +29,6 @@ El 28 de octubre, en la víspera de la [XIV Edición del Taller del CELE](https:
 
 El encuentro reunió a representantes de organizaciones de Argentina y de otros países de la región, muchas de las cuales se quedaron en la ciudad para participar del Taller del CELE los días 29 y 30 de octubre. Esa continuidad fue buscada: la jornada de AlSur funcionó como puerta de entrada a una semana de intercambio, en la que las conversaciones iniciadas el 28 siguieron en las sesiones, los pasillos y las reuniones bilaterales de los días siguientes.
 
-{{< galeria carpeta="img/galerias/polinizacion" pie="Encuentro «Vulnerabilidad y tecnología: diálogo entre organizaciones de la sociedad civil», organizado por el Consorcio AlSur. Buenos Aires, 28 de octubre de 2026." >}}
+{{< galeria carpeta="img/galerias/polinizacion" paginar="true" pie="Encuentro «Vulnerabilidad y tecnología: diálogo entre organizaciones de la sociedad civil», organizado por el Consorcio AlSur. Buenos Aires, 28 de octubre de 2026." >}}
 
 El encuentro fue posible gracias al apoyo de Open Society Foundations. Agradecemos a todas las organizaciones que viajaron a Buenos Aires y participaron de la jornada.

@@ -380,7 +380,9 @@
           fields: [
             { name: 'carpeta', label: 'Carpeta dentro de static/ (ej. img/galerias/taller-2026)', widget: 'string' },
             { name: 'pie', label: 'Pie de la galería (opcional)', widget: 'string', required: false },
-            { name: 'columnas', label: 'Columnas', widget: 'select', options: ['2', '3', '4'], default: '3', required: false }
+            { name: 'columnas', label: 'Columnas', widget: 'select', options: ['2', '3', '4'], default: '3', required: false },
+            { name: 'paginar', label: 'Mostrar de a páginas', widget: 'boolean', default: false, required: false },
+            { name: 'por_pagina', label: 'Fotos por página (si se pagina)', widget: 'number', default: 12, value_type: 'int', min: 1, required: false }
           ],
           pattern: /^\s*\{\{<\s*galeria\b(.*?)>\}\}\s*$/m,
           fromBlock: function (match) {
@@ -388,13 +390,23 @@
               var m = match[1].match(new RegExp(n + '="([^"]*)"'));
               return m ? m[1] : '';
             };
-            return { carpeta: attr('carpeta'), pie: attr('pie'), columnas: attr('columnas') || '3' };
+            return {
+              carpeta: attr('carpeta'),
+              pie: attr('pie'),
+              columnas: attr('columnas') || '3',
+              paginar: /\bpaginar="?(true|sí|si)"?/.test(match[1]),
+              por_pagina: parseInt(attr('por_pagina'), 10) || 12
+            };
           },
           toBlock: function (data) {
             var limpiar = function (s) { return (s || '').replace(/"/g, '”'); };
             var partes = ['carpeta="' + limpiar(data.carpeta).replace(/^\/+|\/+$/g, '') + '"'];
             if (data.pie) partes.push('pie="' + limpiar(data.pie) + '"');
             if (data.columnas && data.columnas !== '3') partes.push('columnas="' + data.columnas + '"');
+            if (data.paginar) {
+              partes.push('paginar="true"');
+              if (data.por_pagina && Number(data.por_pagina) !== 12) partes.push('por_pagina="' + data.por_pagina + '"');
+            }
             return '{{< galeria ' + partes.join(' ') + ' >}}';
           },
           toPreview: function (data) {

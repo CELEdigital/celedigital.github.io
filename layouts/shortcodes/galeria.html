@@ -10,6 +10,14 @@ Parámetros:
   pie       texto debajo de la galería; acepta Markdown. También es el alt
             de las fotos, numerado («…, foto 3 de 12»).
   columnas  columnas en pantalla ancha (default 3; en el celular siempre 2).
+  paginar   true para mostrar las fotos de a páginas (default false).
+  por_pagina  fotos por página con paginar (default 12).
+
+  {{< galeria carpeta="img/galerias/polinizacion" paginar="true" por_pagina="9" >}}
+
+La paginación la hace galeria.js: sin JS se ven todas, y el visor recorre
+todas las fotos, no sólo las de la página (al cerrarlo, la grilla salta a la
+página de la última foto vista). En el email no se pagina.
 
 Toma .jpg .jpeg .png .webp .gif y .avif, en orden alfabético del nombre de
 archivo: para fijar el orden, numerarlos con ceros (01-, 02-, … 10-). Sin JS
@@ -24,9 +32,17 @@ dos comparten el cálculo de la lista en partials/func/galeria-fotos.html.
 {{- $pie := .Get "pie" | default "" -}}
 {{- $base := cond (ne $pie "") (plainify ($pie | markdownify)) .Page.Title -}}
 {{- $total := len $fotos -}}
+{{- /* Acepta paginar=true y paginar="true" (el primero llega como bool). */ -}}
+{{- $paginar := in (slice true "true" "sí" "si") (.Get "paginar") -}}
+{{- $porPagina := int (.Get "por_pagina" | default 12) -}}
 
 {{- with $fotos }}
 <figure class="galeria" style="--columnas: {{ $.Get "columnas" | default 3 }}" data-galeria
+  {{- if and $paginar (gt $total $porPagina) }}
+  data-por-pagina="{{ $porPagina }}"
+  data-paginas="{{ cond $es "Páginas de la galería" "Gallery pages" }}"
+  data-pagina="{{ cond $es "Página" "Page" }}"
+  {{- end }}
   data-anterior="{{ cond $es "Anterior" "Previous" }}"
   data-siguiente="{{ cond $es "Siguiente" "Next" }}"
   data-cerrar="{{ cond $es "Cerrar" "Close" }}">

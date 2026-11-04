@@ -4,7 +4,6 @@ author:
 content_type:
 - blog
 date: '2026-11-02'
-draft: true
 description: 'En el marco del Taller del CELE se presentó en Buenos Aires TTG Scan LatAm, una publicación con ocho miradas latinoamericanas sobre tecnología, comercio, geopolítica y soberanía digital.'
 image: /img/galerias/ttg/_DSC4940.jpg
 programs:

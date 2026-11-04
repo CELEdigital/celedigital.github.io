@@ -4,7 +4,6 @@ author:
 content_type:
 - blog
 date: 2026-11-02
-draft: true
 description: 'Encuentro con Chantal Joris, Head of Law & Policy de ARTICLE 19, sobre la protección de la libertad de expresión y el acceso a la información en conflictos armados.'
 programs:
 - policy

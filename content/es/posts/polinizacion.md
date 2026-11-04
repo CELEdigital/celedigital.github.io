@@ -4,7 +4,6 @@ author:
 content_type:
 - blog
 date: '2026-11-02'
-draft: true
 description: 'El 28 de octubre, el Consorcio AlSur reunió en Buenos Aires a organizaciones de derechos humanos de la región para pensar juntas la relación entre vulnerabilidad y tecnología. El CELE fue la organización anfitriona.'
 image: /img/galerias/polinizacion/_DSC4677.jpg
 programs:

@@ -1,14 +1,10 @@
 ---
 translationKey: ''
-title: Solicitud de selección de tutela T-12670600 ante la Corte Constitucional de Colombia
+title: Amicus Curiae - Solicitud de selección de tutela T-12670600 ante la Corte Constitucional de Colombia
 date: 2026-11-04
 author:
-  - CELE
-  - Agustina del Campo
-  - Ramiro Álvarez Ugarte
-  - Matías González Mama
-  - Lina Palacios Ramírez
-  - Julio César Gaitán Bohórquez
+  - Centro de Estudios en Libertad de Expresión (CELE)
+  - Centro de Internet y Sociedad de la Universidad del Rosario (Centro ISUR)
 content_type:
   - position-paper
 programs:

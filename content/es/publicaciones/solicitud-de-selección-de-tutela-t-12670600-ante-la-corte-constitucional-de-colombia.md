@@ -11,9 +11,9 @@ programs:
   - publicaciones
 ssrn_id: ''
 ssrn_url: ''
-reference: Documento de posición No. 42
+reference: Documento de posición No. 43
 abstract: ''
-file: /files/Doc_posicion_42.pdf
+file: /files/Doc_posicion_43.pdf
 references: ''
 csl: ''
 issues: []
@@ -28,4 +28,4 @@ tags:
   - Documento de posición
 ---
 
-CELE, “Solicitud de selección de la acción de tutela T-12670600 ante la Corte Constitucional de Colombia”, Documento de posición No. 42, Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2026).
+CELE y Centro ISUR, "Solicitud de selección de tutela T-12670600 ante la Corte Constitucional de Colombia", Documento de posición No. 43 (ESP), Centro de Estudios en Libertad de Expresión (CELE), Buenos Aires (2026)

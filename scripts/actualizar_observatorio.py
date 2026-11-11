@@ -25,6 +25,14 @@ Opciones:
                       objetivos_drilldown (ver nota más abajo).
     --detalle         lista completas las novedades (por defecto se recortan
                       a 30 filas por categoría).
+    --reportes DIR    carpeta del reporte de errores (default: reportes/).
+
+En cada corrida se escribe «reportes/Reportes de error AAAA-MM-DD.md»: lo que
+tienen que corregir quienes cargan las planillas (fechas ilegibles, años que
+faltan o no son un año, países vacíos, objetivos fuera de la taxonomía,
+«¿Limita o promueve?» con otro valor, encabezados cambiados, filas caídas), con
+un link a cada celda. Sin descarga no hay números de fila: se identifica cada
+registro por país y número. Con --dry-run no se escribe.
 
 Al final de cada corrida con descarga se informan las novedades: filas nuevas,
 modificadas (con las columnas que cambiaron) y que ya no están, comparando lo
@@ -232,7 +240,10 @@ def limpiar(filas: list, perfil: dict) -> tuple:
                if h in perfil.get("canonicos", {})}
 
     salida, vacias, relleno, sin_clave, sin_fecha = [], 0, 0, 0, []
-    for fila in filas[1:]:
+    # Número de fila en la planilla de cada fila que queda (la 1 es el
+    # encabezado), para que el reporte de errores pueda señalar la celda.
+    filas_hoja, sin_clave_filas = [], []
+    for n_hoja, fila in enumerate(filas[1:], start=2):
         v = [limpiar_celda(fila[i]) if i < len(fila) else "" for i in quedan]
         if not any(v):
             vacias += 1
@@ -242,6 +253,7 @@ def limpiar(filas: list, perfil: dict) -> tuple:
             continue
         if i_claves and not any(v[i] for i in i_claves):
             sin_clave += 1
+            sin_clave_filas.append(n_hoja)
             continue
         v = [limpiar_si_no(x, perfil) for x in v]
         for i, opciones in i_canon.items():
@@ -253,9 +265,12 @@ def limpiar(filas: list, perfil: dict) -> tuple:
             else:
                 v[i] = iso
         salida.append(v)
+        filas_hoja.append(n_hoja)
 
     return encabezado, salida, {"vacias": vacias, "relleno": relleno,
-                                "sin_clave": sin_clave, "sin_fecha": sin_fecha}
+                                "sin_clave": sin_clave, "sin_fecha": sin_fecha,
+                                "filas_hoja": filas_hoja, "col_hoja": quedan,
+                                "sin_clave_filas": sin_clave_filas}
 
 
 # ── Novedades: qué cambió respecto de la corrida anterior ───────────────────
@@ -411,7 +426,210 @@ def informar_novedades(novedades: dict, detalle: bool) -> None:
         print("  (listas recortadas; correr con --detalle para verlas completas)")
 
 
-def descargar(dry_run: bool, novedades: dict | None = None) -> bool:
+# ── Reporte de errores para quienes cargan las planillas ────────────────────
+# Lo que el script no puede arreglar solo (una fecha ilegible, un año que falta,
+# un objetivo fuera de la taxonomía) termina en reportes/Reportes de error
+# AAAA-MM-DD.md, con el número de fila y un link a la celda de la planilla. Si
+# se corre dos veces el mismo día, el reporte se reescribe con lo último.
+REPORTES = REPO / "reportes"
+
+NOMBRES_PLANILLA = {
+    "proyectos_clean.csv": "Matriz de libertad de expresión · Proyectos",
+    "leyes_clean.csv":     "Matriz de libertad de expresión · Leyes",
+    "ai_clean.csv":        "Matriz de IA",
+}
+
+COLUMNA_IMPACTO = "¿Limita o promueve el discurso?"
+IMPACTOS_VALIDOS = {"limita", "promueve", "limita/promueve"}
+ANIO_MIN = 1800
+
+# Qué se le pide a quien corrige, por tipo de problema. El orden es el del reporte.
+PROBLEMAS = {
+    "fecha_ilegible": ("Fechas que no se pudieron leer",
+                       "Escribir la fecha sola, como DD/MM/AAAA. Las aclaraciones van en "
+                       "otra columna; si hay varias fechas, dejar la más reciente."),
+    "fecha_imposible": ("Fechas que no existen",
+                        "Revisar día y mes (p. ej. 31 de junio o 30 de febrero)."),
+    "anio_falta": ("Filas sin año",
+                   "Completar el año. Sin año la fila no se puede filtrar en los gráficos."),
+    "anio_invalido": ("Años que no son un número de cuatro cifras",
+                      "Escribir sólo el año (p. ej. 2024), sin texto ni rangos."),
+    "anio_rango": ("Años fuera de rango",
+                   f"El año tiene que estar entre {ANIO_MIN} y el año próximo."),
+    "pais_falta": ("Filas sin país", "Completar el país."),
+    "objetivo": ("Objetivos legítimos fuera de la taxonomía",
+                 "Usar una de las categorías de «Objetivos legítimos» del sitio. "
+                 "Si ninguna sirve, avisar al equipo del sitio en vez de inventar una."),
+    "impacto": ("«¿Limita o promueve el discurso?» con otro valor",
+                "Escribir Limita, Promueve o Limita/Promueve."),
+}
+
+
+def _letra_columna(i: int) -> str:
+    """0 -> A, 25 -> Z, 26 -> AA."""
+    s = ""
+    i += 1
+    while i:
+        i, r = divmod(i - 1, 26)
+        s = chr(65 + r) + s
+    return s
+
+
+def _md(s: str) -> str:
+    """Escapa lo que rompe una celda de tabla Markdown."""
+    return (s or "").replace("\\", "\\\\").replace("|", "\\|").strip()
+
+
+class Reporte:
+    def __init__(self):
+        self.problemas: list[dict] = []
+        self.avisos: dict[str, list[str]] = collections.defaultdict(list)
+        self.con_filas: set[str] = set()   # archivos revisados con nros. de fila
+
+    def aviso(self, filename: str, texto: str) -> None:
+        self.avisos[filename].append(texto)
+
+    def problema(self, filename, tipo, fila_hoja, col_hoja, registro, columna, valor):
+        self.problemas.append({"archivo": filename, "tipo": tipo, "fila": fila_hoja,
+                               "col": col_hoja, "registro": registro,
+                               "columna": columna, "valor": valor})
+
+    def __len__(self):
+        return len(self.problemas) + sum(len(v) for v in self.avisos.values())
+
+    def _celda(self, filename: str, p: dict) -> str:
+        if p["fila"] is None:
+            return "—"
+        cfg = GOOGLE_SHEETS.get(filename)
+        if not cfg or p["col"] is None:
+            return str(p["fila"])
+        celda = f"{_letra_columna(p['col'])}{p['fila']}"
+        url = (f"https://docs.google.com/spreadsheets/d/{cfg['id']}/edit"
+               f"#gid={cfg['gid']}&range={celda}")
+        return f"[{celda}]({url})"
+
+    def markdown(self, fecha: str) -> str:
+        out = [f"# Reportes de error {fecha}", "",
+               "Problemas encontrados en las planillas del Observatorio Legislativo al "
+               "actualizar el sitio. Se generan con `scripts/actualizar_observatorio.py`; "
+               "cada corrida reescribe el reporte del día.", ""]
+        if not len(self):
+            out += ["**Sin errores.** No hay nada que corregir en las planillas.", ""]
+            return "\n".join(out)
+
+        por_archivo = collections.defaultdict(list)
+        for p in self.problemas:
+            por_archivo[p["archivo"]].append(p)
+        archivos = [f for f in NOMBRES_PLANILLA if f in por_archivo or f in self.avisos]
+
+        out += ["## Resumen", "", "| Planilla | Problemas |", "|---|---:|"]
+        for f in archivos:
+            out.append(f"| {NOMBRES_PLANILLA[f]} | "
+                       f"{len(por_archivo[f]) + len(self.avisos.get(f, []))} |")
+        out.append("")
+
+        for f in archivos:
+            out += [f"## {NOMBRES_PLANILLA[f]}", ""]
+            cfg = GOOGLE_SHEETS.get(f)
+            if cfg:
+                out += [f"Planilla: <https://docs.google.com/spreadsheets/d/{cfg['id']}"
+                        f"/edit#gid={cfg['gid']}>", ""]
+            if f not in self.con_filas:
+                out += ["> Esta corrida no bajó la planilla (se usó el CSV del sitio), así "
+                        "que no hay números de fila: buscar cada registro por país y número.",
+                        ""]
+            for aviso in self.avisos.get(f, []):
+                out.append(f"- **Atención:** {aviso}")
+            if self.avisos.get(f):
+                out.append("")
+
+            for tipo, (titulo, pedido) in PROBLEMAS.items():
+                items = sorted((p for p in por_archivo[f] if p["tipo"] == tipo),
+                               key=lambda p: (p["fila"] or 0, p["columna"]))
+                if not items:
+                    continue
+                out += [f"### {titulo} ({len(items)})", "", pedido, "",
+                        "| Celda | Registro | Columna | Valor actual |",
+                        "|---|---|---|---|"]
+                for p in items:
+                    valor = f"`{_md(p['valor'])}`" if p["valor"] else "*(vacía)*"
+                    out.append(f"| {self._celda(f, p)} | {_md(p['registro'])} | "
+                               f"{_md(p['columna'])} | {valor} |")
+                out.append("")
+        return "\n".join(out)
+
+    def escribir(self, carpeta: pathlib.Path, dry_run: bool) -> pathlib.Path:
+        fecha = dt.date.today().isoformat()
+        destino = carpeta / f"Reportes de error {fecha}.md"
+        if not dry_run:
+            carpeta.mkdir(parents=True, exist_ok=True)
+            destino.write_text(self.markdown(fecha), encoding="utf-8")
+        return destino
+
+
+def revisar_filas(reporte: Reporte, filename: str, encabezado: list, cuerpo: list,
+                  filas_hoja: list | None = None, col_hoja: list | None = None) -> None:
+    """Anota en el reporte los problemas de cada fila.
+
+    Corre sobre lo que se baja (con número de fila de la planilla) o, si no hubo
+    descarga, sobre el CSV en disco (sin número de fila).
+    """
+    ident = IDENTIDAD.get(filename, {"clave": (), "texto": ""})
+    idx = {h: i for i, h in enumerate(encabezado)}
+    i_objetivos = [idx[c] for c in COLUMNAS_OBJETIVO.get(filename, []) if c in idx]
+    i_fechas = [i for h, i in idx.items() if h in COLUMNAS_FECHA]
+    anio_max = dt.date.today().year + 1
+    if filas_hoja is not None:
+        reporte.con_filas.add(filename)
+
+    for n, fila in enumerate(cuerpo):
+        celda = (lambda i: fila[i].strip() if i is not None and i < len(fila) else "")
+        d = {h: celda(i) for h, i in idx.items()}
+        registro = " · ".join(d.get(c, "") for c in ident["clave"] if d.get(c)) \
+            or _corto(d.get(ident["texto"], ""), 60) or "(sin datos de identificación)"
+        fila_hoja = filas_hoja[n] if filas_hoja else None
+
+        def anotar(tipo, columna, valor):
+            col = col_hoja[idx[columna]] if col_hoja is not None else None
+            reporte.problema(filename, tipo, fila_hoja, col, registro, columna, valor)
+
+        if "Año" in idx:
+            anio = d["Año"]
+            if not anio:
+                anotar("anio_falta", "Año", anio)
+            elif not re.fullmatch(r"\d{4}", anio):
+                anotar("anio_invalido", "Año", anio)
+            elif not ANIO_MIN <= int(anio) <= anio_max:
+                anotar("anio_rango", "Año", anio)
+
+        if "País" in idx and not d["País"]:
+            anotar("pais_falta", "País", "")
+
+        for i in i_fechas:
+            v = celda(i)
+            if not v:
+                continue
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", v):
+                anotar("fecha_ilegible", encabezado[i], v)
+                continue
+            try:
+                dt.date.fromisoformat(v)
+            except ValueError:
+                anotar("fecha_imposible", encabezado[i], v)
+
+        for i in i_objetivos:
+            v = celda(i)
+            if v and not normalizar_objetivo(v)[1]:
+                anotar("objetivo", encabezado[i], v)
+
+        if COLUMNA_IMPACTO in idx:
+            v = d[COLUMNA_IMPACTO]
+            if v and plegar(v) not in IMPACTOS_VALIDOS:
+                anotar("impacto", COLUMNA_IMPACTO, v)
+
+
+def descargar(dry_run: bool, novedades: dict | None = None,
+              reporte: Reporte | None = None) -> bool:
     """Baja cada pestaña configurada, la limpia y la escribe. False si no hay config.
 
     Si se pasa `novedades`, deja ahí la comparación de cada CSV contra el que
@@ -458,9 +676,24 @@ def descargar(dry_run: bool, novedades: dict | None = None) -> bool:
                     print(f"        nuevas en la planilla: {sorted(nuevas)}")
                 if faltan:
                     print(f"        ya no están: {sorted(faltan)}")
+                if reporte is not None:
+                    partes = []
+                    if nuevas:
+                        partes.append("columnas nuevas: " + ", ".join(
+                            f"«{h}»" for h in sorted(nuevas)))
+                    if faltan:
+                        partes.append("columnas que ya no están: " + ", ".join(
+                            f"«{h}»" for h in sorted(faltan)))
+                    reporte.aviso(filename, "cambiaron los encabezados respecto de la "
+                                  "corrida anterior (" + ("; ".join(partes) or "orden") +
+                                  "). Si no fue a propósito, restaurar el nombre original.")
             caida = len(previas) - len(filas)
             if caida > 0:
                 print(f"  ¡OJO! {filename}: {caida} filas menos que el CSV actual")
+                if reporte is not None:
+                    reporte.aviso(filename, f"la planilla tiene {caida} filas menos que en "
+                                  "la corrida anterior. Revisar que no haya un filtro "
+                                  "puesto ni filas borradas por error.")
 
         if not dry_run:
             escribir_csv_crudo(destino, filas)
@@ -474,6 +707,17 @@ def descargar(dry_run: bool, novedades: dict | None = None) -> bool:
             detalle.append(f"{rep['sin_clave']} sin columna clave")
         if detalle:
             print(f"        filas descartadas: {', '.join(detalle)}")
+        if reporte is not None:
+            if rep["sin_clave_filas"]:
+                claves = ", ".join(f"«{c}»" for c in PERFILES[cfg["perfil"]]["claves"])
+                filas_txt = ", ".join(str(n) for n in rep["sin_clave_filas"][:40])
+                if len(rep["sin_clave_filas"]) > 40:
+                    filas_txt += f" (+{len(rep['sin_clave_filas']) - 40} más)"
+                reporte.aviso(filename, f"{rep['sin_clave']} filas tienen datos pero "
+                              f"ninguna de las columnas {claves}, así que no se publican "
+                              f"(filas {filas_txt}).")
+            revisar_filas(reporte, filename, encabezado, cuerpo,
+                          rep["filas_hoja"], rep["col_hoja"])
         if rep["sin_fecha"]:
             vistas = sorted({f"[{c}] {v}" for c, v in rep["sin_fecha"]})
             print(f"        {len(rep['sin_fecha'])} fechas que no pude pasar a ISO "
@@ -841,6 +1085,24 @@ def generar(todos_objetivos: bool, dry_run: bool) -> collections.Counter:
     return sin_mapear
 
 
+def informar_reporte(reporte: Reporte, carpeta: pathlib.Path, dry_run: bool) -> None:
+    destino = reporte.escribir(carpeta, dry_run)
+    try:
+        nombre = destino.resolve().relative_to(REPO)
+    except ValueError:
+        nombre = destino
+    cuentas = collections.Counter(PROBLEMAS[p["tipo"]][0] for p in reporte.problemas)
+    print("\nReporte de errores para las planillas")
+    for titulo, n in cuentas.most_common():
+        print(f"  {n:4d}  {titulo}")
+    n_avisos = sum(len(v) for v in reporte.avisos.values())
+    if n_avisos:
+        print(f"  {n_avisos:4d}  avisos generales (encabezados, filas caídas o sin clave)")
+    if not len(reporte):
+        print("  sin errores")
+    print(f"  -> {'se escribiría' if dry_run else 'escrito en'} {nombre}")
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(
@@ -854,18 +1116,31 @@ def main(argv=None) -> int:
                     help="cuenta también los objetivos secundarios en el drilldown")
     ap.add_argument("--detalle", action="store_true",
                     help="lista todas las novedades, sin recortar")
+    ap.add_argument("--reportes", type=pathlib.Path, default=REPORTES,
+                    help="carpeta del reporte de errores (default: reportes/)")
     args = ap.parse_args(argv)
 
     novedades: dict = {}
+    reporte = Reporte()
+    bajado = False
     if not args.sin_descarga:
         print("1/3 Descargando las planillas")
-        if not descargar(args.dry_run, novedades) and not args.solo_descarga:
+        bajado = descargar(args.dry_run, novedades, reporte)
+        if not bajado and not args.solo_descarga:
             print("    -> sigo con los CSV que ya están en disco\n")
     else:
         print("1/3 Descarga salteada (--sin-descarga)")
+    if not bajado:
+        # Sin descarga se revisa lo que hay en disco, sin números de fila.
+        for filename in NOMBRES_PLANILLA:
+            if (DATA / filename).exists():
+                filas = leer_csv_crudo(DATA / filename)
+                revisar_filas(reporte, filename, filas[0], filas[1:])
+
     if args.solo_descarga:
         if not args.sin_descarga:
             informar_novedades(novedades, args.detalle)
+        informar_reporte(reporte, args.reportes, args.dry_run)
         return 0
 
     print("\n2/3 Normalizando objetivos legítimos")
@@ -881,6 +1156,8 @@ def main(argv=None) -> int:
 
     if not args.sin_descarga:
         informar_novedades(novedades, args.detalle)
+
+    informar_reporte(reporte, args.reportes, args.dry_run)
 
     print("\nListo." + ("  (dry-run: no se escribió nada)" if args.dry_run else ""))
     return 0

@@ -1,6 +1,6 @@
 ---
 translationKey: ''
-title: 'CELE’s submission in response to the targeted  consultation: draft guidelines on trusted flaggers under  the Digital Services Act (DSA)'
+title: 'CELE’s submission in response to the targeted consultation: draft guidelines on trusted flaggers under  the Digital Services Act (DSA)'
 date: 2026-07-10
 author:
   - CELE

@@ -71,7 +71,9 @@ Pasos, en orden (los tres tienen que correr juntos, ver el acoplamiento en la se
 2. **Normaliza** la columna «Objetivo legítimo» de los CSV según la taxonomía de `objetivos-legitimos.md`.
 3. **Genera** `observatorio_database.json`, los datos embebidos de `objetivos_drilldown.json`, el rango de años de `observatorio_drilldown.json` y `ai_database.json`.
 
-Opciones: `--sin-descarga` (usa los CSV de disco), `--solo-descarga`, `--dry-run`, `--todos-objetivos`.
+Opciones: `--sin-descarga` (usa los CSV de disco), `--solo-descarga`, `--dry-run`, `--todos-objetivos`, `--detalle`.
+
+**Novedades.** Al final de cada corrida con descarga imprime, por CSV, las filas nuevas, modificadas (con las columnas que cambiaron) y las que ya no están. La base de comparación es el CSV en disco antes de pisarlo, o sea la corrida anterior (correr dos veces seguidas da «sin cambios»). Las filas se identifican por país + número (`IDENTIDAD`); como hay números repetidos, primero se descartan las filas idénticas y después se aparea por clave. Lo bajado se compara con los objetivos ya normalizados (`normalizar_filas`), porque el CSV en disco ya pasó por el paso 2. Las listas se recortan a 30 por categoría (`--detalle` las muestra enteras) y, si hay más de 5 modificadas, se cuentan los cambios por columna, para que una columna reescrita entera en la planilla se lea de un vistazo. Funciona también con `--dry-run`, que sirve para ver las novedades antes de escribir.
 
 **Falta configurar la descarga.** El diccionario `GOOGLE_SHEETS` arriba del script está vacío; hasta que se complete con los ids y gids, el paso 1 avisa y sigue con los CSV que ya están en disco. Son dos planillas: una con proyectos y leyes, otra con las normas de IA. Tienen que ser visibles con el link, porque el endpoint gviz no manda credenciales. Antes de pisar un CSV el script compara encabezados y cantidad de filas contra el archivo actual y avisa si algo se cayó (pestaña equivocada, filtro puesto en la planilla).
 

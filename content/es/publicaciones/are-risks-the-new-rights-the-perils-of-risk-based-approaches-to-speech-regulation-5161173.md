@@ -14,6 +14,7 @@ tags:
 ssrn_id: '5161173'
 ssrn_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5161173
 reference: 16 (2025) JIPITEC 238
+file: /files/ssrn-5161173.pdf
 issues:
 - Plataformas
 - Regulación y tecnología

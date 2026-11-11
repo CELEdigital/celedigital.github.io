@@ -23,6 +23,12 @@ Opciones:
     --dry-run         no escribe nada, solo informa.
     --todos-objetivos cuenta también los objetivos secundarios en
                       objetivos_drilldown (ver nota más abajo).
+    --detalle         lista completas las novedades (por defecto se recortan
+                      a 30 filas por categoría).
+
+Al final de cada corrida con descarga se informan las novedades: filas nuevas,
+modificadas (con las columnas que cambiaron) y que ya no están, comparando lo
+bajado contra el CSV que había en disco, o sea contra la corrida anterior.
 
 Las tres pestañas están configuradas en GOOGLE_SHEETS; el paso 1 hace también
 toda la limpieza (columnas auxiliares, filas de relleno, sí/no, fechas a ISO),
@@ -252,8 +258,165 @@ def limpiar(filas: list, perfil: dict) -> tuple:
                                 "sin_clave": sin_clave, "sin_fecha": sin_fecha}
 
 
-def descargar(dry_run: bool) -> bool:
-    """Baja cada pestaña configurada, la limpia y la escribe. False si no hay config."""
+# ── Novedades: qué cambió respecto de la corrida anterior ───────────────────
+# La línea de base es el CSV que está en disco antes de pisarlo, o sea lo que
+# dejó la última corrida. Una fila se identifica por país + número; con eso se
+# separan las altas de las modificaciones. La matriz tiene números repetidos
+# (p. ej. varios proyectos mexicanos con el mismo expediente), así que primero
+# se descartan las filas idénticas y recién después se aparean por clave.
+IDENTIDAD = {
+    "proyectos_clean.csv": {"clave": ("País", "N° de expediente"), "texto": "Extracto"},
+    "leyes_clean.csv":     {"clave": ("País", "N° de ley"),        "texto": "Extracto"},
+    "ai_clean.csv":        {"clave": ("País", "Número"),           "texto": "Objeto"},
+}
+MAX_DETALLE = 30   # filas listadas por categoría si no se pide --detalle
+
+
+def normalizar_filas(filename: str, encabezado: list, cuerpo: list) -> list:
+    """Copia de las filas con los objetivos ya normalizados (como en el paso 2).
+
+    El CSV en disco ya pasó por el paso 2 y lo recién bajado todavía no: sin
+    esto, cada objetivo escrito con otra grafía en la planilla aparecería como
+    una modificación.
+    """
+    if filename not in COLUMNAS_OBJETIVO:
+        return cuerpo
+    idxs = [i for i, h in enumerate(encabezado) if "bjetivo" in h]
+    salida = []
+    for fila in cuerpo:
+        fila = list(fila)
+        for i in idxs:
+            if i < len(fila) and fila[i].strip():
+                fila[i] = normalizar_objetivo(fila[i])[0]
+        salida.append(fila)
+    return salida
+
+
+def comparar(filename: str, previas: list, encabezado: list, cuerpo: list) -> dict:
+    """{'altas': [...], 'bajas': [...], 'cambios': [(fila, [(col, antes, ahora)])]}"""
+    ident = IDENTIDAD.get(filename, {"clave": (), "texto": ""})
+    viejo_enc, viejas = previas[0], previas[1:]
+    comunes = [h for h in encabezado if h in viejo_enc]
+
+    def como_dict(enc, fila):
+        return {h: (fila[i] if i < len(fila) else "") for i, h in enumerate(enc)}
+
+    def firma(d):
+        return tuple(d.get(h, "") for h in comunes)
+
+    def key(d):
+        return tuple(plegar(d.get(c, "")) for c in ident["clave"])
+
+    nuevas = [como_dict(encabezado, f) for f in cuerpo]
+    viejas = [como_dict(viejo_enc, f) for f in viejas]
+
+    # 1. Filas idénticas en las dos versiones: no cambiaron.
+    pendientes = collections.Counter(firma(d) for d in viejas)
+    solo_nuevas = []
+    for d in nuevas:
+        if pendientes[firma(d)]:
+            pendientes[firma(d)] -= 1
+        else:
+            solo_nuevas.append(d)
+    solo_viejas = []
+    for d in viejas:
+        if pendientes[firma(d)]:
+            pendientes[firma(d)] -= 1
+            solo_viejas.append(d)
+
+    # 2. Lo que queda se aparea por país + número.
+    por_clave = collections.defaultdict(list)
+    for d in solo_viejas:
+        por_clave[key(d)].append(d)
+    altas, cambios = [], []
+    for d in solo_nuevas:
+        candidatas = por_clave.get(key(d)) if any(key(d)) else None
+        if not candidatas:
+            altas.append(d)
+            continue
+        # entre varias con la misma clave, la que difiere en menos columnas
+        antes = min(candidatas, key=lambda v: sum(v.get(h) != d.get(h) for h in comunes))
+        candidatas.remove(antes)
+        dif = [(h, antes.get(h, ""), d.get(h, "")) for h in comunes
+               if antes.get(h, "") != d.get(h, "")]
+        cambios.append((d, dif))
+    bajas = [d for lista in por_clave.values() for d in lista]
+    return {"altas": altas, "bajas": bajas, "cambios": cambios, "ident": ident}
+
+
+def _etiqueta(d: dict, ident: dict) -> str:
+    partes = [d.get(c, "").strip() for c in ident["clave"]]
+    partes = [p for p in partes if p] or ["(sin país ni número)"]
+    anio = d.get("Año", "").strip()
+    return " · ".join(partes) + (f" ({anio})" if anio else "")
+
+
+def _corto(s: str, n: int) -> str:
+    s = (s or "").strip()
+    return s if len(s) <= n else s[:n - 1] + "…"
+
+
+def informar_novedades(novedades: dict, detalle: bool) -> None:
+    print("\nNovedades respecto de la corrida anterior")
+    if not novedades:
+        print("  (no hubo descarga: nada que comparar)")
+        return
+    tope = None if detalle else MAX_DETALLE
+    recortado = False
+
+    def listar(items, render):
+        nonlocal recortado
+        for it in items[:tope]:
+            print(render(it))
+        if tope is not None and len(items) > tope:
+            recortado = True
+            print(f"      (+{len(items) - tope} más)")
+
+    for filename, nov in novedades.items():
+        if nov is None:
+            print(f"  {filename}: no había CSV anterior; todo es nuevo")
+            continue
+        ident = nov["ident"]
+        a, c, b = len(nov["altas"]), len(nov["cambios"]), len(nov["bajas"])
+        if not (a or c or b):
+            print(f"  {filename}: sin cambios")
+            continue
+        print(f"  {filename}: {a} nuevas, {c} modificadas, {b} que ya no están")
+        if a:
+            print("    Nuevas:")
+            listar(nov["altas"], lambda d: f"      + {_etiqueta(d, ident)} — "
+                                           f"{_corto(d.get(ident['texto'], ''), 80)}")
+        if c:
+            print("    Modificadas:")
+            # Un cambio masivo (una columna reescrita entera en la planilla) se
+            # ve mejor como resumen por columna que fila por fila.
+            por_col = collections.Counter(h for _, dif in nov["cambios"] for h, _, _ in dif)
+            if c > 5:
+                print("      columnas tocadas: " + ", ".join(
+                    f"{h} ({n})" for h, n in por_col.most_common()))
+
+            def render_cambio(it):
+                d, dif = it
+                cols = "; ".join(f"{h}: «{_corto(x, 30)}» → «{_corto(y, 30)}»"
+                                 for h, x, y in dif[:3])
+                if len(dif) > 3:
+                    cols += f"; (+{len(dif) - 3} columnas)"
+                return f"      ~ {_etiqueta(d, ident)}: {cols}"
+            listar(nov["cambios"], render_cambio)
+        if b:
+            print("    Ya no están en la planilla:")
+            listar(nov["bajas"], lambda d: f"      - {_etiqueta(d, ident)} — "
+                                           f"{_corto(d.get(ident['texto'], ''), 80)}")
+    if recortado:
+        print("  (listas recortadas; correr con --detalle para verlas completas)")
+
+
+def descargar(dry_run: bool, novedades: dict | None = None) -> bool:
+    """Baja cada pestaña configurada, la limpia y la escribe. False si no hay config.
+
+    Si se pasa `novedades`, deja ahí la comparación de cada CSV contra el que
+    había en disco (None si no había archivo anterior).
+    """
     if not GOOGLE_SHEETS:
         print("  GOOGLE_SHEETS está vacío: no hay planillas configuradas todavía.")
         print("  (completar el diccionario arriba, o correr con --sin-descarga)")
@@ -279,8 +442,14 @@ def descargar(dry_run: bool) -> bool:
         # Se compara contra el CSV actual antes de pisarlo: una caída de filas
         # o un cambio de encabezados casi siempre es un error de la planilla
         # (pestaña equivocada, filtro puesto), no un dato nuevo.
+        if novedades is not None:
+            novedades[filename] = None
         if destino.exists():
             previas = leer_csv_crudo(destino)
+            if novedades is not None and previas:
+                novedades[filename] = comparar(
+                    filename, previas, encabezado,
+                    normalizar_filas(filename, encabezado, cuerpo))
             if previas and previas[0] != filas[0]:
                 nuevas = set(filas[0]) - set(previas[0])
                 faltan = set(previas[0]) - set(filas[0])
@@ -683,15 +852,20 @@ def main(argv=None) -> int:
     ap.add_argument("--dry-run", action="store_true", help="no escribe nada")
     ap.add_argument("--todos-objetivos", action="store_true",
                     help="cuenta también los objetivos secundarios en el drilldown")
+    ap.add_argument("--detalle", action="store_true",
+                    help="lista todas las novedades, sin recortar")
     args = ap.parse_args(argv)
 
+    novedades: dict = {}
     if not args.sin_descarga:
         print("1/3 Descargando las planillas")
-        if not descargar(args.dry_run) and not args.solo_descarga:
+        if not descargar(args.dry_run, novedades) and not args.solo_descarga:
             print("    -> sigo con los CSV que ya están en disco\n")
     else:
         print("1/3 Descarga salteada (--sin-descarga)")
     if args.solo_descarga:
+        if not args.sin_descarga:
+            informar_novedades(novedades, args.detalle)
         return 0
 
     print("\n2/3 Normalizando objetivos legítimos")
@@ -704,6 +878,9 @@ def main(argv=None) -> int:
         print("\nObjetivos sin lugar en la taxonomía (quedaron tal cual):")
         for v, n in sin_mapear.most_common():
             print(f"  {n:3d}  {v}")
+
+    if not args.sin_descarga:
+        informar_novedades(novedades, args.detalle)
 
     print("\nListo." + ("  (dry-run: no se escribió nada)" if args.dry_run else ""))
     return 0

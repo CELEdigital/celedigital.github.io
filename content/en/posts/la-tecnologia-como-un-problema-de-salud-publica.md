@@ -1,12 +1,14 @@
 ---
 translationKey: salud-publica-1
 title: 'Technology as a Public Health Issue: The New Wave of Regulation'
-slug: ha-muerto-la-libex
+slug: technology-as-a-public-health-issue
+aliases:
+- /en/posts/ha-muerto-la-libex/
 date: 2026-10-15
 description: An analysis of the growing global trend toward restricting children's
   and adolescents' access to social media and other digital technologies.
 author:
-- Ramiro Álvaraez Ugarte
+- Ramiro Álvarez Ugarte
 content_type:
 - blog
 programs:

@@ -1,7 +1,7 @@
 ---
 translationKey: 'seminar-ortiz'
 title: Soberanía digital y estrategias para el control de la infraestructura
-slug: actores-privados-con-poder-cuasiestatal
+slug: soberania-digital-y-control-de-la-infraestructura
 date: 2026-10-02
 description: 'Próximo seminario, con Juan Ortíz Freuler'
 author:

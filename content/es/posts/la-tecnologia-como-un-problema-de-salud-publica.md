@@ -1,11 +1,11 @@
 ---
 translationKey: salud-publica-1
 title: 'La tecnología como un problema de salud pública: la nueva ola regulatoria'
-slug: ha-muerto-la-libex
+slug: la-tecnologia-como-un-problema-de-salud-publica
 date: 2026-10-15
 description: 'Un análisis de la creciente tendencia global a restringir el acceso de niños y adolescentes a las redes sociales y otras tecnologías digitales.'
 author:
-  - Ramiro Álvaraez Ugarte
+  - Ramiro Álvarez Ugarte
 content_type:
   - blog
 programs:

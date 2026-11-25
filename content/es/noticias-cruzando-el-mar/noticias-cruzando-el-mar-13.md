@@ -17,7 +17,8 @@ newsletter_series: noticias-cruzando-el-mar
 newsletter_number: ''
 tagline: ''
 image: /img/europe-500x350-1.jpg
-issues: []
+issues:
+  - Plataformas
 region: ''
 country: []
 placements:

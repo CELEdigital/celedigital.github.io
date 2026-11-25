@@ -1,6 +1,6 @@
 ---
 translationKey: cele-corteidh
-title: 'La libertad de expresión no es un riesgo para la democracia: el CELE ante la Corte IDH en la OC-33'
+title: 'La libertad de expresión no es un riesgo para la democracia: el CELE ante la Corte IDH por la OC-33'
 slug: cele-oc-33
 date: 2026-03-25
 description: El CELE participó en las Audiencias Públicas de la Corte Interamericana de Derechos Humanos sobre la Opinión Consultiva OC-33 sobre democracia y su protección ante el Sistema Interamericano de Derechos Humanos

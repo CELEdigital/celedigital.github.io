@@ -13,7 +13,7 @@ programs:
 featured: true
 outputs:
   - html
-newsletter_series: ''
+newsletter_series: noticias-cruzando-el-mar
 newsletter_number: ''
 tagline: ''
 image: /img/europe-500x350-1.jpg

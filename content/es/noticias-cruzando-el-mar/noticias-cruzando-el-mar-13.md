@@ -19,7 +19,7 @@ tagline: ''
 image: /img/europe-500x350-1.jpg
 issues:
   - Plataformas
-region: ''
+region: europa
 country: []
 placements:
   - hub: temas/plataformas

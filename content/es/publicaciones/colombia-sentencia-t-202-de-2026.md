@@ -1,6 +1,6 @@
 ---
 translationKey: ''
-title: Colombia - Sentencia T- 202 DE 2026
+title: Colombia - Sentencia T- 202 DE 2026 Libertad de expresión artística
 date: 2026-11-27
 author:
   - Lina Palacios

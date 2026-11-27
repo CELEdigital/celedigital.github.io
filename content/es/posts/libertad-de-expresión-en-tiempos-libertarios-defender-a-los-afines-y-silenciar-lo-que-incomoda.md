@@ -19,7 +19,7 @@ tagline: ''
 image: /img/img-01-500x280-1.jpg
 issues:
   - Erosión democrática
-region: ''
+region: latam
 country: []
 placements: []
 tags: []
